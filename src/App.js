@@ -1,8 +1,9 @@
 import React from 'react'
 import Menubar from './components/organism/Menubar'
-import Weekly from './pages/_Weekly'
+import Home from './pages/_Home'
 import styled, { createGlobalStyle } from 'styled-components'
 import Footer from './components/organism/Footer'
+import _Presentation from './pages/_Presentation'
 
 const Globalstyles = createGlobalStyle`
     body {
@@ -15,7 +16,8 @@ const App = () => {
     <Wrapper>
       <Globalstyles />
       <Menubar />
-      <Weekly />
+      <Home />
+      {/* <_Presentation /> */}
       <Footer />
     </Wrapper>
   )

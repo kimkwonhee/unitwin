@@ -1,15 +1,21 @@
 import React, {useState } from 'react'
 import styled from 'styled-components'
 import Calendarbtn from '../../atom/Calendarbtn'
-import Weekly_all from './Weekly_all'
-import Weekly_day1 from './Weekly_day1'
-import Weekly_day2 from './Weekly_day2'
-import Weekly_day3 from './Weekly_day3'
+import Home_all from './Home_all'
+import Home_day1 from './Home_day1'
+import Home_day2 from './Home_day2'
+import Home_day3 from './Home_day3'
 
-const Weekly_center = () => {
+const Home_center = () => {
     
-    const [cal, setCal] = useState(<Weekly_all />);
-    
+    const [cal, setCal] = useState(<Home_all />);
+    const [status, setStatus] = useState(1);
+
+    const onClick = (site, number) => {
+        setCal(site);
+        setStatus(number);
+    }   
+
     return (
         <Wrapper>
             <Section1>
@@ -19,21 +25,29 @@ const Weekly_center = () => {
             </Section1>
             <Section2>
                 <Calendarbtn 
+                    id="1"
                     title="All" 
                     calendar="05.24 ~ 05.26"
-                    onClick={(e)=> setCal(<Weekly_all />)} />
-                <Calendarbtn 
+                    status={status}
+                    onClick={(e)=> onClick(<Home_all />, 1)} />
+                <Calendarbtn
+                    id="2"
                     title="Day 1" 
                     calendar="05.24 Mon"
-                    onClick={(e)=> setCal(<Weekly_day1 />)} />
-                <Calendarbtn 
+                    status={status}
+                    onClick={(e)=> onClick(<Home_day1 />, 2)} />
+                <Calendarbtn
+                    id="3"
                     title="Day 2" 
                     calendar="05.25 Tue"
-                    onClick={(e)=> setCal(<Weekly_day2 />)} />
-                <Calendarbtn 
+                    status={status}
+                    onClick={(e)=> onClick(<Home_day2 />, 3)} />
+                <Calendarbtn
+                    id="4" 
                     title="Day 3" 
                     calendar="05.26 Wed"
-                    onClick={(e)=> setCal(<Weekly_day3 />)} />
+                    status={status}
+                    onClick={(e)=> onClick(<Home_day3 />, 4)} />
             </Section2>
             <Section3>
                 {cal}
@@ -87,4 +101,4 @@ const Section3 = styled.div`
     /* background : blue; */
 `
 
-export default Weekly_center
+export default Home_center

@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 
-const Calendarbtn = ({title, calendar, onClick}) => {
+const Calendarbtn = ({id, title, calendar, status, onClick}) => {
+
     return (
         <Wrapper
-            onClick={onClick}>
+            id={id}
+            onClick={onClick}
+            status={status}
+            >
             <Title>{title}</Title>
             <Sub>{calendar}</Sub>
         </Wrapper>
@@ -18,9 +22,9 @@ const Wrapper = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: #ffffff;
+    background-color: ${(props) => (props.id == props.status) ? '#222222' : '#ffffff'};
     cursor: pointer;
-    color: #222222;
+    color: ${(props) => (props.id == props.status) ? '#ffffff' : '#222222'};
 
     &:hover {
         background-color: #222222;

@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import logo1 from '../../images/footer_logo1.png'
+import logo2 from '../../images/footer_logo2.png'
 
 const Footer = () => {
     return (
@@ -11,8 +13,12 @@ const Footer = () => {
                         서울 마포구 성미산로23길 30-5
                     </Address>
                     <LogoArea>
-                        <LogoA></LogoA>
-                        <LogoB></LogoB>
+                        <LogoA>
+                            <img src={logo1} alt="문화체육관광부" />
+                        </LogoA>
+                        <LogoB>
+                            <img src={logo2} alt="한국문화예술교육진흥원" />
+                        </LogoB>
                     </LogoArea>
                 </Section1>
                 <Section2>
@@ -70,13 +76,13 @@ const LogoA = styled.div`
     width : 160px;
     height : 32px;
     margin-right : 30px;
-    background : red;
+    /* background : red; */
 `
 
 const LogoB = styled.div`
     width : 186px;
     height : 32px;
-    background : pink;
+    /* background : pink; */
 `
 
 const Section2 = styled.div`
@@ -115,6 +121,7 @@ const Policy = styled.a`
     font-weight: bold;
     line-height: 1.5;
     color: #83b949;
+    cursor: pointer;
 `
 
 const Copyright = styled.div`

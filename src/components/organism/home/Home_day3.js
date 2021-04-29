@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import Videobtn from '../../atom/Videobtn'
 
-const Weekly_day2 = () => {
+const Home_day3 = () => {
     return (
         <Wrapper>
             <TopSection>
                 <TitleArea>
-                    <Title>Day 2.</Title>
+                    <Title>Day 3.</Title>
                     <Title>유니트원 학술대회</Title>
                 </TitleArea>
                 <Time>13:00~19:00</Time>
@@ -14,14 +15,13 @@ const Weekly_day2 = () => {
             <Section>
                 <LeftInner>
                     <LeftTitle>기조발제 2</LeftTitle>
-                    <LeftTime>13:00 ~ 13:40</LeftTime>
-                    <LeftVideo><VideoText>영상보기</VideoText></LeftVideo>
+                    <LeftTime>13:00~13:40</LeftTime>
+                    <LeftVideo>영상보기</LeftVideo>
                 </LeftInner>
                 <Right>
                     <RightInner>
                         <RightTitle>예술 교육의 과제로서의<br />
-                        “문화적 회복력”과 “미적 회복력”: 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계
-                        </RightTitle>
+                        “문화적 회복력”과 “미적 회복력”: 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계</RightTitle>
                         <RightName>벤야민 요리슨 <RightEnName>(Benjamin Jorissen)</RightEnName></RightName>
                         <RightJop>- 세계문화예술 발제자</RightJop>
                     </RightInner>
@@ -32,25 +32,22 @@ const Weekly_day2 = () => {
                     <LeftTitle>세션 5</LeftTitle>
                     <LeftSubject>교실 속의 예술</LeftSubject>
                     <LeftTime>13:40 ~ 15:10</LeftTime>
-                    <LeftVideo><VideoText>영상보기</VideoText></LeftVideo>
+                    <LeftVideo>영상보기</LeftVideo>
                 </LeftInner>
                 <Right>
                     <RightInner>
                         <RightTitle>COVID-19 대유행 기간 동안 케냐 대학 학생들의<br />
-                        석방, 구호, 성찰 및 복원을 촉진하기 위한 미술 치료 사용
-                        </RightTitle>
+                        석방, 구호, 성찰 및 복원을 촉진하기 위한 미술 치료 사용</RightTitle>
                         <RightName>마리 클레어 키덴다 <RightEnName>(Mary Clare Kidenda)</RightEnName></RightName>
                         <RightJop>- 세계문화예술 발제자</RightJop>
                     </RightInner>
                     <RightInner>
-                        <RightTitle>교실에서 다양성과 문화적 표현의 필요성 : 실용적인 전략과 그 실행
-                        </RightTitle>
+                        <RightTitle>교실에서 다양성과 문화적 표현의 필요성 : 실용적인 전략과 그 실행</RightTitle>
                         <RightName>홍지혜</RightName>
                         <RightJop>- 미국 브리검 영 대학교 음악대학 피아노과 부교수</RightJop>
                     </RightInner>
                     <RightInner>
-                        <RightTitle>2020년 학생들의 목소리를 사용한 디지털 예술과 협작
-                        </RightTitle>
+                        <RightTitle>2020년 학생들의 목소리를 사용한 디지털 예술과 협작</RightTitle>
                         <RightName>에밀리 윌슨 & 네릴 제너렛 <RightEnName>(Emily Wilson & Neryl Jeanneret)</RightEnName></RightName>
                         <RightJop>- 세계문화예술 발제자</RightJop>
                     </RightInner>
@@ -66,12 +63,11 @@ const Weekly_day2 = () => {
                     <LeftTitle>세션 6</LeftTitle>
                     <LeftSubject>예술참여</LeftSubject>
                     <LeftTime>15:10 ~ 16:40</LeftTime>
-                    <LeftVideo><VideoText>영상보기</VideoText></LeftVideo>
+                    <LeftVideo>영상보기</LeftVideo>
                 </LeftInner>
                 <Right>
                     <RightInner>
-                        <RightTitle>2020년 위기 속에서 창의 세대와 예술교육의 혁명
-                        </RightTitle>
+                        <RightTitle>2020년 위기 속에서 창의 세대와 예술교육의 혁명</RightTitle>
                         <RightName>제프 풀린 <RightEnName>(Jeff Poulin)</RightEnName></RightName>
                         <RightJop>- 세계문화예술 발제자</RightJop>
                     </RightInner>
@@ -105,7 +101,7 @@ const Weekly_day2 = () => {
                     <LeftTitle>세션 7</LeftTitle>
                     <LeftSubject>다양성 & 문화적 묘사</LeftSubject>
                     <LeftTime>15:10 ~ 16:40</LeftTime>
-                    <LeftVideo><VideoText>영상보기</VideoText></LeftVideo>
+                    <LeftVideo>영상보기</LeftVideo>
                 </LeftInner>
                 <Right>
                     <RightInner>
@@ -144,7 +140,7 @@ const Weekly_day2 = () => {
                     <LeftTitle>세션 8</LeftTitle>
                     <LeftSubject>현장사례연구2</LeftSubject>
                     <LeftTime>16:40 ~ 18:25</LeftTime>
-                    <LeftVideo><VideoText>영상보기</VideoText></LeftVideo>
+                    <LeftVideo>영상보기</LeftVideo>
                 </LeftInner>
                 <Right>
                     <RightInner>
@@ -182,7 +178,7 @@ const Weekly_day2 = () => {
                 <LeftInner>
                     <LeftTitle>폐회 세션</LeftTitle>
                     <LeftTime>18:25 ~ 19:25</LeftTime>
-                    <LeftVideo><VideoText>전체 영상보기</VideoText></LeftVideo>
+                    <LeftVideoAll>전체 영상보기</LeftVideoAll>
                 </LeftInner>
                 <Right>
                     <RightInner>
@@ -228,6 +224,10 @@ const Time = styled.div`
     line-height: 1.5;
     color: #222222;
 `
+const VideoAll = styled(Videobtn)`
+    margin-left : 100px;
+`
+
 
 const Section = styled.div`
     width : 100%;
@@ -266,26 +266,21 @@ const LeftSubject = styled.div`
 
 const LeftTime = styled.div`
     margin-top : 4px;
+    margin-bottom : 40px;
     font-size: 16px;
     font-weight: bold;
     line-height: 1.5;
     color: #222222;
 `
-const LeftVideo = styled.div`
+const LeftVideo = styled(Videobtn)`
     cursor: pointer;
-    width : 92px;
-    height : 36px;
+    width : 60px;
     margin-top : 40px;
-    background-color: #83b949;
-    display : flex;
-    justify-content : center;
-    align-items : center;
+    margin-bottom : 47px;
 `
-const VideoText = styled.div`
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 1.57;
-    color: #ffffff;
+
+const LeftVideoAll = styled(Videobtn)`
+    width : 85px;
 `
 
 // Right
@@ -299,6 +294,7 @@ const RightInner = styled.div`
 `
 const Right = styled.div`
     width : 100%;
+    margin-left : 18px;
     display : block;
 `
 const RightTitle = styled.div`
@@ -336,4 +332,4 @@ const RightJop = styled.div`
 `
 
 
-export default Weekly_day2
+export default Home_day3
