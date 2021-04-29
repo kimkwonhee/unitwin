@@ -15,7 +15,6 @@ const App = () => {
     <Wrapper>
       <Globalstyles />
       <Menubar />
-      
       <Weekly />
       <Footer />
     </Wrapper>
@@ -24,7 +23,7 @@ const App = () => {
 
 const Wrapper = styled.div`
   width : 100%;
-  height : 100vh;
+  height : 100%;
 `
 
 export default App;
