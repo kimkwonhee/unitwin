@@ -18,6 +18,7 @@ const Wrapper = styled.div`
     justify-content : center;
     align-items : center;
     background-color: #83b949;
+    cursor: pointer;
 `
 
 const Text = styled.div`
