@@ -193,7 +193,6 @@ const Home_day3 = () => {
 const Wrapper = styled.div`
     width : 100%;
     height : auto;
-    /* background : red; */
 `
 const TopSection = styled.div`
     display : flex;
@@ -202,7 +201,6 @@ const TopSection = styled.div`
     border-bottom : 1px solid #222222;
 `
 const TitleArea = styled.div`
-    /* width : 280px; */
     padding-top : 24px;
     padding-bottom : 24px;
     display : flex;
@@ -210,30 +208,32 @@ const TitleArea = styled.div`
 const Title = styled.div`
     font-size: 24px;
     font-weight: bold;
-    line-height: 1.25;
-    color: #222222;
+    color: var(--black);
     & {
         margin-right : 16px;
     }
 `
+
+const VideoAll = styled(Videobtn)`
+    margin-left : 100px;
+`
+
+const LeftVideoAll = styled(Videobtn)`
+    width : 85px;
+`
+
 const Time = styled.div`
     padding-top : 24px;
     padding-bottom : 24px;
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #222222;
+    color: var(--black);
 `
-const VideoAll = styled(Videobtn)`
-    margin-left : 100px;
-`
-
-
 const Section = styled.div`
     width : 100%;
     height : auto;
     display : flex;
-    border-bottom : 1px solid #83b949;
+    border-bottom : 1px solid var(--turtle-green);
 
     &:last-child {
         margin-bottom : 200px;
@@ -247,21 +247,18 @@ const LeftInner = styled.div`
     margin-top : 40px;
     margin-right : 24px;
     padding-left : 40px;
-    /* background : blue; */
 `
 const LeftTitle = styled.div`
     font-size: 28px;
     font-weight: 900;
-    line-height: 1.29;
-    color: #222222;
+    color: var(--black);
 `
 
 const LeftSubject = styled.div`
-    margin-top : 40px;
+   margin-top : 40px;
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #83b949;
+    color: var(--turtle-green);
 `
 
 const LeftTime = styled.div`
@@ -269,8 +266,7 @@ const LeftTime = styled.div`
     margin-bottom : 40px;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #222222;
+    color: var(--black);
 `
 const LeftVideo = styled(Videobtn)`
     cursor: pointer;
@@ -279,14 +275,10 @@ const LeftVideo = styled(Videobtn)`
     margin-bottom : 47px;
 `
 
-const LeftVideoAll = styled(Videobtn)`
-    width : 85px;
-`
-
 // Right
 const RightInner = styled.div`
     margin-top : 40px;
-    border-bottom : 1px solid #d0d0d0;
+    border-bottom : 1px solid var(--very-light-pink);
 
     &:last-child {
         border-bottom : none;
@@ -300,8 +292,7 @@ const Right = styled.div`
 const RightTitle = styled.div`
      font-size: 20px;
      font-weight: bold;
-     line-height: 1.5;
-     color: #222222;
+     color: var(--black);
      margin-bottom : 42px;
 `
 const RightModer = styled.div`
@@ -309,26 +300,24 @@ const RightModer = styled.div`
     margin-bottom : 8px;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #83b949;
+    color: var(--turtle-green);
 `
 const RightName = styled.div`
-    font-size: 16px;
+   font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #222222;
+    color: var(--black);
     margin-bottom : 8px;
 `
 const RightEnName = styled.span`
     font-size: 14px;
     line-height: 1.57;
-    color: #aaaaaa;
+    color: var(--brown-grey);
 `
 const RightJop = styled.div`
     margin-bottom : 40px;
     font-size: 14px;
     font-weight: 500;
-    color: #222222;
+    color: var(--black);
 `
 
 

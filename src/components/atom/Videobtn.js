@@ -6,26 +6,22 @@ const Videobtn = ({className, children}) => {
         <Wrapper
             className={className}
         >
-            <Text>{children}</Text>
+           {children}
         </Wrapper>
     )
 }
 
 const Wrapper = styled.div`
     height : 36px;
-    padding : 0px 20px;
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: #83b949;
+    padding : 0 20px;
     cursor: pointer;
-`
-
-const Text = styled.div`
     font-size: 14px;
     font-weight: bold;
-    line-height: 1.57;
-    color: #ffffff;
+    color: var(--white);
+    background-color: var(--turtle-green);
 `
 
 export default Videobtn

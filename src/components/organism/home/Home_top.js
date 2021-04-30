@@ -58,7 +58,6 @@ const ContentsArea = styled.div`
     top : 207px;
     width : 1200px;
     z-index : 2;
-    /* background : gray; */
 `
 const ImgTitle = styled.img`
     margin-bottom : 40px;
@@ -66,20 +65,18 @@ const ImgTitle = styled.img`
 const Calender = styled.div`
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.8;
-    color: #222222;
+    color: var(--black);
     margin-bottom : 50px;
 `
 const EventArea = styled.div`
     width : 1200px;
     margin-top : 180px;
     display : flex;
-    /* background-color : red; */
 `
 const TitleArea = styled.div`
     width : 248px;
     height : 80px;
-    border-top : 4px solid #222222;
+    border-top : 4px solid var(--black);
     display : flex;
     align-items : center;
     margin-right : 62px;
@@ -87,15 +84,13 @@ const TitleArea = styled.div`
 const Title = styled.div`
     font-size: 24px;
     font-weight: bold;
-    line-height: 1.33;
-    color: #222222;
+    color: var(--black);
 `
 const Contents = styled.div`
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
-    color: #222222;
-    /* background-color : blue; */
+    color: var(--black);
 `
 
 

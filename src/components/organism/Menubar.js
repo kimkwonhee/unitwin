@@ -5,10 +5,10 @@ import menulogo from '../../images/menu_logo.png'
 import Langbtn from '../atom/Langbtn'
 
 
-const Menubar = () => {
+const Menubar = ({className}) => {
 
     return (
-        <Wrapper>
+        <Wrapper className={className}>
             <LogoArea>
                 <img src={menulogo} alt="logo" />
             </LogoArea>

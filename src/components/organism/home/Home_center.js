@@ -62,43 +62,35 @@ const Wrapper = styled.div`
     display : flex;
     flex-direction : column;
     align-items : center;
-    /* background : red; */
 `
 
 const Section1 = styled.div`
     width : 1200px;
     height : 51px;
     margin-top : 100px;
-    /* background : blue; */
 `
 
 const CalendarText = styled.div`
     width : 248px;
-    text-align : bottom;
-    border-top : 4px solid #222222;
+    padding-top : 16px;
+    border-top : 4px solid var(--black);
 `
 const Text = styled.div`
-    margin-top : 16px;
-    font-family: NotoSansKR;
     font-size: 24px;
     font-weight: bold;
-    line-height: 1.33;
-    color: #222222;
+    color: var(--black);
 `
 
 const Section2 = styled.div`
     width : 1200px;
-    height : auto;
     margin-top : 100px;
     display : flex;
     justify-content : space-between;
-    /* background : blue; */
 `
 
 const Section3 = styled.div`
     width : 1200px;
     margin-top : 60px;
-    /* background : blue; */
 `
 
 export default Home_center

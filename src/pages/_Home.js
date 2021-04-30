@@ -15,7 +15,6 @@ const _Home = () => {
 const Wrapper = styled.div`
     width : 100%;
     height : 100%;
-    /* background : grey; */
 `
 
 export default _Home

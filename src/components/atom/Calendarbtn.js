@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 const Calendarbtn = ({id, title, calendar, status, onClick}) => {
@@ -18,32 +18,28 @@ const Calendarbtn = ({id, title, calendar, status, onClick}) => {
 const Wrapper = styled.div`
     width : 282px;
     height : 62px;
-    border: solid 2px #222222;
+    border: solid 2px var(--black);
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: ${(props) => (props.id == props.status) ? '#222222' : '#ffffff'};
+    background-color: ${(props) => (props.id == props.status) ? 'var(--black)' : 'var(--white)'};
     cursor: pointer;
-    color: ${(props) => (props.id == props.status) ? '#ffffff' : '#222222'};
+    color: ${(props) => (props.id == props.status) ? 'var(--white)' : 'var(--black)'};
 
     &:hover {
-        background-color: #222222;
-        color: #ffffff;
+        background-color: var(--black);
+        color: var(--white);
     }
 `
 
 const Title = styled.div`
-    font-family: NotoSansKR;
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.5;
     margin-right : 20px;
 `
 
 const Sub = styled.div`
-    font-family: NotoSansKR;
     font-size: 20px;
-    line-height: 1.5;
 `
 
 export default Calendarbtn

@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const Menubtn = ({children}) => {
     return (
-        <Wrapper >
-            <Text>{children}</Text>
+        <Wrapper>
+            {children}
         </Wrapper>
     )
 }
@@ -15,15 +15,9 @@ const Wrapper = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    /* background : purple; */
-`
-
-const Text = styled.div`
-    font-family: NotoSansKR;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #222222;
+    color: var(--black);
+    /* background : purple; */
 `
-
 export default Menubtn

@@ -156,15 +156,12 @@ const Home_all = () => {
 
 const Wrapper = styled.div`
     width : 100%;
-    /* height : 1200px; */
-    border : 1px solid #83b949;
+    border : 1px solid var(--turtle-green);
     margin-bottom : 200px;
 `
 
 // Day
 const DayArea = styled.div`
-    width : 100%;
-    height : 68px;
     display : flex;
     background-color: #f9fff4;
 `
@@ -174,7 +171,7 @@ const DayBlock = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    border-right : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
     &:last-child {
         border-right : none;
     }
@@ -182,21 +179,18 @@ const DayBlock = styled.div`
 const DayText = styled.div`
     font-size: 24px;
     font-weight: bold;
-    line-height: 1.25;
-    color: #83b949;
+    color: var(--turtle-green);
 `
 const Section =styled.div`
     display : flex;
 `
 const ConTentsArea = styled.div`
     width : 400px;
-    height : 100%;
 `
 
 const Time = styled.div`
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
     color: #222222;
     margin-top : none;
     
@@ -211,52 +205,45 @@ const Time = styled.div`
 const Title = styled.div`
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.5;
     color: #222222;
-    /* margin-top : 4px; */
+    margin-top : 4px;
 `
 const SubTitle = styled.div`
     font-size: 20px;
-    line-height: 1.5;
-    color: #222222;
+    color: var(--black);
 `
 
 const TueCharacter1 = styled.div`
     margin-top : 20px;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #222222;
+    color: var(--black);
 `
 const TueCharacter2 = styled.div`
     margin-top : 8px;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
     text-align : center;
-    color: #222222;
+    color: var(--black);
 `
 const Move = styled.div`
     cursor: pointer;
     margin-top : 40px;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
-    color: #83b949;
+    color: var(--turtle-green);
 `
 const Phasis1 = styled.div`
     margin-top : 40px;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #83b949;
+    color: var(--turtle-green);
 `
 const Phasis2 = styled.div`
     margin-top : 20px;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #83b949;
+    color: var(--turtle-green);
 `
 
 const LeftArea = styled.div`
@@ -266,7 +253,7 @@ const LeftArea = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content : center;
-    border-right : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
 `
 const RightArea = styled.div`
     width : 200px;
@@ -285,14 +272,14 @@ const MonSection1 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content : center;
-    border-top : 1px solid #83b949;
-    border-right : 1px solid #83b949;
+    border-top : 1px solid var(--turtle-green);
+    border-right : 1px solid var(--turtle-green);
 `
 const MonSection2 = styled.div`
-    height : 1274px;
+    height : 1277px;
     background-color: #f9fff4;
-    border-top : 1px solid #83b949;
-    border-right : 1px solid #83b949;
+    border-top : 1px solid var(--turtle-green);
+    border-right : 1px solid var(--turtle-green);
 `
 
 // Tue
@@ -302,8 +289,8 @@ const TueSection1 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid #83b949;
-    border-top : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid var(--turtle-green);
 `
 const TueSection2 = styled.div`
     height : 500px;
@@ -311,14 +298,14 @@ const TueSection2 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid #83b949;
-    border-top : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid var(--turtle-green);
 `
 const TueSection3 = styled.div`
     height : 464px;
     display : flex;
-    border-right : 1px solid #83b949;
-    border-top : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid var(--turtle-green);
 `
 const TueSection4 = styled.div`
     height : 434px;
@@ -326,8 +313,8 @@ const TueSection4 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid #83b949;
-    border-top : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid var(--turtle-green);
 `
 const TueSection5 = styled.div`
     height : 198px;
@@ -335,14 +322,14 @@ const TueSection5 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid #83b949;
-    border-top : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid var(--turtle-green);
 `
 const TueSection6 = styled.div`
-    height : 65px;
+    height : 68px;
     background-color: #f9fff4;
-    border-right : 1px solid #83b949;
-    border-top : 1px solid #83b949;
+    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid var(--turtle-green);
 `
 
 
@@ -353,7 +340,7 @@ const WedSection1 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid #83b949;
+    border-top : 1px solid var(--turtle-green);
 `
 const WedSection2 = styled.div`
     height : 456px;
@@ -361,12 +348,12 @@ const WedSection2 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid #83b949;
+    border-top : 1px solid var(--turtle-green);
 `
 const WedSection3 = styled.div`
     height : 464px;
     display : flex;
-    border-top : 1px solid #83b949;
+    border-top : 1px solid var(--turtle-green);
 `
 const WedSection4 = styled.div`
     height : 548px;
@@ -374,7 +361,7 @@ const WedSection4 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid #83b949;
+    border-top : 1px solid var(--turtle-green);
 `
 const WedSection5 = styled.div`
     height : 197px;
@@ -382,10 +369,7 @@ const WedSection5 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid #83b949;
+    border-top : 1px solid var(--turtle-green);
 `
-
-
-
 
 export default Home_all
