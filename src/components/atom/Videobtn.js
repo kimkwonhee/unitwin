@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Videobtn = ({className, children}) => {
+const Videobtn = ({className, width, children}) => {
     return (
         <Wrapper
             className={className}
+            width={width}
         >
            {children}
         </Wrapper>
@@ -12,11 +13,11 @@ const Videobtn = ({className, children}) => {
 }
 
 const Wrapper = styled.div`
+    width : ${(props) => props.width || '92px'};
     height : 36px;
     display : flex;
     justify-content : center;
     align-items : center;
-    padding : 0 20px;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;

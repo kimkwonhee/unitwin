@@ -178,7 +178,7 @@ const Home_day3 = () => {
                 <LeftInner>
                     <LeftTitle>폐회 세션</LeftTitle>
                     <LeftTime>18:25 ~ 19:25</LeftTime>
-                    <LeftVideoAll>전체 영상보기</LeftVideoAll>
+                    <Videobtn width="120px">전체 영상보기</Videobtn>
                 </LeftInner>
                 <Right>
                     <RightInner>
@@ -247,6 +247,7 @@ const LeftInner = styled.div`
     margin-top : 40px;
     margin-right : 24px;
     padding-left : 40px;
+    /* background-color : red; */
 `
 const LeftTitle = styled.div`
     font-size: 28px;
@@ -270,7 +271,6 @@ const LeftTime = styled.div`
 `
 const LeftVideo = styled(Videobtn)`
     cursor: pointer;
-    width : 60px;
     margin-top : 40px;
     margin-bottom : 47px;
 `

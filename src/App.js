@@ -4,6 +4,8 @@ import Home from './pages/_Home'
 import styled, { createGlobalStyle } from 'styled-components'
 import Footer from './components/organism/Footer'
 import _PlenarySession from './pages/_PlenarySession'
+import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
+import _Session from './pages/_Session'
 
 const Globalstyles = createGlobalStyle`
     body {
@@ -25,8 +27,10 @@ const App = () => {
     <Wrapper>
       <Globalstyles />
       <Menubar />
-      <Home />
+      {/* <Home /> */}
       {/* <_PlenarySession /> */}
+      {/* <Pl_Detail /> */}
+      <_Session />
       <Footer />
     </Wrapper>
   )

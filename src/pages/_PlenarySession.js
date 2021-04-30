@@ -3,22 +3,25 @@ import styled from 'styled-components'
 import Videobtn from '../components/atom/Videobtn'
 import character1 from '../images/plense_img01.png'
 import character2 from '../images/plense_img02.png'
+import PageTopArea from '../components/molecules/PageTopArea'
 
 const _PlenarySession = () => {
+    
+    const topcontents = {
+        title : '기조발제',
+        contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데,\n'
+                   +'예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한\n'
+                   +'자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을\n'
+                   +'불러 일으킬 것입니다.'
+    }
+
     return (
         <Wrapper>
             <ContentsArea>
-                <TopArea>
-                    <TopTitleArea>
-                        <TopTitle>기조발제</TopTitle>
-                    </TopTitleArea>
-                    <TopContents>
-                    우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데,<br />
-                    예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한<br />
-                    자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을<br />
-                    불러 일으킬 것입니다.
-                    </TopContents>
-                </TopArea>
+                <PageTopArea 
+                    title={topcontents.title} 
+                    contents={topcontents.contents}
+                />
                 <MiddleArea>
                     <Section>
                         <Inner>
@@ -62,39 +65,13 @@ const _PlenarySession = () => {
 
 const Wrapper = styled.div`
     width : 100%;
-    height : 1200px;
+    margin-bottom : 210px;
     display : flex;
     justify-content : center;
 `
 const ContentsArea = styled.div`
     width : 1200px;
 `
-
-// Top
-const TopArea = styled.div`
-    width : 100%;
-    margin-top : 180px;
-    display : flex;
-`
-const TopTitleArea = styled.div`
-    width : 248px;
-    padding-top : 12px;
-    border-top : 4px solid var(--black);
-    margin-right : 60px;
-`
-const TopTitle = styled.div`
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.33;
-    color: var(--black);
-`
-const TopContents = styled.div`
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: var(--black);
-`
-
 // Middle
 const MiddleArea = styled.div`
     width : 1200px;
