@@ -10,13 +10,14 @@ const Langbtn = ({children}) => {
 }
 
 const Wrapper = styled.div`
-     width : 48px;
-     height : 26px;
+    cursor: pointer;
+     width : 100%;
+     height : 2.68vh;
      display : flex;
      justify-content : center;
      align-items : center;
      border: solid 0.5px var(--turtle-green);
-     font-size: 12px;
+     font-size: 0.75rem;
      font-weight: bold;
      color: var(--brown-grey);
 `

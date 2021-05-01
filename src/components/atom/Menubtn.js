@@ -11,12 +11,12 @@ const Menubtn = ({children}) => {
 
 const Wrapper = styled.div`
     cursor: pointer;
-    width : 138px;
+    width : 7.18vw;
     height : 100%;
     display : flex;
     justify-content : center;
     align-items : center;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     color: var(--black);
     

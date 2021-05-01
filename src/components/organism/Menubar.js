@@ -11,7 +11,7 @@ const Menubar = ({className}) => {
         <Wrapper className={className}>
             <LinkTag to="/unitwin/home">
                 <LogoArea>
-                    <img src={menulogo} alt="logo" />
+                    <LogoImg src={menulogo} alt="logo" />
                 </LogoArea>
             </LinkTag>
             <MenuArea>
@@ -45,23 +45,33 @@ const Menubar = ({className}) => {
 const Wrapper = styled.div`
     position : fixed;
     width : 100%;
-    height : 80px;
+    height : 8.25vh;
     display : flex;
     justify-content : center;
     z-index : 50;
     border-bottom: solid 0.5px var(--brown-grey);
     background : var(--white);
+    
+    @media all and (max-width:767px) {
+        /* display : none; */
+    }
 `
 const LogoArea = styled.div`
-    width : 80px;
-    margin-right : 98px;
+    height : 100%;
+    margin-right : 5.10vw;
 `
+
+const LogoImg = styled.img`
+    width : 3.54vw;
+    height : 8.25vh;
+`
+
 const MenuArea = styled.div`
     display : flex;
 `
 const LangArea = styled.div`
-    width : 96px;
-    margin-left : 88px;
+    width : 5vw;
+    margin-left : 4.58vw;
     display : flex;
     align-items : center;
 `

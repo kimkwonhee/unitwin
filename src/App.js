@@ -9,12 +9,13 @@ import _PreShowcase from './pages/_PreShowcase'
 import _Byob from './pages/_Byob'
 import _Closing from './pages/_Closing'
 import Footer from './components/organism/Footer'
-import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 
 
 const Globalstyles = createGlobalStyle`
-    body {
+
+    html, body {
         font-family: 'Noto Sans KR', sans-serif;
+        font-size : 16px;
     }
     
     :root {
@@ -32,13 +33,12 @@ const App = () => {
     <Wrapper>
       <Globalstyles />
       <Menubar />
-      {/* <Route path="/unitwin/home" component={_Home} exact/>
+      <Route path="/unitwin/home" component={_Home} exact/>
       <Route path="/unitwin/plenary-session" component={_PlenarySession}/>
       <Route path="/unitwin/session" component={_Session}/>
       <Route path="/unitwin/presession-showcase" component={_PreShowcase}/>
       <Route path="/unitwin/byob" component={_Byob}/>
-      <Route path="/unitwin/closing-ceremony" component={_Closing}/> */}
-      <Pr_Detail />
+      <Route path="/unitwin/closing-ceremony" component={_Closing}/>
       <Footer />
     </Wrapper>
   )
