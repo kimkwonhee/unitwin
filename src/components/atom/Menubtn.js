@@ -10,6 +10,7 @@ const Menubtn = ({children}) => {
 }
 
 const Wrapper = styled.div`
+    cursor: pointer;
     width : 138px;
     height : 100%;
     display : flex;
@@ -18,6 +19,10 @@ const Wrapper = styled.div`
     font-size: 16px;
     font-weight: bold;
     color: var(--black);
-    /* background : purple; */
+    
+    &:hover {
+        border-bottom : 2px solid var(--turtle-green);
+        color : var(--turtle-green);
+    }
 `
 export default Menubtn

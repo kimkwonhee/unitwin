@@ -15,16 +15,18 @@ const _PlenarySession = () => {
                    +'불러 일으킬 것입니다.'
     }
 
+    
+
     return (
         <Wrapper>
-            <ContentsArea>
+            <Inner>
                 <PageTopArea 
                     title={topcontents.title} 
                     contents={topcontents.contents}
                 />
                 <MiddleArea>
                     <Section>
-                        <Inner>
+                        <SectionArea>
                             <Imgblock>
                                 <img src={character1} alt="벤야민 요리슨" />
                             </Imgblock>
@@ -37,10 +39,10 @@ const _PlenarySession = () => {
                                 </LeftArea>
                                 <Videobtn>영상보기</Videobtn>
                             </Textblock>
-                        </Inner>
+                        </SectionArea>
                     </Section>
                     <Section>
-                        <Inner>
+                        <SectionArea>
                             <Imgblock>
                                 <img src={character2} alt="벤야민 요리슨" />
                             </Imgblock>
@@ -54,10 +56,10 @@ const _PlenarySession = () => {
                                 </LeftArea>
                                 <Videobtn>영상보기</Videobtn>
                             </Textblock>
-                        </Inner>
+                        </SectionArea>
                     </Section>
                 </MiddleArea>
-            </ContentsArea>
+            </Inner>
         </Wrapper>
     )
 }
@@ -69,7 +71,7 @@ const Wrapper = styled.div`
     display : flex;
     justify-content : center;
 `
-const ContentsArea = styled.div`
+const Inner = styled.div`
     width : 1200px;
 `
 // Middle
@@ -86,7 +88,7 @@ const Section = styled.div`
     display : flex;
     align-items : center;
 `
-const Inner = styled.div`
+const SectionArea = styled.div`
     width : 100%;
     height : 235px;
     display : flex;

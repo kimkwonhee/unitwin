@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import ListSession from '../components/molecules/ListSession'
-import ListSessionTop from '../components/molecules/ListSessionTop'
-import ListVideoSession from '../components/molecules/ListVideoSession'
+import ListSession from '../../molecules/ListSession'
+import ListSessionTop from '../../molecules/ListSessionTop'
+import ListVideoSession from '../../molecules/ListVideoSession'
 
-const _Closing = () => {
+const Se_Detail = () => {
 
     return (
         <Wrapper>
@@ -57,4 +57,4 @@ const ContentsArea = styled.div`
 
 
 
-export default _Closing
+export default Se_Detail

@@ -25,6 +25,83 @@ const _Session = () => {
             contents : <ThemebtnGroup />
         }
     ]
+    const personlist = [
+        {
+            id : 1,
+            img : person1,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 2,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 3,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 4,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 5,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 6,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 7,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 8,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 9,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 10,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 11,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 12,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 13,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 14,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        },
+        {
+            id : 15,
+            img : person2,
+            name : '마리 클레어 키덴다'
+        }
+    ]
 
     return (
         <Wrapper>
@@ -38,29 +115,13 @@ const _Session = () => {
                     contents={topcontents[1].contents}
                 />
                 <Section>
-                    <Personbtn src={person1} name="마리 클레어 키덴다"/>
-                    <Personbtn src={person2} name="김소원"/>
-                    <Personbtn src={person3} name="션 코코란"/>
-                </Section>
-                <Section>
-                    <Personbtn src={person4} name="벨 볼든"/>
-                    <Personbtn src={person5} name="레베카 칸"/>
-                    <Personbtn src={person6} name="마리 클레어 키덴다"/>
-                </Section>
-                <Section>
-                    <Personbtn src={person7} name="벨 볼든"/>
-                    <Personbtn src={person8} name="푸 세이밍"/>
-                    <Personbtn src={person9} name="마리 클레어 키덴다"/>
-                </Section>
-                <Section>
-                    <Personbtn src={person4} name="벨 볼든"/>
-                    <Personbtn src={person5} name="레베카 칸"/>
-                    <Personbtn src={person6} name="마리 클레어 키덴다"/>
-                </Section>
-                <Section>
-                    <Personbtn src={person4} name="벨 볼든"/>
-                    <Personbtn src={person5} name="레베카 칸"/>
-                    <Personbtn src={person6} name="마리 클레어 키덴다"/>
+                    {personlist.map((list, index) => {
+                        return <Personbtn 
+                                    key={list.id} 
+                                    src={list.img} 
+                                    name={list.name}
+                                />
+                    })}
                 </Section>
             </Inner>
         </Wrapper>
@@ -87,6 +148,7 @@ const Section = styled.div`
     display : flex;
     justify-content : space-between;
     padding : 0 20px 0 20px;
+    flex-wrap : wrap;
     /* background-color : blue; */
 `
 

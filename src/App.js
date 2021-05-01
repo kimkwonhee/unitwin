@@ -1,11 +1,16 @@
 import React from 'react'
 import Menubar from './components/organism/Menubar'
-import Home from './pages/_Home'
+import { Route } from 'react-router-dom'
 import styled, { createGlobalStyle } from 'styled-components'
-import Footer from './components/organism/Footer'
+import _Home from './pages/_Home'
 import _PlenarySession from './pages/_PlenarySession'
-import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
 import _Session from './pages/_Session'
+import _PreShowcase from './pages/_PreShowcase'
+import _Byob from './pages/_Byob'
+import _Closing from './pages/_Closing'
+import Footer from './components/organism/Footer'
+import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
+
 
 const Globalstyles = createGlobalStyle`
     body {
@@ -27,10 +32,13 @@ const App = () => {
     <Wrapper>
       <Globalstyles />
       <Menubar />
-      {/* <Home /> */}
-      {/* <_PlenarySession /> */}
-      {/* <Pl_Detail /> */}
-      <_Session />
+      {/* <Route path="/unitwin/home" component={_Home} exact/>
+      <Route path="/unitwin/plenary-session" component={_PlenarySession}/>
+      <Route path="/unitwin/session" component={_Session}/>
+      <Route path="/unitwin/presession-showcase" component={_PreShowcase}/>
+      <Route path="/unitwin/byob" component={_Byob}/>
+      <Route path="/unitwin/closing-ceremony" component={_Closing}/> */}
+      <Pr_Detail />
       <Footer />
     </Wrapper>
   )

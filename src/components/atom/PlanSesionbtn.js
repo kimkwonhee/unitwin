@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Personbtn = ({src, name}) => {
+const PlanSesionbtn = ({src, name,discription}) => {
     return (
         <Wrapper>
-            <PrsImg src={src} alt={name}/>
+            <PlImg src={src} alt={name}/>
             <Name>{name}</Name>
+            <Discription>{discription}</Discription>
         </Wrapper>
     )
 }
@@ -14,13 +15,13 @@ const Wrapper = styled.div`
     display : flex;
     flex-direction : column;
     align-items: center;
-    margin-bottom : 48px;
+    margin-bottom : 40px;
 `
 
-const PrsImg = styled.div`
+const PlImg = styled.div`
     cursor: pointer;
-    width : 300px;
-    height : 300px;
+    width : 180px;
+    height : 180px;
     border-radius : 50%;
     background : url(${props => props.src});
     border: solid 3px var(--white);
@@ -32,9 +33,15 @@ const PrsImg = styled.div`
 `
 const Name = styled.div`
     margin-top : 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: var(--black);
 `
 
-export default Personbtn
+const Discription = styled.div`
+    margin-top : 8px;
+    font-size: 12px;
+    color: var(--black);
+`
+
+export default PlanSesionbtn
