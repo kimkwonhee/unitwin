@@ -9,7 +9,7 @@ import PageTopArea from '../../molecules/PageTopArea'
 
 const Home_top = () => {
     
-    const topcontents = {
+    const pctopcontents = {
         title : '행사소개',
         contents : '위기의 시대,\n'
                   + '모두가 알고 있었지만 기후위기, 다양성과 평등의 문제 등 많은 사회 문제들이 임박한 과제로 떠올랐습니다.\n'
@@ -21,7 +21,7 @@ const Home_top = () => {
     } 
 
     return (
-        <Wrapper>
+        <PWrapper>
             <Inner>
                 <LogoArea>
                     <Logoimg src={logo} alt="mark"/>
@@ -34,18 +34,18 @@ const Home_top = () => {
                     <Calender>2021. 05. 25(화) ~ 05.26(수)</Calender>
                     <Applybtn>사전신청하기</Applybtn>
                     <Contents 
-                        title={topcontents.title} 
-                        contents={topcontents.contents}
+                        title={pctopcontents.title} 
+                        contents={pctopcontents.contents}
                         subfontsize="20px"
                     />
                 </ContentsArea>
             </Inner>
-        </Wrapper>
+        </PWrapper>
     )
 }
 
-const Wrapper = styled.div`
-    width : 100%;
+const PWrapper = styled.div`
+    width : auto;
     height : 1183px;
     display : flex;
     justify-content : center;
@@ -55,6 +55,8 @@ const Wrapper = styled.div`
 
     @media all and (max-width:1199px) {
         height : 749px;
+        padding-right :16px;
+        padding-left :16px;
         padding-bottom : 50px;
     }
 `
@@ -143,6 +145,7 @@ const Applybtn = styled(Preregistrationbtn)`
 `
 
 const Contents = styled(PageTopArea)`
+    margin-top : 180px;
     margin-bottom : 72px;
 
     @media all and (max-width:1199px) {

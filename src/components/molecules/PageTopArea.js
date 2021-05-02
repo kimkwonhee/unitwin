@@ -1,14 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const PageTopArea = ({className, title, contents, subfontsize}) => {
+const PageTopArea = ({className, title, contents, subfontsize, top}) => {
     return (
-        <TopArea className={className}>
-            <TopTitleArea>
+        <TopArea 
+            className={className} 
+            top={top}
+        >
+            <TopTitleArea >
                 <TopTitle>{title}</TopTitle>
             </TopTitleArea>
             <TopContents 
-                subfontsize={subfontsize}>
+                subfontsize={subfontsize}
+            >
                 {contents}
             </TopContents>
         </TopArea>
@@ -17,7 +21,6 @@ const PageTopArea = ({className, title, contents, subfontsize}) => {
 
 // Top
 const TopArea = styled.div`
-    margin-top : 180px;
     display : flex;
     
     /* background-color : red; */

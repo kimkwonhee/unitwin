@@ -30,16 +30,32 @@ const Wrapper = styled.div`
         background-color: var(--black);
         color: var(--white);
     }
+
+    @media all and (max-width:1199px) {
+        width : 86px;
+        height : 63px;
+        flex-direction : column;
+        border: solid 1px var(--black);
+    }
+
 `
 
 const Title = styled.div`
     font-size: 20px;
     font-weight: bold;
     margin-right : 20px;
+
+    @media all and (max-width:1199px) {
+        margin-right : 0px;
+        font-size: 14px;
+    }
 `
 
 const Sub = styled.div`
     font-size: 20px;
+    @media all and (max-width:1199px) {
+        font-size: 14px;
+    }
 `
 
 export default Calendarbtn
