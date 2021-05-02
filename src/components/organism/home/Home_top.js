@@ -8,8 +8,7 @@ import Preregistrationbtn from '../../atom/Preregistrationbtn'
 import PageTopArea from '../../molecules/PageTopArea'
 
 const Home_top = () => {
-    
-    const pctopcontents = {
+    const p_topcontents = {
         title : '행사소개',
         contents : '위기의 시대,\n'
                   + '모두가 알고 있었지만 기후위기, 다양성과 평등의 문제 등 많은 사회 문제들이 임박한 과제로 떠올랐습니다.\n'
@@ -18,32 +17,66 @@ const Home_top = () => {
                   + '예술이 지닌 회복과 창의적인 행동의 기회를 예술교육이 주도하며 다양한 가능성을 모색하려 합니다.\n\n'
                   + '예술교육은 중요한 과제 해결을 위해 “위기의 시대, 행동하는 예술교육”이라는 주제로\n'
                   + '변화의 물결을 시작할 수 있는 촉발점이 될것입니다.'
-    } 
+    }
+
+    const m_topcontents = {
+        title : '행사소개',
+        contents : '위기의 시대,\n'
+                  + '모두가 알고 있었지만 기후위기, 다양성과 평등의 문제 등 많은 사회 문제들이 임박한 과제로 떠올랐습니다.'
+                  + '우리는 예술가 및 학자들과 함께 예술교육이 사회적 문화적 위기에 어떻게 대응하고 영감을 줄 수 있을지 논의하고자 합니다.\n\n'
+                  + '유니트윈을 통해 우리 모두 소셜 아티스트로서 위기 해결을 위한 동기부여가 되는 장이 될 것입니다.'
+                  + '예술이 지닌 회복과 창의적인 행동의 기회를 예술교육이 주도하며 다양한 가능성을 모색하려 합니다.\n\n'
+                  + '예술교육은 중요한 과제 해결을 위해 “위기의 시대, 행동하는 예술교육”이라는 주제로'
+                  + '변화의 물결을 시작할 수 있는 촉발점이 될것입니다.'
+    }
 
     return (
-        <PWrapper>
-            <Inner>
-                <LogoArea>
-                    <Logoimg src={logo} alt="mark"/>
-                </LogoArea>
-                <BackImgArea>
-                    <Bgimg src={backgroud2} alt="mark" />
-                </BackImgArea>
-                <ContentsArea>
-                    <ImgTitle src={title} alt="title" />
-                    <Calender>2021. 05. 25(화) ~ 05.26(수)</Calender>
-                    <Applybtn>사전신청하기</Applybtn>
-                    <Contents 
-                        title={pctopcontents.title} 
-                        contents={pctopcontents.contents}
-                        subfontsize="20px"
-                    />
-                </ContentsArea>
-            </Inner>
-        </PWrapper>
+        <>
+            <PWrapper>
+                <PInner>
+                    <PLogoArea>
+                        <PLogoimg src={logo} alt="mark"/>
+                    </PLogoArea>
+                    <PBackImgArea>
+                        <PBgimg src={backgroud2} alt="mark" />
+                    </PBackImgArea>
+                    <PContentsArea>
+                        <PImgTitle src={title} alt="title" />
+                        <PCalender>2021. 05. 25(화) ~ 05.26(수)</PCalender>
+                        <PApplybtn>사전신청하기</PApplybtn>
+                        <PContents 
+                            title={p_topcontents.title} 
+                            contents={p_topcontents.contents}
+                            subfontsize="20px"
+                        />
+                    </PContentsArea>
+                </PInner>
+            </PWrapper>
+            <MWrapper>
+                <MInner>
+                    <MLogoArea>
+                        <MLogoimg src={logo} alt="mark"/>
+                    </MLogoArea>
+                    <MBackImgArea>
+                        <MBgimg src={backgroud2} alt="mark" />
+                    </MBackImgArea>
+                    <MContentsArea>
+                        <MImgTitle src={title} alt="title" />
+                        <MCalender>2021. 05. 25(화) ~ 05.26(수)</MCalender>
+                        <MContents 
+                            title={m_topcontents.title} 
+                            contents={m_topcontents.contents}
+                            subfontsize="20px"
+                        />
+                        <MApplybtn>사전신청하기</MApplybtn>
+                    </MContentsArea>
+                </MInner>
+            </MWrapper>
+        </>
     )
 }
 
+// PC
 const PWrapper = styled.div`
     width : auto;
     height : 1183px;
@@ -54,106 +87,119 @@ const PWrapper = styled.div`
     background-size : cover;
 
     @media all and (max-width:1199px) {
-        height : 749px;
-        padding-right :16px;
-        padding-left :16px;
-        padding-bottom : 50px;
+        display : none;
     }
 `
-const Inner = styled.div`
+
+const PInner = styled.div`
     position : relative;
     width : 1200px;
-    
-    /* background-color : red; */
-    @media all and (max-width:1199px) {
-        width : 375px;
-    }
 `
-const LogoArea = styled.div`
+
+const PLogoArea = styled.div`
     position : absolute;
     top : 130px;
     right : 0; 
     z-index : 5;
-    
-    @media all and (max-width:1199px) {
-        top : 68px;
-    }
 `
-const Logoimg = styled.img`
+const PLogoimg = styled.img`
     width : 152px;
     height : 77px;
-
-    @media all and (max-width:1199px) {
-        width : 116px;
-        height : 56px;
-    }
 `
-const BackImgArea = styled.div`
+const PBackImgArea = styled.div`
     position : absolute;
     top : 160px;
     right : 0;
     display : flex;
     justify-content : flex-end;
-
-    @media all and (max-width:1199px) {
-        top : 68px;
-    }
 `
-const Bgimg = styled.img`
+const PBgimg = styled.img`
     width : 680px;
-    
-    @media all and (max-width:1199px) {
-        width : 267px;
-        height : 280px;
-    }
+    height : 680px;
 `
-const ContentsArea = styled.div`
+const PContentsArea = styled.div`
     position : absolute;
     width : 100%;
     top : 207px;
     z-index : 2;
-
-    @media all and (max-width:1199px) {
-        top : 146px;
-        height :600px;
-    }
 `
-const ImgTitle = styled.img`
-    @media all and (max-width:1199px) {
-        width : 277px;
-    }
+const PImgTitle = styled.img`
 `
-const Calender = styled.div`
+const PCalender = styled.div`
     padding : 40px 0 50px 0;
     font-size: 20px;
     font-weight: bold;
     color: var(--black);
-
-    @media all and (max-width:1199px) {
-        padding-top : 20px;
-        font-size: 14px;
-    }
 `
-const Applybtn = styled(Preregistrationbtn)`
-    @media all and (max-width:1199px) {
-        position : absolute;
-        bottom : 0;
-        width : 99%;
-        height : 48px;
-        font-size: 14px;
-    }
+const PApplybtn = styled(Preregistrationbtn)`
 `
-
-const Contents = styled(PageTopArea)`
+const PContents = styled(PageTopArea)`
     margin-top : 180px;
     margin-bottom : 72px;
-
-    @media all and (max-width:1199px) {
-        position : absolute;
-        top : 0;
-        padding-top : 55px;
-    }
 `
 
+// Mobile
+const MWrapper = styled.div`
+    width : auto;
+    height : 689px;
+    padding : 0 16px 50px 16px; 
+    display : flex;
+    justify-content : center;
+    background : url(${backgroud1});
+    background-size : cover;
+
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+
+`
+const MInner = styled.div`
+    position : relative;
+    width : 375px;
+`
+const MLogoArea = styled.div`
+    position : absolute;
+    top : 68px;
+    right : 0; 
+    z-index : 5;
+`
+const MLogoimg = styled.img`
+    width : 116px;
+    height : 56px;
+`
+const MBackImgArea = styled.div`
+    position : absolute;
+    top : 68px;
+    right : 0;
+    display : flex;
+    justify-content : flex-end;
+`
+const MBgimg = styled.img`
+    width : 267px;
+    height : 280px;
+`
+const MContentsArea = styled.div`
+    position : absolute;
+    top : 146px;
+    width : 100%;
+    z-index : 2;
+`
+const MImgTitle = styled.img`
+    width : 277px;
+`
+const MCalender = styled.div`
+    padding : 20px 0 55px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--black);
+`
+const MApplybtn = styled(Preregistrationbtn)`
+    margin-top : 24px;
+    width : 100%;
+    height : 48px;
+    font-size: 14px;
+`
+const MContents = styled(PageTopArea)`
+`
 
 export default Home_top
