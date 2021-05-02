@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Preregistrationbtn = ({children}) => {
+const Preregistrationbtn = ({className, children}) => {
     return (
-        <Wrapper>
+        <Wrapper className={className}>
             {children}
         </Wrapper>
     )

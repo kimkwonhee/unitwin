@@ -11,7 +11,7 @@ const Menubtn = ({children}) => {
 
 const Wrapper = styled.div`
     cursor: pointer;
-    width : 7.18vw;
+    width : 138px;
     height : 100%;
     display : flex;
     justify-content : center;

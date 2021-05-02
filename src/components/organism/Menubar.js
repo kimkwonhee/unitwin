@@ -9,14 +9,12 @@ const Menubar = ({className}) => {
 
     return (
         <Wrapper className={className}>
-            <LinkTag to="/unitwin/home">
-                <LogoArea>
+            <Inner>
+                <LinkTag to="/unitwin/home">
                     <LogoImg src={menulogo} alt="logo" />
-                </LogoArea>
-            </LinkTag>
+                </LinkTag>
             <MenuArea>
                 <Menubtn>주간행사</Menubtn>
-
                 <LinkTag to="/unitwin/plenary-session">
                     <Menubtn>기조발제</Menubtn>
                 </LinkTag>
@@ -32,12 +30,12 @@ const Menubar = ({className}) => {
                 <LinkTag to="/unitwin/closing-ceremony">
                     <Menubtn>폐회 세션</Menubtn>
                 </LinkTag>
-                
             </MenuArea>
             <LangArea>
                 <Langbtn>KOR</Langbtn>
                 <Langbtn>ENG</Langbtn>
             </LangArea>
+            </Inner>
         </Wrapper>
     )
 }
@@ -45,33 +43,33 @@ const Menubar = ({className}) => {
 const Wrapper = styled.div`
     position : fixed;
     width : 100%;
-    height : 8.25vh;
+    height : 80px;
     display : flex;
     justify-content : center;
     z-index : 50;
     border-bottom: solid 0.5px var(--brown-grey);
     background : var(--white);
     
-    @media all and (max-width:767px) {
-        /* display : none; */
+    @media all and (max-width:1199px) {
+        display : none;
     }
 `
-const LogoArea = styled.div`
-    height : 100%;
-    margin-right : 5.10vw;
+const Inner = styled.div`
+    width : 1200px;
+    display : flex;
+    justify-content : space-between;
 `
 
 const LogoImg = styled.img`
-    width : 3.54vw;
-    height : 8.25vh;
+    width : 68px;
+    height : 80px;
 `
 
 const MenuArea = styled.div`
     display : flex;
 `
 const LangArea = styled.div`
-    width : 5vw;
-    margin-left : 4.58vw;
+    width : 96px;
     display : flex;
     align-items : center;
 `

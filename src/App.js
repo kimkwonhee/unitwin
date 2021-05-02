@@ -39,7 +39,7 @@ const App = () => {
       <Route path="/unitwin/presession-showcase" component={_PreShowcase}/>
       <Route path="/unitwin/byob" component={_Byob}/>
       <Route path="/unitwin/closing-ceremony" component={_Closing}/>
-      <Footer />
+      {/* <Footer /> */}
     </Wrapper>
   )
 }

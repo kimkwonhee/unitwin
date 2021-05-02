@@ -7,7 +7,7 @@ const _Home = () => {
     return (
         <Wrapper>
             <Home_top />
-            <Home_center />
+            {/* <Home_center /> */}
         </Wrapper>
     )
 }
