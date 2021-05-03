@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Menubtn = ({children}) => {
+const Preregistrationbtn = ({className, children}) => {
     return (
-        <Wrapper>
+        <Wrapper className={className}>
             {children}
         </Wrapper>
     )
@@ -11,18 +11,15 @@ const Menubtn = ({children}) => {
 
 const Wrapper = styled.div`
     cursor: pointer;
-    width : 138px;
-    height : 100%;
+    width : 248px;
+    height : 62px;
+    border: solid 2px var(--black);
     display : flex;
     justify-content : center;
     align-items : center;
-    font-size: 1em;
+    font-size: 20px;
     font-weight: bold;
     color: var(--black);
-    
-    &:hover {
-        border-bottom : 2px solid var(--turtle-green);
-        color : var(--turtle-green);
-    }
 `
-export default Menubtn
+
+export default Preregistrationbtn

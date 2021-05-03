@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import logo1 from '../../images/footer_logo1.png'
+import logo2 from '../../images/footer_logo2.png'
 
 const Footer = () => {
     return (
@@ -11,8 +13,12 @@ const Footer = () => {
                         서울 마포구 성미산로23길 30-5
                     </Address>
                     <LogoArea>
-                        <LogoA></LogoA>
-                        <LogoB></LogoB>
+                        <LogoA>
+                            <img src={logo1} alt="문화체육관광부" />
+                        </LogoA>
+                        <LogoB>
+                            <img src={logo2} alt="한국문화예술교육진흥원" />
+                        </LogoB>
                     </LogoArea>
                 </Section1>
                 <Section2>
@@ -31,7 +37,7 @@ const Footer = () => {
 const Wrapper = styled.div`
     width : 100%;
     height : 328px;
-    background : #222222;
+    background : var(--black);
     display : flex;
     flex-direction : column;
     align-items : center;
@@ -41,8 +47,7 @@ const Inner = styled.div`
     width : 1200px;
     height : 170px;
     margin-top : 60px;
-    border-bottom : 1px solid #5f5f5f;
-    /* background : blue; */
+    border-bottom : 1px solid var(--brownish-grey);
 `
 
 const Section1 = styled.div`
@@ -51,32 +56,27 @@ const Section1 = styled.div`
     display : flex;
     justify-content : space-between;
     margin-bottom : 40px;
-    /* background : green; */
 `
 
 const Address = styled.div`
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #ffffff;
+    color: var(--white);
 `
 
 const LogoArea = styled.div`
     display : flex;
-    /* background: grey; */
 `
 
 const LogoA = styled.div`
     width : 160px;
     height : 32px;
     margin-right : 30px;
-    background : red;
 `
 
 const LogoB = styled.div`
     width : 186px;
     height : 32px;
-    background : pink;
 `
 
 const Section2 = styled.div`
@@ -84,25 +84,20 @@ const Section2 = styled.div`
     height : 42px;
     position : relative;
     display : flex;
-    /* background : green; */
 `
 
 const Contents = styled.div`
 `
 
 const Telphone = styled.div`
-     font-family: NotoSansKR;
      font-size: 12px;
      font-weight: bold;
-     line-height: 1.5;
      color: #ffffff;
      margin-bottom : 8px;
 `
 const ActiveTime = styled.div`
-    font-family: NotoSansKR;
     font-size: 12px;
     font-weight: bold;
-    line-height: 1.5;
     color: #ffffff;
 `
 
@@ -110,19 +105,16 @@ const Policy = styled.a`
     position : absolute;
     right : 0;
     bottom : 0;
-    font-family: NotoSansKR;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #83b949;
+    color: var(--turtle-green);
+    cursor: pointer;
 `
 
 const Copyright = styled.div`
-     font-family: NotoSansKR;
      font-size: 12px;
-     line-height: 1.5;
      text-align: center;
-     color: #ffffff;
+     color: var(--white);
      margin-top : 20px;
 `
 
