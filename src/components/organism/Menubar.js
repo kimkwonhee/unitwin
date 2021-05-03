@@ -47,7 +47,7 @@ const Wrapper = styled.div`
     display : flex;
     justify-content : center;
     z-index : 50;
-    border-bottom: solid 0.5px var(--brown-grey);
+    box-shadow: 0 2px 4px 0 #ddf2c7;
     background : var(--white);
     
     @media all and (max-width:1199px) {

@@ -19,96 +19,144 @@ const Home_center = () => {
         setCal(site);
         setStatus(number);
     }   
-    
+
     return (
-        <Wrapper>
-            <Inner>
-                <TopContents 
-                    title={topcontents.title} 
-                    contents={topcontents.contents}
-                    subfontsize="20px"
-                    top="100px"
-                />
-                <Section1>
-                    <Calendarbtn 
-                        id="1"
-                        title="All" 
-                        calendar="05.24 ~ 05.26"
-                        status={status}
-                        onClick={(e)=> onClick(<Home_all />, 1)} />
-                    <Calendarbtn
-                        id="2"
-                        title="Day 1" 
-                        calendar="05.24 Mon"
-                        status={status}
-                        onClick={(e)=> onClick(<Home_day1 />, 2)} />
-                    <Calendarbtn
-                        id="3"
-                        title="Day 2" 
-                        calendar="05.25 Tue"
-                        status={status}
-                        onClick={(e)=> onClick(<Home_day2 />, 3)} />
-                    <Calendarbtn
-                        id="4" 
-                        title="Day 3" 
-                        calendar="05.26 Wed"
-                        status={status}
-                        onClick={(e)=> onClick(<Home_day3 />, 4)} />
-                </Section1>
-                <Section2>
-                    {cal}
-                </Section2>
-            </Inner>
-        </Wrapper>
+        <>
+            <PWrapper>
+                <PInner>
+                    <PContents 
+                            title={topcontents.title} 
+                            contents={topcontents.contents}
+                            subfontsize="20px"
+                        />
+                    <PSection1>
+                        <Calendarbtn 
+                            id="1"
+                            title="All" 
+                            calendar="05.24 ~ 05.26"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_all />, 1)} />
+                        <Calendarbtn
+                            id="2"
+                            title="Day 1" 
+                            calendar="05.24 Mon"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_day1 />, 2)} />
+                        <Calendarbtn
+                            id="3"
+                            title="Day 2" 
+                            calendar="05.25 Tue"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_day2 />, 3)} />
+                        <Calendarbtn
+                            id="4" 
+                            title="Day 3" 
+                            calendar="05.26 Wed"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_day3 />, 4)} />
+                    </PSection1>
+                    <PSection2>
+                        {cal}
+                    </PSection2>
+                </PInner>
+            </PWrapper>
+            <MWrapper>
+                <MInner>
+                    <MContents 
+                            title={topcontents.title} 
+                            contents={topcontents.contents}
+                            subfontsize="20px"
+                        />
+                    <MSection1>
+                        <Calendarbtn 
+                            id="1"
+                            title="All" 
+                            calendar="05.24 ~ 05.26"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_all />, 1)} />
+                        <Calendarbtn
+                            id="2"
+                            title="Day 1" 
+                            calendar="05.24 Mon"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_day1 />, 2)} />
+                        <Calendarbtn
+                            id="3"
+                            title="Day 2" 
+                            calendar="05.25 Tue"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_day2 />, 3)} />
+                        <Calendarbtn
+                            id="4" 
+                            title="Day 3" 
+                            calendar="05.26 Wed"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_day3 />, 4)} />
+                    </MSection1>
+                    <MSection2>
+                        {cal}
+                    </MSection2>
+                </MInner>
+            </MWrapper>
+        </>
+  
     )
 }
 
-const Wrapper = styled.div`
+// PC
+const PWrapper = styled.div`
     width : auto;
     height : auto;
     display : flex;
     flex-direction : column;
     align-items : center;
-    /* background-color : red; */
 
     @media all and (max-width:1199px) {
-        padding-bottom : 50px;
+        display : none;
     }
 `
-const Inner = styled.div`
+const PInner = styled.div`
     width : 1200px;
-    
-    @media all and (max-width:1199px) {
-        position : relative;
-        width : 375px;
-    }
 `
-
-const TopContents = styled(PageTopArea)`
+const PContents = styled(PageTopArea)`
     margin-top : 100px;
-
-    @media all and (max-width:1199px) {
-        padding-left : 16px;
-        padding-right : 16px;
-        margin-top : 40px;
-    }
+    margin-bottom : 100px;
 `
-
-const Section1 = styled.div`
-    margin-top : 100px;
+const PSection1 = styled.div`
     display : flex;
     justify-content : space-between;
-
-    /* background-color : red; */
-    @media all and (max-width:1199px) {
-        margin-top : 20px;
-        justify-content : center;;
-    }
 `
-
-const Section2 = styled.div`
+const PSection2 = styled.div`
     width : 1200px;
     margin-top : 60px;
+`
+
+
+
+// Mobile
+const MWrapper = styled.div`
+    width : auto;
+    display : flex; 
+    padding : 0 16px 50px 16px; 
+    justify-content : center;
+
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+`
+const MInner = styled.div`
+    position : relative;
+    width : 375px;
+`
+const MContents = styled(PageTopArea)`
+    margin-top : 40px;
+    margin-bottom : 20px;
+`
+const MSection1 = styled.div`
+    display : flex;
+    justify-content : center;
+`
+const MSection2 = styled.div`
 `
 
 export default Home_center

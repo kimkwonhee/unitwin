@@ -138,6 +138,7 @@ const PContents = styled(PageTopArea)`
     margin-bottom : 72px;
 `
 
+
 // Mobile
 const MWrapper = styled.div`
     width : auto;
@@ -151,7 +152,6 @@ const MWrapper = styled.div`
     @media all and (min-width:1200px) {
         display : none;
     }
-
 `
 const MInner = styled.div`
     position : relative;

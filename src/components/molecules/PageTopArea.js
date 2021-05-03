@@ -3,68 +3,93 @@ import styled from 'styled-components'
 
 const PageTopArea = ({className, title, contents, subfontsize, top}) => {
     return (
-        <TopArea 
-            className={className} 
-            top={top}
-        >
-            <TopTitleArea >
-                <TopTitle>{title}</TopTitle>
-            </TopTitleArea>
-            <TopContents 
-                subfontsize={subfontsize}
+        <>
+            <PTopArea 
+                className={className} 
+                top={top}
             >
-                {contents}
-            </TopContents>
-        </TopArea>
+                <PTopTitleArea >
+                    <PTopTitle>{title}</PTopTitle>
+                </PTopTitleArea>
+                <PTopContents 
+                    subfontsize={subfontsize}
+                >
+                    {contents}
+                </PTopContents>
+            </PTopArea>
+            <MTopArea 
+                className={className} 
+                top={top}
+            >
+                <MTopTitleArea >
+                    <MTopTitle>{title}</MTopTitle>
+                </MTopTitleArea>
+                <MTopContents 
+                    subfontsize={subfontsize}
+                >
+                    {contents}
+                </MTopContents>
+            </MTopArea>
+        </>
     )
 }
-
-// Top
-const TopArea = styled.div`
+// PC
+const PTopArea = styled.div`
     display : flex;
-    
-    /* background-color : red; */
+
     @media all and (max-width:1199px) {
-        display : block;
+        display : none;
     }
 `
-const TopTitleArea = styled.div`
+const PTopTitleArea = styled.div`
     width : 248px;
     padding-top : 12px;
     border-top : 4px solid var(--black);
     margin-right : 62px;
-
-    @media all and (max-width:1199px) {
-        padding-top : 8px;
-        border-top : 2px solid var(--black);
-        width : 80px;
-        margin-right : 0;
-    }
 `
-const TopTitle = styled.div`
+const PTopTitle = styled.div`
     font-size: 24px;
     font-weight: bold;
     color: var(--black);
-    
-    @media all and (max-width:1199px) {
-        font-size: 16px;
-        margin-bottom : 12;
-    }
 `
-const TopContents = styled.div`
+const PTopContents = styled.div`
     width : 890px;
     font-size: ${props=> props.subfontsize || '16px'};
     font-weight: 500;
     white-space: pre-line;
     color: var(--black);
-    /* background-color : red; */
+`
 
-    @media all and (max-width:1199px) {
-        width : 100%;
-        margin-top : 12px;
-        font-size: 12px;
-        font-weight: 400;
+
+// Mobile
+const MTopArea = styled.div`
+    display : block;
+    /* background-color : red; */
+    
+    @media all and (min-width:1200px) {
+        display : none;
     }
+`
+const MTopTitleArea = styled.div`
+    width : 80px;
+    padding-top : 8px;
+    border-top : 2px solid var(--black);
+    margin-right : 0px;
+`
+const MTopTitle = styled.div`
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom : 12;
+`
+
+const MTopContents = styled.div`
+    width : 100%;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: pre-line;
+    color: var(--black);
+    margin-top : 12px;
 `
 
 export default PageTopArea
