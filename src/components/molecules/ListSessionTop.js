@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ListSessionTop = ({title, subject, time}) => {
+const ListSessionTop = ({className, title, subject, time}) => {
     
     return (
-        <Wrapper>
+        <Wrapper className={className}>
             <Line />
-            <Title>COVID-19 대유행 기간 동안 케냐 대학 학생들의<br />석방, 구호, 성찰 및 복원을 촉진하기 위한 미술 치료 사용</Title>
-            <Subject>교실 속의 예술</Subject>
-            <Time>05.26(수) 13:40 ~ 15:10</Time>
+            <Title>{title}</Title>
+            <Subject>{subject}</Subject>
+            <Time>{time}</Time>
         </Wrapper>
     )
 }
