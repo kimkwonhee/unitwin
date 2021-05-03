@@ -131,8 +131,6 @@ const PSection2 = styled.div`
     margin-top : 60px;
 `
 
-
-
 // Mobile
 const MWrapper = styled.div`
     width : auto;

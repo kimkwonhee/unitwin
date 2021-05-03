@@ -1,322 +1,345 @@
 import React from 'react'
 import styled from 'styled-components'
-import Videobtn from '../../atom/Videobtn'
+import Cal_TopArea from '../../molecules/Cal_TopArea'
 
 const Home_day3 = () => {
     return (
-        <Wrapper>
-            <TopSection>
-                <TitleArea>
-                    <Title>Day 3.</Title>
-                    <Title>유니트원 학술대회</Title>
-                </TitleArea>
-                <Time>13:00~19:00</Time>
-            </TopSection>
-            <Section>
-                <LeftInner>
-                    <LeftTitle>기조발제 2</LeftTitle>
-                    <LeftTime>13:00~13:40</LeftTime>
-                    <LeftVideo>영상보기</LeftVideo>
-                </LeftInner>
-                <Right>
-                    <RightInner>
-                        <RightTitle>예술 교육의 과제로서의<br />
-                        “문화적 회복력”과 “미적 회복력”: 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계</RightTitle>
-                        <RightName>벤야민 요리슨 <RightEnName>(Benjamin Jorissen)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                </Right>
-            </Section>
-            <Section>
-                <LeftInner>
-                    <LeftTitle>세션 5</LeftTitle>
-                    <LeftSubject>교실 속의 예술</LeftSubject>
-                    <LeftTime>13:40 ~ 15:10</LeftTime>
-                    <LeftVideo>영상보기</LeftVideo>
-                </LeftInner>
-                <Right>
-                    <RightInner>
-                        <RightTitle>COVID-19 대유행 기간 동안 케냐 대학 학생들의<br />
-                        석방, 구호, 성찰 및 복원을 촉진하기 위한 미술 치료 사용</RightTitle>
-                        <RightName>마리 클레어 키덴다 <RightEnName>(Mary Clare Kidenda)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>교실에서 다양성과 문화적 표현의 필요성 : 실용적인 전략과 그 실행</RightTitle>
-                        <RightName>홍지혜</RightName>
-                        <RightJop>- 미국 브리검 영 대학교 음악대학 피아노과 부교수</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>2020년 학생들의 목소리를 사용한 디지털 예술과 협작</RightTitle>
-                        <RightName>에밀리 윌슨 & 네릴 제너렛 <RightEnName>(Emily Wilson & Neryl Jeanneret)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightModer>[모더레이터]</RightModer>
-                        <RightName>벤야민 요리슨 <RightEnName>(Benjamin Jorissen)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                </Right>
-            </Section>
-            <Section>
-                <LeftInner>
-                    <LeftTitle>세션 6</LeftTitle>
-                    <LeftSubject>예술참여</LeftSubject>
-                    <LeftTime>15:10 ~ 16:40</LeftTime>
-                    <LeftVideo>영상보기</LeftVideo>
-                </LeftInner>
-                <Right>
-                    <RightInner>
-                        <RightTitle>2020년 위기 속에서 창의 세대와 예술교육의 혁명</RightTitle>
-                        <RightName>제프 풀린 <RightEnName>(Jeff Poulin)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>온라인 관람 시대에 참여와 공유를 실천하는 박물관/미술관 교육 프로그램 개발
-                        </RightTitle>
-                        <RightName>정혜연 & 성효진</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>서비스 학습의 네러티브: 난양 미술 아카데미 사례 연구
-                        </RightTitle>
-                        <RightName>레베카 칸 & 푸 세이밍 & 탄정수안 <RightEnName>(Rebecca Kan, Foo Say Ming, Tan Jeng Suan)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>팬더믹 이후의 온라인 문화예술교육은 어떻게 예술교육가의 정체성을 재구성하는가
-                        </RightTitle>
-                        <RightName>제환정</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightModer>[모더레이터]</RightModer>
-                        <RightName>신혜선</RightName>
-                        <RightJop>- 위컬쳐 리서치 앤 컨설팅 대표</RightJop>
-                    </RightInner>
-                </Right>
-            </Section>
-            <Section>
-                <LeftInner>
-                    <LeftTitle>세션 7</LeftTitle>
-                    <LeftSubject>다양성 & 문화적 묘사</LeftSubject>
-                    <LeftTime>15:10 ~ 16:40</LeftTime>
-                    <LeftVideo>영상보기</LeftVideo>
-                </LeftInner>
-                <Right>
-                    <RightInner>
-                        <RightTitle>위기의 시기 속의 예술: 불평등 사례
-                        </RightTitle>
-                        <RightName>루스 렌슬러 <RightEnName>(Ruth Rentschler)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>LGBTQ 역사 사례를 만드는 박물관들
-                        </RightTitle>
-                        <RightName>심지영</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>남한 청소년과 탈북 청소년의 공존을 위한 지역사회 기반 미술  프로젝트의 현상학적 연구
-                        </RightTitle>
-                        <RightName>김유리 & 박소정</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>침묵의 단계: 캐나다 엘 시스테마(El Sistema)가 코로나에 응답하다
-                        </RightTitle>
-                        <RightName>션 코코란 & 벤 볼든 <RightEnName>(Sean Corcoran & Ben Bolden)</RightEnName></RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightModer>[모더레이터]</RightModer>
-                        <RightName>치후 룸</RightName>
-                        <RightJop>- 위컬쳐 리서치 앤 컨설팅 대표</RightJop>
-                    </RightInner>
-                </Right>
-            </Section>
-            <Section>
-                <LeftInner>
-                    <LeftTitle>세션 8</LeftTitle>
-                    <LeftSubject>현장사례연구2</LeftSubject>
-                    <LeftTime>16:40 ~ 18:25</LeftTime>
-                    <LeftVideo>영상보기</LeftVideo>
-                </LeftInner>
-                <Right>
-                    <RightInner>
-                        <RightTitle>뉴 노멀 청소년에게 그림책으로 질문던지기
-                        </RightTitle>
-                        <RightName>공윤지</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>아이 코브 유
-                        </RightTitle>
-                        <RightName>이현정</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>위기 속에서 탄생한 새로운 예술교육 장르 소개
-                        </RightTitle>
-                        <RightName>배성종</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightTitle>과도기를 이어주다: 예술교육이 성인으로 가기 전의 아이들을 어떻게 이끌어 주는가
-                        </RightTitle>
-                        <RightName>최영희</RightName>
-                        <RightJop>- 세계문화예술 발제자</RightJop>
-                    </RightInner>
-                    <RightInner>
-                        <RightModer>[모더레이터]</RightModer>
-                        <RightName>장웅조</RightName>
-                        <RightJop>- 홍익대학교 문화예술경영학과 교수</RightJop>
-                    </RightInner>
-                </Right>
-            </Section>
-            <Section>
-                <LeftInner>
-                    <LeftTitle>폐회 세션</LeftTitle>
-                    <LeftTime>18:25 ~ 19:25</LeftTime>
-                    <Videobtn width="120px">전체 영상보기</Videobtn>
-                </LeftInner>
-                <Right>
-                    <RightInner>
-                        <RightTitle>학술대회 리뷰 및 서울어워드 시상</RightTitle>
-                    </RightInner>
-                </Right>
-            </Section>
-        </Wrapper>
+        <>
+            <PWrapper>
+               <PCal_TopArea 
+                    title="학술대회 사전세션"
+                    videobtn={true}
+                    width="120px"
+                    time="13:00~14:19"
+               />
+               <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>오프닝 공연</PLeftTitle>
+                        <PLeftTime>13:00~13:15</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightName>차진엽</PRightName>
+                                <PRightJop>- Collective A 예술감독</PRightJop>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>환영사</PLeftTitle>
+                        <PLeftTime>13:15~13:25</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightName>황희</PRightName>
+                                <PRightJop>- 문화체육관광부 장관</PRightJop>
+                            </PRightSection>
+                            <PRightSection>
+                                <PRightName>박신의</PRightName>
+                                <PRightJop>- 한국문화예술교육진흥원 이사장</PRightJop>
+                            </PRightSection>
+                            <PRightSection>
+                                <PRightName>이규석</PRightName>
+                                <PRightJop>- 한국문화예술교육진흥원 원장</PRightJop>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>축사</PLeftTitle>
+                        <PLeftTime>13:25~13:31</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightName>오드리 아줄레 <PRightEnName>(Audrey Azoulay)</PRightEnName></PRightName>
+                                <PRightJop>- 유네스코 사무총장</PRightJop>
+                            </PRightSection>
+                            <PRightSection>
+                                <PRightName>래리 오페럴 <PRightEnName>(Larry O’ Farrell)</PRightEnName></PRightName>
+                                <PRightJop>- 유니트윈 명예회원</PRightJop>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>기조발제 1</PLeftTitle>
+                        <PLeftTime>13:31~13:46</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>지속가능한 예술생태계 구축을 통한 선제적 위기 대처: 성북 ‘예술순환로’ 프로젝트 사례 중심</PRightTitle>
+                                <PRightName>벤 트위스트 <PRightEnName>(Ben Twist)</PRightEnName></PRightName>
+                                <PRightJop>- 크리에이티브 카본 스코틀랜드 국장</PRightJop>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>기조발제 2</PLeftTitle>
+                        <PLeftTime>13:46~14:01</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle>
+                                <PRightName>피터 셀라스 <PRightEnName>(Peter Sellars)</PRightEnName></PRightName>
+                                <PRightJop>- 연극 감독 / UCLA 세계문화예술/무용학부 교수</PRightJop>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>기조발제 3</PLeftTitle>
+                        <PLeftTime>14:01~14:11</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle>
+                                <PRightName>요조</PRightName>
+                                <PRightJop>- 싱어송라이터 / 작가</PRightJop>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>주제영상</PLeftTitle>
+                        <PLeftTime>14:11~14:16</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>&#60;모두의 목소리&#62;</PRightTitle>
+                                <PRightSubText>‘사회 위기 속 참여적 문화예술교육의 역할’이라는 메시지를 전달하는 예술교육자와 시민들과의 인터뷰</PRightSubText>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+            </PWrapper>
+            {/* mobile */}
+            <MWrapper>
+                <MInner>
+                    <MCal_TopArea 
+                        title="학술대회 사전세션"
+                        videobtn={true}
+                        width="97px"
+                        time="13:00~14:19"
+                    />
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>오프닝 공연</MLeftTitle>
+                            <MLeftTime>13:00~13:15</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    <MRightName>차진엽</MRightName>
+                                    <MRightJop>- 현대무용가/ 콜렉티브 에이</MRightJop>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>환영사</MLeftTitle>
+                            <MLeftTime>13:15~13:25</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    <MRightName>황희</MRightName>
+                                    <MRightJop>- 문화체육관광부 장관</MRightJop>
+                                </MRightSection>
+                                <MRightSection>
+                                    <MRightName>박신의</MRightName>
+                                    <MRightJop>- 한국문화예술교육진흥원 이사장</MRightJop>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
+
+                </MInner>
+            </MWrapper> 
+        </>
     )
 }
-
-const Wrapper = styled.div`
+// PC
+const PWrapper = styled.div`
     width : 100%;
     height : auto;
-`
-const TopSection = styled.div`
-    display : flex;
-    justify-content : space-between;
-    border-top : 4px solid #222222;
-    border-bottom : 1px solid #222222;
-`
-const TitleArea = styled.div`
-    padding-top : 24px;
-    padding-bottom : 24px;
-    display : flex;
-`
-const Title = styled.div`
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--black);
-    & {
-        margin-right : 16px;
+    display : block;
+
+    @media all and (max-width:1199px) {
+        display : none;
     }
 `
-
-const VideoAll = styled(Videobtn)`
-    margin-left : 100px;
+const PCal_TopArea = styled(Cal_TopArea)`
 `
-
-const LeftVideoAll = styled(Videobtn)`
-    width : 85px;
-`
-
-const Time = styled.div`
-    padding-top : 24px;
-    padding-bottom : 24px;
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--black);
-`
-const Section = styled.div`
+const PSection = styled.div`
     width : 100%;
     height : auto;
     display : flex;
     border-bottom : 1px solid var(--turtle-green);
-
+    padding : 40px 0;
     &:last-child {
         margin-bottom : 200px;
         border-bottom : none;
     }
 `
 // left
-const LeftInner = styled.div`
+const PLeftInner = styled.div`
     width : 282px;
     height : auto;
-    margin-top : 40px;
     margin-right : 24px;
     padding-left : 40px;
-    /* background-color : red; */
 `
-const LeftTitle = styled.div`
+const PLeftTitle = styled.div`
     font-size: 28px;
     font-weight: 900;
     color: var(--black);
 `
-
-const LeftSubject = styled.div`
-   margin-top : 40px;
-    font-size: 20px;
-    font-weight: bold;
-    color: var(--turtle-green);
-`
-
-const LeftTime = styled.div`
+const PLeftTime = styled.div`
     margin-top : 4px;
-    margin-bottom : 40px;
     font-size: 16px;
     font-weight: bold;
     color: var(--black);
 `
-const LeftVideo = styled(Videobtn)`
-    cursor: pointer;
-    margin-top : 40px;
-    margin-bottom : 47px;
-`
-
 // Right
-const RightInner = styled.div`
-    margin-top : 40px;
+const PRight = styled.div`
+    width : 894px;
+    margin-left : 18px;
+    display : block;
+`
+const PRightInner = styled.div`
     border-bottom : 1px solid var(--very-light-pink);
-
     &:last-child {
         border-bottom : none;
     }
 `
-const Right = styled.div`
-    width : 100%;
-    margin-left : 18px;
-    display : block;
+const PRightSection = styled.div`
+    margin-bottom : 40px;
+    
+    &:last-child {
+        margin-bottom : 0px;
+    }
 `
-const RightTitle = styled.div`
+const PRightTitle = styled.div`
      font-size: 20px;
      font-weight: bold;
      color: var(--black);
-     margin-bottom : 42px;
+     margin-bottom : 40px;
 `
-const RightModer = styled.div`
+const PRightSubText = styled.div`
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--black);
+`
+
+const PRightName = styled.div`
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom : 8px;
+`
+const PRightEnName = styled.span`
+    font-size: 14px;
+    color: var(--brown-grey);
+`
+const PRightJop = styled.div`
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--black);
+`
+const PRightModer = styled.div`
     margin-top : 40px;
     margin-bottom : 8px;
     font-size: 16px;
     font-weight: bold;
     color: var(--turtle-green);
 `
-const RightName = styled.div`
-   font-size: 16px;
+
+// Mobile
+const MWrapper = styled.div`
+    width : auto;
+    display : flex;
+    justify-content : center;
+
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+`
+const MInner = styled.div`
+    position : relative;
+    width : 100%;
+`
+const MCal_TopArea = styled(Cal_TopArea)`
+    margin-top : 28px;
+`
+const MSection = styled.div`
+    width : 100%;
+    height : auto;
+    display : flex;
+    border-bottom : 1px solid var(--turtle-green);
+    padding : 12px 0;
+    &:last-child {
+        border-bottom : none;
+    }
+`
+const MLeftInner = styled.div`
+    width : 129px;
+    height : auto;
+    padding-left : 12px;
+`
+const MLeftTitle = styled.div`
+    font-size: 14px;
     font-weight: bold;
     color: var(--black);
-    margin-bottom : 8px;
 `
-const RightEnName = styled.span`
+const MLeftTime = styled.div`
+    margin-top : 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--black);
+`
+const MRight = styled.div`
+    width : 200px;
+    display : block;
+`
+const MRightInner = styled.div`
+    border-bottom : 1px solid var(--very-light-pink);
+    &:last-child {
+        border-bottom : none;
+    }
+`
+const MRightSection = styled.div`
+    margin-bottom : 12px;
+    
+    &:last-child {
+        margin-bottom : 0px;
+    }
+`
+const MRightName = styled.div`
     font-size: 14px;
-    line-height: 1.57;
+    font-weight : 500;
+    color: var(--black);
+    margin-bottom : 2px;
+`
+const MRightEnName = styled.span`
+    font-size: 12px;
     color: var(--brown-grey);
 `
-const RightJop = styled.div`
-    margin-bottom : 40px;
-    font-size: 14px;
-    font-weight: 500;
+const MRightJop = styled.div`
+    font-size: 12px;
     color: var(--black);
 `
 

@@ -47,7 +47,7 @@ const Home_all = ({top}) => {
                         <PTueSection2>
                             <PTime>13:40~15:25</PTime>
                             <PTitle>세션 1</PTitle>
-                            <PSubTitle>(현장사례연구)</PSubTitle>
+                            <PSubTitle>(현장사례연구 1)</PSubTitle>
                             <PPhasis1>[모더레이터]</PPhasis1>
                             <PTueCharacter2>박신의</PTueCharacter2>
                             <PPhasis2>[발제자]</PPhasis2>
@@ -58,7 +58,7 @@ const Home_all = ({top}) => {
                             <PLeftArea>
                                 <PTime>15:25~16:55</PTime>
                                 <PTitle>세션 2</PTitle>
-                                <PSubTitle>(예술치료)</PSubTitle>
+                                <PSubTitle>(예술치유)</PSubTitle>
                                 <PPhasis1>[모더레이터]</PPhasis1>
                                 <PTueCharacter2>글로리아 자파타</PTueCharacter2>
                                 <PPhasis2>[발제자]</PPhasis2>
@@ -137,7 +137,7 @@ const Home_all = ({top}) => {
                         <PWedSection4>
                             <PTime>16:40~18:25</PTime>
                             <PTitle>세션 8</PTitle>
-                            <PSubTitle>(현장사례연구2))</PSubTitle>
+                            <PSubTitle>(현장사례연구 2)</PSubTitle>
                             <PPhasis1>[모더레이터]</PPhasis1>
                             <PTueCharacter2>장웅조</PTueCharacter2>
                             <PPhasis2>[발제자]</PPhasis2>
