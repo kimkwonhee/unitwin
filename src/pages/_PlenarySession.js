@@ -15,69 +15,76 @@ const _PlenarySession = () => {
                    +'불러 일으킬 것입니다.'
     }
 
-    
-
     return (
-        <Wrapper>
-            <Inner>
-                <PageTopArea 
-                    title={topcontents.title} 
-                    contents={topcontents.contents}
-                />
-                <MiddleArea>
-                    <Section>
-                        <SectionArea>
-                            <Imgblock>
-                                <img src={character1} alt="벤야민 요리슨" />
-                            </Imgblock>
-                            <Textblock>
-                                <LeftArea>
-                                <Title>예술교육 2.0의 다양성</Title>
-                                <Time>05.25(화) 13:00-13:40</Time>
-                                <Name>벤야민 요리슨 <EnName>(Benjamin Jorissen)</EnName></Name>
-                                <Jop>- 뮌헨 미술원 선임연구원</Jop>
-                                </LeftArea>
-                                <Videobtn>영상보기</Videobtn>
-                            </Textblock>
-                        </SectionArea>
-                    </Section>
-                    <Section>
-                        <SectionArea>
-                            <Imgblock>
-                                <img src={character2} alt="벤야민 요리슨" />
-                            </Imgblock>
-                            <Textblock>
-                                <LeftArea>
-                                    <Title>예술 교육의 과제로서의 “문화적 회복력”과 ”미적 회복력”:<br />
-                                    문화적 지속가능성 교육학을 위한 회복 컨셉에 대한 범위와 한계</Title>
-                                    <Time>05.26(수) 13:00 - 13:40</Time>
+        <>
+            <PWrapper>
+                <PInner>
+                    <PContents 
+                            title={topcontents.title} 
+                            contents={topcontents.contents}
+                        />
+                    <MiddleArea>
+                        <Section>
+                            <SectionArea>
+                                <Imgblock>
+                                    <img src={character1} alt="벤야민 요리슨" />
+                                </Imgblock>
+                                <Textblock>
+                                    <LeftArea>
+                                    <Title>예술교육 2.0의 다양성</Title>
+                                    <Time>05.25(화) 13:00-13:40</Time>
                                     <Name>벤야민 요리슨 <EnName>(Benjamin Jorissen)</EnName></Name>
-                                    <Jop>- 세계문화예술 발제자</Jop>
-                                </LeftArea>
-                                <Videobtn>영상보기</Videobtn>
-                            </Textblock>
-                        </SectionArea>
-                    </Section>
-                </MiddleArea>
-            </Inner>
-        </Wrapper>
+                                    <Jop>- 뮌헨 미술원 선임연구원</Jop>
+                                    </LeftArea>
+                                    <Videobtn>영상보기</Videobtn>
+                                </Textblock>
+                            </SectionArea>
+                        </Section>
+                        <Section>
+                            <SectionArea>
+                                <Imgblock>
+                                    <img src={character2} alt="벤야민 요리슨" />
+                                </Imgblock>
+                                <Textblock>
+                                    <LeftArea>
+                                        <Title>예술 교육의 과제로서의 “문화적 회복력”과 ”미적 회복력”:<br />
+                                        문화적 지속가능성 교육학을 위한 회복 컨셉에 대한 범위와 한계</Title>
+                                        <Time>05.26(수) 13:00 - 13:40</Time>
+                                        <Name>벤야민 요리슨 <EnName>(Benjamin Jorissen)</EnName></Name>
+                                        <Jop>- 세계문화예술 발제자</Jop>
+                                    </LeftArea>
+                                    <Videobtn>영상보기</Videobtn>
+                                </Textblock>
+                            </SectionArea>
+                        </Section>
+                    </MiddleArea>
+                </PInner>
+            </PWrapper>
+        </>
     )
 }
 
 
-const Wrapper = styled.div`
+const PWrapper = styled.div`
     width : 100%;
     margin-bottom : 210px;
     display : flex;
     justify-content : center;
+
+    @media all and (max-width:1199px) {
+        display : none;
+    }
 `
-const Inner = styled.div`
+const PInner = styled.div`
+    position : relative;
     width : 1200px;
+`
+const PContents = styled(PageTopArea)`
+    margin-top : 180px;
 `
 // Middle
 const MiddleArea = styled.div`
-    width : 1200px;
-    height : auto;
+    /* height : auto; */
     margin-top : 160px;
     border-top : 4px solid var(--turtle-green);
 `

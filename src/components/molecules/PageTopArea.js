@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import Unitwinbtn from '../atom/Unitwinbtn'
 
-const PageTopArea = ({className, title, contents, subfontsize, top}) => {
+const PageTopArea = ({className, title, contents, subcontents, subfontsize, homebtn, top}) => {
     return (
         <>
             <PTopArea 
@@ -11,12 +12,19 @@ const PageTopArea = ({className, title, contents, subfontsize, top}) => {
                 <PTopTitleArea >
                     <PTopTitle>{title}</PTopTitle>
                 </PTopTitleArea>
-                <PTopContents 
-                    subfontsize={subfontsize}
-                >
-                    {contents}
-                </PTopContents>
+                <PContentsArea>
+                    <PTopContents 
+                        subfontsize={subfontsize}
+                    >
+                        {contents}
+                    </PTopContents>
+                    <PSubContents>
+                        {subcontents}
+                    </PSubContents>
+                    <PUnitwinbtn homebtn={homebtn}/>
+                </PContentsArea>
             </PTopArea>
+
             <MTopArea 
                 className={className} 
                 top={top}
@@ -52,12 +60,23 @@ const PTopTitle = styled.div`
     font-weight: bold;
     color: var(--black);
 `
-const PTopContents = styled.div`
+const PContentsArea = styled.div`
     width : 890px;
+    display : block;
+`
+const PTopContents = styled.div`
     font-size: ${props=> props.subfontsize || '16px'};
     font-weight: 500;
     white-space: pre-line;
     color: var(--black);
+`
+const PSubContents = styled.div`
+    margin-top : 40px;
+    font-size: 16px;
+    color: var(--black);
+`
+const PUnitwinbtn = styled(Unitwinbtn)`
+    margin-top : 40px;
 `
 
 

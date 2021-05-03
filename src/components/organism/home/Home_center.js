@@ -136,8 +136,8 @@ const PSection2 = styled.div`
 // Mobile
 const MWrapper = styled.div`
     width : auto;
-    display : flex; 
-    padding : 0 16px 50px 16px; 
+    padding : 0 16px 50px 16px;
+    display : flex;
     justify-content : center;
 
     @media all and (min-width:1200px) {

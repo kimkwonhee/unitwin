@@ -10,13 +10,13 @@ import PageTopArea from '../../molecules/PageTopArea'
 const Home_top = () => {
     const p_topcontents = {
         title : '행사소개',
-        contents : '위기의 시대,\n'
-                  + '모두가 알고 있었지만 기후위기, 다양성과 평등의 문제 등 많은 사회 문제들이 임박한 과제로 떠올랐습니다.\n'
-                  + '우리는 예술가 및 학자들과 함께 예술교육이 사회적 문화적 위기에 어떻게 대응하고 영감을 줄 수 있을지 논의하고자 합니다.\n\n'
-                  + '유니트윈을 통해 우리 모두 소셜 아티스트로서 위기 해결을 위한 동기부여가 되는 장이 될 것입니다.\n'
-                  + '예술이 지닌 회복과 창의적인 행동의 기회를 예술교육이 주도하며 다양한 가능성을 모색하려 합니다.\n\n'
-                  + '예술교육은 중요한 과제 해결을 위해 “위기의 시대, 행동하는 예술교육”이라는 주제로\n'
-                  + '변화의 물결을 시작할 수 있는 촉발점이 될것입니다.'
+        contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의\n'
+                 +'정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
+                 +'제4회 유니트윈 학술대회는 "위기의 시대, 행동하는 예술교육"를 주제로 하여 예술교육의 원리와 사례가\n'
+                 +'어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있기 기여할 수 있는지 논하려 합니다.',
+        subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전가능한 예술교육 연구 모임\n'
+                     +'(UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development)\n'
+                     +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
     }
 
     const m_topcontents = {
@@ -47,7 +47,9 @@ const Home_top = () => {
                         <PContents 
                             title={p_topcontents.title} 
                             contents={p_topcontents.contents}
+                            subcontents={p_topcontents.subcontents}
                             subfontsize="20px"
+                            homebtn={true}
                         />
                     </PContentsArea>
                 </PInner>
@@ -79,7 +81,7 @@ const Home_top = () => {
 // PC
 const PWrapper = styled.div`
     width : auto;
-    height : 1183px;
+    height : 1270px;
     display : flex;
     justify-content : center;
     padding-bottom : 100px;
