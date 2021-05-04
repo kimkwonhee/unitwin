@@ -1,15 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import Videobtn from '../../../components/atom/Videobtn'
-import { Link, Route, Router } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
-const Pl_SectionData = ({className, title, time, name, enname, jop, link, imgs}) => {
-    const router = Router;
-    
-    const onClick =() => {
-    
-    }
-    
+const Pl_SectionData = ({className, title, time, name, enname, jop, link, discripton, imgs, location}) => {
     return (
         <>
             <PWrapper className={className}>
@@ -18,14 +12,17 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, imgs})
                         <PImg src={imgs} alt={name} />
                     </PImgArea>
                     <PTextArea>
-                        <PLeftArea>
+                        <PLeftArea location={location}>
                             <PTitle>{title}</PTitle>
                             <PTime>{time}</PTime>
                             <PName>{name}<PEnName>{enname}</PEnName></PName>
                             <PJop>{jop}</PJop>
+                            <PDiscription>{discripton}</PDiscription>
                         </PLeftArea>
                         <PLink to={link}>
-                            <PVideobtn videobtn="true">영상보기</PVideobtn>
+                            {location.pathname === '/unitwin/byob'
+                            ? null
+                            : <PVideobtn videobtn="true">영상보기</PVideobtn>}
                         </PLink>
                     </PTextArea>
                 </PSection>
@@ -78,45 +75,45 @@ const PTextArea = styled.div`
 `
 const PLeftArea = styled.div`
     width : 750px;
-    padding : 26px 0;
+    padding-top : ${props => (props.location.pathname === '/unitwin/byob') ? '0px' : '26px'}
 `
 const PTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.5;
     margin-bottom : 8px;
     color: var(--black);
 `
 const PTime = styled.div`
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;
     margin-bottom : 40px;
     color: var(--black);
 `
 const PName = styled.div`
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
     margin-bottom : 8px;
     color: var(--black);
 `
 const PEnName = styled.span`
     font-size: 14px;
-    font-weight: normal;
-    line-height: 1.57;
     color: var(--brown-grey);
 `
 const PJop = styled.div`
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.57;
     color: var(--black);
 `
 const PVideobtn = styled(Videobtn)`
 `
 const PLink = styled(Link)`
     text-decoration : none;
+`
+const PDiscription = styled.div`
+    margin-top :15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black);
 `
 
 
@@ -172,4 +169,4 @@ const MJop = styled.div`
     color: var(--black);
 `
 
-export default Pl_SectionData
+export default withRouter(Pl_SectionData)

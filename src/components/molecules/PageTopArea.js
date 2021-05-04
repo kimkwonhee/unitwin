@@ -59,6 +59,7 @@ const PTopTitle = styled.div`
     font-size: 24px;
     font-weight: bold;
     color: var(--black);
+    white-space: pre-line;
 `
 const PContentsArea = styled.div`
     width : 890px;

@@ -3,7 +3,10 @@ import styled from 'styled-components'
 import Personbtn from '../components/atom/Personbtn'
 import PageTopArea from '../components/molecules/PageTopArea'
 import ThemebtnGroup from '../components/molecules/ThemebtnGroup'
-import person1 from '../images/session_01.png'
+import img_01 from '../images/session_01.png'
+import img_02 from '../images/session_02.png'
+import img_03 from '../images/session_03.png'
+import img_04 from '../images/session_04.png'
 import person2 from '../images/session_02.png'
 import person3 from '../images/session_03.png'
 import person4 from '../images/session_04.png'
@@ -26,10 +29,10 @@ const _Session = () => {
         }
     ]
     const personlist = [
-        { id : 1, img : person1, name : '저용성' },
-        { id : 2, img : person2, name : '이은수' },
-        { id : 3, img : person2, name : '김소원' },
-        { id : 4, img : person2, name : '김수연' },
+        { id : 1, img : img_01, name : '저용성' },
+        { id : 2, img : img_02, name : '이은수' },
+        { id : 3, img : img_03, name : '김소원' },
+        { id : 4, img : img_04, name : '김수연' },
         { id : 5, img : person2, name : '이보람' },
         { id : 6, img : person2, name : '티나 쿠코' },
         { id : 7, img : person2, name : '산자 크르스마노비츠 타식' },
