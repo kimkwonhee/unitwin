@@ -70,7 +70,7 @@ const Menubar = withRouter(({ className }) => {
                     </PLangArea>
                 </PInner>
             </PWrapper>
-            <Affix style={{ position: 'absolute', top: 0, left: 0, zIndex: 99}}>
+            <Affix style={{ position: 'absolute', top: 0, left: '0', zIndex: 99, }}>
                 <MWrapper top={scrollTop} className={className}>
                     <MInner>
                         <MLinkTag to="/unitwin/home">

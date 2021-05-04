@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import hoverbtn from '../../images/session_hover.png'
 
-const Personbtn = ({src, name, title}) => {
+const Personbtn = ({className, src, name, title}) => {
     return (
         <>
-            <PWrapper>
+            <PWrapper className={className}>
                 <PPrsImg src={src} alt={name} title={title}/>
                 <PName>{name}</PName>
             </PWrapper>   
@@ -15,11 +15,12 @@ const Personbtn = ({src, name, title}) => {
 }
 
 const PWrapper = styled.div`
+    width : 375px;
     display : flex;
     flex-direction : column;
     align-items: center;
     margin-bottom : 48px;
-
+    
     @media all and (max-width:1199px) {
         display : none;
     }
