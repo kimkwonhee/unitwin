@@ -60,39 +60,41 @@ const Pr_Detail = () => {
     ]
 
     return (
-        <Wrapper>
-            <Inner>
-                <ListSessionTop />
-                <ListVideoSession height="675px"/>
-                <ContentsArea>
-                    <ImgArea>
-                        <Img>
+        <>
+            <Wrapper>
+                <Inner>
+                    <ListSessionTop />
+                    <ListVideoSession height="675px"/>
+                    <ContentsArea>
+                        <ImgArea>
+                            <Img>
 
-                        </Img>
-                    </ImgArea>
-                    <TextArea>
-                        <Discription>
-                            인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.
-                        </Discription>
-                        <Location>
-                            광명 업사이클 아트센터
-                        </Location>
-                        <Site>WWW.ADCE.CO.KR</Site>
-                    </TextArea>
-                </ContentsArea>
-                <ListArea>
-                    <Section>
-                        {planlist.map((list,index) => {
-                            return <PlanSesionbtn 
-                                        key={list.id}
-                                        src={list.img} 
-                                        name={list.name}
-                                        discription={list.discription}/>
-                        })}
-                    </Section>
-                </ListArea>
-            </Inner>
-        </Wrapper>
+                            </Img>
+                        </ImgArea>
+                        <TextArea>
+                            <Discription>
+                                인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.
+                            </Discription>
+                            <Location>
+                                광명 업사이클 아트센터
+                            </Location>
+                            <Site>WWW.ADCE.CO.KR</Site>
+                        </TextArea>
+                    </ContentsArea>
+                    <ListArea>
+                        <Section>
+                            {planlist.map((list,index) => {
+                                return <PlanSesionbtn 
+                                            key={list.id}
+                                            src={list.img} 
+                                            name={list.name}
+                                            discription={list.discription}/>
+                            })}
+                        </Section>
+                    </ListArea>
+                </Inner>
+            </Wrapper>
+        </>
     )
 }
 
@@ -153,7 +155,5 @@ const Section = styled.div`
     justify-content : space-between;
     flex-wrap : wrap;
 `
-
-
 
 export default Pr_Detail
