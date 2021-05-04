@@ -23,7 +23,7 @@ const Menubar = withRouter(({ className }) => {
     const [scrollTop, setScrollTop] = useState(false)
 
     const onScrollChange = () => {
-        if (window.pageYOffset < 24) {
+        if (window.pageYOffset <= 0) {
             setScrollTop(true)
         } else {
             setScrollTop(false)
@@ -38,8 +38,6 @@ const Menubar = withRouter(({ className }) => {
         }
         return () => window.removeEventListener('scroll', onScrollChange)
     }, [location.pathname])
-
-    
 
     return (
         <>
@@ -208,7 +206,7 @@ const PLangArea = styled.div`
 `
 
 const MWrapper = styled.div`
-    width : 100%;
+    width : 100vw;
     height : 60px;
     z-index : 50;
     display : flex;

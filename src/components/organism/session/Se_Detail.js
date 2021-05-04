@@ -4,6 +4,7 @@ import ListSessionTop from '../../molecules/ListSessionTop'
 import ListVideoSession from '../../molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import ListSession_Se from '../../molecules/ListSession_Se'
+import DetailTopMO from '../DetailTopMO'
 import img_01 from '../../../images/session_01.png'
 import img_02 from '../../../images/session_02.png'
 import img_03 from '../../../images/session_03.png'
@@ -850,6 +851,9 @@ const Se_Detail = ({match}) => {
                     </PCenterArea>
                 </PInner>
             </PWrapper>
+            <MWrapper>
+                <DetailTopMO />
+            </MWrapper>
         </>
     )
 }
@@ -887,6 +891,15 @@ const PContentsArea = styled.div`
 `
 const PSection = styled(ListSession_Se)`
     /* margin-top : 60px; */
+`
+
+//MO
+
+const MWrapper = styled.div`
+    width: 100%;
+    @media all and (min-width:1200px) {
+        display : none;
+    }
 `
 
 
