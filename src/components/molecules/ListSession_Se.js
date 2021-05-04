@@ -61,6 +61,7 @@ const PItemInner = styled.div`
 const PTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
+    white-space: pre-line;
     color: var(--black);
     margin-bottom : 20px;
 `
@@ -99,6 +100,7 @@ const PListtitle = styled.div`
 const PContents = styled.div`
     padding : 20px 0 20px 0;
     font-size: 12px;
+    white-space: pre-line;
     color: var(--black);
 `
 const PDownlodebtn = styled(Downloadbtn)`
