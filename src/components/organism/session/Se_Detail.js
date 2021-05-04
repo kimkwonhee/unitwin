@@ -4,6 +4,8 @@ import ListSession from '../../molecules/ListSession'
 import ListSessionTop from '../../molecules/ListSessionTop'
 import ListVideoSession from '../../molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
+import ListSession_Se from '../../molecules/ListSession_Se'
+import img_01 from '../../../images/session_01.png'
 
 
 const Se_Detail = ({match}) => {
@@ -13,7 +15,46 @@ const Se_Detail = ({match}) => {
         time : '05.25(화) 13:40~15:00',
         video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
         download : false,
-        list : []
+        list : [
+            {
+                moder : '[모더레이터]',
+                li_title : "",
+                li_data : [
+                    {
+                        imgs : img_01,
+                        name : '루스 렌슬러 ',
+                        enname : '(Ruth Rentschler)',
+                        job : '- 사우스오스트레일리아대학교 교수, 호주',
+                        contents : '바이오 미정',
+                        download : true,
+                    }
+                ]
+                
+            },
+            {
+                moder : '',
+                li_title : "극장은 '작은 지구'입니다",
+                li_data : [
+                    {
+                        imgs : img_01,
+                        name : '루스 렌슬러 ',
+                        enname : '(Ruth Rentschler)',
+                        job : '- 사우스오스트레일리아대학교 교수, 호주',
+                        contents : '바이오 미정',
+                        download : true,
+                    },
+                    {
+                        imgs : img_01,
+                        name : '루스 렌슬러 ',
+                        enname : '(Ruth Rentschler)',
+                        job : '- 사우스오스트레일리아대학교 교수, 호주',
+                        contents : '바이오 미정',
+                        download : true,
+                    }
+                ]
+                
+            },
+        ]
     }
 
     const p_topcontents_b = {
@@ -125,10 +166,7 @@ const Se_Detail = ({match}) => {
                         <PLeftArea>
                         {videosection}
                             <PContentsArea>
-                            {match.params.detail == 'a' 
-                            ? <PSection data={p_topcontents_a.list} /> 
-                            : <PSection data={p_topcontents_b.list}
-                            />}
+                                <PSection data={p_topcontents_a.list} />
                             </PContentsArea>
                         </PLeftArea>
                         <PRightArea>
@@ -171,11 +209,9 @@ const PRightArea = styled.div`
 const PVideo = styled(ListVideoSession)`
 `
 const PContentsArea = styled.div`
-    padding-top : 20px;
 `
-const PSection = styled(ListSession)`
-    border-top : 1px solid var(--turtle-green);
-    margin-top : 60px;
+const PSection = styled(ListSession_Se)`
+    /* margin-top : 60px; */
 `
 
 

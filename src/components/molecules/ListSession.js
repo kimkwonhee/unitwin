@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Videobtn from '../atom/Videobtn'
 
 const ListSession = ({className, data}) => {
     return (
