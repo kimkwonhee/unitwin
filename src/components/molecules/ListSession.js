@@ -37,7 +37,6 @@ const PWrapper = styled.div`
     }
 `
 const PSection = styled.div`
-    /* margin : 20px 0 20px 0; */
 `
 const PInner = styled.div`
     width : 100%;

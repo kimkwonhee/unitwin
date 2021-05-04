@@ -4,12 +4,15 @@ import styled from 'styled-components'
 const ListSessionTop = ({className, title, subject, time}) => {
     
     return (
-        <Wrapper className={className}>
-            <Line />
-            <Title>{title}</Title>
-            <Subject>{subject}</Subject>
-            <Time>{time}</Time>
-        </Wrapper>
+        <>
+            <Wrapper className={className}>
+                <Line />
+                <Title>{title}</Title>
+                <Subject>{subject}</Subject>
+                <Time>{time}</Time>
+            </Wrapper>
+        </>
+        
     )
 }
 

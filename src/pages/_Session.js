@@ -3,18 +3,48 @@ import styled from 'styled-components'
 import Personbtn from '../components/atom/Personbtn'
 import PageTopArea from '../components/molecules/PageTopArea'
 import ThemebtnGroup from '../components/molecules/ThemebtnGroup'
+import { Link, withRouter } from 'react-router-dom';
 import img_01 from '../images/session_01.png'
 import img_02 from '../images/session_02.png'
 import img_03 from '../images/session_03.png'
 import img_04 from '../images/session_04.png'
-import person2 from '../images/session_02.png'
-import person3 from '../images/session_03.png'
-import person4 from '../images/session_04.png'
-import person5 from '../images/session_05.png'
-import person6 from '../images/session_06.png'
-import person7 from '../images/session_07.png'
-import person8 from '../images/session_08.png'
-import person9 from '../images/session_09.png'
+import img_05 from '../images/session_05.png'
+import img_06 from '../images/session_06.png'
+import img_07 from '../images/session_07.png'
+import img_08 from '../images/session_08.png'
+import img_09 from '../images/session_09.png'
+import img_10 from '../images/session_10.png'
+import img_11 from '../images/session_11.png'
+import img_12 from '../images/session_10.png'
+import img_13 from '../images/session_13.png'
+import img_14 from '../images/session_14.png'
+import img_15 from '../images/session_15.png'
+import img_16 from '../images/session_16.png'
+import img_17 from '../images/session_17.png'
+import img_18 from '../images/session_18.png'
+import img_19 from '../images/session_19.png'
+import img_20 from '../images/session_20.png'
+import img_21 from '../images/session_21.png'
+import img_22 from '../images/session_22.png'
+import img_23 from '../images/session_23.png'
+import img_24 from '../images/session_24.png'
+import img_25 from '../images/session_25.png'
+import img_26 from '../images/session_12.png'
+import img_27 from '../images/session_34.png'
+import img_28 from '../images/session_35.png'
+import img_29 from '../images/session_36.png'
+import img_30 from '../images/session_37.png'
+import img_38 from '../images/session_38.png'
+import img_39 from '../images/session_39.png'
+import img_40 from '../images/session_40.png'
+import img_41 from '../images/session_41.png'
+import img_42 from '../images/session_42.png'
+import img_43 from '../images/session_43.png'
+import img_44 from '../images/session_44.png'
+import img_45 from '../images/session_45.png'
+import img_46 from '../images/session_46.png'
+import img_47 from '../images/session_47.png'
+
 
 const _Session = () => {
     const topcontents = [
@@ -29,54 +59,54 @@ const _Session = () => {
         }
     ]
     const personlist = [
-        { id : 1, img : img_01, name : '저용성' },
-        { id : 2, img : img_02, name : '이은수' },
-        { id : 3, img : img_03, name : '김소원' },
-        { id : 4, img : img_04, name : '김수연' },
-        { id : 5, img : person2, name : '이보람' },
-        { id : 6, img : person2, name : '티나 쿠코' },
-        { id : 7, img : person2, name : '산자 크르스마노비츠 타식' },
-        { id : 8, img : person2, name : '엠시 베트만' },
-        { id : 9, img : person2, name : '김채연' },
-        { id : 10, img : person2, name : '글로리아 자파타' },
-        { id : 11, img : person2, name : '김태희' },
-        { id : 12, img : person2, name : '샤를린 라헨드란' },
-        { id : 13, img : person2, name : '난장' },
-        { id : 14, img : person2, name : '야라 도크랏' },
-        { id : 15, img : person2, name : '벤자민 볼든' },
-        { id : 16, img : person2, name : '네릴 제너렛' },
-        { id : 17, img : person2, name : '차후 룸' },
-        { id : 18, img : person2, name : '젠 터' },
-        { id : 19, img : person2, name : '캐서린 콜만' },
-        { id : 20, img : person2, name : '마크 셀크릭' },
-        { id : 21, img : person2, name : '에비 맥도날드' },
-        { id : 22, img : person2, name : '마리클레어 키덴다' },
-        { id : 23, img : person2, name : '에밀리 맥밀런' },
-        { id : 24, img : person2, name : '홍지혜' },
-        { id : 25, img : person2, name : '에밀리 윌슨' },
-        { id : 26, img : person2, name : '네릴 제너렛' },
-        { id : 27, img : person2, name : '젠 터' },
-        { id : 28, img : person2, name : '캐서린 콜만' },
-        { id : 29, img : person2, name : '마크 셀크릭' },
-        { id : 30, img : person2, name : '에비 맥도날드' },
-        { id : 31, img : person2, name : '제환정' },
-        { id : 32, img : person2, name : '정혜연' },
-        { id : 33, img : person2, name : '성효진' },
-        { id : 34, img : person2, name : '레베칸 칸' },
-        { id : 35, img : person2, name : '푸 세이밍' },
-        { id : 36, img : person2, name : '탄정수안' },
-        { id : 37, img : person2, name : '제프 풀린' },
-        { id : 38, img : person2, name : '루스 렌슬러' },
-        { id : 39, img : person2, name : '심지영' },
-        { id : 40, img : person2, name : '김유리' },
-        { id : 41, img : person2, name : '박소정' },
-        { id : 42, img : person2, name : '션 코코란' },
-        { id : 43, img : person2, name : '벤자민 볼든' },
-        { id : 44, img : person2, name : '장수혜' },
-        { id : 45, img : person2, name : '공윤지' },
-        { id : 46, img : person2, name : '이현정' },
-        { id : 47, img : person2, name : '배성종' },
-        { id : 48, img : person2, name : '최영희' },
+        { id : 1, img : img_01, name : '정용성' , title : "세션 1", link : "/unitwin/session/a"},
+        { id : 2, img : img_02, name : '이은수' , title : "세션 1", link : "/unitwin/session/a"},
+        { id : 3, img : img_03, name : '김소원' , title : "세션 1", link : "/unitwin/session/a"},
+        { id : 4, img : img_04, name : '김수연' , title : "세션 1", link : "/unitwin/session/a"},
+        { id : 5, img : img_05, name : '이보람' , title : "세션 1", link : "/unitwin/session/a"},
+        { id : 6, img : img_06, name : '티나 쿠코' , title : "세션 2" , link : "/unitwin/session/b"},
+        { id : 7, img : img_07, name : '산자 크르스마노비츠 타식' , title : "세션 2", link : "/unitwin/session/b"},
+        { id : 8, img : img_08, name : '엠시 베트만' , title : "세션 2", link : "/unitwin/session/b"},
+        { id : 9, img : img_09, name : '김채연' , title : "세션 2", link : "/unitwin/session/b"},
+        { id : 10, img : img_10, name : '글로리아 자파타' , title : "세션 2", link : "/unitwin/session/b"},
+        { id : 11, img : img_11, name : '김태희' , title : "세션 3", link : "/unitwin/session/c"},
+        { id : 12, img : img_12, name : '샤를린 라헨드란' , title : "세션 3", link : "/unitwin/session/c"},
+        { id : 13, img : img_13, name : '난장' , title : "세션 3", link : "/unitwin/session/c"},
+        { id : 14, img : img_14, name : '야라 도크랏' , title : "세션 3", link : "/unitwin/session/c"},
+        { id : 15, img : img_15, name : '벤자민 볼든' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 16, img : img_16, name : '네릴 제너렛' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 17, img : img_17, name : '차후 룸' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 18, img : img_18, name : '젠 터' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 19, img : img_19, name : '캐서린 콜만' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 20, img : img_20, name : '마크 셀크릭' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 21, img : img_21, name : '에비 맥도날드' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 22, img : img_22, name : '마리클레어 키덴다' , title : "세션 5", link : "/unitwin/session/e"},
+        { id : 23, img : img_23, name : '에밀리 맥밀런' , title : "세션 5", link : "/unitwin/session/d"},
+        { id : 24, img : img_24, name : '홍지혜' , title : "세션 5", link : "/unitwin/session/d"},
+        { id : 25, img : img_25, name : '에밀리 윌슨' , title : "세션 5", link : "/unitwin/session/d"},
+        { id : 26, img : img_16, name : '네릴 제너렛' , title : "세션 5", link : "/unitwin/session/d"},
+        { id : 27, img : img_18, name : '젠 터' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 28, img : img_19, name : '캐서린 콜만' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 29, img : img_20, name : '마크 셀크릭' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 30, img : img_21, name : '에비 맥도날드' , title : "세션 4", link : "/unitwin/session/d"},
+        { id : 31, img : img_26, name : '제환정' , title : "세션 6", link : "/unitwin/session/f"},
+        { id : 32, img : img_27, name : '정혜연' , title : "세션 6", link : "/unitwin/session/f"},
+        { id : 33, img : img_28, name : '성효진' , title : "세션 6", link : "/unitwin/session/f"},
+        { id : 34, img : img_10, name : '레베칸 칸' , title : "세션 6", link : "/unitwin/session/f"},
+        { id : 35, img : img_29, name : '푸 세이밍' , title : "세션 6", link : "/unitwin/session/f"},
+        { id : 36, img : img_30, name : '탄정수안' , title : "세션 6", link : "/unitwin/session/f"},
+        { id : 37, img : img_10, name : '제프 풀린' , title : "세션 6", link : "/unitwin/session/f"},
+        { id : 38, img : img_38, name : '루스 렌슬러' , title : "세션 7", link : "/unitwin/session/g"},
+        { id : 39, img : img_39, name : '심지영' , title : "세션 7", link : "/unitwin/session/g"},
+        { id : 40, img : img_40, name : '김유리' , title : "세션 7", link : "/unitwin/session/g"},
+        { id : 41, img : img_41, name : '박소정' , title : "세션 7", link : "/unitwin/session/g"},
+        { id : 42, img : img_42, name : '션 코코란' , title : "세션 7", link : "/unitwin/session/g"},
+        { id : 43, img : img_15, name : '벤자민 볼든' , title : "세션 7", link : "/unitwin/session/g"},
+        { id : 44, img : img_43, name : '장수혜' , title : "세션 8", link : "/unitwin/session/h"},
+        { id : 45, img : img_44, name : '공윤지' , title : "세션 8", link : "/unitwin/session/h"},
+        { id : 46, img : img_45, name : '이현정' , title : "세션 8", link : "/unitwin/session/h"},
+        { id : 47, img : img_46, name : '배성종' , title : "세션 8", link : "/unitwin/session/h"},
+        { id : 48, img : img_47, name : '최영희' , title : "세션 8", link : "/unitwin/session/h"},
     ]
 
     return (
@@ -93,11 +123,14 @@ const _Session = () => {
                     />
                     <PSection>
                         {personlist.map((list, index) => {
-                            return <Personbtn 
+                            return <PLink to={list.link}>
+                                     <Personbtn 
                                         key={list.id} 
                                         src={list.img} 
                                         name={list.name}
+                                        title={list.title}
                                     />
+                            </PLink>
                         })}
                     </PSection>
                 </PInner>
@@ -132,6 +165,9 @@ const PSection = styled.div`
     justify-content : space-between;
     padding : 0 20px 0 20px;
     flex-wrap : wrap;
+`
+const PLink = styled(Link)`
+    text-decoration : none;
 `
 
 export default _Session
