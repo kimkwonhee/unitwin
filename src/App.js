@@ -11,6 +11,7 @@ import _Closing from './pages/_Closing'
 import Footer from './components/organism/Footer'
 import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
 import Se_Detail from './components/organism/session/Se_Detail'
+import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 import 'antd/dist/antd.css'
 
 const Globalstyles = createGlobalStyle`
@@ -31,8 +32,6 @@ const Globalstyles = createGlobalStyle`
 `
 
 const App = () => {
-  // const [drawerVisible, setDrawerVisible] = useState(false)
-
   return (
     <Wrapper>
       <Globalstyles />
@@ -43,13 +42,12 @@ const App = () => {
         <Route path="/unitwin/plenary-session" component={_PlenarySession}/>
         <Route path="/unitwin/session/:se_detail" component={Se_Detail}/>
         <Route path="/unitwin/session" component={_Session}/>
+        <Route path="/unitwin/presession-showcase/:pr_detail" component={Pr_Detail}/>
         <Route path="/unitwin/presession-showcase" component={_PreShowcase}/>
         <Route path="/unitwin/byob" component={_Byob}/>
         <Route path="/unitwin/closing-ceremony" component={_Closing}/>
       </Switch>
       <Footer />
-      
-
     </Wrapper>
   )
 }

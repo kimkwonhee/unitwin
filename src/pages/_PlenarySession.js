@@ -7,7 +7,7 @@ import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
 
 const _PlenarySession = withRouter(() => {
-        const p_topcontents = {
+    const p_topcontents = {
         title : '기조발제',
         contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데,\n'
                    +'예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한\n'
