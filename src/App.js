@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Menubar from './components/organism/Menubar'
 import { Route, Switch } from 'react-router-dom'
 import styled, { createGlobalStyle } from 'styled-components'
@@ -11,7 +11,7 @@ import _Closing from './pages/_Closing'
 import Footer from './components/organism/Footer'
 import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
 import Se_Detail from './components/organism/session/Se_Detail'
-
+import 'antd/dist/antd.css'
 
 const Globalstyles = createGlobalStyle`
 
@@ -31,8 +31,11 @@ const Globalstyles = createGlobalStyle`
 `
 
 const App = () => {
+  // const [drawerVisible, setDrawerVisible] = useState(false)
+
   return (
     <Wrapper>
+      
       <Globalstyles />
       <Menubar />
       <Switch>
@@ -46,6 +49,8 @@ const App = () => {
         <Route path="/unitwin/closing-ceremony" component={_Closing}/>
       </Switch>
       <Footer />
+      
+
     </Wrapper>
   )
 }
@@ -56,5 +61,7 @@ const Wrapper = styled.div`
   display : flex;
   flex-direction : column;
 `
+
+
 
 export default App;
