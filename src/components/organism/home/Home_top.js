@@ -54,6 +54,7 @@ const Home_top = () => {
                     </PContentsArea>
                 </PInner>
             </PWrapper>
+            
             <MWrapper>
                 <MInner>
                     <MLogoArea>
