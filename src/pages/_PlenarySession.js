@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, Route } from 'react-router-dom';
+import { Link, Route, withRouter } from 'react-router-dom';
 import character1 from '../images/plense_img01.png'
 import character2 from '../images/plense_img02.png'
 import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
 
-const _PlenarySession = () => {
+const _PlenarySession = withRouter(() => {
         const p_topcontents = {
         title : '기조발제',
         contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데,\n'
@@ -121,7 +121,7 @@ const _PlenarySession = () => {
             </MWrapper>
         </>
     )
-}
+})
 // PC
 const PWrapper = styled.div`
     width : 100%;
