@@ -147,7 +147,7 @@ const _Closing = () => {
                             </PContentsArea>
                         </PLeftArea>
                         <PRightArea>
-                            <div>채팅 영상 1</div>
+                            <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr'></PChat>
                         </PRightArea>
                     </PCenterArea>
                 </PInner>
@@ -155,6 +155,16 @@ const _Closing = () => {
         </>
     )
 }
+
+const PChat = styled.iframe`
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+`
 
 // PC
 const PWrapper = styled.div`
@@ -181,7 +191,6 @@ const PLeftArea = styled.div`
 const PRightArea = styled.div`
     width : 380px;
     height : 450px;
-    background-color : purple;
 `
 const PVideo = styled(ListVideoSession)`
 `
