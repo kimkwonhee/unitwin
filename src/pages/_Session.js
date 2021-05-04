@@ -47,17 +47,6 @@ import img_47 from '../images/session_47.png'
 
 
 const _Session = () => {
-    const topcontents = [
-        {
-            title : '주제세션',
-            contents : '과학기술을 접목한 기술융합예술 활성화를 위해 디지털과 동시대 기술을 활용한\n'
-                    +'예술작품 창작과 향유, 기초예술의 온라인 확장 등 미래예술 발전을 위해 다양한 추진하고 있습니다.'
-        },
-        {
-            title : '강연자 소개',
-            contents : <ThemebtnGroup />
-        }
-    ]
     const personlist = [
         { id : 1, img : img_01, name : '정용성' , title : "현장사례연구 1", link : "/unitwin/session/a"},
         { id : 2, img : img_02, name : '이은수' , title : "현장사례연구 1", link : "/unitwin/session/a"},
@@ -103,6 +92,20 @@ const _Session = () => {
         { id : 42, img : img_46, name : '배성종' , title : "현장사례연구 2", link : "/unitwin/session/h"},
         { id : 43, img : img_47, name : '최영희' , title : "현장사례연구 2", link : "/unitwin/session/h"},
     ]
+
+
+    const topcontents = [
+        {
+            title : '주제세션',
+            contents : '과학기술을 접목한 기술융합예술 활성화를 위해 디지털과 동시대 기술을 활용한\n'
+                    +'예술작품 창작과 향유, 기초예술의 온라인 확장 등 미래예술 발전을 위해 다양한 추진하고 있습니다.'
+        },
+        {
+            title : '강연자 소개',
+            contents : <ThemebtnGroup />
+        }
+    ]
+
 
     return (
         <>

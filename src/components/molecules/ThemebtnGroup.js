@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import Themebtn from '../atom/Themebtn'
 
 const ThemebtnGroup = () => {
+    
+    
+    
     return (
         <Wrapper>
             <Themebtn padding="35px">전체</Themebtn>
