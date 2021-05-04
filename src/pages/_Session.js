@@ -72,28 +72,28 @@ const _Session = () => {
         { id : 19, img : img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
         { id : 20, img : img_21, name : '에비 맥도날드' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
         { id : 21, img : img_22, name : '마리클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-        { id : 22, img : img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin/session/d", catagory : '다양성포용'},
-        { id : 23, img : img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin/session/d", catagory : '다양성포용'},
-        { id : 24, img : img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin/session/d", catagory : '다양성포용'},
-        { id : 25, img : img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin/session/d", catagory : '다양성포용'},
-        { id : 26, img : img_26, name : '제환정' , title : "예술 참여", link : "/unitwin/session/f", catagory : '다양성포용'},
-        { id : 27, img : img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin/session/f", catagory : '다양성포용'},
-        { id : 28, img : img_28, name : '성효진' , title : "예술 참여", link : "/unitwin/session/f", catagory : '다양성포용'},
-        { id : 29, img : img_10, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin/session/f", catagory : '다양성포용'},
+        { id : 22, img : img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+        { id : 23, img : img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+        { id : 24, img : img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+        { id : 25, img : img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+        { id : 26, img : img_26, name : '제환정' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+        { id : 27, img : img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+        { id : 28, img : img_28, name : '성효진' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+        { id : 29, img : img_10, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
         { id : 30, img : img_29, name : '푸 세이밍' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
         { id : 31, img : img_30, name : '탄정수안' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
         { id : 32, img : img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-        { id : 33, img : img_38, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '예술교육가'},
-        { id : 34, img : img_39, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '예술교육가'},
-        { id : 35, img : img_40, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '예술교육가'},
-        { id : 36, img : img_41, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '예술교육가'},
-        { id : 37, img : img_42, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '예술교육가'},
-        { id : 38, img : img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '예술교육가'},
+        { id : 33, img : img_38, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+        { id : 34, img : img_39, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+        { id : 35, img : img_40, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+        { id : 36, img : img_41, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+        { id : 37, img : img_42, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+        { id : 38, img : img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
         { id : 39, img : img_43, name : '장수혜' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
         { id : 40, img : img_44, name : '공윤지' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
         { id : 41, img : img_45, name : '이현정' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-        { id : 42, img : img_46, name : '배성종' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '평등'},
-        { id : 43, img : img_47, name : '최영희' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '평등'},
+        { id : 42, img : img_46, name : '배성종' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+        { id : 43, img : img_47, name : '최영희' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
     ]
     const [selList , setSelList ] = useState(personlist);
 
@@ -124,9 +124,6 @@ const _Session = () => {
         }
     ]
 
-    
-
-
     return (
         <>
             <PWrapper>
@@ -142,7 +139,7 @@ const _Session = () => {
                     <PSection>
                         {selList.map((list, index) => {
                             return <PLink to={list.link}>
-                                     <Personbtn 
+                                     <PList 
                                         key={list.id} 
                                         src={list.img} 
                                         name={list.name}
@@ -183,10 +180,13 @@ const PSection = styled.div`
     justify-content : flex-start;
     padding : 0 20px 0 20px;
     flex-wrap : wrap;
-    background : red;
+    /* background : red; */
 `
 const PLink = styled(Link)`
     text-decoration : none;
+`
+
+const PList = styled(Personbtn)`
 `
 
 export default _Session
