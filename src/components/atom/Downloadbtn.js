@@ -1,21 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Videobtn = ({className, width, videobtn, children}) => {
+const Downloadbtn = ({className, down, children}) => {
     return (
         <>
             <PWrapper
                 className={className}
-                width={width}
-                videobtn={videobtn}
+                down={down}
             >
                 <PText>{children}</PText>
             </PWrapper>
 
             <MWrapper
                 className={className}
-                width={width}
-                videobtn={videobtn}
+                down={down}
             >
             <MText>{children}</MText>
             </MWrapper>
@@ -26,9 +24,9 @@ const Videobtn = ({className, width, videobtn, children}) => {
 // PC
 const PWrapper = styled.div`
     cursor: pointer;
-    width : ${(props) => props.width || '92px'};
+    width : 146px;
     height : 36px;
-    display : ${props => props.videobtn ? 'flex' : 'none'};
+    display : ${props => props.down ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;
     background-color: var(--turtle-green);
@@ -62,4 +60,4 @@ const MText = styled.div`
     font-weight: bold;
     color: var(--white);
 `
-export default Videobtn
+export default Downloadbtn
