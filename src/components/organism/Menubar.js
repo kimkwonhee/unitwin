@@ -19,24 +19,25 @@ import m_menu_cop2 from '../../images/mobile_cop_logo2.png'
 const Menubar = withRouter(({ className }) => {
     const location = useLocation()
     const [drawerVisible, setDrawerVisible] = useState(false)
-    const [scrollTop, setScrollTop] = useState(location.pathname === '/unitwin/home')
+    
+    const [scrollTop, setScrollTop] = useState(false)
 
     const onScrollChange = () => {
-        if (location.pathname === '/unitwin/home') {
-            if (window.pageYOffset < 24) {
-                setScrollTop(true)
-            } else {
-                setScrollTop(false)
-            }
+        if (window.pageYOffset < 24) {
+            setScrollTop(true)
+        } else {
+            setScrollTop(false)
         }
-        
     }
 
     useEffect(() => {
-        window.addEventListener('scroll', onScrollChange)
-
+        setScrollTop(location.pathname === '/unitwin/home' ? true : false)
+        if (location.pathname === '/unitwin/home') {
+            window.addEventListener('scroll', onScrollChange)
+            
+        }
         return () => window.removeEventListener('scroll', onScrollChange)
-    }, [])
+    }, [location.pathname])
 
     
 
@@ -111,7 +112,9 @@ const Menubar = withRouter(({ className }) => {
                         </DrawerMenuTxt>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/plenary-session">
+                        <Link onClick={e=> setDrawerVisible(false)} to={{
+                            pathname: '/unitwin/plenary-session'
+                        }}>
                             <DrawerMenuTxt>
                                 기조발제
                             </DrawerMenuTxt>
