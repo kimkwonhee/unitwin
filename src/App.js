@@ -35,7 +35,6 @@ const App = () => {
 
   return (
     <Wrapper>
-      
       <Globalstyles />
       <Menubar />
       <Switch>

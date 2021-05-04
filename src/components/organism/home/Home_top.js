@@ -145,7 +145,7 @@ const PContents = styled(PageTopArea)`
 // Mobile
 const MWrapper = styled.div`
     width : auto;
-    height : 689px;
+    height : 769px;
     padding : 0 16px 50px 16px; 
     display : flex;
     justify-content : center;
