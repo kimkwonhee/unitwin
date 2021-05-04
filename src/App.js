@@ -10,6 +10,7 @@ import _Byob from './pages/_Byob'
 import _Closing from './pages/_Closing'
 import Footer from './components/organism/Footer'
 import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
+import Se_Detail from './components/organism/session/Se_Detail'
 
 
 const Globalstyles = createGlobalStyle`
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/unitwin/home" component={_Home} exact/>
         <Route path="/unitwin/plenary-session/:detail" component={Pl_Detail}/>
         <Route path="/unitwin/plenary-session" component={_PlenarySession}/>
+        <Route path="/unitwin/session/:se_detail" component={Se_Detail}/>
         <Route path="/unitwin/session" component={_Session}/>
         <Route path="/unitwin/presession-showcase" component={_PreShowcase}/>
         <Route path="/unitwin/byob" component={_Byob}/>
