@@ -13,6 +13,7 @@ import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
 import Se_Detail from './components/organism/session/Se_Detail'
 import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 import 'antd/dist/antd.css'
+import { useSelector, useDispatch } from 'react-redux'
 
 const Globalstyles = createGlobalStyle`
 
@@ -32,10 +33,15 @@ const Globalstyles = createGlobalStyle`
 `
 
 const App = () => {
+
+  const { curlang } = useSelector(state => ({
+    curlang : state.changlang.curlang
+  }))
+
   return (
     <Wrapper>
       <Globalstyles />
-      <Menubar />
+      <Menubar curlang={curlang}/>
       <Switch>
         <Route path="/unitwin/home" component={_Home} exact/>
         <Route path="/unitwin/plenary-session/:detail" component={Pl_Detail}/>

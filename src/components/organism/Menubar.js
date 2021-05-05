@@ -6,7 +6,6 @@ import m_menulogo from '../../images/mobile_menu_logo.png'
 import m_menulogo_white from '../../images/mobile_menu_logo_white.png'
 import m_menu from '../../images/mobile_menu_btn.png'
 import m_menu_white from '../../images/mobile_menu_btn_white.png'
-import m_close from '../../images/mobile_menu_close.png'
 import Langbtn from '../atom/Langbtn'
 import { Link, withRouter, useLocation } from 'react-router-dom'
 import { Affix, Drawer } from 'antd'
@@ -14,14 +13,19 @@ import m_menu_close from '../../images/mobile_menu_close.png'
 import m_menu_title from '../../images/mobile_menu_title.png'
 import m_menu_cop1 from '../../images/mobile_cop_logo1.png'
 import m_menu_cop2 from '../../images/mobile_cop_logo2.png'
+import { useDispatch } from 'react-redux'
+import { changkr, changen } from '../../modules/changlang'
 
 
-const Menubar = withRouter(({ className }) => {
+const Menubar = withRouter(({ className, curlang}) => {
+
+    const dispatch = useDispatch();
+    const onChangKr = () => dispatch(changkr());
+    const onChangEn = () => dispatch(changen());
+
     const location = useLocation()
     const [drawerVisible, setDrawerVisible] = useState(false)
-    
     const [scrollTop, setScrollTop] = useState(false)
-
     const onScrollChange = () => {
         if (window.pageYOffset <= 0) {
             setScrollTop(true)
@@ -29,7 +33,6 @@ const Menubar = withRouter(({ className }) => {
             setScrollTop(false)
         }
     }
-
     useEffect(() => {
         setScrollTop(location.pathname === '/unitwin/home' ? true : false)
         if (location.pathname === '/unitwin/home') {
@@ -39,6 +42,10 @@ const Menubar = withRouter(({ className }) => {
         return () => window.removeEventListener('scroll', onScrollChange)
     }, [location.pathname])
 
+    useEffect(() => {
+        console.log(curlang);
+    }, [onChangKr, onChangEn]);
+
     return (
         <>
             <PWrapper className={className}>
@@ -47,7 +54,7 @@ const Menubar = withRouter(({ className }) => {
                         <PLogoImg src={p_menulogo} alt="logo" />
                     </PLinkTag>
                     <PMenuArea>
-                        <Menubtn>주간행사</Menubtn>
+                        <Menubtn>{curlang.p_data.menuber.text1}</Menubtn>
                         <PLinkTag to="/unitwin/plenary-session">    
                             <Menubtn>기조발제</Menubtn>
                         </PLinkTag>
@@ -65,8 +72,8 @@ const Menubar = withRouter(({ className }) => {
                         </PLinkTag>
                     </PMenuArea>
                     <PLangArea>
-                        <Langbtn>KOR</Langbtn>
-                        <Langbtn>ENG</Langbtn>
+                        <Langbtn onClick={()=>onChangKr()}>KOR</Langbtn>
+                        <Langbtn onClick={()=>onChangEn()}>ENG</Langbtn>
                     </PLangArea>
                 </PInner>
             </PWrapper>
@@ -238,42 +245,10 @@ const MMenuImg = styled.div`
     cursor: pointer;
     width : 24px;
     height : 60px;
-    background : ${props => props.top ? `url(${m_menu_white});` : `url(${m_menu});`}
+    background : ${props => props.top ? `url(${m_menu_white});` : `url(${m_menu});`};
 `
-// popup
-const CWrapper = styled.div`
-    height : 60px;
-    z-index : 50;
-    display : ${props=> props.status ? 'flex' : 'none'};
-    justify-content : center;
-    display : flex;
-    box-shadow: 0 1px 2px 0 #ddf2c7;
 
-    @media all and (min-width:1200px) {
-        display : none;
-    }
-`
-const CInner = styled.div`
-    position : relative;
-    width : 375px;
-    height : 100%;
-    padding : 0 16px;
-    display : flex;
-    justify-content : space-between;
-`
-const CLinkTag = styled(Link)`
-    text-decoration : none !important;
-`
-const CLogoImg = styled.img`
-    width : 45px;
-    height : 60px;
-`
-const CMenuImg = styled.div`
-    cursor: pointer;
-    width : 24px;
-    height : 60px;
-    background : url(${m_close});
-`
+
 //Drawer
 const DrawerWrapper = styled.div`
   width: 100%;
