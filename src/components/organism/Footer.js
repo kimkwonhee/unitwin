@@ -1,74 +1,53 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo1 from '../../images/footer_logo1.png'
-import logo2 from '../../images/footer_logo2.png'
 
-const Footer = () => {
+const Footer = ({className, curlang, langkr, langen}) => {
 
-    const p_topcontents = {
-        address : '제4회 유네스코 유니트윈 학술대회 운영사무국 (주)프럼에이 (105-87-52236)\n서울 마포구 성미산로23길 30-5',
-        tel : '대표전화 | 02-733-1399',
-        time : '운영시간 | 월-금 10:00 - 19:00 (주말, 공휴일 휴무)',
-        logo_1 : logo1,
-        logo_1_alt : '문화체육관광부',
-        logo_2 : logo2,
-        logo_2_alt : '한국문화예술교육진흥원',
-        policy : '개인정보처리방침',
-        copyright : 'Copyright ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.'
-    }
-
-    const m_topcontents = {
-        address : '세계문화예술교육 주간 운영사무국 (주)프럼에이 (105-87-52236)\n서울 마포구 성미산로23길 30-5',
-        tel : '대표전화 | 02-733-1399',
-        time : '운영시간 | 월-금 10:00 - 19:00 (주말, 공휴일 휴무)',
-        logo_1 : logo1,
-        logo_2 : logo2,
-        policy : '개인정보처리방침',
-        copyright : 'ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.'
-    }
+    const p_detaildata = curlang.p_data.footer;
+    const m_detaildata = curlang.m_data.footer;
 
     return (
         <>
             <PWrapper>
                 <PInner>
                     <PSection1>
-                        <PAddress>{p_topcontents.address}</PAddress>
+                        <PAddress>{p_detaildata.ftaddress}</PAddress>
                         <PLogoArea>
                             <PLogoA>
-                                <PLogoImgA src={p_topcontents.logo_1} alt={p_topcontents.logo_1_alt} />
+                                <PLogoImgA src={p_detaildata.ftlogo_1} alt={p_detaildata.ftlogo_1_alt} />
                             </PLogoA>
                             <PLogoB>
-                                <PLogoImgB src={p_topcontents.logo_2} alt={p_topcontents.logo_2_alt} />
+                                <PLogoImgB src={p_detaildata.ftlogo_2} alt={p_detaildata.ftlogo_2_alt} />
                             </PLogoB>
                         </PLogoArea>
                     </PSection1>
                     <PSection2>
                         <PContents>
-                            <PTelphone>{p_topcontents.tel}</PTelphone>
-                            <PActiveTime>{p_topcontents.time}</PActiveTime>
+                            <PTelphone>{p_detaildata.fttel}</PTelphone>
+                            <PActiveTime>{p_detaildata.activetime}</PActiveTime>
                         </PContents>
-                        <PPolicy>{p_topcontents.policy}</PPolicy>
+                        <PPolicy>{p_detaildata.ftpolicy}</PPolicy>
                     </PSection2>
                 </PInner>
-                <PCopyright>{p_topcontents.copyright}</PCopyright>
+                <PCopyright>{p_detaildata.ftcopyright}</PCopyright>
             </PWrapper>
 
             {/* mobile */}
             <MWrapper>
                 <MCenter>
                     <MInner>
-                        <MPolicy>{m_topcontents.policy}</MPolicy>
-                        <MAddress>{m_topcontents.address}</MAddress>
-                        <MTelphone>{m_topcontents.tel}</MTelphone>
-                        <MActiveTime>{m_topcontents.time}</MActiveTime>
+                        <MPolicy>{m_detaildata.ftpolicy}</MPolicy>
+                        <MAddress>{m_detaildata.ftaddress}</MAddress>
+                        <MTelphone>{m_detaildata.fttel}</MTelphone>
+                        <MActiveTime>{m_detaildata.activetime}</MActiveTime>
                         <MLogoA>
-                            <MLogoImgA src={m_topcontents.logo_1} alt={m_topcontents.logo_1_alt} />
+                            <MLogoImgA src={m_detaildata.ftlogo_1} alt={m_detaildata.ftlogo_1_alt} />
                         </MLogoA>
                         <MLogoB>
-                            <MLogoImgB src={m_topcontents.logo_2} alt={m_topcontents.logo_2_alt} />
+                            <MLogoImgB src={m_detaildata.ftlogo_2} alt={m_detaildata.ftlogo_2_alt} />
                         </MLogoB>
                     </MInner>
-                    <MCopyright>{m_topcontents.copyright}</MCopyright>
+                    <MCopyright>{m_detaildata.ftcopyright}</MCopyright>
                 </MCenter>
             </MWrapper>
         </>

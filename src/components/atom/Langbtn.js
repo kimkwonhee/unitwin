@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Langbtn = ({children}) => {
+const Langbtn = ({children, onClick}) => {
     return (
-        <Wrapper>
+        <Wrapper onClick={onClick}>
             {children}
         </Wrapper>
     )

@@ -34,14 +34,16 @@ const Globalstyles = createGlobalStyle`
 
 const App = () => {
 
-  const { curlang } = useSelector(state => ({
-    curlang : state.changlang.curlang
+  const { curlang, langkr, langen } = useSelector(state => ({
+    curlang : state.changlang.curlang,
+    langkr : state.changlang.langkr,
+    langen : state.changlang.langen
   }))
 
   return (
     <Wrapper>
       <Globalstyles />
-      <Menubar curlang={curlang}/>
+      <Menubar curlang={curlang} langkr={langkr} langen={langen}/>
       <Switch>
         <Route path="/unitwin/home" component={_Home} exact/>
         <Route path="/unitwin/plenary-session/:detail" component={Pl_Detail}/>
@@ -53,7 +55,7 @@ const App = () => {
         <Route path="/unitwin/byob" component={_Byob}/>
         <Route path="/unitwin/closing-ceremony" component={_Closing}/>
       </Switch>
-      <Footer />
+      <Footer curlang={curlang} langkr={langkr} langen={langen}/>
     </Wrapper>
   )
 }

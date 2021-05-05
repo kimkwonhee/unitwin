@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, Route } from 'react-router-dom';
 import img_01 from '../images/session_26.png'
 import img_02 from '../images/session_27.png'
 import img_03 from '../images/session_33.png'

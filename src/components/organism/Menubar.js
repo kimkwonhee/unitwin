@@ -11,13 +11,11 @@ import { Link, withRouter, useLocation } from 'react-router-dom'
 import { Affix, Drawer } from 'antd'
 import m_menu_close from '../../images/mobile_menu_close.png'
 import m_menu_title from '../../images/mobile_menu_title.png'
-import m_menu_cop1 from '../../images/mobile_cop_logo1.png'
-import m_menu_cop2 from '../../images/mobile_cop_logo2.png'
 import { useDispatch } from 'react-redux'
 import { changkr, changen } from '../../modules/changlang'
 
 
-const Menubar = withRouter(({ className, curlang}) => {
+const Menubar = withRouter(({ className, curlang }) => {
 
     const dispatch = useDispatch();
     const onChangKr = () => dispatch(changkr());
@@ -42,9 +40,9 @@ const Menubar = withRouter(({ className, curlang}) => {
         return () => window.removeEventListener('scroll', onScrollChange)
     }, [location.pathname])
 
-    useEffect(() => {
-        console.log(curlang);
-    }, [onChangKr, onChangEn]);
+    const p_detaildata = curlang.p_data.menuber;
+    const m_detaildata = curlang.m_data.menuber;
+    const m_footerdata = curlang.m_data.footer;
 
     return (
         <>
@@ -54,26 +52,26 @@ const Menubar = withRouter(({ className, curlang}) => {
                         <PLogoImg src={p_menulogo} alt="logo" />
                     </PLinkTag>
                     <PMenuArea>
-                        <Menubtn>{curlang.p_data.menuber.text1}</Menubtn>
+                        <Menubtn>{p_detaildata.text1}</Menubtn>
                         <PLinkTag to="/unitwin/plenary-session">    
-                            <Menubtn>기조발제</Menubtn>
+                            <Menubtn>{p_detaildata.text2}</Menubtn>
                         </PLinkTag>
                         <PLinkTag to="/unitwin/session">
-                            <Menubtn>주제세션</Menubtn>
+                            <Menubtn>{p_detaildata.text3}</Menubtn>
                         </PLinkTag>
                         <PLinkTag to="/unitwin/presession-showcase">
-                            <Menubtn>기획세션</Menubtn>
+                            <Menubtn>{p_detaildata.text4}</Menubtn>
                         </PLinkTag>
                         <PLinkTag to="/unitwin/byob">
-                            <Menubtn>BYOB</Menubtn>
+                            <Menubtn>{p_detaildata.text5}</Menubtn>
                         </PLinkTag>
                         <PLinkTag to="/unitwin/closing-ceremony">
-                            <Menubtn>폐회세션</Menubtn>
+                            <Menubtn>{p_detaildata.text6}</Menubtn>
                         </PLinkTag>
                     </PMenuArea>
                     <PLangArea>
-                        <Langbtn onClick={()=>onChangKr()}>KOR</Langbtn>
-                        <Langbtn onClick={()=>onChangEn()}>ENG</Langbtn>
+                        <Langbtn onClick={(e)=>onChangKr()}>KOR</Langbtn>
+                        <Langbtn onClick={(e)=>onChangEn()}>ENG</Langbtn>
                     </PLangArea>
                 </PInner>
             </PWrapper>
@@ -102,8 +100,8 @@ const Menubar = withRouter(({ className, curlang}) => {
                 <DrawerWrapper>
                 <DrawerHeader>
                     <PLangArea>
-                        <Langbtn>KOR</Langbtn>
-                        <Langbtn>ENG</Langbtn>
+                        <Langbtn onClick={(e)=>onChangKr()}>KOR</Langbtn>
+                        <Langbtn onClick={(e)=>onChangEn()}>ENG</Langbtn>
                     </PLangArea>
                     <MCloseImg onClick={e=> setDrawerVisible(false)} />
                 </DrawerHeader>
@@ -113,7 +111,7 @@ const Menubar = withRouter(({ className, curlang}) => {
                 <DrawerMenuList>
                     <DrawerMenuListItem>
                         <DrawerMenuTxt>
-                            주간행사
+                            {m_detaildata.text1}
                         </DrawerMenuTxt>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
@@ -121,49 +119,47 @@ const Menubar = withRouter(({ className, curlang}) => {
                             pathname: '/unitwin/plenary-session'
                         }}>
                             <DrawerMenuTxt>
-                                기조발제
+                            {m_detaildata.text2}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/session">
                             <DrawerMenuTxt>
-                                주제세션
+                            {m_detaildata.text3}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/presession-showcase">
                             <DrawerMenuTxt>
-                                기획세션
+                            {m_detaildata.text4}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/byob">
                             <DrawerMenuTxt>
-                                BYOB
+                            {m_detaildata.text5}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/closing-ceremony">
                             <DrawerMenuTxt>
-                                폐회세션
+                            {m_detaildata.text6}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                 </DrawerMenuList>
                 <DrawerFooter>
-                    <DrawerPrivacyBtn>개인정보처리방침</DrawerPrivacyBtn>
-                    <DrawerFooterInfo>
-                    제4회 유네스코 유니트윈 학술대회 운영사무국<br />
-                    (주)프럼에이 (105-87-52236) 서울 마포구 성미산로23길 30-5<br /><br />
-                    대표전화&nbsp;&nbsp;I&nbsp;&nbsp;02-733-1399<br />
-                    운영시간&nbsp;&nbsp;I&nbsp;&nbsp;월-금 10:00 - 19:00 (주말, 공휴일 휴무)
+                    <DrawerPrivacyBtn>{m_footerdata.ftpolicy}</DrawerPrivacyBtn>
+                    <DrawerFooterInfo>{m_footerdata.ftaddress}<br /><br />
+                    {m_footerdata.fttel}<br />
+                    {m_footerdata.activetime}
                     </DrawerFooterInfo>
-                    <DrawerCopLogo1 src={m_menu_cop1} />
-                    <DrawerCopLogo2 src={m_menu_cop2} />
+                    <DrawerCopLogo1 src={m_footerdata.ftlogo_1} alt={m_footerdata.ftlogo_1_alt}/>
+                    <DrawerCopLogo2 src={m_footerdata.ftlogo_2} alt={m_footerdata.ftlogo_2_alt}/>
                     <DrawerDivider />
                     <DrawerCopyright>
                     ⓒ KOREA ARTS &amp; CULTURE EDUCATION SERVICE. All Rights Reserved. 
@@ -254,7 +250,6 @@ const DrawerWrapper = styled.div`
   width: 100%;
   
 `
-
 const DrawerHeader = styled.div`
   width: 100%;
   height: 60px;
@@ -263,7 +258,6 @@ const DrawerHeader = styled.div`
   align-items: center;
   padding: 0 16px;
 `
-
 const MCloseImg = styled.div`
     cursor: pointer;
     width : 24px;
@@ -275,14 +269,12 @@ const DrawerTitleArea = styled.div`
   margin-bottom: 80px;
   padding: 0 40px;
 `
-
 const DrawerMenuList = styled.ul`
   width: 100%;
   padding: 16px;
   list-style: none;
   margin-bottom: 80px;
 `
-
 const DrawerMenuListItem = styled.li`
   width: 100%;
   height: 48px;
@@ -293,14 +285,12 @@ const DrawerMenuListItem = styled.li`
     opacity: 0.8;
   }
 `
-
 const DrawerMenuTxt = styled.p`
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
   color: var(--black);
 `
-
 const DrawerFooter = styled.div`
   width: 100%;
   padding: 28px 16px 60px 16px;
@@ -309,39 +299,32 @@ const DrawerFooter = styled.div`
   flex-direction: column;
   align-items: flex-start;
 `
-
 const DrawerPrivacyBtn = styled.a`
   font-size: 12px;
   font-weight: bold;
   color: var(--turtle-green);
 `
-
 const DrawerFooterInfo = styled.p`
   font-size: 12px;
   font-weight: 500;
   color: var(--white);
   margin: 50px 0 40px 0;
 `
-
 const DrawerCopLogo1 = styled.img`
   margin-bottom: 12px;
 `
-
 const DrawerCopLogo2 = styled(DrawerCopLogo1)`
   margin-bottom: 0;
 `
-
 const DrawerDivider = styled.div`
   width: 100%;
   height: 1px;
   background-color: #5f5f5f;
   margin: 60px 0 20px;
 `
-
 const DrawerCopyright = styled.div`
   font-size: 10px;
   font-weight: 400;
   color: var(--white);
 `
-
 export default withRouter(Menubar)
