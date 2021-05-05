@@ -13,7 +13,7 @@ import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
 import Se_Detail from './components/organism/session/Se_Detail'
 import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 import 'antd/dist/antd.css'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 const Globalstyles = createGlobalStyle`
 
