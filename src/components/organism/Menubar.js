@@ -15,7 +15,7 @@ import { useDispatch } from 'react-redux'
 import { changkr, changen } from '../../modules/changlang'
 
 
-const Menubar = withRouter(({ className, curlang }) => {
+const Menubar = withRouter(({ className, curlang, langkr }) => {
 
     const dispatch = useDispatch();
     const onChangKr = () => dispatch(changkr());
@@ -44,6 +44,8 @@ const Menubar = withRouter(({ className, curlang }) => {
     const m_detaildata = curlang.m_data.menuber;
     const m_footerdata = curlang.m_data.footer;
 
+    const [langState, setLangState] = useState('kr');
+
     return (
         <>
             <PWrapper className={className}>
@@ -70,8 +72,19 @@ const Menubar = withRouter(({ className, curlang }) => {
                         </PLinkTag>
                     </PMenuArea>
                     <PLangArea>
-                        <Langbtn onClick={(e)=>onChangKr()}>KOR</Langbtn>
-                        <Langbtn onClick={(e)=>onChangEn()}>ENG</Langbtn>
+                        <Langbtn 
+                            id='kr' 
+                            langstate={langState} 
+                            onClick={(e)=> { onChangKr(); setLangState('kr'); }}
+                            >
+                                KOR
+                            </Langbtn>
+                        <Langbtn 
+                            id='en' 
+                            langstate={langState}  
+                            onClick={(e)=>{ onChangEn(); setLangState('en');}}>
+                                ENG
+                        </Langbtn>
                     </PLangArea>
                 </PInner>
             </PWrapper>
@@ -100,8 +113,19 @@ const Menubar = withRouter(({ className, curlang }) => {
                 <DrawerWrapper>
                 <DrawerHeader>
                     <PLangArea>
-                        <Langbtn onClick={(e)=>onChangKr()}>KOR</Langbtn>
-                        <Langbtn onClick={(e)=>onChangEn()}>ENG</Langbtn>
+                        <Langbtn 
+                            id='kr' 
+                            langstate={langState} 
+                            onClick={(e)=> { onChangKr(); setLangState('kr'); }}
+                            >
+                                KOR
+                            </Langbtn>
+                        <Langbtn 
+                            id='en' 
+                            langstate={langState}  
+                            onClick={(e)=>{ onChangEn(); setLangState('en');}}>
+                                ENG
+                        </Langbtn>
                     </PLangArea>
                     <MCloseImg onClick={e=> setDrawerVisible(false)} />
                 </DrawerHeader>

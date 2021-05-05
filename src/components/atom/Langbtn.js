@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Langbtn = ({children, onClick}) => {
+const Langbtn = ({children, onClick, id, langstate}) => {
+    console.log(onClick);
     return (
-        <Wrapper onClick={onClick}>
+        <Wrapper 
+            onClick={onClick}
+            id={id}
+            langstate={langstate}
+        >
             {children}
         </Wrapper>
     )
@@ -19,7 +24,8 @@ const Wrapper = styled.div`
      border: solid 0.5px var(--turtle-green);
      font-size: 0.75rem;
      font-weight: bold;
-     color: var(--brown-grey);
+     color: ${props=> (props.id == props.langstate) ? 'var(--white)' : 'var(--brown-grey)'};
+     background-color: ${props=> (props.id == props.langstate) ? 'var(--turtle-green)' : 'var(--white)'}
 `
 
 export default Langbtn

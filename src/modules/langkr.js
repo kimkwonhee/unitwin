@@ -2,45 +2,47 @@ import plogo1 from '../images/footer_logo1.png'
 import plogo2 from '../images/footer_logo2.png'
 import mlogo1 from '../images/mobile_cop_logo1.png'
 import mlogo2 from '../images/mobile_cop_logo2.png'
-import sesseion_img_01 from '../images/session_01.png'
-import sesseion_img_02 from '../images/session_02.png'
-import sesseion_img_03 from '../images/session_03.png'
-import sesseion_img_04 from '../images/session_04.png'
-import sesseion_img_05 from '../images/session_05.png'
-import sesseion_img_06 from '../images/session_06.png'
-import sesseion_img_07 from '../images/session_07.png'
-import sesseion_img_08 from '../images/session_08.png'
-import sesseion_img_09 from '../images/session_09.png'
-import sesseion_img_10 from '../images/session_10.png'
-import sesseion_img_11 from '../images/session_11.png'
-import sesseion_img_13 from '../images/session_13.png'
-import sesseion_img_14 from '../images/session_14.png'
-import sesseion_img_15 from '../images/session_15.png'
-import sesseion_img_16 from '../images/session_16.png'
-import sesseion_img_17 from '../images/session_17.png'
-import sesseion_img_18 from '../images/session_18.png'
-import sesseion_img_19 from '../images/session_19.png'
-import sesseion_img_20 from '../images/session_20.png'
-import sesseion_img_21 from '../images/session_21.png'
-import sesseion_img_22 from '../images/session_22.png'
-import sesseion_img_23 from '../images/session_23.png'
-import sesseion_img_24 from '../images/session_24.png'
-import sesseion_img_25 from '../images/session_25.png'
-import sesseion_img_26 from '../images/session_12.png'
-import sesseion_img_27 from '../images/session_34.png'
-import sesseion_img_28 from '../images/session_35.png'
-import sesseion_img_29 from '../images/session_36.png'
-import sesseion_img_30 from '../images/session_37.png'
-import sesseion_img_31 from '../images/session_38.png'
-import sesseion_img_32 from '../images/session_39.png'
-import sesseion_img_33 from '../images/session_40.png'
-import sesseion_img_34 from '../images/session_41.png'
-import sesseion_img_35 from '../images/session_42.png'
-import sesseion_img_36 from '../images/session_43.png'
-import sesseion_img_37 from '../images/session_44.png'
-import sesseion_img_38 from '../images/session_45.png'
-import sesseion_img_39 from '../images/session_46.png'
-import sesseion_img_40 from '../images/session_47.png'
+import plsession_img_01 from '../images/plense_img01.png'
+import plsession_img_02 from '../images/plense_img02.png'
+import session_img_01 from '../images/session_01.png'
+import session_img_02 from '../images/session_02.png'
+import session_img_03 from '../images/session_03.png'
+import session_img_04 from '../images/session_04.png'
+import session_img_05 from '../images/session_05.png'
+import session_img_06 from '../images/session_06.png'
+import session_img_07 from '../images/session_07.png'
+import session_img_08 from '../images/session_08.png'
+import session_img_09 from '../images/session_09.png'
+import session_img_10 from '../images/session_10.png'
+import session_img_11 from '../images/session_11.png'
+import session_img_13 from '../images/session_13.png'
+import session_img_14 from '../images/session_14.png'
+import session_img_15 from '../images/session_15.png'
+import session_img_16 from '../images/session_16.png'
+import session_img_17 from '../images/session_17.png'
+import session_img_18 from '../images/session_18.png'
+import session_img_19 from '../images/session_19.png'
+import session_img_20 from '../images/session_20.png'
+import session_img_21 from '../images/session_21.png'
+import session_img_22 from '../images/session_22.png'
+import session_img_23 from '../images/session_23.png'
+import session_img_24 from '../images/session_24.png'
+import session_img_25 from '../images/session_25.png'
+import session_img_26 from '../images/session_12.png'
+import session_img_27 from '../images/session_34.png'
+import session_img_28 from '../images/session_35.png'
+import session_img_29 from '../images/session_36.png'
+import session_img_30 from '../images/session_37.png'
+import session_img_31 from '../images/session_38.png'
+import session_img_32 from '../images/session_39.png'
+import session_img_33 from '../images/session_40.png'
+import session_img_34 from '../images/session_41.png'
+import session_img_35 from '../images/session_42.png'
+import session_img_36 from '../images/session_43.png'
+import session_img_37 from '../images/session_44.png'
+import session_img_38 from '../images/session_45.png'
+import session_img_39 from '../images/session_46.png'
+import session_img_40 from '../images/session_47.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -75,8 +77,35 @@ export const langkr = {
         home : {
 
         },
-        pl_Session : {
 
+        // 기조발제
+        pl_Session : {
+            title : '기조발제',
+            contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데,\n'
+                       +'예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한\n'
+                       +'자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을\n'
+                       +'불러 일으킬 것입니다.',
+            data : [
+                {
+                    imgs : plsession_img_01,
+                    title : "예술교육 2.0의 다양성",
+                    time : "05.25(화) 13:00-13:40",
+                    name : "벤야민 요리슨 ",
+                    enname : "(Benjamin Jorissen)",
+                    jop : "- 뮌헨 미술원 선임연구원",
+                    link : '/unitwin/plenary-session/a'
+                },
+                {
+                    imgs : plsession_img_02,
+                    title : '예술 교육의 과제로서의 "문화적 회복력"과 "미적 회복력"\n'
+                           +': 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계',
+                    time : "05.26(수) 13:00~13:40",
+                    name : "벤야민 요리슨 ",
+                    enname : "(Benjamin Jorissen)",
+                    jop : "- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일",
+                    link : '/unitwin/plenary-session/b'
+                }
+            ]
         },
 
         // 주제세션
@@ -94,49 +123,49 @@ export const langkr = {
             },
             {
                 item : [
-                    { id : 1, img : sesseion_img_01, name : '정용성' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 2, img : sesseion_img_02, name : '이은수' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 3, img : sesseion_img_03, name : '김소원' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 4, img : sesseion_img_04, name : '김수연' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 5, img : sesseion_img_05, name : '이보람' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 6, img : sesseion_img_06, name : '티나 쿠코' , title : "예술 치유" , link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 7, img : sesseion_img_07, name : '산자 크르스마노비츠 타식' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 8, img : sesseion_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 9, img : sesseion_img_09, name : '김채연' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 10, img : sesseion_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 11, img : sesseion_img_10, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 12, img : sesseion_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 13, img : sesseion_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 14, img : sesseion_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 15, img : sesseion_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 16, img : sesseion_img_17, name : '차후 룸' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 17, img : sesseion_img_18, name : '젠 터' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 18, img : sesseion_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 19, img : sesseion_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 20, img : sesseion_img_21, name : '에비 맥도날드' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 21, img : sesseion_img_22, name : '마리클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 22, img : sesseion_img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 23, img : sesseion_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 24, img : sesseion_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 25, img : sesseion_img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 26, img : sesseion_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 27, img : sesseion_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 28, img : sesseion_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 29, img : sesseion_img_10, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 30, img : sesseion_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 31, img : sesseion_img_30, name : '탄정수안' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 32, img : sesseion_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 33, img : sesseion_img_31, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 34, img : sesseion_img_32, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 35, img : sesseion_img_33, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 36, img : sesseion_img_34, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 37, img : sesseion_img_35, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 38, img : sesseion_img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 39, img : sesseion_img_36, name : '장수혜' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 40, img : sesseion_img_37, name : '공윤지' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 41, img : sesseion_img_38, name : '이현정' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 42, img : sesseion_img_39, name : '배성종' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 43, img : sesseion_img_40, name : '최영희' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 1, img : session_img_01, name : '정용성' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 2, img : session_img_02, name : '이은수' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 3, img : session_img_03, name : '김소원' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 4, img : session_img_04, name : '김수연' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 5, img : session_img_05, name : '이보람' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 6, img : session_img_06, name : '티나 쿠코' , title : "예술 치유" , link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 7, img : session_img_07, name : '산자 크르스마노비츠 타식' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 8, img : session_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 9, img : session_img_09, name : '김채연' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 10, img : session_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 11, img : session_img_10, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 12, img : session_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 15, img : session_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 16, img : session_img_17, name : '차후 룸' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 17, img : session_img_18, name : '젠 터' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 18, img : session_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 19, img : session_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 20, img : session_img_21, name : '에비 맥도날드' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 21, img : session_img_22, name : '마리클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 22, img : session_img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 23, img : session_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 24, img : session_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 25, img : session_img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 29, img : session_img_10, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 30, img : session_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 31, img : session_img_30, name : '탄정수안' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 33, img : session_img_31, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 35, img : session_img_33, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 36, img : session_img_34, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 37, img : session_img_35, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 38, img : session_img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 39, img : session_img_36, name : '장수혜' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 40, img : session_img_37, name : '공윤지' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 41, img : session_img_38, name : '이현정' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 42, img : session_img_39, name : '배성종' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 43, img : session_img_40, name : '최영희' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
 
                 ]}
             
@@ -299,6 +328,7 @@ export const langkr = {
 
     // 모바일
     m_data : {
+        // 메뉴바
         menuber : {
             text1 : '주간행사',
             text2 : '기조발제',
@@ -306,6 +336,36 @@ export const langkr = {
             text4 : '기획세션',
             text5 : 'BYOB',
             text6 : '폐회세션',
+        },
+
+        // 기조발제
+        pl_Session : {
+            title : '기조발제',
+            contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데,\n'
+                       +'예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한\n'
+                       +'자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을\n'
+                       +'불러 일으킬 것입니다.',
+            data : [
+                {
+                    imgs : plsession_img_01,
+                    title : "예술교육 2.0의 다양성",
+                    time : "05.25(화) 13:00-13:40",
+                    name : "벤야민 요리슨 ",
+                    enname : "(Benjamin Jorissen)",
+                    jop : "- 뮌헨 미술원 선임연구원",
+                    link : '/unitwin/plenary-session/a'
+                },
+                {
+                    imgs : plsession_img_02,
+                    title : '예술 교육의 과제로서의 "문화적 회복력"과 "미적 회복력"\n'
+                           +': 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계',
+                    time : "05.26(수) 13:00~13:40",
+                    name : "벤야민 요리슨 ",
+                    enname : "(Benjamin Jorissen)",
+                    jop : "- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일",
+                    link : '/unitwin/plenary-session/b'
+                }
+            ]
         },
 
         // 주제세션
@@ -323,49 +383,49 @@ export const langkr = {
             },
             {
                 item : [
-                    { id : 1, img : sesseion_img_01, name : '정용성' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 2, img : sesseion_img_02, name : '이은수' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 3, img : sesseion_img_03, name : '김소원' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 4, img : sesseion_img_04, name : '김수연' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 5, img : sesseion_img_05, name : '이보람' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
-                    { id : 6, img : sesseion_img_06, name : '티나 쿠코' , title : "예술 치유" , link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 7, img : sesseion_img_07, name : '산자 크르스마노비츠 타식' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 8, img : sesseion_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 9, img : sesseion_img_09, name : '김채연' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
-                    { id : 10, img : sesseion_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 11, img : sesseion_img_10, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 12, img : sesseion_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 13, img : sesseion_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
-                    { id : 14, img : sesseion_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 15, img : sesseion_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 16, img : sesseion_img_17, name : '차후 룸' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 17, img : sesseion_img_18, name : '젠 터' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 18, img : sesseion_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 19, img : sesseion_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 20, img : sesseion_img_21, name : '에비 맥도날드' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
-                    { id : 21, img : sesseion_img_22, name : '마리클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 22, img : sesseion_img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 23, img : sesseion_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 24, img : sesseion_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 25, img : sesseion_img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
-                    { id : 26, img : sesseion_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 27, img : sesseion_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 28, img : sesseion_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 29, img : sesseion_img_10, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 30, img : sesseion_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 31, img : sesseion_img_30, name : '탄정수안' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 32, img : sesseion_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
-                    { id : 33, img : sesseion_img_31, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 34, img : sesseion_img_32, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 35, img : sesseion_img_33, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 36, img : sesseion_img_34, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 37, img : sesseion_img_35, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 38, img : sesseion_img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
-                    { id : 39, img : sesseion_img_36, name : '장수혜' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 40, img : sesseion_img_37, name : '공윤지' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 41, img : sesseion_img_38, name : '이현정' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 42, img : sesseion_img_39, name : '배성종' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
-                    { id : 43, img : sesseion_img_40, name : '최영희' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 1, img : session_img_01, name : '정용성' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 2, img : session_img_02, name : '이은수' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 3, img : session_img_03, name : '김소원' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 4, img : session_img_04, name : '김수연' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 5, img : session_img_05, name : '이보람' , title : "현장사례연구 1", link : "/unitwin/session/a", catagory : '팬데믹'},
+                    { id : 6, img : session_img_06, name : '티나 쿠코' , title : "예술 치유" , link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 7, img : session_img_07, name : '산자 크르스마노비츠 타식' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 8, img : session_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 9, img : session_img_09, name : '김채연' , title : "예술 치유", link : "/unitwin/session/b", catagory : '청소년정신건강'},
+                    { id : 10, img : session_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 11, img : session_img_10, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 12, img : session_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/unitwin/session/c", catagory : '글로벌'},
+                    { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 15, img : session_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 16, img : session_img_17, name : '차후 룸' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 17, img : session_img_18, name : '젠 터' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 18, img : session_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 19, img : session_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 20, img : session_img_21, name : '에비 맥도날드' , title : "서울 어젠다", link : "/unitwin/session/d", catagory : '지속가능성'},
+                    { id : 21, img : session_img_22, name : '마리클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 22, img : session_img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 23, img : session_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 24, img : session_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 25, img : session_img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin/session/e", catagory : '다양성포용'},
+                    { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 29, img : session_img_10, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 30, img : session_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 31, img : session_img_30, name : '탄정수안' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin/session/f", catagory : '예술교육가'},
+                    { id : 33, img : session_img_31, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 35, img : session_img_33, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 36, img : session_img_34, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 37, img : session_img_35, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 38, img : session_img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin/session/g", catagory : '평등'},
+                    { id : 39, img : session_img_36, name : '장수혜' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 40, img : session_img_37, name : '공윤지' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 41, img : session_img_38, name : '이현정' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 42, img : session_img_39, name : '배성종' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
+                    { id : 43, img : session_img_40, name : '최영희' , title : "현장사례연구 2", link : "/unitwin/session/h", catagory : '사회적예술'},
 
                 ]}
             
