@@ -33,11 +33,13 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
             <MWrapper>
                 <MInner>
                     <MImg src={imgs} alt={name} />
-                    <MTitle>{title}</MTitle>
-                    <MTime>{time}</MTime>
+                    <MTitle location={location}>{title}</MTitle>
+                    {location.pathname === '/unitwin/byob'
+                    ? null : <MTime>{time}</MTime>}
                     <MName>{name}</MName>
                     <MEnName>{enname}</MEnName>
                     <MJop>{jop}</MJop>
+                    <MDiscription>{discripton}</MDiscription>
                     <MLink to={link}>
                             {location.pathname === '/unitwin/byob'
                             ? null
@@ -145,21 +147,24 @@ const MImg = styled.img`
     height : 198px;
 `
 const MTitle = styled.div`
-    margin-top : 28px;
+    ${props => props.location.pathname === '/unitwin/byob'
+    ? '' : 'margin-top : 28px'};
     font-size: 16px;
     font-weight: bold;
     text-align : center;
     white-space: pre-line;
     color: var(--black);
+    line-height: 1.5
 `
 const MTime = styled.div`
     margin-top : 8px;
     font-size: 14px;
     color: var(--black);
+    font-weight: bold;
 `
 const MName = styled.div`
-    margin-top : 18px;
-    font-size: 16px;
+    margin-top: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: var(--black);
 `
@@ -169,16 +174,25 @@ const MEnName = styled.div`
     color: var(--brown-grey);
 `
 const MJop = styled.div`
-    margin-top : 14px;
+    margin : 14px 0 18px;
     font-size: 14px;
     color: var(--black);
     white-space: pre-line;
+    text-align : center;
+    line-height: 1.5
+`
+const MDiscription = styled.div`
+    font-size: 12px;
+    line-height: 1.5;
     text-align : center;
 `
 const MVideobtn = styled(Videobtn)`
     margin-top : 28px;
     width : 92px;
     height : 36px;
+    div {
+        font-size: 14px !important;
+    }
 `
 const MLink = styled(Link)`
     text-decoration : none;
