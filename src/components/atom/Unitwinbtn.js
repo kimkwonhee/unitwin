@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Unitwinbtn = ({className, homebtn}) => {
     return (
@@ -24,7 +25,7 @@ const PWrapper = styled.a`
     display : ${props => props.homebtn ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;
-    background-color: var(--white);
+    background-color: ${color.white};
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -32,7 +33,7 @@ const PWrapper = styled.a`
 const PText = styled.div`
     font-size: 14px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 
 const MWrapper = styled.a`
@@ -49,7 +50,7 @@ const MWrapper = styled.a`
 const MText = styled.div`
     font-size: 12px;
     font-weight: 400;
-    color: var(--white);
+    color: ${color.white};
 `
 
 export default Unitwinbtn

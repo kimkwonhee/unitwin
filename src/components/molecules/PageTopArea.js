@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Unitwinbtn from '../atom/Unitwinbtn'
+import color from '../../style/color'
 
 const PageTopArea = ({ 
     className, 
@@ -61,13 +62,13 @@ const PTopArea = styled.div`
 const PTopTitleArea = styled.div`
     width : 248px;
     padding-top : 12px;
-    border-top : 4px solid var(--black);
+    border-top : 4px solid ${color.black};
     margin-right : 62px;
 `
 const PTopTitle = styled.div`
     font-size: 24px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     white-space: pre-line;
 `
 const PContentsArea = styled.div`
@@ -78,12 +79,12 @@ const PTopContents = styled.div`
     font-size: ${props=> props.subfontsize || '16px'};
     font-weight: 500;
     white-space: pre-line;
-    color: var(--black);
+    color: ${color.black};
 `
 const PSubContents = styled.div`
     margin-top : 40px;
     font-size: 16px;
-    color: var(--black);
+    color: ${color.black};
 `
 const PUnitwinbtn = styled(Unitwinbtn)`
     margin-top : 40px;
@@ -101,13 +102,13 @@ const MTopArea = styled.div`
 const MTopTitleArea = styled.div`
     width : 80px;
     padding-top : 8px;
-    border-top : 2px solid var(--black);
+    border-top : 2px solid ${color.black};
     margin-right : 0px;
 `
 const MTopTitle = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     margin-bottom : 12;
 `
 
@@ -116,13 +117,13 @@ const MTopContents = styled.div`
     font-size: 12px;
     font-weight: 400;
     white-space: pre-line;
-    color: var(--black);
+    color: ${color.black};
     margin-top : 12px;
 `
 const MSubContents = styled.div`
     margin-top : 16px;
     font-size: 10px;
-    color: var(--black);
+    color: ${color.black};
     white-space: pre-line;
 `
 

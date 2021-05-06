@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../../style/color'
 
 const Home_all = ({top}) => {
     return (
@@ -281,7 +282,7 @@ const Home_all = ({top}) => {
 // PC
 const PWrapper = styled.div`
     width : 100%;
-    border : 1px solid var(--turtle-green);
+    border : 1px solid ${color.turtle_green};
     margin-bottom : 200px;
     display : block;
     
@@ -300,7 +301,7 @@ const PDayBlock = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    border-right : 1px solid var(--turtle-green);
+    border-right : 1px solid ${color.turtle_green};
     &:last-child {
         border-right : none;
     }
@@ -308,7 +309,7 @@ const PDayBlock = styled.div`
 const PDayText = styled.div`
     font-size: 24px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const PSection =styled.div`
     display : flex;
@@ -339,40 +340,40 @@ const PTitle = styled.div`
 `
 const PSubTitle = styled.div`
     font-size: 18px;
-    color: var(--black);
+    color: ${color.black};
 `
 
 const PTueCharacter1 = styled.div`
     margin-top : 20px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PTueCharacter2 = styled.div`
     margin-top : 8px;
     font-size: 16px;
     font-weight: bold;
     text-align : center;
-    color: var(--black);
+    color: ${color.black};
 `
 const PMove = styled.div`
     cursor: pointer;
     margin-top : ${props => props.top || '40px'};
     font-size: 16px;
     font-weight: 500;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const PPhasis1 = styled.div`
     margin-top : 40px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const PPhasis2 = styled.div`
     margin-top : 20px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 
 const PLeftArea = styled.div`
@@ -382,7 +383,7 @@ const PLeftArea = styled.div`
     display : flex;
     flex-direction : column;
     align-items : center;
-    border-right : 1px solid var(--turtle-green);
+    border-right : 1px solid ${color.turtle_green};
 `
 const PRightArea = styled.div`
     width : 200px;
@@ -402,14 +403,14 @@ const PMonSection1 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content : center;
-    border-top : 1px solid var(--turtle-green);
-    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
+    border-right : 1px solid ${color.turtle_green};
 `
 const PMonSection2 = styled.div`
     height : 1332px;
     background-color: #f9fff4;
-    border-top : 1px solid var(--turtle-green);
-    border-right : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
+    border-right : 1px solid ${color.turtle_green};
 `
 
 // Tue
@@ -419,8 +420,8 @@ const PTueSection1 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid var(--turtle-green);
-    border-top : 1px solid var(--turtle-green);
+    border-right : 1px solid ${color.turtle_green};
+    border-top : 1px solid ${color.turtle_green};
 `
 const PTueSection2 = styled.div`
     height : 500px;
@@ -428,14 +429,14 @@ const PTueSection2 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid var(--turtle-green);
-    border-top : 1px solid var(--turtle-green);
+    border-right : 1px solid ${color.turtle_green};
+    border-top : 1px solid ${color.turtle_green};
 `
 const PTueSection3 = styled.div`
     height : auto;
     display : flex;
-    border-right : 1px solid var(--turtle-green);
-    border-top : 1px solid var(--turtle-green);
+    border-right : 1px solid ${color.turtle_green};
+    border-top : 1px solid ${color.turtle_green};
 `
 const PTueSection4 = styled.div`
     height : 500px;
@@ -443,8 +444,8 @@ const PTueSection4 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid var(--turtle-green);
-    border-top : 1px solid var(--turtle-green);
+    border-right : 1px solid ${color.turtle_green};
+    border-top : 1px solid ${color.turtle_green};
 `
 const PTueSection5 = styled.div`
     height : 198px;
@@ -452,8 +453,8 @@ const PTueSection5 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-right : 1px solid var(--turtle-green);
-    border-top : 1px solid var(--turtle-green);
+    border-right : 1px solid ${color.turtle_green};
+    border-top : 1px solid ${color.turtle_green};
 `
 
 // Wed
@@ -463,7 +464,7 @@ const PWedSection1 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
 `
 const PWedSection2 = styled.div`
     height : 500px;
@@ -471,12 +472,12 @@ const PWedSection2 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
 `
 const PWedSection3 = styled.div`
     height : auto;
     display : flex;
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
 `
 const PWedSection4 = styled.div`
     height : 500px;
@@ -484,7 +485,7 @@ const PWedSection4 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
 `
 const PWedSection5 = styled.div`
     height : 197px;
@@ -492,7 +493,7 @@ const PWedSection5 = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content  : center;
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
 `
 
 // Mobile
@@ -511,7 +512,7 @@ const MInner = styled.div`
 `
 const MSection  = styled.div`
     margin-top : 28px;
-    border: solid 0.5px var(--turtle-green);
+    border: solid 0.5px ${color.turtle_green};
 `
 const MDayBlock = styled.div`
     height : 40px;
@@ -523,17 +524,17 @@ const MDayBlock = styled.div`
 const MDayText = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const MContents = styled.div`
     display : flex;
     padding : 8px 12px;
-    border-top: solid 0.5px var(--turtle-green);
+    border-top: solid 0.5px ${color.turtle_green};
 `
 const MTime = styled.div`
     width : 117px;
     font-size: 14px;
-    color: var(--brownish-grey);
+    color: ${color.brownish_grey};
     /* background-color : red; */
 `
 const MTextArea = styled.div`
@@ -543,14 +544,14 @@ cursor: pointer;
 const MTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     margin-top : ${props => props.top || '0px'}
 `
 const MSubTitle = styled.div`
     margin-top : 4px;
     font-size: 14px;
     font-weight: 500;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 
 

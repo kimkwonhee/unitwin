@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Preregistrationbtn = ({className, children}) => {
     return (
@@ -13,13 +14,13 @@ const Wrapper = styled.a`
     cursor: pointer;
     width : 248px;
     height : 62px;
-    border: solid 2px var(--black);
+    border: solid 2px ${color.black};
     display : flex;
     justify-content : center;
     align-items : center;
     font-size: 20px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 
 export default Preregistrationbtn

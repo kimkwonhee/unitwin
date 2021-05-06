@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Calendarbtn = ({id, title, calendar, status, onClick}) => {
 
@@ -30,17 +31,17 @@ const Calendarbtn = ({id, title, calendar, status, onClick}) => {
 const PWrapper = styled.div`
     width : 282px;
     height : 62px;
-    border: solid 2px var(--black);
+    border: solid 2px ${color.black};
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: ${(props) => (props.id === props.status) ? 'var(--black)' : 'var(--white)'};
+    background-color: ${(props) => (props.id === props.status) ? color.black : color.white};
     cursor: pointer;
-    color: ${(props) => (props.id === props.status) ? 'var(--white)' : 'var(--black)'};
+    color: ${(props) => (props.id === props.status) ? color.white : color.black};
 
     &:hover {
-        background-color: var(--black);
-        color: var(--white);
+        background-color: ${color.black};
+        color: ${color.white};
     }
     @media all and (max-width:1199px) {
         display : none;
@@ -59,18 +60,18 @@ const PSub = styled.div`
 const MWrapper = styled.div`
     width : 100%;
     height : 63px;
-    border: solid 1px var(--black);
+    border: solid 1px ${color.black};
     display : flex;
     flex-direction : column;
     align-items : center;
     justify-content : center;
-    background-color: ${(props) => (props.id === props.status) ? 'var(--black)' : 'var(--white)'};
+    background-color: ${(props) => (props.id === props.status) ? color.black : color.white};
     cursor: pointer;
-    color: ${(props) => (props.id === props.status) ? 'var(--white)' : 'var(--black)'};
+    color: ${(props) => (props.id === props.status) ? color.white : color.black};
 
     &:hover {
-        background-color: var(--black);
-        color: var(--white);
+        background-color: ${color.black};
+        color: ${color.white};
     }
     @media all and (min-width:1200px) {
         display : none;

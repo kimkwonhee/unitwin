@@ -5,6 +5,7 @@ import backgroud2 from '../../../images/home_bg02.png'
 import logo from '../../../images/home_top_logo.png'
 import Preregistrationbtn from '../../atom/Preregistrationbtn'
 import PageTopArea from '../../molecules/PageTopArea'
+import color from '../../../style/color'
 
 const Home_top = ({className , curlang}) => {
     const p_detaildata = curlang.p_data.home_top;
@@ -117,7 +118,7 @@ const PCalender = styled.div`
     padding : 40px 0 50px 0;
     font-size: 20px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PApplybtn = styled(Preregistrationbtn)`
 `
@@ -179,7 +180,7 @@ const MCalender = styled.div`
     padding : 20px 0 30px 0;
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MApplybtn = styled(Preregistrationbtn)`
     margin-top : 24px;
