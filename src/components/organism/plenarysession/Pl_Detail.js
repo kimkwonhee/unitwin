@@ -8,6 +8,7 @@ import mobileviewbtn from '../../atom/mobileviewbtn'
 import Downloadbtn from '../../atom/Downloadbtn'
 import { useSelector } from 'react-redux'
 import color from '../../../style/color'
+import { Affix } from 'antd'
 
 const Pl_Detail = ({match}) => {
     const { curlang } = useSelector(state => ({
@@ -93,13 +94,16 @@ const Pl_Detail = ({match}) => {
                                 {P_contentsection}
                             </PContentsArea>
                         </PLeftArea>
-                        <PRightArea>
-                            <PChatLine />
-                            <PChatArea>
-                                <PChatText>{curlang.p_data.realchating}</PChatText>
-                            </PChatArea>
-                            <PChat src={P_chatlink} />
-                        </PRightArea>
+                        <Affix offsetTop={100}>
+                            <PRightArea>
+                                <PChatLine />
+                                <PChatArea>
+                                    <PChatText>{curlang.p_data.realchating}</PChatText>
+                                </PChatArea>
+                                <PChat src={P_chatlink} />
+                            </PRightArea>
+                        </Affix>
+                        
                     </PCenterArea>
                 </PInner>
             </PWrapper>
