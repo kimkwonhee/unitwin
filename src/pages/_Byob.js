@@ -53,6 +53,10 @@ const _Byob = () => {
                             title={m_detaildata.title} 
                             contents={m_detaildata.contents}
                         />
+                        
+                    <MZoomArea>
+                        <MZoombtn><MZoomText>ZOOM으로 참여하기</MZoomText></MZoombtn>
+                    </MZoomArea>
                     <MMiddleArea>
                         <M_Data 
                             imgs={m_detaildata.data[0].imgs}
@@ -141,8 +145,26 @@ const MInner = styled.div`
 const MContents = styled(PageTopArea)`
     margin-top : 100px;
 `
-const MMiddleArea = styled.div`
+const MZoomArea = styled.div`
+    display: flex;
+    width : 100%;
     margin-top : 40px;
+`
+const MZoombtn = styled.div`
+    width: 162px;
+    height: 36px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color: var(--turtle-green);
+`
+const MZoomText = styled.div`
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--white);
+`
+const MMiddleArea = styled.div`
+    margin-top : 12px;
     border-top : 2px solid var(--turtle-green);
 `
 const M_Data = styled(Pl_SectionData)`

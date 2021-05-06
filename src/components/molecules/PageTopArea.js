@@ -101,16 +101,22 @@ const MTopArea = styled.div`
     }
 `
 const MTopTitleArea = styled.div`
-    width : 80px;
-    padding-top : 8px;
-    border-top : 2px solid ${color.black};
     margin-right : 0px;
+
+    &:before {
+        content: '';
+        display: block;
+        width: 80px;
+        height: 2px;
+        margin-bottom : 8px;
+        background-color: var(--black);
+    }
 `
 const MTopTitle = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: ${color.black};
-    margin-bottom : 12;
+    color: var(--black);
+    white-space: pre-line;
 `
 const MTopKeyword = styled.div`
     display: ${props => props.keyword? "flex" : "none"};
@@ -142,7 +148,6 @@ const MSubContents = styled.div`
     color: ${color.black};
     white-space: pre-line;
 `
-
 const MUnitwinbtn = styled(Unitwinbtn)`
     margin-top : 16px;
 `

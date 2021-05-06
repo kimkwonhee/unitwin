@@ -6,10 +6,9 @@ const ListSession = ({className, data}) => {
     return (
         <>
             <PWrapper className={className}>
-            {data.map(list => {
+            {data.map((list, idx) => {
                 return (
-                <>
-                    <PSection>
+                    <PSection key={idx}>
                         <PInner>
                             <PImgblock>
                                 <PImg src={list.img} alt={list.name} />     
@@ -22,22 +21,22 @@ const ListSession = ({className, data}) => {
                             </PTextblock>
                         </PInner>
                     </PSection>
-                </>
                 )
             })}
             </PWrapper>
 
             <MWrapper>
-                {data.map(list => {
+                {data.map((list, idx) => {
                     return (
-                        <MInner>
-                        <MTextblock>
-                        <MImg src={list.img} alt={list.name} />     
-                        </MTextblock>
-                        <MName>{list.name}</MName>
-                        <MEnName>{list.en_name}</MEnName>
-                        <MListtitle>{list.li_title}</MListtitle>
-                        <MContents>{list.li_contents}</MContents>   
+                        <MInner key={idx}>
+                            <MTextblock>
+                                <MImg src={list.img} alt={list.name} />     
+                            </MTextblock>
+                            <MModer>{list.moder}</MModer>
+                            <MName>{list.name}</MName>
+                            <MEnName>{list.en_name}</MEnName>
+                            <MListtitle>{list.li_title}</MListtitle>
+                            <MContents>{list.li_contents}</MContents>   
                         </MInner>
                     )
                 })}
@@ -83,8 +82,13 @@ const PName = styled.div`
 `
 const PEnName = styled.span`
     font-size: 16px;
+<<<<<<< HEAD
     font-weight: bold;
     color: ${color.black};
+=======
+    font-weight: 400;
+    color: var(--brown-grey);
+>>>>>>> bomi
 `
 const PJob = styled.div`
     padding-top : 8px;
@@ -104,6 +108,8 @@ const MWrapper = styled.div`
     width : auto;
     display : block;
     margin-bottom : 80px;
+    border-top: 2px solid var(--turtle-green);
+
     @media all and (min-width:1200px) {
         display : none;
     }
@@ -114,7 +120,6 @@ const MInner = styled.div`
     flex-direction : column;
     align-items : center;
     padding : 40px 10px 40px 10px;
-    border-top : 1px solid ${color.turtle_green};
 `
 const MTextblock = styled.div`
 `
@@ -122,11 +127,17 @@ const MImg = styled.img`
     width : 180px;
     height : 180px;
 `
-const MName = styled.div`
+const MModer = styled.div`
     margin-top : 28px;
     font-size: 14px;
     font-weight: bold;
-    color: ${color.black};
+    color: var(--turtle-green);
+`
+const MName = styled.div`
+    margin-top : 14px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--black);
 `
 const MEnName = styled.div`
     margin-top : 2px;
