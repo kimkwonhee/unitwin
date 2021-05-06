@@ -25,7 +25,7 @@ const Home_top = ({className , curlang}) => {
                     <PContentsArea>
                         <PImgTitle 
                             src={p_detaildata.img}
-                            alt="위기의 시대, 행동하는 예술교육" 
+                            alt="title" 
                         />
                         <PCalender>{p_detaildata.time}</PCalender>
                         <PApplybtn>{p_detaildata.advance}</PApplybtn>
@@ -50,7 +50,7 @@ const Home_top = ({className , curlang}) => {
                         <MBgimg src={backgroud2} alt="mark" />
                     </MBackImgArea>
                     <MContentsArea>
-                        <MImgTitle src={m_detaildata.img} alt="위기의 시대, 행동하는 예술교육" />
+                        <MImgTitle src={m_detaildata.img} alt="title" />
                         <MCalender>{m_detaildata.time}</MCalender>
                         <MContents 
                             title={m_detaildata.title} 
@@ -76,7 +76,6 @@ const PWrapper = styled.div`
     padding-bottom : 100px;
     background : url(${backgroud1});
     background-size : cover;
-
     @media all and (max-width:1199px) {
         display : none;
     }

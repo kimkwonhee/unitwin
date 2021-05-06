@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
 
-const Themebtn = ({children, padding, onClick, selectedcatagory, value}) => {
+const Themebtn = ({children, padding, onClick, selectedcatagory, value, className}) => {
     return (
-        <Wrapper padding={padding} onClick={onClick} value={value} selectedcatagory={selectedcatagory}>
+        <Wrapper padding={padding} onClick={onClick} value={value} selectedcatagory={selectedcatagory} className={className}>
             <Text>{children}</Text>
         </Wrapper>
     )

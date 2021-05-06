@@ -15,7 +15,7 @@ import { useDispatch } from 'react-redux'
 import { changkr, changen } from '../../modules/changlang'
 import color from '../../style/color'
 
-const Menubar = withRouter(({ className, curlang, langkr }) => {
+const Menubar = withRouter(({ className, curlang }) => {
 
     const dispatch = useDispatch();
     const onChangKr = () => dispatch(changkr());
@@ -39,6 +39,7 @@ const Menubar = withRouter(({ className, curlang, langkr }) => {
         }
         return () => window.removeEventListener('scroll', onScrollChange)
     }, [location.pathname])
+
 
     const p_detaildata = curlang.p_data.menuber;
     const m_detaildata = curlang.m_data.menuber;
@@ -178,20 +179,18 @@ const Menubar = withRouter(({ className, curlang, langkr }) => {
                 </DrawerMenuList>
                 <DrawerFooter>
                     <DrawerPrivacyBtn>{m_footerdata.ftpolicy}</DrawerPrivacyBtn>
-                    <DrawerFooterInfo>{m_footerdata.ftaddress}<br /><br />
-                    {m_footerdata.fttel}<br />
-                    {m_footerdata.activetime}
+                    <DrawerFooterInfo>
+                        {m_footerdata.ftaddress}<br /><br />{m_footerdata.fttel}<br />{m_footerdata.activetime}
                     </DrawerFooterInfo>
                     <DrawerCopLogo1 src={m_footerdata.ftlogo_1} alt={m_footerdata.ftlogo_1_alt}/>
                     <DrawerCopLogo2 src={m_footerdata.ftlogo_2} alt={m_footerdata.ftlogo_2_alt}/>
                     <DrawerDivider />
                     <DrawerCopyright>
-                    ⓒ KOREA ARTS &amp; CULTURE EDUCATION SERVICE. All Rights Reserved. 
+                    {m_footerdata.ftcopyright}
                     </DrawerCopyright>
                 </DrawerFooter>
                 </DrawerWrapper>
             </Drawer>
-
         </>    
     )
 })
@@ -241,7 +240,7 @@ const MWrapper = styled.div`
     justify-content : center;
     display : flex;
     box-shadow: ${props => props.top ? '0 0px 0px 0 #ddf2c7' : '0 1px 2px 0 #ddf2c7'};
-    background : ${props => props.top ? 'transparent' : color.white};
+    background : ${props => props.top ? 'transparent' : 'color.white'};
     transition: .3s;
     @media all and (min-width:1200px) {
         display : none;
@@ -273,7 +272,6 @@ const MMenuImg = styled.div`
 //Drawer
 const DrawerWrapper = styled.div`
   width: 100%;
-  
 `
 const DrawerHeader = styled.div`
   width: 100%;

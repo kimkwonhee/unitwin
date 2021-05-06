@@ -10,7 +10,8 @@ const PageTopArea = ({
     subcontents, 
     subfontsize, 
     homebtn, 
-    top
+    top,
+    keyword
     }) => {
     return (
         <>
@@ -39,6 +40,7 @@ const PageTopArea = ({
             <MTopArea className={className} top={top} >
                 <MTopTitleArea>
                     <MTopTitle>{title}</MTopTitle>
+                    <MTopKeyword keyword={keyword}>{keyword}</MTopKeyword>
                 </MTopTitleArea>
                 <MTopContents subfontsize={subfontsize}>
                     {contents}
@@ -54,7 +56,6 @@ const PageTopArea = ({
 // PC
 const PTopArea = styled.div`
     display : flex;
-
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -111,7 +112,22 @@ const MTopTitle = styled.div`
     color: ${color.black};
     margin-bottom : 12;
 `
-
+const MTopKeyword = styled.div`
+    display: ${props => props.keyword? "flex" : "none"};
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #83b949;
+    font-weight: bold;
+    &:before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        background-color: #83b949;
+        margin-right: 6px; 
+        border-radius: 50%;
+    }
+`
 const MTopContents = styled.div`
     width : 100%;
     font-size: 12px;

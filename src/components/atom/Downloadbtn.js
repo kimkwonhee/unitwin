@@ -45,9 +45,9 @@ const PText = styled.div`
 // Mobile
 const MWrapper = styled.div`
     cursor: pointer;
-    width : ${(props) => props.width || '60px'};
-    height : 26px;
-    display : ${props => props.videobtn ? 'flex' : 'none'};
+    width : 146px;
+    height : 36px;
+    display : ${props => props.down ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;
     background-color: ${color.turtle_green};
@@ -57,7 +57,7 @@ const MWrapper = styled.div`
     }
 `
 const MText = styled.div`
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: ${color.white};
 `
