@@ -10,8 +10,8 @@ const _PlenarySession = withRouter(() => {
         curlang : state.changlang.curlang
     }));
 
-    const p_detaildata = curlang.p_data.pl_Session;
-    const m_detaildata = curlang.m_data.pl_Session;
+    const p_detaildata = curlang.p_data.pl_session;
+    const m_detaildata = curlang.m_data.pl_session;
 
     return (
         <>

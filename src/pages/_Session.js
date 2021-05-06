@@ -37,6 +37,7 @@ const _Session = () => {
     
     return (
         <>
+            {/* Pc */}
             <PWrapper>
                 <PInner>
                     <PContents1 
@@ -61,10 +62,14 @@ const _Session = () => {
                     </PSection>
                 </PInner>
             </PWrapper>
-
+            
+            {/* mobile */}
             <MWrapper>
                 <MInner>
-
+                    <MContents1 
+                        title={m_detaildata[0].title} 
+                        contents={m_detaildata[0].contents}
+                    />
 
                 </MInner>
             </MWrapper>
@@ -120,5 +125,9 @@ const MWrapper = styled.div`
 const MInner = styled.div`
     position : relative;
     width : 375px;
+`
+
+const MContents1 = styled(PageTopArea)`
+    margin-top : 100px;
 `
 export default _Session
