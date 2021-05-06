@@ -167,7 +167,6 @@ const MWrapper = styled.div`
 const MTopArea = styled.div`
     position : relative;
     width : 375px;
-    padding : 0 16px;
     margin-bottom : 40px;
     
 `

@@ -145,7 +145,7 @@ export const langkr = {
                     {
                         img : pl_detail1_img_01,
                         moder : '',
-                        name : '언더스 바그너',
+                        name : '언스트 바그너',
                         en_name : '(Ernst Wagner)',
                         li_title : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일',
                         li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술 교육에 대한 가장 중요한 문서를 다시 살펴볼 때다.\n'
@@ -476,7 +476,7 @@ export const langkr = {
                     {
                         img : pl_detail1_img_01,
                         moder : '',
-                        name : '언더스 바그너',
+                        name : '언스트 바그너',
                         en_name : '(Ernst Wagner)',
                         li_title : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일',
                         li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술 교육에 대한 가장 중요한 문서를 다시 살펴볼 때다.\n'
