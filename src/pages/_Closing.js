@@ -28,7 +28,7 @@ const _Closing = () => {
                             </PContentsArea>
                         </PLeftArea>
                         <PRightArea>
-                            <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr' />
+                            <PChat src='/chat/index.html?r=1000&l=kr' />
                         </PRightArea>
                     </PCenterArea>
                 </PInner>
