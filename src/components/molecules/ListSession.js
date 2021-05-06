@@ -82,13 +82,8 @@ const PName = styled.div`
 `
 const PEnName = styled.span`
     font-size: 16px;
-<<<<<<< HEAD
-    font-weight: bold;
-    color: ${color.black};
-=======
     font-weight: 400;
-    color: var(--brown-grey);
->>>>>>> bomi
+    color: ${color.brown_grey};
 `
 const PJob = styled.div`
     padding-top : 8px;
@@ -108,7 +103,7 @@ const MWrapper = styled.div`
     width : auto;
     display : block;
     margin-bottom : 80px;
-    border-top: 2px solid var(--turtle-green);
+    border-top: 2px solid ${color.turtle_green};
 
     @media all and (min-width:1200px) {
         display : none;
@@ -131,13 +126,13 @@ const MModer = styled.div`
     margin-top : 28px;
     font-size: 14px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const MName = styled.div`
     margin-top : 14px;
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MEnName = styled.div`
     margin-top : 2px;
