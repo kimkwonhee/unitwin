@@ -191,7 +191,6 @@ const Menubar = withRouter(({ className, curlang }) => {
                 </DrawerFooter>
                 </DrawerWrapper>
             </Drawer>
-
         </>    
     )
 })

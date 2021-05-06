@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import ListSession from '../../molecules/ListSession'
 import ListSessionTop from '../../molecules/ListSessionTop'
@@ -14,6 +14,9 @@ const Pl_Detail = ({match}) => {
         curlang : state.changlang.curlang
     }))
 
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
 
     const p_detaildata = curlang.p_data.pl_session_detail;
     const m_detaildata = curlang.m_data.pl_session_detail;
@@ -53,7 +56,7 @@ const Pl_Detail = ({match}) => {
         P_contentsection = <PSection data={p_detaildata.jorissen_part.list} />
         M_contentsection =<PSection data={p_detaildata.jorissen_part.list} />
         M_videotext = p_detaildata.jorissen_part.video_text
-        P_download = p_detaildata.jorissen_part.download
+        M_download = p_detaildata.jorissen_part.download
     }
 
     const [status, setStatus]  = useState('discription');
@@ -71,7 +74,11 @@ const Pl_Detail = ({match}) => {
                             </PContentsArea>
                         </PLeftArea>
                         <PRightArea>
-                            <div>채팅 영상 1</div>
+                            <PChatLine />
+                            <PChatArea>
+                                <PChatText>실시간 채팅</PChatText>
+                            </PChatArea>
+                            <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1001&l=kr' />
                         </PRightArea>
                     </PCenterArea>
                 </PInner>
@@ -106,9 +113,13 @@ const Pl_Detail = ({match}) => {
                     <MDownlodebtn down={P_download}>강의자료 다운로드</MDownlodebtn>
                     {M_contentsection}
                 </MDetailSection>
-                <MChat status={status}>
-                    <div>채팅 영상 1</div>
-                </MChat>
+                <MChatSection status={status}>
+                    <MChatLine />
+                    <MChatArea>
+                        <MChatText>실시간 채팅</MChatText>
+                    </MChatArea>
+                    <MChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1001&l=kr' />
+                </MChatSection>
             </MWrapper>
         </>
     )
@@ -139,8 +150,7 @@ const PLeftArea = styled.div`
 `
 const PRightArea = styled.div`
     width : 380px;
-    height : 450px;
-    background-color : purple;
+    height : 600px;
 `
 const PVideo = styled(ListVideoSession)`
 `
@@ -151,6 +161,31 @@ const PSection = styled(ListSession)`
     border-top : 1px solid var(--turtle-green);
     margin-top : 60px;
 `
+const PChat = styled.iframe`
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+`
+const PChatLine = styled.div`
+    width : 100%;
+    height : 4px;
+    background : black;
+`
+const PChatArea = styled.div`
+    width : 100%;
+    height : 61px;
+    padding : 16px;
+`
+const PChatText = styled.div`
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--black);
+`
 
 
 //mobile
@@ -159,6 +194,7 @@ const MWrapper = styled.div`
     flex-direction : column;
     align-items : center;
     width : auto;
+    padding-bottom : 100px;
 
     @media all and (min-width:1200px) {
         display : none;
@@ -174,10 +210,6 @@ const MVideoArea = styled.div`
     position : relative;
     width : 375px;
 `
-const MTop = styled(ListSessionTop)`
-`
-const MVideo = styled(ListVideoSession)`
-`
 const MViewchangeArea = styled.div`
     display : flex;
     width : 375px;
@@ -192,7 +224,10 @@ const MDetailSection = styled.div`
     width : 375px;
     padding : 0 16px;
 `
-const MChat = styled.div`
+const MChatSection = styled.div`
+    width : 375px;
+    height : 400px;
+    padding : 0 16px;
     display : ${props => (props.status =='chat') ? 'block': 'none'};
 `
 const MVideoText = styled.div`
@@ -204,6 +239,33 @@ const MDownlodebtn = styled(Downloadbtn)`
     width : 146px;
     height : 36px;
     margin-bottom : 40px;
+`
+
+const MChat = styled.iframe`
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+`
+
+const MChatLine = styled.div`
+    width : 100%;
+    height : 2px;
+    background : black;
+`
+
+const MChatArea = styled.div`
+    width : 100%;
+    height : 54px;
+    padding : 16px;
+`
+const MChatText = styled.div`
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--black);
 `
 
 
