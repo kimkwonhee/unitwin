@@ -5,10 +5,9 @@ const ListSession = ({className, data}) => {
     return (
         <>
             <PWrapper className={className}>
-            {data.map(list => {
+            {data.map((list, idx) => {
                 return (
-                <>
-                    <PSection>
+                    <PSection key={idx}>
                         <PInner>
                             <PImgblock>
                                 <PImg src={list.img} alt={list.name} />     
@@ -21,22 +20,21 @@ const ListSession = ({className, data}) => {
                             </PTextblock>
                         </PInner>
                     </PSection>
-                </>
                 )
             })}
             </PWrapper>
 
             <MWrapper>
-                {data.map(list => {
+                {data.map((list, idx) => {
                     return (
-                        <MInner>
-                        <MTextblock>
-                        <MImg src={list.img} alt={list.name} />     
-                        </MTextblock>
-                        <MName>{list.name}</MName>
-                        <MEnName>{list.en_name}</MEnName>
-                        <MListtitle>{list.li_title}</MListtitle>
-                        <MContents>{list.li_contents}</MContents>   
+                        <MInner key={idx}>
+                            <MTextblock>
+                                <MImg src={list.img} alt={list.name} />     
+                            </MTextblock>
+                            <MName>{list.name}</MName>
+                            <MEnName>{list.en_name}</MEnName>
+                            <MListtitle>{list.li_title}</MListtitle>
+                            <MContents>{list.li_contents}</MContents>   
                         </MInner>
                     )
                 })}
@@ -113,7 +111,6 @@ const MInner = styled.div`
     flex-direction : column;
     align-items : center;
     padding : 40px 10px 40px 10px;
-    border-top : 1px solid var(--turtle-green);
 `
 const MTextblock = styled.div`
 `
