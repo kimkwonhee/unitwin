@@ -153,7 +153,7 @@ const MModer = styled.div`
     font-size: 14px;
     font-weight: bold;
     text-align: center;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const MTitle = styled.div`
     margin-bottom : 8px;
@@ -161,7 +161,7 @@ const MTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
     text-align : center;
-    color: var(--black);
+    color: ${color.black};
 `
 const MInner = styled.div`
     width : 100%;
@@ -171,7 +171,7 @@ const MInner = styled.div`
     padding-top : 20px;
     padding-right : 12px;
     padding-left : 12px;
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
 `
 const MTextblock = styled.div`
 `
@@ -183,23 +183,23 @@ const MName = styled.div`
     margin-top : 28px;
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MEnName = styled.div`
     margin-top : 2px;
     font-size: 14px;
     font-weight: normal;
-    color: var(--brown-grey);
+    color: ${color.brown_grey};
 `
 const MListtitle = styled.div`
     margin-top : 14px;
     font-size: 14px;
-    color: var(--black);
+    color: ${color.black};
 `
 const MContents = styled.div`
     margin-top : 18px;
     font-size: 12px;
-    color: var(--black);
+    color: ${color.black};
     text-align : center;
 `
 

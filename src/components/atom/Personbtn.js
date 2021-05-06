@@ -92,19 +92,19 @@ const MPrsImg = styled.div`
     padding-top: 100%;
     border-radius : 50%;
     background : url(${props => props.src}) no-repeat center / cover;
-    border: solid 3px var(--white);
+    border: solid 3px ${color.white};
 `
 const MName = styled.div`
     margin-top : 11px;
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     text-align: center;
 `
 const MTitle = styled.div`
     margin : 2px 0 8px;
     font-size: 12px;
-    color: var(--black);
+    color: ${color.black};
     text-align: center;
 `
 const MVideo = styled.div`

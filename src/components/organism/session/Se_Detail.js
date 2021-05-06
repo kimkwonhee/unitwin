@@ -48,8 +48,7 @@ import img_49 from '../../../images/session_28.png'
 import img_50 from '../../../images/session_29.png'
 import img_51 from '../../../images/session_27.png'
 import mobileviewbtn from '../../atom/mobileviewbtn'
-
-
+import color from '../../../style/color'
 
 const Se_Detail = ({match}) => {
 
@@ -979,7 +978,7 @@ const MChat = styled.div`
 const MVideoText = styled.div`
     margin-bottom : 40px;
     font-size: 12px;
-    color: var(--black);
+    color: ${color.black};
 `
 
 export default withRouter(Se_Detail)

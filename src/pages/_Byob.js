@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
 import { useSelector } from 'react-redux'
+import color from '../style/color'
 
 const _Byob = () => {
     const { curlang } = useSelector(state => ({
@@ -101,7 +102,7 @@ const PContents = styled(PageTopArea)`
     /* background-color :red; */
 `
 const PMiddleArea = styled.div`
-    border-top : 4px solid var(--turtle-green);
+    border-top : 4px solid ${color.turtle_green};
 `
 const P_Data = styled(Pl_SectionData)`
 `
@@ -118,14 +119,13 @@ const PZoombtn = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: var(--turtle-green);
+    background-color: ${color.turtle_green};
 `
 const PZoomText = styled.div`
      font-size: 14px;
      font-weight: bold;
-     color: var(--white);
+     color: ${color.white};
 `
-
 
 // Mobile
 const MWrapper = styled.div`
@@ -156,16 +156,16 @@ const MZoombtn = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: var(--turtle-green);
+    background-color: ${color.turtle_green};
 `
 const MZoomText = styled.div`
     font-size: 14px;
     font-weight: bold;
-    color: var(--white);
+    color: ${color.white};
 `
 const MMiddleArea = styled.div`
     margin-top : 12px;
-    border-top : 2px solid var(--turtle-green);
+    border-top : 2px solid ${color.turtle_green};
 `
 const M_Data = styled(Pl_SectionData)`
 `

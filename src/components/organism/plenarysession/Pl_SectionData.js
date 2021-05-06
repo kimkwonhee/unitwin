@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Videobtn from '../../../components/atom/Videobtn'
 import { Link, withRouter } from 'react-router-dom';
 import { useSelector } from 'react-redux'
+import color from '../../../style/color'
 
 const Pl_SectionData = ({className, title, time, name, enname, jop, link, discripton, imgs, location}) => {
     const { curlang } = useSelector(state => ({
@@ -63,7 +64,7 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
 const PWrapper = styled.div`
     height : 315px;
     padding : 0 20px 0 20px;
-    border-bottom : 1px solid var(--turtle-green);
+    border-bottom : 1px solid ${color.turtle_green};
     display : flex;
     align-items : center;
 
@@ -96,28 +97,28 @@ const PTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
     margin-bottom : 8px;
-    color: var(--black);
+    color: ${color.black};
 `
 const PTime = styled.div`
     font-size: 16px;
     font-weight: 500;
     margin-bottom : 40px;
-    color: var(--black);
+    color: ${color.black};
 `
 const PName = styled.div`
     font-size: 16px;
     font-weight: bold;
     margin-bottom : 8px;
-    color: var(--black);
+    color: ${color.black};
 `
 const PEnName = styled.span`
     font-size: 14px;
-    color: var(--brown-grey);
+    color: ${color.brown_grey};
 `
 const PJop = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
 `
 const PVideobtn = styled(Videobtn)`
 `
@@ -128,7 +129,7 @@ const PDiscription = styled.div`
     margin-top :15px;
     font-size: 14px;
     font-weight: 400;
-    color: var(--black);
+    color: ${color.black};
 `
 
 
@@ -136,7 +137,7 @@ const PDiscription = styled.div`
 const MWrapper = styled.div`
     width : auto;
     padding : 40px 16px 40px 16px;
-    border-bottom : 1px solid var(--turtle-green);
+    border-bottom : 1px solid ${color.turtle_green};
     display : flex;
     justify-content : center;
     
@@ -160,30 +161,30 @@ const MTitle = styled.div`
     font-weight: bold;
     text-align : center;
     white-space: pre-line;
-    color: var(--black);
+    color: ${color.black};
     line-height: 1.5
 `
 const MTime = styled.div`
     margin-top : 8px;
     font-size: 14px;
-    color: var(--black);
+    color: ${color.black};
     font-weight: bold;
 `
 const MName = styled.div`
     margin-top: 18px;
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MEnName = styled.div`
     margin-top : 2px;
     font-size: 14px;
-    color: var(--brown-grey);
+    color: ${color.brown_grey};
 `
 const MJop = styled.div`
     margin : 14px 0 18px;
     font-size: 14px;
-    color: var(--black);
+    color: ${color.black};
     white-space: pre-line;
     text-align : center;
     line-height: 1.5

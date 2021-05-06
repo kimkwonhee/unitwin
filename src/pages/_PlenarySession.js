@@ -4,6 +4,7 @@ import { withRouter } from 'react-router-dom';
 import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
 import { useSelector } from 'react-redux'
+import color from '../style/color'
 
 const _PlenarySession = withRouter(() => {
     
@@ -96,7 +97,7 @@ const PContents = styled(PageTopArea)`
 `
 const PMiddleArea = styled.div`
     margin-top : 120px;
-    border-top : 4px solid var(--turtle-green);
+    border-top : 4px solid ${color.turtle_green};
 `
 const P_Data = styled(Pl_SectionData)`
 `
@@ -122,7 +123,7 @@ const MContents = styled(PageTopArea)`
 `
 const MMiddleArea = styled.div`
     margin-top : 40px;
-    border-top : 2px solid var(--turtle-green);
+    border-top : 2px solid ${color.turtle_green};
 `
 const M_Data = styled(Pl_SectionData)`
 `

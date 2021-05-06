@@ -5,6 +5,7 @@ import ListVideoSession from '../../molecules/ListVideoSession'
 import PlanSesionbtn from '../../atom/PlanSesionbtn'
 import { withRouter } from 'react-router-dom'
 import img_1 from '../../../images/session_10.png'
+import color from '../../../style/color'
 
 const Pr_Detail = ({match}) => {
 
@@ -193,7 +194,7 @@ const PVideo = styled(ListVideoSession)`
 const PContentsArea = styled.div`
     padding: 60px 20px;
     margin-bottom : 40px;
-    border-bottom : 1px solid var(--turtle-green);
+    border-bottom : 1px solid ${color.turtle_green};
     display : flex;
 `
 const PLogoArea = styled.div`
@@ -209,13 +210,13 @@ const PTextArea = styled.div`
 const PDiscription = styled.div`
     font-size: 16px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
 `
 const PLocal = styled.div`
     margin : 20px 0 8px 0;
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PSite = styled.a`
     cursor: pointer;

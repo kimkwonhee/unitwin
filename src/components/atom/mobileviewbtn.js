@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const mobileviewbtn = ({className, id, status, onClick , children}) => {
     return (
@@ -15,9 +16,9 @@ const Wrpper = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    color: ${props=>(props.id == props.status) ? 'var(--white)' : 'var(--brown-grey)'};
-    background : ${props=>(props.id == props.status) ? 'var(--black)' : 'var(--white)'};
-    border: solid 1px var(--brown-grey);
+    color: ${props=>(props.id == props.status) ? color.white : color.brown_grey};
+    background : ${props=>(props.id == props.status) ? color.black : color.white};
+    border: solid 1px ${color.brown_grey};
 `
 const Text = styled.div`
     font-size: 14px;
