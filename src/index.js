@@ -2,7 +2,7 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import 'react-app-polyfill/ie11';
 // import 'react-app-polyfill/stable';
-import cssVars from 'css-vars-ponyfill';
+// import cssVars from 'css-vars-ponyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -14,45 +14,45 @@ import { createStore } from 'redux';
 import rootReducer from './modules';
 
 // Default values
-cssVars({
-  // Targets
-  rootElement   : document,
-  shadowDOM     : false,
+// cssVars({
+//   // Targets
+//   rootElement   : document,
+//   shadowDOM     : false,
 
-  // Sources
-  include       : 'link[rel=stylesheet],style',
-  exclude       : '',
-  variables     : {},
+//   // Sources
+//   include       : 'link[rel=stylesheet],style',
+//   exclude       : '',
+//   variables     : {},
 
-  // Options
-  onlyLegacy    : true,
-  preserveStatic: true,
-  preserveVars  : false,
-  silent        : false,
-  updateDOM     : true,
-  updateURLs    : true,
-  watch         : false,
+//   // Options
+//   onlyLegacy    : true,
+//   preserveStatic: true,
+//   preserveVars  : false,
+//   silent        : false,
+//   updateDOM     : true,
+//   updateURLs    : true,
+//   watch         : false,
 
-  // Callbacks
-  onBeforeSend: function(xhr, elm, url) {
-    // ...
-  },
-  onError: function(message, elm, xhr, url) {
-    // ...
-  },
-  onWarning: function(message) {
-    // ...
-  },
-  onSuccess: function(cssText, elm, url) {
-    // ...
-  },
-  onComplete: function(cssText, styleElms, cssVariables, benchmark) {
-    // ...
-  },
-  onFinally: function(hasChanged, hasNativeSupport, benchmark) {
-    // ...
-  }
-});
+//   // Callbacks
+//   onBeforeSend: function(xhr, elm, url) {
+//     // ...
+//   },
+//   onError: function(message, elm, xhr, url) {
+//     // ...
+//   },
+//   onWarning: function(message) {
+//     // ...
+//   },
+//   onSuccess: function(cssText, elm, url) {
+//     // ...
+//   },
+//   onComplete: function(cssText, styleElms, cssVariables, benchmark) {
+//     // ...
+//   },
+//   onFinally: function(hasChanged, hasNativeSupport, benchmark) {
+//     // ...
+//   }
+// });
 
 const store = createStore(rootReducer);
 // console.log(store.getState());
