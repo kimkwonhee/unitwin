@@ -217,6 +217,7 @@ const PInner = styled.div`
     justify-content : space-between;
 `
 const PLinkTag = styled(Link)`
+    color: var(--black);
     text-decoration : none !important;
 `
 const PLogoImg = styled.img`
