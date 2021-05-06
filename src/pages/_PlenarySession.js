@@ -6,6 +6,7 @@ import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData
 import { useSelector } from 'react-redux'
 
 const _PlenarySession = withRouter(() => {
+    
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }));

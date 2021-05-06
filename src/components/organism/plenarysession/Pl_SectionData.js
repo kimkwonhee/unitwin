@@ -2,8 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 import Videobtn from '../../../components/atom/Videobtn'
 import { Link, withRouter } from 'react-router-dom';
+import { useSelector } from 'react-redux'
 
 const Pl_SectionData = ({className, title, time, name, enname, jop, link, discripton, imgs, location}) => {
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
+    const p_detaildata = curlang.p_data.videobtn;
+    const m_detaildata = curlang.m_data.videobtn;
     
     return (
         <>
@@ -23,7 +30,7 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                         <PLink to={link}>
                             {location.pathname === '/unitwin/byob'
                             ? null
-                            : <PVideobtn videobtn="true">영상보기</PVideobtn>}
+                            : <PVideobtn videobtn="true">{p_detaildata}</PVideobtn>}
                         </PLink>
                     </PTextArea>
                 </PSection>
@@ -41,7 +48,7 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                     <MLink to={link}>
                             {location.pathname === '/unitwin/byob'
                             ? null
-                            : <MVideobtn videobtn="true">영상보기</MVideobtn>}
+                            : <MVideobtn videobtn="true">{m_detaildata}</MVideobtn>}
                     </MLink>
                 </MInner>
             </MWrapper>

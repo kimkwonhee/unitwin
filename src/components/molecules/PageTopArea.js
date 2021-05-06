@@ -55,7 +55,6 @@ const PageTopArea = ({
 // PC
 const PTopArea = styled.div`
     display : flex;
-
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -119,7 +118,6 @@ const MTopKeyword = styled.div`
     font-size: 14px;
     color: #83b949;
     font-weight: bold;
-
     &:before {
         content: "";
         width: 5px;
