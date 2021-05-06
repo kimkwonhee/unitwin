@@ -13,7 +13,7 @@ import m_menu_close from '../../images/mobile_menu_close.png'
 import m_menu_title from '../../images/mobile_menu_title.png'
 import { useDispatch } from 'react-redux'
 import { changkr, changen } from '../../modules/changlang'
-
+import color from '../../style/color'
 
 const Menubar = withRouter(({ className, curlang, langkr }) => {
 
@@ -205,7 +205,7 @@ const PWrapper = styled.div`
     justify-content : center;
     z-index : 50;
     box-shadow: 0 2px 4px 0 #ddf2c7;
-    background : var(--white);
+    background : ${color.white};
     
     @media all and (max-width:1199px) {
         display : none;
@@ -217,7 +217,7 @@ const PInner = styled.div`
     justify-content : space-between;
 `
 const PLinkTag = styled(Link)`
-    color: var(--black);
+    color: ${color.black};
     text-decoration : none !important;
 `
 const PLogoImg = styled.img`
@@ -241,7 +241,7 @@ const MWrapper = styled.div`
     justify-content : center;
     display : flex;
     box-shadow: ${props => props.top ? '0 0px 0px 0 #ddf2c7' : '0 1px 2px 0 #ddf2c7'};
-    background : ${props => props.top ? 'transparent' : 'var(--white)'};
+    background : ${props => props.top ? 'transparent' : color.white};
     transition: .3s;
     @media all and (min-width:1200px) {
         display : none;
@@ -314,12 +314,12 @@ const DrawerMenuTxt = styled.p`
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
-  color: var(--black);
+  color: ${color.black};
 `
 const DrawerFooter = styled.div`
   width: 100%;
   padding: 28px 16px 60px 16px;
-  background-color: var(--black);
+  background-color: ${color.black};
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -327,12 +327,12 @@ const DrawerFooter = styled.div`
 const DrawerPrivacyBtn = styled.a`
   font-size: 12px;
   font-weight: bold;
-  color: var(--turtle-green);
+  color: ${color.turtle_green};
 `
 const DrawerFooterInfo = styled.p`
   font-size: 12px;
   font-weight: 500;
-  color: var(--white);
+  color: ${color.white};
   margin: 50px 0 40px 0;
 `
 const DrawerCopLogo1 = styled.img`
@@ -350,6 +350,6 @@ const DrawerDivider = styled.div`
 const DrawerCopyright = styled.div`
   font-size: 10px;
   font-weight: 400;
-  color: var(--white);
+  color: ${color.white};
 `
 export default withRouter(Menubar)
