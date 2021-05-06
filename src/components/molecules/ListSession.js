@@ -29,21 +29,15 @@ const ListSession = ({className, data}) => {
             <MWrapper>
                 {data.map(list => {
                     return (
-                    <>
-                         <MInner>
-                                {/* {list.li_data.map(data => {
-                                    return <> */}
-                                    <MTextblock>
-                                    <MImg src={list.img} alt={list.name} />     
-                                    </MTextblock>
-                                    <MName>{list.name}</MName>
-                                    <MEnName>{list.en_name}</MEnName>
-                                    <MListtitle>{list.li_title}</MListtitle>
-                                    <MContents>{list.li_contents}</MContents>
-                                    {/* </>
-                                })} */}
-                         </MInner>
-                    </>
+                        <MInner>
+                        <MTextblock>
+                        <MImg src={list.img} alt={list.name} />     
+                        </MTextblock>
+                        <MName>{list.name}</MName>
+                        <MEnName>{list.en_name}</MEnName>
+                        <MListtitle>{list.li_title}</MListtitle>
+                        <MContents>{list.li_contents}</MContents>   
+                        </MInner>
                     )
                 })}
             </MWrapper>
@@ -120,23 +114,6 @@ const MInner = styled.div`
     padding : 40px 10px 40px 10px;
     border-top : 1px solid var(--turtle-green);
 `
-
-const MModer = styled.div`
-    margin-bottom : 8px;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    color: var(--turtle-green);
-`
-const MTitle = styled.div`
-    margin-bottom : 8px;
-    white-space: pre-line;
-    font-size: 14px;
-    font-weight: bold;
-    text-align : center;
-    color: var(--black);
-`
-
 const MTextblock = styled.div`
 `
 const MImg = styled.img`

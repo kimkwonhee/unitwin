@@ -13,6 +13,7 @@ const Calendarbtn = ({id, title, calendar, status, onClick}) => {
                 <PTitle>{title}</PTitle>
                 <PSub>{calendar}</PSub>
             </PWrapper>
+            
             <MWrapper
                 id={id}
                 onClick={onClick}
@@ -34,9 +35,9 @@ const PWrapper = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: ${(props) => (props.id === props.status) ? 'var(--black)' : 'var(--white)'};
+    background-color: ${(props) => (props.id == props.status) ? 'var(--black)' : 'var(--white)'};
     cursor: pointer;
-    color: ${(props) => (props.id === props.status) ? 'var(--white)' : 'var(--black)'};
+    color: ${(props) => (props.id == props.status) ? 'var(--white)' : 'var(--black)'};
 
     &:hover {
         background-color: var(--black);
@@ -64,9 +65,9 @@ const MWrapper = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content : center;
-    background-color: ${(props) => (props.id === props.status) ? 'var(--black)' : 'var(--white)'};
+    background-color: ${(props) => (props.id == props.status) ? 'var(--black)' : 'var(--white)'};
     cursor: pointer;
-    color: ${(props) => (props.id === props.status) ? 'var(--white)' : 'var(--black)'};
+    color: ${(props) => (props.id == props.status) ? 'var(--white)' : 'var(--black)'};
 
     &:hover {
         background-color: var(--black);

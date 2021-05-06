@@ -1,4 +1,4 @@
-import React, {useState } from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import Calendarbtn from '../../atom/Calendarbtn'
 import PageTopArea from '../../molecules/PageTopArea'
@@ -7,11 +7,10 @@ import Home_day1 from './Home_day1'
 import Home_day2 from './Home_day2'
 import Home_day3 from './Home_day3'
 
-const Home_center = () => {
-    const topcontents = {
-        title : '일정',
-        contents : ''
-    } 
+const Home_center = ({curlang}) => {
+    const p_detaildata = curlang.p_data.home_center;
+    const m_detaildata = curlang.m_data.home_center;
+
     const [cal, setCal] = useState(<Home_all />);
     const [status, setStatus] = useState(1);
 
@@ -25,8 +24,8 @@ const Home_center = () => {
             <PWrapper>
                 <PInner>
                     <PContents 
-                            title={topcontents.title} 
-                            contents={topcontents.contents}
+                            title={p_detaildata.title} 
+                            contents={p_detaildata.contents}
                             subfontsize="20px"
                         />
                     <PSection1>
@@ -60,11 +59,12 @@ const Home_center = () => {
                     </PSection2>
                 </PInner>
             </PWrapper>
+            
             <MWrapper>
                 <MInner>
                     <MContents 
-                            title={topcontents.title} 
-                            contents={topcontents.contents}
+                            title={m_detaildata.title} 
+                            contents={m_detaildata.contents}
                             subfontsize="20px"
                         />
                     <MSection1>
@@ -110,7 +110,6 @@ const PWrapper = styled.div`
     display : flex;
     flex-direction : column;
     align-items : center;
-
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -137,7 +136,6 @@ const MWrapper = styled.div`
     padding : 0 16px 50px 16px;
     display : flex;
     justify-content : center;
-
     @media all and (min-width:1200px) {
         display : none;
     }

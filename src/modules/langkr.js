@@ -65,7 +65,6 @@ import closing_img_13 from '../images/session_33.png'
 export const langkr = {
     // PC Data
     p_data : {
-
         // 메뉴 바
         menuber : {
             text1 : '주간행사',
@@ -75,6 +74,7 @@ export const langkr = {
             text5 : 'BYOB',
             text6 : '폐회세션',
         },
+
         home_top : {
             img : home_title,
             title : '행사소개',
@@ -87,6 +87,11 @@ export const langkr = {
             subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전가능한 예술교육 연구 모임\n'
                          +'(UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development)\n'
                          +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
+        },
+
+        home_center : {
+            title : '일정',
+            contents : ''
         },
 
         // 기조발제
@@ -364,6 +369,11 @@ export const langkr = {
             subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전가능한 예술교육 연구 모임\n'
                          +'(UNITWIN - Arts Education Research for Cultural Diversity and\nSustainable Development)'
                          +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
+        },
+        
+        home_center : {
+            title : '일정',
+            contents : ''
         },
 
         // 기조발제

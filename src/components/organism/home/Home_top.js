@@ -5,6 +5,7 @@ import backgroud2 from '../../../images/home_bg02.png'
 import logo from '../../../images/home_top_logo.png'
 import Preregistrationbtn from '../../atom/Preregistrationbtn'
 import PageTopArea from '../../molecules/PageTopArea'
+import color from '../../../style/color'
 
 const Home_top = ({className , curlang}) => {
     const p_detaildata = curlang.p_data.home_top;
@@ -24,7 +25,7 @@ const Home_top = ({className , curlang}) => {
                     <PContentsArea>
                         <PImgTitle 
                             src={p_detaildata.img}
-                            alt="위기의 시대, 행동하는 예술교육" 
+                            alt="title" 
                         />
                         <PCalender>{p_detaildata.time}</PCalender>
                         <PApplybtn>{p_detaildata.advance}</PApplybtn>
@@ -49,7 +50,7 @@ const Home_top = ({className , curlang}) => {
                         <MBgimg src={backgroud2} alt="mark" />
                     </MBackImgArea>
                     <MContentsArea>
-                        <MImgTitle src={m_detaildata.img} alt="위기의 시대, 행동하는 예술교육" />
+                        <MImgTitle src={m_detaildata.img} alt="title" />
                         <MCalender>{m_detaildata.time}</MCalender>
                         <MContents 
                             title={m_detaildata.title} 
@@ -75,7 +76,6 @@ const PWrapper = styled.div`
     padding-bottom : 100px;
     background : url(${backgroud1});
     background-size : cover;
-
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -117,7 +117,7 @@ const PCalender = styled.div`
     padding : 40px 0 50px 0;
     font-size: 20px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PApplybtn = styled(Preregistrationbtn)`
 `
@@ -179,7 +179,7 @@ const MCalender = styled.div`
     padding : 20px 0 30px 0;
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black}
 `
 const MApplybtn = styled(Preregistrationbtn)`
     margin-top : 24px;
