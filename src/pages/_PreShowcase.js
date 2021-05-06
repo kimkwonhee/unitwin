@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import styled from 'styled-components'
 import PageTopArea from '../components/molecules/PageTopArea'
 import { Link, withRouter } from 'react-router-dom';
+import color from '../style/color'
 
 const _PreShowcase = () => {
     const p_topcontents = {
@@ -108,7 +109,7 @@ const PLogoImg = styled.div`
 const PDetailData = styled.div`
     font-size: 16px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
 `
 const PMoreArea = styled.div`
     margin-top : 28px;
@@ -118,12 +119,12 @@ const PMoreArea = styled.div`
     justify-content : center;
     align-items : center;
     border-radius: 20px;
-    background-color: var(--turtle-green);
+    background-color: ${color.turtle_green};
 `
 const PMorebtn = styled.div`
     font-size: 16px;
     font-weight: 500;
-    color: var(--white);
+    color: ${color.white};
 `
 const PLink = styled(Link)`
     text-decoration : none;

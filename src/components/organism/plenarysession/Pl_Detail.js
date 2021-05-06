@@ -188,9 +188,8 @@ const PChatText = styled.div`
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
-    color: var(--black);
+    color: ${color.black};
 `
-
 
 //mobile
 const MWrapper = styled.div`
@@ -252,7 +251,7 @@ const MChatSection = styled.div`
 const MVideoText = styled.div`
     margin-bottom : 24px;
     font-size: 12px;
-    color: var(--black);
+    color: ${color.black};
 `
 const MDownlodebtn = styled(Downloadbtn)`
     width : 146px;
@@ -284,7 +283,7 @@ const MChatArea = styled.div`
 const MChatText = styled.div`
    font-size: 16px;
    font-weight: 500;
-   color: var(--black);
+   color: ${color.black};
 `
 
 

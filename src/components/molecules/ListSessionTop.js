@@ -70,7 +70,7 @@ const MWrapper = styled.div`
 const MLine = styled.div`
     width : 80px;
     height : 2px;
-    background-color : var(--black);
+    background-color : ${color.black};
 `
 const MTitle = styled.div`
     margin-top : 8px;
@@ -78,19 +78,19 @@ const MTitle = styled.div`
     white-space: pre-line;
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MSubject = styled.div`
     font-size: 14px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 
 const MTime = styled.div`
     margin-top : 2px;
     font-size: 12px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
 `
 
 export default ListSessionTop

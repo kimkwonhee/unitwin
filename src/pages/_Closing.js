@@ -5,8 +5,7 @@ import ListSessionTop from '..//components/molecules/ListSessionTop'
 import ListVideoSession from '../components/molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-
-
+import color from '../style/color'
 
 const _Closing = () => {
     const { curlang } = useSelector(state => ({
@@ -86,7 +85,7 @@ const PContentsArea = styled.div`
     padding-top : 20px;
 `
 const PSection = styled(ListSession)`
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
     margin-top : 60px;
 `
 

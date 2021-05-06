@@ -109,13 +109,13 @@ const MTopTitleArea = styled.div`
         width: 80px;
         height: 2px;
         margin-bottom : 8px;
-        background-color: var(--black);
+        background-color: ${color.black};
     }
 `
 const MTopTitle = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     white-space: pre-line;
 `
 const MTopKeyword = styled.div`
