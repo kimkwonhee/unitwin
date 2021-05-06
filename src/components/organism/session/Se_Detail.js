@@ -1,10 +1,9 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import styled from 'styled-components'
 import ListSessionTop from '../../molecules/ListSessionTop'
 import ListVideoSession from '../../molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import ListSession_Se from '../../molecules/ListSession_Se'
-import DetailTopMO from '../DetailTopMO'
 import img_01 from '../../../images/session_01.png'
 import img_02 from '../../../images/session_02.png'
 import img_03 from '../../../images/session_03.png'
@@ -48,6 +47,7 @@ import img_48 from '../../../images/session_26.png'
 import img_49 from '../../../images/session_28.png'
 import img_50 from '../../../images/session_29.png'
 import img_51 from '../../../images/session_27.png'
+import mobileviewbtn from '../../atom/mobileviewbtn'
 
 
 
@@ -792,60 +792,68 @@ const Se_Detail = ({match}) => {
     }
 
     let pathname = match.params.se_detail
-    let topsection = null
-    let videosection = null
-    let contentsection = null
+    let P_topsection = null
+    let M_topsection = null
+    let P_videosection = null
+    let M_videosection = null
+    let P_contentsection = null
+    let M_contentsection = null
     if(pathname == 'a') {
-        topsection = <PTop title={p_topcontents_a.title} subject={p_topcontents_a.subject} time={p_topcontents_a.time} />;
-        videosection = <PVideo discription={p_topcontents_a.video_text} down={p_topcontents_a.download} />
-        contentsection = <PSection data={p_topcontents_a.list} />
+        P_topsection = <PTop title={p_topcontents_a.title} subject={p_topcontents_a.subject} time={p_topcontents_a.time} />
+        M_topsection = <MTop title={p_topcontents_a.title} subject={p_topcontents_a.subject} time={p_topcontents_a.time} />
+        P_videosection = <PVideo discription={p_topcontents_a.video_text} down={p_topcontents_a.download} />
+        M_videosection = <MVideo discription={p_topcontents_a.video_text} down={p_topcontents_a.download} />
+        P_contentsection = <PSection data={p_topcontents_a.list} />
+        M_contentsection = <PSection data={p_topcontents_a.list} />
     }
     else if (pathname == 'b') {
-        topsection = <PTop title={p_topcontents_b.title} subject={p_topcontents_b.subject} time={p_topcontents_b.time}/>
-        videosection = <PVideo discription={p_topcontents_b.video_text} down={p_topcontents_b.download} />
-        contentsection = <PSection data={p_topcontents_b.list} />
+        P_topsection = <PTop title={p_topcontents_b.title} subject={p_topcontents_b.subject} time={p_topcontents_b.time}/>
+        P_videosection = <PVideo discription={p_topcontents_b.video_text} down={p_topcontents_b.download} />
+        P_contentsection = <PSection data={p_topcontents_b.list} />
     }
     else if (pathname == 'c') {
-        topsection = <PTop title={p_topcontents_c.title} subject={p_topcontents_c.subject} time={p_topcontents_c.time}/>
-        videosection = <PVideo discription={p_topcontents_c.video_text} down={p_topcontents_c.download} />
-        contentsection = <PSection data={p_topcontents_c.list} />
+        P_topsection = <PTop title={p_topcontents_c.title} subject={p_topcontents_c.subject} time={p_topcontents_c.time}/>
+        P_videosection = <PVideo discription={p_topcontents_c.video_text} down={p_topcontents_c.download} />
+        P_contentsection = <PSection data={p_topcontents_c.list} />
     }
     else if (pathname == 'd') {
-        topsection = <PTop title={p_topcontents_d.title} subject={p_topcontents_d.subject} time={p_topcontents_d.time}/>
-        videosection = <PVideo discription={p_topcontents_d.video_text} down={p_topcontents_d.download} />
-        contentsection = <PSection data={p_topcontents_d.list} />
+        P_topsection = <PTop title={p_topcontents_d.title} subject={p_topcontents_d.subject} time={p_topcontents_d.time}/>
+        P_videosection = <PVideo discription={p_topcontents_d.video_text} down={p_topcontents_d.download} />
+        P_contentsection = <PSection data={p_topcontents_d.list} />
     }
     else if (pathname == 'e') {
-        topsection = <PTop title={p_topcontents_e.title} subject={p_topcontents_e.subject} time={p_topcontents_e.time}/>
-        videosection = <PVideo discription={p_topcontents_e.video_text} down={p_topcontents_e.download} />
-        contentsection = <PSection data={p_topcontents_e.list} />
+        P_topsection = <PTop title={p_topcontents_e.title} subject={p_topcontents_e.subject} time={p_topcontents_e.time}/>
+        P_videosection = <PVideo discription={p_topcontents_e.video_text} down={p_topcontents_e.download} />
+        P_contentsection = <PSection data={p_topcontents_e.list} />
     }
     else if (pathname == 'f') {
-        topsection = <PTop title={p_topcontents_f.title} subject={p_topcontents_f.subject} time={p_topcontents_f.time}/>
-        videosection = <PVideo discription={p_topcontents_f.video_text} down={p_topcontents_f.download} />
-        contentsection = <PSection data={p_topcontents_f.list} />
+        P_topsection = <PTop title={p_topcontents_f.title} subject={p_topcontents_f.subject} time={p_topcontents_f.time}/>
+        P_videosection = <PVideo discription={p_topcontents_f.video_text} down={p_topcontents_f.download} />
+        P_contentsection = <PSection data={p_topcontents_f.list} />
     }
     else if (pathname == 'g') {
-        topsection = <PTop title={p_topcontents_g.title} subject={p_topcontents_g.subject} time={p_topcontents_g.time}/>
-        videosection = <PVideo discription={p_topcontents_g.video_text} down={p_topcontents_g.download} />
-        contentsection = <PSection data={p_topcontents_g.list} />
+        P_topsection = <PTop title={p_topcontents_g.title} subject={p_topcontents_g.subject} time={p_topcontents_g.time}/>
+        P_videosection = <PVideo discription={p_topcontents_g.video_text} down={p_topcontents_g.download} />
+        P_contentsection = <PSection data={p_topcontents_g.list} />
     }
     else if (pathname == 'h') {
-        topsection = <PTop title={p_topcontents_h.title} subject={p_topcontents_h.subject} time={p_topcontents_h.time}/>
-        videosection = <PVideo discription={p_topcontents_h.video_text} down={p_topcontents_h.download} />
-        contentsection = <PSection data={p_topcontents_h.list} />
+        P_topsection = <PTop title={p_topcontents_h.title} subject={p_topcontents_h.subject} time={p_topcontents_h.time}/>
+        P_videosection = <PVideo discription={p_topcontents_h.video_text} down={p_topcontents_h.download} />
+        P_contentsection = <PSection data={p_topcontents_h.list} />
     }
+
+    const [status, setStatus]  = useState('discription');
 
     return (
         <>
             <PWrapper>
                 <PInner>
-                    {topsection}
+                    {P_topsection}
                     <PCenterArea>
                         <PLeftArea>
-                        {videosection}
+                        {P_videosection}
                             <PContentsArea>
-                                {contentsection}
+                                {P_contentsection}
                             </PContentsArea>
                         </PLeftArea>
                         <PRightArea>
@@ -854,8 +862,38 @@ const Se_Detail = ({match}) => {
                     </PCenterArea>
                 </PInner>
             </PWrapper>
+            
+            {/* Mobile */}
             <MWrapper>
-                <DetailTopMO />
+                <MTopArea>
+                    {M_topsection}
+                </MTopArea>
+                <MVideoArea>
+                    {M_videosection}
+                </MVideoArea>
+                <MViewchangeArea>
+                    <MViewbtn 
+                        id="discription"
+                        status={status}
+                        onClick={()=> setStatus('discription')}
+                    >
+                        강연설명
+                    </MViewbtn>
+                    <MViewbtn 
+                        id="chat"
+                        status={status}
+                        onClick={()=> setStatus('chat')}
+                    >
+                        실시간 채팅
+                    </MViewbtn>
+                </MViewchangeArea>
+                <MDetailSection status={status}>
+                    <MVideoText>{p_topcontents_g.video_text}</MVideoText>
+                    {M_contentsection}
+                </MDetailSection>
+                <MChat status={status}>
+                    <div>채팅 영상 1</div>
+                </MChat>
             </MWrapper>
         </>
     )
@@ -893,17 +931,55 @@ const PVideo = styled(ListVideoSession)`
 const PContentsArea = styled.div`
 `
 const PSection = styled(ListSession_Se)`
-    /* margin-top : 60px; */
 `
 
 //MO
-
 const MWrapper = styled.div`
-    width: 100%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    width : auto;
+
     @media all and (min-width:1200px) {
         display : none;
     }
 `
-
+const MTopArea = styled.div`
+    position : relative;
+    width : 375px;
+    padding : 0 16px;
+    margin-bottom : 40px;
+    
+`
+const MVideoArea = styled.div`
+    position : relative;
+    width : 375px;
+`
+const MTop = styled(ListSessionTop)`
+`
+const MVideo = styled(ListVideoSession)`
+`
+const MViewchangeArea = styled.div`
+    display : flex;
+    width : 375px;
+    height : 48px;
+    margin-bottom : 28px;
+`
+const MViewbtn = styled(mobileviewbtn)`
+    margin-top : 8px;
+`
+const MDetailSection = styled.div`
+    display : ${props => (props.status =='discription') ? 'block': 'none'};
+    width : 375px;
+    padding : 0 16px;
+`
+const MChat = styled.div`
+    display : ${props => (props.status =='chat') ? 'block': 'none'};
+`
+const MVideoText = styled.div`
+    margin-bottom : 40px;
+    font-size: 12px;
+    color: var(--black);
+`
 
 export default withRouter(Se_Detail)

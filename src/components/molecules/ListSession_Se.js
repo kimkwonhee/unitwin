@@ -32,6 +32,33 @@ const ListSession_Se = ({className, data}) => {
                 )
             })}
             </PWrapper>
+
+            <MWrapper>
+                {data.map(list => {
+                    return (
+                    <>
+                        <MSection>
+                            <MModer>{list.moder}</MModer>
+                            <MTitle>{list.li_title}</MTitle>
+                            <MInner>
+                                {list.li_data.map(data => {
+                                    return <>
+                                    <MTextblock>
+                                    <MImg src={data.imgs} alt={data.name} />     
+                                    </MTextblock>
+                                    <MName>{data.name}</MName>
+                                    <MEnName>{data.enname}</MEnName>
+                                    <MListtitle>{data.job}</MListtitle>
+                                    <MContents>{data.contents}</MContents>
+                                    <MDownlodebtn down={data.download} >강의자료 다운로드</MDownlodebtn>
+                                    </>
+                                })}
+                            </MInner>
+                        </MSection>
+                    </>
+                    )
+                })}
+            </MWrapper>
         </>
     )
 }
@@ -44,7 +71,6 @@ const PWrapper = styled.div`
 `
 const PSection = styled.div`
     padding-top : 60px;
-    /* background : red; */
 `
 const PInner = styled.div`
     width : 100%;
@@ -104,6 +130,80 @@ const PContents = styled.div`
     color: var(--black);
 `
 const PDownlodebtn = styled(Downloadbtn)`
+`
+
+const MWrapper = styled.div`
+    width : auto;
+    margin-bottom : 80px;
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+`
+
+const MSection = styled.div`
+    margin-top : 60px;
+
+    &:first-child {
+        margin-top : 0px;
+    }
+`
+const MModer = styled.div`
+    margin-bottom : 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--turtle-green);
+`
+const MTitle = styled.div`
+    margin-bottom : 8px;
+    white-space: pre-line;
+    font-size: 14px;
+    font-weight: bold;
+    text-align : center;
+    color: var(--black);
+`
+const MInner = styled.div`
+    width : 100%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    padding-top : 20px;
+    padding-right : 12px;
+    padding-left : 12px;
+    border-top : 1px solid var(--turtle-green);
+`
+const MTextblock = styled.div`
+`
+const MImg = styled.img`
+    width : 180px;
+    height : 180px;
+`
+const MName = styled.div`
+    margin-top : 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--black);
+`
+const MEnName = styled.div`
+    margin-top : 2px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--brown-grey);
+`
+const MListtitle = styled.div`
+    margin-top : 14px;
+    font-size: 14px;
+    color: var(--black);
+`
+const MContents = styled.div`
+    margin-top : 18px;
+    font-size: 12px;
+    color: var(--black);
+    text-align : center;
+`
+
+const MDownlodebtn = styled(Downloadbtn)`
+    margin-top : 28px;
 `
 
 export default ListSession_Se
