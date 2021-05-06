@@ -29,6 +29,7 @@ const Pl_Detail = ({match}) => {
     let P_contentsection = null
     let P_videotext = null
     let P_download = null
+    let P_chatlink = null
 
     // mobile
     let M_topsection = null
@@ -36,31 +37,46 @@ const Pl_Detail = ({match}) => {
     let M_contentsection = null
     let M_videotext = null
     let M_download = null
+    let M_chatlink = null
 
-    if (pathname == 'wagner-part') {
+    if (pathname == '1') {
         P_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
         M_topsection = <MTop title={m_detaildata.wagner_part.title} time={m_detaildata.wagner_part.time} />
+        
         P_videosection = <PVideo discription={p_detaildata.wagner_part.video_text} down={p_detaildata.wagner_part.download} />
         M_videosection = <MVideo discription={m_detaildata.wagner_part.video_text} down={m_detaildata.wagner_part.download} />
+        
         P_contentsection = <PSection data={p_detaildata.wagner_part.list} />
         M_contentsection = <MSection data={m_detaildata.wagner_part.list} />
+        
         P_videotext = p_detaildata.wagner_part.video_text
         M_videotext = m_detaildata.wagner_part.video_text
+        
         P_download = p_detaildata.wagner_part.download
         M_download = m_detaildata.wagner_part.download
+
+        P_chatlink = p_detaildata.wagner_part.chatlink
+        M_chatlink = m_detaildata.wagner_part.chatlink
         
     }
-    else if (pathname == 'jorissen-part') {
+    else if (pathname == '2') {
         P_topsection = <PTop title={p_detaildata.jorissen_part.title} time={p_detaildata.jorissen_part.time} />
         M_topsection = <MTop title={m_detaildata.jorissen_part.title} time={m_detaildata.jorissen_part.time} />
+        
         P_videosection = <PVideo discription={p_detaildata.jorissen_part.video_text} down={p_detaildata.jorissen_part.download} />
         M_videosection = <MVideo discription={m_detaildata.jorissen_part.video_text} down={m_detaildata.jorissen_part.download} />
+        
         P_contentsection = <PSection data={p_detaildata.jorissen_part.list} />
         M_contentsection =<MSection data={m_detaildata.jorissen_part.list} />
+        
         P_videotext = p_detaildata.jorissen_part.video_text
         M_videotext = m_detaildata.jorissen_part.video_text
+        
         P_download = p_detaildata.jorissen_part.download
         M_download = m_detaildata.jorissen_part.download
+
+        P_chatlink = p_detaildata.jorissen_part.chatlink
+        M_chatlink = m_detaildata.jorissen_part.chatlink
     }
 
     const [status, setStatus]  = useState('discription');
@@ -82,7 +98,7 @@ const Pl_Detail = ({match}) => {
                             <PChatArea>
                                 <PChatText>{curlang.p_data.realchating}</PChatText>
                             </PChatArea>
-                            <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1001&l=kr' />
+                            <PChat src={P_chatlink} />
                         </PRightArea>
                     </PCenterArea>
                 </PInner>
@@ -122,7 +138,7 @@ const Pl_Detail = ({match}) => {
                     <MChatArea>
                         <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
-                    <MChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1001&l=kr' />
+                    <MChat src={M_chatlink} />
                 </MChatSection>
             </MWrapper>
         </>

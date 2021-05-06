@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Personbtn from '../components/atom/Personbtn'
 import PageTopArea from '../components/molecules/PageTopArea'
 import ThemebtnGroup from '../components/molecules/ThemebtnGroup'
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 
 const _Session = () => {
