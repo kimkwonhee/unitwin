@@ -1,3 +1,4 @@
+import home_title from '../images/home_title.png'
 import plogo1 from '../images/footer_logo1.png'
 import plogo2 from '../images/footer_logo2.png'
 import mlogo1 from '../images/mobile_cop_logo1.png'
@@ -74,8 +75,18 @@ export const langkr = {
             text5 : 'BYOB',
             text6 : '폐회세션',
         },
-        home : {
-
+        home_top : {
+            img : home_title,
+            title : '행사소개',
+            time : '2021. 05. 25(화) ~ 05.26(수)',
+            advance : '사전신청하기',
+            contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의\n'
+                     +'정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
+                     +'제4회 유니트윈 학술대회는 "위기의 시대, 행동하는 예술교육"를 주제로 하여 예술교육의 원리와 사례가\n'
+                     +'어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있기 기여할 수 있는지 논하려 합니다.',
+            subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전가능한 예술교육 연구 모임\n'
+                         +'(UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development)\n'
+                         +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
         },
 
         // 기조발제
@@ -90,9 +101,9 @@ export const langkr = {
                     imgs : plsession_img_01,
                     title : "예술교육 2.0의 다양성",
                     time : "05.25(화) 13:00-13:40",
-                    name : "벤야민 요리슨 ",
-                    enname : "(Benjamin Jorissen)",
-                    jop : "- 뮌헨 미술원 선임연구원",
+                    name : "언스트 바그너 ",
+                    enname : "(Ernst Wagner)",
+                    jop : "- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일",
                     link : '/unitwin/plenary-session/a'
                 },
                 {
@@ -338,31 +349,39 @@ export const langkr = {
             text6 : '폐회세션',
         },
 
+        home_top : {
+            img : home_title,
+            title : '행사소개',
+            time : '2021. 05. 25(화) ~ 05.26(수)',
+            advance : '사전신청하기',
+            contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
+                       +'제4회 유니트윈 학술대회는 "위기의 시대, 행동하는 예술교육"를 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있기 기여할 수 있는지 논하려 합니다.',
+            subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전가능한 예술교육 연구 모임\n'
+                         +'(UNITWIN - Arts Education Research for Cultural Diversity and\nSustainable Development)'
+                         +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
+        },
+
         // 기조발제
         pl_Session : {
             title : '기조발제',
-            contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데,\n'
-                       +'예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한\n'
-                       +'자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을\n'
-                       +'불러 일으킬 것입니다.',
+            contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
             data : [
                 {
                     imgs : plsession_img_01,
                     title : "예술교육 2.0의 다양성",
                     time : "05.25(화) 13:00-13:40",
-                    name : "벤야민 요리슨 ",
-                    enname : "(Benjamin Jorissen)",
-                    jop : "- 뮌헨 미술원 선임연구원",
+                    name : "언스트 바그너 ",
+                    enname : "(Ernst Wagner)",
+                    jop : "유니트윈-문화다양성과 지속가능발전을 위한\n예술교육 연구회 명예회원 /\n뮌헨 미술원 선임연구원, 독일",
                     link : '/unitwin/plenary-session/a'
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '예술 교육의 과제로서의 "문화적 회복력"과 "미적 회복력"\n'
-                           +': 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계',
+                    title : '예술 교육의 과제로서의\n“문화적 회복력”과 ”미적 회복력”:\n문화적 지속가능성 교육학을 위한\n회복 컨셉에 대한 범위와 한계',
                     time : "05.26(수) 13:00~13:40",
                     name : "벤야민 요리슨 ",
                     enname : "(Benjamin Jorissen)",
-                    jop : "- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일",
+                    jop : "유니트윈-문화다양성과 지속발전가능한\n예술교육 연구 프로그램 정회원, 독일",
                     link : '/unitwin/plenary-session/b'
                 }
             ]

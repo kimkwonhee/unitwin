@@ -2,12 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import Home_center from '../components/organism/home/Home_center'
 import Home_top from '../components/organism/home/Home_top'
+import { useSelector } from 'react-redux'
 
 const _Home = () => {
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+    
     return (
         <Wrapper>
-            <Home_top />
-            <Home_center />
+            <Home_top curlang={curlang}/>
+            <Home_center curlang={curlang}/>
         </Wrapper>
     )
 }

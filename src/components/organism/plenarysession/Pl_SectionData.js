@@ -4,6 +4,7 @@ import Videobtn from '../../../components/atom/Videobtn'
 import { Link, withRouter } from 'react-router-dom';
 
 const Pl_SectionData = ({className, title, time, name, enname, jop, link, discripton, imgs, location}) => {
+    
     return (
         <>
             <PWrapper className={className}>
@@ -37,6 +38,11 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                     <MName>{name}</MName>
                     <MEnName>{enname}</MEnName>
                     <MJop>{jop}</MJop>
+                    <MLink to={link}>
+                            {location.pathname === '/unitwin/byob'
+                            ? null
+                            : <MVideobtn videobtn="true">영상보기</MVideobtn>}
+                    </MLink>
                 </MInner>
             </MWrapper>
         </>
@@ -129,7 +135,6 @@ const MWrapper = styled.div`
         display : none;
     }
 `
-
 const MInner = styled.div`
     display : flex;
     flex-direction : column;
@@ -167,6 +172,16 @@ const MJop = styled.div`
     margin-top : 14px;
     font-size: 14px;
     color: var(--black);
+    white-space: pre-line;
+    text-align : center;
+`
+const MVideobtn = styled(Videobtn)`
+    margin-top : 28px;
+    width : 92px;
+    height : 36px;
+`
+const MLink = styled(Link)`
+    text-decoration : none;
 `
 
 export default withRouter(Pl_SectionData)

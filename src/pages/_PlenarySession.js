@@ -1,12 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, Route, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
 import { useSelector } from 'react-redux'
 
 const _PlenarySession = withRouter(() => {
-
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }));
@@ -60,6 +59,7 @@ const _PlenarySession = withRouter(() => {
                              name={m_detaildata.data[0].name}
                              enname={m_detaildata.data[0].enname}
                              jop={m_detaildata.data[0].jop}
+                             link={m_detaildata.data[0].link}
                         />
                         <M_Data 
                              imgs={m_detaildata.data[1].imgs}
@@ -68,6 +68,7 @@ const _PlenarySession = withRouter(() => {
                              name={m_detaildata.data[1].name}
                              enname={m_detaildata.data[1].enname}
                              jop={m_detaildata.data[1].jop}
+                             link={m_detaildata.data[1].link}
                         />
                     </MMiddleArea>
                 </MInner>
@@ -91,12 +92,10 @@ const PInner = styled.div`
 `
 const PContents = styled(PageTopArea)`
     margin-top : 180px;
-    /* background-color :red; */
 `
 const PMiddleArea = styled.div`
     margin-top : 120px;
     border-top : 4px solid var(--turtle-green);
-    /* background-color : red; */
 `
 const P_Data = styled(Pl_SectionData)`
 `
@@ -105,7 +104,7 @@ const P_Data = styled(Pl_SectionData)`
 // Mobile
 const MWrapper = styled.div`
     width : auto;
-    padding : 0 16px 50px 16px;
+    padding : 0 16px 80px 16px;
     display : flex;
     justify-content : center;
 

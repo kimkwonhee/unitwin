@@ -2,9 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import Unitwinbtn from '../atom/Unitwinbtn'
 
-const PageTopArea = ({className, title, contents, subcontents, subfontsize, homebtn, top}) => {
+const PageTopArea = ({ 
+    className, 
+    title, 
+    contents, 
+    subcontents, 
+    subfontsize, 
+    homebtn, 
+    top
+    }) => {
     return (
         <>
+            {/* PC */}
             <PTopArea 
                 className={className} 
                 top={top}
@@ -25,18 +34,18 @@ const PageTopArea = ({className, title, contents, subcontents, subfontsize, home
                 </PContentsArea>
             </PTopArea>
 
-            <MTopArea 
-                className={className} 
-                top={top}
-            >
-                <MTopTitleArea >
+            {/* mobile */}
+            <MTopArea className={className} top={top} >
+                <MTopTitleArea>
                     <MTopTitle>{title}</MTopTitle>
                 </MTopTitleArea>
-                <MTopContents 
-                    subfontsize={subfontsize}
-                >
+                <MTopContents subfontsize={subfontsize}>
                     {contents}
                 </MTopContents>
+                <MSubContents>
+                        {subcontents}
+                </MSubContents>
+                <MUnitwinbtn homebtn={homebtn}/>
             </MTopArea>
         </>
     )
@@ -84,8 +93,7 @@ const PUnitwinbtn = styled(Unitwinbtn)`
 // Mobile
 const MTopArea = styled.div`
     display : block;
-    /* background-color : red; */
-    
+
     @media all and (min-width:1200px) {
         display : none;
     }
@@ -110,6 +118,16 @@ const MTopContents = styled.div`
     white-space: pre-line;
     color: var(--black);
     margin-top : 12px;
+`
+const MSubContents = styled.div`
+    margin-top : 16px;
+    font-size: 10px;
+    color: var(--black);
+    white-space: pre-line;
+`
+
+const MUnitwinbtn = styled(Unitwinbtn)`
+    margin-top : 16px;
 `
 
 export default PageTopArea
