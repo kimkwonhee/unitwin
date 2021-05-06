@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Footer = ({className, curlang, langkr, langen}) => {
 
@@ -59,7 +60,7 @@ const Footer = ({className, curlang, langkr, langen}) => {
 const PWrapper = styled.div`
     width : 100%;
     padding : 60px 0px;
-    background : var(--black);
+    background : ${color.black};
     display : flex;
     flex-direction : column;
     align-items : center;
@@ -71,7 +72,7 @@ const PWrapper = styled.div`
 const PInner = styled.div`
     width : 1200px;
     padding-bottom : 40px;
-    border-bottom : 1px solid var(--brownish-grey);
+    border-bottom : 1px solid ${color.brownish_grey};
 `
 const PSection1 = styled.div`
     width : 100%;
@@ -89,7 +90,7 @@ const PAddress = styled.div`
     font-size: 16px;
     font-weight: bold;
     white-space: pre-line;
-    color: var(--white);
+    color: ${color.white};
 `
 const PLogoArea = styled.div`
     display : flex;
@@ -126,13 +127,13 @@ const PPolicy = styled.a`
     bottom : 0;
     font-size: 16px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
     cursor: pointer;
 `
 const PCopyright = styled.div`
      font-size: 12px;
      text-align: center;
-     color: var(--white);
+     color: ${color.white};
      margin-top : 20px;
 `
 
@@ -143,7 +144,7 @@ const MWrapper = styled.div`
     padding : 28px 16px 60px 16px; 
     display : flex;
     justify-content : center;
-    background : var(--black);
+    background : ${color.black};
 
     @media all and (min-width:1200px) {
         display : none;
@@ -151,7 +152,7 @@ const MWrapper = styled.div`
 `
 const MInner = styled.div`
     padding-bottom : 60px;
-    border-bottom : 1px solid var(--brownish-grey);
+    border-bottom : 1px solid ${color.brown_grey};
 `
 const MCenter = styled.div`
     width : 375px;
@@ -159,7 +160,7 @@ const MCenter = styled.div`
 const MPolicy = styled.a`
     font-size: 12px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
     cursor: pointer;
 `
 const MAddress = styled.div`
@@ -167,7 +168,7 @@ const MAddress = styled.div`
     font-size: 12px;
     font-weight: 500;
     white-space: pre-line;
-    color: var(--white);
+    color: ${color.white};
 `
 const MTelphone = styled.div`
     margin-top : 20px;
@@ -177,7 +178,7 @@ const MTelphone = styled.div`
 const MActiveTime = styled.div`
     margin-top : 4px;
     font-size: 12px;
-    color: var(--white);
+    color: ${color.white};
 `
 const MLogoA = styled.div`
     margin-top : 40px;
@@ -196,6 +197,6 @@ const MLogoImgB = styled.img`
 const MCopyright = styled.div`
     margin-top : 20px;
     font-size: 10px;
-    color: var(--white);
+    color: ${color.white};
 `
 export default Footer
