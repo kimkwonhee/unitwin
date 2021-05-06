@@ -33,6 +33,8 @@ const _Session = () => {
         })
         await setSelList(newArray);
     }
+
+    
     return (
         <>
             <PWrapper>
@@ -59,10 +61,18 @@ const _Session = () => {
                     </PSection>
                 </PInner>
             </PWrapper>
+
+            <MWrapper>
+                <MInner>
+
+
+                </MInner>
+            </MWrapper>
         </>
     )
 }
 
+// PC
 const PWrapper = styled.div`
     width : 100%;
     margin-bottom : 200px;
@@ -89,13 +99,26 @@ const PSection = styled.div`
     justify-content : flex-start;
     padding : 0 20px 0 20px;
     flex-wrap : wrap;
-    /* background : red; */
 `
 const PLink = styled(Link)`
     text-decoration : none;
 `
-
 const PList = styled(Personbtn)`
 `
 
+// mobile
+const MWrapper = styled.div`
+    width : auto;
+    padding : 0 16px 80px 16px;
+    display : flex;
+    justify-content : center;
+
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+`
+const MInner = styled.div`
+    position : relative;
+    width : 375px;
+`
 export default _Session

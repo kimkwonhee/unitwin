@@ -29,11 +29,17 @@ const _Closing = () => {
                             </PContentsArea>
                         </PLeftArea>
                         <PRightArea>
-                            <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr'></PChat>
+                            <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr' />
                         </PRightArea>
                     </PCenterArea>
                 </PInner>
             </PWrapper>
+
+            <MWrapper>
+                <MInner>
+
+                </MInner>
+            </MWrapper>
         </>
     )
 }
@@ -82,6 +88,22 @@ const PContentsArea = styled.div`
 const PSection = styled(ListSession)`
     border-top : 1px solid var(--turtle-green);
     margin-top : 60px;
+`
+
+// Mobile
+const MWrapper = styled.div`
+    width : auto;
+    padding : 0 16px 80px 16px;
+    display : flex;
+    justify-content : center;
+
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+`
+const MInner = styled.div`
+    position : relative;
+    width : 375px;
 `
 
 
