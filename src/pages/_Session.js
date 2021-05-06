@@ -18,11 +18,13 @@ const _Session = () => {
     
 
     const [selList , setSelList ] = useState(p_detaildata[2].item);
+    const [m_selList , m_setSelList ] = useState(m_detaildata[2].item);
 
     const onSelctCatagry = async (c_name) => {
         await setSelectCatagory(c_name);
         if (c_name === 'all') {
             await setSelList(p_detaildata[2].item)
+            await m_setSelList(m_detaildata[2].item)
             return
         }
         let newArray = [];
@@ -32,6 +34,7 @@ const _Session = () => {
             }
         })
         await setSelList(newArray);
+        await m_setSelList(newArray);
     }
 
     
@@ -50,7 +53,7 @@ const _Session = () => {
                     />
                     <PSection>
                         {selList.map((list, index) => {
-                            return <PLink to={list.link}>
+                            return <PLink to={list.link} key={`${list.id}_link`}>
                                      <PList 
                                         key={list.id} 
                                         src={list.img} 
@@ -68,8 +71,26 @@ const _Session = () => {
                 <MInner>
                     <MContents1 
                         title={m_detaildata[0].title} 
+                        keyword={false}
                         contents={m_detaildata[0].contents}
                     />
+                    <MContents2 
+                        title={m_detaildata[1].title} 
+                        keyword={m_detaildata[1].keyword}
+                        contents={<ThemebtnGroup onSelctCatagry={onSelctCatagry} selectedcatagory={selectCatagory}/>}
+                    />
+                    <MSection>
+                        {m_selList.map((list, index) => {
+                            return <MLink to={list.link} key={`${list.id}_link`}>
+                                     <MList 
+                                        key={list.id} 
+                                        src={list.img} 
+                                        name={list.name}
+                                        title={list.title}
+                                    />
+                                </MLink>
+                        })}
+                    </MSection>
 
                 </MInner>
             </MWrapper>
@@ -130,4 +151,33 @@ const MInner = styled.div`
 const MContents1 = styled(PageTopArea)`
     margin-top : 100px;
 `
+
+const MContents2 = styled(PageTopArea)`
+    margin-top : 40px;
+    
+    &:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin-bottom: 28px;
+        background-color: #83b949;
+    }
+`
+const MSection = styled.div`
+    padding : 0 20px 0 20px;
+
+`
+const MLink = styled(Link)`
+    display: inline-block;
+    width: calc(50% - 29px);
+    text-decoration : none;
+
+    &:nth-child(2n-1) {
+        margin-right: 58px;
+    }
+`
+const MList = styled(Personbtn)`
+`
+
 export default _Session
