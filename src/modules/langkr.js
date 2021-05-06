@@ -75,6 +75,8 @@ export const langkr = {
         // 기타
         videobtn : '영상보기',
         realchating : '실시간 채팅',
+        lecture : '강연설명',
+        classdownload : '강의자료 다운로드',
 
         // 메뉴 바
         menuber : {
@@ -413,6 +415,8 @@ export const langkr = {
         // 기타
         videobtn : '영상보기',
         realchating : '실시간 채팅',
+        lecture : '강연설명',
+        classdownload : '강의자료 다운로드',
 
         // 메뉴바
         menuber : {
