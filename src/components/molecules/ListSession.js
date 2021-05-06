@@ -31,6 +31,7 @@ const ListSession = ({className, data}) => {
                             <MTextblock>
                                 <MImg src={list.img} alt={list.name} />     
                             </MTextblock>
+                            <MModer>{list.moder}</MModer>
                             <MName>{list.name}</MName>
                             <MEnName>{list.en_name}</MEnName>
                             <MListtitle>{list.li_title}</MListtitle>
@@ -80,8 +81,8 @@ const PName = styled.div`
 `
 const PEnName = styled.span`
     font-size: 16px;
-    font-weight: bold;
-    color: var(--black);
+    font-weight: 400;
+    color: var(--brown-grey);
 `
 const PJob = styled.div`
     padding-top : 8px;
@@ -101,6 +102,8 @@ const MWrapper = styled.div`
     width : auto;
     display : block;
     margin-bottom : 80px;
+    border-top: 2px solid var(--turtle-green);
+
     @media all and (min-width:1200px) {
         display : none;
     }
@@ -118,8 +121,14 @@ const MImg = styled.img`
     width : 180px;
     height : 180px;
 `
-const MName = styled.div`
+const MModer = styled.div`
     margin-top : 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--turtle-green);
+`
+const MName = styled.div`
+    margin-top : 14px;
     font-size: 14px;
     font-weight: bold;
     color: var(--black);

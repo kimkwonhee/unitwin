@@ -47,7 +47,7 @@ const PDownlodebtn = styled(Downloadbtn)`
 
 // Movile
 const MWrapper = styled.div`
-    width : 375px;
+    width: 375px;
     display : block;
     @media all and (min-width:1200px) {
         display : none;
@@ -55,7 +55,9 @@ const MWrapper = styled.div`
 `
 
 const MVideoArea = styled.div`
-    height : 211px;
+    width: 100%;
+    max-width : 375px;
+    padding-top: 56.26%;
     background-color : purple;
 `
 

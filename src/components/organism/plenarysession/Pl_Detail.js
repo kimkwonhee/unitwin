@@ -207,11 +207,14 @@ const MTopArea = styled.div`
     position : relative;
     width : 375px;
     margin-bottom : 40px;
-    
+
+    @media all and (max-width: 375px) {
+        padding: 0 16px;
+    }
 `
 const MVideoArea = styled.div`
     position : relative;
-    width : 375px;
+    max-width : 375px;
 `
 const MViewchangeArea = styled.div`
     display : flex;
@@ -231,13 +234,19 @@ const MSection = styled(ListSession)`
 const MDetailSection = styled.div`
     display : ${props => (props.status =='discription') ? 'block': 'none'};
     width : 375px;
-    padding : 0 16px;
+
+    @media all and (max-width: 375px) {
+        padding: 0 16px;
+    }
 `
 const MChatSection = styled.div`
     width : 375px;
     height : 750px;
-    padding : 0 16px;
     display : ${props => (props.status =='chat') ? 'block': 'none'};
+    
+    @media all and (max-width: 375px) {
+        padding: 0 16px;
+    }
 `
 const MVideoText = styled.div`
     margin-bottom : 24px;
