@@ -9,7 +9,11 @@ const ListVideoSession = ({down, height, discription}) => {
             {/* PC */}
             <PWrapper>
                 <PVideoArea height={height}>
-                    <div>비디오영상</div>
+                    <iframe 
+                       width="100%" height="100%" 
+                    src="https://www.youtube.com/embed/PdX_kOdePVY" frameBorder="0" 
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>      
+                    </iframe>
                 </PVideoArea>
                 <PDescription>{discription}</PDescription>
                 <PDownlodebtn down={down}>강의자료 다운로드</PDownlodebtn>
@@ -35,7 +39,6 @@ const PWrapper = styled.div`
 `
 const PVideoArea = styled.div`
     height : ${props => props.height || '450px;'};
-    background-color : purple;
 `
 const PDescription = styled.div`
      padding : 20px 0px;

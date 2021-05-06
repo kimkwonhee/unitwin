@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import backgroud1 from '../../../images/home_bg01.jpg'
-import backgroud2 from '../../../images/home_bg02.png'
 import logo from '../../../images/home_top_logo.png'
 import Preregistrationbtn from '../../atom/Preregistrationbtn'
 import PageTopArea from '../../molecules/PageTopArea'
@@ -10,13 +9,12 @@ import lottie from 'lottie-web'
 import animData from '../../../images/circle_main.json'
 
 const Home_top = ({className , curlang}) => {
+    
     const p_detaildata = curlang.p_data.home_top;
     const m_detaildata = curlang.m_data.home_top;
 
-
     useEffect(() => {
-        const lottiePlayer = async () => {
-            
+        const lottiePlayer = async () => {   
             await lottie.loadAnimation({
                 container: document.querySelector('#animArea'),
                 loop: true,
@@ -30,12 +28,8 @@ const Home_top = ({className , curlang}) => {
                 autoplay: true,
                 animationData: animData
             })
-
-
         }
-
         lottiePlayer()
-
     }, [])
     
     return (
@@ -47,16 +41,10 @@ const Home_top = ({className , curlang}) => {
                         <PLogoimg src={logo} alt="mark"/>
                     </PLogoArea>
                     <PBackImgArea>
-                        <PBackImg id="animArea">
-
-                        </PBackImg>
-                        {/* <PBgimg src={backgroud2} alt="mark" /> */}
+                        <PBackImg id="animArea" />
                     </PBackImgArea>
                     <PContentsArea>
-                        <PImgTitle 
-                            src={p_detaildata.img}
-                            alt="title" 
-                        />
+                        <PImgTitle src={p_detaildata.img} alt="title" />
                         <PCalender>{p_detaildata.time}</PCalender>
                         <PApplybtn>{p_detaildata.advance}</PApplybtn>
                         <PContents 
@@ -77,7 +65,6 @@ const Home_top = ({className , curlang}) => {
                         <MLogoimg src={logo} alt="mark"/>
                     </MLogoArea>
                     <MBackImgArea>
-                        {/* <MBgimg src={backgroud2} alt="mark" /> */}
                         <MBackImg id="animAreaMO" />
                     </MBackImgArea>
                     <MContentsArea>
@@ -138,10 +125,6 @@ const PBackImg = styled.div`
     width: 680px;
     height: 680px;
 `
-const PBgimg = styled.img`
-    width : 680px;
-    height : 680px;
-`
 const PContentsArea = styled.div`
     position : absolute;
     width : 100%;
@@ -162,7 +145,6 @@ const PContents = styled(PageTopArea)`
     margin-top : 180px;
     margin-bottom : 72px;
 `
-
 
 // Mobile
 const MWrapper = styled.div`
@@ -203,10 +185,6 @@ const MBackImg = styled.div`
     width: 280px;
     height: 280px;
 `
-const MBgimg = styled.img`
-    width : 267px;
-    height : 280px;
-`
 const MContentsArea = styled.div`
     position : absolute;
     top : 146px;
@@ -230,5 +208,4 @@ const MApplybtn = styled(Preregistrationbtn)`
 `
 const MContents = styled(PageTopArea)`
 `
-
 export default Home_top

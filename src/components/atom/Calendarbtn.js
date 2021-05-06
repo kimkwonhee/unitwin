@@ -24,7 +24,6 @@ const Calendarbtn = ({id, title, calendar, status, onClick}) => {
                 <MSub>{calendar}</MSub>
             </MWrapper>
         </>
-        
     )
 }
 
@@ -36,9 +35,9 @@ const PWrapper = styled.div`
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color: ${(props) => (props.id === props.status) ? color.black : color.white};
+    background-color: ${(props) => (props.id == props.status) ? color.black : color.white};
     cursor: pointer;
-    color: ${(props) => (props.id === props.status) ? color.white : color.black};
+    color: ${(props) => (props.id == props.status) ? color.white : color.black};
 
     &:hover {
         background-color: ${color.black};

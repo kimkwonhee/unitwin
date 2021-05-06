@@ -64,6 +64,8 @@ const PWrapper = styled.div`
     display : flex;
     flex-direction : column;
     align-items : center;
+    position : relative;
+    z-index : 50;
 
     @media all and (max-width:1199px) {
         display : none;
