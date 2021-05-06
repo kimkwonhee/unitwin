@@ -15,9 +15,9 @@ const ListSession = ({className, data}) => {
                             </PImgblock>
                             <PTextblock>
                                 <PModer>{list.moder}</PModer>
-                                <PName>{list.name}<PEnName>{list.en_name}</PEnName></PName>
-                                <PListtitle>{list.li_title}</PListtitle>
-                                <PContents>{list.li_contents}</PContents>
+                                <PName>{list.name}<PEnName>{list.ename}</PEnName></PName>
+                                <PJob>{list.job}</PJob>
+                                <PDiscription>{list.discription}</PDiscription>
                             </PTextblock>
                         </PInner>
                     </PSection>
@@ -68,13 +68,13 @@ const PEnName = styled.span`
     font-weight: bold;
     color: var(--black);
 `
-const PListtitle = styled.div`
+const PJob = styled.div`
     padding-top : 8px;
     font-size: 14px;
     font-weight: 500;
     color: var(--black);
 `
-const PContents = styled.div`
+const PDiscription = styled.div`
     padding : 20px 0 20px 0;
     font-size: 12px;
     color: var(--black);

@@ -13,6 +13,7 @@ import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
 import Se_Detail from './components/organism/session/Se_Detail'
 import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 import 'antd/dist/antd.css'
+import { useSelector } from 'react-redux'
 
 const Globalstyles = createGlobalStyle`
 
@@ -32,10 +33,17 @@ const Globalstyles = createGlobalStyle`
 `
 
 const App = () => {
+
+  const { curlang, langkr, langen } = useSelector(state => ({
+    curlang : state.changlang.curlang,
+    langkr : state.changlang.langkr,
+    langen : state.changlang.langen
+  }))
+
   return (
     <Wrapper>
       <Globalstyles />
-      <Menubar />
+      <Menubar curlang={curlang} langkr={langkr} langen={langen}/>
       <Switch>
         <Route path="/unitwin/home" component={_Home} exact/>
         <Route path="/unitwin/plenary-session/:detail" component={Pl_Detail}/>
@@ -47,7 +55,7 @@ const App = () => {
         <Route path="/unitwin/byob" component={_Byob}/>
         <Route path="/unitwin/closing-ceremony" component={_Closing}/>
       </Switch>
-      <Footer />
+      <Footer curlang={curlang} langkr={langkr} langen={langen}/>
     </Wrapper>
   )
 }
