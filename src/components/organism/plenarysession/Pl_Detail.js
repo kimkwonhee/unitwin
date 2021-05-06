@@ -102,7 +102,7 @@ const Pl_Detail = ({match}) => {
                         status={status}
                         onClick={()=> setStatus('discription')}
                     >
-                        강연설명
+                        {curlang.m_data.lecture}
                     </MViewbtn>
                     <MViewbtn 
                         id="chat"
@@ -114,7 +114,7 @@ const Pl_Detail = ({match}) => {
                 </MViewchangeArea>
                 <MDetailSection status={status}>
                     <MVideoText>{M_videotext}</MVideoText>
-                    <MDownlodebtn down={M_download}>강의자료 다운로드</MDownlodebtn>
+                    <MDownlodebtn down={M_download}>{curlang.m_data.classdownload}</MDownlodebtn>
                     {M_contentsection}
                 </MDetailSection>
                 <MChatSection status={status}>
