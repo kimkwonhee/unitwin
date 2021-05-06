@@ -16,13 +16,21 @@ const Home_top = ({className , curlang}) => {
 
     useEffect(() => {
         const lottiePlayer = async () => {
-            console.log('lottie')
+            
             await lottie.loadAnimation({
                 container: document.querySelector('#animArea'),
                 loop: true,
                 autoplay: true,
                 animationData: animData
             })
+
+            await lottie.loadAnimation({
+                container: document.querySelector('#animAreaMO'),
+                loop: true,
+                autoplay: true,
+                animationData: animData
+            })
+
 
         }
 
@@ -69,7 +77,8 @@ const Home_top = ({className , curlang}) => {
                         <MLogoimg src={logo} alt="mark"/>
                     </MLogoArea>
                     <MBackImgArea>
-                        <MBgimg src={backgroud2} alt="mark" />
+                        {/* <MBgimg src={backgroud2} alt="mark" /> */}
+                        <MBackImg id="animAreaMO" />
                     </MBackImgArea>
                     <MContentsArea>
                         <MImgTitle src={m_detaildata.img} alt="title" />
@@ -189,6 +198,10 @@ const MBackImgArea = styled.div`
     right : 0;
     display : flex;
     justify-content : flex-end;
+`
+const MBackImg = styled.div`
+    width: 280px;
+    height: 280px;
 `
 const MBgimg = styled.img`
     width : 267px;

@@ -6,6 +6,7 @@ import ListVideoSession from '../components/molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import color from '../style/color'
+import { Affix } from 'antd'
 
 const _Closing = () => {
     const { curlang } = useSelector(state => ({
@@ -27,9 +28,12 @@ const _Closing = () => {
                                 <PSection data={p_detaildata.list} /> 
                             </PContentsArea>
                         </PLeftArea>
-                        <PRightArea>
-                            <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr' />
-                        </PRightArea>
+                        <Affix offsetTop={100}>
+                            <PRightArea>
+                                <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr' />
+                            </PRightArea>
+                        </Affix>
+                        
                     </PCenterArea>
                 </PInner>
             </PWrapper>
