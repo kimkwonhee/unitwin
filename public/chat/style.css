@@ -1,0 +1,184 @@
+/****************************/
+/* Common
+/****************************/
+* {
+    box-sizing: border-box;                 /* Opera/IE 8+ */
+    -webkit-box-sizing: border-box;         /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;            /* Firefox, other Gecko */
+    -webkit-appearance: none;
+}
+
+[v-clock] {
+    display: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font: 0.8em "Open Sans", sans-serif;
+    color: #5e5b64;
+    background-color: #E6E9F0;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+a,
+a:visited {
+    outline: none;
+    color:#389dc1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+section, footer, header, aside, nav {
+    display: block;
+}
+
+input, textarea {
+    background-color: #ffffff;
+    border: solid 1px rgba(34, 34, 34, 0.333);
+    resize: none;
+}
+
+/* Main */
+#app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: white;
+    color: #333333;
+}
+
+main {
+    width: 100%;
+    min-width: 340px;
+    height: 100vh;
+}
+
+/****************************/
+/* Message
+/****************************/
+#wrap {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#message {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+    width: 100%;
+    height: calc(100% - 72px);
+    padding: 16px 16px 5px 16px;
+    border: solid 0.3px #aaaaaa;
+    border-radius: 4px;
+    background-color: #f9faf9;
+}
+
+#message > div {
+    width: 100%;
+    margin: 0 6px 12px 0;
+    padding: 12px;
+    border-radius: 4px;
+    border: solid 1px #d0d0d0;
+    background-color: white;
+    font-family: NotoSansKR;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    word-break: break-all;
+}
+
+#message > div .title {
+    height: 17px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#message > div .title span:nth-child(1) {
+    color: #83b949;
+}
+
+#message > div .title span:nth-child(2) {
+    color: #aaaaaa;
+}
+
+#message > div .content {
+    font-size: 14px;
+    line-height: 1.57;
+    color: black;
+}
+
+/****************************/
+/* Send
+/****************************/
+#send {
+    position: fixed;
+    width: 100%;
+    min-width: 310px;
+    height: 44px;
+    /* left: 16px; */
+    left: 0;
+    bottom: 0;
+    /* width: calc(100% - 32px); */
+    height: 60px;
+    background-color: white;
+}
+
+#send input {
+    width: 100%;
+    height: 44px;
+    padding: 4px 60px 4px 12px;
+    border-radius: 4px;
+    border: solid 1px #d0d0d0;
+    background-color: white;
+}
+
+#send input::placeholder {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaaaaa;
+}
+
+#send img {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    width: 36px;
+    height: 36px;
+    margin: 0 0 0 12px;
+    object-fit: contain;
+}
+
+/****************************/
+/* Error
+/****************************/
+#error {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: gray;
+    font-size: 30px;
+}
