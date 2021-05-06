@@ -4,31 +4,59 @@ import Downloadbtn from '../atom/Downloadbtn'
 
 const ListVideoSession = ({down, height, discription}) => {
     return (
-        <Wrapper>
-            <VideoArea height={height}>
-                <div>비디오영상</div>
-            </VideoArea>
-            <Description>{discription}</Description>
-            <PDownlodebtn down={down}>강의자료 다운로드</PDownlodebtn>
-        </Wrapper>
+        <>
+            {/* PC */}
+            <PWrapper>
+                <PVideoArea height={height}>
+                    <div>비디오영상</div>
+                </PVideoArea>
+                <PDescription>{discription}</PDescription>
+                <PDownlodebtn down={down}>강의자료 다운로드</PDownlodebtn>
+            </PWrapper>
+
+            {/* Mobile */}
+            <MWrapper>
+                <MVideoArea height={height}>
+                    <div>비디오영상</div>
+                </MVideoArea>
+            </MWrapper>
+        </>
     )
 }
 
-const Wrapper = styled.div`
+// PC
+const PWrapper = styled.div`
     width : 100%;
+    display : block;
+    @media all and (max-width:1199px) {
+        display : none;
+    }
 `
-
-const VideoArea = styled.div`
+const PVideoArea = styled.div`
     height : ${props => props.height || '450px;'};
     background-color : purple;
 `
-const Description = styled.div`
+const PDescription = styled.div`
      padding : 20px 0px;
      font-size: 16px;
      font-weight: 500;
      color: var(--black);
 `
 const PDownlodebtn = styled(Downloadbtn)`
+`
+
+// Movile
+const MWrapper = styled.div`
+    width : 375px;
+    display : block;
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+`
+
+const MVideoArea = styled.div`
+    height : 211px;
+    background-color : purple;
 `
 
 export default ListVideoSession
