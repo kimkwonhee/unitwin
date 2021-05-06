@@ -22,7 +22,7 @@ const _Byob = () => {
                             contents={p_detaildata.contents}
                         />
                     <PZoomArea>
-                        <PZoombtn><PZoomText>ZOOM으로 참여하기</PZoomText></PZoombtn>
+                        <PZoombtn><PZoomText>{curlang.p_data.zoom}</PZoomText></PZoombtn>
                     </PZoomArea>
                     <PMiddleArea>
                         <P_Data 
@@ -56,7 +56,7 @@ const _Byob = () => {
                         />
                         
                     <MZoomArea>
-                        <MZoombtn><MZoomText>ZOOM으로 참여하기</MZoomText></MZoombtn>
+                        <MZoombtn><MZoomText>{curlang.p_data.zoom}</MZoomText></MZoombtn>
                     </MZoomArea>
                     <MMiddleArea>
                         <M_Data 
@@ -99,7 +99,6 @@ const PInner = styled.div`
 `
 const PContents = styled(PageTopArea)`
     margin-top : 180px;
-    /* background-color :red; */
 `
 const PMiddleArea = styled.div`
     border-top : 4px solid ${color.turtle_green};
