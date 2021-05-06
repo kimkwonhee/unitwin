@@ -5,8 +5,14 @@ import ListSessionTop from '../../molecules/ListSessionTop'
 import ListVideoSession from '../../molecules/ListVideoSession'
 import person1 from '../../../images/session_01.png'
 import PlanSesionbtn from '../../atom/PlanSesionbtn'
+import { withRouter } from 'react-router-dom'
 
-const Pr_Detail = () => {
+const Pr_Detail = ({match}) => {
+
+    const p_topcontents_a = {
+        title : '세션 1',
+
+    }
 
     const planlist = [
         {
@@ -59,11 +65,18 @@ const Pr_Detail = () => {
         }
     ]
 
+    let pathname = match.params.pr_detail
+    let topsection = null
+
+    if(pathname=='a') {
+        topsection = <PTop title={p_topcontents_a.title}/>;
+    }
+
     return (
         <>
-            <Wrapper>
-                <Inner>
-                    <ListSessionTop />
+            <PWrapper>
+                <PInner>
+                    {topsection}
                     <ListVideoSession height="675px"/>
                     <ContentsArea>
                         <ImgArea>
@@ -92,20 +105,26 @@ const Pr_Detail = () => {
                             })}
                         </Section>
                     </ListArea>
-                </Inner>
-            </Wrapper>
+                </PInner>
+            </PWrapper>
         </>
     )
 }
 
-const Wrapper = styled.div`
+const PWrapper = styled.div`
     width : 100%;
     display : flex;
     justify-content : center;
     margin-bottom : 200px;
+    
+    @media all and (max-width:1199px) {
+        display : none;
+    }
 `
-const Inner = styled.div`
+const PInner = styled.div`
     width : 1200px;
+`
+const PTop = styled(ListSessionTop)`
 `
 const ContentsArea = styled.div`
     padding: 60px 20px;
@@ -156,4 +175,4 @@ const Section = styled.div`
     flex-wrap : wrap;
 `
 
-export default Pr_Detail
+export default withRouter(Pr_Detail)

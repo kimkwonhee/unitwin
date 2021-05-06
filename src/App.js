@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Menubar from './components/organism/Menubar'
 import { Route, Switch } from 'react-router-dom'
 import styled, { createGlobalStyle } from 'styled-components'
@@ -33,7 +33,6 @@ const Globalstyles = createGlobalStyle`
 `
 
 const App = () => {
-
   const { curlang, langkr, langen } = useSelector(state => ({
     curlang : state.changlang.curlang,
     langkr : state.changlang.langkr,

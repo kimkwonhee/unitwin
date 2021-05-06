@@ -455,13 +455,6 @@ const PTueSection5 = styled.div`
     border-right : 1px solid var(--turtle-green);
     border-top : 1px solid var(--turtle-green);
 `
-const PTueSection6 = styled.div`
-    height : 68px;
-    background-color: #f9fff4;
-    border-right : 1px solid var(--turtle-green);
-    border-top : 1px solid var(--turtle-green);
-`
-
 
 // Wed
 const PWedSection1 = styled.div`

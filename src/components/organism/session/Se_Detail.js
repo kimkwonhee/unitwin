@@ -58,7 +58,6 @@ const Se_Detail = ({match}) => {
     }, []);
 
     const p_topcontents_a = {
-        kr: {
         title : '세션 1',
         subject : '현장사례연구 1',
         time : '05.25(화) 13:40~15:00',
@@ -152,7 +151,6 @@ const Se_Detail = ({match}) => {
             },
         ]
     }
-}
 
     const p_topcontents_b = {
         title : '세션 2',

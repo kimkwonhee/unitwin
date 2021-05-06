@@ -130,7 +130,7 @@ const Menubar = withRouter(({ className, curlang, langkr }) => {
                     <MCloseImg onClick={e=> setDrawerVisible(false)} />
                 </DrawerHeader>
                 <DrawerTitleArea>
-                    <img src={m_menu_title} />
+                    <img src={m_menu_title} alt="menu"/>
                 </DrawerTitleArea>
                 <DrawerMenuList>
                     <DrawerMenuListItem>

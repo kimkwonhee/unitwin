@@ -104,6 +104,10 @@ const PWrapper = styled.div`
     display : flex;
     justify-content : center;
     margin-bottom : 200px;
+    
+    @media all and (max-width:1199px) {
+        display : none;
+    }
 `
 const PInner = styled.div`
     width : 1200px;
