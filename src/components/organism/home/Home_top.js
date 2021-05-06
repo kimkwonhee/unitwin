@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import backgroud1 from '../../../images/home_bg01.jpg'
 import backgroud2 from '../../../images/home_bg02.png'
@@ -6,11 +6,30 @@ import logo from '../../../images/home_top_logo.png'
 import Preregistrationbtn from '../../atom/Preregistrationbtn'
 import PageTopArea from '../../molecules/PageTopArea'
 import color from '../../../style/color'
+import lottie from 'lottie-web'
+import animData from '../../../images/circle_main.json'
 
 const Home_top = ({className , curlang}) => {
     const p_detaildata = curlang.p_data.home_top;
     const m_detaildata = curlang.m_data.home_top;
 
+
+    useEffect(() => {
+        const lottiePlayer = async () => {
+            console.log('lottie')
+            await lottie.loadAnimation({
+                container: document.querySelector('#animArea'),
+                loop: true,
+                autoplay: true,
+                animationData: animData
+            })
+
+        }
+
+        lottiePlayer()
+
+    }, [])
+    
     return (
         <>
             {/* PC */}
@@ -20,7 +39,10 @@ const Home_top = ({className , curlang}) => {
                         <PLogoimg src={logo} alt="mark"/>
                     </PLogoArea>
                     <PBackImgArea>
-                        <PBgimg src={backgroud2} alt="mark" />
+                        <PBackImg id="animArea">
+
+                        </PBackImg>
+                        {/* <PBgimg src={backgroud2} alt="mark" /> */}
                     </PBackImgArea>
                     <PContentsArea>
                         <PImgTitle 
@@ -95,11 +117,17 @@ const PLogoimg = styled.img`
     height : 77px;
 `
 const PBackImgArea = styled.div`
+    width: 680px;
+    height: 680px;
     position : absolute;
     top : 160px;
     right : 0;
     display : flex;
     justify-content : flex-end;
+`
+const PBackImg = styled.div`
+    width: 680px;
+    height: 680px;
 `
 const PBgimg = styled.img`
     width : 680px;

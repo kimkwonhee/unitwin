@@ -31,13 +31,22 @@ const Menubar = withRouter(({ className, curlang }) => {
             setScrollTop(false)
         }
     }
+    const onScreenResize = () => {
+        if (window.innerWidth >= 1200) {
+            setDrawerVisible(false)
+        }
+    }
     useEffect(() => {
         setScrollTop(location.pathname === '/unitwin/home' ? true : false)
         if (location.pathname === '/unitwin/home') {
             window.addEventListener('scroll', onScrollChange)
-            
         }
         return () => window.removeEventListener('scroll', onScrollChange)
+    }, [location.pathname])
+
+    useEffect(() => {
+        window.addEventListener('resize', onScreenResize)
+        return () => window.removeEventListener('resize', onScreenResize)
     }, [location.pathname])
 
 
@@ -240,7 +249,7 @@ const MWrapper = styled.div`
     justify-content : center;
     display : flex;
     box-shadow: ${props => props.top ? '0 0px 0px 0 #ddf2c7' : '0 1px 2px 0 #ddf2c7'};
-    background : ${props => props.top ? 'transparent' : 'color.white'};
+    background : ${props => props.top ? 'transparent' : color.white};
     transition: .3s;
     @media all and (min-width:1200px) {
         display : none;
