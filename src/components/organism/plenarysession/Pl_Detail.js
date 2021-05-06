@@ -8,7 +8,6 @@ import mobileviewbtn from '../../atom/mobileviewbtn'
 import Downloadbtn from '../../atom/Downloadbtn'
 import { useSelector } from 'react-redux'
 
-
 const Pl_Detail = ({match}) => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -39,11 +38,11 @@ const Pl_Detail = ({match}) => {
 
     if (pathname == 'wagner-part') {
         P_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
-        M_topsection = <PTop title={m_detaildata.wagner_part.title} time={m_detaildata.wagner_part.time} />
+        M_topsection = <MTop title={m_detaildata.wagner_part.title} time={m_detaildata.wagner_part.time} />
         P_videosection = <PVideo discription={p_detaildata.wagner_part.video_text} down={p_detaildata.wagner_part.download} />
-        M_videosection = <PVideo discription={m_detaildata.wagner_part.video_text} down={m_detaildata.wagner_part.download} />
+        M_videosection = <MVideo discription={m_detaildata.wagner_part.video_text} down={m_detaildata.wagner_part.download} />
         P_contentsection = <PSection data={p_detaildata.wagner_part.list} />
-        M_contentsection = <PSection data={m_detaildata.wagner_part.list} />
+        M_contentsection = <MSection data={m_detaildata.wagner_part.list} />
         P_videotext = p_detaildata.wagner_part.video_text
         M_videotext = m_detaildata.wagner_part.video_text
         P_download = p_detaildata.wagner_part.download
@@ -52,11 +51,11 @@ const Pl_Detail = ({match}) => {
     }
     else if (pathname == 'jorissen-part') {
         P_topsection = <PTop title={p_detaildata.jorissen_part.title} time={p_detaildata.jorissen_part.time} />
-        M_topsection = <PTop title={m_detaildata.jorissen_part.title} time={m_detaildata.jorissen_part.time} />
+        M_topsection = <MTop title={m_detaildata.jorissen_part.title} time={m_detaildata.jorissen_part.time} />
         P_videosection = <PVideo discription={p_detaildata.jorissen_part.video_text} down={p_detaildata.jorissen_part.download} />
-        M_videosection = <PVideo discription={m_detaildata.jorissen_part.video_text} down={m_detaildata.jorissen_part.download} />
+        M_videosection = <MVideo discription={m_detaildata.jorissen_part.video_text} down={m_detaildata.jorissen_part.download} />
         P_contentsection = <PSection data={p_detaildata.jorissen_part.list} />
-        M_contentsection =<PSection data={m_detaildata.jorissen_part.list} />
+        M_contentsection =<MSection data={m_detaildata.jorissen_part.list} />
         P_videotext = p_detaildata.jorissen_part.video_text
         M_videotext = m_detaildata.jorissen_part.video_text
         P_download = p_detaildata.jorissen_part.download
@@ -80,7 +79,7 @@ const Pl_Detail = ({match}) => {
                         <PRightArea>
                             <PChatLine />
                             <PChatArea>
-                                <PChatText>실시간 채팅</PChatText>
+                                <PChatText>{curlang.p_data.realchating}</PChatText>
                             </PChatArea>
                             <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1001&l=kr' />
                         </PRightArea>
@@ -109,7 +108,7 @@ const Pl_Detail = ({match}) => {
                         status={status}
                         onClick={()=> setStatus('chat')}
                     >
-                        실시간 채팅
+                        {curlang.m_data.realchating}
                     </MViewbtn>
                 </MViewchangeArea>
                 <MDetailSection status={status}>
@@ -120,7 +119,7 @@ const Pl_Detail = ({match}) => {
                 <MChatSection status={status}>
                     <MChatLine />
                     <MChatArea>
-                        <MChatText>실시간 채팅</MChatText>
+                        <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
                     <MChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1001&l=kr' />
                 </MChatSection>
@@ -221,8 +220,14 @@ const MViewchangeArea = styled.div`
     height : 48px;
     margin-bottom : 28px;
 `
+const MTop = styled(ListSessionTop)`
+`
+const MVideo = styled(ListVideoSession)`
+`
 const MViewbtn = styled(mobileviewbtn)`
     margin-top : 8px;
+`
+const MSection = styled(ListSession)`
 `
 const MDetailSection = styled.div`
     display : ${props => (props.status =='discription') ? 'block': 'none'};
@@ -231,7 +236,7 @@ const MDetailSection = styled.div`
 `
 const MChatSection = styled.div`
     width : 375px;
-    height : 400px;
+    height : 750px;
     padding : 0 16px;
     display : ${props => (props.status =='chat') ? 'block': 'none'};
 `
