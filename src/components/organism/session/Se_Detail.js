@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import ListSessionTop from '../../molecules/ListSessionTop'
 import ListVideoSession from '../../molecules/ListVideoSession'
@@ -52,7 +52,13 @@ import img_51 from '../../../images/session_27.png'
 
 
 const Se_Detail = ({match}) => {
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
+
     const p_topcontents_a = {
+        kr: {
         title : '세션 1',
         subject : '현장사례연구 1',
         time : '05.25(화) 13:40~15:00',
@@ -146,6 +152,7 @@ const Se_Detail = ({match}) => {
             },
         ]
     }
+}
 
     const p_topcontents_b = {
         title : '세션 2',
@@ -785,8 +792,6 @@ const Se_Detail = ({match}) => {
             },
         ]
     }
-
-
 
     let pathname = match.params.se_detail
     let topsection = null
