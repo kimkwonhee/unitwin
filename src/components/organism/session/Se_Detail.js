@@ -933,7 +933,7 @@ const PContentsArea = styled.div`
 const PSection = styled(ListSession_Se)`
 `
 
-//MO
+//mobile
 const MWrapper = styled.div`
     display : flex;
     flex-direction : column;

@@ -19,7 +19,6 @@ const ListVideoSession = ({down, height, discription}) => {
                 <MVideoArea height={height}>
                     <div>비디오영상</div>
                 </MVideoArea>
-
             </MWrapper>
         </>
     )

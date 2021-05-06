@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import ListSession from '../../molecules/ListSession'
 import ListSessionTop from '../../molecules/ListSessionTop'
@@ -6,6 +6,8 @@ import ListVideoSession from '../../molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import imga from '../../../images/plense_img01.png'
 import imgb from '../../../images/session_01.png'
+import mobileviewbtn from '../../atom/mobileviewbtn'
+import Downloadbtn from '../../atom/Downloadbtn'
 
 
 const Pl_Detail = ({match}) => {
@@ -67,25 +69,43 @@ const Pl_Detail = ({match}) => {
         ]
     }
 
+    let pathname = match.params. detail
+    let P_topsection = null
+    let M_topsection = null
+    let P_videosection = null
+    let M_videosection = null
+    let P_contentsection = null
+    let M_contentsection = null
+
+    if (pathname == 'a') {
+        P_topsection = <PTop title={p_topcontents_a.title} time={p_topcontents_a.time} />
+        M_topsection = <PTop title={p_topcontents_a.title} time={p_topcontents_a.time} />
+        P_videosection = <PVideo discription={p_topcontents_a.video_text} down={p_topcontents_a.download} />
+        M_videosection = <PVideo discription={p_topcontents_a.video_text} down={p_topcontents_a.download} />
+        P_contentsection = <PSection data={p_topcontents_a.list} />
+        M_contentsection = <PSection data={p_topcontents_a.list} />
+    }
+    else if (pathname == 'b') {
+        P_topsection = <PTop title={p_topcontents_b.title} time={p_topcontents_b.time} />
+        M_topsection = <PTop title={p_topcontents_b.title} time={p_topcontents_b.time} />
+        P_videosection = <PVideo discription={p_topcontents_b.video_text} down={p_topcontents_b.download} />
+        M_videosection = <PVideo discription={p_topcontents_b.video_text} down={p_topcontents_b.download} />
+        P_contentsection = <PSection data={p_topcontents_b.list} />
+        M_contentsection =<PSection data={p_topcontents_b.list} />
+    }
+
+    const [status, setStatus]  = useState('discription');
+
     return (
         <>
             <PWrapper>
                 <PInner>
-                    {match.params.detail == 'a' 
-                    ? <PTop title={p_topcontents_a.title} time={p_topcontents_a.time} /> 
-                    : <PTop title={p_topcontents_b.title} time={p_topcontents_b.time}
-                    />}
+                   {P_topsection}
                     <PCenterArea>
                         <PLeftArea>
-                        {match.params.detail == 'a' 
-                        ? <PVideo discription={p_topcontents_a.video_text} down={p_topcontents_a.download} /> 
-                        : <PVideo discription={p_topcontents_b.video_text} down={p_topcontents_b.download}
-                        />}
+                            {P_videosection}
                             <PContentsArea>
-                            {match.params.detail == 'a' 
-                            ? <PSection data={p_topcontents_a.list} /> 
-                            : <PSection data={p_topcontents_b.list}
-                            />}
+                                {P_contentsection}
                             </PContentsArea>
                         </PLeftArea>
                         <PRightArea>
@@ -94,6 +114,40 @@ const Pl_Detail = ({match}) => {
                     </PCenterArea>
                 </PInner>
             </PWrapper>
+
+            {/* Mobile */}
+            <MWrapper>
+                <MTopArea>
+                    {M_topsection}
+                </MTopArea>
+                <MVideoArea>
+                    {M_videosection}
+                </MVideoArea>
+                <MViewchangeArea>
+                    <MViewbtn 
+                        id="discription"
+                        status={status}
+                        onClick={()=> setStatus('discription')}
+                    >
+                        강연설명
+                    </MViewbtn>
+                    <MViewbtn 
+                        id="chat"
+                        status={status}
+                        onClick={()=> setStatus('chat')}
+                    >
+                        실시간 채팅
+                    </MViewbtn>
+                </MViewchangeArea>
+                <MDetailSection status={status}>
+                    <MVideoText>{p_topcontents_a.video_text}</MVideoText>
+                    <MDownlodebtn down={p_topcontents_a.download}>강의자료 다운로드</MDownlodebtn>
+                    {M_contentsection}
+                </MDetailSection>
+                <MChat status={status}>
+                    <div>채팅 영상 1</div>
+                </MChat>
+            </MWrapper>
         </>
     )
 }
@@ -134,6 +188,61 @@ const PContentsArea = styled.div`
 const PSection = styled(ListSession)`
     border-top : 1px solid var(--turtle-green);
     margin-top : 60px;
+`
+
+
+//mobile
+const MWrapper = styled.div`
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    width : auto;
+
+    @media all and (min-width:1200px) {
+        display : none;
+    }
+`
+const MTopArea = styled.div`
+    position : relative;
+    width : 375px;
+    padding : 0 16px;
+    margin-bottom : 40px;
+    
+`
+const MVideoArea = styled.div`
+    position : relative;
+    width : 375px;
+`
+const MTop = styled(ListSessionTop)`
+`
+const MVideo = styled(ListVideoSession)`
+`
+const MViewchangeArea = styled.div`
+    display : flex;
+    width : 375px;
+    height : 48px;
+    margin-bottom : 28px;
+`
+const MViewbtn = styled(mobileviewbtn)`
+    margin-top : 8px;
+`
+const MDetailSection = styled.div`
+    display : ${props => (props.status =='discription') ? 'block': 'none'};
+    width : 375px;
+    padding : 0 16px;
+`
+const MChat = styled.div`
+    display : ${props => (props.status =='chat') ? 'block': 'none'};
+`
+const MVideoText = styled.div`
+    margin-bottom : 24px;
+    font-size: 12px;
+    color: var(--black);
+`
+const MDownlodebtn = styled(Downloadbtn)`
+    width : 146px;
+    height : 36px;
+    margin-bottom : 40px;
 `
 
 
