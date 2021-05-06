@@ -39,24 +39,28 @@ const Pl_Detail = ({match}) => {
 
     if (pathname == 'wagner-part') {
         P_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
-        M_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
+        M_topsection = <PTop title={m_detaildata.wagner_part.title} time={m_detaildata.wagner_part.time} />
         P_videosection = <PVideo discription={p_detaildata.wagner_part.video_text} down={p_detaildata.wagner_part.download} />
-        M_videosection = <PVideo discription={p_detaildata.wagner_part.video_text} down={p_detaildata.wagner_part.download} />
+        M_videosection = <PVideo discription={m_detaildata.wagner_part.video_text} down={m_detaildata.wagner_part.download} />
         P_contentsection = <PSection data={p_detaildata.wagner_part.list} />
-        M_contentsection = <PSection data={p_detaildata.wagner_part.list} />
+        M_contentsection = <PSection data={m_detaildata.wagner_part.list} />
         P_videotext = p_detaildata.wagner_part.video_text
+        M_videotext = m_detaildata.wagner_part.video_text
         P_download = p_detaildata.wagner_part.download
+        M_download = m_detaildata.wagner_part.download
         
     }
     else if (pathname == 'jorissen-part') {
         P_topsection = <PTop title={p_detaildata.jorissen_part.title} time={p_detaildata.jorissen_part.time} />
-        M_topsection = <PTop title={p_detaildata.jorissen_part.title} time={p_detaildata.jorissen_part.time} />
+        M_topsection = <PTop title={m_detaildata.jorissen_part.title} time={m_detaildata.jorissen_part.time} />
         P_videosection = <PVideo discription={p_detaildata.jorissen_part.video_text} down={p_detaildata.jorissen_part.download} />
-        M_videosection = <PVideo discription={p_detaildata.jorissen_part.video_text} down={p_detaildata.jorissen_part.download} />
+        M_videosection = <PVideo discription={m_detaildata.jorissen_part.video_text} down={m_detaildata.jorissen_part.download} />
         P_contentsection = <PSection data={p_detaildata.jorissen_part.list} />
-        M_contentsection =<PSection data={p_detaildata.jorissen_part.list} />
-        M_videotext = p_detaildata.jorissen_part.video_text
-        M_download = p_detaildata.jorissen_part.download
+        M_contentsection =<PSection data={m_detaildata.jorissen_part.list} />
+        P_videotext = p_detaildata.jorissen_part.video_text
+        M_videotext = m_detaildata.jorissen_part.video_text
+        P_download = p_detaildata.jorissen_part.download
+        M_download = m_detaildata.jorissen_part.download
     }
 
     const [status, setStatus]  = useState('discription');
@@ -109,8 +113,8 @@ const Pl_Detail = ({match}) => {
                     </MViewbtn>
                 </MViewchangeArea>
                 <MDetailSection status={status}>
-                    <MVideoText>{P_videotext}</MVideoText>
-                    <MDownlodebtn down={P_download}>강의자료 다운로드</MDownlodebtn>
+                    <MVideoText>{M_videotext}</MVideoText>
+                    <MDownlodebtn down={M_download}>강의자료 다운로드</MDownlodebtn>
                     {M_contentsection}
                 </MDetailSection>
                 <MChatSection status={status}>
