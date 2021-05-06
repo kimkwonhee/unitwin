@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Menubtn = ({children}) => {
     return (
@@ -18,11 +19,11 @@ const Wrapper = styled.div`
     align-items : center;
     font-size: 1em;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     
     &:hover {
-        border-bottom : 2px solid var(--turtle-green);
-        color : var(--turtle-green);
+        border-bottom : 2px solid ${color.turtle_green};
+        color : ${color.turtle_green};
     }
 `
 export default Menubtn
