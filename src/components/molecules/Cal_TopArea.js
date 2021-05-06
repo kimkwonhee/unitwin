@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Videobtn from '../atom/Videobtn'
+import color from '../../style/color'
 
 const Cal_TopArea = ({className, title, videobtn, width, time}) => {
     return (
@@ -37,8 +38,8 @@ const Cal_TopArea = ({className, title, videobtn, width, time}) => {
 const PSection = styled.div`
     display : flex;
     justify-content : space-between;
-    border-top : 4px solid var(--black);
-    border-bottom : 1px solid var(--black);
+    border-top : 4px solid ${color.black};
+    border-bottom : 1px solid ${color.black};
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -51,7 +52,7 @@ const PTitleArea = styled.div`
 const PTitle = styled.div`
     font-size: 24px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     & {
         margin-right : 16px;
     }
@@ -64,7 +65,7 @@ const PTime = styled.div`
     padding-bottom : 24px;
     font-size: 20px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 
 // Mobile
@@ -72,8 +73,8 @@ const MSection = styled.div`
     display : flex;
     justify-content : space-between;
     padding : 8px 12px;
-    border-top : 2px solid var(--black);
-    border-bottom : 1px solid var(--black);
+    border-top : 2px solid ${color.black};
+    border-bottom : 1px solid ${color.black};
     
     @media all and (min-width:1200px) {
         display : none;
@@ -86,11 +87,11 @@ const MTitleArea = styled.div`
 const MTitle = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MTime = styled.div`
     font-size: 14px;
-    color: var(--black);
+    color: ${color.black};
 `
 const MVideoAll = styled(Videobtn)`
 `

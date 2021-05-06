@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const ListSessionTop = ({className, title, subject, time}) => {
     
@@ -23,7 +24,7 @@ const Wrapper = styled.div`
 const Line = styled.div`
     width : 300px;
     height : 4px;
-    background-color : var(--black);
+    background-color : ${color.black};
 `
 const Title = styled.div`
     margin-top : 12px;
@@ -31,19 +32,19 @@ const Title = styled.div`
     font-size: 28px;
     font-weight: 900;
     white-space: pre-line;
-    color: var(--black);
+    color: ${color.black};
 `
 const Subject = styled.div`
     font-size: 20px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const Time = styled.div`
     margin-top : 4px;
     margin-bottom : 40px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 
 export default ListSessionTop

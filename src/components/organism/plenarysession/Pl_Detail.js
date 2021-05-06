@@ -6,7 +6,7 @@ import ListVideoSession from '../../molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import imga from '../../../images/plense_img01.png'
 import imgb from '../../../images/session_01.png'
-
+import color from '../../../style/color'
 
 const Pl_Detail = ({match}) => {
     const p_topcontents_a = {
@@ -132,7 +132,7 @@ const PContentsArea = styled.div`
     padding-top : 20px;
 `
 const PSection = styled(ListSession)`
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
     margin-top : 60px;
 `
 

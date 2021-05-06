@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Videobtn = ({className, width, videobtn, children}) => {
     return (
@@ -31,7 +32,7 @@ const PWrapper = styled.div`
     display : ${props => props.videobtn ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;
-    background-color: var(--turtle-green);
+    background-color: ${color.turtle_green};
     
     @media all and (max-width:1199px) {
         display : none;
@@ -40,7 +41,7 @@ const PWrapper = styled.div`
 const PText = styled.div`
     font-size: 14px;
     font-weight: bold;
-    color: var(--white);
+    color: ${color.white};
 `
 
 // Mobile
@@ -51,7 +52,7 @@ const MWrapper = styled.div`
     display : ${props => props.videobtn ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;
-    background-color: var(--turtle-green);
+    background-color: ${color.turtle_green};
     
     @media all and (min-width:1200px) {
         display : none;
@@ -60,6 +61,6 @@ const MWrapper = styled.div`
 const MText = styled.div`
     font-size: 12px;
     font-weight: bold;
-    color: var(--white);
+    color: ${color.white};
 `
 export default Videobtn

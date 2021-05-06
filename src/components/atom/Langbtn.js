@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Langbtn = ({children, onClick, id, langstate}) => {
     return (
@@ -20,11 +21,11 @@ const Wrapper = styled.div`
      display : flex;
      justify-content : center;
      align-items : center;
-     border: solid 0.5px var(--turtle-green);
+     border: solid 0.5px ${color.turtle_green};
      font-size: 0.75rem;
      font-weight: bold;
-     color: ${props=> (props.id === props.langstate) ? 'var(--white)' : 'var(--brown-grey)'};
-     background-color: ${props=> (props.id === props.langstate) ? 'var(--turtle-green)' : 'var(--white)'}
+     color: ${props=> (props.id === props.langstate) ? color.white : color.brownish_grey};
+     background-color: ${props=> (props.id === props.langstate) ? color.turtle_green : color.white}
 `
 
 export default Langbtn

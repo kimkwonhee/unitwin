@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Cal_TopArea from '../../molecules/Cal_TopArea'
+import color from '../../../style/color'
 
 const Home_day1 = () => {
     return (
@@ -189,7 +190,7 @@ const PSection = styled.div`
     width : 100%;
     height : auto;
     display : flex;
-    border-bottom : 1px solid var(--turtle-green);
+    border-bottom : 1px solid ${color.turtle_green};
     padding : 40px 0;
     &:last-child {
         margin-bottom : 200px;
@@ -206,13 +207,13 @@ const PLeftInner = styled.div`
 const PLeftTitle = styled.div`
     font-size: 28px;
     font-weight: 900;
-    color: var(--black);
+    color: ${color.black};
 `
 const PLeftTime = styled.div`
     margin-top : 4px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 // Right
 const PRight = styled.div`
@@ -221,7 +222,7 @@ const PRight = styled.div`
     display : block;
 `
 const PRightInner = styled.div`
-    border-bottom : 1px solid var(--very-light-pink);
+    border-bottom : 1px solid ${color.very_light_pink};
     &:last-child {
         border-bottom : none;
     }
@@ -236,36 +237,36 @@ const PRightSection = styled.div`
 const PRightTitle = styled.div`
      font-size: 20px;
      font-weight: bold;
-     color: var(--black);
+     color: ${color.black};
      margin-bottom : 40px;
 `
 const PRightSubText = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 
 const PRightName = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     margin-bottom : 8px;
 `
 const PRightEnName = styled.span`
     font-size: 14px;
-    color: var(--brown-grey);
+    color: ${color.brownish_grey};
 `
 const PRightJop = styled.div`
     font-size: 14px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
 `
 const PRightModer = styled.div`
     margin-top : 40px;
     margin-bottom : 8px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 
 // Mobile
@@ -289,7 +290,7 @@ const MSection = styled.div`
     width : 100%;
     height : auto;
     display : flex;
-    border-bottom : 1px solid var(--turtle-green);
+    border-bottom : 1px solid ${color.turtle_green};
     padding : 12px 0;
     &:last-child {
         border-bottom : none;
@@ -303,20 +304,20 @@ const MLeftInner = styled.div`
 const MLeftTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MLeftTime = styled.div`
     margin-top : 2px;
     font-size: 12px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const MRight = styled.div`
     width : 200px;
     display : block;
 `
 const MRightInner = styled.div`
-    border-bottom : 1px solid var(--very-light-pink);
+    border-bottom : 1px solid ${color.very_light_pink};
     &:last-child {
         border-bottom : none;
     }
@@ -331,16 +332,16 @@ const MRightSection = styled.div`
 const MRightName = styled.div`
     font-size: 14px;
     font-weight : 500;
-    color: var(--black);
+    color: ${color.black};
     margin-bottom : 2px;
 `
 const MRightEnName = styled.span`
     font-size: 12px;
-    color: var(--brown-grey);
+    color: ${color.brownish_grey};
 `
 const MRightJop = styled.div`
     font-size: 12px;
-    color: var(--black);
+    color: ${color.black};
 `
 
 

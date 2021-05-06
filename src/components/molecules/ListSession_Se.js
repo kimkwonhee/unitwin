@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Downloadbtn from '../../components/atom/Downloadbtn'
+import color from '../../style/color'
 
 const ListSession_Se = ({className, data}) => {
     return (
@@ -49,7 +50,7 @@ const PSection = styled.div`
 const PInner = styled.div`
     width : 100%;
     padding-top : 20px;
-    border-top : 1px solid var(--turtle-green);
+    border-top : 1px solid ${color.turtle_green};
 `
 const PItemInner = styled.div`
     display : flex;
@@ -62,7 +63,7 @@ const PTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
     white-space: pre-line;
-    color: var(--black);
+    color: ${color.black};
     margin-bottom : 20px;
 `
 const PImgblock = styled.div`
@@ -79,29 +80,29 @@ const PModer = styled.div`
     margin-bottom : 8px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const PName = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PEnName = styled.span`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PListtitle = styled.div`
     padding-top : 8px;
     font-size: 14px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
 `
 const PContents = styled.div`
     padding : 20px 0 20px 0;
     font-size: 12px;
     white-space: pre-line;
-    color: var(--black);
+    color: ${color.black};
 `
 const PDownlodebtn = styled(Downloadbtn)`
 `

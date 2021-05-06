@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const ListSession = ({className, data}) => {
     return (
@@ -56,28 +57,28 @@ const PModer = styled.div`
     margin-bottom : 8px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
 `
 const PName = styled.div`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PEnName = styled.span`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PJob = styled.div`
     padding-top : 8px;
     font-size: 14px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
 `
 const PDiscription = styled.div`
     padding : 20px 0 20px 0;
     font-size: 12px;
-    color: var(--black);
+    color: ${color.black};
 `
 
 export default ListSession

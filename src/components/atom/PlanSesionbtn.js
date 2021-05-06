@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import color from '../../style/color'
 
 const PlanSesionbtn = ({src, name,discription, link}) => {
     return (
@@ -32,10 +33,10 @@ const PImgArea = styled.div`
     cursor: pointer;
     border-radius : 50%;
     background : url(${props => props.src});
-    border: solid 3px var(--white);
+    border: solid 3px ${color.white};
 
     &:hover {
-        border: solid 3px var(--turtle-green);
+        border: solid 3px ${color.turtle_green};
     }
 `
 const PlImg = styled.img`
@@ -46,12 +47,12 @@ const PName = styled.div`
     margin-top : 20px;
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 const PDiscription = styled.div`
     margin-top : 8px;
     font-size: 12px;
-    color: var(--black);
+    color: ${color.black};
 `
 const PLinkTag = styled(Link)`
     text-decoration : none !important;

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Downloadbtn from '../atom/Downloadbtn'
+import color from '../../style/color'
 
 const ListVideoSession = ({down, height, discription}) => {
     return (
@@ -26,7 +27,7 @@ const Description = styled.div`
      padding : 20px 0px;
      font-size: 16px;
      font-weight: 500;
-     color: var(--black);
+     color: ${color.black};
 `
 const PDownlodebtn = styled(Downloadbtn)`
 `

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import hoverbtn from '../../images/session_hover.png'
+import color from '../../style/color'
 
 const Personbtn = ({className, src, name, title}) => {
     return (
@@ -31,10 +32,10 @@ const PPrsImg = styled.div`
     height : 300px;
     border-radius : 50%;
     background : url(${props => props.src});
-    border: solid 3px var(--white);
+    border: solid 3px ${color.white};
 
     &:hover {
-        border: solid 3px var(--turtle-green);
+        border: solid 3px ${color.turtle_green};
         &:before {
             content: "${props => props.title}";
             width: 275px;
@@ -43,7 +44,7 @@ const PPrsImg = styled.div`
             margin-top: 217px;
             margin-left: 11px;
             z-index: 6;
-            color: var(--white);
+            color: ${color.white};
         }
         
         &:after {
@@ -63,7 +64,7 @@ const PName = styled.div`
     margin-top : 20px;
     font-size: 20px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
 `
 
 export default Personbtn

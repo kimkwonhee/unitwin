@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import color from '../../style/color'
 
 const Themebtn = ({children, padding, onClick, selectedcatagory, value}) => {
     return (
@@ -12,16 +13,16 @@ const Themebtn = ({children, padding, onClick, selectedcatagory, value}) => {
 const Wrapper = styled.div`
     padding : 12px ${props=> props.padding || '20px'};
     border-radius: 40px;
-    border: solid 1px var(--brown-grey);
-    background-color: ${props => (props.selectedcatagory === props.value) ? 'var(--turtle-green)' : 'var(--white)'};
+    border: solid 1px ${color.brown_grey};
+    background-color: ${props => (props.selectedcatagory === props.value) ? color.turtle_green : color.white};
     margin-bottom : 13px;
     margin-right : 8px;
     cursor: pointer;
-    color: ${props => (props.selectedcatagory === props.value) ? 'var(--white)' : 'var(--brown-grey);'}; 
+    color: ${props => (props.selectedcatagory === props.value) ? color.white : color.brown_grey}; 
 
     &:hover {
-        background-color: var(--turtle-green);
-        color: var(--white);
+        background-color: ${color.turtle_green};
+        color: ${color.white};
     }
 `
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import color from '../../style/color'
 
 const DetailTopMO = () => {
 
@@ -49,28 +49,28 @@ const TitleArea = styled.div`
 const Line = styled.div`
     width: 80px;
     height: 2px;
-    background-color: var(--black);
+    background-color: ${color.black};
     margin-bottom: 8px;
 `
 
 const Title1 = styled.h3`
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: ${color.black};
     margin-bottom: 8px;
 `
 
 const Title2 = styled.p`
     font-size: 14px;
     font-weight: bold;
-    color: var(--turtle-green);
+    color: ${color.turtle_green};
     margin-bottom: 2px;
 `
 
 const TimeArea = styled.p`
     font-size: 12px;
     font-weight: 500;
-    color: var(--black);
+    color: ${color.black};
     margin-bottom: 0;
 `
 const VideoWrapper = styled.div`
@@ -108,8 +108,8 @@ const ContentTab = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: ${props => props.selected ? 'var(--white)' : 'var(--brown-grey)'};
-    border: ${props => props.selected ? '1px solid var(--black)' : '1px solid var(--brown-grey)'};
+    color: ${props => props.selected ? color.white : color.brown_grey};
+    border: ${props => props.selected ? '1px solid ' + color.black : '1px solid ' + color.brown_grey};
 `
 
 export default DetailTopMO
