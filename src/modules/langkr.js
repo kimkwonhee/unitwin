@@ -74,6 +74,7 @@ export const langkr = {
     p_data : {
         // 기타
         videobtn : '영상보기',
+        realchating : '실시간 채팅',
 
         // 메뉴 바
         menuber : {
@@ -411,6 +412,7 @@ export const langkr = {
     m_data : {
         // 기타
         videobtn : '영상보기',
+        realchating : '실시간 채팅',
 
         // 메뉴바
         menuber : {
