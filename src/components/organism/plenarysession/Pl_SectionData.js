@@ -83,6 +83,7 @@ const PImgArea = styled.div`
 const PImg = styled.img`
     width : 235px;
     height : 235px;
+    border-radius : 50%;
 `
 const PTextArea = styled.div`
     width : 900px;
