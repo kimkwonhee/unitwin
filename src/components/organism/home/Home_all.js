@@ -6,56 +6,54 @@ const Home_all = ({top}) => {
     return (
         <>
             <PWrapper>
-                <PDayArea>
+                <PSection1>
                     <PDayBlock>
                         <PDayText>05.24 Mon</PDayText>
                     </PDayBlock>
-                    <PDayBlock>
-                        <PDayText>05.25 Tue</PDayText>
-                    </PDayBlock>
-                    <PDayBlock>
-                        <PDayText>05.26 Wed</PDayText>
-                    </PDayBlock>
-                </PDayArea>
-                <PSection>
-                    <PConTentsArea>
-                        <PMonSection1>
+                    <PMonSection1>
                             <PTime>13:00~13:15</PTime>
                             <PTitle>오프닝 공연</PTitle>
                             <PTime>13:15~13:25</PTime>
-                            <PTitle>환영사 1~3</PTitle>
-                            <PTime>13:25~13:43</PTime>
-                            <PTitle>기조발제/축사 1</PTitle>
-                            <PTime>13:43~14:01</PTime>
-                            <PTitle>기조발제/축사 2</PTitle>
-                            <PTime>13:01~14:11</PTime>
-                            <PTitle>기조발제/축사 3</PTitle>
-                            <PTime>13:00~13:15</PTime>
-                            <PTitle>주제영상</PTitle>
+                            <PTitle>환영사</PTitle>
+                            <PTime>13:25~13:28</PTime>
+                            <PTitle>축사</PTitle>
+                            <PTime>13:28~13:43</PTime>
+                            <PTitle>기조발제 1</PTitle>
+                            <PTime>13:43~13:58</PTime>
+                            <PTitle>기조발제 2</PTitle>
+                            <PTime>13:58~14:08</PTime>
+                            <PTitle>기조발제 3</PTitle>
+                            <PTime>14:08~14:13</PTime>
+                            <PTitle>개막영상</PTitle>
                             <PSubTitle>(모두의 목소리)</PSubTitle>
                             <PMove>이동하기 &#62;</PMove>
-                        </PMonSection1>
-                        <PMonSection2 />
-                    </PConTentsArea>
-                    <PConTentsArea>
-                        <PTueSection1>
+                    </PMonSection1>
+                    <PMonSection2 />
+                </PSection1>
+                <PSection2>
+                    <PDayBlock>
+                        <PDayText>05.25 Tue</PDayText>
+                    </PDayBlock>
+                    <PTueSection1>
                             <PTime>13:00~13:40</PTime>
                             <PTitle>기조발제 1</PTitle>
                             <PSubTitle>(문화예술교육 2.0의 다양성)</PSubTitle>
                             <PTueCharacter1>언스트 바그너</PTueCharacter1>
+                            <PPhasis1>[모더레이터]</PPhasis1>
+                            <PTueCharacter2>차후 룸</PTueCharacter2>
                             <PMove>이동하기 &#62;</PMove>
-                        </PTueSection1>
-                        <PTueSection2>
+                    </PTueSection1>
+                    <PTueSection2>
                             <PTime>13:40~15:25</PTime>
                             <PTitle>세션 1</PTitle>
                             <PSubTitle>(현장사례연구 1)</PSubTitle>
                             <PPhasis1>[모더레이터]</PPhasis1>
                             <PTueCharacter2>박신의</PTueCharacter2>
                             <PPhasis2>[발제자]</PPhasis2>
-                            <PTueCharacter2>정용성, 이은수<br />김소원, 김수연, 이보람</PTueCharacter2>
-                            <PMove top="85px">이동하기 &#62;</PMove>
-                        </PTueSection2>
-                        <PTueSection3>
+                            <PTueCharacter2>정용성, 이은수<br />김소원, 김수연,<br />이보람</PTueCharacter2>
+                            <PMove>이동하기 &#62;</PMove>
+                    </PTueSection2>
+                    <PTueSection3>
                             <PLeftArea>
                                 <PTime>15:25~16:55</PTime>
                                 <PTitle>세션 2</PTitle>
@@ -63,21 +61,21 @@ const Home_all = ({top}) => {
                                 <PPhasis1>[모더레이터]</PPhasis1>
                                 <PTueCharacter2>글로리아 자파타</PTueCharacter2>
                                 <PPhasis2>[발제자]</PPhasis2>
-                                <PTueCharacter2>티나 쿠코,<br />엠시 베트만,<br />김채연,<br />산자크르스마노비츠타식</PTueCharacter2>
+                                <PTueCharacter2>티나 쿠코,<br />산자 크르스마노비츠 타식,<br />엠시 베트만,<br />김채연</PTueCharacter2>
                                 <PMove>이동하기 &#62;</PMove>
                             </PLeftArea>
                             <PRightArea>
                                 <PTime>15:25~16:55</PTime>
                                 <PTitle>세션 3</PTitle>
-                                <PSubTitle>(사회적 & 문화적 포용)</PSubTitle>
+                                <PSubTitle>(사회적&문화적 포용)</PSubTitle>
                                 <PPhasis1>[모더레이터]</PPhasis1>
                                 <PTueCharacter2>네릴 제너렛</PTueCharacter2>
                                 <PPhasis2>[발제자]</PPhasis2>
-                                <PTueCharacter2>김태희, 샤를린 라헨드란<br />난 장, 야라 도크랏</PTueCharacter2>
-                                <PMove top="87px">이동하기 &#62;</PMove>
+                                <PTueCharacter2>김태희,<br />샤를린 라헨드란,<br />난장,<br />야라 도크랏</PTueCharacter2>
+                                <PMove>이동하기 &#62;</PMove>
                             </PRightArea>
-                        </PTueSection3>
-                        <PTueSection4>
+                    </PTueSection3>
+                    <PTueSection4>
                             <PTime>16:55~18:10</PTime>
                             <PTitle>세션 4</PTitle>
                             <PSubTitle>(서울어젠다)</PSubTitle>
@@ -87,13 +85,28 @@ const Home_all = ({top}) => {
                             <PTueCharacter2>벤 볼든 & 네릴 제너렛<br />치후 룸&젠 터<br />캐서린 콜만 & 마크 셀크릭 & 에비 맥도날드</PTueCharacter2>
                             <PMove>이동하기 &#62;</PMove>
                         </PTueSection4>
+                </PSection2>
+                <PSection3>
+                    <PDayBlock>
+                        <PDayText>05.26 Wed</PDayText>
+                    </PDayBlock>
+
+                </PSection3>
+                {/* <PSection>
+                    <PConTentsArea>
+                       
+                    </PConTentsArea>
+                    <PConTentsArea>
+                       
+                       
+                       
+                        
                         <PTueSection5>
                             <PTime>16:55~18:10</PTime>
                             <PTitle>BYOB</PTitle>
                             <PSubTitle>(문화예술교육 2.0의 다양성)</PSubTitle>
                             <PMove top="27px">이동하기 &#62;</PMove>
                         </PTueSection5>
-                        {/* <PTueSection6 /> */}
                     </PConTentsArea>
                     <PConTentsArea>
                         <PWedSection1>
@@ -151,8 +164,10 @@ const Home_all = ({top}) => {
                             <PMove>이동하기 &#62;</PMove>
                         </PWedSection5>
                     </PConTentsArea>
-                </PSection>
+                </PSection> */}
             </PWrapper>
+
+
             <MWrapper>
                 <MInner>
                     <MSection>
@@ -284,38 +299,139 @@ const PWrapper = styled.div`
     width : 100%;
     border : 1px solid ${color.turtle_green};
     margin-bottom : 200px;
-    display : block;
+    display : flex;
     
     @media all and (max-width:1199px) {
         display : none;
     }
 `
-// Day
-const PDayArea = styled.div`
-    display : flex;
-    background-color: #f9fff4;
+const PSection1 = styled.div`
+    width : 400px;
+    height : 2190px;
+    border-right : 1px solid ${color.turtle_green};
 `
+const PSection2 = styled.div`
+    width : 400px;
+    height : 2190px;
+    border-right : 1px solid ${color.turtle_green};
+`
+const PSection3 = styled.div`
+    width : 400px;
+    height : 2190px;
+`
+
+const PMonSection1 = styled.div`
+    height : 742px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    border-top : 1px solid ${color.turtle_green};
+`
+const PMonSection2 = styled.div`
+    height : 1380px;
+    background-color: #f9fff4;
+    border-top : 1px solid ${color.turtle_green};
+`
+const PTueSection1 = styled.div`
+    height : 380px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content  : center;
+    border-top : 1px solid ${color.turtle_green};
+`
+const PTueSection2 = styled.div`
+    height : 510px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content  : center;
+    border-top : 1px solid ${color.turtle_green};
+`
+const PTueSection3 = styled.div`
+    height : 454px;
+    display : flex;
+    border-top : 1px solid ${color.turtle_green};
+`
+const PLeftArea = styled.div`
+    width : 200px;
+    height : 100%;
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+    align-items : center;
+    border-right : 1px solid ${color.turtle_green};
+`
+const PRightArea = styled.div`
+    width : 200px;
+    height : 100%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+`
+const PTueSection4 = styled.div`
+    height : 558px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content  : center;
+    border-top : 1px solid ${color.turtle_green};
+`
+
+
 const PDayBlock = styled.div`
     width : 100%;
     height : 68px;
     display : flex;
     justify-content : center;
     align-items : center;
-    border-right : 1px solid ${color.turtle_green};
-    &:last-child {
-        border-right : none;
-    }
+    background-color: #f9fff4;
 `
 const PDayText = styled.div`
     font-size: 24px;
     font-weight: bold;
     color: ${color.turtle_green};
 `
+
+const PPhasis1 = styled.div`
+    margin-top : 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: ${color.turtle_green};
+`
+const PTueCharacter1 = styled.div`
+    margin-top : 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: ${color.black};
+`
+const PTueCharacter2 = styled.div`
+    margin-top : 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: ${color.black};
+    text-align : center;
+`
+
+
+
+
+
+
+// Day
+const PDayArea = styled.div`
+    display : flex;
+    background-color: #f9fff4;
+`
+
+
 const PSection =styled.div`
     display : flex;
 `
 const PConTentsArea = styled.div`
-    width : 400px;
+    width : 399px;
 `
 
 const PTime = styled.div`
@@ -343,19 +459,8 @@ const PSubTitle = styled.div`
     color: ${color.black};
 `
 
-const PTueCharacter1 = styled.div`
-    margin-top : 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: ${color.black};
-`
-const PTueCharacter2 = styled.div`
-    margin-top : 8px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align : center;
-    color: ${color.black};
-`
+
+
 const PMove = styled.div`
     cursor: pointer;
     margin-top : ${props => props.top || '40px'};
@@ -363,12 +468,7 @@ const PMove = styled.div`
     font-weight: 500;
     color: ${color.turtle_green};
 `
-const PPhasis1 = styled.div`
-    margin-top : 40px;
-    font-size: 16px;
-    font-weight: bold;
-    color: ${color.turtle_green};
-`
+
 const PPhasis2 = styled.div`
     margin-top : 20px;
     font-size: 16px;
@@ -376,77 +476,19 @@ const PPhasis2 = styled.div`
     color: ${color.turtle_green};
 `
 
-const PLeftArea = styled.div`
-    width : 200px;
-    height : 100%;
-    padding : 60px 0px;
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    border-right : 1px solid ${color.turtle_green};
-`
-const PRightArea = styled.div`
-    width : 200px;
-    height : 100%;
-    padding : 60px 0px;
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    justify-content : space-between;
-`
+
+
 
 // Section
 // Mon
-const PMonSection1 = styled.div`
-    height : 695px;
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    justify-content : center;
-    border-top : 1px solid ${color.turtle_green};
-    border-right : 1px solid ${color.turtle_green};
-`
-const PMonSection2 = styled.div`
-    height : 1332px;
-    background-color: #f9fff4;
-    border-top : 1px solid ${color.turtle_green};
-    border-right : 1px solid ${color.turtle_green};
-`
+
+
 
 // Tue
-const PTueSection1 = styled.div`
-    height : 304px;
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    justify-content  : center;
-    border-right : 1px solid ${color.turtle_green};
-    border-top : 1px solid ${color.turtle_green};
-`
-const PTueSection2 = styled.div`
-    height : 500px;
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    justify-content  : center;
-    border-right : 1px solid ${color.turtle_green};
-    border-top : 1px solid ${color.turtle_green};
-`
-const PTueSection3 = styled.div`
-    height : auto;
-    display : flex;
-    border-right : 1px solid ${color.turtle_green};
-    border-top : 1px solid ${color.turtle_green};
-`
-const PTueSection4 = styled.div`
-    height : 500px;
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    justify-content  : center;
-    border-right : 1px solid ${color.turtle_green};
-    border-top : 1px solid ${color.turtle_green};
-`
+
+
+
+
 const PTueSection5 = styled.div`
     height : 198px;
     display : flex;

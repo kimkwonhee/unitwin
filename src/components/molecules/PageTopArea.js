@@ -32,7 +32,7 @@ const PageTopArea = ({
                     <PSubContents>
                         {subcontents}
                     </PSubContents>
-                    <PUnitwinbtn homebtn={homebtn}/>
+                    <PUnitwinbtn homebtn={homebtn} />
                 </PContentsArea>
             </PTopArea>
 
@@ -48,7 +48,7 @@ const PageTopArea = ({
                 <MSubContents>
                         {subcontents}
                 </MSubContents>
-                <MUnitwinbtn homebtn={homebtn}/>
+                <MUnitwinbtn homebtn={homebtn} />
             </MTopArea>
         </>
     )
@@ -85,6 +85,7 @@ const PTopContents = styled.div`
 const PSubContents = styled.div`
     margin-top : 40px;
     font-size: 16px;
+    white-space: pre-line;
     color: ${color.black};
 `
 const PUnitwinbtn = styled(Unitwinbtn)`

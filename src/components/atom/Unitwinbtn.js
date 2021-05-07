@@ -5,11 +5,11 @@ import color from '../../style/color'
 const Unitwinbtn = ({className, homebtn}) => {
     return (
         <>
-            <PWrapper className={className} homebtn={homebtn} href='https://www.naver.com/'>
+            <PWrapper className={className} homebtn={homebtn} href="https://www.unitwin-arts.phil.fau.de/" target='_blank'>
                 <PText>유니트윈 홈페이지 바로가기</PText>
             </PWrapper>
 
-            <MWrapper className={className} homebtn={homebtn} href='https://www.naver.com/'>
+            <MWrapper className={className} homebtn={homebtn} href="https://www.unitwin-arts.phil.fau.de/" target='_blank'>
                 <MText>유니트윈 홈페이지 바로가기 &nbsp; &#62;</MText>
             </MWrapper>
         </>

@@ -32,7 +32,7 @@ const Home_day1 = () => {
                         <PLeftTitle>환영사</PLeftTitle>
                         <PLeftTime>13:15~13:25</PLeftTime>
                     </PLeftInner>
-                    <PRight>
+                    {/* <PRight>
                         <PRightInner>
                             <PRightSection>
                                 <PRightName>황희</PRightName>
@@ -47,7 +47,7 @@ const Home_day1 = () => {
                                 <PRightJop>- 한국문화예술교육진흥원 원장</PRightJop>
                             </PRightSection>
                         </PRightInner>
-                    </PRight>
+                    </PRight> */}
                 </PSection>
                 <PSection>
                     <PLeftInner>

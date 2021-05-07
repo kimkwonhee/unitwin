@@ -46,7 +46,7 @@ const Home_top = ({className , curlang}) => {
                     <PContentsArea>
                         <PImgTitle src={p_detaildata.img} alt="title" />
                         <PCalender>{p_detaildata.time}</PCalender>
-                        <PApplybtn>{p_detaildata.advance}</PApplybtn>
+                        <PApplybtn link={p_detaildata.link}>{p_detaildata.advance}</PApplybtn>
                         <PContents 
                             title={p_detaildata.title} 
                             contents={p_detaildata.contents}
@@ -77,7 +77,7 @@ const Home_top = ({className , curlang}) => {
                             subfontsize="20px"
                             homebtn={true}
                         />
-                        <MApplybtn>{m_detaildata.advance}</MApplybtn>
+                        <MApplybtn link={m_detaildata.link}>{m_detaildata.advance}</MApplybtn>
                     </MContentsArea>
                 </MInner>
             </MWrapper>
