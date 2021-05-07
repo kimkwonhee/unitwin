@@ -5,6 +5,7 @@ import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
 import { useSelector } from 'react-redux'
 import color from '../style/color'
+import SessionBg from '../images/session_bg_pc.png';
 
 const _PlenarySession = withRouter(() => {
     
@@ -18,10 +19,11 @@ const _PlenarySession = withRouter(() => {
     return (
         <>
             <PWrapper>
+                <PBg bg={SessionBg}></PBg>
                 <PInner>
                     <PContents 
-                            title={p_detaildata.title} 
-                            contents={p_detaildata.contents}
+                        title={p_detaildata.title} 
+                        contents={p_detaildata.contents}
                         />
                     <PMiddleArea>
                         <P_Data 
@@ -88,6 +90,16 @@ const PWrapper = styled.div`
         display : none;
     }
 `
+const PBg = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    background-image: url('${props => props.bg}');
+    position: fixed;
+`
+
 const PInner = styled.div`
     position : relative;
     width : 1200px;

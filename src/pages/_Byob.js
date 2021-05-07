@@ -4,6 +4,7 @@ import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
 import { useSelector } from 'react-redux'
 import color from '../style/color'
+import SessionBg from '../images/session_bg_pc.png';
 
 const _Byob = () => {
     const { curlang } = useSelector(state => ({
@@ -16,6 +17,7 @@ const _Byob = () => {
     return (
         <>
             <PWrapper>
+                <PBg bg={SessionBg}></PBg>
                 <PInner>
                     <PContents 
                             title={p_detaildata.title} 
@@ -93,6 +95,15 @@ const PWrapper = styled.div`
         display : none;
     }
 `
+const PBg = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    background-image: url('${props => props.bg}');
+    position: fixed;
+`
 const PInner = styled.div`
     position : relative;
     width : 1200px;
@@ -119,6 +130,10 @@ const PZoombtn = styled.div`
     justify-content : center;
     align-items : center;
     background-color: ${color.turtle_green};
+    transition: .6s;
+    &:hover {
+        opacity: 0.8;
+    }
 `
 const PZoomText = styled.div`
      font-size: 14px;

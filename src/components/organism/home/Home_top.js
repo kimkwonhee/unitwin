@@ -207,6 +207,7 @@ const MApplybtn = styled(Preregistrationbtn)`
     width : 100%;
     height : 48px;
     font-size: 14px;
+    
 `
 const MContents = styled(PageTopArea)`
 `

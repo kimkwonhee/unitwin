@@ -38,7 +38,7 @@ const PWrapper = styled.div`
     background-color: ${(props) => (props.id == props.status) ? color.black : color.white};
     cursor: pointer;
     color: ${(props) => (props.id == props.status) ? color.white : color.black};
-
+    transition: .6s;
     &:hover {
         background-color: ${color.black};
         color: ${color.white};
