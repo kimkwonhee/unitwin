@@ -29,7 +29,7 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                             <PDiscription>{discripton}</PDiscription>
                         </PLeftArea>
                         <PLink to={link}>
-                            {location.pathname === '/unitwin/byob'
+                            {location.pathname === '/2021/unitwin2021/byob'
                             ? null
                             : <PVideobtn videobtn="true">{p_detaildata}</PVideobtn>}
                         </PLink>
@@ -42,14 +42,14 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                 <MInner>
                     <MImg src={imgs} alt={name} />
                     <MTitle location={location}>{title}</MTitle>
-                    {location.pathname === '/unitwin/byob'
+                    {location.pathname === '/2021/unitwin2021/byob'
                     ? null : <MTime>{time}</MTime>}
                     <MName>{name}</MName>
                     <MEnName>{enname}</MEnName>
                     <MJop>{jop}</MJop>
                     <MDiscription>{discripton}</MDiscription>
                     <MLink to={link}>
-                            {location.pathname === '/unitwin/byob'
+                            {location.pathname === '/2021/unitwin2021/byob'
                             ? null
                             : <MVideobtn videobtn="true">{m_detaildata}</MVideobtn>}
                     </MLink>
@@ -91,7 +91,7 @@ const PTextArea = styled.div`
 `
 const PLeftArea = styled.div`
     width : 750px;
-    padding-top : ${props => (props.location.pathname === '/unitwin/byob') ? '0px' : '26px'}
+    padding-top : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? '0px' : '26px'}
 `
 const PTitle = styled.div`
     font-size: 20px;
@@ -155,7 +155,7 @@ const MImg = styled.img`
     height : 198px;
 `
 const MTitle = styled.div`
-    ${props => props.location.pathname === '/unitwin/byob'
+    ${props => props.location.pathname === '/2021/unitwin2021/byob'
     ? '' : 'margin-top : 28px'};
     font-size: 16px;
     font-weight: bold;

@@ -11,8 +11,8 @@ const _PreShowcase = () => {
     }
 
     const enterprise = [
-        { img : '로고1', contents : '가나다', link : '/unitwin/presession-showcase/a' },
-        { img : '로고2', contents : '라마바', link : '/unitwin/presession-showcase/b' }
+        { img : '로고1', contents : '가나다', link : '/2021/unitwin2021/presession-showcase/a' },
+        { img : '로고2', contents : '라마바', link : '/2021/unitwin2021/presession-showcase/b' }
     ]
     
     const [detailData, setDetailData] = useState(enterprise[0]);

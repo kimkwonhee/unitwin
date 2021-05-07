@@ -44,15 +44,15 @@ const App = () => {
       <Globalstyles />
       <Menubar curlang={curlang} langkr={langkr} langen={langen}/>
       <Switch>
-        <Route path="/unitwin/home" component={_Home} exact/>
-        <Route path="/unitwin/plenary-session/:detail" component={Pl_Detail}/>
-        <Route path="/unitwin/plenary-session" component={_PlenarySession}/>
-        <Route path="/unitwin/session/:se_detail" component={Se_Detail}/>
-        <Route path="/unitwin/session" component={_Session}/>
-        <Route path="/unitwin/presession-showcase/:pr_detail" component={Pr_Detail}/>
-        <Route path="/unitwin/presession-showcase" component={_PreShowcase}/>
-        <Route path="/unitwin/byob" component={_Byob}/>
-        <Route path="/unitwin/closing-ceremony" component={_Closing}/>
+        <Route path="/2021/unitwin2021/home" component={_Home} exact/>
+        <Route path="/2021/unitwin2021/plenary-session/:detail" component={Pl_Detail}/>
+        <Route path="/2021/unitwin2021/plenary-session" component={_PlenarySession}/>
+        <Route path="/2021/unitwin2021/session/:se_detail" component={Se_Detail}/>
+        <Route path="/2021/unitwin2021/session" component={_Session}/>
+        <Route path="/2021/unitwin2021/presession-showcase/:pr_detail" component={Pr_Detail}/>
+        <Route path="/2021/unitwin2021/presession-showcase" component={_PreShowcase}/>
+        <Route path="/2021/unitwin2021/byob" component={_Byob}/>
+        <Route path="/2021/unitwin2021/closing-ceremony" component={_Closing}/>
       </Switch>
       <Footer curlang={curlang} langkr={langkr} langen={langen}/>
     </Wrapper>
