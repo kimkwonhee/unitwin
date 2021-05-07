@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import ListSession from '..//components/molecules/ListSession'
 import ListSessionTop from '..//components/molecules/ListSessionTop'
@@ -14,6 +14,24 @@ const _Closing = () => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
+    const chatRef = useRef(null)
+    const chatDef = {
+        scroll: 4000,
+        height: 600
+    }
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+
+        // Chat Scroll
+        window.addEventListener('scroll', () => {
+            let scrollTop = document.documentElement.scrollTop
+            if (scrollTop > chatDef.scroll) {
+                var result = chatDef.height - (scrollTop - chatDef.scroll)
+                chatRef.current.style.height = result + 'px'
+            }
+        })
+    }, []);
 
     const p_detaildata = curlang.p_data.closing;
     const m_detaildata = curlang.m_data.closing;
@@ -38,7 +56,7 @@ const _Closing = () => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat src='http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1000&l=kr' />
+                                <PChat ref={chatRef} src='http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1000&l=kr' />
                             </PRightArea>
                         </Affix> 
                     </PCenterArea>
