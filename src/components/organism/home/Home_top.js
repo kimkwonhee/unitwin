@@ -31,11 +31,13 @@ const Home_top = ({className , curlang}) => {
         }
         lottiePlayer()
     }, [])
+
+    let langstatus = curlang.status
     
     return (
         <>
             {/* PC */}
-            <PWrapper className={className}>
+            <PWrapper className={className} status={langstatus}>
                 <PInner>
                     <PLogoArea>
                         <PLogoimg src={logo} alt="mark"/>
@@ -88,7 +90,7 @@ const Home_top = ({className , curlang}) => {
 // PC
 const PWrapper = styled.div`
     width : auto;
-    height : 1400px;
+    height : ${props => props.status == 'kr' ? '1400px' : '1300px'};
     display : flex;
     justify-content : center;
     padding-bottom : 100px;

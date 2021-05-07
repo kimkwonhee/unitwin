@@ -97,9 +97,9 @@ export const langen = {
             time : '24~26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
             advance : '사전신청하기',
-            contents : 'The 11th Anniversary of The Seoul Agenda: Goals for the Development of Arts Education\n\n'
-                     +'The 10th Anniversary of International Arts Education Week',
-            subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n\n'
+            contents : '- The 11th Anniversary of The Seoul Agenda: Goals for the Development of Arts Education\n\n'
+                     +'- The 10th Anniversary of International Arts Education Week',
+            subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n'
                          +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
 
