@@ -1,15 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import hoverbtn from '../../images/session_hover.png'
 import color from '../../style/color'
+import Fade from 'react-reveal/Fade'
 
 const Personbtn = ({className, src, name, title}) => {
+    const [hovered, setHovered] = useState(false)
+
     return (
         <>
             {/* Pc */}
             <PWrapper className={className}>
-                <PPrsImg src={src} alt={name} title={title}/>
+                <PPrsImg 
+                onMouseEnter={(e) => setHovered(true)}
+                onMouseLeave={(e) => setHovered(false)}
+                src={src} alt={name} title={title}>
+                    <PWHover>
+                        <Fade 
+                        duration={800}
+                        distance={'50%'}
+                        bottom 
+                        when={hovered}>
+                            <PWTitle>
+                                <PWLine></PWLine>
+                                <PWTitleTxt>{title}</PWTitleTxt>
+                                <PWLinkTxt>영상보기 &gt;</PWLinkTxt>
+                            </PWTitle>
+                        </Fade>
+                        
+                    </PWHover>
+                </PPrsImg>
                 <PName>{name}</PName>
+                
             </PWrapper>   
             
             
@@ -36,7 +58,59 @@ const PWrapper = styled.div`
         display : none;
     }
 `
+
+const PWHover = styled.div`
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 3px transparent;
+    border-radius: 150px;
+    overflow: hidden;
+    transition: .8s;
+    &:hover {
+        border: solid 3px ${color.turtle_green};
+        
+    }
+`
+
+const PWTitle = styled.div`
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(131,185,73,0.80) 30%, rgba(255,255,255,0) 30%);    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+`
+
+const PWTitleTxt = styled.p`
+    font-size: 20px;
+    font-weight: bold;
+    color: ${color.white};
+    margin-bottom: 0;
+`
+
+const PWLinkTxt = styled.p`
+    margin-bottom: 18px;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: ${color.white};
+`
+
+const PWLine = styled.div`
+    width: 100%;
+    height: 2px;
+    background-color: #fffa7d;
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+`
 const PPrsImg = styled.div`
+    position: relative;
     cursor: pointer;
     width : 300px;
     height : 300px;
@@ -45,12 +119,6 @@ const PPrsImg = styled.div`
     background-position: center;
     background-size: cover;
     background-image : url(${props => props.src});
-    border: solid 3px transparent;
-
-    &:hover {
-        border: solid 3px ${color.turtle_green};
-        
-    }
 `
 const PName = styled.div`
     margin-top : 20px;
