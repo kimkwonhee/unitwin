@@ -64,22 +64,22 @@ const Menubar = withRouter(({ className, curlang }) => {
                         <PLogoImg src={p_menulogo} alt="logo" />
                     </PLinkTag>
                     <PMenuArea>
-                        <Menubtn>{p_detaildata.text1}</Menubtn>
+                        <Menubtn id="1">{p_detaildata.text1}</Menubtn>
                         <PLinkTag to="/2021/unitwin2021/plenary-session">    
-                            <Menubtn>{p_detaildata.text2}</Menubtn>
+                            <Menubtn id="2">{p_detaildata.text2}</Menubtn>
                         </PLinkTag>
                         <PLinkTag to="/2021/unitwin2021/session">
-                            <Menubtn>{p_detaildata.text3}</Menubtn>
+                            <Menubtn id="3">{p_detaildata.text3}</Menubtn>
                         </PLinkTag>
-                        <PLinkTag to="/2021/unitwin2021/presession-showcase">
-                            <Menubtn>{p_detaildata.text4}</Menubtn>
-                        </PLinkTag>
+                        {/* <PLinkTag to="/2021/unitwin2021/presession-showcase"> */}
+                            <Menubtn id="4">{p_detaildata.text4}</Menubtn>
+                        {/* </PLinkTag> */}
                         <PLinkTag to="/2021/unitwin2021/byob">
-                            <Menubtn>{p_detaildata.text5}</Menubtn>
+                            <Menubtn id="5">{p_detaildata.text5}</Menubtn>
                         </PLinkTag>
-                        <PLinkTag to="/2021/unitwin2021/closing-ceremony">
-                            <Menubtn>{p_detaildata.text6}</Menubtn>
-                        </PLinkTag>
+                        {/* <PLinkTag to="/2021/unitwin2021/closing-ceremony"> */}
+                            <Menubtn id="6">{p_detaildata.text6}</Menubtn>
+                        {/* </PLinkTag> */}
                     </PMenuArea>
                     <PLangArea>
                         <Langbtn 
