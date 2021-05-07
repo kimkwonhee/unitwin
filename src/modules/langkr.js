@@ -70,6 +70,7 @@ import closing_img_13 from '../images/session_33.png'
 
 
 export const langkr = {
+    status : 'kr',
     // PC Data
     p_data : {
         // 기타
@@ -78,6 +79,7 @@ export const langkr = {
         lecture : '강연설명',
         classdownload : '강의자료 다운로드',
         zoom : 'ZOOM으로 참여하기',
+        unithomebtn : '유니트윈 홈페이지 바로가기',
 
         // 메뉴 바
         menuber : {
@@ -1380,6 +1382,7 @@ export const langkr = {
         lecture : '강연설명',
         classdownload : '강의자료 다운로드',
         zoom : 'ZOOM으로 참여하기',
+        unithomebtn : '유니트윈 홈페이지 바로가기  >',
 
         // 메뉴바
         menuber : {
