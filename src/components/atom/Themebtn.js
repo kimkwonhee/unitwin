@@ -19,7 +19,7 @@ const Wrapper = styled.div`
     margin-right : 8px;
     cursor: pointer;
     color: ${props => (props.selectedcatagory === props.value) ? color.white : color.brown_grey}; 
-
+    transition: .6s;
     &:hover {
         background-color: ${color.turtle_green};
         border: solid 1px ${color.turtle_green};

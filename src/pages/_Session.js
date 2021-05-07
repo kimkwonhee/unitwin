@@ -42,7 +42,8 @@ const _Session = () => {
     return (
         <>
             {/* Pc */}
-            <PWrapper bg={SessionBg}>
+            <PWrapper>
+                <PBg bg={SessionBg}></PBg>
                 <PInner>
                     <PContents1 
                         title={p_detaildata[0].title} 
@@ -65,6 +66,7 @@ const _Session = () => {
                         })}
                     </PSection>
                 </PInner>
+                
             </PWrapper>
             
             {/* mobile */}
@@ -105,13 +107,18 @@ const PWrapper = styled.div`
     margin-bottom : 200px;
     display : flex;
     justify-content : center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0px 80px;
-    background-image: url('${props => props.bg}');
     @media all and (max-width:1199px) {
         display : none;
     }
+`
+const PBg = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    background-image: url('${props => props.bg}');
+    position: fixed;
 `
 const PInner = styled.div`
     position : relative;

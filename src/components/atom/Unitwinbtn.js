@@ -47,14 +47,16 @@ const PWrapper = styled.a`
     justify-content : center;
     align-items : center;
     background-color: ${color.white};
+    border: 1px solid transparent;
+    
     @media all and (max-width:1199px) {
         display : none;
     }
 `
 const PText = styled.div`
+    color: ${color.turtle_green};
     font-size: 14px;
     font-weight: bold;
-    color: ${color.turtle_green};
 `
 
 const MWrapper = styled.a`

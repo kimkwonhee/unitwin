@@ -68,7 +68,7 @@ const PWHover = styled.div`
     border: solid 3px transparent;
     border-radius: 150px;
     overflow: hidden;
-    transition: .8s;
+    transition: .6s;
     &:hover {
         border: solid 3px ${color.turtle_green};
         

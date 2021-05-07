@@ -61,10 +61,13 @@ const PInner = styled.div`
 `
 const PImgblock = styled.div`
     margin-right : 40px;
+    
 `
 const PImg = styled.img`
     width : 120px;
     height : 120px;
+    border-radius: 60px;
+    overflow: hidden;
 `
 const PTextblock = styled.div`
     width : 100%;

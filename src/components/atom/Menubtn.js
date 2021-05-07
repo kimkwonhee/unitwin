@@ -31,7 +31,8 @@ const Wrapper = styled.a`
     color: ${props => (props.id== 4) || (props.id== 6) 
              ?  color.brown_grey 
              : color.black };
-    
+    border-bottom : 2px solid transparent;
+    transition: .3s;
     &:hover {
         border-bottom : ${props =>(props.id== 4) || (props.id== 6) 
                               ? 'none'

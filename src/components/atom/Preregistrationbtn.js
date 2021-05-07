@@ -5,7 +5,7 @@ import color from '../../style/color'
 const Preregistrationbtn = ({className, children, link}) => {
     return (
         <Wrapper className={className} href={link} target='_blank'>
-            <Text>{children}</Text>
+            {children}
         </Wrapper>
     )
 }
@@ -18,14 +18,16 @@ const Wrapper = styled.a`
     justify-content : center;
     align-items : center;
     text-decoration : none;
-`
-const Text = styled.div`
+    transition: .6s;
     font-size: 20px;
     font-weight: bold;
     text-decoration : none;
+
     color: ${color.black};
     &:hover {
-        color: ${color.black};
+        border: solid 2px ${color.black};
+        background-color: black;
+        color: ${color.white};
     }
 `
 
