@@ -20,7 +20,7 @@ const Pr_Detail = ({match}) => {
                 img : img_1,
                 name : 'b',
                 discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                link : '/unitwin/presession-showcase/b'
+                link : '/2021/unitwin2021/presession-showcase/b'
             },
             {
                 id : 2,
@@ -80,7 +80,7 @@ const Pr_Detail = ({match}) => {
                 img : img_1,
                 name : 'a',
                 discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                link : '/unitwin/presession-showcase/a'
+                link : '/2021/unitwin2021/presession-showcase/a'
             },
             {
                 id : 2,

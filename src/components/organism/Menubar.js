@@ -37,8 +37,8 @@ const Menubar = withRouter(({ className, curlang }) => {
         }
     }
     useEffect(() => {
-        setScrollTop(location.pathname === '/unitwin/home' ? true : false)
-        if (location.pathname === '/unitwin/home') {
+        setScrollTop(location.pathname === '/2021/unitwin2021/home/' ? true : false)
+        if (location.pathname === '/2021/unitwin2021/home/') {
             window.addEventListener('scroll', onScrollChange)
         }
         return () => window.removeEventListener('scroll', onScrollChange)
@@ -60,24 +60,24 @@ const Menubar = withRouter(({ className, curlang }) => {
         <>
             <PWrapper className={className}>
                 <PInner>
-                    <PLinkTag to="/unitwin/home">
+                    <PLinkTag to="/2021/unitwin2021/home/">
                         <PLogoImg src={p_menulogo} alt="logo" />
                     </PLinkTag>
                     <PMenuArea>
                         <Menubtn>{p_detaildata.text1}</Menubtn>
-                        <PLinkTag to="/unitwin/plenary-session">    
+                        <PLinkTag to="/2021/unitwin2021/plenary-session">    
                             <Menubtn>{p_detaildata.text2}</Menubtn>
                         </PLinkTag>
-                        <PLinkTag to="/unitwin/session">
+                        <PLinkTag to="/2021/unitwin2021/session">
                             <Menubtn>{p_detaildata.text3}</Menubtn>
                         </PLinkTag>
-                        <PLinkTag to="/unitwin/presession-showcase">
+                        <PLinkTag to="/2021/unitwin2021/presession-showcase">
                             <Menubtn>{p_detaildata.text4}</Menubtn>
                         </PLinkTag>
-                        <PLinkTag to="/unitwin/byob">
+                        <PLinkTag to="/2021/unitwin2021/byob">
                             <Menubtn>{p_detaildata.text5}</Menubtn>
                         </PLinkTag>
-                        <PLinkTag to="/unitwin/closing-ceremony">
+                        <PLinkTag to="/2021/unitwin2021/closing-ceremony">
                             <Menubtn>{p_detaildata.text6}</Menubtn>
                         </PLinkTag>
                     </PMenuArea>
@@ -101,7 +101,7 @@ const Menubar = withRouter(({ className, curlang }) => {
             <Affix style={{ position: 'absolute', top: 0, left: '0', zIndex: 99, }}>
                 <MWrapper top={scrollTop} className={className}>
                     <MInner>
-                        <MLinkTag to="/unitwin/home">
+                        <MLinkTag to="/2021/unitwin2021/home">
                             <MLogoImg src={scrollTop ? m_menulogo_white : m_menulogo} alt="logo" />
                         </MLinkTag>
                         <MMenuImg top={scrollTop} onClick={e=> setDrawerVisible(true)}/>
@@ -150,7 +150,7 @@ const Menubar = withRouter(({ className, curlang }) => {
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to={{
-                            pathname: '/unitwin/plenary-session'
+                            pathname: '/2021/unitwin2021/plenary-session'
                         }}>
                             <DrawerMenuTxt>
                             {m_detaildata.text2}
@@ -158,28 +158,28 @@ const Menubar = withRouter(({ className, curlang }) => {
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/session">
+                        <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/session">
                             <DrawerMenuTxt>
                             {m_detaildata.text3}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/presession-showcase">
+                        <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/presession-showcase">
                             <DrawerMenuTxt>
                             {m_detaildata.text4}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/byob">
+                        <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/byob">
                             <DrawerMenuTxt>
                             {m_detaildata.text5}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to="/unitwin/closing-ceremony">
+                        <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/closing-ceremony">
                             <DrawerMenuTxt>
                             {m_detaildata.text6}
                             </DrawerMenuTxt>
