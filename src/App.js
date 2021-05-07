@@ -17,6 +17,9 @@ import 'antd/dist/antd.css'
 import { useSelector } from 'react-redux'
 
 const Globalstyles = createGlobalStyle`
+    * {
+      transition: .15s;
+    }
 
     html, body {
         font-family: 'Noto Sans KR', sans-serif;

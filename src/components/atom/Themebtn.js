@@ -13,7 +13,7 @@ const Themebtn = ({children, padding, onClick, selectedcatagory, value, classNam
 const Wrapper = styled.div`
     padding : 12px ${props=> props.padding || '20px'};
     border-radius: 40px;
-    border: solid 1px ${color.brown_grey};
+    border: ${props => (props.selectedcatagory === props.value) ? `solid 1px ${color.turtle_green}` : `solid 1px ${color.brown_grey}`};
     background-color: ${props => (props.selectedcatagory === props.value) ? color.turtle_green : color.white};
     margin-bottom : 13px;
     margin-right : 8px;
@@ -22,6 +22,7 @@ const Wrapper = styled.div`
 
     &:hover {
         background-color: ${color.turtle_green};
+        border: solid 1px ${color.turtle_green};
         color: ${color.white};
     }
 `

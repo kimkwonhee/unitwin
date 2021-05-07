@@ -41,33 +41,15 @@ const PPrsImg = styled.div`
     width : 300px;
     height : 300px;
     border-radius : 50%;
-    background : url(${props => props.src});
-    border: solid 3px ${color.white};
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image : url(${props => props.src});
+    border: solid 3px transparent;
 
     &:hover {
         border: solid 3px ${color.turtle_green};
-        &:before {
-            content: "${props => props.title}";
-            width: 275px;
-            text-align: center;
-            position: absolute;
-            margin-top: 217px;
-            margin-left: 11px;
-            z-index: 6;
-            color: ${color.white};
-        }
         
-        &:after {
-            content :"";
-            position : absolute;
-            margin-top: 206px;
-            margin-left: 11px;
-            width : 300px;
-            height : 300px;
-            z-index : 5;
-            background : url(${hoverbtn});
-            background-repeat : no-repeat;
-        }  
     }
 `
 const PName = styled.div`

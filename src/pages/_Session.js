@@ -5,6 +5,7 @@ import PageTopArea from '../components/molecules/PageTopArea'
 import ThemebtnGroup from '../components/molecules/ThemebtnGroup'
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux'
+import SessionBg from '../images/session_bg_pc.png';
 
 const _Session = () => {
     const { curlang } = useSelector(state => ({
@@ -41,7 +42,7 @@ const _Session = () => {
     return (
         <>
             {/* Pc */}
-            <PWrapper>
+            <PWrapper bg={SessionBg}>
                 <PInner>
                     <PContents1 
                         title={p_detaildata[0].title} 
@@ -104,7 +105,10 @@ const PWrapper = styled.div`
     margin-bottom : 200px;
     display : flex;
     justify-content : center;
-
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px 80px;
+    background-image: url('${props => props.bg}');
     @media all and (max-width:1199px) {
         display : none;
     }
