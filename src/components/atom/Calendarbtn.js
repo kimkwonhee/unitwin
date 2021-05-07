@@ -65,9 +65,9 @@ const MWrapper = styled.div`
     flex-direction : column;
     align-items : center;
     justify-content : center;
-    background-color: ${(props) => (props.id === props.status) ? color.black : color.white};
+    background-color: ${(props) => (props.id == props.status) ? color.black : color.white};
     cursor: pointer;
-    color: ${(props) => (props.id === props.status) ? color.white : color.black};
+    color: ${(props) => (props.id == props.status) ? color.white : color.black};
 
     &:hover {
         background-color: ${color.black};

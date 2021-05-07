@@ -20,13 +20,14 @@ const Wrapper = styled.a`
     cursor:  ${props => (props.id== 4) || (props.id== 6) 
              ?  ''
              : 'pointer' };
-    width : 138px;
+    width : 140px;
     height : 100%;
     display : flex;
     justify-content : center;
     align-items : center;
     font-size: 1em;
     font-weight: bold;
+    margin-right : 10px;
     color: ${props => (props.id== 4) || (props.id== 6) 
              ?  color.brown_grey 
              : color.black };
