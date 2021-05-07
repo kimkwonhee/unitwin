@@ -16,6 +16,7 @@ import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 import 'antd/dist/antd.css'
 import { useSelector } from 'react-redux'
 
+
 const Globalstyles = createGlobalStyle`
     * {
       transition: .15s;
