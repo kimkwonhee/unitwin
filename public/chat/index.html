@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='UTF-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Unitwin Chat</title>
 
     <!-- Style -->
@@ -16,11 +16,11 @@
 </head>
 <body>
     <main id='app' v-clock>
-        <section id='wrap' v-if="isStart">
+        <section id='wrap' v-if='isStart'>
             <section id='message'>
-                <div v-for='(data, idx) in list' :key="idx">
+                <div v-for='(data, idx) in list' :key='idx'>
                     <div class='title'>
-                        <span ref="name" v-html='getName(idx, data.type)'></span>
+                        <span ref='name' v-html='getName(idx, data.type)'></span>
                         <span ref='time' v-html='getTime(idx, data.time)'></span>
                     </div>
                     <div class='content' v-html='getContent(data)'></div>
@@ -28,12 +28,12 @@
             </section>
         </section>
 
-        <section id='send' v-if="isStart">
-            <input id='send_input' type='input' :placeholder='placeholder' @keyup='keyPress' v-model='message' tabindex='1' autocomplete="off" maxlength="500" />
+        <section id='send' v-if='isStart'>
+            <input id='send_input' type='input' :placeholder='placeholder' @keyup='keyPress' v-model='message' tabindex='1' autocomplete='off' maxlength='500' />
             <img src='./message.svg' @click='send' />
         </section>
 
-        <section id='error' ref='error' v-if="!isStart"></section>
+        <section id='error' ref='error' v-if='!isStart'></section>
     </main>
 
     <!-- Script -->

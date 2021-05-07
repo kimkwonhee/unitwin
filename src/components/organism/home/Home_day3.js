@@ -8,124 +8,72 @@ const Home_day3 = () => {
         <>
             <PWrapper>
                <PCal_TopArea 
-                    title="학술대회 사전세션"
-                    videobtn={true}
+                    title="제4회 유네스코 유니트윈 국제 학술대회"
                     width="120px"
                     time="13:00~14:19"
                />
                <PSection>
                     <PLeftInner>
-                        <PLeftTitle>오프닝 공연</PLeftTitle>
-                        <PLeftTime>13:00~13:15</PLeftTime>
-                    </PLeftInner>
-                    <PRight>
-                        <PRightInner>
-                            <PRightSection>
-                                <PRightName>차진엽</PRightName>
-                                <PRightJop>- Collective A 예술감독</PRightJop>
-                            </PRightSection>
-                        </PRightInner>
-                    </PRight>
-                </PSection>
-                <PSection>
-                    <PLeftInner>
-                        <PLeftTitle>환영사</PLeftTitle>
-                        <PLeftTime>13:15~13:25</PLeftTime>
-                    </PLeftInner>
-                    <PRight>
-                        <PRightInner>
-                            <PRightSection>
-                                <PRightName>황희</PRightName>
-                                <PRightJop>- 문화체육관광부 장관</PRightJop>
-                            </PRightSection>
-                            <PRightSection>
-                                <PRightName>박신의</PRightName>
-                                <PRightJop>- 한국문화예술교육진흥원 이사장</PRightJop>
-                            </PRightSection>
-                            <PRightSection>
-                                <PRightName>이규석</PRightName>
-                                <PRightJop>- 한국문화예술교육진흥원 원장</PRightJop>
-                            </PRightSection>
-                        </PRightInner>
-                    </PRight>
-                </PSection>
-                <PSection>
-                    <PLeftInner>
-                        <PLeftTitle>축사</PLeftTitle>
-                        <PLeftTime>13:25~13:31</PLeftTime>
-                    </PLeftInner>
-                    <PRight>
-                        <PRightInner>
-                            <PRightSection>
-                                <PRightName>오드리 아줄레 <PRightEnName>(Audrey Azoulay)</PRightEnName></PRightName>
-                                <PRightJop>- 유네스코 사무총장</PRightJop>
-                            </PRightSection>
-                            <PRightSection>
-                                <PRightName>래리 오페럴 <PRightEnName>(Larry O’ Farrell)</PRightEnName></PRightName>
-                                <PRightJop>- 유니트윈 명예회원</PRightJop>
-                            </PRightSection>
-                        </PRightInner>
-                    </PRight>
-                </PSection>
-                <PSection>
-                    <PLeftInner>
                         <PLeftTitle>기조발제 1</PLeftTitle>
-                        <PLeftTime>13:31~13:46</PLeftTime>
+                        <PLeftTime>13:00~13:40</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>문화예술교육 2.0의 다양성</PRightTitle>
+                                <PRightName>언스트 바그너 <PRightEnName>(Ernst Wagner)</PRightEnName></PRightName>
+                                <PRightJop>- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일</PRightJop>
+                            </PRightSection>
+                            <PRightSection>
+                                <PRightModer>[모더레이터]</PRightModer>
+                                <PRightName>치후 룸 <PRightEnName>(Chee-Hoo Lum)</PRightEnName></PRightName>
+                                <PRightJop>- 국립교육원 부교수, 싱가포르</PRightJop>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>세션 1</PLeftTitle>
+                        <PLeftSub>현장사례연구 1</PLeftSub>
+                        <PLeftTime>13:00~15:25</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>극장은 '작은 지구'입니다</PRightTitle>
+                                <PRightName>정용성</PRightName>
+                                <PRightJop>- 국립극단 팀장, 대한민국</PRightJop>
+                            </PRightSection>
+                            <PRightSection>
+                                <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle>
+                                <PRightName>이은수</PRightName>
+                                <PRightJop>- 국립현대미술관 주무관, 대한민국</PRightJop>
+                            </PRightSection>
                             <PRightSection>
                                 <PRightTitle>지속가능한 예술생태계 구축을 통한 선제적 위기 대처: 성북 ‘예술순환로’ 프로젝트 사례 중심</PRightTitle>
-                                <PRightName>벤 트위스트 <PRightEnName>(Ben Twist)</PRightEnName></PRightName>
-                                <PRightJop>- 크리에이티브 카본 스코틀랜드 국장</PRightJop>
+                                <PRightName>김소원</PRightName>
+                                <PRightJop>- 성북문화재단 학예연구사, 대한민국</PRightJop>
                             </PRightSection>
-                        </PRightInner>
-                    </PRight>
-                </PSection>
-                <PSection>
-                    <PLeftInner>
-                        <PLeftTitle>기조발제 2</PLeftTitle>
-                        <PLeftTime>13:46~14:01</PLeftTime>
-                    </PLeftInner>
-                    <PRight>
-                        <PRightInner>
                             <PRightSection>
-                                <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle>
-                                <PRightName>피터 셀라스 <PRightEnName>(Peter Sellars)</PRightEnName></PRightName>
-                                <PRightJop>- 연극 감독 / UCLA 세계문화예술/무용학부 교수</PRightJop>
+                                <PRightTitle>수상한 식탁</PRightTitle>
+                                <PRightName>김수연</PRightName>
+                                <PRightJop>- 경성대학교 조교수, 대한민국</PRightJop>
                             </PRightSection>
-                        </PRightInner>
-                    </PRight>
-                </PSection>
-                <PSection>
-                    <PLeftInner>
-                        <PLeftTitle>기조발제 3</PLeftTitle>
-                        <PLeftTime>14:01~14:11</PLeftTime>
-                    </PLeftInner>
-                    <PRight>
-                        <PRightInner>
                             <PRightSection>
-                                <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle>
-                                <PRightName>요조</PRightName>
-                                <PRightJop>- 싱어송라이터 / 작가</PRightJop>
+                                <PRightTitle>창의적인 온라인 워크샵 만들기</PRightTitle>
+                                <PRightName>이보람</PRightName>
+                                <PRightJop>- 사우스 오스트레일리아 대학교 교수, 대한민국</PRightJop>
                             </PRightSection>
-                        </PRightInner>
-                    </PRight>
-                </PSection>
-                <PSection>
-                    <PLeftInner>
-                        <PLeftTitle>주제영상</PLeftTitle>
-                        <PLeftTime>14:11~14:16</PLeftTime>
-                    </PLeftInner>
-                    <PRight>
-                        <PRightInner>
                             <PRightSection>
-                                <PRightTitle>&#60;모두의 목소리&#62;</PRightTitle>
-                                <PRightSubText>‘사회 위기 속 참여적 문화예술교육의 역할’이라는 메시지를 전달하는 예술교육자와 시민들과의 인터뷰</PRightSubText>
+                                <PRightModer>[모더레이터]</PRightModer>
+                                <PRightName>박신의</PRightName>
+                                <PRightJop>- 유니트윈 학술대회 조직위원회 위원장 / 경희대학교 교수, 대한민국</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
+                
             </PWrapper>
             {/* mobile */}
             <MWrapper>
@@ -209,6 +157,12 @@ const PLeftTitle = styled.div`
     font-weight: 900;
     color: ${color.black};
 `
+const PLeftSub = styled.div`
+    margin-top : 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: ${color.turtle_green};
+`
 const PLeftTime = styled.div`
     margin-top : 4px;
     font-size: 16px;
@@ -229,9 +183,12 @@ const PRightInner = styled.div`
 `
 const PRightSection = styled.div`
     margin-bottom : 40px;
-    
+    border-bottom : 1px solid #d0d0d0;
+    padding-bottom: 40px;
     &:last-child {
         margin-bottom : 0px;
+        border-bottom : none;
+        padding-bottom: 0;
     }
 `
 const PRightTitle = styled.div`
@@ -268,6 +225,7 @@ const PRightModer = styled.div`
     font-weight: bold;
     color: ${color.turtle_green};
 `
+
 
 // Mobile
 const MWrapper = styled.div`

@@ -79,9 +79,9 @@ const Menubar = withRouter(({ className, curlang }) => {
                         <PLinkTag to="/2021/unitwin2021/byob">
                             <Menubtn id="5">{p_detaildata.text5}</Menubtn>
                         </PLinkTag>
-                        {/* <PLinkTag to="/2021/unitwin2021/closing-ceremony"> */}
+                        <PLinkTag to="/2021/unitwin2021/closing-ceremony">
                             <Menubtn id="6">{p_detaildata.text6}</Menubtn>
-                        {/* </PLinkTag> */}
+                        </PLinkTag>
                     </PMenuArea>
                     <PLangArea>
                         <Langbtn 
@@ -214,7 +214,6 @@ const PWrapper = styled.div`
     display : flex;
     justify-content : center;
     z-index : 50;
-    box-shadow: 0 2px 4px 0 #ddf2c7;
     background : ${color.white};
     
     @media all and (max-width:1199px) {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components'
 import ListSession from '..//components/molecules/ListSession'
 import ListSessionTop from '..//components/molecules/ListSessionTop'
@@ -7,6 +7,8 @@ import { withRouter } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import color from '../style/color'
 import { Affix } from 'antd'
+import mobileviewbtn from '../components/atom/mobileviewbtn'
+import Downloadbtn from '../components/atom/Downloadbtn'
 
 const _Closing = () => {
     const { curlang } = useSelector(state => ({
@@ -15,6 +17,8 @@ const _Closing = () => {
 
     const p_detaildata = curlang.p_data.closing;
     const m_detaildata = curlang.m_data.closing;
+
+    const [status, setStatus]  = useState('discription');
 
     return (
         <>
@@ -30,18 +34,48 @@ const _Closing = () => {
                         </PLeftArea>
                         <Affix offsetTop={100}>
                             <PRightArea>
-                                <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr' />
+                                <PChat src='http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1000&l=kr' />
                             </PRightArea>
-                        </Affix>
-                        
+                        </Affix> 
                     </PCenterArea>
                 </PInner>
             </PWrapper>
 
             <MWrapper>
-                <MInner>
-
-                </MInner>
+                <MTopArea>
+                    <MTop title={p_detaildata.title} time={p_detaildata.time} /> 
+                </MTopArea>
+                <MVideoArea>
+                    <MVideo discription={p_detaildata.video_text} down={p_detaildata.download} /> 
+                </MVideoArea>
+                <MViewchangeArea>
+                    <MViewbtn 
+                        id="discription"
+                        status={status}
+                        onClick={()=> setStatus('discription')}
+                    >
+                        {curlang.m_data.lecture}
+                    </MViewbtn>
+                    <MViewbtn 
+                        id="chat"
+                        status={status}
+                        onClick={()=> setStatus('chat')}
+                    >
+                        {curlang.m_data.realchating}
+                    </MViewbtn>
+                </MViewchangeArea>
+                <MDetailSection status={status}>
+                    <MVideoText>{m_detaildata.video_text}</MVideoText>
+                    <MDownlodebtn down={m_detaildata.download}>{curlang.m_data.classdownload}</MDownlodebtn>
+                    <MSection data={p_detaildata.list} /> 
+                </MDetailSection>
+                <MChatSection status={status}>
+                    <MChatLine />
+                    <MChatArea>
+                        <MChatText>{curlang.m_data.realchating}</MChatText>
+                    </MChatArea>
+                    <MChat src={m_detaildata.chatlink} />
+                </MChatSection>
             </MWrapper>
         </>
     )
@@ -95,18 +129,95 @@ const PSection = styled(ListSession)`
 
 // Mobile
 const MWrapper = styled.div`
-    width : auto;
-    padding : 0 16px 80px 16px;
     display : flex;
-    justify-content : center;
+    flex-direction : column;
+    align-items : center;
+    width : auto;
+    padding-bottom : 100px;
 
     @media all and (min-width:1200px) {
         display : none;
     }
 `
-const MInner = styled.div`
+const MTopArea = styled.div`
     position : relative;
     width : 375px;
+    margin-bottom : 40px;
+
+    @media all and (max-width: 375px) {
+        padding: 0 16px;
+    }
+`
+const MTop = styled(ListSessionTop)`
+`
+const MVideoArea = styled.div`
+    position : relative;
+    max-width : 375px;
+`
+const MVideo = styled(ListVideoSession)`
+`
+const MViewchangeArea = styled.div`
+    display : flex;
+    width : 375px;
+    height : 48px;
+    margin-bottom : 28px;
+`
+const MViewbtn = styled(mobileviewbtn)`
+    margin-top : 8px;
+`
+const MDetailSection = styled.div`
+    display : ${props => (props.status =='discription') ? 'block': 'none'};
+    width : 375px;
+
+    @media all and (max-width: 375px) {
+        padding: 0 16px;
+    }
+`
+const MChatSection = styled.div`
+    width : 375px;
+    height : 750px;
+    display : ${props => (props.status =='chat') ? 'block': 'none'};
+    
+    @media all and (max-width: 375px) {
+        padding: 0 16px;
+    }
+`
+const MVideoText = styled.div`
+    margin-bottom : 24px;
+    font-size: 12px;
+    color: ${color.black};
+`
+const MSection = styled(ListSession)`
+`
+const MChat = styled.iframe`
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    word-break: keep-all;
+`
+const MChatLine = styled.div`
+    width : 100%;
+    height : 2px;
+    background : black;
+`
+
+const MChatArea = styled.div`
+    width : 100%;
+    height : 54px;
+    padding : 16px;
+`
+const MChatText = styled.div`
+   font-size: 16px;
+   font-weight: 500;
+   color: ${color.black};
+`
+const MDownlodebtn = styled(Downloadbtn)`
+    width : 146px;
+    height : 36px;
+    margin-bottom : 40px;
 `
 
 
