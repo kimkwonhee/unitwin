@@ -2,6 +2,7 @@ import React from 'react'
 import Menubar from './components/organism/Menubar'
 import { Route, Switch } from 'react-router-dom'
 import styled, { createGlobalStyle } from 'styled-components'
+import _Root from './pages/_Root'
 import _Home from './pages/_Home'
 import _PlenarySession from './pages/_PlenarySession'
 import _Session from './pages/_Session'
@@ -44,6 +45,7 @@ const App = () => {
       <Globalstyles />
       <Menubar curlang={curlang} langkr={langkr} langen={langen}/>
       <Switch>
+        <Route path="/2021/unitwin2021/" component={_Root} exact/>
         <Route path="/2021/unitwin2021/home" component={_Home} exact/>
         <Route path="/2021/unitwin2021/plenary-session/:detail" component={Pl_Detail}/>
         <Route path="/2021/unitwin2021/plenary-session" component={_PlenarySession}/>
