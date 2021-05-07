@@ -214,7 +214,6 @@ const PWrapper = styled.div`
     display : flex;
     justify-content : center;
     z-index : 50;
-    box-shadow: 0 2px 4px 0 #ddf2c7;
     background : ${color.white};
     
     @media all and (max-width:1199px) {
