@@ -1031,6 +1031,189 @@ export const langkr = {
             }
         },
 
+        pr_showcase_detail : {
+            session1 : {
+                title : '세션 1',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session2 : {
+                title : '세션 2',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session3 : {
+                title : '세션 3',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session4 : {
+                title : '세션 4',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session5 : {
+                title : '세션 5',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    }
+                ]
+            },
+        },
+
 
         // byob
         byob : {
@@ -2139,6 +2322,190 @@ export const langkr = {
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
                 link : '/unitwin/presession-showcase/5' 
             }
+        },
+
+        // 기획세션 상세페이지
+        pr_showcase_detail : {
+            session1 : {
+                title : '세션 1',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session2 : {
+                title : '세션 2',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session3 : {
+                title : '세션 3',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session4 : {
+                title : '세션 4',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session5',
+                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/5'
+                    }
+                ]
+            },
+            session5 : {
+                title : '세션 5',
+                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
+                local : '광명 업사이클 아트센터',
+                site : 'WWW.ADCE.CO.KR',
+                list : [
+                    {
+                        id : 1,
+                        img : session_img_10,
+                        name : 'session1',
+                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/1'
+                    },
+                    {
+                        id : 2,
+                        img : session_img_10,
+                        name : 'session2',
+                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/2'
+                    },
+                    {
+                        id : 3,
+                        img : session_img_10,
+                        name : 'session3',
+                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/3'
+                    },
+                    {
+                        id : 4,
+                        img : session_img_10,
+                        name : 'session4',
+                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        link : '/unitwin/presession-showcase/4'
+                    }
+                ]
+            },
         },
         
 
