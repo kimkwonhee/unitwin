@@ -1,4 +1,4 @@
-import home_title from '../images/home_title.png'
+import home_title from '../images/home_title_en.png'
 import plogo1 from '../images/footer_logo1.png'
 import plogo2 from '../images/footer_logo2.png'
 import mlogo1 from '../images/mobile_cop_logo1.png'
@@ -80,6 +80,7 @@ export const langen = {
         classdownload : '강의자료 다운로드',
         zoom : 'ZOOM으로 참여하기',
         unithomebtn : 'Go to UNITWIN Official Webpage',
+        move : '이동하기 > ',
 
         // 메뉴 바
         menuber : {
@@ -93,14 +94,39 @@ export const langen = {
 
         home_top : {
             img : home_title,
-            title : '행사소개',
+            title : 'About',
             time : '24~26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
-            advance : '사전신청하기',
+            advance : 'APPLICATION',
             contents : '- The 11th Anniversary of The Seoul Agenda: Goals for the Development of Arts Education\n\n'
                      +'- The 10th Anniversary of International Arts Education Week',
             subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n'
                          +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+        },
+
+        home_all : {
+            session1 : {
+                day : '05.24 Mon',
+                mon1 : {
+                    time1 : '13:00~13:15',
+                    title1 : 'Opening Perfomance',
+                    time2 : '13:15~13:25',
+                    title2 : 'Welcome Speech',
+                    time3 : '13:25~13:28',
+                    title3 : 'Congratulatory Speech',
+                    time4 : '13:28~13:43',
+                    title4 : 'Plenary Presentaion 1',
+                    time5 : '13:43~13:58',
+                    title5 : 'Plenary Presentaion 2',
+                    time6 : '13:58~14:08',
+                    title6 : 'Plenary Presentaion 3' ,
+                    time7 : '14:08~14:13',
+                    title7 : 'Theme Video',
+                    title8 : '(Voice of All)',
+                    time8 : '14:15~15:35',
+                    title9 : 'The 4th UNESCO-UNITWIN\nSymposium Pre-session'
+                }
+            }
         },
 
         home_center : {

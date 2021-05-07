@@ -8,7 +8,7 @@ const Home_day1 = () => {
         <>
             <PWrapper>
                <PCal_TopArea 
-                    title="학술대회 사전세션"
+                    title="개막식 및 학술대회 사전행사"
                     videobtn={true}
                     width="120px"
                     time="13:00~14:19"
@@ -21,8 +21,9 @@ const Home_day1 = () => {
                     <PRight>
                         <PRightInner>
                             <PRightSection>
+                                <PRightTitle>원형하는 몸 : round1</PRightTitle>
                                 <PRightName>차진엽</PRightName>
-                                <PRightJop>- Collective A 예술감독</PRightJop>
+                                <PRightJop>- collective A 예술감독, 대한민국</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -52,17 +53,13 @@ const Home_day1 = () => {
                 <PSection>
                     <PLeftInner>
                         <PLeftTitle>축사</PLeftTitle>
-                        <PLeftTime>13:25~13:31</PLeftTime>
+                        <PLeftTime>13:25~13:28</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightName>오드리 아줄레 <PRightEnName>(Audrey Azoulay)</PRightEnName></PRightName>
-                                <PRightJop>- 유네스코 사무총장</PRightJop>
-                            </PRightSection>
-                            <PRightSection>
                                 <PRightName>래리 오페럴 <PRightEnName>(Larry O’ Farrell)</PRightEnName></PRightName>
-                                <PRightJop>- 유니트윈 명예회원</PRightJop>
+                                <PRightJop>- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원, 캐나다</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -70,14 +67,14 @@ const Home_day1 = () => {
                 <PSection>
                     <PLeftInner>
                         <PLeftTitle>기조발제 1</PLeftTitle>
-                        <PLeftTime>13:31~13:46</PLeftTime>
+                        <PLeftTime>13:28~13:43</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightTitle>지속가능한 예술생태계 구축을 통한 선제적 위기 대처: 성북 ‘예술순환로’ 프로젝트 사례 중심</PRightTitle>
+                                <PRightTitle>문화와 기후변화</PRightTitle>
                                 <PRightName>벤 트위스트 <PRightEnName>(Ben Twist)</PRightEnName></PRightName>
-                                <PRightJop>- 크리에이티브 카본 스코틀랜드 국장</PRightJop>
+                                <PRightJop>- 크리에이티브 카본 스코틀랜드 대표, 스코틀랜드</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -85,14 +82,14 @@ const Home_day1 = () => {
                 <PSection>
                     <PLeftInner>
                         <PLeftTitle>기조발제 2</PLeftTitle>
-                        <PLeftTime>13:46~14:01</PLeftTime>
+                        <PLeftTime>13:43~13:58</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle>
+                                {/* <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle> */}
                                 <PRightName>피터 셀라스 <PRightEnName>(Peter Sellars)</PRightEnName></PRightName>
-                                <PRightJop>- 연극 감독 / UCLA 세계문화예술/무용학부 교수</PRightJop>
+                                <PRightJop>- 연극 감독/UCLA 교수, 미국</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -100,28 +97,53 @@ const Home_day1 = () => {
                 <PSection>
                     <PLeftInner>
                         <PLeftTitle>기조발제 3</PLeftTitle>
-                        <PLeftTime>14:01~14:11</PLeftTime>
+                        <PLeftTime>13:58~14:08</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle>
+                                {/* <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle> */}
                                 <PRightName>요조</PRightName>
-                                <PRightJop>- 싱어송라이터 / 작가</PRightJop>
+                                <PRightJop>- 매직스트로베리사운드 싱어송라이터/작가, 대한민국</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
                 <PSection>
                     <PLeftInner>
-                        <PLeftTitle>주제영상</PLeftTitle>
-                        <PLeftTime>14:11~14:16</PLeftTime>
+                        <PLeftTitle>개막영상</PLeftTitle>
+                        <PLeftTime>14:08~14:13</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>&#60;모두의 목소리&#62;</PRightTitle>
                                 <PRightSubText>‘사회 위기 속 참여적 문화예술교육의 역할’이라는 메시지를 전달하는 예술교육자와 시민들과의 인터뷰</PRightSubText>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>제4회 유니트윈<br />국제 학술대회<br />사전행사</PLeftTitle>
+                        <PLeftTime>14:15~15:35</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>&#60;지금, 기후위기-문화예술교육을 통해 바라본 기후위기&#62;</PRightTitle>
+                                <PRightName>박신의</PRightName>
+                                <PRightJop>- 제4회 유네스코 유니트윈 국제 학술대회 조직위원장 / 경희대학교 교수, 대한민국</PRightJop>
+                                <PRightName>성지수</PRightName>
+                                <PRightJop>- 콜렉티브 뒹굴 대표, 대한민국</PRightJop>
+                                <PRightName>일점오도씨</PRightName>
+                                <PRightJop>- 청소년 기후위기 행동 단체, 대한민국</PRightJop>
+                                <PRightName>모상미</PRightName>
+                                <PRightJop>- 부산 모이다아트협동조합 대표, 대한민국</PRightJop>
+                                <PRightName>강진숙</PRightName>
+                                <PRightJop>- 광명업사이클아트센터 대표, 대한민국</PRightJop>
+                                <PRightName>박진희</PRightName>
+                                <PRightJop>- 상상창고 숨 대표 / 제주문화예술재단 창의예술교육랩장, 대한민국</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -219,7 +241,9 @@ const PLeftTime = styled.div`
 const PRight = styled.div`
     width : 894px;
     margin-left : 18px;
-    display : block;
+    /* display : block; */
+    display : flex;
+    align-items : center;
 `
 const PRightInner = styled.div`
     border-bottom : 1px solid ${color.very_light_pink};
@@ -245,29 +269,27 @@ const PRightSubText = styled.div`
     font-weight: bold;
     color: ${color.black};
 `
-
 const PRightName = styled.div`
     font-size: 16px;
     font-weight: bold;
     color: ${color.black};
     margin-bottom : 8px;
+
+    margin-top : 40px;
+    &:first-child {
+        margin-top : 0px;
+    }
 `
 const PRightEnName = styled.span`
     font-size: 14px;
-    color: ${color.brownish_grey};
+    color: #aaaaaa;
 `
 const PRightJop = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${color.black};
 `
-const PRightModer = styled.div`
-    margin-top : 40px;
-    margin-bottom : 8px;
-    font-size: 16px;
-    font-weight: bold;
-    color: ${color.turtle_green};
-`
+
 
 // Mobile
 const MWrapper = styled.div`

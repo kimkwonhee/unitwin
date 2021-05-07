@@ -90,7 +90,7 @@ const Home_top = ({className , curlang}) => {
 // PC
 const PWrapper = styled.div`
     width : auto;
-    height : ${props => props.status == 'kr' ? '1400px' : '1300px'};
+    height : ${props => props.status == 'kr' ? '1400px' : '1150px'};
     display : flex;
     justify-content : center;
     padding-bottom : 100px;
