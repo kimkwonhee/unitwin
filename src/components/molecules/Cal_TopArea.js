@@ -58,7 +58,7 @@ const PTitle = styled.div`
     }
 `
 const PVideoAll = styled(Videobtn)`
-    margin-left : 150px;
+    margin-left : 20px;
 `
 const PTime = styled.div`
     padding-top : 24px;

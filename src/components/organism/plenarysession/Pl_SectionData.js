@@ -91,7 +91,7 @@ const PTextArea = styled.div`
     justify-content : space-between;
 `
 const PLeftArea = styled.div`
-    width : 750px;
+    width : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? 'auto' : '750px'};
     padding-top : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? '0px' : '26px'}
 `
 const PTitle = styled.div`

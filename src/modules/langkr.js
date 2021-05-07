@@ -80,6 +80,7 @@ export const langkr = {
         classdownload : '강의자료 다운로드',
         zoom : 'ZOOM으로 참여하기',
         unithomebtn : '유니트윈 홈페이지 바로가기',
+        move : '이동하기 > ',
 
         // 메뉴 바
         menuber : {
@@ -94,7 +95,7 @@ export const langkr = {
         home_top : {
             img : home_title,
             title : '행사소개',
-            time : '2021. 05. 25(화) ~ 05.26(수)',
+            time : '2021.05.24 ~ 05.26',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
             advance : '사전신청하기',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의\n'
@@ -104,6 +105,31 @@ export const langkr = {
             subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전가능한 예술교육 연구 모임\n'
                          +'(UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development)\n'
                          +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
+        },
+
+        home_all : {
+            session1 : {
+                day : '05.24 Mon',
+                mon1 : {
+                    time1 : '13:00~13:15',
+                    title1 : '오프닝 공연',
+                    time2 : '13:15~13:25',
+                    title2 : '환영사',
+                    time3 : '13:25~13:28',
+                    title3 : '축사',
+                    time4 : '13:28~13:43',
+                    title4 : '기조발제 1',
+                    time5 : '13:43~13:58',
+                    title5 : '기조발제 2',
+                    time6 : '13:58~14:08',
+                    title6 : '기조발제 3' ,
+                    time7 : '14:08~14:13',
+                    title7 : '개막영상',
+                    title8 : '(모두의 목소리)',
+                    time8 : '14:15~15:35',
+                    title9 : '제4회 유니트윈\n국제 학술대회 사전행사'
+                }
+            }
         },
 
         home_center : {
@@ -1221,7 +1247,7 @@ export const langkr = {
         // byob
         byob : {
             title : 'BYOB\n온라인 만남의 광장',
-            contents : '학술대회 참가자들이 자유롭게 학술대회 주제 및 참가자의 관심사에 대해 나누는\n네트워킹 세션입니다.',
+            contents : 'BYOB(Bring Your Own Bottle)는 학술대회 참가자들이 자유롭게 학술대회 주제 및 참가자의 관\n심사에 대해 나누는 네트워킹 세션입니다',
             data : [
                 {
                     imgs : byob_img_01,
@@ -1240,7 +1266,7 @@ export const langkr = {
                     imgs : byob_img_03,
                     name : "장웅조",
                     jop : "- 홍익대학교 부교수, 한국",
-                    discripton : "장웅조는 예술경영과 문화정책 연구를 해오며, 최근에는 예술리더십과 앙트러프러너십에 관련한 주제에 집중하고 있다. 서울대에서 중문학 학사와 공연예 술학 석사를 마치고, 미국 오하이오 주립대학에서 예술정책 및 경영 전공으로 박사학위를 받았다. 이후 미국 시애틀대학교의 예술리더십 학과 교수를 거쳐 홍익대학교 문화예술경영학과 교수로 재직 중이다. 현재 Journal of Arts Management, Law, and Society, 예술경영연구, 문화경제, 문화정책논총 등 의 편집위원이며 한국 문화예술경영학회의 학술위원장으로 활동하고 있다."
+                    discripton : "장웅조는 예술경영과 문화정책 연구를 해오며, 최근에는 예술리더십과 앙트러프러너십에 관련한 주제에 집중하고 있다. 서울대에서 중문학 학사와 공연예 술학 석사를 마치고, 미국 오하이오 주립대학에서 예술정책 및 경영 전공으로 박사학위를 받았다. 이후 미국 시애틀대학교의 예술리더십 학과 교수를 거쳐 홍익대학교 문화예술경영학과 교수로 재직 중이다. 현재 Journal of Arts Management, Law, and Society, 예술경영연구, 문화경제, 문화정책논총 등 의 편집위원이며 한국 문화예술경영학회의 학술위원장으로 활동하고 있다."    
                 },
             ]
         },
