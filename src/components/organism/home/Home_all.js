@@ -1,34 +1,43 @@
 import React from 'react'
 import styled from 'styled-components'
 import color from '../../../style/color'
+import { useSelector } from 'react-redux'
 
 const Home_all = () => {
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
+    const p_detaildata = curlang.p_data.home_all;
+    // const m_detaildata = curlang.m_data.home_all;
+
     return (
         <>
             <PWrapper>
                 <PSection1>
                     <PDayBlock>
-                        <PDayText>05.24 Mon</PDayText>
+                        <PDayText>{p_detaildata.session1.day}</PDayText>
                     </PDayBlock>
                     <PMonSection1>
-                            <PTime>13:00~13:15</PTime>
-                            <PTitle>오프닝 공연</PTitle>
-                            <PTime>13:15~13:25</PTime>
-                            <PTitle>환영사</PTitle>
-                            <PTime>13:25~13:28</PTime>
-                            <PTitle>축사</PTitle>
-                            <PTime>13:28~13:43</PTime>
-                            <PTitle>기조발제 1</PTitle>
-                            <PTime>13:43~13:58</PTime>
-                            <PTitle>기조발제 2</PTitle>
-                            <PTime>13:58~14:08</PTime>
-                            <PTitle>기조발제 3</PTitle>
-                            <PTime>14:08~14:13</PTime>
-                            <PTitle>개막영상</PTitle>
-                            <PSubTitle>(모두의 목소리)</PSubTitle>
-                            <PTime>14:15~15:35</PTime>
-                            <PTitle>제4회 유니트윈<br />국제 학술대회 사전행사</PTitle>
-                            {/* <PMove>이동하기 &#62;</PMove> */}
+                            <PTime>{p_detaildata.session1.mon1.time1}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title1}</PTitle>
+                            <PTime>{p_detaildata.session1.mon1.time2}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title2}</PTitle>
+                            <PTime>{p_detaildata.session1.mon1.time3}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title3}</PTitle>
+                            <PTime>{p_detaildata.session1.mon1.time4}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title4}</PTitle>
+                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title5}</PTitle>
+                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title6}</PTitle>
+                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title7}</PTitle>
+                            <PSubTitle>{p_detaildata.session1.mon1.title8}</PSubTitle>
+                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
+                            <PTitle>{p_detaildata.session1.mon1.title9}</PTitle>
+                            <PMove>{curlang.p_data.move}</PMove>
                     </PMonSection1>
                     <PMonSection2 />
                 </PSection1>
@@ -43,7 +52,7 @@ const Home_all = () => {
                             <PTueCharacter1>언스트 바그너</PTueCharacter1>
                             <PPhasis1>[모더레이터]</PPhasis1>
                             <PTueCharacter2>차후 룸</PTueCharacter2>
-                            {/* <PMove>이동하기 &#62;</PMove> */}
+                            {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection1>
                     <PTueSection2>
                             <PTime>13:40~15:25</PTime>
@@ -53,7 +62,7 @@ const Home_all = () => {
                             <PTueCharacter2>박신의</PTueCharacter2>
                             <PPhasis2>[발제자]</PPhasis2>
                             <PTueCharacter2>정용성, 이은수<br />김소원, 김수연,<br />이보람</PTueCharacter2>
-                            {/* <PMove>이동하기 &#62;</PMove> */}
+                            {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection2>
                     <PTueSection3>
                             <PLeftArea>
@@ -64,7 +73,7 @@ const Home_all = () => {
                                 <PTueCharacter2>글로리아 자파타</PTueCharacter2>
                                 <PPhasis2>[발제자]</PPhasis2>
                                 <PTueCharacter2>티나 쿠코,<br />산자 크르스마노비츠 타식,<br />엠시 베트만,<br />김채연</PTueCharacter2>
-                                {/* <PMove>이동하기 &#62;</PMove> */}
+                                {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PLeftArea>
                             <PRightArea>
                                 <PTime>15:25~16:55</PTime>
@@ -74,7 +83,7 @@ const Home_all = () => {
                                 <PTueCharacter2>네릴 제너렛</PTueCharacter2>
                                 <PPhasis2>[발제자]</PPhasis2>
                                 <PTueCharacter2>김태희,<br />샤를린 라헨드란,<br />난장,<br />야라 도크랏</PTueCharacter2>
-                                {/* <PMove>이동하기 &#62;</PMove> */}
+                                {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PRightArea>
                     </PTueSection3>
                     <PTueSection4>
@@ -85,13 +94,13 @@ const Home_all = () => {
                         <PTueCharacter2>김인설</PTueCharacter2>
                         <PPhasis2 top="40px">[발제자]</PPhasis2>
                         <PTueCharacter2>벤 볼든&네릴 제너렛<br />치후 룸&젠 터<br />캐서린 콜만&마크 셀크릭&에비 맥도날드</PTueCharacter2>
-                        {/* <PMove top="48px">이동하기 &#62;</PMove> */}
+                        {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection4>
                     <PTueSection5>
                         <PTime>18:10~19:10</PTime>
                         <PTitle>BYOB</PTitle>
                         <PSubTitle>(온라인 만남의 광장)</PSubTitle>
-                        {/* <PMove top="30px">이동하기 &#62;</PMove> */}
+                        {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection5>
                 </PSection2>
                 <PSection3>
@@ -105,7 +114,7 @@ const Home_all = () => {
                             <PTueCharacter1>벤야민 요리슨</PTueCharacter1>
                             <PPhasis1>[모더레이터]</PPhasis1>
                             <PTueCharacter2>치후 룸, 탄야 클레페키</PTueCharacter2>
-                            {/* <PMove>이동하기 &#62;</PMove> */}
+                            {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection1>
                     <PWedSection2>
                             <PTime>13:40~15:10</PTime>
@@ -115,7 +124,7 @@ const Home_all = () => {
                             <PTueCharacter2>벤자민 볼든</PTueCharacter2>
                             <PPhasis2>[발제자]</PPhasis2>
                             <PTueCharacter2>마리 클레어 키덴다,<br />에밀리 맥밀런, 홍지혜,<br />에밀리 윌슨&네릴 제너렛</PTueCharacter2>
-                            {/* <PMove>이동하기 &#62;</PMove> */}
+                            {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection2>
                     <PWedSection3>
                             <PLeftArea>
@@ -126,7 +135,7 @@ const Home_all = () => {
                                 <PTueCharacter2>신혜선</PTueCharacter2>
                                 <PPhasis2>[발제자]</PPhasis2>
                                 <PTueCharacter2>제환정,<br />정혜연&성효진<br />레베카 칸&푸 세이밍&<br />탄정수안, 제프 풀린</PTueCharacter2>
-                                {/* <PMove>이동하기 &#62;</PMove> */}
+                                {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PLeftArea>
                             <PRightArea>
                                 <PTime>15:10~16:40</PTime>
@@ -136,7 +145,7 @@ const Home_all = () => {
                                 <PTueCharacter2>치후 룸</PTueCharacter2>
                                 <PPhasis2>[발제자]</PPhasis2>
                                 <PTueCharacter2>루스 렌슬러,<br />심지영,<br />김유리&박소정,<br />션 코코란&벤자민 볼든</PTueCharacter2>
-                                {/* <PMove >이동하기 &#62;</PMove> */}
+                                {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PRightArea>
                     </PWedSection3>
                     <PWedSection4>
@@ -147,12 +156,12 @@ const Home_all = () => {
                         <PTueCharacter2>홍유진</PTueCharacter2>
                         <PPhasis2>[발제자]</PPhasis2>
                         <PTueCharacter2>장수혜,<br />공윤지,<br />이현정<br />배성종,<br />최영희</PTueCharacter2>
-                        {/* <PMove top="55px">이동하기 &#62;</PMove> */}
+                        {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection4>
                     <PWedSection5>
                         <PTime>18:25~19:25</PTime>
                         <PTitle>폐회 세션</PTitle>
-                        {/* <PMove top="60px">이동하기 &#62;</PMove> */}
+                        {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection5>
                 </PSection3>
             </PWrapper>
@@ -487,6 +496,7 @@ const PTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
     color: #222222;
+    white-space: pre-line;
     margin-top : 4px;
     text-align : center;
 `
