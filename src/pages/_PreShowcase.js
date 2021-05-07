@@ -1,56 +1,68 @@
-import React, {useState} from 'react'
+import React, { useState , useEffect } from 'react'
 import styled from 'styled-components'
 import PageTopArea from '../components/molecules/PageTopArea'
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import color from '../style/color'
+import lottie from 'lottie-web'
+import animData from '../images/circle_main.json'
+import { useSelector } from 'react-redux'
 
 const _PreShowcase = () => {
-    const p_topcontents = {
-        title : '기획세션',
-        contents : '과학기술을 접목한 기술융합예술 활성화를 위해 디지털과 동시대 기술을 활용한\n예술작품 창작과 향유, 기초예술의 온라인 확장 등 미래예술 발전을 위해 다양한 추진하고 있습니다.',
-    }
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
 
-    const enterprise = [
-        { img : '로고1', contents : '가나다', link : '/unitwin/presession-showcase/a' },
-        { img : '로고2', contents : '라마바', link : '/unitwin/presession-showcase/b' }
-    ]
-    
-    const [detailData, setDetailData] = useState(enterprise[0]);
+    useEffect(() => {
+        const lottiePlayer = async () => {   
+            await lottie.loadAnimation({
+                container: document.querySelector('#animArea'),
+                loop: true,
+                autoplay: true,
+                animationData: animData
+            })
 
-    console.log(enterprise[0]);
+            await lottie.loadAnimation({
+                container: document.querySelector('#animAreaMO'),
+                loop: true,
+                autoplay: true,
+                animationData: animData
+            })
+        }
+        lottiePlayer()
+    }, [])
 
-    const onClick = (num) => {
-        setDetailData(enterprise[num]);
-    }
+    const p_detaildata = curlang.p_data.pr_showcase;
+    const m_detaildata = curlang.m_data.pr_showcase;
+
+    const [detailData, setDetailData] = useState(p_detaildata.session1);
 
     return (
         <>
             <PWrapper>
                 <PInner>
                     <PContents 
-                            title={p_topcontents.title} 
-                            contents={p_topcontents.contents}
+                            title={p_detaildata.title} 
+                            contents={p_detaildata.contents}
                         />
                     <PSectionArea>
                         <PLogoArea>
-                            <Loga onClick={()=>onClick(0)}>로고 1</Loga>
-                            <Loga onClick={()=>onClick(1)}>로고 2</Loga>
-                            <Loga>로고 3</Loga>
-                            <Loga>로고 4</Loga>
-                            <Loga>로고 5</Loga>
-                            <Loga>로고 6</Loga>
-                            <Loga>로고 7</Loga>
-                            <Loga>로고 8</Loga>
-                            <Loga>로고 9</Loga>
+                            <PLogo1 onClick={(e)=>setDetailData(p_detaildata.session1)}>로고 1</PLogo1>
+                            <PLogo2 onClick={(e)=>setDetailData(p_detaildata.session2)}>로고 2</PLogo2>
+                            <PLogo3 onClick={(e)=>setDetailData(p_detaildata.session3)}>로고 3</PLogo3>
+                            <PLogo4 onClick={(e)=>setDetailData(p_detaildata.session4)}>로고 4</PLogo4>
+                            <PLogo5 onClick={(e)=>setDetailData(p_detaildata.session5)}>로고 5</PLogo5>
+                            <PBackImg id="animArea" />
                         </PLogoArea>
                         <PDetailArea>
-                            <PLogoImg>{detailData.img}</PLogoImg>
-                            <PDetailData>{detailData.contents}</PDetailData>
-                            <PLink to={detailData.link}>
-                                <PMoreArea>                                
-                                    <PMorebtn>More &#62;</PMorebtn>
-                                </PMoreArea>
-                            </PLink>
+                            <PTextSection>
+                                <PLogoImg>{detailData.img}</PLogoImg>
+                                <PDetailData>{detailData.contents}</PDetailData>
+                                <PLink to={detailData.link}>
+                                    <PMoreArea>                                
+                                        <PMorebtn>More &#62;</PMorebtn>
+                                    </PMoreArea>
+                                </PLink>
+                            </PTextSection>
                         </PDetailArea>
                     </PSectionArea>
                 </PInner>
@@ -59,11 +71,13 @@ const _PreShowcase = () => {
     )
 }
 
+// PC
 const PWrapper = styled.div`
     width : 100%;
     margin-bottom : 210px;
     display : flex;
     justify-content : center;
+    
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -80,26 +94,73 @@ const PSectionArea = styled.div`
     display : flex;
     width : 100%;
     height : 500px;
-    background : red;
 `
 const PLogoArea = styled.div`
+    position : relative;
     width : 600px;
     height : 100%;
-    background : gray;
 `
-const Loga = styled.button`
-    width : 100px;
+const PBackImg = styled.div`
+    position : absolute;
+    top : 0;
+    width: 100%;
+    height: 100%;
+    background : green;
+`
+const PLogo1 = styled.button`
+    position : absolute;
+    width : 120px;
     height : 50px;
-    background : blue;
+    margin-top : 100px;
+    margin-left : 50px;
+    z-index : 10;
+`
+const PLogo2 = styled.button`
+    position : absolute;
+    width : 120px;
+    height : 50px;
+    margin-top : 100px;
+    margin-left : 250px;
+    z-index : 10;
+`
+const PLogo3 = styled.button`
+    position : absolute;
+    width : 120px;
+    height : 50px;
+    margin-top : 250px;
+    margin-left : 50px;
+    z-index : 10;
+`
+const PLogo4 = styled.button`
+    position : absolute;
+    width : 120px;
+    height : 50px;
+    margin-top : 250px;
+    margin-left : 350px;
+    z-index : 10;
+`
+const PLogo5 = styled.button`
+    position : absolute;
+    width : 120px;
+    height : 50px;
+    margin-top : 350px;
+    margin-left : 250px;
+    z-index : 10;
 `
 const PDetailArea = styled.div`
-    width : 420px;
+    width : 600px;
     height : 100%;
     display : flex;
+    justify-content : center;
+    align-items : center;
+`
+const PTextSection = styled.div`
+    width : 420px;
+    height : auto;
+    display :flex;
     flex-direction : column;
     justify-content : center;
     align-items : center;
-    background : green;
 `
 const PLogoImg = styled.div`
     width : 80px;
@@ -107,6 +168,8 @@ const PLogoImg = styled.div`
     background: blue;
 `
 const PDetailData = styled.div`
+    margin-top : 40px;
+    margin-bottom : 30px;
     font-size: 16px;
     font-weight: 500;
     color: ${color.black};
