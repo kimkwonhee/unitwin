@@ -4,7 +4,7 @@ import PageTopArea from '../components/molecules/PageTopArea'
 import { Link } from 'react-router-dom';
 import color from '../style/color'
 import lottie from 'lottie-web'
-import animData from '../images/circle_main.json'
+import animData from '../images/circle_showcase.json'
 import { useSelector } from 'react-redux'
 
 const _PreShowcase = () => {
