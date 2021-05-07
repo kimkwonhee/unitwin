@@ -34,6 +34,10 @@ const _Closing = () => {
                         </PLeftArea>
                         <Affix offsetTop={100}>
                             <PRightArea>
+                            <PChatLine />
+                                <PChatArea>
+                                    <PChatText>{curlang.p_data.realchating}</PChatText>
+                                </PChatArea>
                                 <PChat src='http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1000&l=kr' />
                             </PRightArea>
                         </Affix> 
@@ -89,6 +93,22 @@ const PChat = styled.iframe`
     border: 0;
     box-sizing: border-box;
     word-break: keep-all;
+`
+const PChatLine = styled.div`
+    width : 100%;
+    height : 4px;
+    background : black;
+`
+const PChatArea = styled.div`
+    width : 100%;
+    height : 61px;
+    padding : 16px;
+`
+const PChatText = styled.div`
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: ${color.black};
 `
 
 // PC
