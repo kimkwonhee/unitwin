@@ -34,7 +34,7 @@ const _Closing = () => {
                         </PLeftArea>
                         <Affix offsetTop={100}>
                             <PRightArea>
-                                <PChat src='http://dc2020.dellang.com:8082/chat/index.html?r=1000&l=kr' />
+                                <PChat src='http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1000&l=kr' />
                             </PRightArea>
                         </Affix> 
                     </PCenterArea>
