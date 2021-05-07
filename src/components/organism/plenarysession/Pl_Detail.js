@@ -22,15 +22,16 @@ const Pl_Detail = ({match}) => {
 
     useEffect(() => {
         window.scrollTo(0,0);
-
-        // Chat Scroll
-        window.addEventListener('scroll', () => {
+        const onScroll = () => {
             let scrollTop = document.documentElement.scrollTop
             if (scrollTop > chatDef.scroll) {
                 var result = chatDef.height - (scrollTop - chatDef.scroll)
                 chatRef.current.style.height = result + 'px'
             }
-        })
+        }
+        // Chat Scroll
+        window.addEventListener('scroll', onScroll)
+        return () => window.removeEventListener('scroll' , onScroll);
     }, []);
 
     const p_detaildata = curlang.p_data.pl_session_detail;
