@@ -12,7 +12,6 @@ const _PreShowcase = () => {
         curlang : state.changlang.curlang
     }))
 
-<<<<<<< HEAD
     useEffect(() => {
         const lottiePlayer = async () => {   
             await lottie.loadAnimation({
@@ -21,14 +20,6 @@ const _PreShowcase = () => {
                 autoplay: true,
                 animationData: animData
             })
-=======
-    const enterprise = [
-        { img : '로고1', contents : '가나다', link : '/2021/unitwin2021/presession-showcase/a' },
-        { img : '로고2', contents : '라마바', link : '/2021/unitwin2021/presession-showcase/b' }
-    ]
-    
-    const [detailData, setDetailData] = useState(enterprise[0]);
->>>>>>> a38a7036dfc0e6a80396691098fb63dff53cbc9a
 
             await lottie.loadAnimation({
                 container: document.querySelector('#animAreaMO'),
