@@ -14,6 +14,8 @@ const _Byob = () => {
     const p_detaildata = curlang.p_data.byob;
     const m_detaildata = curlang.m_data.byob;
 
+    const langstatus = curlang.staus
+
     return (
         <>
             <PWrapper>
@@ -24,7 +26,9 @@ const _Byob = () => {
                             contents={p_detaildata.contents}
                         />
                     <PZoomArea>
-                        <PZoombtn><PZoomText>{curlang.p_data.zoom}</PZoomText></PZoombtn>
+                        <PZoombtn status={langstatus} href={p_detaildata.link} target="_blank">
+                            <PZoomText>{curlang.p_data.zoom}</PZoomText>
+                        </PZoombtn>
                     </PZoomArea>
                     <PMiddleArea>
                         <P_Data 
@@ -58,7 +62,9 @@ const _Byob = () => {
                         />
                         
                     <MZoomArea>
-                        <MZoombtn><MZoomText>{curlang.p_data.zoom}</MZoomText></MZoombtn>
+                        <MZoombtn status={langstatus} href={p_detaildata.link} target="_blank">
+                            <MZoomText>{curlang.p_data.zoom}</MZoomText>
+                        </MZoombtn>
                     </MZoomArea>
                     <MMiddleArea>
                         <M_Data 
@@ -123,8 +129,8 @@ const PZoomArea = styled.div`
     display: flex;
     justify-content : flex-end;
 `
-const PZoombtn = styled.div`
-    width: 162px;
+const PZoombtn = styled.a`
+    width: ${props => (props.status == 'kr')? '92px': '102px'};
     height: 36px;
     display : flex;
     justify-content : center;
@@ -164,8 +170,8 @@ const MZoomArea = styled.div`
     width : 100%;
     margin-top : 40px;
 `
-const MZoombtn = styled.div`
-    width: 162px;
+const MZoombtn = styled.a`
+    width: ${props => (props.status == 'kr')? '92px': '102px'};
     height: 36px;
     display : flex;
     justify-content : center;

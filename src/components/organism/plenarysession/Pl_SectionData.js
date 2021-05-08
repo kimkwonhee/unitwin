@@ -28,11 +28,11 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                             <PJop>{jop}</PJop>
                             <PDiscription>{discripton}</PDiscription>
                         </PLeftArea>
-                        <PLink to={link}>
+                        {/* <PLink to={link}>
                             {location.pathname === '/2021/unitwin2021/byob'
                             ? null
                             : <PVideobtn videobtn="true">{p_detaildata}</PVideobtn>}
-                        </PLink>
+                        </PLink> */}
                     </PTextArea>
                 </PSection>
             </PWrapper>
@@ -48,11 +48,11 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                     <MEnName>{enname}</MEnName>
                     <MJop>{jop}</MJop>
                     <MDiscription>{discripton}</MDiscription>
-                    <MLink to={link}>
+                    {/* <MLink to={link}>
                             {location.pathname === '/2021/unitwin2021/byob'
                             ? null
                             : <MVideobtn videobtn="true">{m_detaildata}</MVideobtn>}
-                    </MLink>
+                    </MLink> */}
                 </MInner>
             </MWrapper>
         </>
@@ -62,8 +62,7 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
 
 // PC
 const PWrapper = styled.div`
-    height : 315px;
-    padding : 0 20px 0 20px;
+    padding : 40px 20px;
     border-bottom : 1px solid ${color.turtle_green};
     display : flex;
     align-items : center;
@@ -74,7 +73,6 @@ const PWrapper = styled.div`
 `
 const PSection = styled.div`
     width : 100%;
-    height : 235px;
     display : flex;
 `
 const PImgArea = styled.div`
@@ -92,7 +90,7 @@ const PTextArea = styled.div`
 `
 const PLeftArea = styled.div`
     width : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? 'auto' : '750px'};
-    padding-top : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? '0px' : '26px'}
+    padding-top : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? '0px' : '26px'};
 `
 const PTitle = styled.div`
     font-size: 20px;
@@ -154,6 +152,7 @@ const MInner = styled.div`
 const MImg = styled.img`
     width : 198px;
     height : 198px;
+    border-radius : 50%;
 `
 const MTitle = styled.div`
     ${props => props.location.pathname === '/2021/unitwin2021/byob'

@@ -15,7 +15,7 @@ const _Session = () => {
     const p_detaildata = curlang.p_data.session;
     const m_detaildata = curlang.m_data.session;
 
-    const [selectCatagory, setSelectCatagory] = useState('all');
+    const [selectCatagory, setSelectCatagory] = useState(curlang.p_data.session[1].catagory1.text1);
     
 
     const [selList , setSelList ] = useState(p_detaildata[2].item);
@@ -23,7 +23,7 @@ const _Session = () => {
 
     const onSelctCatagry = async (c_name) => {
         await setSelectCatagory(c_name);
-        if (c_name === 'all') {
+        if (c_name === curlang.p_data.session[1].catagory1.text1) {
             await setSelList(p_detaildata[2].item)
             await m_setSelList(m_detaildata[2].item)
             return
@@ -55,14 +55,16 @@ const _Session = () => {
                     />
                     <PSection>
                         {selList.map((list, index) => {
-                            return <PLink to={list.link} key={`${list.id}_link`}>
+                            return <>
+                            {/* <PLink to={list.link} key={`${list.id}_link`}> */}
                                      <PList 
                                         key={list.id} 
                                         src={list.img} 
                                         name={list.name}
                                         title={list.title}
                                     />
-                                </PLink>
+                                {/* </PLink> */}
+                            </>
                         })}
                     </PSection>
                 </PInner>
@@ -84,7 +86,7 @@ const _Session = () => {
                     />
                     <MSection>
                         {m_selList.map((list, index) => {
-                            return <MLink to={list.link} key={`${list.id}_link`}>
+                            return <MLink to={''} key={`${list.id}_link`}>
                                      <MList 
                                         key={list.id} 
                                         src={list.img} 
