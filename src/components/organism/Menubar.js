@@ -10,7 +10,6 @@ import Langbtn from '../atom/Langbtn'
 import { Link, withRouter, useLocation } from 'react-router-dom'
 import { Affix, Drawer } from 'antd'
 import m_menu_close from '../../images/mobile_menu_close.png'
-import m_menu_title from '../../images/mobile_menu_title.png'
 import { useDispatch } from 'react-redux'
 import { changkr, changen } from '../../modules/changlang'
 import color from '../../style/color'
@@ -79,9 +78,9 @@ const Menubar = withRouter(({ className, curlang }) => {
                         <PLinkTag to="/2021/unitwin2021/byob">
                             <Menubtn id="5">{p_detaildata.text5}</Menubtn>
                         </PLinkTag>
-                        <PLinkTag to="/2021/unitwin2021/closing-ceremony">
+                        {/* <PLinkTag to="/2021/unitwin2021/closing-ceremony"> */}
                             <Menubtn id="6">{p_detaildata.text6}</Menubtn>
-                        </PLinkTag>
+                        {/* </PLinkTag> */}
                     </PMenuArea>
                     <PLangArea>
                         <Langbtn 
@@ -100,6 +99,8 @@ const Menubar = withRouter(({ className, curlang }) => {
                     </PLangArea>
                 </PInner>
             </PWrapper>
+
+            {/* moblie */}
             <Affix style={{ position: 'absolute', top: 0, left: '0', zIndex: 99, }}>
                 <MWrapper top={scrollTop} className={className}>
                     <MInner>
@@ -110,7 +111,6 @@ const Menubar = withRouter(({ className, curlang }) => {
                     </MInner>
                 </MWrapper>  
             </Affix>
-            
             <Drawer
                 title={null}
                 placement={'right'}
@@ -142,11 +142,12 @@ const Menubar = withRouter(({ className, curlang }) => {
                     <MCloseImg onClick={e=> setDrawerVisible(false)} />
                 </DrawerHeader>
                 <DrawerTitleArea>
-                    <img src={m_menu_title} alt="menu"/>
+                    <MtitleImg langstate={langState} src={curlang.m_data.home_top.img} alt="menu"/>
+                    <MCalender>{curlang.m_data.home_top.time}</MCalender>
                 </DrawerTitleArea>
                 <DrawerMenuList>
                     <DrawerMenuListItem>
-                        <DrawerMenuTxt>
+                        <DrawerMenuTxt id="1">
                             {m_detaildata.text1}
                         </DrawerMenuTxt>
                     </DrawerMenuListItem>
@@ -154,38 +155,38 @@ const Menubar = withRouter(({ className, curlang }) => {
                         <Link onClick={e=> setDrawerVisible(false)} to={{
                             pathname: '/2021/unitwin2021/plenary-session'
                         }}>
-                            <DrawerMenuTxt>
+                            <DrawerMenuTxt id="2">
                             {m_detaildata.text2}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/session">
-                            <DrawerMenuTxt>
+                            <DrawerMenuTxt id="3">
                             {m_detaildata.text3}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/presession-showcase">
-                            <DrawerMenuTxt>
+                        {/* <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/presession-showcase"> */}
+                            <DrawerMenuTxt id="4">
                             {m_detaildata.text4}
                             </DrawerMenuTxt>
-                        </Link>
+                        {/* </Link> */}
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/byob">
-                            <DrawerMenuTxt>
+                            <DrawerMenuTxt id="5">
                             {m_detaildata.text5}
                             </DrawerMenuTxt>
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/closing-ceremony">
-                            <DrawerMenuTxt>
-                            {m_detaildata.text6}
+                        {/* <Link onClick={e=> setDrawerVisible(false)} to="/2021/unitwin2021/closing-ceremony"> */}
+                            <DrawerMenuTxt id="6">
+                            {m_detaildata.text6} 
                             </DrawerMenuTxt>
-                        </Link>
+                        {/* </Link> */}
                     </DrawerMenuListItem>
                 </DrawerMenuList>
                 <DrawerFooter>
@@ -291,6 +292,16 @@ const DrawerHeader = styled.div`
   align-items: center;
   padding: 0 16px;
 `
+const MtitleImg = styled.img`
+    width : ${props => props.langstate =='kr' ? '270px' : '366px' };
+    height : ${props => props.langstate =='kr' ? '124px' : '57px' };
+`
+const MCalender = styled.div`
+    padding : 20px 0 30px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: ${color.black};
+`
 const MCloseImg = styled.div`
     cursor: pointer;
     width : 24px;
@@ -322,7 +333,9 @@ const DrawerMenuTxt = styled.p`
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
-  color: ${color.black};
+  color: ${props => (props.id== 4) || (props.id== 6) 
+             ?  color.brown_grey 
+             : color.black };
 `
 const DrawerFooter = styled.div`
   width: 100%;

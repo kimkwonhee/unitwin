@@ -2,30 +2,34 @@ import React from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
 
-const Videobtn = ({className, width, videobtn, children}) => {
+const Videobtn = ({className, width, videobtn, link, videotext}) => {
     return (
         <>
             <PWrapper
                 className={className}
                 width={width}
                 videobtn={videobtn}
+                href={link}
+                target='_blank'
             >
-                <PText>{children}</PText>
+                <PText>{videotext}</PText>
             </PWrapper>
 
             <MWrapper
-                className={className}
-                width={width}
-                videobtn={videobtn}
+                 className={className}
+                 width={width}
+                 videobtn={videobtn}
+                 href={link}
+                 target='_blank'
             >
-            <MText>{children}</MText>
+            <MText>{videotext}</MText>
             </MWrapper>
         </>
         
     )
 }
 // PC
-const PWrapper = styled.div`
+const PWrapper = styled.a`
     cursor: pointer;
     width : ${(props) => props.width || '92px'};
     height : 36px;
@@ -49,7 +53,7 @@ const PText = styled.div`
 `
 
 // Mobile
-const MWrapper = styled.div`
+const MWrapper = styled.a`
     cursor: pointer;
     width : ${(props) => props.width || '60px'};
     height : 26px;

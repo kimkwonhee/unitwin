@@ -2,33 +2,43 @@ import React from 'react'
 import styled from 'styled-components'
 import Videobtn from '../atom/Videobtn'
 import color from '../../style/color'
+import { useSelector } from 'react-redux'
 
-const Cal_TopArea = ({className, title, videobtn, width, time}) => {
+const Cal_TopArea = ({className, title, videobtn, width, time, link, videotext }) => {
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
+    
     return (
         <>
+            {/* PC */}
             <PSection className={className}>
                 <PTitleArea>
                     <PTitle>{title}</PTitle>
                     <PVideoAll 
                         videobtn={videobtn}
                         width={width}
-                    >
-                        전체영상보기
-                    </PVideoAll>
+                        link={link}
+                        videotext={videotext}
+                    />
                 </PTitleArea>
                 <PTime>{time}</PTime>
             </PSection>
 
+            {/* Mobile */}
             <MSection className={className}>
                 <MTitleArea>
                     <MTitle>{title}</MTitle>
                     <MTime>{time}</MTime>
                 </MTitleArea>
                 <MVideoAll 
-                        videobtn={videobtn}
-                        width={width}
+                       videobtn={videobtn}
+                       width={width}
+                       link={link}
+                       videotext={videotext}
                     >
-                        전체영상보기
                 </MVideoAll>
             </MSection>
         </>
@@ -52,6 +62,7 @@ const PTitleArea = styled.div`
 const PTitle = styled.div`
     font-size: 24px;
     font-weight: bold;
+    white-space : pre-line;
     color: ${color.black};
     & {
         margin-right : 16px;
@@ -82,11 +93,11 @@ const MSection = styled.div`
 `
 
 const MTitleArea = styled.div`
-
 `
 const MTitle = styled.div`
     font-size: 16px;
     font-weight: bold;
+    white-space : pre-line;
     color: ${color.black};
 `
 const MTime = styled.div`

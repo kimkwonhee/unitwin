@@ -2,148 +2,156 @@ import React from 'react'
 import styled from 'styled-components'
 import Cal_TopArea from '../../molecules/Cal_TopArea'
 import color from '../../../style/color'
+import { useSelector } from 'react-redux'
 
 const Home_day1 = () => {
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
+    const p_detaildata = curlang.p_data.home_day1;
+    const m_detaildata = curlang.m_data.home_day1;
+
+
     return (
         <>
             <PWrapper>
                <PCal_TopArea 
-                    title="개막식 및 학술대회 사전행사"
-                    videobtn={true}
+                    title={p_detaildata.title}
+                    videobtn={p_detaildata.video}
                     width="120px"
-                    time="13:00~14:19"
+                    time={p_detaildata.time}
+                    link={p_detaildata.link}
+                    videotext={p_detaildata.video_text}
                />
                <PSection>
                     <PLeftInner>
-                        <PLeftTitle>오프닝 공연</PLeftTitle>
-                        <PLeftTime>13:00~13:15</PLeftTime>
+                        <PLeftTitle>{p_detaildata.session1.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session1.text2}</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightTitle>원형하는 몸 : round1</PRightTitle>
-                                <PRightName>차진엽</PRightName>
-                                <PRightJop>- collective A 예술감독, 대한민국</PRightJop>
+                                <PRightTitle>{p_detaildata.session1.text3}</PRightTitle>
+                                <PRightName>{p_detaildata.session1.text4}</PRightName>
+                                <PRightJop>{p_detaildata.session1.text5}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
                 <PSection>
                     <PLeftInner>
-                        <PLeftTitle>환영사</PLeftTitle>
-                        <PLeftTime>13:15~13:25</PLeftTime>
-                    </PLeftInner>
-                    {/* <PRight>
-                        <PRightInner>
-                            <PRightSection>
-                                <PRightName>황희</PRightName>
-                                <PRightJop>- 문화체육관광부 장관</PRightJop>
-                            </PRightSection>
-                            <PRightSection>
-                                <PRightName>박신의</PRightName>
-                                <PRightJop>- 한국문화예술교육진흥원 이사장</PRightJop>
-                            </PRightSection>
-                            <PRightSection>
-                                <PRightName>이규석</PRightName>
-                                <PRightJop>- 한국문화예술교육진흥원 원장</PRightJop>
-                            </PRightSection>
-                        </PRightInner>
-                    </PRight> */}
-                </PSection>
-                <PSection>
-                    <PLeftInner>
-                        <PLeftTitle>축사</PLeftTitle>
-                        <PLeftTime>13:25~13:28</PLeftTime>
+                        <PLeftTitle>{p_detaildata.session2.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session2.text2}</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightName>래리 오페럴 <PRightEnName>(Larry O’ Farrell)</PRightEnName></PRightName>
-                                <PRightJop>- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원, 캐나다</PRightJop>
+                                <PRightName>{p_detaildata.session2.text3}</PRightName>
+                                <PRightJop>{p_detaildata.session2.text4}</PRightJop>
+                            </PRightSection>
+                            <PRightSection>
+                                <PRightName>{p_detaildata.session2.text5}</PRightName>
+                                <PRightJop>{p_detaildata.session2.text6}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
                 <PSection>
                     <PLeftInner>
-                        <PLeftTitle>기조발제 1</PLeftTitle>
-                        <PLeftTime>13:28~13:43</PLeftTime>
+                        <PLeftTitle>{p_detaildata.session3.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session3.text2}</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightTitle>문화와 기후변화</PRightTitle>
-                                <PRightName>벤 트위스트 <PRightEnName>(Ben Twist)</PRightEnName></PRightName>
-                                <PRightJop>- 크리에이티브 카본 스코틀랜드 대표, 스코틀랜드</PRightJop>
+                                <PRightName>{p_detaildata.session3.text3}<PRightEnName>{p_detaildata.session3.text4}</PRightEnName></PRightName>
+                                <PRightJop>{p_detaildata.session3.text5}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
                 <PSection>
                     <PLeftInner>
-                        <PLeftTitle>기조발제 2</PLeftTitle>
-                        <PLeftTime>13:43~13:58</PLeftTime>
+                        <PLeftTitle>{p_detaildata.session4.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session4.text2}</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                {/* <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle> */}
-                                <PRightName>피터 셀라스 <PRightEnName>(Peter Sellars)</PRightEnName></PRightName>
-                                <PRightJop>- 연극 감독/UCLA 교수, 미국</PRightJop>
+                                <PRightTitle>{p_detaildata.session4.text3}</PRightTitle>
+                                <PRightName>{p_detaildata.session4.text4}<PRightEnName>{p_detaildata.session4.text5}</PRightEnName></PRightName>
+                                <PRightJop>{p_detaildata.session4.text6}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
                 <PSection>
                     <PLeftInner>
-                        <PLeftTitle>기조발제 3</PLeftTitle>
-                        <PLeftTime>13:58~14:08</PLeftTime>
+                        <PLeftTitle>{p_detaildata.session5.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session5.text2}</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                {/* <PRightTitle>펜데믹 시기, 예술의 변화</PRightTitle> */}
-                                <PRightName>요조</PRightName>
-                                <PRightJop>- 매직스트로베리사운드 싱어송라이터/작가, 대한민국</PRightJop>
+                                <PRightTitle>{p_detaildata.session5.text3}</PRightTitle>
+                                <PRightName>{p_detaildata.session5.text4}<PRightEnName>{p_detaildata.session5.text5}</PRightEnName></PRightName>
+                                <PRightJop>{p_detaildata.session5.text6}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
                 <PSection>
                     <PLeftInner>
-                        <PLeftTitle>개막영상</PLeftTitle>
-                        <PLeftTime>14:08~14:13</PLeftTime>
+                        <PLeftTitle>{p_detaildata.session6.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session6.text2}</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightTitle>&#60;모두의 목소리&#62;</PRightTitle>
-                                <PRightSubText>‘사회 위기 속 참여적 문화예술교육의 역할’이라는 메시지를 전달하는 예술교육자와 시민들과의 인터뷰</PRightSubText>
+                                <PRightTitle>{p_detaildata.session6.text3}</PRightTitle>
+                                <PRightName>{p_detaildata.session6.text4}</PRightName>
+                                <PRightJop>{p_detaildata.session6.text6}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
                 <PSection>
                     <PLeftInner>
-                        <PLeftTitle>제4회 유니트윈<br />국제 학술대회<br />사전행사</PLeftTitle>
-                        <PLeftTime>14:15~15:35</PLeftTime>
+                        <PLeftTitle>{p_detaildata.session7.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session7.text2}</PLeftTime>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
                             <PRightSection>
-                                <PRightTitle>&#60;지금, 기후위기-문화예술교육을 통해 바라본 기후위기&#62;</PRightTitle>
-                                <PRightName>박신의</PRightName>
-                                <PRightJop>- 제4회 유네스코 유니트윈 국제 학술대회 조직위원장 / 경희대학교 교수, 대한민국</PRightJop>
-                                <PRightName>성지수</PRightName>
-                                <PRightJop>- 콜렉티브 뒹굴 대표, 대한민국</PRightJop>
-                                <PRightName>일점오도씨</PRightName>
-                                <PRightJop>- 청소년 기후위기 행동 단체, 대한민국</PRightJop>
-                                <PRightName>모상미</PRightName>
-                                <PRightJop>- 부산 모이다아트협동조합 대표, 대한민국</PRightJop>
-                                <PRightName>강진숙</PRightName>
-                                <PRightJop>- 광명업사이클아트센터 대표, 대한민국</PRightJop>
-                                <PRightName>박진희</PRightName>
-                                <PRightJop>- 상상창고 숨 대표 / 제주문화예술재단 창의예술교육랩장, 대한민국</PRightJop>
+                                <PRightTitle>{p_detaildata.session7.text3}</PRightTitle>
+                                <PRightSubText>{p_detaildata.session7.text4}</PRightSubText>
+                            </PRightSection>
+                        </PRightInner>
+                    </PRight>
+                </PSection>
+                <PSection>
+                    <PLeftInner>
+                        <PLeftTitle>{p_detaildata.session8.text1}</PLeftTitle>
+                        <PLeftTime>{p_detaildata.session8.text2}</PLeftTime>
+                    </PLeftInner>
+                    <PRight>
+                        <PRightInner>
+                            <PRightSection>
+                                <PRightTitle>{p_detaildata.session8.text3}</PRightTitle>
+                                <PRightName>{p_detaildata.session8.text4}</PRightName>
+                                <PRightJop>{p_detaildata.session8.text5}</PRightJop>
+                                <PRightName>{p_detaildata.session8.text6}</PRightName>
+                                <PRightJop>{p_detaildata.session8.text7}</PRightJop>
+                                <PRightName>{p_detaildata.session8.text8}</PRightName>
+                                <PRightJop>{p_detaildata.session8.text9}</PRightJop>
+                                <PRightName>{p_detaildata.session8.text10}</PRightName>
+                                <PRightJop>{p_detaildata.session8.text11}</PRightJop>
+                                <PRightName>{p_detaildata.session8.text12}</PRightName>
+                                <PRightJop>{p_detaildata.session8.text13}</PRightJop>
+                                <PRightName>{p_detaildata.session8.text14}</PRightName>
+                                <PRightJop>{p_detaildata.session8.text15}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -153,44 +161,144 @@ const Home_day1 = () => {
             <MWrapper>
                 <MInner>
                     <MCal_TopArea 
-                        title="학술대회 사전세션"
-                        videobtn={true}
+                        title={m_detaildata.title}
+                        videobtn={m_detaildata.video}
                         width="97px"
-                        time="13:00~14:19"
+                        time={m_detaildata.time}
+                        link={m_detaildata.link}
+                        videotext={m_detaildata.video_text}
                     />
                     <MSection>
                         <MLeftInner>
-                            <MLeftTitle>오프닝 공연</MLeftTitle>
-                            <MLeftTime>13:00~13:15</MLeftTime>
+                            <MLeftTitle>{m_detaildata.session1.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session1.text2}</MLeftTime>
                         </MLeftInner>
                         <MRight>
                             <MRightInner>
                                 <MRightSection>
-                                    <MRightName>차진엽</MRightName>
-                                    <MRightJop>- 현대무용가/ 콜렉티브 에이</MRightJop>
+                                    <MRightTitle>{m_detaildata.session1.text3}</MRightTitle>
+                                    <MRightName>{m_detaildata.session1.text4}</MRightName>
+                                    <MRightJop>{m_detaildata.session1.text5}</MRightJop>
                                 </MRightSection>
                             </MRightInner>
                         </MRight>
                     </MSection>
                     <MSection>
                         <MLeftInner>
-                            <MLeftTitle>환영사</MLeftTitle>
-                            <MLeftTime>13:15~13:25</MLeftTime>
+                            <MLeftTitle>{m_detaildata.session2.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session2.text2}</MLeftTime>
                         </MLeftInner>
                         <MRight>
                             <MRightInner>
                                 <MRightSection>
-                                    <MRightName>황희</MRightName>
-                                    <MRightJop>- 문화체육관광부 장관</MRightJop>
+                                    <MRightName>{m_detaildata.session2.text3}</MRightName>
+                                    <MRightJop>{m_detaildata.session2.text4}</MRightJop>
                                 </MRightSection>
                                 <MRightSection>
-                                    <MRightName>박신의</MRightName>
-                                    <MRightJop>- 한국문화예술교육진흥원 이사장</MRightJop>
+                                    <MRightName>{m_detaildata.session2.text5}</MRightName>
+                                    <MRightJop>{m_detaildata.session2.text6}</MRightJop>
                                 </MRightSection>
                             </MRightInner>
                         </MRight>
                     </MSection>
-
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>{m_detaildata.session3.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session3.text2}</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    <MRightName>{m_detaildata.session3.text3}<MRightEnName>{m_detaildata.session3.text4}</MRightEnName></MRightName>
+                                    <MRightJop>{m_detaildata.session3.text5}</MRightJop>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>{m_detaildata.session4.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session4.text2}</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    <MRightTitle>{m_detaildata.session4.text3}</MRightTitle>
+                                    <MRightName>{m_detaildata.session4.text4}<MRightEnName>{m_detaildata.session4.text5}</MRightEnName></MRightName>
+                                    <MRightJop>{m_detaildata.session4.text6}</MRightJop>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>{m_detaildata.session5.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session5.text2}</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    {/* <MRightTitle>{m_detaildata.session5.text3}</MRightTitle> */}
+                                    <MRightName>{m_detaildata.session5.text4}<MRightEnName>{m_detaildata.session5.text5}</MRightEnName></MRightName>
+                                    <MRightJop>{m_detaildata.session5.text6}</MRightJop>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>{m_detaildata.session6.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session6.text2}</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    {/* <MRightTitle>{m_detaildata.session6.text3}</MRightTitle> */}
+                                    <MRightName>{m_detaildata.session6.text4}<MRightEnName>{m_detaildata.session6.text5}</MRightEnName></MRightName>
+                                    <MRightJop>{m_detaildata.session6.text6}</MRightJop>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>{m_detaildata.session7.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session7.text2}</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    <MRightTitle>{m_detaildata.session7.text3}</MRightTitle>
+                                    <MRightTitle>{m_detaildata.session7.text4}</MRightTitle>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
+                    <MSection>
+                        <MLeftInner>
+                            <MLeftTitle>{m_detaildata.session8.text1}</MLeftTitle>
+                            <MLeftTime>{m_detaildata.session8.text2}</MLeftTime>
+                        </MLeftInner>
+                        <MRight>
+                            <MRightInner>
+                                <MRightSection>
+                                    <MRightTitle>{m_detaildata.session8.text3}</MRightTitle>
+                                    <MRightName>{m_detaildata.session8.text4}</MRightName>
+                                    <MRightJop>{m_detaildata.session8.text5}</MRightJop>
+                                    <MRightName>{m_detaildata.session8.text6}</MRightName>
+                                    <MRightJop>{m_detaildata.session8.text7}</MRightJop>
+                                    <MRightName>{m_detaildata.session8.text8}</MRightName>
+                                    <MRightJop>{m_detaildata.session8.text9}</MRightJop>
+                                    <MRightName>{m_detaildata.session8.text10}</MRightName>
+                                    <MRightJop>{m_detaildata.session8.text11}</MRightJop>
+                                    <MRightName>{m_detaildata.session8.text12}</MRightName>
+                                    <MRightJop>{m_detaildata.session8.text13}</MRightJop>
+                                    <MRightName>{m_detaildata.session8.text14}</MRightName>
+                                    <MRightJop>{m_detaildata.session8.text15}</MRightJop>
+                                </MRightSection>
+                            </MRightInner>
+                        </MRight>
+                    </MSection>
                 </MInner>
             </MWrapper> 
         </>
@@ -229,6 +337,7 @@ const PLeftInner = styled.div`
 const PLeftTitle = styled.div`
     font-size: 28px;
     font-weight: 900;
+    white-space : pre-line;
     color: ${color.black};
 `
 const PLeftTime = styled.div`
@@ -326,12 +435,20 @@ const MLeftInner = styled.div`
 const MLeftTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
+    white-space : pre-line;
     color: ${color.black};
 `
 const MLeftTime = styled.div`
     margin-top : 2px;
     font-size: 12px;
     font-weight: bold;
+    color: ${color.black};
+`
+const MRightTitle = styled.div`
+    margin-bottom : 12px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space : pre-line;
     color: ${color.black};
 `
 const MRight = styled.div`
@@ -356,6 +473,14 @@ const MRightName = styled.div`
     font-weight : 500;
     color: ${color.black};
     margin-bottom : 2px;
+
+    &:nth-child(4),
+    &:nth-child(6),
+    &:nth-child(8),
+    &:nth-child(10),
+    &:nth-child(12) {
+        margin-top : 13px;
+    }
 `
 const MRightEnName = styled.span`
     font-size: 12px;
@@ -363,6 +488,7 @@ const MRightEnName = styled.span`
 `
 const MRightJop = styled.div`
     font-size: 12px;
+    white-space : pre-line;
     color: ${color.black};
 `
 

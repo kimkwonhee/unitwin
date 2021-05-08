@@ -21,6 +21,7 @@ const Home_center = ({curlang}) => {
 
     return (
         <>
+            {/* PC */}
             <PWrapper>
                 <PInner>
                     <PContents 
@@ -60,6 +61,7 @@ const Home_center = ({curlang}) => {
                 </PInner>
             </PWrapper>
             
+            {/* mobile */}
             <MWrapper>
                 <MInner>
                     <MContents 

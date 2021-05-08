@@ -546,6 +546,8 @@ const MWrapper = styled.div`
 `
 const MInner = styled.div`
     position : relative;
+    /* display : flex; */
+    /* flex-direction : column; */
     width : 100%;
 `
 const MSection  = styled.div`
@@ -565,18 +567,22 @@ const MDayText = styled.div`
     color: ${color.turtle_green};
 `
 const MContents = styled.div`
+    width : 100%;
     display : flex;
     padding : 8px 12px;
     border-top: solid 0.5px ${color.turtle_green};
 `
 const MTime = styled.div`
-    width : 117px;
     font-size: 14px;
     color: ${color.brownish_grey};
-    /* background-color : red; */
+    margin-right: 35px;
 `
 const MTextArea = styled.div`
-    width : 225px;
+    width: 100%;
+`
+const MmiddleArea = styled.div`
+    display : flex;
+    width : 100%;
 `
 const MTitle = styled.div`
     font-size: 14px;
