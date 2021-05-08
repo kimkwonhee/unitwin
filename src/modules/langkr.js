@@ -107,6 +107,12 @@ export const langkr = {
                          +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
         },
 
+        home_center : {
+            title : '일정',
+            contents : ''
+        },
+
+        // home 전체 일정
         home_all : {
             session1 : {
                 day : '05.24 Mon',
@@ -129,13 +135,113 @@ export const langkr = {
                     time8 : '14:15~15:35',
                     title9 : '제4회 유니트윈\n국제 학술대회 사전행사'
                 }
+            },
+            session2 : {
+                day : '05.25 Tue',
+                tue1 : {
+                    text1 : '13:00~13:40',
+                    text2 : '기조발제 1',
+                    text3 : '(문화예술교육 2.0의 다양성)',
+                    text4 : '언스트 바그너',
+                    text5 : '[모더레이터]',
+                    text6 : '치후 룸',
+                },
+                tue2 : {
+                    text1 : '13:40~15:25',
+                    text2 : '세션 1',
+                    text3 : '(현장사례연구 1)',
+                    text4 : '',
+                    text5 : '',
+                    text6 : '[발제자]',
+                    text7 : '정용성, 이은수\n김소원, 김수연,\n이보람',
+                },
+                tue3 : {
+                    text1 : '15:25~16:55',
+                    text2 : '세션 2',
+                    text3 : '(예술치유)',
+                    text4 : '[모더레이터]',
+                    text5 : '글로리아 자파타',
+                    text6 : '[발제자]',
+                    text7 : '티나 쿠코,\n산자 크르스마노비츠 타식,\n엠시 베트만,\n김채연',
+                },
+                tue4 : {
+                    text1 : '15:25~16:55',
+                    text2 : '세션 3',
+                    text3 : '(사회적&문화적 포용)',
+                    text4 : '[모더레이터]',
+                    text5 : '네릴 제너렛',
+                    text6 : '[발제자]',
+                    text7 : '김태희,\n샤를린 라헨드란,\n난장,\n야라 도크랏',
+                },
+                tue5 : {
+                    text1 : '16:55~18:10',
+                    text2 : '세션 4',
+                    text3 : '(서울어젠다)',
+                    text4 : '[모더레이터]',
+                    text5 : '김인설',
+                    text6 : '[발제자]',
+                    text7 : '벤 볼든&네릴 제너렛\n치후 룸&젠 터\n캐서린 콜만&마크 셀크릭&에비 맥도날드',
+                },
+                tue6 : {
+                    text1 : '18:10~19:10',
+                    text2 : 'BYOB',
+                    text3 : '(온라인 만남의 광장)'
+                }
+            },
+            session3 : {
+                day : '05.26 Wed',
+                wed1 : {
+                    text1 : '13:00~13:40',
+                    text2 : '기조발제 2',
+                    text3 : '(유니트윈-문화다양성과 지속발전가능한\n예술교육 연구 프로그램)',
+                    text4 : '벤야민 요리슨',
+                    text5 : '[모더레이터]',
+                    text6 : '탄야 클레페키',
+                },
+                wed2 : {
+                    text1 : '13:40~15:10',
+                    text2 : '세션 5',
+                    text3 : '(교실 속의 예술)',
+                    text4 : '[모더레이터]',
+                    text5 : '벤자민 볼든',
+                    text6 : '[발제자]',
+                    text7 : '마리 클레어 키덴다,\n에밀리 맥밀런, 홍지혜,\n에밀리 윌슨&네릴 제너렛',
+                },
+                wed3 : {
+                    text1 : '15:10~16:40',
+                    text2 : '세션 6',
+                    text3 : '(예술참여)',
+                    text4 : '[모더레이터]',
+                    text5 : '신혜선',
+                    text6 : '[발제자]',
+                    text7 : '제환정,\n정혜연&성효진\n레베카 칸&푸 세이밍&\n탄정수안, 제프 풀린',
+                },
+                wed4 : {
+                    text1 : '15:10~16:40',
+                    text2 : '세션 7',
+                    text3 : '(다양성 & 문화적 묘사)',
+                    text4 : '[모더레이터]',
+                    text5 : '치후 룸',
+                    text6 : '[발제자]',
+                    text7 : '루스 렌슬러,\n심지영,\n김유리&박소정,\n션 코코란&벤자민 볼든',
+                },
+                wed5 : {
+                    text1 : '16:40~18:25',
+                    text2 : '세션 8',
+                    text3 : '(현장사례연구 2)',
+                    text4 : '[모더레이터]',
+                    text5 : '홍유진',
+                    text6 : '[발제자]',
+                    text7 : '장수혜,\n공윤지,\n이현정\n배성종,\n최영희',
+                },
+                wed6 : {
+                    text1 : '18:25~19:25',
+                    text2 : '폐회 세션',
+                },
             }
         },
 
-        home_center : {
-            title : '일정',
-            contents : ''
-        },
+
 
         // 기조발제
         pl_session : {
@@ -1423,7 +1529,7 @@ export const langkr = {
         home_top : {
             img : home_title,
             title : '행사소개',
-            time : '2021. 05. 25(화) ~ 05.26(수)',
+            time : '2021.05.24 ~ 05.26',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
             advance : '사전신청하기',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
@@ -1432,10 +1538,73 @@ export const langkr = {
                          +'(UNITWIN - Arts Education Research for Cultural Diversity and\nSustainable Development)'
                          +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
         },
-        
+
         home_center : {
             title : '일정',
             contents : ''
+        },
+
+        // home 전체일정 (모바일)
+        home_all : {
+            session1 : {
+                text1 : '05.24 Mon',
+                text2 : '13:00~13:15',
+                text3 : '오프닝 공연',
+                text4 : '13:15~13:25',
+                text5 : '환영사',
+                text6 : '13:25~13:28',
+                text7 : '축사',
+                text8 : '13:28~13:43',
+                text9 : '기조발제 1',
+                text10 : '13:43~13:58',
+                text11 : '기조발제 2',
+                text12 : '13:58~14:08',
+                text13 : '기조발제 3',
+                text14 : '14:08~14:13',
+                text15 : '개막영상',
+                text16 : '(모두의 목소리)',
+                text17 : '14:15~15:35',
+                text18 : '제4회 유니트윈\n국제 학술대회 사전행사',
+            },
+            session2 : {
+                text1 : '05.25 Tue',
+                text2 : '13:00~13:40',
+                text3 : '기조발제 1',
+                text4 : '(문화예술교육 2.0의 다양성)',
+                text5 : '13:40~15:25',
+                text6 : '세션 1',
+                text7 : '(현장사례연구 1)',
+                text8 : '15:25~16:55',
+                text9 : '세션 2',
+                text10 : '(예술치유)',
+                text11 : '세션 3',
+                text12 : '(사회적&문화적 포용)',
+                text13 : '16:55~18:10',
+                text14 : '세션 4',
+                text15 : '(서울 어젠다)',
+                text16 : '18:10~19:10',
+                text17 : 'BYOB',
+                text18 : '(온라인 만남의 광장)',
+            },
+            session3 : {
+                text1 : '05.26 Wed',
+                text2 : '13:00~13:40',
+                text3 : '기조발제 2',
+                text4 : '(유니트윈-문화다양성과 지속발전\n가능한 예술교육 연구 프로그램)',
+                text5 : '13:40~15:10',
+                text6 : '세션 5',
+                text7 : '(교실 속의 예술)',
+                text8 : '15:10~16:40',
+                text9 : '세션 6',
+                text10 : '(예술참여)',
+                text11 : '세션 7',
+                text12 : '(다양성 & 문화적 묘사)',
+                text13 : '16:40~18:25',
+                text14 : '세션 8',
+                text15 : '(현장사례연구 2)',
+                text16 : '18:25~19:25',
+                text17 : '폐회 세션',
+            }
         },
 
         // 기조발제

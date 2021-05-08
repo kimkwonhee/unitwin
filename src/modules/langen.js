@@ -80,7 +80,7 @@ export const langen = {
         classdownload : '강의자료 다운로드',
         zoom : 'ZOOM으로 참여하기',
         unithomebtn : 'Go to UNITWIN Official Webpage',
-        move : '이동하기 > ',
+        move : 'link > ',
 
         // 메뉴 바
         menuber : {
@@ -104,6 +104,12 @@ export const langen = {
                          +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
 
+        home_center : {
+            title : 'Overall',
+            contents : ''
+        },
+        
+        // home 전체 일정
         home_all : {
             session1 : {
                 day : '05.24 Mon',
@@ -126,12 +132,110 @@ export const langen = {
                     time8 : '14:15~15:35',
                     title9 : 'The 4th UNESCO-UNITWIN\nSymposium Pre-session'
                 }
+            },
+            session2 : {
+                day : '05.25 Tue',
+                tue1 : {
+                    text1 : '13:00~13:40',
+                    text2 : 'Plenary Session 1',
+                    text3 : '(Diversity in art education 2.0)',
+                    text4 : 'Ernst Wagner',
+                    text5 : '[Moderator]',
+                    text6 : 'Chee-Hoo Lum',
+                },
+                tue2 : {
+                    text1 : '13:40~15:25',
+                    text2 : 'Session 1',
+                    text3 : '(Arts and Education in the Field 1)',
+                    text4 : '',
+                    text5 : '',
+                    text6 : '[Presenter]',
+                    text7 : 'Jung YongSung, Lee Eunsu,\nKim Sowon, Kim Su-youn,\nLee Boram',
+                },
+                tue3 : {
+                    text1 : '15:25~16:55',
+                    text2 : 'Session 2',
+                    text3 : '(Arts for Healing)',
+                    text4 : '[Moderator]',
+                    text5 : 'Gloria P. Zapata',
+                    text6 : '[Presenter]',
+                    text7 : 'Tiina Kukkonen,\nSanja Krsmanović Tasić,\nMC Bettman,\nKim Chaeyeon',
+                },
+                tue4 : {
+                    text1 : '15:25~16:55',
+                    text2 : 'Session 3',
+                    text3 : '(Social & Cultural Inclusiveness)',
+                    text4 : '[Moderator]',
+                    text5 : 'Neryl Jeanneret',
+                    text6 : '[Presenter]',
+                    text7 : 'Kim Tei\nCharlene Rajendran\nNan Zhang\nYaara Docrat',
+                },
+                tue5 : {
+                    text1 : '16:55~18:10',
+                    text2 : 'Session 4',
+                    text3 : '(Seoul Agenda)',
+                    text4 : '[Moderator]',
+                    text5 : 'Kim InSul',
+                    text6 : '[Presenter]',
+                    text7 : 'Benjamin Bolden&Neryl Jeanneret\nChee-Hoo Lum&Zen Teh\nKathryn Coleman&Mark Selkrig&Abbey MacDonald',
+                },
+                tue6 : {
+                    text1 : '18:10~19:10',
+                    text2 : 'BYOB',
+                    text3 : '(Bring Your Own Bottle)'
+                }
+            },
+            session3 : {
+                day : '05.26 Wed',
+                wed1 : {
+                    text1 : '13:00~13:40',
+                    text2 : 'Plenary Session 2',
+                    text3 : '(“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”)',
+                    text4 : 'Benjamin Jörissen',
+                    text5 : '[Moderator]',
+                    text6 : 'Tanja Klepacki',
+                },
+                wed2 : {
+                    text1 : '13:40~15:10',
+                    text2 : 'Session 5',
+                    text3 : '(Arts in the Classroom)',
+                    text4 : '[Moderator]',
+                    text5 : 'Benjamin Bolden',
+                    text6 : '[Presenter]',
+                    text7 : 'Mary Clare Kidenda,\nEmily MacMillan,\nHong-Park Jihea,\nEmily Wilson&Neryl Jeanneret',
+                },
+                wed3 : {
+                    text1 : '15:10~16:40',
+                    text2 : 'Session 6',
+                    text3 : '(Arts Engagement)',
+                    text4 : '[Moderator]',
+                    text5 : 'Shin Hyesun',
+                    text6 : '[Presenter]',
+                    text7 : 'Jae Hwan Jung,\nChung Hyeyoun&\nSung Hyojin\nRebecca Kan&Foo Say Ming&Tan Jeng Suan,\nJeff Poulin',
+                },
+                wed4 : {
+                    text1 : '15:10~16:40',
+                    text2 : 'Session 7',
+                    text3 : '(Diversity & Cultural Representation)',
+                    text4 : '[Moderator]',
+                    text5 : 'Chee-Hoo Lum',
+                    text6 : '[Presenter]',
+                    text7 : 'Ruth Rentschler,\nShim Ji-young,\nKim Yuri&Park Sojung\nSean Corcoran&Benjamin Bolden',
+                },
+                wed5 : {
+                    text1 : '16:40~18:25',
+                    text2 : 'Session 8',
+                    text3 : '(Arts and Education in the Field 2)',
+                    text4 : '[Moderator]',
+                    text5 : 'Hong Yujin',
+                    text6 : '[Presenter]',
+                    text7 : 'Jang Soohye,\nGong Yunji,\nLee Hyunjung,\nBae Sungjong,\nChoi Younghee',
+                },
+                wed6 : {
+                    text1 : '18:25~19:25',
+                    text2 : 'UNITWIN Closing Ceremony',
+                },
             }
-        },
-
-        home_center : {
-            title : '일정',
-            contents : ''
         },
 
         // 기조발제
@@ -1419,20 +1523,82 @@ export const langen = {
 
         home_top : {
             img : home_title,
-            title : '행사소개',
-            time : '2021. 05. 25(화) ~ 05.26(수)',
+            title : 'About',
+            time : '24~26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
-            advance : '사전신청하기',
-            contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
-                       +'제4회 유니트윈 학술대회는 "위기의 시대, 행동하는 예술교육"를 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있기 기여할 수 있는지 논하려 합니다.',
-            subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전가능한 예술교육 연구 모임\n'
-                         +'(UNITWIN - Arts Education Research for Cultural Diversity and\nSustainable Development)'
-                         +'유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
+            advance : 'APPLICATION',
+            contents : '- The 11th Anniversary of The Seoul Agenda: Goals for the Development of Arts Education\n\n'
+                     +'- The 10th Anniversary of International Arts Education Week',
+            subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development'
+                         +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
         
         home_center : {
-            title : '일정',
+            title : 'Overall',
             contents : ''
+        },
+
+        // home 전체일정 (모바일)
+        home_all : {
+            session1 : {
+                text1 : '05.24 Mon',
+                text2 : '13:00~13:15',
+                text3 : 'Opening Perfomance',
+                text4 : '13:15~13:25',
+                text5 : 'Welcome Speech',
+                text6 : '13:25~13:28',
+                text7 : 'Congratulatory Speech',
+                text8 : '13:28~13:43',
+                text9 : 'Plenary Presentaion 1',
+                text10 : '13:43~13:58',
+                text11 : 'Plenary Presentaion 2',
+                text12 : '13:58~14:08',
+                text13 : 'Plenary Presentaion 3',
+                text14 : '14:08~14:13',
+                text15 : 'Theme Video',
+                text16 : '(Voice of All)',
+                text17 : '14:15~15:35',
+                text18 : 'The 4th UNESCO-UNITWIN\nSymposium Pre-session',
+            },
+            session2 : {
+                text1 : '05.25 Tue',
+                text2 : '13:00~13:40',
+                text3 : 'Plenary Session 1',
+                text4 : '(Diversity in art education 2.0)',
+                text5 : '13:40~15:25',
+                text6 : 'Session 1',
+                text7 : '(Arts and Education in the Field 1)',
+                text8 : '15:25~16:55',
+                text9 : 'Session 2',
+                text10 : '(Arts for Healing)',
+                text11 : 'Session 3',
+                text12 : '(Social & Cultural Inclusiveness)',
+                text13 : '16:55~18:10',
+                text14 : 'Session 4',
+                text15 : '(Seoul Agenda)',
+                text16 : '18:10~19:10',
+                text17 : 'BYOB',
+                text18 : '(Bring Your Own Bottle)',
+            },
+            session3 : {
+                text1 : '05.26 Wed',
+                text2 : '13:00~13:40',
+                text3 : 'Plenary Session 2',
+                text4 : '(“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”)',
+                text5 : '13:40~15:10',
+                text6 : 'Session 5',
+                text7 : '(Arts in the Classroom)',
+                text8 : '15:10~16:40',
+                text9 : 'Session 6',
+                text10 : '(Arts Engagement)',
+                text11 : 'Session 7',
+                text12 : '(Diversity & Cultural Representation)',
+                text13 : '16:40~18:25',
+                text14 : 'Session 8',
+                text15 : '(Arts and Education in the Field 2)',
+                text16 : '18:25~19:25',
+                text17 : 'UNITWIN Closing Ceremony',
+            }
         },
 
         // 기조발제

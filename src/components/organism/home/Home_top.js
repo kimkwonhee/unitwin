@@ -59,9 +59,10 @@ const Home_top = ({className , curlang}) => {
                     </PContentsArea>
                 </PInner>
             </PWrapper>
+
             
             {/* Mobile */}
-            <MWrapper>
+            <MWrapper className={className} status={langstatus}>
                 <MInner>
                     <MLogoArea>
                         <MLogoimg src={logo} alt="mark"/>
@@ -70,7 +71,7 @@ const Home_top = ({className , curlang}) => {
                         <MBackImg id="animAreaMO" />
                     </MBackImgArea>
                     <MContentsArea>
-                        <MImgTitle src={m_detaildata.img} alt="title" />
+                        <MImgTitle status={langstatus} src={m_detaildata.img} alt="title" />
                         <MCalender>{m_detaildata.time}</MCalender>
                         <MContents 
                             title={m_detaildata.title} 
@@ -151,7 +152,7 @@ const PContents = styled(PageTopArea)`
 // Mobile
 const MWrapper = styled.div`
     width : auto;
-    height : 800px;
+    height : ${props => props.status == 'kr' ? '800px' : '690px'};
     padding : 0 16px 50px 16px; 
     display : flex;
     justify-content : center;
@@ -194,7 +195,8 @@ const MContentsArea = styled.div`
     z-index : 2;
 `
 const MImgTitle = styled.img`
-    width : 277px;
+    width : ${props => props.status =='kr' ? '270px' : '340px' };
+    height : ${props => props.status =='kr' ? '124px' : '66px' };
 `
 const MCalender = styled.div`
     padding : 20px 0 30px 0;

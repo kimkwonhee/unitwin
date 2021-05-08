@@ -9,158 +9,176 @@ const Home_all = () => {
         curlang : state.changlang.curlang
     }))
 
-    const p_detaildata = curlang.p_data.home_all;
+    // PC
+    const p_mon1 = curlang.p_data.home_all.session1.mon1;
+    const p_tue1 = curlang.p_data.home_all.session2.tue1;
+    const p_tue2 = curlang.p_data.home_all.session2.tue2;
+    const p_tue3 = curlang.p_data.home_all.session2.tue3;
+    const p_tue4 = curlang.p_data.home_all.session2.tue4;
+    const p_tue5 = curlang.p_data.home_all.session2.tue5;
+    const p_tue6 = curlang.p_data.home_all.session2.tue6;
+    const p_wed1 = curlang.p_data.home_all.session3.wed1;
+    const p_wed2 = curlang.p_data.home_all.session3.wed2;
+    const p_wed3 = curlang.p_data.home_all.session3.wed3;
+    const p_wed4 = curlang.p_data.home_all.session3.wed4;
+    const p_wed5 = curlang.p_data.home_all.session3.wed5;
+    const p_wed6 = curlang.p_data.home_all.session3.wed6;
     // const m_detaildata = curlang.m_data.home_all;
+
+    // mobile
+    const m_mon = curlang.m_data.home_all.session1;
+    const m_tue = curlang.m_data.home_all.session2;
+    const m_wed = curlang.m_data.home_all.session3;
 
     return (
         <>
             <PWrapper>
                 <PSection1>
                     <PDayBlock>
-                        <PDayText>{p_detaildata.session1.day}</PDayText>
+                        <PDayText>{curlang.p_data.home_all.session1.day}</PDayText>
                     </PDayBlock>
                     <PMonSection1>
-                            <PTime>{p_detaildata.session1.mon1.time1}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title1}</PTitle>
-                            <PTime>{p_detaildata.session1.mon1.time2}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title2}</PTitle>
-                            <PTime>{p_detaildata.session1.mon1.time3}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title3}</PTitle>
-                            <PTime>{p_detaildata.session1.mon1.time4}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title4}</PTitle>
-                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title5}</PTitle>
-                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title6}</PTitle>
-                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title7}</PTitle>
-                            <PSubTitle>{p_detaildata.session1.mon1.title8}</PSubTitle>
-                            <PTime>{p_detaildata.session1.mon1.time5}</PTime>
-                            <PTitle>{p_detaildata.session1.mon1.title9}</PTitle>
-                            <PMove>{curlang.p_data.move}</PMove>
+                            <PTime>{p_mon1.time1}</PTime>
+                            <PTitle>{p_mon1.title1}</PTitle>
+                            <PTime>{p_mon1.time2}</PTime>
+                            <PTitle>{p_mon1.title2}</PTitle>
+                            <PTime>{p_mon1.time3}</PTime>
+                            <PTitle>{p_mon1.title3}</PTitle>
+                            <PTime>{p_mon1.time4}</PTime>
+                            <PTitle>{p_mon1.title4}</PTitle>
+                            <PTime>{p_mon1.time5}</PTime>
+                            <PTitle>{p_mon1.title5}</PTitle>
+                            <PTime>{p_mon1.time5}</PTime>
+                            <PTitle>{p_mon1.title6}</PTitle>
+                            <PTime>{p_mon1.time5}</PTime>
+                            <PTitle>{p_mon1.title7}</PTitle>
+                            <PSubTitle>{p_mon1.title8}</PSubTitle>
+                            <PTime>{p_mon1.time5}</PTime>
+                            <PTitle>{p_mon1.title9}</PTitle>
+                            {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PMonSection1>
                     <PMonSection2 />
                 </PSection1>
                 <PSection2>
                     <PDayBlock>
-                        <PDayText>05.25 Tue</PDayText>
+                        <PDayText>{curlang.p_data.home_all.session2.day}</PDayText>
                     </PDayBlock>
                     <PTueSection1>
-                            <PTime>13:00~13:40</PTime>
-                            <PTitle>기조발제 1</PTitle>
-                            <PSubTitle>(문화예술교육 2.0의 다양성)</PSubTitle>
-                            <PTueCharacter1>언스트 바그너</PTueCharacter1>
-                            <PPhasis1>[모더레이터]</PPhasis1>
-                            <PTueCharacter2>차후 룸</PTueCharacter2>
+                            <PTime>{p_tue1.text1}</PTime>
+                            <PTitle>{p_tue1.text2}</PTitle>
+                            <PSubTitle>{p_tue1.text3}</PSubTitle>
+                            <PTueCharacter1>{p_tue1.text4}</PTueCharacter1>
+                            <PPhasis1>{p_tue1.text5}</PPhasis1>
+                            <PTueCharacter2>{p_tue1.text6}</PTueCharacter2>
                             {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection1>
                     <PTueSection2>
-                            <PTime>13:40~15:25</PTime>
-                            <PTitle>세션 1</PTitle>
-                            <PSubTitle>(현장사례연구 1)</PSubTitle>
-                            <PPhasis1>[모더레이터]</PPhasis1>
-                            <PTueCharacter2>박신의</PTueCharacter2>
-                            <PPhasis2>[발제자]</PPhasis2>
-                            <PTueCharacter2>정용성, 이은수<br />김소원, 김수연,<br />이보람</PTueCharacter2>
+                            <PTime>{p_tue2.text1}</PTime>
+                            <PTitle>{p_tue2.text2}</PTitle>
+                            <PSubTitle>{p_tue2.text3}</PSubTitle>
+                            <PPhasis1>{p_tue2.text4}</PPhasis1>
+                            <PTueCharacter2>{p_tue2.text5}</PTueCharacter2>
+                            <PPhasis2>{p_tue2.text6}</PPhasis2>
+                            <PTueCharacter2>{p_tue2.text7}</PTueCharacter2>
                             {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection2>
                     <PTueSection3>
                             <PLeftArea>
-                                <PTime>15:25~16:55</PTime>
-                                <PTitle>세션 2</PTitle>
-                                <PSubTitle>(예술치유)</PSubTitle>
-                                <PPhasis1>[모더레이터]</PPhasis1>
-                                <PTueCharacter2>글로리아 자파타</PTueCharacter2>
-                                <PPhasis2>[발제자]</PPhasis2>
-                                <PTueCharacter2>티나 쿠코,<br />산자 크르스마노비츠 타식,<br />엠시 베트만,<br />김채연</PTueCharacter2>
+                                <PTime>{p_tue3.text1}</PTime>
+                                <PTitle>{p_tue3.text2}</PTitle>
+                                <PSubTitle>{p_tue3.text3}</PSubTitle>
+                                <PPhasis1>{p_tue3.text4}</PPhasis1>
+                                <PTueCharacter2>{p_tue3.text5}</PTueCharacter2>
+                                <PPhasis2>{p_tue3.text6}</PPhasis2>
+                                <PTueCharacter2>{p_tue3.text7}</PTueCharacter2>
                                 {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PLeftArea>
                             <PRightArea>
-                                <PTime>15:25~16:55</PTime>
-                                <PTitle>세션 3</PTitle>
-                                <PSubTitle>(사회적&문화적 포용)</PSubTitle>
-                                <PPhasis1>[모더레이터]</PPhasis1>
-                                <PTueCharacter2>네릴 제너렛</PTueCharacter2>
-                                <PPhasis2>[발제자]</PPhasis2>
-                                <PTueCharacter2>김태희,<br />샤를린 라헨드란,<br />난장,<br />야라 도크랏</PTueCharacter2>
+                                <PTime>{p_tue4.text1}</PTime>
+                                <PTitle>{p_tue4.text2}</PTitle>
+                                <PSubTitle>{p_tue4.text3}</PSubTitle>
+                                <PPhasis1>{p_tue4.text4}</PPhasis1>
+                                <PTueCharacter2>{p_tue4.text5}</PTueCharacter2>
+                                <PPhasis2>{p_tue4.text6}</PPhasis2>
+                                <PTueCharacter2>{p_tue4.text7}</PTueCharacter2>
                                 {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PRightArea>
                     </PTueSection3>
                     <PTueSection4>
-                        <PTime>16:55~18:10</PTime>
-                        <PTitle>세션 4</PTitle>
-                        <PSubTitle>(서울어젠다)</PSubTitle>
-                        <PPhasis1 top="40px">[모더레이터]</PPhasis1>
-                        <PTueCharacter2>김인설</PTueCharacter2>
-                        <PPhasis2 top="40px">[발제자]</PPhasis2>
-                        <PTueCharacter2>벤 볼든&네릴 제너렛<br />치후 룸&젠 터<br />캐서린 콜만&마크 셀크릭&에비 맥도날드</PTueCharacter2>
+                        <PTime>{p_tue5.text1}</PTime>
+                        <PTitle>{p_tue5.text2}</PTitle>
+                        <PSubTitle>{p_tue5.text3}</PSubTitle>
+                        <PPhasis1 top="40px">{p_tue5.text4}</PPhasis1>
+                        <PTueCharacter2>{p_tue5.text5}</PTueCharacter2>
+                        <PPhasis2 top="40px">{p_tue5.text6}</PPhasis2>
+                        <PTueCharacter2>{p_tue5.text7}</PTueCharacter2>
                         {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection4>
                     <PTueSection5>
-                        <PTime>18:10~19:10</PTime>
-                        <PTitle>BYOB</PTitle>
-                        <PSubTitle>(온라인 만남의 광장)</PSubTitle>
+                        <PTime>{p_tue6.text1}</PTime>
+                        <PTitle>{p_tue6.text2}</PTitle>
+                        <PSubTitle>{p_tue6.text3}</PSubTitle>
                         {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PTueSection5>
                 </PSection2>
                 <PSection3>
                     <PDayBlock>
-                        <PDayText>05.26 Wed</PDayText>
+                        <PDayText>{curlang.p_data.home_all.session3.day}</PDayText>
                     </PDayBlock>
                     <PWedSection1>
-                            <PTime>13:00~13:40</PTime>
-                            <PTitle>기조발제 2</PTitle>
-                            <PSubTitle>(유니트윈-문화다양성과 지속발전가능한<br />예술교육 연구 프로그램)</PSubTitle>
-                            <PTueCharacter1>벤야민 요리슨</PTueCharacter1>
-                            <PPhasis1>[모더레이터]</PPhasis1>
-                            <PTueCharacter2>치후 룸, 탄야 클레페키</PTueCharacter2>
+                            <PTime>{p_wed1.text1}</PTime>
+                            <PTitle>{p_wed1.text2}</PTitle>
+                            <PSubTitle>{p_wed1.text3}</PSubTitle>
+                            <PTueCharacter1>{p_wed1.text4}</PTueCharacter1>
+                            <PPhasis1>{p_wed1.text5}</PPhasis1>
+                            <PTueCharacter2>{p_wed1.text6}</PTueCharacter2>
                             {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection1>
                     <PWedSection2>
-                            <PTime>13:40~15:10</PTime>
-                            <PTitle>세션 5</PTitle>
-                            <PSubTitle>(교실 속의 예술)</PSubTitle>
-                            <PPhasis1>[모더레이터]</PPhasis1>
-                            <PTueCharacter2>벤자민 볼든</PTueCharacter2>
-                            <PPhasis2>[발제자]</PPhasis2>
-                            <PTueCharacter2>마리 클레어 키덴다,<br />에밀리 맥밀런, 홍지혜,<br />에밀리 윌슨&네릴 제너렛</PTueCharacter2>
+                            <PTime>{p_wed2.text1}</PTime>
+                            <PTitle>{p_wed2.text2}</PTitle>
+                            <PSubTitle>{p_wed2.text3}</PSubTitle>
+                            <PPhasis1>{p_wed2.text4}</PPhasis1>
+                            <PTueCharacter2>{p_wed2.text5}</PTueCharacter2>
+                            <PPhasis2>{p_wed2.text6}</PPhasis2>
+                            <PTueCharacter2>{p_wed2.text7}</PTueCharacter2>
                             {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection2>
                     <PWedSection3>
                             <PLeftArea>
-                                <PTime>15:10~16:40</PTime>
-                                <PTitle>세션 6</PTitle>
-                                <PSubTitle>(예술참여)</PSubTitle>
-                                <PPhasis1>[모더레이터]</PPhasis1>
-                                <PTueCharacter2>신혜선</PTueCharacter2>
-                                <PPhasis2>[발제자]</PPhasis2>
-                                <PTueCharacter2>제환정,<br />정혜연&성효진<br />레베카 칸&푸 세이밍&<br />탄정수안, 제프 풀린</PTueCharacter2>
+                                <PTime>{p_wed3.text1}</PTime>
+                                <PTitle>{p_wed3.text2}</PTitle>
+                                <PSubTitle>{p_wed3.text3}</PSubTitle>
+                                <PPhasis1>{p_wed3.text4}</PPhasis1>
+                                <PTueCharacter2>{p_wed3.text5}</PTueCharacter2>
+                                <PPhasis2>{p_wed3.text6}</PPhasis2>
+                                <PTueCharacter2>{p_wed3.text7}</PTueCharacter2>
                                 {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PLeftArea>
                             <PRightArea>
-                                <PTime>15:10~16:40</PTime>
-                                <PTitle>세션 7</PTitle>
-                                <PSubTitle>(다양성 & 문화적 묘사)</PSubTitle>
-                                <PPhasis1>[모더레이터]</PPhasis1>
-                                <PTueCharacter2>치후 룸</PTueCharacter2>
-                                <PPhasis2>[발제자]</PPhasis2>
-                                <PTueCharacter2>루스 렌슬러,<br />심지영,<br />김유리&박소정,<br />션 코코란&벤자민 볼든</PTueCharacter2>
+                                <PTime>{p_wed4.text1}</PTime>
+                                <PTitle>{p_wed4.text2}</PTitle>
+                                <PSubTitle>{p_wed4.text3}</PSubTitle>
+                                <PPhasis1>{p_wed4.text4}</PPhasis1>
+                                <PTueCharacter2>{p_wed4.text5}</PTueCharacter2>
+                                <PPhasis2>{p_wed4.text6}</PPhasis2>
+                                <PTueCharacter2>{p_wed4.text7}</PTueCharacter2>
                                 {/* <PMove>{curlang.p_data.move}</PMove> */}
                             </PRightArea>
                     </PWedSection3>
                     <PWedSection4>
-                        <PTime>16:40~18:25</PTime>
-                        <PTitle>세션 8</PTitle>
-                        <PSubTitle>(현장사례연구 2)</PSubTitle>
-                        <PPhasis1>[모더레이터]</PPhasis1>
-                        <PTueCharacter2>홍유진</PTueCharacter2>
-                        <PPhasis2>[발제자]</PPhasis2>
-                        <PTueCharacter2>장수혜,<br />공윤지,<br />이현정<br />배성종,<br />최영희</PTueCharacter2>
+                        <PTime>{p_wed5.text1}</PTime>
+                        <PTitle>{p_wed5.text2}</PTitle>
+                        <PSubTitle>{p_wed5.text3}</PSubTitle>
+                        <PPhasis1>{p_wed5.text4}</PPhasis1>
+                        <PTueCharacter2>{p_wed5.text5}</PTueCharacter2>
+                        <PPhasis2>{p_wed5.text6}</PPhasis2>
+                        <PTueCharacter2>{p_wed5.text7}</PTueCharacter2>
                         {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection4>
                     <PWedSection5>
-                        <PTime>18:25~19:25</PTime>
-                        <PTitle>폐회 세션</PTitle>
+                        <PTime>{p_wed6.text1}</PTime>
+                        <PTitle>{p_wed6.text2}</PTitle>
                         {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PWedSection5>
                 </PSection3>
@@ -171,120 +189,138 @@ const Home_all = () => {
                 <MInner>
                     <MSection>
                         <MDayBlock>
-                            <MDayText>05.24 Mon</MDayText>
+                            <MDayText>{m_mon.text1}</MDayText>
                         </MDayBlock>
                         <MContents>
-                            <MTime>13:00~13:25</MTime>
+                            <MTime>{m_mon.text2}</MTime>
                             <MTextArea>
-                                <MTitle>오프닝 공연 / 환영사</MTitle>
+                                <MTitle>{m_mon.text3}</MTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>13:25~13:43</MTime>
+                            <MTime>{m_mon.text4}</MTime>
                             <MTextArea>
-                                <MTitle>기조발제 1 / 축사</MTitle>
+                                <MTitle>{m_mon.text5}</MTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>13:43~14:01</MTime>
+                            <MTime>{m_mon.text6}</MTime>
                             <MTextArea>
-                                <MTitle>기조발제 2 / 축사</MTitle>
+                                <MTitle>{m_mon.text7}</MTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>14:01~14:14</MTime>
+                            <MTime>{m_mon.text8}</MTime>
                             <MTextArea>
-                                <MTitle>기조발제 3 / 축사</MTitle>
+                                <MTitle>{m_mon.text9}</MTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>14:14~14:19</MTime>
+                            <MTime>{m_mon.text10}</MTime>
                             <MTextArea>
-                                <MTitle>주제영상</MTitle>
-                                <MSubTitle>(모두의 목소리)</MSubTitle>
+                                <MTitle>{m_mon.text11}</MTitle>
+                            </MTextArea>
+                        </MContents>
+                        <MContents>
+                            <MTime>{m_mon.text12}</MTime>
+                            <MTextArea>
+                                <MTitle>{m_mon.text13}</MTitle>
+                            </MTextArea>
+                        </MContents>
+                        <MContents>
+                            <MTime>{m_mon.text14}</MTime>
+                            <MTextArea>
+                                <MTitle>{m_mon.text15}</MTitle>
+                                <MSubTitle>{m_mon.text16}</MSubTitle>
+                            </MTextArea>
+                        </MContents>
+                        <MContents>
+                            <MTime>{m_mon.text17}</MTime>
+                            <MTextArea>
+                                <MTitle>{m_mon.text18}</MTitle>
                             </MTextArea>
                         </MContents>
                     </MSection>
                     <MSection>
                         <MDayBlock>
-                            <MDayText>05.25 Tue</MDayText>
+                            <MDayText>{m_tue.text1}</MDayText>
                         </MDayBlock>
                         <MContents>
-                            <MTime>13:00~13:40</MTime>
+                            <MTime>{m_tue.text2}</MTime>
                             <MTextArea>
-                                <MTitle>기조발제 1</MTitle>
-                                <MSubTitle>(문화예술교육 2.0의 다양성)</MSubTitle>
+                                <MTitle>{m_tue.text3}</MTitle>
+                                <MSubTitle>{m_tue.text4}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>13:40~15:25</MTime>
+                            <MTime>{m_tue.text5}</MTime>
                             <MTextArea>
-                                <MTitle>세션 1</MTitle>
-                                <MSubTitle>(현장사례연구 1)</MSubTitle>
+                                <MTitle>{m_tue.text6}</MTitle>
+                                <MSubTitle>{m_tue.text7}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>15:25~16:55</MTime>
+                            <MTime>{m_tue.text8}</MTime>
                             <MTextArea>
-                                <MTitle>세션 2</MTitle>
-                                <MSubTitle>(예술치유)</MSubTitle>
-                                <MTitle top="16px">세션 3</MTitle>
-                                <MSubTitle>(사회적 & 문화적 포용)</MSubTitle>
+                                <MTitle>{m_tue.text9}</MTitle>
+                                <MSubTitle>{m_tue.text10}</MSubTitle>
+                                <MTitle top="16px">{m_tue.text11}</MTitle>
+                                <MSubTitle>{m_tue.text12}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>16:55~18:10</MTime>
+                            <MTime>{m_tue.text13}</MTime>
                             <MTextArea>
-                                <MTitle>세션 4</MTitle>
-                                <MSubTitle>(서울 어젠다)</MSubTitle>
+                                <MTitle>{m_tue.text14}</MTitle>
+                                <MSubTitle>{m_tue.text15}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>18:10~19:10</MTime>
+                            <MTime>{m_tue.text16}</MTime>
                             <MTextArea>
-                                <MTitle>BYOB</MTitle>
-                                <MSubTitle>(온라인 만남의 광장)</MSubTitle>
+                                <MTitle>{m_tue.text17}</MTitle>
+                                <MSubTitle>{m_tue.text18}</MSubTitle>
                             </MTextArea>
                         </MContents>
                     </MSection>
                     <MSection>
                         <MDayBlock>
-                            <MDayText>05.26 Wed</MDayText>
+                            <MDayText>{m_wed.text1}</MDayText>
                         </MDayBlock>
                         <MContents>
-                            <MTime>13:00~13:40</MTime>
+                            <MTime>{m_wed.text2}</MTime>
                             <MTextArea>
-                                <MTitle>기조발제 2</MTitle>
-                                <MSubTitle>(문화적 회복력과 미적 회복력)</MSubTitle>
+                                <MTitle>{m_wed.text3}</MTitle>
+                                <MSubTitle>{m_wed.text4}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>13:40~15:10</MTime>
+                            <MTime>{m_wed.text5}</MTime>
                             <MTextArea>
-                                <MTitle>세션 5</MTitle>
-                                <MSubTitle>(교실 속의 예술)</MSubTitle>
+                                <MTitle>{m_wed.text6}</MTitle>
+                                <MSubTitle>{m_wed.text7}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>15:10~16:40</MTime>
+                            <MTime>{m_wed.text8}</MTime>
                             <MTextArea>
-                                <MTitle>세션 6</MTitle>
-                                <MSubTitle>(예술참여)</MSubTitle>
-                                <MTitle top="16px">세션 7</MTitle>
-                                <MSubTitle>(다양성 & 문화적 묘사)</MSubTitle>
+                                <MTitle>{m_wed.text9}</MTitle>
+                                <MSubTitle>{m_wed.text10}</MSubTitle>
+                                <MTitle top="16px">{m_wed.text11}</MTitle>
+                                <MSubTitle>{m_wed.text12}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>16:55~18:10</MTime>
+                            <MTime>{m_wed.text13}</MTime>
                             <MTextArea>
-                                <MTitle>세션 8</MTitle>
-                                <MSubTitle>(현장사례연구 2)</MSubTitle>
+                                <MTitle>{m_wed.text14}</MTitle>
+                                <MSubTitle>{m_wed.text15}</MSubTitle>
                             </MTextArea>
                         </MContents>
                         <MContents>
-                            <MTime>18:25~19:25</MTime>
+                            <MTime>{m_wed.text16}</MTime>
                             <MTextArea>
-                                <MTitle>폐회 세션</MTitle>
+                                <MTitle>{m_wed.text17}</MTitle>
                             </MTextArea>
                         </MContents>
                     </MSection>
@@ -299,7 +335,6 @@ const PWrapper = styled.div`
     border : 1px solid ${color.turtle_green};
     margin-bottom : 200px;
     display : flex;
-    
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -318,7 +353,6 @@ const PSection3 = styled.div`
     width : 400px;
     height : 2190px;
 `
-
 const PMonSection1 = styled.div`
     height : 890px;
     display : flex;
@@ -423,8 +457,6 @@ const PWedSection5 = styled.div`
     justify-content  : center;
     border-top : 1px solid ${color.turtle_green};
 `
-
-
 const PDayBlock = styled.div`
     width : 100%;
     height : 68px;
@@ -438,7 +470,6 @@ const PDayText = styled.div`
     font-weight: bold;
     color: ${color.turtle_green};
 `
-
 const PPhasis1 = styled.div`
     margin-top : ${props => props.top || '20px;'};
     font-size: 16px;
@@ -462,6 +493,7 @@ const PTueCharacter2 = styled.div`
     font-size: 16px;
     font-weight: bold;
     color: ${color.black};
+    white-space: pre-line;
     text-align : center;
 `
 const PTime = styled.div`
@@ -483,6 +515,7 @@ const PTime = styled.div`
 const PSubTitle = styled.div`
     font-size: 18px;
     text-align : center;
+    white-space : pre-line;
     color: ${color.black};
 `
 const PMove = styled.div`
@@ -502,13 +535,11 @@ const PTitle = styled.div`
 `
 
 
-
 // Mobile
 const MWrapper = styled.div`
     width : auto;
     display : flex;
     justify-content : center;
-
     @media all and (min-width:1200px) {
         display : none;
     }
@@ -545,23 +576,21 @@ const MTime = styled.div`
     /* background-color : red; */
 `
 const MTextArea = styled.div`
-cursor: pointer;
+    width : 225px;
 `
-
 const MTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
     color: ${color.black};
-    margin-top : ${props => props.top || '0px'}
+    white-space : pre-line;
+    margin-top : ${props => props.top || '0px'};
 `
 const MSubTitle = styled.div`
     margin-top : 4px;
     font-size: 14px;
     font-weight: 500;
+    white-space : pre-line;
     color: ${color.turtle_green};
 `
-
-
-
 
 export default Home_all

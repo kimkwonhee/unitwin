@@ -36,6 +36,7 @@ const PageTopArea = ({
                 </PContentsArea>
             </PTopArea>
 
+
             {/* mobile */}
             <MTopArea className={className} top={top} >
                 <MTopTitleArea>
@@ -79,18 +80,19 @@ const PContentsArea = styled.div`
 const PTopContents = styled.div`
     font-size: ${props=> props.subfontsize || '16px'};
     font-weight: 500;
+    line-height: 1.5;
     white-space: pre-line;
     color: ${color.black};
 `
 const PSubContents = styled.div`
     margin-top : 40px;
     font-size: 16px;
+    line-height: 1.5;
     white-space: pre-line;
     color: ${color.black};
 `
 const PUnitwinbtn = styled(Unitwinbtn)`
     margin-top : 40px;
-    
 `
 
 
