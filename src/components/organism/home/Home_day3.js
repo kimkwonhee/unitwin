@@ -433,7 +433,7 @@ const Home_day3 = () => {
                             <MRight>
                                 <MRightInner>
                                     <MRightSection>
-                                        <MRightTitle>{m_detaildata.session5.text3}</MRightTitle>
+                                        <MRightTitle>{m_detaildata.session6.text3}</MRightTitle>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>

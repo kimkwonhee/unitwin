@@ -86,7 +86,7 @@ const _Session = () => {
                     />
                     <MSection>
                         {m_selList.map((list, index) => {
-                            return <MLink to={''} key={`${list.id}_link`}>
+                            return <MLink key={`${list.id}_link`}>
                                      <MList 
                                         key={list.id} 
                                         src={list.img} 
@@ -181,7 +181,7 @@ const MSection = styled.div`
     padding : 0 20px 0 20px;
 
 `
-const MLink = styled(Link)`
+const MLink = styled.div`
     display: inline-block;
     width: calc(50% - 29px);
     text-decoration : none;

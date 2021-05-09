@@ -293,8 +293,8 @@ const DrawerHeader = styled.div`
   padding: 0 16px;
 `
 const MtitleImg = styled.img`
-    width : ${props => props.langstate =='kr' ? '270px' : '366px' };
-    height : ${props => props.langstate =='kr' ? '124px' : '57px' };
+    width : ${props => props.langstate =='kr' ? '270px' : 'auto' };
+    height : ${props => props.langstate =='kr' ? '124px' : 'auto' };
 `
 const MCalender = styled.div`
     padding : 20px 0 30px 0;

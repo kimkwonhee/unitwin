@@ -1,4 +1,6 @@
 import home_title from '../images/home_title_en.png'
+import home_title_mo from '../images/moen_home_title.png'
+
 import plogo1 from '../images/footer_logo1.png'
 import plogo2 from '../images/footer_logo2.png'
 import mlogo1 from '../images/mobile_cop_logo1.png'
@@ -1870,7 +1872,7 @@ export const langen = {
         lecture : '강연설명',
         classdownload : '강의자료 다운로드',
         zoom : 'ZOOM으로 참여하기',
-        unithomebtn : 'Go to UNITWIN Official Webpage',
+        unithomebtn : 'Go to UNITWIN Official Webpage >',
 
         // 메뉴바
         menuber : {
@@ -1883,7 +1885,7 @@ export const langen = {
         },
 
         home_top : {
-            img : home_title,
+            img : home_title_mo,
             title : 'About',
             time : '24~26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
@@ -1974,10 +1976,10 @@ export const langen = {
                 text2 : '13:00~13:15',
                 text3 : '<Body-Go-Round>',
                 text4 : 'Cha jinyeob',
-                text5 : '- Director, collective A,\nRepublic of Korea',
+                text5 : '- Director, collective A, Republic of Korea',
             },
             session2 : {
-                text1 : 'Welcome Speech',
+                text1 : 'Welcome\nSpeech',
                 text2 : '13:15~13:25',
                 text3 : '',
                 text4 : '',
@@ -2176,7 +2178,7 @@ export const langen = {
             link : '',
             video_text : '',
             session1 : {
-                text1 : 'Plenary Session 2',
+                text1 : 'Plenary\nSession 2',
                 text2 : '13:00 ~ 13:40',
                 text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 text4 : 'Benjamin Jörissen',
@@ -2274,7 +2276,7 @@ export const langen = {
             },
             session5 : {
                 text1 : 'Session 8',
-                text2 : 'Arts and Education in the Field 2',
+                text2 : 'Arts and Education\nin the Field 2',
                 text3 : '16:40~18:25',
                 text4 : 'Opportunities and Challenges for Social Arts and Cultural Education during Pandemic with a Focus on the Class Planning Process',
                 text5 : 'Soohye Jang',
