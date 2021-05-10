@@ -5,7 +5,20 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "redirects": [ {
+      "source": "/",
+      "destination": "/unitwin/home",
+      "type": 301
+    } ],
+    "rewrites": [ {
+      "source": "**/!(*.css|*.js|*.map|*.jpg|*.gif|*.png|*.php)",
+      "destination": "/index.html"
+    }, {
+      "source": "/unitwin/**/!(*.css|*.js|*.map|*.jpg|*.gif|*.png|*.php)",
+      "destination": "/index.html",
+      "dynamicLinks": true
+    } ]
   },
   "emulators": {
     "hosting": {
