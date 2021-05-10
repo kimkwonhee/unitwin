@@ -15,7 +15,7 @@ import Se_Detail from './components/organism/session/Se_Detail'
 import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 import 'antd/dist/antd.css'
 import { useSelector } from 'react-redux'
-
+import env from './modules/env'
 
 const Globalstyles = createGlobalStyle`
 
@@ -41,21 +41,23 @@ const App = () => {
     langen : state.changlang.langen
   }))
 
+  console.log(env);
+
   return (
     <Wrapper>
       <Globalstyles />
       <Menubar curlang={curlang} langkr={langkr} langen={langen}/>
       <Switch>
-        <Route path="/2021/unitwin2021/" component={_Root} exact/>
-        <Route path="/2021/unitwin2021/home" component={_Home} exact/>
-        <Route path="/2021/unitwin2021/plenary-session/:detail" component={Pl_Detail}/>
-        <Route path="/2021/unitwin2021/plenary-session" component={_PlenarySession}/>
-        <Route path="/2021/unitwin2021/session/:se_detail" component={Se_Detail}/>
-        <Route path="/2021/unitwin2021/session" component={_Session}/>
-        <Route path="/2021/unitwin2021/presession-showcase/:pr_detail" component={Pr_Detail}/>
-        <Route path="/2021/unitwin2021/presession-showcase" component={_PreShowcase}/>
-        <Route path="/2021/unitwin2021/byob" component={_Byob}/>
-        <Route path="/2021/unitwin2021/closing-ceremony" component={_Closing}/>
+        <Route path={env.path} component={_Root} exact/>
+        <Route path={env.path+'/home'} component={_Home} exact/>
+        <Route path={env.path+'/plenary-session/:detail'} component={Pl_Detail}/>
+        <Route path={env.path+'/plenary-session'} component={_PlenarySession}/>
+        <Route path={env.path+'/session/:se_detail'} component={Se_Detail}/>
+        <Route path={env.path+'/session'} component={_Session}/>
+        <Route path={env.path+'/presession-showcase/:pr_detail'} component={Pr_Detail}/>
+        <Route path={env.path+'/presession-showcase'} component={_PreShowcase}/>
+        <Route path={env.path+'/byob'} component={_Byob}/>
+        <Route path={env.path+'/closing-ceremony'} component={_Closing}/>
       </Switch>
       <Footer curlang={curlang} langkr={langkr} langen={langen}/>
     </Wrapper>

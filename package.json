@@ -1,7 +1,7 @@
 {
   "name": "artweek",
   "version": "0.1.0",
-  "homepage": "/2021/unitwin2021/",
+  "homepage": "/unitwin/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

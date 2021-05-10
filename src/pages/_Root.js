@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
+import env from '../modules/env'
 
 const _Root = () => {
     useEffect(() => {
-        window.location.href = '/2021/unitwin2021/home'
+        console.log(env.path)
+        window.location.href = env.path+'/home'
     }, [])
 
     return (
