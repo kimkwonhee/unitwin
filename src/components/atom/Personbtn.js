@@ -19,7 +19,8 @@ const Personbtn = ({className, src, name, title}) => {
                     <PPrsImg 
                     onMouseEnter={(e) => setHovered(true)}
                     onMouseLeave={(e) => setHovered(false)}
-                    title={title}>
+                    title={title}
+                    onClick={e=> alert('준비중입니다.')}>
                         <PWHover src={src} alt={name}>
                             <Fade 
                             duration={1000}
@@ -39,7 +40,7 @@ const Personbtn = ({className, src, name, title}) => {
             
             {/* mobile */}
             <MWrapper className={className}>
-                <MPrsImg src={src} alt={name} title={title}/>
+                <MPrsImg src={src} alt={name} title={title} onClick={e=> alert('준비중입니다.')}/>
                 {/* <MTextArea> */}
                     <MName>{name}</MName>
                     <MTitle>{title}</MTitle>
