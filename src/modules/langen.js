@@ -53,6 +53,8 @@ import session_img_37 from '../images/session_44.png'
 import session_img_38 from '../images/session_45.png'
 import session_img_39 from '../images/session_46.png'
 import session_img_40 from '../images/session_47.png'
+import session_img_41 from '../images/session_48.png'
+import session_img_42 from '../images/session_49.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -712,7 +714,7 @@ export const langen = {
                     { id : 8, img : session_img_08, name : 'MC Bettman' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 9, img : session_img_09, name : 'Chaeyeon Kim' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 10, img : session_img_11, name : 'Tei Kim ' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
-                    { id : 11, img : session_img_10, name : 'Charlene Rajendran' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
+                    { id : 11, img : session_img_42, name : 'Charlene Rajendran' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 12, img : session_img_13, name : 'Nan Zhang' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 13, img : session_img_14, name : 'Yaara Docrat' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 14, img : session_img_15, name : 'Benjamin Bolden' , title : "Seoul Agenda", link : "/2021/unitwin2021/session/4", catagory : 'Sustainability'},
@@ -730,7 +732,7 @@ export const langen = {
                     { id : 26, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 27, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 28, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 29, img : session_img_10, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 29, img : session_img_41, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 30, img : session_img_29, name : 'Foo Say Ming' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 31, img : session_img_30, name : 'Tan Jeng Suan' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 32, img : session_img_10, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
@@ -952,7 +954,7 @@ export const langen = {
                         li_title : "차이의 세계에서 성장하기: 싱가포르 다양성 속에서 살아가는 이야기",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_42,
                                 name : '샤를린 라헨드란 ',
                                 enname : '(Charlene Rajendran)',
                                 job : '- 난양공과대학 조교수, 싱가포르',
@@ -1240,7 +1242,7 @@ export const langen = {
                         li_title : "서비스 학습의 네러티브: 난양 미술 아카데미 사례 연구",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_41,
                                 name : '레베카 칸 ',
                                 enname : '(Rebecca Kan)',
                                 job : '- 난양아카데미 부총장, 싱가포르',
@@ -2403,7 +2405,7 @@ export const langen = {
             },
             {
                 item : [
-                    { id : 1, img : session_img_01, name : 'YongSung Jung' , title : "Arts and Education\nin the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
+                    { id : 1, img : session_img_01, name : 'YongSung Jung' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
                     { id : 2, img : session_img_02, name : 'Eunsu Lee' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
                     { id : 3, img : session_img_03, name : 'Sowon Kim' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
                     { id : 4, img : session_img_04, name : 'Su-youn Kim' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
@@ -2413,7 +2415,7 @@ export const langen = {
                     { id : 8, img : session_img_08, name : 'MC Bettman' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 9, img : session_img_09, name : 'Chaeyeon Kim' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 10, img : session_img_11, name : 'Tei Kim ' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
-                    { id : 11, img : session_img_10, name : 'Charlene Rajendran' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
+                    { id : 11, img : session_img_42, name : 'Charlene Rajendran' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 12, img : session_img_13, name : 'Nan Zhang' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 13, img : session_img_14, name : 'Yaara Docrat' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 14, img : session_img_15, name : 'Benjamin Bolden' , title : "Seoul Agenda", link : "/2021/unitwin2021/session/4", catagory : 'Sustainability'},
@@ -2431,7 +2433,7 @@ export const langen = {
                     { id : 26, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 27, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 28, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 29, img : session_img_10, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 29, img : session_img_41, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 30, img : session_img_29, name : 'Foo Say Ming' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 31, img : session_img_30, name : 'Tan Jeng Suan' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
                     { id : 32, img : session_img_10, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/2021/unitwin2021/session/6", catagory : 'Art'},
@@ -2654,7 +2656,7 @@ export const langen = {
                         li_title : "차이의 세계에서 성장하기: 싱가포르 다양성 속에서 살아가는 이야기",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_42,
                                 name : '샤를린 라헨드란 ',
                                 enname : '(Charlene Rajendran)',
                                 job : '- 난양공과대학 조교수, 싱가포르',
@@ -2942,7 +2944,7 @@ export const langen = {
                         li_title : "서비스 학습의 네러티브: 난양 미술 아카데미 사례 연구",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_41,
                                 name : '레베카 칸 ',
                                 enname : '(Rebecca Kan)',
                                 job : '- 난양아카데미 부총장, 싱가포르',

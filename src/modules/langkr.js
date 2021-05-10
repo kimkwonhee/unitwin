@@ -51,6 +51,8 @@ import session_img_37 from '../images/session_44.png'
 import session_img_38 from '../images/session_45.png'
 import session_img_39 from '../images/session_46.png'
 import session_img_40 from '../images/session_47.png'
+import session_img_41 from '../images/session_48.png'
+import session_img_42 from '../images/session_49.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -718,7 +720,7 @@ export const langkr = {
                     { id : 8, img : session_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/2021/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 9, img : session_img_09, name : '김채연' , title : "예술 치유", link : "/2021/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 10, img : session_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 11, img : session_img_10, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 11, img : session_img_42, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 12, img : session_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
@@ -736,7 +738,7 @@ export const langkr = {
                     { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 29, img : session_img_10, name : '레베칸 칸' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 29, img : session_img_41, name : '레베칸 칸' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 30, img : session_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 31, img : session_img_30, name : '탄정수안' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
@@ -958,7 +960,7 @@ export const langkr = {
                         li_title : "차이의 세계에서 성장하기: 싱가포르 다양성 속에서 살아가는 이야기",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_42,
                                 name : '샤를린 라헨드란 ',
                                 enname : '(Charlene Rajendran)',
                                 job : '- 난양공과대학 조교수, 싱가포르',
@@ -1246,7 +1248,7 @@ export const langkr = {
                         li_title : "서비스 학습의 네러티브: 난양 미술 아카데미 사례 연구",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_41,
                                 name : '레베카 칸 ',
                                 enname : '(Rebecca Kan)',
                                 job : '- 난양아카데미 부총장, 싱가포르',
@@ -2420,7 +2422,7 @@ export const langkr = {
                     { id : 8, img : session_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/2021/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 9, img : session_img_09, name : '김채연' , title : "예술 치유", link : "/2021/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 10, img : session_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 11, img : session_img_10, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 11, img : session_img_42, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 12, img : session_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
@@ -2438,7 +2440,7 @@ export const langkr = {
                     { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 29, img : session_img_10, name : '레베칸 칸' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 29, img : session_img_41, name : '레베칸 칸' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 30, img : session_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 31, img : session_img_30, name : '탄정수안' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/2021/unitwin2021/session/6", catagory : '예술교육가'},
@@ -2661,7 +2663,7 @@ export const langkr = {
                         li_title : "차이의 세계에서 성장하기: 싱가포르 다양성 속에서 살아가는 이야기",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_42,
                                 name : '샤를린 라헨드란 ',
                                 enname : '(Charlene Rajendran)',
                                 job : '- 난양공과대학 조교수, 싱가포르',
@@ -2949,7 +2951,7 @@ export const langkr = {
                         li_title : "서비스 학습의 네러티브: 난양 미술 아카데미 사례 연구",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_41,
                                 name : '레베카 칸 ',
                                 enname : '(Rebecca Kan)',
                                 job : '- 난양아카데미 부총장, 싱가포르',

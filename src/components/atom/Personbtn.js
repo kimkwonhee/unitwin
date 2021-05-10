@@ -16,27 +16,24 @@ const Personbtn = ({className, src, name, title}) => {
         <>
             {/* Pc */}
             <PWrapper className={className}>
-                <PPrsImg 
-                onMouseEnter={(e) => setHovered(true)}
-                onMouseLeave={(e) => setHovered(false)}
-                src={src} alt={name} title={title}>
-                    <PWHover>
-                        <Fade 
-                        duration={1000}
-                        distance={'50%'}
-                        bottom 
-                        when={hovered}>
-                            <PWTitle>
-                                <PWLine></PWLine>
-                                <PWTitleTxt>{title}</PWTitleTxt>
-                                <PWLinkTxt>{curlang.p_data.videobtn}</PWLinkTxt>
-                            </PWTitle>
-                        </Fade>
-                        
-                    </PWHover>
-                </PPrsImg>
+                    <PPrsImg 
+                    onMouseEnter={(e) => setHovered(true)}
+                    onMouseLeave={(e) => setHovered(false)}
+                    title={title}>
+                        <PWHover src={src} alt={name}>
+                            <Fade 
+                            duration={1000}
+                            distance={'50%'}
+                            when={hovered}>
+                                <PWTitle>
+                                    <PWTitleTxt>{title}</PWTitleTxt>
+                                    <PWLinkTxt>{curlang.p_data.videobtn}</PWLinkTxt>
+                                </PWTitle>
+                            </Fade>
+                            
+                        </PWHover>
+                    </PPrsImg>
                 <PName>{name}</PName>
-                
             </PWrapper>   
             
             
@@ -67,45 +64,44 @@ const PWrapper = styled.div`
 const PWHover = styled.div`
     width: 300px;
     height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: solid 3px transparent;
-    border-radius: 150px;
     overflow: hidden;
     transition: .6s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image : url(${props => props.src});
     &:hover {
-        border: solid 3px ${color.turtle_green};
-        
+        transform:scale(1.1);
     }
 `
 
 const PWTitle = styled.div`
     width: 300px;
     height: 300px;
-    background: linear-gradient(0deg, rgba(57,57,57,0.80) 30%, rgba(255,255,255,0) 30%);    
+    background-color: rgba(0,0,0,0.50);
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     position: relative;
 `
 
 const PWTitleTxt = styled.p`
+    width : 240px;
     font-size: 20px;
     font-weight: bold;
     color: ${color.white};
-    white-space : pre-line;
     text-align : center;
     line-height : 1.5;
     margin-bottom: 0;
+    word-break : keep-all;
 `
 
 const PWLinkTxt = styled.p`
-    margin-bottom: 18px;
     margin-top: 6px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom : 0px;
     color: ${color.white};
 `
 
@@ -117,16 +113,21 @@ const PWLine = styled.div`
     bottom: 30%;
     left: 0;
 `
+const PImgoverflow = styled.div`
+`
+
 const PPrsImg = styled.div`
-    position: relative;
-    cursor: pointer;
     width : 300px;
     height : 300px;
-    border-radius : 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image : url(${props => props.src});
+    position: relative;
+    cursor: pointer;
+    border-radius :150px;
+    border: solid 3px transparent;
+    overflow : hidden;
+    transition: .6s;
+    &:hover {
+        /* border: solid 3px rgba(0,0,0,0.50); */
+    }
 `
 const PName = styled.div`
     margin-top : 20px;
@@ -158,6 +159,7 @@ const MName = styled.div`
     font-weight: bold;
     color: ${color.black};
     text-align: center;
+    word-break : keep-all;
 `
 const MTitle = styled.div`
     margin : 2px 0 8px;

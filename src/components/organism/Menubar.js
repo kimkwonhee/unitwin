@@ -63,7 +63,7 @@ const Menubar = withRouter(({ className, curlang }) => {
                         <PLogoImg src={p_menulogo} alt="logo" />
                     </PLinkTag>
                     <PMenuArea>
-                        <Menubtn id="1" link={'http://www.arteweek.kr/2021/views/opening.php'}>
+                        <Menubtn id="1" movelink={'http://www.arteweek.kr/2021/views/opening.php'}>
                             {p_detaildata.text1}
                         </Menubtn>
                         <PLinkTag to="/2021/unitwin2021/plenary-session">    
