@@ -148,6 +148,7 @@ const MWrapper = styled.div`
     }
 `
 const MInner = styled.div`
+    width : 100%;
     display : flex;
     flex-direction : column;
     align-items :center;
@@ -165,7 +166,7 @@ const MTitle = styled.div`
     text-align : center;
     white-space: pre-line;
     color: ${color.black};
-    line-height: 1.5
+    line-height: 1.5;
 `
 const MTime = styled.div`
     margin-top : 8px;
@@ -190,9 +191,10 @@ const MJop = styled.div`
     color: ${color.black};
     white-space: pre-line;
     text-align : center;
-    line-height: 1.5
+    line-height: 1.5;
 `
 const MDiscription = styled.div`
+    width: 100%;
     font-size: 12px;
     line-height: 1.5;
     text-align : center;
