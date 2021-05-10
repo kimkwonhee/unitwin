@@ -2410,7 +2410,29 @@ export const langkr = {
             {
                 title : '강연자 소개',
                 contents : '',
-                keyword : '키워드'
+                keyword : '키워드',
+                catagory1 : {
+                    text1 : '전체',
+                    text2 : '팬데믹',
+                    text3 : '청소년정신건강',
+                    text4 : '글로벌',
+                    text5 : '지속가능성',
+                    text6 : '다양성포용',
+                    text7 : '예술교육가',
+                    text8 : '평등',
+                    text9 : '사회적예술',
+                },
+                catagory2 : {
+                    text1 : '전체',
+                    text2 : '팬데믹 / 지속가능예술 / 온라인워크숍',
+                    text3 : '청소년정신건강 / 연극교육 / 심리',
+                    text4 : '글로벌 / 다양성 / 존중',
+                    text5 : '지속가능성 / 환경 / 국제적',
+                    text6 : '다양성포용 / 복원 / 성찰 / 디지털',
+                    text7 : '예술교육가 / 온라인관람 / 창의세대',
+                    text8 : '평등 / LGBTQ / 공존',
+                    text9 : '사회적예술 / 뉴노멀 / 과도기',
+                }
             },
             {
                 item : [

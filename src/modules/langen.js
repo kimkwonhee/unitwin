@@ -679,7 +679,7 @@ export const langen = {
             {
                 title : 'Presenter',
                 contents : '',
-                keyword : 'Key Word',
+                keyword : '',
                 catagory1 : {
                     text1 : 'All',
                     text2 : 'Pandemic',
@@ -2402,7 +2402,29 @@ export const langen = {
             {
                 title : 'Presenter',
                 contents : '',
-                keyword : 'Key Word'
+                keyword : 'Key Word',
+                catagory1 : {
+                    text1 : 'All',
+                    text2 : 'Pandemic',
+                    text3 : 'mental',
+                    text4 : 'Global',
+                    text5 : 'Sustainability',
+                    text6 : 'Diversity',
+                    text7 : 'Art',
+                    text8 : 'Equality',
+                    text9 : 'Social',
+                },
+                catagory2 : {
+                    text1 : 'All',
+                    text2 : 'Pandemic / Sustainable Arts / Online Workshop',
+                    text3 : 'mental health for youth / Theatre education / psychology',
+                    text4 : 'Global / Diversity / Respect',
+                    text5 : 'Sustainability / Environment / International',
+                    text6 : 'Diversity inclusion / Restoration / Reflection / Digital',
+                    text7 : 'Art educator / Online viewing / Creative generation',
+                    text8 : 'Equality / LGBTQ / Coexistence',
+                    text9 : 'Social Art / New normal / Transition period',
+                }
             },
             {
                 item : [
@@ -2411,15 +2433,15 @@ export const langen = {
                     { id : 3, img : session_img_03, name : 'Sowon Kim' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
                     { id : 4, img : session_img_04, name : 'Su-youn Kim' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
                     { id : 5, img : session_img_05, name : 'Boram Lee ' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
-                    { id : 6, img : session_img_06, name : 'Tiina Kukkonen' , title : "Arts for Healing" , link : "/2021/unitwin2021/session/2", catagory : 'mental'},
+                    { id : 6, img : session_img_06, name : 'Tiina Kukkonen' , title : "Arts for Healing\n\n" , link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 7, img : session_img_07, name : 'Sanja Krsmanović Tasić' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
-                    { id : 8, img : session_img_08, name : 'MC Bettman' , title : "Arts for Healing\n\xa0", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
-                    { id : 9, img : session_img_09, name : 'Chaeyeon Kim' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
+                    { id : 8, img : session_img_08, name : 'MC Bettman' , title : "Arts for Healing\n\n", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
+                    { id : 9, img : session_img_09, name : 'Chaeyeon Kim' , title : "Arts for Healing\n\n", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 10, img : session_img_11, name : 'Tei Kim ' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 11, img : session_img_42, name : 'Charlene Rajendran' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 12, img : session_img_13, name : 'Nan Zhang' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 13, img : session_img_14, name : 'Yaara Docrat' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
-                    { id : 14, img : session_img_15, name : 'Benjamin Bolden' , title : "Seoul Agenda", link : "/2021/unitwin2021/session/4", catagory : 'Sustainability'},
+                    { id : 14, img : session_img_15, name : 'Benjamin Bolden' , title : "Seoul Agenda\n\n", link : "/2021/unitwin2021/session/4", catagory : 'Sustainability'},
                     { id : 15, img : session_img_16, name : 'Neryl Jeanneret' , title : "Seoul Agenda", link : "/2021/unitwin2021/session/4", catagory : 'Sustainability'},
                     { id : 16, img : session_img_17, name : 'Chee-Hoo Lum' , title : "Seoul Agenda", link : "/2021/unitwin2021/session/4", catagory : 'Sustainability'},
                     { id : 17, img : session_img_18, name : 'Zen Teh' , title : "Seoul Agenda", link : "/2021/unitwin2021/session/4", catagory : 'Sustainability'},
@@ -3559,16 +3581,16 @@ export const langen = {
 
         
         footer : {
-            ftaddress : 'World Culture and Arts Education Week Operation Secretariat Frum A Co., Ltd. (105-87-52236)\n30-5, Seongmisan-ro 23-gil, Mapo-gu, Seoul',
-            fttel : 'Representative Phone | 02-733-1399',
-            activetime : 'Operating hours | Mon-Fri 10:00-19:00 (Closed on weekends and holidays)',
-            ftlogo_1 : mlogo1,
+            ftaddress : 'The 4th UNESCO-UNITWIN SYMPOSIUM Facilitation Team / unitwin2021@gmail.com',
+            fttel : '',
+            activetime : '',
+            ftlogo_1 : plogo1,
             ftlogo_1_alt : '문화체육관광부',
-            ftlogo_2 : mlogo2,
+            ftlogo_2 : plogo2,
             ftlogo_2_alt : '한국문화예술교육진흥원',
-            ftpolicy : 'Privacy Policy',
-            ftcopyright : 'ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.',
+            ftpolicy : '',
+            ftcopyright : 'Copyright ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.',
             link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304'
-        }
+        },
     }
 }
