@@ -48,12 +48,12 @@ const Home_all = () => {
                             <PTitle>{p_mon1.title4}</PTitle>
                             <PTime>{p_mon1.time5}</PTime>
                             <PTitle>{p_mon1.title5}</PTitle>
-                            <PTime>{p_mon1.time5}</PTime>
+                            <PTime>{p_mon1.time6}</PTime>
                             <PTitle>{p_mon1.title6}</PTitle>
-                            <PTime>{p_mon1.time5}</PTime>
+                            <PTime>{p_mon1.time7}</PTime>
                             <PTitle>{p_mon1.title7}</PTitle>
                             <PSubTitle>{p_mon1.title8}</PSubTitle>
-                            <PTime>{p_mon1.time5}</PTime>
+                            <PTime>{p_mon1.time8}</PTime>
                             <PTitle>{p_mon1.title9}</PTitle>
                             {/* <PMove>{curlang.p_data.move}</PMove> */}
                     </PMonSection1>
@@ -499,7 +499,7 @@ const PTueCharacter2 = styled.div`
 const PTime = styled.div`
     font-size: 16px;
     font-weight: 500;
-    color: ${color.brown_grey};
+    color: ${color.brownish_grey};
     margin-top : none;
     
     &:nth-child(3),

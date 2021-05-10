@@ -97,6 +97,7 @@ const PTitle = styled.div`
     font-size: 20px;
     font-weight: bold;
     margin-bottom : 8px;
+    white-space : pre-line;
     color: ${color.black};
 `
 const PTime = styled.div`
@@ -129,6 +130,7 @@ const PDiscription = styled.div`
     margin-top :15px;
     font-size: 14px;
     font-weight: 400;
+    white-space : pre-line;
     color: ${color.black};
 `
 
