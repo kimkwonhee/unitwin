@@ -150,6 +150,7 @@ export const langkr = {
                     text4 : '언스트 바그너',
                     text5 : '[모더레이터]',
                     text6 : '치후 룸',
+                    link : '/unitwin2021/plenary-session/1'
                 },
                 tue2 : {
                     text1 : '13:40~15:25',
@@ -158,7 +159,8 @@ export const langkr = {
                     text4 : '',
                     text5 : '',
                     text6 : '[발제자]',
-                    text7 : '정용성, 이은수\n김소원, 김수연,\n이보람',
+                    text7 : '정용성, 이은수,\n김소원, 김수연,\n이보람',
+                    link : '/unitwin2021/session/1'
                 },
                 tue3 : {
                     text1 : '15:25~16:55',
@@ -168,6 +170,7 @@ export const langkr = {
                     text5 : '글로리아 자파타',
                     text6 : '[발제자]',
                     text7 : '티나 쿠코,\n산자 크르스마노비츠 타식,\n엠시 베트만,\n김채연',
+                    link : '/unitwin2021/session/2'
                 },
                 tue4 : {
                     text1 : '15:25~16:55',
@@ -177,6 +180,7 @@ export const langkr = {
                     text5 : '네릴 제너렛',
                     text6 : '[발제자]',
                     text7 : '김태희,\n샤를린 라헨드란,\n난장,\n야라 도크랏',
+                    link : '/unitwin2021/session/3'
                 },
                 tue5 : {
                     text1 : '16:55~18:10',
@@ -185,12 +189,14 @@ export const langkr = {
                     text4 : '[모더레이터]',
                     text5 : '김인설',
                     text6 : '[발제자]',
-                    text7 : '벤 볼든&네릴 제너렛\n치후 룸&젠 터\n캐서린 콜만&마크 셀크릭&에비 맥도날드',
+                    text7 : '벤 볼든&네릴 제너렛,\n치후 룸&젠 터,\n캐서린 콜만&마크 셀크릭&에비 맥도날드',
+                    link : '/unitwin2021/session/4'
                 },
                 tue6 : {
                     text1 : '18:10~19:10',
                     text2 : 'BYOB',
-                    text3 : '(온라인 만남의 광장)'
+                    text3 : '(온라인 만남의 광장)',
+                    link : '/unitwin2021/byob'
                 }
             },
             session3 : {
@@ -202,6 +208,7 @@ export const langkr = {
                     text4 : '벤야민 요리슨',
                     text5 : '[모더레이터]',
                     text6 : '탄야 클레페키',
+                    link : '/unitwin2021/plenary-session/2'
                 },
                 wed2 : {
                     text1 : '13:40~15:10',
@@ -211,6 +218,7 @@ export const langkr = {
                     text5 : '벤자민 볼든',
                     text6 : '[발제자]',
                     text7 : '마리 클레어 키덴다,\n에밀리 맥밀런, 홍지혜,\n에밀리 윌슨&네릴 제너렛',
+                    link : '/unitwin2021/session/5'
                 },
                 wed3 : {
                     text1 : '15:10~16:40',
@@ -219,7 +227,8 @@ export const langkr = {
                     text4 : '[모더레이터]',
                     text5 : '신혜선',
                     text6 : '[발제자]',
-                    text7 : '제환정,\n정혜연&성효진\n레베카 칸&푸 세이밍&\n탄정수안, 제프 풀린',
+                    text7 : '제환정,\n정혜연&성효진,\n레베카 칸&푸 세이밍&\n탄정수안, 제프 풀린',
+                    link : '/unitwin2021/session/6'
                 },
                 wed4 : {
                     text1 : '15:10~16:40',
@@ -229,6 +238,7 @@ export const langkr = {
                     text5 : '치후 룸',
                     text6 : '[발제자]',
                     text7 : '루스 렌슬러,\n심지영,\n김유리&박소정,\n션 코코란&벤자민 볼든',
+                    link : '/unitwin2021/session/7'
                 },
                 wed5 : {
                     text1 : '16:40~18:25',
@@ -238,10 +248,12 @@ export const langkr = {
                     text5 : '홍유진',
                     text6 : '[발제자]',
                     text7 : '장수혜,\n공윤지,\n이현정,\n배성종,\n최영희',
+                    link : '/unitwin2021/session/8'
                 },
                 wed6 : {
                     text1 : '18:25~19:25',
                     text2 : '폐회 세션',
+                    link : '/unitwin2021/closing-ceremony'
                 },
             }
         },

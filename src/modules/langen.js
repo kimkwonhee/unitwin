@@ -85,7 +85,7 @@ export const langen = {
         classdownload : '강의자료 다운로드',
         zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage',
-        move : 'link > ',
+        move : 'Link > ',
 
         // 메뉴 바
         menuber : {
@@ -149,6 +149,7 @@ export const langen = {
                     text4 : 'Ernst Wagner',
                     text5 : '[Moderator]',
                     text6 : 'Chee-Hoo Lum',
+                    link : '/unitwin2021/plenary-session/1'
                 },
                 tue2 : {
                     text1 : '13:40~15:25',
@@ -158,6 +159,7 @@ export const langen = {
                     text5 : '',
                     text6 : '[Presenter]',
                     text7 : 'Jung YongSung, Lee Eunsu,\nKim Sowon, Kim Su-youn,\nLee Boram',
+                    link : '/unitwin2021/session/1'
                 },
                 tue3 : {
                     text1 : '15:25~16:55',
@@ -167,6 +169,7 @@ export const langen = {
                     text5 : 'Gloria P. Zapata',
                     text6 : '[Presenter]',
                     text7 : 'Tiina Kukkonen,\nSanja Krsmanović Tasić,\nMC Bettman,\nKim Chaeyeon',
+                    link : '/unitwin2021/session/2'
                 },
                 tue4 : {
                     text1 : '15:25~16:55',
@@ -176,6 +179,7 @@ export const langen = {
                     text5 : 'Neryl Jeanneret',
                     text6 : '[Presenter]',
                     text7 : 'Kim Tei,\nCharlene Rajendran,\nNan Zhang,\nYaara Docrat',
+                    link : '/unitwin2021/session/3'
                 },
                 tue5 : {
                     text1 : '16:55~18:10',
@@ -185,11 +189,13 @@ export const langen = {
                     text5 : 'Kim InSul',
                     text6 : '[Presenter]',
                     text7 : 'Benjamin Bolden&Neryl Jeanneret,\nChee-Hoo Lum&Zen Teh,\nKathryn Coleman&Mark Selkrig&Abbey MacDonald',
+                    link : '/unitwin2021/session/4'
                 },
                 tue6 : {
                     text1 : '18:10~19:10',
                     text2 : 'BYOB',
-                    text3 : '(Bring Your Own Bottle)'
+                    text3 : '(Bring Your Own Bottle)',
+                    link : '/unitwin2021/byob'
                 }
             },
             session3 : {
@@ -201,6 +207,7 @@ export const langen = {
                     text4 : 'Benjamin Jörissen',
                     text5 : '[Moderator]',
                     text6 : 'Tanja Klepacki',
+                    link : '/unitwin2021/plenary-session/2'
                 },
                 wed2 : {
                     text1 : '13:40~15:10',
@@ -210,6 +217,7 @@ export const langen = {
                     text5 : 'Benjamin Bolden',
                     text6 : '[Presenter]',
                     text7 : 'Mary Clare Kidenda,\nEmily MacMillan,\nHong-Park Jihea,\nEmily Wilson&Neryl Jeanneret',
+                    link : '/unitwin2021/session/5'
                 },
                 wed3 : {
                     text1 : '15:10~16:40',
@@ -219,6 +227,7 @@ export const langen = {
                     text5 : 'Shin Hyesun',
                     text6 : '[Presenter]',
                     text7 : 'Jae Hwan Jung,\nChung Hyeyoun&\nSung Hyojin,\nRebecca Kan&Foo Say Ming&Tan Jeng Suan,\nJeff Poulin',
+                    link : '/unitwin2021/session/6'
                 },
                 wed4 : {
                     text1 : '15:10~16:40',
@@ -228,6 +237,7 @@ export const langen = {
                     text5 : 'Chee-Hoo Lum',
                     text6 : '[Presenter]',
                     text7 : 'Ruth Rentschler,\nShim Ji-young,\nKim Yuri&Park Sojung,\nSean Corcoran&Benjamin Bolden',
+                    link : '/unitwin2021/session/7'
                 },
                 wed5 : {
                     text1 : '16:40~18:25',
@@ -237,10 +247,12 @@ export const langen = {
                     text5 : 'Hong Yujin',
                     text6 : '[Presenter]',
                     text7 : 'Jang Soohye,\nGong Yunji,\nLee Hyunjung,\nBae Sungjong,\nChoi Younghee',
+                    link : '/unitwin2021/session/8'
                 },
                 wed6 : {
                     text1 : '18:25~19:25',
                     text2 : 'UNITWIN Closing Ceremony',
+                    link : '/unitwin2021/closing-ceremony'
                 },
             }
         },
