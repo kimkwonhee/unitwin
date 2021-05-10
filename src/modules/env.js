@@ -2,7 +2,7 @@
 // Common
 //-------------------------
 const BASE_URL = 'http://arteweek.kr'
-const PROD = '/unitwin'
+const PROD = '/unitwin2021'
 const DEV = '/2021/unitwin2021'
 const CHAT_PATH = '/chat/index.html?l=kr&r='
 
