@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import styled from 'styled-components'
 import Personbtn from '../components/atom/Personbtn'
 import PageTopArea from '../components/molecules/PageTopArea'
@@ -15,11 +15,16 @@ const _Session = () => {
     const p_detaildata = curlang.p_data.session;
     const m_detaildata = curlang.m_data.session;
 
-    const [selectCatagory, setSelectCatagory] = useState(curlang.p_data.session[1].catagory1.text1);
+    const [selectCatagory, setSelectCatagory] = useState(p_detaildata[1].catagory1.text1);
     
 
     const [selList , setSelList ] = useState(p_detaildata[2].item);
     const [m_selList , m_setSelList ] = useState(m_detaildata[2].item);
+
+    useEffect(() => {
+        setSelList(p_detaildata[2].item);
+        m_setSelList(m_detaildata[2].item);
+    }, [curlang]);
 
     const onSelctCatagry = async (c_name) => {
         await setSelectCatagory(c_name);
@@ -51,7 +56,9 @@ const _Session = () => {
                     />
                     <PContents2 
                         title={p_detaildata[1].title} 
-                        contents={<ThemebtnGroup onSelctCatagry={onSelctCatagry} selectedcatagory={selectCatagory}/>}
+                        contents={<ThemebtnGroup 
+                                    onSelctCatagry={onSelctCatagry} 
+                                    selectedcatagory={selectCatagory}/>}
                     />
                     <PSection>
                         {selList.map((list, index) => {
@@ -82,7 +89,9 @@ const _Session = () => {
                     <MContents2 
                         title={m_detaildata[1].title} 
                         keyword={m_detaildata[1].keyword}
-                        contents={<ThemebtnGroup onSelctCatagry={onSelctCatagry} selectedcatagory={selectCatagory}/>}
+                        contents={<ThemebtnGroup 
+                                    onSelctCatagry={onSelctCatagry} 
+                                    selectedcatagory={selectCatagory}/>}
                     />
                     <MSection>
                         {m_selList.map((list, index) => {

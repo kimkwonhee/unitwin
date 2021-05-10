@@ -1,10 +1,15 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import hoverbtn from '../../images/session_hover.png'
 import color from '../../style/color'
 import Fade from 'react-reveal/Fade'
+import { useSelector } from 'react-redux'
 
 const Personbtn = ({className, src, name, title}) => {
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
     const [hovered, setHovered] = useState(false)
 
     return (
@@ -24,7 +29,7 @@ const Personbtn = ({className, src, name, title}) => {
                             <PWTitle>
                                 <PWLine></PWLine>
                                 <PWTitleTxt>{title}</PWTitleTxt>
-                                <PWLinkTxt>영상보기 &gt;</PWLinkTxt>
+                                <PWLinkTxt>{curlang.p_data.videobtn}</PWLinkTxt>
                             </PWTitle>
                         </Fade>
                         
@@ -40,7 +45,7 @@ const Personbtn = ({className, src, name, title}) => {
                 <MPrsImg src={src} alt={name} title={title}/>
                 <MName>{name}</MName>
                 <MTitle>{title}</MTitle>
-                <MVideo>영상보기 &gt;</MVideo>
+                <MVideo>{curlang.m_data.videobtn}</MVideo>
             </MWrapper>   
         </>
        
@@ -90,6 +95,9 @@ const PWTitleTxt = styled.p`
     font-size: 20px;
     font-weight: bold;
     color: ${color.white};
+    white-space : pre-line;
+    text-align : center;
+    line-height : 1.5;
     margin-bottom: 0;
 `
 

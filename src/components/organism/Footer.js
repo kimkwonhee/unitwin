@@ -27,7 +27,7 @@ const Footer = ({className, curlang, langkr, langen}) => {
                             <PTelphone>{p_detaildata.fttel}</PTelphone>
                             <PActiveTime>{p_detaildata.activetime}</PActiveTime>
                         </PContents>
-                        <PPolicy>{p_detaildata.ftpolicy}</PPolicy>
+                        <PPolicy href={m_detaildata.link} target="_blank">{p_detaildata.ftpolicy}</PPolicy>
                     </PSection2>
                 </PInner>
                 <PCopyright>{p_detaildata.ftcopyright}</PCopyright>
@@ -37,7 +37,7 @@ const Footer = ({className, curlang, langkr, langen}) => {
             <MWrapper>
                 <MCenter>
                     <MInner>
-                        <MPolicy>{m_detaildata.ftpolicy}</MPolicy>
+                        <MPolicy href={m_detaildata.link} target="_blank">{m_detaildata.ftpolicy}</MPolicy>
                         <MAddress>{m_detaildata.ftaddress}</MAddress>
                         <MTelphone>{m_detaildata.fttel}</MTelphone>
                         <MActiveTime>{m_detaildata.activetime}</MActiveTime>
@@ -131,6 +131,10 @@ const PPolicy = styled.a`
     font-weight: bold;
     color: ${color.turtle_green};
     cursor: pointer;
+
+    &:hover {
+        color: ${color.turtle_green};
+    }
 `
 const PCopyright = styled.div`
      font-size: 12px;
@@ -164,6 +168,10 @@ const MPolicy = styled.a`
     font-weight: bold;
     color: ${color.turtle_green};
     cursor: pointer;
+
+    &:hover {
+        color: ${color.turtle_green};
+    }
 `
 const MAddress = styled.div`
     margin-top : 49px;

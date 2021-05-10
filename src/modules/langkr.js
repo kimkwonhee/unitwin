@@ -74,7 +74,7 @@ export const langkr = {
     // PC Data
     p_data : {
         // 기타
-        videobtn : '영상보기',
+        videobtn : '영상보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
         classdownload : '강의자료 다운로드',
@@ -723,7 +723,7 @@ export const langkr = {
                     { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 15, img : session_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 16, img : session_img_17, name : '차후 룸' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 16, img : session_img_17, name : '치후 룸' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 17, img : session_img_18, name : '젠 터' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 18, img : session_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 19, img : session_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
@@ -1866,14 +1866,15 @@ export const langkr = {
             ftlogo_2 : plogo2,
             ftlogo_2_alt : '한국문화예술교육진흥원',
             ftpolicy : '개인정보처리방침',
-            ftcopyright : 'Copyright ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.'
+            ftcopyright : 'Copyright ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.',
+            link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304'
         },
     },
 
     // 모바일
     m_data : {
         // 기타
-        videobtn : '영상보기',
+        videobtn : '영상보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
         classdownload : '강의자료 다운로드',
@@ -2424,7 +2425,7 @@ export const langkr = {
                     { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/2021/unitwin2021/session/3", catagory : '글로벌'},
                     { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 15, img : session_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 16, img : session_img_17, name : '차후 룸' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 16, img : session_img_17, name : '치후 룸' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 17, img : session_img_18, name : '젠 터' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 18, img : session_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
                     { id : 19, img : session_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/2021/unitwin2021/session/4", catagory : '지속가능성'},
@@ -3570,7 +3571,8 @@ export const langkr = {
             ftlogo_2 : mlogo2,
             ftlogo_2_alt : '한국문화예술교육진흥원',
             ftpolicy : '개인정보처리방침',
-            ftcopyright : 'ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.'
+            ftcopyright : 'ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.',
+            link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304'
         }
     }
 }
