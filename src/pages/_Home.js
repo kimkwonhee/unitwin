@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import Home_center from '../components/organism/home/Home_center'
 import Home_top from '../components/organism/home/Home_top'
@@ -9,6 +9,10 @@ const _Home = () => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
     
     return (
         <Wrapper>

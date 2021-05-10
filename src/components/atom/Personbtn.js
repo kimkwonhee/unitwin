@@ -22,7 +22,7 @@ const Personbtn = ({className, src, name, title}) => {
                 src={src} alt={name} title={title}>
                     <PWHover>
                         <Fade 
-                        duration={800}
+                        duration={1000}
                         distance={'50%'}
                         bottom 
                         when={hovered}>
@@ -83,7 +83,7 @@ const PWHover = styled.div`
 const PWTitle = styled.div`
     width: 300px;
     height: 300px;
-    background: linear-gradient(0deg, rgba(131,185,73,0.80) 30%, rgba(255,255,255,0) 30%);    
+    background: linear-gradient(0deg, rgba(57,57,57,0.80) 30%, rgba(255,255,255,0) 30%);    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

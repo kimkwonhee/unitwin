@@ -26,6 +26,10 @@ const _Session = () => {
         m_setSelList(m_detaildata[2].item);
     }, [curlang]);
 
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
+
     const onSelctCatagry = async (c_name) => {
         await setSelectCatagory(c_name);
         if (c_name === curlang.p_data.session[1].catagory1.text1) {

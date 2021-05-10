@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import { withRouter } from 'react-router-dom';
 import PageTopArea from '../components/molecules/PageTopArea'
@@ -15,6 +15,10 @@ const _PlenarySession = withRouter(() => {
 
     const p_detaildata = curlang.p_data.pl_session;
     const m_detaildata = curlang.m_data.pl_session;
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
 
     return (
         <>

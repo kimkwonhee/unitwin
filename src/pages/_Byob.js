@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
@@ -15,6 +15,10 @@ const _Byob = () => {
     const m_detaildata = curlang.m_data.byob;
 
     const langstatus = curlang.staus
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
 
     return (
         <>
