@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import Themebtn from '../atom/Themebtn'
 import { useSelector } from 'react-redux'
@@ -10,6 +10,10 @@ const ThemebtnGroup = ({onSelctCatagry, selectedcatagory}) => {
     }))
 
     let p_detaildata = curlang.p_data.session[1];
+
+    useEffect(() => {
+        p_detaildata = curlang.p_data.session[1];
+    }, [curlang]);
 
     let catagotys  = curlang.p_data.session[1].catagory1;
 

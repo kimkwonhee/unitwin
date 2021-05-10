@@ -195,8 +195,8 @@ const MContentsArea = styled.div`
     z-index : 2;
 `
 const MImgTitle = styled.img`
-    width : ${props => props.status =='kr' ? '270px' : 'auto' };
-    height : ${props => props.status =='kr' ? '124px' : 'auto' };
+    width : ${props => props.status =='kr' ? '270px' : '340px' };
+    height : ${props => props.status =='kr' ? '124px' : '96px' };
 `
 const MCalender = styled.div`
     padding : 20px 0 30px 0;

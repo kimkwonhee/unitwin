@@ -120,8 +120,6 @@ const PWLine = styled.div`
     bottom: 30%;
     left: 0;
 `
-const PImgoverflow = styled.div`
-`
 
 const PPrsImg = styled.div`
     width : 300px;
@@ -177,6 +175,7 @@ const MTitle = styled.div`
     margin : 2px 0 8px;
     font-size: 12px;
     color: ${color.black};
+    white-space : pre-line;
     text-align: center;
 `
 const MVideo = styled.div`
