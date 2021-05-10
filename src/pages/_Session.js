@@ -16,6 +16,7 @@ const _Session = () => {
     const m_detaildata = curlang.m_data.session;
 
     const [selectCatagory, setSelectCatagory] = useState(p_detaildata[1].catagory1.text1);
+    const [selectMCatagory, setMSelectCatagory] = useState(m_detaildata[1].catagory1.text1);
     
 
     const [selList , setSelList ] = useState(p_detaildata[2].item);
@@ -34,7 +35,6 @@ const _Session = () => {
         await setSelectCatagory(c_name);
         if (c_name === curlang.p_data.session[1].catagory1.text1) {
             await setSelList(p_detaildata[2].item)
-            await m_setSelList(m_detaildata[2].item)
             return
         }
         let newArray = [];
@@ -44,6 +44,22 @@ const _Session = () => {
             }
         })
         await setSelList(newArray);
+    }
+
+    
+    const onMSelectCatagory = async (c_name) => {
+        await setMSelectCatagory(c_name);
+        if (c_name === curlang.m_data.session[1].catagory1.text1) {
+            await setSelList(m_detaildata[2].item)
+            await m_setSelList(m_detaildata[2].item)
+            return
+        }
+        let newArray = [];
+        await m_detaildata[2].item.forEach(async sel => {
+            if (sel.catagory == c_name) {
+                await newArray.push(sel)
+            }
+        })
         await m_setSelList(newArray);
     }
 
@@ -94,8 +110,8 @@ const _Session = () => {
                         title={m_detaildata[1].title} 
                         keyword={m_detaildata[1].keyword}
                         contents={<ThemebtnGroup 
-                                    onSelctCatagry={onSelctCatagry} 
-                                    selectedcatagory={selectCatagory}/>}
+                                    onSelctCatagry={onMSelectCatagory} 
+                                    selectedcatagory={selectMCatagory}/>}
                     />
                     <MSection>
                         {m_selList.map((list, index) => {
