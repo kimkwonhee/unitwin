@@ -41,8 +41,6 @@ const App = () => {
     langen : state.changlang.langen
   }))
 
-  console.log(env);
-
   return (
     <Wrapper>
       <Globalstyles />

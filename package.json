@@ -1,7 +1,6 @@
 {
   "name": "artweek",
   "version": "0.1.0",
-  "homepage": "/unitwin/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -25,7 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL='/unitwin/' react-scripts build",
+    "build_dev": "PUBLIC_URL='/2021/unitwin2021/' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "yarn build && firebase deploy --only hosting"
