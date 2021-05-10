@@ -3,10 +3,26 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
+## Unitwin 배포
+
+### 라이브
+    src/modules/env.js > const env = prod로 변경
+    yarn build
+    build 폴더 파일 전부 > FTP 폴더로 업로드
+
+### 게발
+    src/modules/env.js > const env = dev로 변경
+    yarn build_dev
+    build 폴더 파일 전부 > FTP 폴더로 업로드
+
+### 생략 (FTP 전송 필요없음: 이미 서버에 복사됨)
+    // .htaccess > RewriteRule . /unitwin/index.html [L] 로 변경
+    // .htaccess > RewriteRule . /2021/unitwin2021/index.html [L] 로 변경
+
 ## 참고 사이트
-https://jcon.tistory.com/136
-https://family-gram.tistory.com/533
-https://jhildenbiddle.github.io/css-vars-ponyfill/#/
+    https://jcon.tistory.com/136
+    https://family-gram.tistory.com/533
+    https://jhildenbiddle.github.io/css-vars-ponyfill/#/
 
 ## Available Scripts
 
