@@ -72,6 +72,7 @@ import closing_img_11 from '../images/session_31.png'
 import closing_img_12 from '../images/session_32.png'
 import closing_img_13 from '../images/session_33.png'
 
+import env from '../modules/env'
 
 export const langen = {
     status : 'en',
@@ -596,7 +597,7 @@ export const langen = {
                     name : "Ernst Wagner",
                     enname : "",
                     jop : "- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany",
-                    link : '/2021/unitwin2021/plenary-session/1'
+                    link : env.path+'/plenary-session/1'
                 },
                 {
                     imgs : plsession_img_02,
@@ -605,7 +606,7 @@ export const langen = {
                     name : "Benjamin Jörissen",
                     enname : "",
                     jop : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
-                    link : '/2021/unitwin2021/plenary-session/2'
+                    link : env.path+'/plenary-session/2'
                 }
             ]
         },
@@ -1497,31 +1498,31 @@ export const langen = {
             { 
                 img : '로고1', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/1' 
+                link : env.path+'/presession-showcase/1' 
             },
             session2 : 
             { 
                 img : '로고2', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/2' 
+                link : env.path+'/presession-showcase/2' 
             },
             session3 : 
             { 
                 img : '로고3', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/3' 
+                link : env.path+'/presession-showcase/3' 
             },
             session4 : 
             { 
                 img : '로고4', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/4' 
+                link : env.path+'/presession-showcase/4' 
             },
             session5 : 
             { 
                 img : '로고5', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/5' 
+                link : env.path+'/presession-showcase/5' 
             }
         },
 
@@ -1537,28 +1538,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session2',
                         discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -1573,28 +1574,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -1609,28 +1610,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session2',
                         discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -1645,28 +1646,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session2',
                         discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -1681,28 +1682,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session2',
                         discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     }
                 ]
             },
@@ -2319,7 +2320,7 @@ export const langen = {
                     name : "Ernst Wagner",
                     enname : "",
                     jop : "- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany",
-                    link : '/2021/unitwin2021/plenary-session/1'
+                    link : env.path+'/plenary-session/1'
                 },
                 {
                     imgs : plsession_img_02,
@@ -2328,7 +2329,7 @@ export const langen = {
                     name : "Benjamin Jörissen",
                     enname : "",
                     jop : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
-                    link : '/2021/unitwin2021/plenary-session/2'
+                    link : env.path+'/plenary-session/2'
                 }
             ]
         },
@@ -3199,31 +3200,31 @@ export const langen = {
             { 
                 img : '로고1', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/1' 
+                link : env.path+'/presession-showcase/1' 
             },
             session2 : 
             { 
                 img : '로고2', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/2' 
+                link : env.path+'/presession-showcase/2' 
             },
             session3 : 
             { 
                 img : '로고3', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/3' 
+                link : env.path+'/presession-showcase/3' 
             },
             session4 : 
             { 
                 img : '로고4', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/4' 
+                link : env.path+'/presession-showcase/4' 
             },
             session5 : 
             { 
                 img : '로고5', 
                 contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : '/2021/unitwin2021/presession-showcase/5' 
+                link : env.path+'/presession-showcase/5' 
             }
         },
 
@@ -3240,28 +3241,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session2',
                         discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -3276,28 +3277,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -3312,28 +3313,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session2',
                         discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -3348,28 +3349,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session2',
                         discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session5',
                         discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/5'
+                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
@@ -3384,28 +3385,28 @@ export const langen = {
                         img : session_img_10,
                         name : 'session1',
                         discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/1'
+                        link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
                         img : session_img_10,
                         name : 'session2',
                         discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/2'
+                        link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
                         img : session_img_10,
                         name : 'session3',
                         discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/3'
+                        link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 4,
                         img : session_img_10,
                         name : 'session4',
                         discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : '/2021/unitwin2021/presession-showcase/4'
+                        link : env.path+'/presession-showcase/4'
                     }
                 ]
             },
