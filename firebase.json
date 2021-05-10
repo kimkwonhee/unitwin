@@ -8,14 +8,14 @@
     ],
     "redirects": [ {
       "source": "/",
-      "destination": "/unitwin/home",
+      "destination": "/unitwin2021/home",
       "type": 301
     } ],
     "rewrites": [ {
       "source": "**/!(*.css|*.js|*.map|*.jpg|*.gif|*.png|*.php)",
       "destination": "/index.html"
     }, {
-      "source": "/unitwin/**/!(*.css|*.js|*.map|*.jpg|*.gif|*.png|*.php)",
+      "source": "/unitwin2021/**/!(*.css|*.js|*.map|*.jpg|*.gif|*.png|*.php)",
       "destination": "/index.html",
       "dynamicLinks": true
     } ]
