@@ -152,7 +152,7 @@ const Home_day3 = () => {
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text16}</PRightTitle>
                                 <PRightName>{p_detaildata.session4.text17}<PRightEnName>{p_detaildata.session4.text18}</PRightEnName></PRightName>
-                                <PRightJop>-{p_detaildata.session4.text19}</PRightJop>
+                                <PRightJop>{p_detaildata.session4.text19}</PRightJop>
                                 <PRightName>{p_detaildata.session4.text20}<PRightEnName>{p_detaildata.session4.text21}</PRightEnName></PRightName>
                                 <PRightJop>{p_detaildata.session4.text22}</PRightJop>
                             </PRightSection>
@@ -537,6 +537,7 @@ const PRightName = styled.div`
 `
 const PRightEnName = styled.span`
     font-size: 14px;
+    font-weight : normal;
     color: #aaaaaa;
 `
 const PRightJop = styled.div`

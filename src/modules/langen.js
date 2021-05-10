@@ -1854,14 +1854,14 @@ export const langen = {
         },
 
         footer : {
-            ftaddress : 'Secretariat for the 4th UNESCO Unite Twin Academic Conference Operation Secretariat Frum A Co., Ltd. (105-87-52236) 30-5, 23-gil, Seongmisan-ro, Mapo-gu, Seoul',
-            fttel : 'Representative Phone | 02-733-1399',
-            activetime : 'Operating hours | Mon-Fri 10:00-19:00 (Closed on weekends and holidays)',
+            ftaddress : 'The 4th UNESCO-UNITWIN SYMPOSIUM Facilitation Team / unitwin2021@gmail.com',
+            fttel : '',
+            activetime : '',
             ftlogo_1 : plogo1,
             ftlogo_1_alt : '문화체육관광부',
             ftlogo_2 : plogo2,
             ftlogo_2_alt : '한국문화예술교육진흥원',
-            ftpolicy : 'Privacy Policy',
+            ftpolicy : '',
             ftcopyright : 'Copyright ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.',
             link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304'
         },

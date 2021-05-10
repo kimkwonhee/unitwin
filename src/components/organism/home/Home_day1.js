@@ -392,6 +392,7 @@ const PRightName = styled.div`
 const PRightEnName = styled.span`
     font-size: 14px;
     color: #aaaaaa;
+    font-weight: normal;
 `
 const PRightJop = styled.div`
     font-size: 14px;
