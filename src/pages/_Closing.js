@@ -9,6 +9,7 @@ import color from '../style/color'
 import { Affix } from 'antd'
 import mobileviewbtn from '../components/atom/mobileviewbtn'
 import Downloadbtn from '../components/atom/Downloadbtn'
+import env from '../modules/env'
 
 const _Closing = () => {
     const { curlang } = useSelector(state => ({
@@ -57,7 +58,7 @@ const _Closing = () => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat ref={chatRef} src='http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1000&l=kr' />
+                                <PChat ref={chatRef} src={env.chat+'1000'} />
                             </PRightArea>
                         </Affix> 
                     </PCenterArea>

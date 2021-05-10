@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
 import {withRouter} from 'react-router-dom'
+import env from '../../modules/env'
 
 const Menubtn = ({className , children, id, movelink, location }) => {
 
@@ -13,25 +14,25 @@ const Menubtn = ({className , children, id, movelink, location }) => {
     }
 
     let cur_status = 0;
-    if(pathname == '/2021/unitwin2021/home/') 
+    if(pathname == env.path+'/home/') 
     {
         cur_status = 0
-    } else if (pathname == '/2021/unitwin2021/plenary-session' 
-                || pathname == '/2021/unitwin2021/plenary-session/1' 
-                || pathname == '/2021/unitwin2021/plenary-session/2') 
+    } else if (pathname == env.path+'/plenary-session' 
+                || pathname == env.path+'/plenary-session/1' 
+                || pathname == env.path+'/plenary-session/2') 
     {
         cur_status = 2
-    } else if (pathname == '/2021/unitwin2021/session') 
+    } else if (pathname == env.path+'/session') 
     {
         cur_status = 3
-    }else if (pathname == '/2021/unitwin2021/presession-showcase') 
+    }else if (pathname == env.path+'/presession-showcase') 
     {
         cur_status = 4
     } 
-    else if (pathname == '/2021/unitwin2021/byob') 
+    else if (pathname == env.path+'/byob') 
     {
         cur_status = 5
-    }else if (pathname == '/2021/unitwin2021/closing-ceremony') 
+    }else if (pathname == env.path+'/closing-ceremony') 
     {
         cur_status = 6
     }

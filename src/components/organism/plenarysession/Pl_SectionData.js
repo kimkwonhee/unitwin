@@ -4,6 +4,7 @@ import Videobtn from '../../../components/atom/Videobtn'
 import { Link, withRouter } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 import color from '../../../style/color'
+import env from '../../../modules/env'
 
 const Pl_SectionData = ({className, title, time, name, enname, jop, link, discripton, imgs, location}) => {
     const { curlang } = useSelector(state => ({
@@ -29,7 +30,7 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                             <PDiscription>{discripton}</PDiscription>
                         </PLeftArea>
                         {/* <PLink to={link}>
-                            {location.pathname === '/2021/unitwin2021/byob'
+                            {location.pathname === env.path+'/byob'
                             ? null
                             : <PVideobtn videobtn="true">{p_detaildata}</PVideobtn>}
                         </PLink> */}
@@ -42,14 +43,14 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                 <MInner>
                     <MImg src={imgs} alt={name} />
                     <MTitle location={location}>{title}</MTitle>
-                    {location.pathname === '/2021/unitwin2021/byob'
+                    {location.pathname === env.path+'/byob'
                     ? null : <MTime>{time}</MTime>}
                     <MName>{name}</MName>
                     <MEnName>{enname}</MEnName>
                     <MJop>{jop}</MJop>
                     <MDiscription>{discripton}</MDiscription>
                     {/* <MLink to={link}>
-                            {location.pathname === '/2021/unitwin2021/byob'
+                            {location.pathname === env.path+'/byob'
                             ? null
                             : <MVideobtn videobtn="true">{m_detaildata}</MVideobtn>}
                     </MLink> */}
@@ -89,8 +90,8 @@ const PTextArea = styled.div`
     justify-content : space-between;
 `
 const PLeftArea = styled.div`
-    width : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? 'auto' : '750px'};
-    padding-top : ${props => (props.location.pathname === '/2021/unitwin2021/byob') ? '0px' : '26px'};
+    width : ${props => (props.location.pathname === env.path+'/byob') ? 'auto' : '750px'};
+    padding-top : ${props => (props.location.pathname === env.path+'/byob') ? '0px' : '26px'};
 `
 const PTitle = styled.div`
     font-size: 20px;
@@ -155,7 +156,7 @@ const MImg = styled.img`
     border-radius : 50%;
 `
 const MTitle = styled.div`
-    ${props => props.location.pathname === '/2021/unitwin2021/byob'
+    ${props => props.location.pathname === env.path+'/byob'
     ? '' : 'margin-top : 28px'};
     font-size: 16px;
     font-weight: bold;
