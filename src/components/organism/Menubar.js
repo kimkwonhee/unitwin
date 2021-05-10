@@ -119,88 +119,90 @@ const Menubar = withRouter(({ className, curlang }) => {
                 visible={drawerVisible}
                 key={'right'}
                 footer={null}
-                width={'100%'}
+                width={'37.5%'}
                 bodyStyle={{padding:0}}
                 >
                 <DrawerWrapper>
-                <DrawerHeader>
-                    <PLangArea>
-                        <Langbtn 
-                            id='kr' 
-                            langstate={langState} 
-                            onClick={(e)=> { onChangKr(); setLangState('kr'); }}
-                            >
-                                KOR
+                    <DrawerInner>
+                    <DrawerHeader>
+                        <PLangArea>
+                            <Langbtn 
+                                id='kr' 
+                                langstate={langState} 
+                                onClick={(e)=> { onChangKr(); setLangState('kr'); }}
+                                >
+                                    KOR
+                                </Langbtn>
+                            <Langbtn 
+                                id='en' 
+                                langstate={langState}  
+                                onClick={(e)=>{ onChangEn(); setLangState('en');}}>
+                                    ENG
                             </Langbtn>
-                        <Langbtn 
-                            id='en' 
-                            langstate={langState}  
-                            onClick={(e)=>{ onChangEn(); setLangState('en');}}>
-                                ENG
-                        </Langbtn>
-                    </PLangArea>
-                    <MCloseImg onClick={e=> setDrawerVisible(false)} />
-                </DrawerHeader>
-                <DrawerTitleArea>
-                    <MtitleImg langstate={langState} src={curlang.m_data.home_top.img} alt="menu"/>
-                    <MCalender>{curlang.m_data.home_top.time}</MCalender>
-                </DrawerTitleArea>
-                <DrawerMenuList>
-                    <DrawerMenuListItem>
-                        <DrawerMenuTxt id="1">
-                            {m_detaildata.text1}
-                        </DrawerMenuTxt>
-                    </DrawerMenuListItem>
-                    <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to={{
-                            pathname: env.path+'/plenary-session'
-                        }}>
-                            <DrawerMenuTxt id="2">
-                            {m_detaildata.text2}
-                            </DrawerMenuTxt>
-                        </Link>
-                    </DrawerMenuListItem>
-                    <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/session"}>
-                            <DrawerMenuTxt id="3">
-                            {m_detaildata.text3}
-                            </DrawerMenuTxt>
-                        </Link>
-                    </DrawerMenuListItem>
-                    <DrawerMenuListItem>
-                        {/* <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/presession-showcase"}> */}
-                            <DrawerMenuTxt id="4">
-                            {m_detaildata.text4}
-                            </DrawerMenuTxt>
-                        {/* </Link> */}
-                    </DrawerMenuListItem>
-                    <DrawerMenuListItem>
-                        <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/byob"}>
-                            <DrawerMenuTxt id="5">
-                            {m_detaildata.text5}
-                            </DrawerMenuTxt>
-                        </Link>
-                    </DrawerMenuListItem>
-                    <DrawerMenuListItem>
-                        {/* <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/closing-ceremony"}> */}
-                            <DrawerMenuTxt id="6">
-                            {m_detaildata.text6} 
-                            </DrawerMenuTxt>
-                        {/* </Link> */}
-                    </DrawerMenuListItem>
-                </DrawerMenuList>
-                <DrawerFooter>
-                    <DrawerPrivacyBtn>{m_footerdata.ftpolicy}</DrawerPrivacyBtn>
-                    <DrawerFooterInfo>
-                        {m_footerdata.ftaddress}<br /><br />{m_footerdata.fttel}<br />{m_footerdata.activetime}
-                    </DrawerFooterInfo>
-                    <DrawerCopLogo1 src={m_footerdata.ftlogo_1} alt={m_footerdata.ftlogo_1_alt}/>
-                    <DrawerCopLogo2 src={m_footerdata.ftlogo_2} alt={m_footerdata.ftlogo_2_alt}/>
-                    <DrawerDivider />
-                    <DrawerCopyright>
-                    {m_footerdata.ftcopyright}
-                    </DrawerCopyright>
-                </DrawerFooter>
+                        </PLangArea>
+                        <MCloseImg onClick={e=> setDrawerVisible(false)} />
+                    </DrawerHeader>
+                    <DrawerTitleArea>
+                        <MtitleImg langstate={langState} src={curlang.m_data.home_top.img} alt="menu"/>
+                        <MCalender>{curlang.m_data.home_top.time}</MCalender>
+                    </DrawerTitleArea>
+                    <DrawerMenuList>
+                        <DrawerMenuListItem>
+                            <DrawerMenuTxtmove href='http://www.arteweek.kr/2021/views/opening.php' target="_blank">
+                                {m_detaildata.text1}
+                            </DrawerMenuTxtmove>
+                        </DrawerMenuListItem>
+                        <DrawerMenuListItem>
+                            <Link onClick={e=> setDrawerVisible(false)} to={{
+                                pathname: env.path+'/plenary-session'
+                            }}>
+                                <DrawerMenuTxt id="2">
+                                {m_detaildata.text2}
+                                </DrawerMenuTxt>
+                            </Link>
+                        </DrawerMenuListItem>
+                        <DrawerMenuListItem>
+                            <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/session"}>
+                                <DrawerMenuTxt id="3">
+                                {m_detaildata.text3}
+                                </DrawerMenuTxt>
+                            </Link>
+                        </DrawerMenuListItem>
+                        <DrawerMenuListItem>
+                            {/* <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/presession-showcase"}> */}
+                                <DrawerMenuTxt id="4">
+                                {m_detaildata.text4}
+                                </DrawerMenuTxt>
+                            {/* </Link> */}
+                        </DrawerMenuListItem>
+                        <DrawerMenuListItem>
+                            <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/byob"}>
+                                <DrawerMenuTxt id="5">
+                                {m_detaildata.text5}
+                                </DrawerMenuTxt>
+                            </Link>
+                        </DrawerMenuListItem>
+                        <DrawerMenuListItem>
+                            {/* <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/closing-ceremony"}> */}
+                                <DrawerMenuTxt id="6">
+                                {m_detaildata.text6} 
+                                </DrawerMenuTxt>
+                            {/* </Link> */}
+                        </DrawerMenuListItem>
+                    </DrawerMenuList>
+                    <DrawerFooter>
+                        <DrawerPrivacyBtn>{m_footerdata.ftpolicy}</DrawerPrivacyBtn>
+                        <DrawerFooterInfo>
+                            {m_footerdata.ftaddress}<br /><br />{m_footerdata.fttel}<br />{m_footerdata.activetime}
+                        </DrawerFooterInfo>
+                        <DrawerCopLogo1 src={m_footerdata.ftlogo_1} alt={m_footerdata.ftlogo_1_alt}/>
+                        <DrawerCopLogo2 src={m_footerdata.ftlogo_2} alt={m_footerdata.ftlogo_2_alt}/>
+                        <DrawerDivider />
+                        <DrawerCopyright>
+                        {m_footerdata.ftcopyright}
+                        </DrawerCopyright>
+                    </DrawerFooter>
+                    </DrawerInner>
                 </DrawerWrapper>
             </Drawer>
         </>    
@@ -282,7 +284,13 @@ const MMenuImg = styled.div`
 
 //Drawer
 const DrawerWrapper = styled.div`
-  width: 100%;
+    width: 100%;
+    display : flex;
+    justify-content : center;
+`
+const DrawerInner = styled.div`
+    position : relative;
+    width : 375px;
 `
 const DrawerHeader = styled.div`
   width: 100%;
@@ -329,6 +337,16 @@ const DrawerMenuListItem = styled.li`
     opacity: 0.8;
   }
 `
+const DrawerMenuTxtmove = styled.a`
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: ${color.black};
+    &:hover {
+        color: ${color.black};
+    }
+`
+
 const DrawerMenuTxt = styled.p`
   font-size: 16px;
   font-weight: bold;
