@@ -201,7 +201,7 @@ const MLink = styled.div`
     text-decoration : none;
 
     &:nth-child(2n-1) {
-        margin-right: 58px;
+        margin-right: 40px;
     }
 `
 const MList = styled(Personbtn)`

@@ -64,8 +64,7 @@ const _Byob = () => {
                             title={m_detaildata.title} 
                             contents={m_detaildata.contents}
                         />
-                        
-                    <MZoomArea>
+                    <MZoomArea status={langstatus}>
                         <MZoombtn status={langstatus} href={p_detaildata.link} target="_blank">
                             <MZoomText>{curlang.p_data.zoom}</MZoomText>
                         </MZoombtn>
@@ -172,7 +171,7 @@ const MContents = styled(PageTopArea)`
 `
 const MZoomArea = styled.div`
     display: flex;
-    width : 100%;
+    width : ${props => (props.status == 'kr')? '92px': '102px'};
     margin-top : 40px;
 `
 const MZoombtn = styled.a`

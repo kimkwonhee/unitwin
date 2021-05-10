@@ -40,9 +40,11 @@ const Personbtn = ({className, src, name, title}) => {
             {/* mobile */}
             <MWrapper className={className}>
                 <MPrsImg src={src} alt={name} title={title}/>
-                <MName>{name}</MName>
-                <MTitle>{title}</MTitle>
-                <MVideo>{curlang.m_data.videobtn}</MVideo>
+                {/* <MTextArea> */}
+                    <MName>{name}</MName>
+                    <MTitle>{title}</MTitle>
+                    <MVideo>{curlang.m_data.videobtn}</MVideo>
+                {/* </MTextArea> */}
             </MWrapper>   
         </>
        
@@ -70,8 +72,13 @@ const PWHover = styled.div`
     background-position: center;
     background-size: cover;
     background-image : url(${props => props.src});
+    transform:scale(1.0);
     &:hover {
         transform:scale(1.1);
+        -moz-transform : scale(1.1);
+        -o-transform : scale(1.1);
+        -ms-transform : scale(1.1);
+        -webkit-transform : scale(1.1);
     }
 `
 
@@ -137,7 +144,7 @@ const PName = styled.div`
 `
 
 const MWrapper = styled.div`
-    width : 100%;
+    width : 130px;
     margin-bottom : 28px;
     
     @media all and (min-width: 1200px) {
@@ -153,9 +160,14 @@ const MPrsImg = styled.div`
     background : url(${props => props.src}) no-repeat center / cover;
     border: solid 3px ${color.white};
 `
+const MTextArea = styled.div`
+    /* height : 300px; */
+`
+
 const MName = styled.div`
+    width : 100%;
     margin-top : 11px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     color: ${color.black};
     text-align: center;

@@ -37,8 +37,8 @@ const Menubar = withRouter(({ className, curlang }) => {
         }
     }
     useEffect(() => {
-        setScrollTop(location.pathname === env.path+'/home/' ? true : false)
-        if (location.pathname === env.path+'/home/') {
+        setScrollTop(location.pathname === env.path+'/home' ? true : false)
+        if (location.pathname === env.path+'/home') {
             window.addEventListener('scroll', onScrollChange)
         }
         return () => window.removeEventListener('scroll', onScrollChange)
@@ -48,7 +48,6 @@ const Menubar = withRouter(({ className, curlang }) => {
         window.addEventListener('resize', onScreenResize)
         return () => window.removeEventListener('resize', onScreenResize)
     }, [location.pathname])
-
 
     const p_detaildata = curlang.p_data.menuber;
     const m_detaildata = curlang.m_data.menuber;
@@ -60,7 +59,7 @@ const Menubar = withRouter(({ className, curlang }) => {
         <>
             <PWrapper className={className}>
                 <PInner>
-                    <PLinkTag to={env.path+"/home/"}>
+                    <PLinkTag to={env.path+"/home"}>
                         <PLogoImg src={p_menulogo} alt="logo" />
                     </PLinkTag>
                     <PMenuArea>

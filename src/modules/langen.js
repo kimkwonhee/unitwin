@@ -89,12 +89,12 @@ export const langen = {
 
         // 메뉴 바
         menuber : {
-            text1 : 'Opening Ceremony',
+            text1 : 'Opening',
             text2 : 'Plenary Session',
             text3 : 'Session',
             text4 : 'Pre-session',
             text5 : 'BYOB',
-            text6 : 'UNITWIN Closing Ceremony',
+            text6 : 'Closing',
         },
 
         // home top
@@ -175,7 +175,7 @@ export const langen = {
                     text4 : '[Moderator]',
                     text5 : 'Neryl Jeanneret',
                     text6 : '[Presenter]',
-                    text7 : 'Kim Tei\nCharlene Rajendran\nNan Zhang\nYaara Docrat',
+                    text7 : 'Kim Tei,\nCharlene Rajendran,\nNan Zhang,\nYaara Docrat',
                 },
                 tue5 : {
                     text1 : '16:55~18:10',
@@ -184,7 +184,7 @@ export const langen = {
                     text4 : '[Moderator]',
                     text5 : 'Kim InSul',
                     text6 : '[Presenter]',
-                    text7 : 'Benjamin Bolden&Neryl Jeanneret\nChee-Hoo Lum&Zen Teh\nKathryn Coleman&Mark Selkrig&Abbey MacDonald',
+                    text7 : 'Benjamin Bolden&Neryl Jeanneret,\nChee-Hoo Lum&Zen Teh,\nKathryn Coleman&Mark Selkrig&Abbey MacDonald',
                 },
                 tue6 : {
                     text1 : '18:10~19:10',
@@ -218,7 +218,7 @@ export const langen = {
                     text4 : '[Moderator]',
                     text5 : 'Shin Hyesun',
                     text6 : '[Presenter]',
-                    text7 : 'Jae Hwan Jung,\nChung Hyeyoun&\nSung Hyojin\nRebecca Kan&Foo Say Ming&Tan Jeng Suan,\nJeff Poulin',
+                    text7 : 'Jae Hwan Jung,\nChung Hyeyoun&\nSung Hyojin,\nRebecca Kan&Foo Say Ming&Tan Jeng Suan,\nJeff Poulin',
                 },
                 wed4 : {
                     text1 : '15:10~16:40',
@@ -227,7 +227,7 @@ export const langen = {
                     text4 : '[Moderator]',
                     text5 : 'Chee-Hoo Lum',
                     text6 : '[Presenter]',
-                    text7 : 'Ruth Rentschler,\nShim Ji-young,\nKim Yuri&Park Sojung\nSean Corcoran&Benjamin Bolden',
+                    text7 : 'Ruth Rentschler,\nShim Ji-young,\nKim Yuri&Park Sojung,\nSean Corcoran&Benjamin Bolden',
                 },
                 wed5 : {
                     text1 : '16:40~18:25',
@@ -249,7 +249,7 @@ export const langen = {
         home_day1 : {
             title : 'Opening Ceremony & Pre-session',
             video : true,
-            time : '13:00~14:19',
+            time : '13:00~15:35',
             link : 'http://www.arteweek.kr/2021/views/opening.php',
             video_text : 'View All',
             session1 : {
@@ -406,8 +406,8 @@ export const langen = {
                 text17 : '',
                 text18 : "- Master's candidate, Queen’s University, Canada",
                 text19 : '[Moderator]',
-                text20 : '네릴 제너렛 ',
-                text21 : 'Neryl Jeanneret',
+                text20 : 'Neryl Jeanneret',
+                text21 : '',
                 text22 : '- Associate Professor, The University of Melbourne, Australia',
             },
             session5 : {
@@ -1880,12 +1880,12 @@ export const langen = {
 
         // 메뉴바
         menuber : {
-            text1 : 'Opening Ceremony',
+            text1 : 'Opening',
             text2 : 'Plenary Session',
             text3 : 'Session',
             text4 : 'Pre-session',
             text5 : 'BYOB',
-            text6 : 'UNITWIN Closing Ceremony',
+            text6 : 'Closing',
         },
 
         home_top : {
@@ -2413,7 +2413,7 @@ export const langen = {
                     { id : 5, img : session_img_05, name : 'Boram Lee ' , title : "Arts and Education in the Field 1", link : "/2021/unitwin2021/session/1", catagory : 'Pandemic'},
                     { id : 6, img : session_img_06, name : 'Tiina Kukkonen' , title : "Arts for Healing" , link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 7, img : session_img_07, name : 'Sanja Krsmanović Tasić' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
-                    { id : 8, img : session_img_08, name : 'MC Bettman' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
+                    { id : 8, img : session_img_08, name : 'MC Bettman' , title : "Arts for Healing\n\xa0", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 9, img : session_img_09, name : 'Chaeyeon Kim' , title : "Arts for Healing", link : "/2021/unitwin2021/session/2", catagory : 'mental'},
                     { id : 10, img : session_img_11, name : 'Tei Kim ' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
                     { id : 11, img : session_img_42, name : 'Charlene Rajendran' , title : "Social & Cultural Inclusiveness", link : "/2021/unitwin2021/session/3", catagory : 'Global'},
