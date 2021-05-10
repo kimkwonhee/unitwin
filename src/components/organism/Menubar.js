@@ -22,8 +22,10 @@ const Menubar = withRouter(({ className, curlang }) => {
     const onChangEn = () => dispatch(changen());
 
     const location = useLocation()
+
     const [drawerVisible, setDrawerVisible] = useState(false)
     const [scrollTop, setScrollTop] = useState(false)
+   
     const onScrollChange = () => {
         if (window.pageYOffset <= 0) {
             setScrollTop(true)
@@ -31,11 +33,13 @@ const Menubar = withRouter(({ className, curlang }) => {
             setScrollTop(false)
         }
     }
+
     const onScreenResize = () => {
         if (window.innerWidth >= 1200) {
             setDrawerVisible(false)
         }
     }
+
     useEffect(() => {
         setScrollTop(location.pathname === env.path+'/home' ? true : false)
         if (location.pathname === env.path+'/home') {
@@ -78,9 +82,9 @@ const Menubar = withRouter(({ className, curlang }) => {
                         <PLinkTag to={env.path+"/byob"}>
                             <Menubtn id="5">{p_detaildata.text5}</Menubtn>
                         </PLinkTag>
-                        {/* <PLinkTag to={env.path+"/closing-ceremony"}> */}
+                        <PLinkTag to={env.path+"/closing-ceremony"}>
                             <Menubtn id="6">{p_detaildata.text6}</Menubtn>
-                        {/* </PLinkTag> */}
+                        </PLinkTag>
                     </PMenuArea>
                     <PLangArea>
                         <Langbtn 
@@ -100,8 +104,9 @@ const Menubar = withRouter(({ className, curlang }) => {
                 </PInner>
             </PWrapper>
 
+
             {/* moblie */}
-            <Affix style={{ position: 'absolute', top: 0, left: '0', zIndex: 99, }}>
+            <Affix style={{ position: 'absolute', top: 0, left: '0', zIndex: 99}}>
                 <MWrapper top={scrollTop} className={className}>
                     <MInner>
                         <MLinkTag to={env.path+"/home"}>
@@ -111,6 +116,7 @@ const Menubar = withRouter(({ className, curlang }) => {
                     </MInner>
                 </MWrapper>  
             </Affix>
+
             <Drawer
                 title={null}
                 placement={'right'}
@@ -182,11 +188,11 @@ const Menubar = withRouter(({ className, curlang }) => {
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        {/* <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/closing-ceremony"}> */}
+                        <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/closing-ceremony"}>
                             <DrawerMenuTxt id="6">
                             {m_detaildata.text6} 
                             </DrawerMenuTxt>
-                        {/* </Link> */}
+                        </Link>
                     </DrawerMenuListItem>
                 </DrawerMenuList>
                 <DrawerFooter>
@@ -242,7 +248,6 @@ const PLangArea = styled.div`
     display : flex;
     align-items : center;
 `
-
 const MWrapper = styled.div`
     width : 100vw;
     height : 60px;
@@ -344,7 +349,7 @@ const DrawerMenuTxt = styled.p`
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
-  color: ${props => (props.id== 4) || (props.id== 6) 
+  color: ${props => (props.id== 4) 
              ?  color.brown_grey 
              : color.black };
 `

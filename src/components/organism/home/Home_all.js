@@ -55,7 +55,7 @@ const Home_all = () => {
                             <PSubTitle>{p_mon1.title8}</PSubTitle>
                             <PTime>{p_mon1.time8}</PTime>
                             <PTitle>{p_mon1.title9}</PTitle>
-                            {/* <PMove>{curlang.p_data.move}</PMove> */}
+                            <PMove>{curlang.p_data.move}</PMove>
                     </PMonSection1>
                     <PMonSection2 />
                 </PSection1>
@@ -518,12 +518,17 @@ const PSubTitle = styled.div`
     white-space : pre-line;
     color: ${color.black};
 `
-const PMove = styled.div`
+const PMove = styled.a`
     cursor: pointer;
     margin-top : ${props => props.top || '40px'};
     font-size: 16px;
     font-weight: 500;
     color: ${color.turtle_green};
+    transition : .6s;
+    &:hover{
+        color: ${color.turtle_green};
+        transform : scale(1.1);
+    }
 `
 const PTitle = styled.div`
     font-size: 20px;

@@ -63,16 +63,16 @@ const Wrapper = styled.a`
     font-size: 1em;
     font-weight: bold;
     margin-right : 10px;
-    color: ${props =>  (props.id== 4) || (props.id== 6) 
+    color: ${props =>  (props.id== 4) 
                         ? color.brown_grey 
                         : (props.path==props.id) ? color.turtle_green : color.black};
     border-bottom : 2px solid transparent;
     transition: .3s;
     &:hover {
-        border-bottom : ${props =>(props.id== 4) || (props.id== 6) 
+        border-bottom : ${props =>(props.id== 4)
                               ? '1px solid' + color.white
                               : '2px solid' + color.turtle_green };
-        color : ${props => (props.id== 4) || (props.id== 6) 
+        color : ${props => (props.id== 4) 
                 ?  color.brown_grey 
                 : color.turtle_green };
     }
