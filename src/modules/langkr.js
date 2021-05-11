@@ -54,6 +54,7 @@ import session_img_40 from '../images/session_47.png'
 import session_img_41 from '../images/session_48.png'
 import session_img_42 from '../images/session_49.png'
 import session_img_43 from '../images/session_50.png'
+import session_img_44 from '../images/session_51.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -63,7 +64,6 @@ import closing_img_03 from '../images/session_28.png'
 import closing_img_04 from '../images/session_29.png'
 import closing_img_05 from '../images/session_15.png'
 import closing_img_06 from '../images/session_16.png'
-import closing_img_07 from '../images/session_10.png'
 import closing_img_08 from '../images/session_17.png'
 import closing_img_09 from '../images/session_10.png'
 import closing_img_10 from '../images/session_30.png'
@@ -100,7 +100,7 @@ export const langkr = {
         home_top : {
             img : home_title,
             title : '행사소개',
-            time : '2021.05.24~05.26',
+            time : '2021.05.24 ~ 05.26',
             link : 'https://event-us.kr/KnKPI0mLveYY/event/31441',
             advance : '사전신청하기',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의\n'
@@ -1842,6 +1842,8 @@ export const langkr = {
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : true,
             chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1012&l=kr',
+            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {
                     img : closing_img_01,
@@ -1892,7 +1894,7 @@ export const langkr = {
                     li_contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.'
                 },
                 {
-                    img : closing_img_07,
+                    img : session_img_44,
                     moder : '',
                     name : '시프라 스콘만 ',
                     en_name : '(Shifra Schonmann)',
@@ -3647,6 +3649,8 @@ export const langkr = {
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : true,
             chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1012&l=kr',
+            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {
                     img : closing_img_01,
@@ -3697,7 +3701,7 @@ export const langkr = {
                     li_contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.'
                 },
                 {
-                    img : closing_img_07,
+                    img : session_img_44,
                     moder : '',
                     name : '시프라 스콘만 ',
                     en_name : '(Shifra Schonmann)',

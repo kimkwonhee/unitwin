@@ -15,12 +15,12 @@ const ListVideoSession = ({down, height, discription, youtube, downlink}) => {
             {/* PC */}
             <PWrapper>
                 <PVideoArea height={height}>
-                    <iframe 
+                    <PIfram 
                        width="100%" height="100%" 
                        src={youtube} frameBorder="0"
                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                        allowFullScreen>      
-                    </iframe>
+                    </PIfram>
                 </PVideoArea>
                 <PDescription>{discription}</PDescription>
                 <PDownlodebtn downlink={downlink} down={down}>{curlang.p_data.classdownload}</PDownlodebtn>
@@ -59,6 +59,9 @@ const PDescription = styled.div`
 const PDownlodebtn = styled(Downloadbtn)`
 `
 
+const PIfram = styled.iframe`
+`
+
 // Movile
 const MWrapper = styled.div`
     height : ${props => props.height || '211px;'};
@@ -67,12 +70,6 @@ const MWrapper = styled.div`
     @media all and (min-width:1200px) {
         display : none;
     }
-`
-
-const MVideoArea = styled.div`
-    width: 100%;
-    max-width : 375px;
-    padding-top: 56.26%;
 `
 
 export default ListVideoSession

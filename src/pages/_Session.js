@@ -82,16 +82,13 @@ const _Session = () => {
                     />
                     <PSection>
                         {selList.map((list, index) => {
-                            return <>
-                            <PLink to={list.link} key={`${list.id}_link`}>
-                                     <PList 
-                                        key={list.id} 
+                            return <PLink to={list.link} key={list.id}>
+                                     <PList  
                                         src={list.img} 
                                         name={list.name}
                                         title={list.title}
                                     />
                                 </PLink>
-                            </>
                         })}
                     </PSection>
                 </PInner>
@@ -115,9 +112,8 @@ const _Session = () => {
                     />
                     <MSection>
                         {m_selList.map((list, index) => {
-                            return <MLink key={`${list.id}_link`}>
+                            return <MLink to={list.link} key={list.id} >
                                      <MList 
-                                        key={list.id} 
                                         src={list.img} 
                                         name={list.name}
                                         title={list.title}
@@ -211,7 +207,7 @@ const MSection = styled.div`
     padding : 0 20px 0 20px;
 
 `
-const MLink = styled.div`
+const MLink = styled(Link)`
     display: inline-block;
     width: calc(50% - 29px);
     text-decoration : none;

@@ -46,8 +46,11 @@ const Home_top = ({className , curlang}) => {
                         <PBackImg id="animArea" />
                     </PBackImgArea>
                     <PContentsArea>
-                        <PImgTitle src={p_detaildata.img} alt="title" />
+                        <PImgTitle status={langstatus} src={p_detaildata.img} alt="title" />
                         <PCalender>{p_detaildata.time}</PCalender>
+                        {langstatus === 'kr'
+                        ? null
+                        : <PSubImgTitle src={p_detaildata.subimg} alt="subtitle"/>}
                         <PApplybtn link={p_detaildata.link}>{p_detaildata.advance}</PApplybtn>
                         <PContents 
                             title={p_detaildata.title} 
@@ -73,6 +76,9 @@ const Home_top = ({className , curlang}) => {
                     <MContentsArea>
                         <MImgTitle status={langstatus} src={m_detaildata.img} alt="title" />
                         <MCalender>{m_detaildata.time}</MCalender>
+                        {langstatus === 'kr'
+                        ? null
+                        : <MSubImgTitle src={m_detaildata.subimg} alt="subtitle"/>}
                         <MContents 
                             title={m_detaildata.title} 
                             contents={m_detaildata.contents}
@@ -91,7 +97,7 @@ const Home_top = ({className , curlang}) => {
 // PC
 const PWrapper = styled.div`
     width : auto;
-    height : ${props => props.status == 'kr' ? '1400px' : '1150px'};
+    height : ${props => props.status === 'kr' ? '1400px' : '1350px'};
     display : flex;
     justify-content : center;
     padding-bottom : 100px;
@@ -135,7 +141,16 @@ const PContentsArea = styled.div`
     z-index : 2;
 `
 const PImgTitle = styled.img`
+    width : ${props => props.status == 'kr' ? '662px' : '1061px'};
+    height : ${props => props.status == 'kr' ? '304px' : '153px'};
 `
+const PSubImgTitle = styled.img`
+    margin-top : 30px;
+    margin-bottom : 60px;
+    width : 780px;
+    height : 85px;
+`
+
 const PCalender = styled.div`
     padding : 40px 0 50px 0;
     font-size: 20px;
@@ -152,7 +167,7 @@ const PContents = styled(PageTopArea)`
 // Mobile
 const MWrapper = styled.div`
     width : auto;
-    height : ${props => props.status == 'kr' ? '800px' : '690px'};
+    height : ${props => props.status == 'kr' ? '800px' : '790px'};
     padding : 0 16px 50px 16px; 
     display : flex;
     justify-content : center;
@@ -197,6 +212,13 @@ const MContentsArea = styled.div`
 const MImgTitle = styled.img`
     width : ${props => props.status =='kr' ? '270px' : '340px' };
     height : ${props => props.status =='kr' ? '124px' : '96px' };
+`
+
+const MSubImgTitle = styled.img`
+    margin-top : 10px;
+    margin-bottom : 36px;
+    width : 335px;
+    height : 43px;
 `
 const MCalender = styled.div`
     padding : 20px 0 30px 0;

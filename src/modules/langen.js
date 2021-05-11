@@ -1,5 +1,7 @@
 import home_title from '../images/home_title_en.png'
+import home_subtitle from '../images/home_subtitle_en.png'
 import home_title_mo from '../images/moen_home_title.png'
+import home_subtitle_mo from '../images/moen_home_subtitle.png'
 
 import plogo1 from '../images/footer_logo1.png'
 import plogo2 from '../images/footer_logo2.png'
@@ -54,6 +56,7 @@ import session_img_40 from '../images/session_47.png'
 import session_img_41 from '../images/session_48.png'
 import session_img_42 from '../images/session_49.png'
 import session_img_43 from '../images/session_50.png'
+import session_img_44 from '../images/session_51.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -63,7 +66,6 @@ import closing_img_03 from '../images/session_28.png'
 import closing_img_04 from '../images/session_29.png'
 import closing_img_05 from '../images/session_15.png'
 import closing_img_06 from '../images/session_16.png'
-import closing_img_07 from '../images/session_10.png'
 import closing_img_08 from '../images/session_17.png'
 import closing_img_09 from '../images/session_10.png'
 import closing_img_10 from '../images/session_30.png'
@@ -99,6 +101,7 @@ export const langen = {
         // home top
         home_top : {
             img : home_title,
+            subimg : home_subtitle,
             title : 'About',
             time : '24~26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
@@ -1832,6 +1835,8 @@ export const langen = {
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : true,
             chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1012&l=kr',
+            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {
                     img : closing_img_01,
@@ -1882,7 +1887,7 @@ export const langen = {
                     li_contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.'
                 },
                 {
-                    img : closing_img_07,
+                    img : session_img_44,
                     moder : '',
                     name : '시프라 스콘만 ',
                     en_name : '(Shifra Schonmann)',
@@ -1977,6 +1982,7 @@ export const langen = {
 
         home_top : {
             img : home_title_mo,
+            subimg : home_subtitle_mo,
             title : 'About',
             time : '24~26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
@@ -3636,6 +3642,8 @@ export const langen = {
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : true,
             chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1012&l=kr',
+            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {
                     img : closing_img_01,
@@ -3686,7 +3694,7 @@ export const langen = {
                     li_contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.'
                 },
                 {
-                    img : closing_img_07,
+                    img : session_img_44,
                     moder : '',
                     name : '시프라 스콘만 ',
                     en_name : '(Shifra Schonmann)',

@@ -12,11 +12,11 @@ const prod = {
     chat: BASE_URL + PROD + CHAT_PATH
 }
 
-const dev = {
-    baseurl: BASE_URL,
-    path: DEV,
-    chat: BASE_URL+ DEV + CHAT_PATH
-}
+// const dev = {
+//     baseurl: BASE_URL,
+//     path: DEV,
+//     chat: BASE_URL+ DEV + CHAT_PATH
+// }
 
 //-------------------------
 // 개발 환경 : prod, dev
