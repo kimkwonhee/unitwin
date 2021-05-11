@@ -121,7 +121,6 @@ const _Session = () => {
                                 </MLink>
                         })}
                     </MSection>
-
                 </MInner>
             </MWrapper>
         </>

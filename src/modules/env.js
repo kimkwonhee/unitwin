@@ -5,11 +5,13 @@ const BASE_URL = 'http://arteweek.kr'
 const PROD = '/unitwin2021'
 const DEV = '/2021/unitwin2021'
 const CHAT_PATH = '/chat/index.html?l=kr&r='
+const DOWNLOAD = '/file'
 
 const prod = {
     baseurl: BASE_URL,
     path: PROD,
-    chat: BASE_URL + PROD + CHAT_PATH
+    chat: BASE_URL + PROD + CHAT_PATH,
+    link : DOWNLOAD
 }
 
 // const dev = {
