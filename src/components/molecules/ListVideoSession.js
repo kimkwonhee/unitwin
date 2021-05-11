@@ -2,8 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import Downloadbtn from '../atom/Downloadbtn'
 import color from '../../style/color'
+import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer'
+import Test from './Test'
+import { useSelector } from 'react-redux'
 
-const ListVideoSession = ({down, height, discription}) => {
+const ListVideoSession = ({down, height, discription, youtube}) => {
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
     return (
         <>
             {/* PC */}
@@ -11,19 +19,28 @@ const ListVideoSession = ({down, height, discription}) => {
                 <PVideoArea height={height}>
                     <iframe 
                        width="100%" height="100%" 
-                    src="https://www.youtube.com/embed/PdX_kOdePVY" frameBorder="0" 
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>      
+                       src={youtube} frameBorder="0"
+                       allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                       allowFullScreen>      
                     </iframe>
                 </PVideoArea>
                 <PDescription>{discription}</PDescription>
-                <PDownlodebtn down={down}>강의자료 다운로드</PDownlodebtn>
+                <PDFDownloadLink 
+                    document={<Test />} 
+                    fileName="somename.pdf"
+                    >
+                    <PDownlodebtn down={down}>{curlang.p_data.classdownload}</PDownlodebtn>
+                </PDFDownloadLink>
             </PWrapper>
 
             {/* Mobile */}
             <MWrapper>
-                <MVideoArea height={height}>
-                    <div>비디오영상</div>
-                </MVideoArea>
+                    <iframe 
+                       width="100%" height="100%" 
+                       src={youtube} frameBorder="0"
+                       allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                       allowFullScreen>      
+                    </iframe>
             </MWrapper>
         </>
     )
@@ -51,7 +68,8 @@ const PDownlodebtn = styled(Downloadbtn)`
 
 // Movile
 const MWrapper = styled.div`
-    width: 375px;
+    height : ${props => props.height || '211px;'};
+    width : 375px;
     display : block;
     @media all and (min-width:1200px) {
         display : none;
@@ -62,7 +80,6 @@ const MVideoArea = styled.div`
     width: 100%;
     max-width : 375px;
     padding-top: 56.26%;
-    background-color : purple;
 `
 
 export default ListVideoSession
