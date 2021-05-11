@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import Cal_TopArea from '../../molecules/Cal_TopArea'
 import color from '../../../style/color'
 import { useSelector } from 'react-redux'
+import Videobtn from '../../atom/Videobtn'
+import { Link } from 'react-router-dom'
 
 
 const Home_day2 = () => {
@@ -29,6 +31,9 @@ const Home_day2 = () => {
                     <PLeftInner>
                         <PLeftTitle>{p_detaildata.session1.text1}</PLeftTitle>
                         <PLeftTime>{p_detaildata.session1.text2}</PLeftTime>
+                        <PLink to={p_detaildata.session1.link}>
+                            <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
+                        </PLink>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
@@ -50,6 +55,9 @@ const Home_day2 = () => {
                         <PLeftTitle>{p_detaildata.session2.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session2.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session2.text3}</PLeftTime>
+                        <PLink to={p_detaildata.session2.link}>
+                            <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
+                        </PLink>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
@@ -86,6 +94,9 @@ const Home_day2 = () => {
                         <PLeftTitle>{p_detaildata.session3.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session3.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session3.text3}</PLeftTime>
+                        <PLink to={p_detaildata.session3.link}>
+                            <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
+                        </PLink>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
@@ -122,6 +133,9 @@ const Home_day2 = () => {
                         <PLeftTitle>{p_detaildata.session4.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session4.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session4.text3}</PLeftTime>
+                        <PLink to={p_detaildata.session4.link}>
+                            <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
+                        </PLink>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
@@ -158,6 +172,9 @@ const Home_day2 = () => {
                         <PLeftTitle>{p_detaildata.session5.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session5.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session5.text3}</PLeftTime>
+                        <PLink to={p_detaildata.session5.link}>
+                            <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
+                        </PLink>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
@@ -196,6 +213,9 @@ const Home_day2 = () => {
                     <PLeftInner>
                         <PLeftTitle>{p_detaildata.session6.text1}</PLeftTitle>
                         <PLeftTime>{p_detaildata.session6.text2}</PLeftTime>
+                        <PLink to={p_detaildata.session6.link}>
+                            <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
+                        </PLink>
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
@@ -225,6 +245,9 @@ const Home_day2 = () => {
                             <MLeftInner>
                                 <MLeftTitle>{m_detaildata.session1.text1}</MLeftTitle>
                                 <MLeftTime>{m_detaildata.session1.text2}</MLeftTime>
+                                <MLink to={m_detaildata.session1.link}>
+                                    <MVideobtn videotext={m_detaildata.video_text1} videobtn="true"/>
+                                </MLink>
                             </MLeftInner>
                             <MRight>
                                 <MRightInner>
@@ -248,6 +271,9 @@ const Home_day2 = () => {
                                 <MLeftTitle>{m_detaildata.session2.text1}</MLeftTitle>
                                 <MLeftSub>{m_detaildata.session2.text2}</MLeftSub>
                                 <MLeftTime>{m_detaildata.session2.text3}</MLeftTime>
+                                <MLink to={m_detaildata.session2.link}>
+                                    <MVideobtn videotext={m_detaildata.video_text1} videobtn="true"/>
+                                </MLink>
                             </MLeftInner>
                             <MRight>
                                 <MRightInner>
@@ -286,6 +312,9 @@ const Home_day2 = () => {
                                 <MLeftTitle>{m_detaildata.session3.text1}</MLeftTitle>
                                 <MLeftSub>{m_detaildata.session3.text2}</MLeftSub>
                                 <MLeftTime>{m_detaildata.session3.text3}</MLeftTime>
+                                <MLink to={m_detaildata.session3.link}>
+                                    <MVideobtn videotext={m_detaildata.video_text1} videobtn="true"/>
+                                </MLink>
                             </MLeftInner>
                             <MRight>
                                 <MRightInner>
@@ -324,6 +353,9 @@ const Home_day2 = () => {
                                 <MLeftTitle>{m_detaildata.session4.text1}</MLeftTitle>
                                 <MLeftSub>{m_detaildata.session4.text2}</MLeftSub>
                                 <MLeftTime>{m_detaildata.session4.text3}</MLeftTime>
+                                <MLink to={m_detaildata.session4.link}>
+                                    <MVideobtn videotext={m_detaildata.video_text1} videobtn="true"/>
+                                </MLink>
                             </MLeftInner>
                             <MRight>
                                 <MRightInner>
@@ -362,6 +394,9 @@ const Home_day2 = () => {
                                 <MLeftTitle>{m_detaildata.session5.text1}</MLeftTitle>
                                 <MLeftSub>{m_detaildata.session5.text2}</MLeftSub>
                                 <MLeftTime>{m_detaildata.session5.text3}</MLeftTime>
+                                <MLink to={m_detaildata.session5.link}>
+                                    <MVideobtn videotext={m_detaildata.video_text1} videobtn="true"/>
+                                </MLink>
                             </MLeftInner>
                             <MRight>
                                 <MRightInner>
@@ -402,6 +437,9 @@ const Home_day2 = () => {
                             <MLeftInner>
                                 <MLeftTitle>{m_detaildata.session6.text1}</MLeftTitle>
                                 <MLeftTime>{m_detaildata.session6.text2}</MLeftTime>
+                                <MLink to={m_detaildata.session6.link}>
+                                    <MVideobtn videotext={m_detaildata.video_text1} videobtn="true"/>
+                                </MLink>
                             </MLeftInner>
                             <MRight>
                                 <MRightInner>
@@ -469,6 +507,13 @@ const PLeftTime = styled.div`
     font-weight: bold;
     color: ${color.black};
 `
+const PVideobtn = styled(Videobtn)`
+    margin-top : 40px;
+`
+const PLink = styled(Link)`
+    text-decoration : none;
+`
+
 // Right
 const PRight = styled.div`
     width : 894px;
@@ -503,6 +548,7 @@ const PRightName = styled.div`
     font-weight: bold;
     color: ${color.black};
     margin-bottom : 8px;
+    white-space : pre-line;
 
     &:nth-child(4),
     &:nth-child(6) {
@@ -639,6 +685,13 @@ const MRightJop = styled.div`
     font-size: 12px;
     white-space : pre-line;
     color: ${color.black};
+`
+
+const MLink = styled(Link)`
+    text-decoration : none;
+`
+const MVideobtn = styled(Videobtn)`
+    margin-top : 19px;
 `
 
 

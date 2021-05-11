@@ -341,9 +341,10 @@ export const langen = {
             video : false,
             time : '13:00~19:10',
             link : '',
-            video_text : '',
+            video_text1 : 'View',
+            video_text2 : 'View All',
             session1 : {
-                text1 : 'Plenary Session 1',
+                text1 : 'Plenary\nSession 1',
                 text2 : '13:00~13:40',
                 text3 : 'Diversity in art education 2.0',
                 text4 : 'Ernst Wagner',
@@ -353,6 +354,7 @@ export const langen = {
                 text8 : 'Chee-Hoo Lum',
                 text9 : '',
                 text10 : '- Associate Professor, Nanyang Technological University, Singapore',
+                link : '/unitwin2021/plenary-session/1'
             },
             session2 : {
                 text1 : 'Session 1',
@@ -373,6 +375,7 @@ export const langen = {
                 text16 : 'Creating Inclusive Online Creative Workshops',
                 text17 : 'Boram Lee',
                 text18 : '- Professor, University of South Australia , Republic of Korea',
+                link : '/unitwin2021/session/1'
             },
             session3 : {
                 text1 : 'Session 2',
@@ -397,6 +400,7 @@ export const langen = {
                 text20 : 'Gloria P. Zapata',
                 text21 : '',
                 text22 : '- Unesco Chair, Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá, Colombia',
+                link : '/unitwin2021/session/2'
             },
             session4 : {
                 text1 : 'Session 3',
@@ -421,6 +425,7 @@ export const langen = {
                 text20 : 'Neryl Jeanneret',
                 text21 : '',
                 text22 : '- Associate Professor, The University of Melbourne, Australia',
+                link : '/unitwin2021/session/3'
             },
             session5 : {
                 text1 : 'Session 4',
@@ -453,6 +458,7 @@ export const langen = {
                 text28 : '[Moderator]',
                 text29 : 'InSul Kim',
                 text30 : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
+                link : '/unitwin2021/session/4'
             },
             session6 : {
                 text1 : 'BYOB',
@@ -460,6 +466,7 @@ export const langen = {
                 text3 : 'Bring Your Own Bottle',
                 text4 : 'It is a networking session in which participants freely share symposium topics and their interests.',
                 text5 : '',
+                link : '/unitwin2021/byob'
             },
         },
 
@@ -469,9 +476,10 @@ export const langen = {
             video : false,
             time : '13:00~19:25',
             link : '',
-            video_text : '',
+            video_text1 : 'View',
+            video_text2 : 'View All',
             session1 : {
-                text1 : 'Plenary Session 2',
+                text1 : 'Plenary\nSession 2',
                 text2 : '13:00 ~ 13:40',
                 text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 text4 : 'Benjamin Jörissen',
@@ -481,6 +489,7 @@ export const langen = {
                 text8 : 'Tanja Klepacki',
                 text9 : '',
                 text10 : 'Chair senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                link : '/unitwin2021/plenary-session/2'
             },
             session2 : {
                 text1 : 'Session 5',
@@ -508,6 +517,7 @@ export const langen = {
                 text23 : 'Benjamin Bolden',
                 text24 : '',
                 text25 : "- Associate Professor, Queen's University, Canada",
+                link : '/unitwin2021/session/5'
             },
             session3 : {
                 text1 : 'Session 6',
@@ -538,6 +548,7 @@ export const langen = {
                 text26 : '[Moderator]',
                 text27 : 'Hyesun Shin',
                 text28 : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
+                link : '/unitwin2021/session/6'
             },
             session4 : {
                 text1 : 'Session 7',
@@ -566,6 +577,7 @@ export const langen = {
                 text24 : 'Chee-Hoo Lum',
                 text25 : '',
                 text26 : '- Associate Professor,Nanyang Technological University, Singapore',
+                link : '/unitwin2021/session/7'
             },
             session5 : {
                 text1 : 'Session 8',
@@ -589,11 +601,13 @@ export const langen = {
                 text19 : '[Moderator]',
                 text20 : 'Yujin Hong',
                 text21 : '- Director of Educational Resources Division, Korea Arts&Culture Education Service, Republic of Korea',
+                link : '/unitwin2021/session/8'
             },
             session6 : {
                 text1 : 'UNITWIN Closing Ceremony',
                 text2 : '18:25~19:25',
                 text3 : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
+                link : '/unitwin2021/closing-ceremony'
             },
         },
 
@@ -2064,7 +2078,8 @@ export const langen = {
             video : false,
             time : '13:00~19:00',
             link : '',
-            video_text : '',
+            video_text1 : 'View',
+            video_text2 : 'View All',
             session1 : {
                 text1 : 'Plenary\nSession 1',
                 text2 : '13:00~13:40',
@@ -2076,6 +2091,7 @@ export const langen = {
                 text8 : 'Chee-Hoo Lum',
                 text9 : '',
                 text10 : '- Associate Professor, Nanyang Technological University, Singapore',
+                link : '/unitwin2021/plenary-session/1'
             },
             session2 : {
                 text1 : 'Session 1',
@@ -2096,6 +2112,7 @@ export const langen = {
                 text16 : 'Creating Inclusive Online Creative Workshops',
                 text17 : 'Boram Lee',
                 text18 : '- Professor, University of South Australia , Republic of Korea',
+                link : '/unitwin2021/session/1'
             },
             session3 : {
                 text1 : 'Session 2',
@@ -2120,6 +2137,7 @@ export const langen = {
                 text20 : 'Gloria P. Zapata',
                 text21 : '',
                 text22 : '- Unesco Chair, Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá, Colombia',
+                link : '/unitwin2021/session/2'
             },
             session4 : {
                 text1 : 'Session 3',
@@ -2144,6 +2162,7 @@ export const langen = {
                 text20 : 'Neryl Jeanneret',
                 text21 : '',
                 text22 : '- Associate Professor, The University of Melbourne, Australia',
+                link : '/unitwin2021/session/3'
             },
             session5 : {
                 text1 : 'Session 4',
@@ -2176,6 +2195,7 @@ export const langen = {
                 text28 : '[Moderator]',
                 text29 : 'InSul Kim',
                 text30 : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
+                link : '/unitwin2021/session/4'
             },
             session6 : {
                 text1 : 'BYOB',
@@ -2183,6 +2203,7 @@ export const langen = {
                 text3 : 'Bring Your Own Bottle',
                 text4 : 'It is a networking session in which participants freely share symposium topics and their interests.',
                 text5 : '',
+                link : '/unitwin2021/byob'
             },
         },
 
@@ -2192,7 +2213,8 @@ export const langen = {
             video : false,
             time : '13:00~19:25',
             link : '',
-            video_text : '',
+            video_text1 : 'View',
+            video_text2 : 'View All',
             session1 : {
                 text1 : 'Plenary\nSession 2',
                 text2 : '13:00 ~ 13:40',
@@ -2204,6 +2226,7 @@ export const langen = {
                 text8 : 'Tanja Klepacki',
                 text9 : '',
                 text10 : 'Chair senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                link : '/unitwin2021/plenary-session/2'
             },
             session2 : {
                 text1 : 'Session 5',
@@ -2231,6 +2254,7 @@ export const langen = {
                 text23 : 'Benjamin Bolden',
                 text24 : '',
                 text25 : "- Associate Professor, Queen's University, Canada",
+                link : '/unitwin2021/session/5'
             },
             session3 : {
                 text1 : 'Session 6',
@@ -2261,6 +2285,7 @@ export const langen = {
                 text26 : '[Moderator]',
                 text27 : 'Hyesun Shin',
                 text28 : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
+                link : '/unitwin2021/session/6'
             },
             session4 : {
                 text1 : 'Session 7',
@@ -2289,6 +2314,7 @@ export const langen = {
                 text24 : 'Chee-Hoo Lum',
                 text25 : '',
                 text26 : '- Associate Professor,Nanyang Technological University, Singapore',
+                link : '/unitwin2021/session/7'
             },
             session5 : {
                 text1 : 'Session 8',
@@ -2312,11 +2338,13 @@ export const langen = {
                 text19 : '[Moderator]',
                 text20 : 'Yujin Hong',
                 text21 : '- Director of Educational Resources Division, Korea Arts&Culture Education Service, Republic of Korea',
+                link : '/unitwin2021/session/8'
             },
             session6 : {
                 text1 : 'UNITWIN Closing Ceremony',
                 text2 : '18:25~19:25',
                 text3 : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
+                link : '/unitwin2021/closing-ceremony'
             },
         },
 

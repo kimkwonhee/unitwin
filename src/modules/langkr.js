@@ -343,7 +343,8 @@ export const langkr = {
             video : false,
             time : '13:00~19:10',
             link : '',
-            video_text : '',
+            video_text1 : '영상보기',
+            video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 1',
                 text2 : '13:00~13:40',
@@ -355,6 +356,7 @@ export const langkr = {
                 text8 : '치후 룸',
                 text9 : '(Chee-Hoo Lum)',
                 text10 : '- 국립교육원 부교수, 싱가포르',
+                link : '/unitwin2021/plenary-session/1'
             },
             session2 : {
                 text1 : '세션 1',
@@ -375,6 +377,7 @@ export const langkr = {
                 text16 : '창의적인 온라인 워크샵 만들기',
                 text17 : '이보람',
                 text18 : '- 사우스 오스트레일리아 대학교 교수, 대한민국',
+                link : '/unitwin2021/session/1'
             },
             session3 : {
                 text1 : '세션 2',
@@ -399,6 +402,7 @@ export const langkr = {
                 text20 : '글로리아 자파타 ',
                 text21 : '(Gloria P. Zapata)',
                 text22 : '- 후안 코파스 대학재단, 보고타 구립 대학교 유네스코 체어, 콜롬비아',
+                link : '/unitwin2021/session/2'
             },
             session4 : {
                 text1 : '세션 3',
@@ -423,6 +427,7 @@ export const langkr = {
                 text20 : '네릴 제너렛 ',
                 text21 : '(Neryl Jeanneret)',
                 text22 : '- 멜버른 대학교 부교수, 호주',
+                link : '/unitwin2021/session/3'
             },
             session5 : {
                 text1 : '세션 4',
@@ -455,6 +460,7 @@ export const langkr = {
                 text28 : '[모더레이터]',
                 text29 : '김인설',
                 text30 : '- 가톨릭대학교 부교수, 대한민국',
+                link : '/unitwin2021/session/4'
             },
             session6 : {
                 text1 : 'BYOB',
@@ -462,6 +468,7 @@ export const langkr = {
                 text3 : '온라인 만남의 광장',
                 text4 : 'Bring Your Own Bottle(BYOB)는 학술대회 참가자들이 자유롭게 학술대회 주제 및\n참가자의 관심사에 대해 나누는 네트워킹 세션입니다.',
                 text5 : '* BYOB는 ZOOM에서 진행됩니다.',
+                link : '/unitwin2021/byob'
             },
         },
 
@@ -471,7 +478,8 @@ export const langkr = {
             video : false,
             time : '13:00~19:25',
             link : '',
-            video_text : '',
+            video_text1 : '영상보기',
+            video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 2',
                 text2 : '13:00 ~ 13:40',
@@ -483,6 +491,7 @@ export const langkr = {
                 text8 : '탄야 클레페키 ',
                 text9 : '(Tanja Klepacki)',
                 text10 : '- 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교 유네스코 문화예술교육 체어 선임 연구원, 독일',
+                link : '/unitwin2021/plenary-session/2'
             },
             session2 : {
                 text1 : '세션 5',
@@ -510,6 +519,7 @@ export const langkr = {
                 text23 : '벤자민 볼든 ',
                 text24 : '(Benjamin Bolden)',
                 text25 : '- 퀸즈대학교 부교수, 캐나다',
+                link : '/unitwin2021/session/5'
             },
             session3 : {
                 text1 : '세션 6',
@@ -540,6 +550,7 @@ export const langkr = {
                 text26 : '[모더레이터]',
                 text27 : '신혜선',
                 text28 : '- 위컬쳐 리서치&컨설팅 대표, 대한민국',
+                link : '/unitwin2021/session/6'
             },
             session4 : {
                 text1 : '세션 7',
@@ -568,6 +579,7 @@ export const langkr = {
                 text24 : '치후 룸 ',
                 text25 : '(Chee-Hoo Lum)',
                 text26 : '- 난양 공과대학교 부교수, 싱가포르',
+                link : '/unitwin2021/session/7'
             },
             session5 : {
                 text1 : '세션 8',
@@ -591,11 +603,13 @@ export const langkr = {
                 text19 : '[모더레이터]',
                 text20 : '홍유진',
                 text21 : '- 한국문화예술교육진흥원 교육기반본부 본부장, 대한민국',
+                link : '/unitwin2021/session/8'
             },
             session6 : {
                 text1 : '폐회 세션',
                 text2 : '18:25~19:25',
                 text3 : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고,\n예술교육의 방향성을 탐색합니다.',
+                link : '/unitwin2021/closing-ceremony'
             },
         },
 
@@ -2073,7 +2087,8 @@ export const langkr = {
             video : false,
             time : '13:00~19:10',
             link : '',
-            video_text : '',
+            video_text1 : '영상보기',
+            video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 1',
                 text2 : '13:00~13:40',
@@ -2085,6 +2100,7 @@ export const langkr = {
                 text8 : '치후 룸 ',
                 text9 : '(Chee-Hoo Lum)',
                 text10 : '- 국립교육원 부교수, 싱가포르',
+                link : '/unitwin2021/plenary-session/1'
             },
             session2 : {
                 text1 : '세션 1',
@@ -2105,6 +2121,7 @@ export const langkr = {
                 text16 : '창의적인 온라인 워크샵 만들기',
                 text17 : '이보람',
                 text18 : '- 사우스 오스트레일리아 대학교 교수, 대한민국',
+                link : '/unitwin2021/session/1'
             },
             session3 : {
                 text1 : '세션 2',
@@ -2129,6 +2146,7 @@ export const langkr = {
                 text20 : '글로리아 자파타 ',
                 text21 : '(Gloria P. Zapata)',
                 text22 : '- 후안 코파스 대학재단, 보고타 구립 대학교\n유네스코 체어, 콜롬비아',
+                link : '/unitwin2021/session/2'
             },
             session4 : {
                 text1 : '세션 3',
@@ -2153,6 +2171,7 @@ export const langkr = {
                 text20 : '네릴 제너렛 ',
                 text21 : '(Neryl Jeanneret)',
                 text22 : '- 멜버른 대학교 부교수, 호주',
+                link : '/unitwin2021/session/3'
             },
             session5 : {
                 text1 : '세션 4',
@@ -2185,6 +2204,7 @@ export const langkr = {
                 text28 : '[모더레이터]',
                 text29 : '김인설',
                 text30 : '- 가톨릭대학교 부교수, 대한민국',
+                link : '/unitwin2021/session/4'
             },
             session6 : {
                 text1 : 'BYOB',
@@ -2192,6 +2212,7 @@ export const langkr = {
                 text3 : '온라인 만남의 광장',
                 text4 : 'Bring Your Own Bottle(BYOB)는 학술대회 참가자들이 자유롭게 학술대회 주제 및 참가자의 관심사에 대해 나누는 네트워킹 세션입니다.',
                 text5 : '* BYOB는 ZOOM에서 진행됩니다.',
+                link : '/unitwin2021/byob'
             },
         },
 
@@ -2201,10 +2222,11 @@ export const langkr = {
             video : false,
             time : '13:00~19:25',
             link : '',
-            video_text : '',
+            video_text1 : '영상보기',
+            video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 2',
-                text2 : '13:00 ~ 13:40',
+                text2 : '13:00~13:40',
                 text3 : '예술 교육의 과제로서의\n“문화적 회복력”과 “미적 회복력”: 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계',
                 text4 : '벤야민 요리슨 ',
                 text5 : '(Benjamin Jorissen)',
@@ -2213,6 +2235,7 @@ export const langkr = {
                 text8 : '탄야 클레페키 ',
                 text9 : '(Tanja Klepacki)',
                 text10 : '- 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교 유네스코 문화예술교육 체어 선임 연구원, 독일',
+                link : '/unitwin2021/plenary-session/2'
             },
             session2 : {
                 text1 : '세션 5',
@@ -2240,6 +2263,7 @@ export const langkr = {
                 text23 : '벤자민 볼든 ',
                 text24 : '(Benjamin Bolden)',
                 text25 : '- 퀸즈대학교 부교수, 캐나다',
+                link : '/unitwin2021/session/5'
             },
             session3 : {
                 text1 : '세션 6',
@@ -2270,6 +2294,7 @@ export const langkr = {
                 text26 : '[모더레이터]',
                 text27 : '신혜선',
                 text28 : '- 위컬쳐 리서치&컨설팅 대표, 대한민국',
+                link : '/unitwin2021/session/6'
             },
             session4 : {
                 text1 : '세션 7',
@@ -2298,6 +2323,7 @@ export const langkr = {
                 text24 : '치후 룸 ',
                 text25 : '(Chee-Hoo Lum)',
                 text26 : '- 난양 공과대학교 부교수, 싱가포르',
+                link : '/unitwin2021/session/7'
             },
             session5 : {
                 text1 : '세션 8',
@@ -2321,11 +2347,13 @@ export const langkr = {
                 text19 : '[모더레이터]',
                 text20 : '홍유진',
                 text21 : '- 한국문화예술교육진흥원 교육기반본부 본부장, 대한민국',
+                link : '/unitwin2021/session/8'
             },
             session6 : {
                 text1 : '폐회 세션',
                 text2 : '18:25~19:25',
                 text3 : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고,\n예술교육의 방향성을 탐색합니다.',
+                link : '/unitwin2021/closing-ceremony'
             },
         },
 
