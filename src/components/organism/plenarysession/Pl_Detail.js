@@ -289,7 +289,6 @@ const MDetailSection = styled.div`
 `
 const MChatSection = styled.div`
     width : 375px;
-    height : 750px;
     display : ${props => (props.status =='chat') ? 'block': 'none'};
     
     @media all and (max-width: 375px) {
@@ -309,7 +308,7 @@ const MDownlodebtn = styled(Downloadbtn)`
 
 const MChat = styled.iframe`
     width: 100%;
-    height: 100%;
+    height: 500px;
     margin: 0;
     padding: 0;
     border: 0;

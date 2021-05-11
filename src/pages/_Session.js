@@ -83,14 +83,14 @@ const _Session = () => {
                     <PSection>
                         {selList.map((list, index) => {
                             return <>
-                            {/* <PLink to={list.link} key={`${list.id}_link`}> */}
+                            <PLink to={list.link} key={`${list.id}_link`}>
                                      <PList 
                                         key={list.id} 
                                         src={list.img} 
                                         name={list.name}
                                         title={list.title}
                                     />
-                                {/* </PLink> */}
+                                </PLink>
                             </>
                         })}
                     </PSection>

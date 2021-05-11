@@ -20,7 +20,7 @@ const Personbtn = ({className, src, name, title}) => {
                     onMouseEnter={(e) => setHovered(true)}
                     onMouseLeave={(e) => setHovered(false)}
                     title={title}
-                    onClick={e=> alert('준비중입니다.')}>
+                    >
                         <PWHover src={src} alt={name}>
                             <Fade 
                             duration={1000}
