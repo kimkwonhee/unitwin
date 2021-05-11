@@ -52,8 +52,10 @@ const Pl_Detail = ({match}) => {
     let M_videosection = null
     let M_contentsection = null
     let M_videotext = null
-    let M_download = null
+    let M_downbtn = null
     let M_chatlink = null
+    let M_download_link = null
+
 
     if (pathname == '1') {
         P_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
@@ -62,7 +64,9 @@ const Pl_Detail = ({match}) => {
         P_videosection = <PVideo 
                             discription={p_detaildata.wagner_part.video_text} 
                             down={p_detaildata.wagner_part.download} 
-                            youtube={p_detaildata.wagner_part.youtube}/>
+                            youtube={p_detaildata.wagner_part.youtube}
+                            downlink={p_detaildata.wagner_part.downlink}
+                            />
         M_videosection = <MVideo youtube={m_detaildata.wagner_part.youtube}/>
         
         P_contentsection = <PSection data={p_detaildata.wagner_part.list} />
@@ -70,7 +74,8 @@ const Pl_Detail = ({match}) => {
         
 
         M_videotext = m_detaildata.wagner_part.video_text
-        M_download = m_detaildata.wagner_part.download
+        M_downbtn = m_detaildata.wagner_part.download
+        M_download_link = m_detaildata.wagner_part.downlink
 
         P_chatlink = p_detaildata.wagner_part.chatlink
         M_chatlink = m_detaildata.wagner_part.chatlink
@@ -84,6 +89,7 @@ const Pl_Detail = ({match}) => {
                             discription={p_detaildata.jorissen_part.video_text} 
                             down={p_detaildata.jorissen_part.download} 
                             youtube={p_detaildata.jorissen_part.youtube}
+                            downlink={p_detaildata.jorissen_part.downlink}
                             />
         M_videosection = <MVideo youtube={m_detaildata.jorissen_part.youtube}/>
         
@@ -91,7 +97,8 @@ const Pl_Detail = ({match}) => {
         M_contentsection =<MSection data={m_detaildata.jorissen_part.list} />
         
         M_videotext = m_detaildata.jorissen_part.video_text
-        M_download = m_detaildata.jorissen_part.download
+        M_downbtn = m_detaildata.jorissen_part.download
+        M_download_link = m_detaildata.jorissen_part.downlink
 
         P_chatlink = p_detaildata.jorissen_part.chatlink
         M_chatlink = m_detaildata.jorissen_part.chatlink
@@ -151,7 +158,12 @@ const Pl_Detail = ({match}) => {
                 </MViewchangeArea>
                 <MDetailSection status={status}>
                     <MVideoText>{M_videotext}</MVideoText>
-                    <MDownlodebtn down={M_download}>{curlang.m_data.classdownload}</MDownlodebtn>
+                    <MDownlodebtn 
+                        down={M_downbtn} 
+                        downlink={M_download_link}
+                    >
+                        {curlang.m_data.classdownload}
+                    </MDownlodebtn>
                     {M_contentsection}
                 </MDetailSection>
                 <MChatSection status={status}>
@@ -234,7 +246,6 @@ const MWrapper = styled.div`
     flex-direction : column;
     align-items : center;
     width : auto;
-    padding-bottom : 100px;
 
     @media all and (min-width:1200px) {
         display : none;

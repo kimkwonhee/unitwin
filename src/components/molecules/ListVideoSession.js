@@ -2,11 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import Downloadbtn from '../atom/Downloadbtn'
 import color from '../../style/color'
-import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer'
-import Test from './Test'
 import { useSelector } from 'react-redux'
 
-const ListVideoSession = ({down, height, discription, youtube}) => {
+const ListVideoSession = ({down, height, discription, youtube, downlink}) => {
 
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -25,12 +23,7 @@ const ListVideoSession = ({down, height, discription, youtube}) => {
                     </iframe>
                 </PVideoArea>
                 <PDescription>{discription}</PDescription>
-                <PDFDownloadLink 
-                    document={<Test />} 
-                    fileName="somename.pdf"
-                    >
-                    <PDownlodebtn down={down}>{curlang.p_data.classdownload}</PDownlodebtn>
-                </PDFDownloadLink>
+                <PDownlodebtn downlink={downlink} down={down}>{curlang.p_data.classdownload}</PDownlodebtn>
             </PWrapper>
 
             {/* Mobile */}

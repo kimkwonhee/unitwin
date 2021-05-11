@@ -3,8 +3,6 @@ import home_title_mo from '../images/moen_home_title.png'
 
 import plogo1 from '../images/footer_logo1.png'
 import plogo2 from '../images/footer_logo2.png'
-import mlogo1 from '../images/mobile_cop_logo1.png'
-import mlogo2 from '../images/mobile_cop_logo2.png'
 
 // 기조발제
 import plsession_img_01 from '../images/plense_img01.png'
@@ -55,6 +53,7 @@ import session_img_39 from '../images/session_46.png'
 import session_img_40 from '../images/session_47.png'
 import session_img_41 from '../images/session_48.png'
 import session_img_42 from '../images/session_49.png'
+import session_img_43 from '../images/session_50.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -80,8 +79,8 @@ export const langen = {
     p_data : {
         // 기타
         videobtn : 'View >',
-        realchating : '실시간 채팅',
-        lecture : '강연설명',
+        realchating : 'Live chat',
+        lecture : 'Lecture description',
         classdownload : 'Download lecture',
         zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage',
@@ -643,7 +642,7 @@ export const langen = {
             wagner_part : {
                 title : 'Diversity in art education 2.0',
                 time : '05.25(화) 13:00~13:40',
-                video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
+                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
@@ -669,9 +668,9 @@ export const langen = {
                 ]
             },
             jorissen_part : {
-                title : '유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램',
+                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 time : '05.26(수) 13:40~15:10',
-                video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
+                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
@@ -679,17 +678,17 @@ export const langen = {
                     {
                         img : plsession_img_02,
                         moder : '',
-                        name : '벤야민 요리슨 ',
-                        en_name : '(Benjamin Jörissen)',
+                        name : 'Benjamin Jörissen',
+                        en_name : '',
                         li_title : '- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일',
                         li_contents : '벤자민 요리슨은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히-알렉산더-대학교 에를랑겐-누른베르크에서 유네스코 교육 예술 문화 의장직을 맡고 있다. 또한 벤자민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
                                       +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
                     },
                     {
-                        img : session_img_10,
-                        moder : '[모더레이터]',
-                        name : '탄야 클레페키 ',
-                        en_name : '(Tanja Klepacki)',
+                        img : session_img_43,
+                        moder : '[Moderator]',
+                        name : 'Tanja Klepacki',
+                        en_name : '',
                         li_title : '- 유네스코 문화예술교육 선임 연구원, 독일',
                         li_contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정'
                     }
@@ -1903,7 +1902,7 @@ export const langen = {
         videobtn : 'View >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
-        classdownload : '강의자료 다운로드',
+        classdownload : 'Download lecture',
         zoom : 'ZOOM으로 참여하기',
         unithomebtn : 'Go to UNITWIN Official Webpage >',
 
@@ -2381,18 +2380,19 @@ export const langen = {
          // 기조발제 상세페이지
          pl_session_detail : {
             wagner_part : {
-                title : '문화예술교육 2.0의 다양성',
+                title : 'Diversity in art education 2.0',
                 time : '05.25(화) 13:00~13:40',
-                video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
+                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : pl_detail1_img_01,
                         moder : '',
-                        name : '언스트 바그너',
-                        en_name : '(Ernst Wagner)',
+                        name : 'Ernst Wagner',
+                        en_name : '',
                         li_title : '유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일',
                         li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술 교육에 대한 가장 중요한 문서를 다시 살펴볼 때다.\n'
                                     +'서울 어젠다는 큰 성공을 거뒀고 그 이후로 많은 것이 성취되었다. 서울 어젠다가 유니트윈(UNITWIN)같은 네트워크에 국제적으로 집중된 협력을 촉발시킨 것을 예로 들 수 있다. 그러나, 2017년에 벤 볼든과 다른 사람들이 함께 발간한 전 세계 예술교육의 이해도에 대한 비교 연구(국제예술교육연보, V5, 2017)에선 서울 어젠다의 목표에 대한 세계적인 공감 하에 현저하게 다르고, 또 다양한 형태가 존재하고 있음을 보여준다.\n\n'
@@ -2400,36 +2400,37 @@ export const langen = {
                     },
                     {
                         img : pl_detail1_img_02,
-                        moder : '[모더레이터]',
-                        name : '치후 룸',
-                        en_name : '(Chee-Hoo Lum)',
+                        moder : '[Moderator]',
+                        name : 'Chee-Hoo Lum',
+                        en_name : '',
                         li_title : '국립교육원 부교수, 싱가포르',
                         li_contents : "치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다.\n\n"
                                       +"그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다."                    }
                 ]
             },
             jorissen_part : {
-                title : '유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램',
+                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability."Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 time : '05.26(수) 13:40~15:10',
-                video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
+                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : plsession_img_02,
                         moder : '',
-                        name : '벤야민 요리슨 ',
-                        en_name : '(Benjamin Jörissen)',
+                        name : 'Benjamin Jörissen',
+                        en_name : '',
                         li_title : '- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일',
                         li_contents : '벤자민 요리슨은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히-알렉산더-대학교 에를랑겐-누른베르크에서 유네스코 교육 예술 문화 의장직을 맡고 있다. 또한 벤자민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
                                       +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
                     },
                     {
-                        img : session_img_10,
-                        moder : '[모더레이터]',
-                        name : '탄야 클레페키 ',
-                        en_name : '(Tanja Klepacki)',
+                        img : session_img_43,
+                        moder : '[Moderator]',
+                        name : 'Tanja Klepacki',
+                        en_name : '',
                         li_title : '- 유네스코 문화예술교육 선임 연구원, 독일',
                         li_contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정'
                     }

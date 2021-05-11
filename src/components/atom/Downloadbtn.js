@@ -2,12 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
 
-const Downloadbtn = ({className, down, children}) => {
+const Downloadbtn = ({className, down, children, downlink}) => {
     return (
         <>
             <PWrapper
                 className={className}
                 down={down}
+                href={downlink}
+                download
+                target="_blank"
             >
                 <PText>{children}</PText>
             </PWrapper>
@@ -15,6 +18,9 @@ const Downloadbtn = ({className, down, children}) => {
             <MWrapper
                 className={className}
                 down={down}
+                href={downlink}
+                download
+                target="_blank"
             >
             <MText>{children}</MText>
             </MWrapper>
@@ -23,7 +29,7 @@ const Downloadbtn = ({className, down, children}) => {
     )
 }
 // PC
-const PWrapper = styled.div`
+const PWrapper = styled.a`
     cursor: pointer;
     width : 146px;
     height : 36px;
@@ -35,6 +41,7 @@ const PWrapper = styled.div`
     &:hover {
         opacity: 0.8;
     }
+
     @media all and (max-width:1199px) {
         display : none;
     }
@@ -46,7 +53,7 @@ const PText = styled.div`
 `
 
 // Mobile
-const MWrapper = styled.div`
+const MWrapper = styled.a`
     cursor: pointer;
     width : 146px;
     height : 36px;

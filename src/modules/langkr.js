@@ -53,6 +53,7 @@ import session_img_39 from '../images/session_46.png'
 import session_img_40 from '../images/session_47.png'
 import session_img_41 from '../images/session_48.png'
 import session_img_42 from '../images/session_49.png'
+import session_img_43 from '../images/session_50.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -653,6 +654,7 @@ export const langkr = {
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : pl_detail1_img_01,
@@ -675,12 +677,13 @@ export const langkr = {
                 ]
             },
             jorissen_part : {
-                title : '유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램',
+                title : '예술 교육의 과제로서의 “문화적 회복력”과 “미적 회복력”\n: 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계',
                 time : '05.26(수) 13:40~15:10',
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : plsession_img_02,
@@ -692,7 +695,7 @@ export const langkr = {
                                       +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
                     },
                     {
-                        img : session_img_10,
+                        img : session_img_43,
                         moder : '[모더레이터]',
                         name : '탄야 클레페키 ',
                         en_name : '(Tanja Klepacki)',
@@ -2396,6 +2399,7 @@ export const langkr = {
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : pl_detail1_img_01,
@@ -2424,6 +2428,7 @@ export const langkr = {
                 download : true,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : plsession_img_02,
@@ -2435,7 +2440,7 @@ export const langkr = {
                                       +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
                     },
                     {
-                        img : session_img_10,
+                        img : session_img_43,
                         moder : '[모더레이터]',
                         name : '탄야 클레페키 ',
                         en_name : '(Tanja Klepacki)',

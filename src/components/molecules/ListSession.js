@@ -124,6 +124,7 @@ const MTextblock = styled.div`
 const MImg = styled.img`
     width : 180px;
     height : 180px;
+    border-radius : 150px;
 `
 const MModer = styled.div`
     margin-top : 28px;
