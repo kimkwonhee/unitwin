@@ -6,13 +6,25 @@ import { useSelector } from 'react-redux'
 import color from '../../../style/color'
 import env from '../../../modules/env'
 
-const Pl_SectionData = ({className, title, time, name, enname, jop, link, discripton, imgs, location}) => {
-    const { curlang } = useSelector(state => ({
+const Pl_SectionData = ({
+    className, 
+    title, 
+    time, 
+    name, 
+    enname, 
+    jop, 
+    link, 
+    discripton, 
+    imgs, 
+    location
+    }) => {
+    
+        const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
 
-    const p_detaildata = curlang.p_data.videobtn;
-    const m_detaildata = curlang.m_data.videobtn;
+    const p_video_text = curlang.p_data.pl_session.video_text;
+    const m_video_text = curlang.m_data.pl_session.video_text;
     
     return (
         <>
@@ -23,17 +35,23 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                     </PImgArea>
                     <PTextArea>
                         <PLeftArea location={location}>
-                            <PTitle>{title}</PTitle>
-                            <PTime>{time}</PTime>
-                            <PName>{name}<PEnName>{enname}</PEnName></PName>
-                            <PJop>{jop}</PJop>
-                            <PDiscription>{discripton}</PDiscription>
+                            <div>
+                                {location.pathname === env.path+'/byob'
+                                ? null
+                                : <PTitle>{title}</PTitle>}
+                                {location.pathname === env.path+'/byob'
+                                ? null
+                                : <PTime>{time}</PTime>}
+                                <PName>{name}<PEnName>{enname}</PEnName></PName>
+                                <PJop>{jop}</PJop>
+                                <PDiscription>{discripton}</PDiscription>
+                            </div>
+                            <PLink to={link}>
+                            {location.pathname === env.path+'/byob' 
+                            ? null 
+                            : <PVideobtn videobtn="true" videotext={p_video_text} />}
+                            </PLink>
                         </PLeftArea>
-                        {/* <PLink to={link}>
-                            {location.pathname === env.path+'/byob'
-                            ? null
-                            : <PVideobtn videobtn="true">{p_detaildata}</PVideobtn>}
-                        </PLink> */}
                     </PTextArea>
                 </PSection>
             </PWrapper>
@@ -47,13 +65,15 @@ const Pl_SectionData = ({className, title, time, name, enname, jop, link, discri
                     ? null : <MTime>{time}</MTime>}
                     <MName>{name}</MName>
                     <MEnName>{enname}</MEnName>
-                    <MJop>{jop}</MJop>
-                    <MDiscription>{discripton}</MDiscription>
-                    {/* <MLink to={link}>
+                    {location.pathname === env.path+'/byob'
+                    ? <MJop>{jop}</MJop>
+                    : null}
+                    <MDiscription location={location}>{discripton}</MDiscription>
+                    <MLink to={link}>
                             {location.pathname === env.path+'/byob'
                             ? null
-                            : <MVideobtn videobtn="true">{m_detaildata}</MVideobtn>}
-                    </MLink> */}
+                            : <MVideobtn width="92px" videobtn="true" videotext={m_video_text} />}
+                    </MLink>
                 </MInner>
             </MWrapper>
         </>
@@ -77,7 +97,11 @@ const PSection = styled.div`
     display : flex;
 `
 const PImgArea = styled.div`
-    margin-right : 40px;
+    width : 275px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    margin-right : 20px;
 `
 const PImg = styled.img`
     width : 235px;
@@ -87,11 +111,13 @@ const PImg = styled.img`
 const PTextArea = styled.div`
     width : 900px;
     display : flex;
-    justify-content : space-between;
+    align-items : center;
 `
 const PLeftArea = styled.div`
-    width : ${props => (props.location.pathname === env.path+'/byob') ? 'auto' : '750px'};
-    padding-top : ${props => (props.location.pathname === env.path+'/byob') ? '0px' : '26px'};
+    width : ${props => (props.location.pathname === env.path+'/byob') ? 'auto' : '100%'};
+    padding-top : ${props => (props.location.pathname === env.path+'/byob') ? '0px' : '0px'};
+    display : flex;
+    justify-content : space-between;
 `
 const PTitle = styled.div`
     font-size: 20px;
@@ -125,6 +151,7 @@ const PVideobtn = styled(Videobtn)`
 `
 const PLink = styled(Link)`
     text-decoration : none;
+    height : 36px;
 `
 const PDiscription = styled.div`
     margin-top :15px;
@@ -157,50 +184,49 @@ const MImg = styled.img`
     width : 198px;
     height : 198px;
     border-radius : 50%;
+    margin-bottom : 28px;
 `
 const MTitle = styled.div`
-    ${props => props.location.pathname === env.path+'/byob'
-    ? '' : 'margin-top : 28px'};
     font-size: 16px;
     font-weight: bold;
     text-align : center;
     white-space: pre-line;
     color: ${color.black};
     line-height: 1.5;
+    margin-bottom : 8px;
 `
 const MTime = styled.div`
-    margin-top : 8px;
     font-size: 14px;
     color: ${color.black};
-    font-weight: bold;
+    margin-bottom : 18px;
 `
 const MName = styled.div`
-    margin-top: 18px;
     font-size: 14px;
     font-weight: bold;
     color: ${color.black};
+    margin-bottom : 2px;
 `
 const MEnName = styled.div`
-    margin-top : 2px;
     font-size: 14px;
     color: ${color.brown_grey};
+    margin-bottom : 14px;
 `
 const MJop = styled.div`
-    margin : 14px 0 18px;
     font-size: 14px;
     color: ${color.black};
     white-space: pre-line;
     text-align : center;
     line-height: 1.5;
+    margin-bottom : 18px;
 `
 const MDiscription = styled.div`
     width: 100%;
     font-size: 12px;
     line-height: 1.5;
     text-align : center;
+    margin-bottom : ${props => props.location.pathname === env.path+'/byob' ? '0px': '28px' }
 `
 const MVideobtn = styled(Videobtn)`
-    margin-top : 28px;
     width : 92px;
     height : 36px;
     div {

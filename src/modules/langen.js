@@ -615,6 +615,7 @@ export const langen = {
         pl_session : {
             title : 'Plenary Session',
             contents : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
+            video_text : 'View',
             data : [
                 {
                     imgs : plsession_img_01,
@@ -2352,6 +2353,7 @@ export const langen = {
          pl_session : {
             title : 'Plenary Session',
             contents : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
+            video_text : '영상보기',
             data : [
                 {
                     imgs : plsession_img_01,
@@ -3497,7 +3499,7 @@ export const langen = {
             {
                 imgs : byob_img_03,
                 name : "WoongJo Chang",
-                jop : "- Associate Professor, Hongik University, Republic of Korea",
+                jop : "- Associate Professor, Hongik University,\nRepublic of Korea",
                 discripton : "WoongJo Chang, Ph.D., is Associate Professor in the Department of Arts and Cultural Management in Hongik University, Seoul, Korea. Before coming to Hongik University, he taught in the Arts Leadership Program in Seattle University in the state of Washington, USA. He studied performing arts at Seoul National University and earned a Ph.D. in Cultural Policy and Arts Administration from the Ohio State University. His research is focused on small arts organizations’ entrepreneurial practices and how to support them. His recent works have appeared in books and journals, such as in Arts and Cultural Management: Critical and Primary Sources, International Jounrnal of Cultural Policy and the Journal of Arts Management, and Law and Society, of which he is currently serving as a consulting editor. Chang is also a co-chair of scientific committee of Korean Society of Arts and Cultural Management."
             },
         ]
