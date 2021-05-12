@@ -653,7 +653,7 @@ export const langen = {
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : false,
                 chatlink : '1001',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -683,7 +683,7 @@ export const langen = {
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : false,
                 chatlink : '1002',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -799,7 +799,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1003',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -902,7 +902,7 @@ export const langen = {
                 video_text : 'In this session, for many psychological and mental diseases caused by modern society, we discover our egos anew and seek healing through artistic intervention to build healthy relationships with society.',
                 download : false,
                 chatlink : '1004',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -996,7 +996,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways for art education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1088,7 +1088,7 @@ export const langen = {
                 video_text : 'In this session, we seek how the importance and value of art education can influence modern society today like the "Seoul Agenda: The Objective of Arts Education Development" is clarifying.',
                 download : false,
                 chatlink : '1006',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1197,7 +1197,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through art education, and for various arts departments to continue to support students.',
                 download : false,
                 chatlink : '1007',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1297,7 +1297,7 @@ export const langen = {
                 video_text : "In this session, we seek how arts education can help communities respond creatively and empower communities in the face of today's crisis.",
                 download : false,
                 chatlink : '1008',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1414,7 +1414,7 @@ export const langen = {
                 video_text : 'Through art education, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
                 download : false,
                 chatlink : '1009',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1525,7 +1525,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1010',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1880,7 +1880,7 @@ export const langen = {
             video_text : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
             download : false,
             chatlink : '1012',
-            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {
@@ -2473,7 +2473,7 @@ export const langen = {
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : false,
                 chatlink : '1001',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -2503,7 +2503,7 @@ export const langen = {
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : false,
                 chatlink : '1002',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -2620,7 +2620,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1003',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -2723,7 +2723,7 @@ export const langen = {
                 video_text : 'In this session, for many psychological and mental diseases caused by modern society, we discover our egos anew and seek healing through artistic intervention to build healthy relationships with society.',
                 download : false,
                 chatlink : '1004',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -2817,7 +2817,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways for art education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -2909,7 +2909,7 @@ export const langen = {
                 video_text : 'In this session, we seek how the importance and value of art education can influence modern society today like the "Seoul Agenda: The Objective of Arts Education Development" is clarifying.',
                 download : false,
                 chatlink : '1006',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3018,7 +3018,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through art education, and for various arts departments to continue to support students.',
                 download : false,
                 chatlink : '1007',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3118,7 +3118,7 @@ export const langen = {
                 video_text : "In this session, we seek how arts education can help communities respond creatively and empower communities in the face of today's crisis.",
                 download : false,
                 chatlink : '1008',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3235,7 +3235,7 @@ export const langen = {
                 video_text : 'Through art education, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
                 download : false,
                 chatlink : '1009',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3346,7 +3346,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1010',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3702,7 +3702,7 @@ export const langen = {
             video_text : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
             download : false,
             chatlink : '1012',
-            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {

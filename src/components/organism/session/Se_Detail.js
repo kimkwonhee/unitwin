@@ -16,7 +16,8 @@ const Se_Detail = ({match}) => {
         curlang : state.changlang.curlang
     }))
 
-    const chatRef = useRef(null)
+    const chatPRef = useRef(null);
+    const chatMRef = useRef(null);
     
     useEffect(() => {
         window.scrollTo(0,0);
@@ -24,26 +25,30 @@ const Se_Detail = ({match}) => {
             let scrollTop = document.documentElement.scrollTop
             if (scrollTop > chatDef.scroll) {
                 var result = chatDef.height - (scrollTop - chatDef.scroll)
-                chatRef.current.style.height = result + 'px'
+                chatPRef.current.style.height = result + 'px'
             }
         }
         // Chat Scroll
         window.addEventListener('scroll', onScroll)
         return () => window.removeEventListener('scroll' , onScroll);
-    }, []);
+    }, [curlang]);
 
     // 채팅 언어 변경
     useEffect(() => {
-        var frame = chatRef.current;
-        var current = frame.contentWindow || frame.contentDocument;
+        var Pframe = chatPRef.current;
+        var Mframe = chatMRef.current;
+        var Pcurrent = Pframe.contentWindow || Pframe.contentDocument;
+        var Mcurrent = Mframe.contentWindow || Mframe.contentDocument;
 
         setTimeout(() => {
             try {
-                current.app.lang = curlang.status
+                Pcurrent.app.lang = curlang.status
+                Mcurrent.app.lang = curlang.status
             } catch(err){
                 setTimeout(() => {
                     try {
-                        current.app.lang = curlang.status
+                        Pcurrent.app.lang = curlang.status
+                        Mcurrent.app.lang = curlang.status
                     } catch(err){}
                 }, 1000);
             };
@@ -54,6 +59,7 @@ const Se_Detail = ({match}) => {
     const m_detaildata = curlang.m_data.session_detail;
 
     let pathname = match.params.se_detail
+    let langstatus = curlang.status
 
     // PC
     let P_topsection = null
@@ -74,7 +80,11 @@ const Se_Detail = ({match}) => {
     }
 
     if(pathname == '1') {
-        chatDef = { scroll: 2100, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 1980, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 2250, height: 600 }
+        }
         
         // PC
         P_topsection = <PTop title={p_detaildata.a.title} subject={p_detaildata.a.subject} time={p_detaildata.a.time} />
@@ -96,7 +106,11 @@ const Se_Detail = ({match}) => {
         M_chatlink = env.chatPath + m_detaildata.a.chatlink
     }
     else if (pathname == '2') {
-        chatDef = { scroll: 2120, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 2180, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 2450, height: 600 }
+        }
 
        // PC
        P_topsection = <PTop title={p_detaildata.b.title} subject={p_detaildata.b.subject} time={p_detaildata.b.time} />
@@ -118,7 +132,11 @@ const Se_Detail = ({match}) => {
        M_chatlink = env.chatPath + m_detaildata.b.chatlink
     }
     else if (pathname == '3') {
-        chatDef = { scroll: 2000, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 2080, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 2550, height: 600 }
+        }
 
         // PC
         P_topsection = <PTop title={p_detaildata.c.title} subject={p_detaildata.c.subject} time={p_detaildata.c.time} />
@@ -140,7 +158,11 @@ const Se_Detail = ({match}) => {
         M_chatlink = env.chatPath + m_detaildata.c.chatlink
     }
     else if (pathname == '4') {
-        chatDef = { scroll: 2500, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 2480, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 2750, height: 600 }
+        }
         
         // PC
         P_topsection = <PTop title={p_detaildata.d.title} subject={p_detaildata.d.subject} time={p_detaildata.d.time} />
@@ -162,7 +184,11 @@ const Se_Detail = ({match}) => {
         M_chatlink = env.chatPath + m_detaildata.d.chatlink
     }
     else if (pathname == '5') {
-        chatDef = { scroll: 2300, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 2280, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 2650, height: 600 }
+        }
         
         // PC
         P_topsection = <PTop title={p_detaildata.e.title} subject={p_detaildata.e.subject} time={p_detaildata.e.time} />
@@ -184,7 +210,11 @@ const Se_Detail = ({match}) => {
         M_chatlink = env.chatPath + m_detaildata.e.chatlink
     }
     else if (pathname == '6') {
-        chatDef = { scroll: 2570, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 2530, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 2900, height: 600 }
+        }
 
         // PC
         P_topsection = <PTop title={p_detaildata.f.title} subject={p_detaildata.f.subject} time={p_detaildata.f.time} />
@@ -206,7 +236,11 @@ const Se_Detail = ({match}) => {
         M_chatlink = env.chatPath + m_detaildata.f.chatlink
     }
     else if (pathname == '7') {
-        chatDef = { scroll: 2570, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 2530, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 3000, height: 600 }
+        }
         
         // PC
         P_topsection = <PTop title={p_detaildata.g.title} subject={p_detaildata.g.subject} time={p_detaildata.g.time} />
@@ -228,7 +262,11 @@ const Se_Detail = ({match}) => {
         M_chatlink = env.chatPath + m_detaildata.g.chatlink
     }
     else if (pathname == '8') {
-        chatDef = { scroll: 2090, height: 600 }
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 2030, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 2400, height: 600 }
+        }
         
         // PC
         P_topsection = <PTop title={p_detaildata.h.title} subject={p_detaildata.h.subject} time={p_detaildata.h.time} />
@@ -270,7 +308,7 @@ const Se_Detail = ({match}) => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat ref={chatRef} src={P_chatlink} />
+                                <PChat ref={chatPRef} src={P_chatlink} />
                             </PRightArea>
                         </Affix>
                     </PCenterArea>
@@ -311,7 +349,7 @@ const Se_Detail = ({match}) => {
                     <MChatArea>
                         <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
-                    <MChat ref={chatRef} src={M_chatlink} />
+                    <MChat ref={chatMRef} src={M_chatlink} />
                 </MChatSection>
             </MWrapper>
         </>
@@ -422,6 +460,7 @@ const MVideoText = styled.div`
     margin-bottom : 40px;
     font-size: 12px;
     color: var(--black);
+    word-break : keep-all;
 `
 
 const MChatSection = styled.div`
@@ -434,7 +473,7 @@ const MChatSection = styled.div`
 `
 const MChat = styled.iframe`
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: 0;
     padding: 0;
     border: 0;

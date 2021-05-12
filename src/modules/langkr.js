@@ -653,7 +653,7 @@ export const langkr = {
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : false,
                 chatlink : '1001',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -683,7 +683,7 @@ export const langkr = {
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : false,
                 chatlink : '1002',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -749,39 +749,39 @@ export const langkr = {
                     { id : 3, img : session_img_03, name : '김소원' , title : "현장사례연구 1", link : "/unitwin2021/session/1", catagory : '팬데믹'},
                     { id : 4, img : session_img_04, name : '김수연' , title : "현장사례연구 1", link : "/unitwin2021/session/1", catagory : '팬데믹'},
                     { id : 5, img : session_img_05, name : '이보람' , title : "현장사례연구 1", link : "/unitwin2021/session/1", catagory : '팬데믹'},
-                    { id : 6, img : session_img_06, name : '티나 쿠코' , title : "예술 치유" , link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
-                    { id : 7, img : session_img_07, name : '산자 크르스마노비츠 타식' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
+                    { id : 6, img : session_img_06, name : '티나 쿠코넌' , title : "예술 치유" , link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
+                    { id : 7, img : session_img_07, name : '사냐 크르스마노비츠 타시치' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 8, img : session_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 9, img : session_img_09, name : '김채연' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 10, img : session_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 11, img : session_img_42, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 12, img : session_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 15, img : session_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 16, img : session_img_17, name : '치후 룸' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 17, img : session_img_18, name : '젠 터' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 18, img : session_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 19, img : session_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 20, img : session_img_21, name : '에비 맥도날드' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 21, img : session_img_22, name : '마리클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
+                    { id : 11, img : session_img_42, name : '샬린 라젠드란' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 12, img : session_img_13, name : '난 장' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 13, img : session_img_14, name : '야라 도크래트' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 14, img : session_img_15, name : '벤저민 볼든' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 15, img : session_img_16, name : '네릴 지네렛' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 16, img : session_img_17, name : '치후 럼' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 17, img : session_img_18, name : '젠 테' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 18, img : session_img_19, name : '캐스린 콜먼' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 19, img : session_img_20, name : '마크 셀크리그' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 20, img : session_img_21, name : '애비 맥도널드' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 21, img : session_img_22, name : '메리 클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 22, img : session_img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 23, img : session_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 24, img : session_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
-                    { id : 25, img : session_img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
+                    { id : 25, img : session_img_16, name : '네릴 지네렛' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 29, img : session_img_41, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 30, img : session_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 31, img : session_img_30, name : '탄정수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 29, img : session_img_41, name : '레베카 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 30, img : session_img_29, name : '푸 세이 밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 31, img : session_img_30, name : '탄 젱 수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 33, img : session_img_31, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
+                    { id : 33, img : session_img_31, name : '루스 렌츠러' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 35, img : session_img_33, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 36, img : session_img_34, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
-                    { id : 37, img : session_img_35, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
-                    { id : 38, img : session_img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
+                    { id : 37, img : session_img_35, name : '숀 코르코란' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
+                    { id : 38, img : session_img_15, name : '벤저민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 39, img : session_img_36, name : '장수혜' , title : "현장사례연구 2", link : "/unitwin2021/session/8", catagory : '사회적예술'},
                     { id : 40, img : session_img_37, name : '공윤지' , title : "현장사례연구 2", link : "/unitwin2021/session/8", catagory : '사회적예술'},
                     { id : 41, img : session_img_38, name : '이현정' , title : "현장사례연구 2", link : "/unitwin2021/session/8", catagory : '사회적예술'},
@@ -799,7 +799,7 @@ export const langkr = {
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1003',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -902,7 +902,7 @@ export const langkr = {
                 video_text : '현대 사회가 유발하고 있는 많은 심리적‧정신적 질병에 대하여, 자아를 새롭게 발견하고, 사회와 건강하게 관계를 맺을 수 있는 치유를 예술적 개입을 통하여 모색합니다.',
                 download : false,
                 chatlink : '1004',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -994,7 +994,7 @@ export const langkr = {
                 video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1084,7 +1084,7 @@ export const langkr = {
                 video_text : '“서울 어젠다: 예술교육 발전목표”가 천명하고 있는 것처럼, 예술교육의 중요성과 가치가 오늘날 현대 사회에 어떤 영향력을 발휘할 수 있는지에 대해 모색합니다.',
                 download : false,
                 chatlink : '1006',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1193,7 +1193,7 @@ export const langkr = {
                 video_text : '팬데믹 상황 속에서 위기에 놓인 학교 및 학생들이 예술교육을 통해 회복되고, 다양한 예술 분과 교육들이 학생들을 지속적으로 지지하고 지원할 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1007',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1291,7 +1291,7 @@ export const langkr = {
                 video_text : '예술교육이 오늘날의 위기에 대항하여 지역 사회가 창조적으로 대응하고 역량을 강화할 수 있도록 도울 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1008',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1408,7 +1408,7 @@ export const langkr = {
                 video_text : '예술교육을 통해 사회에서 소외된 주체들을 드러내고 이들의 목소리를 발굴하며, 이 과정을 통해 사회를 더욱 다양하고 포용적인 공동체로 이루는 과정을 모색합니다.',
                 download : false,
                 chatlink : '1009',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1518,7 +1518,7 @@ export const langkr = {
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1010',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -1871,7 +1871,7 @@ export const langkr = {
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : false,
             chatlink : '1012',
-            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {
@@ -2098,7 +2098,7 @@ export const langkr = {
                 text2 : '13:25-13:28',
                 text3 : '래리 오패럴 ',
                 text4 : '(Larry O’ Farrell)',
-                text5 : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 퀸즈 대학교 명예교수, 캐나다',
+                text5 : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 /\n퀸즈 대학교 명예교수, 캐나다',
             },
             session4 : {
                 text1 : '기조발제 1',
@@ -2445,7 +2445,7 @@ export const langkr = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램',
+                    title : '유니트윈-문화다양성과 지속발전가능한\n예술교육 연구 프로그램',
                     time : "05.26(수) 13:00-13:40",
                     name : "베냐민 외리센 ",
                     enname : "(Benjamin Jorissen)",
@@ -2463,7 +2463,7 @@ export const langkr = {
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : false,
                 chatlink : '1001',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -2493,7 +2493,7 @@ export const langkr = {
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : false,
                 chatlink : '1002',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
@@ -2558,39 +2558,39 @@ export const langkr = {
                     { id : 3, img : session_img_03, name : '김소원' , title : "현장사례연구 1", link : "/unitwin2021/session/1", catagory : '팬데믹'},
                     { id : 4, img : session_img_04, name : '김수연' , title : "현장사례연구 1", link : "/unitwin2021/session/1", catagory : '팬데믹'},
                     { id : 5, img : session_img_05, name : '이보람' , title : "현장사례연구 1", link : "/unitwin2021/session/1", catagory : '팬데믹'},
-                    { id : 6, img : session_img_06, name : '티나 쿠코' , title : "예술 치유" , link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
-                    { id : 7, img : session_img_07, name : '산자 크르스마노비츠 타식' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
+                    { id : 6, img : session_img_06, name : '티나 쿠코넌' , title : "예술 치유" , link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
+                    { id : 7, img : session_img_07, name : '사냐 크르스마노비츠 타시치' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 8, img : session_img_08, name : '엠시 베트만' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 9, img : session_img_09, name : '김채연' , title : "예술 치유", link : "/unitwin2021/session/2", catagory : '청소년정신건강'},
                     { id : 10, img : session_img_11, name : '김태희' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 11, img : session_img_42, name : '샤를린 라헨드란' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 12, img : session_img_13, name : '난장' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 13, img : session_img_14, name : '야라 도크랏' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
-                    { id : 14, img : session_img_15, name : '벤자민 볼든' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 15, img : session_img_16, name : '네릴 제너렛' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 16, img : session_img_17, name : '치후 룸' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 17, img : session_img_18, name : '젠 터' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 18, img : session_img_19, name : '캐서린 콜만' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 19, img : session_img_20, name : '마크 셀크릭' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 20, img : session_img_21, name : '에비 맥도날드' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
-                    { id : 21, img : session_img_22, name : '마리클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
+                    { id : 11, img : session_img_42, name : '샬린 라젠드란' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 12, img : session_img_13, name : '난 장' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 13, img : session_img_14, name : '야라 도크래트' , title : "사회적 & 문화적 포용", link : "/unitwin2021/session/3", catagory : '글로벌'},
+                    { id : 14, img : session_img_15, name : '벤저민 볼든' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 15, img : session_img_16, name : '네릴 지네렛' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 16, img : session_img_17, name : '치후 럼' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 17, img : session_img_18, name : '젠 테' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 18, img : session_img_19, name : '캐스린 콜먼' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 19, img : session_img_20, name : '마크 셀크리그' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 20, img : session_img_21, name : '애비 맥도널드' , title : "서울 어젠다", link : "/unitwin2021/session/4", catagory : '지속가능성'},
+                    { id : 21, img : session_img_22, name : '메리 클레어 키덴다' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 22, img : session_img_23, name : '에밀리 맥밀런' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 23, img : session_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 24, img : session_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
-                    { id : 25, img : session_img_16, name : '네릴 제너렛' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
+                    { id : 25, img : session_img_16, name : '네릴 지네렛' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 29, img : session_img_41, name : '레베칸 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 30, img : session_img_29, name : '푸 세이밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 31, img : session_img_30, name : '탄정수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 29, img : session_img_41, name : '레베카 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 30, img : session_img_29, name : '푸 세이 밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 31, img : session_img_30, name : '탄 젱 수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 33, img : session_img_31, name : '루스 렌슬러' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
+                    { id : 33, img : session_img_31, name : '루스 렌츠러' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 35, img : session_img_33, name : '김유리' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 36, img : session_img_34, name : '박소정' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
-                    { id : 37, img : session_img_35, name : '션 코코란' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
-                    { id : 38, img : session_img_15, name : '벤자민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
+                    { id : 37, img : session_img_35, name : '숀 코르코란' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
+                    { id : 38, img : session_img_15, name : '벤저민 볼든' , title : "다양성 & 문화적 묘사", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 39, img : session_img_36, name : '장수혜' , title : "현장사례연구 2", link : "/unitwin2021/session/8", catagory : '사회적예술'},
                     { id : 40, img : session_img_37, name : '공윤지' , title : "현장사례연구 2", link : "/unitwin2021/session/8", catagory : '사회적예술'},
                     { id : 41, img : session_img_38, name : '이현정' , title : "현장사례연구 2", link : "/unitwin2021/session/8", catagory : '사회적예술'},
@@ -2609,7 +2609,7 @@ export const langkr = {
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1003',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -2712,7 +2712,7 @@ export const langkr = {
                 video_text : '현대 사회가 유발하고 있는 많은 심리적‧정신적 질병에 대하여, 자아를 새롭게 발견하고, 사회와 건강하게 관계를 맺을 수 있는 치유를 예술적 개입을 통하여 모색합니다.',
                 download : false,
                 chatlink : '1004',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -2804,7 +2804,7 @@ export const langkr = {
                 video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -2894,7 +2894,7 @@ export const langkr = {
                 video_text : '“서울 어젠다: 예술교육 발전목표”가 천명하고 있는 것처럼, 예술교육의 중요성과 가치가 오늘날 현대 사회에 어떤 영향력을 발휘할 수 있는지에 대해 모색합니다.',
                 download : false,
                 chatlink : '1006',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3003,7 +3003,7 @@ export const langkr = {
                 video_text : '팬데믹 상황 속에서 위기에 놓인 학교 및 학생들이 예술교육을 통해 회복되고, 다양한 예술 분과 교육들이 학생들을 지속적으로 지지하고 지원할 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1007',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3101,7 +3101,7 @@ export const langkr = {
                 video_text : '예술교육이 오늘날의 위기에 대항하여 지역 사회가 창조적으로 대응하고 역량을 강화할 수 있도록 도울 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1008',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3218,7 +3218,7 @@ export const langkr = {
                 video_text : '예술교육을 통해 사회에서 소외된 주체들을 드러내고 이들의 목소리를 발굴하며, 이 과정을 통해 사회를 더욱 다양하고 포용적인 공동체로 이루는 과정을 모색합니다.',
                 download : false,
                 chatlink : '1009',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3328,7 +3328,7 @@ export const langkr = {
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
                 chatlink : '1010',
-                youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
                 list : [
                     {
                         moder : '',
@@ -3682,7 +3682,7 @@ export const langkr = {
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : false,
             chatlink : '1012',
-            youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+            youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
                 {

@@ -151,6 +151,7 @@ const MListtitle = styled.div`
     text-align : center;
     color: ${color.black};
     white-space : pre-line;
+    word-break : keep-all;
 `
 const MContents = styled.div`
     margin-top : 18px;
@@ -158,6 +159,7 @@ const MContents = styled.div`
     color: ${color.black};
     text-align : center;
     white-space : pre-line;
+    word-break : keep-all;
 `
 
 export default ListSession
