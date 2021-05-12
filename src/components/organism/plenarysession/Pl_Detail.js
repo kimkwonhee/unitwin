@@ -9,6 +9,7 @@ import Downloadbtn from '../../atom/Downloadbtn'
 import { useSelector } from 'react-redux'
 import color from '../../../style/color'
 import { Affix } from 'antd'
+import env from '../../../modules/env'
 
 const Pl_Detail = ({match}) => {
     
@@ -16,18 +17,43 @@ const Pl_Detail = ({match}) => {
         curlang : state.changlang.curlang
     }))
 
+    const chatPRef = useRef(null);
+    const chatMRef = useRef(null);
+
     useEffect(() => {
         window.scrollTo(0,0);
         const onScroll = () => {
             let scrollTop = document.documentElement.scrollTop
             if (scrollTop > chatDef.scroll) {
                 var result = chatDef.height - (scrollTop - chatDef.scroll)
-                chatRef.current.style.height = result + 'px'
+                chatPRef.current.style.height = result + 'px'
             }
         }
         // Chat Scroll
         window.addEventListener('scroll', onScroll)
         return () => window.removeEventListener('scroll' , onScroll);
+    }, [curlang]);
+
+    // 채팅 언어 변경
+    useEffect(() => {
+        var Pframe = chatPRef.current;
+        var Mframe = chatMRef.current;
+        var Pcurrent = Pframe.contentWindow || Pframe.contentDocument;
+        var Mcurrent = Mframe.contentWindow || Mframe.contentDocument;
+
+        setTimeout(() => {
+            try {
+                Pcurrent.app.lang = curlang.status
+                Mcurrent.app.lang = curlang.status
+            } catch(err){
+                setTimeout(() => {
+                    try {
+                        Pcurrent.app.lang = curlang.status
+                        Mcurrent.app.lang = curlang.status
+                    } catch(err){}
+                }, 1000);
+            };
+        }, 10);
     }, [curlang]);
 
     const p_detaildata = curlang.p_data.pl_session_detail;
@@ -51,7 +77,7 @@ const Pl_Detail = ({match}) => {
     let M_chatlink = null
     let M_download_link = null
 
-    const chatRef = useRef(null)
+    
     let chatDef = {
         scroll: 1150,
         height: 600
@@ -83,8 +109,8 @@ const Pl_Detail = ({match}) => {
         M_downbtn = m_detaildata.wagner_part.download
         M_download_link = m_detaildata.wagner_part.downlink
 
-        P_chatlink = p_detaildata.wagner_part.chatlink
-        M_chatlink = m_detaildata.wagner_part.chatlink
+        P_chatlink = env.chatPath + p_detaildata.wagner_part.chatlink
+        M_chatlink = env.chatPath + m_detaildata.wagner_part.chatlink
         
     }
     else if (pathname == '2') {
@@ -112,8 +138,8 @@ const Pl_Detail = ({match}) => {
         M_downbtn = m_detaildata.jorissen_part.download
         M_download_link = m_detaildata.jorissen_part.downlink
 
-        P_chatlink = p_detaildata.jorissen_part.chatlink
-        M_chatlink = m_detaildata.jorissen_part.chatlink
+        P_chatlink = env.chatPath + p_detaildata.jorissen_part.chatlink
+        M_chatlink = env.chatPath + m_detaildata.jorissen_part.chatlink
     }
 
     const [status, setStatus]  = useState('discription');
@@ -136,7 +162,7 @@ const Pl_Detail = ({match}) => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat ref={chatRef} src={P_chatlink} />
+                                <PChat ref={chatPRef} src={P_chatlink} />
                             </PRightArea>
                         </Affix>
                         
@@ -184,7 +210,7 @@ const Pl_Detail = ({match}) => {
                     <MChatArea>
                         <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
-                    <MChat src={M_chatlink} />
+                    <MChat ref={chatMRef} src={M_chatlink} />
                 </MChatSection>
             </MWrapper>
         </>
