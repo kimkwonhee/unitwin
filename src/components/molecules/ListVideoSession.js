@@ -56,6 +56,7 @@ const PDescription = styled.div`
      font-size: 16px;
      font-weight: 500;
      color: ${color.black};
+     word-break : keep-all;
 `
 const PDownlodebtn = styled(Downloadbtn)`
 `

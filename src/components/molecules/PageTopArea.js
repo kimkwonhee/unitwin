@@ -145,12 +145,14 @@ const MTopContents = styled.div`
     white-space: pre-line;
     color: ${color.black};
     margin-top : 12px;
+    word-break : keep-all;
 `
 const MSubContents = styled.div`
     margin-top : 16px;
     font-size: 10px;
     color: ${color.black};
     white-space: pre-line;
+    word-break : keep-all;
 `
 const MUnitwinbtn = styled(Unitwinbtn)`
     margin-top : 16px;

@@ -61,6 +61,8 @@ const PText = styled.div`
 // Mobile
 const MWrapper = styled.a`
     cursor: pointer;
+    width : ${props => (props.status === 'kr') ? '146px' : '220px'};
+    height : 36px;
     display : ${props => props.down ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;

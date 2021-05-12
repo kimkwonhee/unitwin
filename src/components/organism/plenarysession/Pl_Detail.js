@@ -338,6 +338,7 @@ const MVideoText = styled.div`
     margin-bottom : 24px;
     font-size: 12px;
     color: ${color.black};
+    word-break : keep-all;
 `
 const MDownlodebtn = styled(Downloadbtn)`
     width : ${props => (props.status === 'kr') ? '146px' : '220px'};
@@ -347,7 +348,7 @@ const MDownlodebtn = styled(Downloadbtn)`
 
 const MChat = styled.iframe`
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: 0;
     padding: 0;
     border: 0;

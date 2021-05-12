@@ -15,11 +15,9 @@ const _Closing = () => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
-    const chatRef = useRef(null)
-    const chatDef = {
-        scroll: 3400,
-        height: 600
-    }
+
+    const chatPRef = useRef(null);
+    const chatMRef = useRef(null);
 
     useEffect(() => {
         window.scrollTo(0,0);
@@ -27,16 +25,51 @@ const _Closing = () => {
             let scrollTop = document.documentElement.scrollTop
             if (scrollTop > chatDef.scroll) {
                 var result = chatDef.height - (scrollTop - chatDef.scroll)
-                chatRef.current.style.height = result + 'px'
+                chatPRef.current.style.height = result + 'px'
             }
         }
         // Chat Scroll
         window.addEventListener('scroll', onScroll)
         return () => window.removeEventListener('scroll' , onScroll);
-    }, []);
+    }, [curlang]);
+
+    // 채팅 언어 변경
+    useEffect(() => {
+        var Pframe = chatPRef.current;
+        var Mframe = chatMRef.current;
+        var Pcurrent = Pframe.contentWindow || Pframe.contentDocument;
+        var Mcurrent = Mframe.contentWindow || Mframe.contentDocument;
+
+        setTimeout(() => {
+            try {
+                Pcurrent.app.lang = curlang.status
+                Mcurrent.app.lang = curlang.status
+            } catch(err){
+                setTimeout(() => {
+                    try {
+                        Pcurrent.app.lang = curlang.status
+                        Mcurrent.app.lang = curlang.status
+                    } catch(err){}
+                }, 1000);
+            };
+        }, 10);
+    }, [curlang]);
 
     const p_detaildata = curlang.p_data.closing;
     const m_detaildata = curlang.m_data.closing;
+
+    let langstatus = curlang.status
+    let chatDef = {
+        scroll: 0,
+        height: 0
+    }
+
+    if(langstatus === 'kr') {
+        chatDef = { scroll: 2500, height: 600 }
+    } else if (langstatus === 'en') {
+        chatDef = { scroll: 2950, height: 600 }
+    }
+
 
     const [status, setStatus]  = useState('discription');
 
@@ -67,7 +100,7 @@ const _Closing = () => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat ref={chatRef} src={p_detaildata.chatlink} />
+                                <PChat ref={chatPRef} src={env.chatPath + p_detaildata.chatlink} />
                             </PRightArea>
                         </Affix> 
                     </PCenterArea>
@@ -116,7 +149,7 @@ const _Closing = () => {
                     <MChatArea>
                         <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
-                    <MChat src={m_detaildata.chatlink} />
+                    <MChat ref={chatMRef} src={env.chatPath + m_detaildata.chatlink} />
                 </MChatSection>
             </MWrapper>
         </>
@@ -247,7 +280,7 @@ const MSection = styled(ListSession)`
 `
 const MChat = styled.iframe`
     width: 100%;
-    height: 500px;
+    height: 600px;
     margin: 0;
     padding: 0;
     border: 0;

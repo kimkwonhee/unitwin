@@ -21,6 +21,7 @@ const ListSession_Se = ({className, data}) => {
                         <PTitle>{list.li_title}</PTitle>
                         <PInner>
                             {list.li_data.map(data => {
+                                
                                 return <PItemInner>
                                     <PImgblock>
                                         <PImg src={data.imgs} alt={data.name} />     
@@ -28,7 +29,7 @@ const ListSession_Se = ({className, data}) => {
                                     <PTextblock>
                                         <PName>{data.name}<PEnName>{data.enname}</PEnName></PName>
                                         <PListtitle>{data.job}</PListtitle>
-                                        <PContents>{data.contents}</PContents>
+                                        <PContents dangerouslySetInnerHTML={ {__html: data.contents} } />
                                         <PDownlodebtn 
                                             downlink={data.downlink} 
                                             down={data.download} 
@@ -61,7 +62,7 @@ const ListSession_Se = ({className, data}) => {
                                         <MName>{data.name}</MName>
                                         <MEnName>{data.enname}</MEnName>
                                         <MListtitle>{data.job}</MListtitle>
-                                        <MContents>{data.contents}</MContents>
+                                        <MContents dangerouslySetInnerHTML={ {__html: data.contents} } />
                                         <MDownlodebtn 
                                             downlink={data.downlink}
                                             down={data.download} 
@@ -107,6 +108,7 @@ const PTitle = styled.div`
     white-space: pre-line;
     color: ${color.black};
     margin-bottom : 20px;
+    word-break : keep-all;
 `
 const PImgblock = styled.div`
     margin-right : 40px;
@@ -132,8 +134,8 @@ const PName = styled.div`
 `
 const PEnName = styled.span`
     font-size: 16px;
-    font-weight: bold;
-    color: ${color.black};
+    font-weight: normal;
+    color: ${color.brown_grey};
 `
 const PListtitle = styled.div`
     padding-top : 8px;
@@ -146,6 +148,7 @@ const PContents = styled.div`
     font-size: 12px;
     white-space: pre-line;
     color: ${color.black};
+    word-break : keep-all;
 `
 const PDownlodebtn = styled(Downloadbtn)`
 `
@@ -220,6 +223,8 @@ const MContents = styled.div`
     font-size: 12px;
     color: ${color.black};
     text-align : center;
+    white-space : pre-line;
+    word-break : keep-all;
 `
 
 const MDownlodebtn = styled(Downloadbtn)`
