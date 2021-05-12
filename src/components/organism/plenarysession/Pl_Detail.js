@@ -9,6 +9,7 @@ import Downloadbtn from '../../atom/Downloadbtn'
 import { useSelector } from 'react-redux'
 import color from '../../../style/color'
 import { Affix } from 'antd'
+import env from '../../../modules/env'
 
 const Pl_Detail = ({match}) => {
     
@@ -28,6 +29,24 @@ const Pl_Detail = ({match}) => {
         // Chat Scroll
         window.addEventListener('scroll', onScroll)
         return () => window.removeEventListener('scroll' , onScroll);
+    }, [curlang]);
+
+    // 채팅 언어 변경
+    useEffect(() => {
+        var frame = chatRef.current;
+        var current = frame.contentWindow || frame.contentDocument;
+
+        setTimeout(() => {
+            try {
+                current.app.lang = curlang.status
+            } catch(err){
+                setTimeout(() => {
+                    try {
+                        current.app.lang = curlang.status
+                    } catch(err){}
+                }, 1000);
+            };
+        }, 10);
     }, [curlang]);
 
     const p_detaildata = curlang.p_data.pl_session_detail;
@@ -83,8 +102,8 @@ const Pl_Detail = ({match}) => {
         M_downbtn = m_detaildata.wagner_part.download
         M_download_link = m_detaildata.wagner_part.downlink
 
-        P_chatlink = p_detaildata.wagner_part.chatlink
-        M_chatlink = m_detaildata.wagner_part.chatlink
+        P_chatlink = env.chatPath + p_detaildata.wagner_part.chatlink
+        M_chatlink = env.chatPath + m_detaildata.wagner_part.chatlink
         
     }
     else if (pathname == '2') {
@@ -112,8 +131,8 @@ const Pl_Detail = ({match}) => {
         M_downbtn = m_detaildata.jorissen_part.download
         M_download_link = m_detaildata.jorissen_part.downlink
 
-        P_chatlink = p_detaildata.jorissen_part.chatlink
-        M_chatlink = m_detaildata.jorissen_part.chatlink
+        P_chatlink = env.chatPath + p_detaildata.jorissen_part.chatlink
+        M_chatlink = env.chatPath + m_detaildata.jorissen_part.chatlink
     }
 
     const [status, setStatus]  = useState('discription');
@@ -184,7 +203,7 @@ const Pl_Detail = ({match}) => {
                     <MChatArea>
                         <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
-                    <MChat src={M_chatlink} />
+                    <MChat ref={chatRef} src={M_chatlink} />
                 </MChatSection>
             </MWrapper>
         </>
