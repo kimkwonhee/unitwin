@@ -35,7 +35,8 @@ var app = new Vue({
             }
         },
         timer: 3000,
-        isTyping: false
+        isTyping: false,
+        lang: 'kr'
     },
     computed: {
         content: function() {
@@ -48,7 +49,7 @@ var app = new Vue({
 
         placeholder: function() {
             var result = this.label.en.placeholder;
-            if (this.fb.def.lang == 'kr') result = this.label.kr.placeholder;
+            if (this.lang == 'kr') result = this.label.kr.placeholder;
             return result;
         }
     },
@@ -81,7 +82,7 @@ var app = new Vue({
             if (type) {
                 // 관리자 표시
                 result = this.label.en.name;
-                if (this.fb.def.lang == 'kr') result = this.label.kr.name;
+                if (this.lang == 'kr') result = this.label.kr.name;
 
                 // Time (Margin)
                 setTimeout(function() {
