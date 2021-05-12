@@ -86,6 +86,11 @@ const Home_day2 = () => {
                                 <PRightName>{p_detaildata.session2.text17}</PRightName>
                                 <PRightJop>{p_detaildata.session2.text18}</PRightJop>
                             </PRightSection>
+                            <PRightSection>
+                                <PRightModer>{p_detaildata.session2.text19}</PRightModer>
+                                <PRightName>{p_detaildata.session2.text20}</PRightName>
+                                <PRightJop>{p_detaildata.session2.text21}</PRightJop>
+                            </PRightSection>
                         </PRightInner>
                     </PRight>
                 </PSection>
@@ -301,6 +306,11 @@ const Home_day2 = () => {
                                         <MRightTitle>{m_detaildata.session2.text16}</MRightTitle>
                                         <MRightName>{m_detaildata.session2.text17}</MRightName>
                                         <MRightJop>{m_detaildata.session2.text18}</MRightJop>
+                                    </MRightSection>
+                                    <MRightSection>
+                                        <MRightModer>{m_detaildata.session2.text19}</MRightModer>
+                                        <MRightName>{m_detaildata.session2.text20}</MRightName>
+                                        <MRightJop>{m_detaildata.session2.text21}</MRightJop>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
