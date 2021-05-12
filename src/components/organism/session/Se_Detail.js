@@ -8,6 +8,7 @@ import mobileviewbtn from '../../atom/mobileviewbtn'
 import { useSelector } from 'react-redux'
 import color from '../../../style/color'
 import { Affix } from 'antd'
+import env from '../../../modules/env'
 
 const Se_Detail = ({match}) => {
 
@@ -17,8 +18,6 @@ const Se_Detail = ({match}) => {
 
     const chatRef = useRef(null)
     
-    
-
     useEffect(() => {
         window.scrollTo(0,0);
         const onScroll = () => {
@@ -32,6 +31,24 @@ const Se_Detail = ({match}) => {
         window.addEventListener('scroll', onScroll)
         return () => window.removeEventListener('scroll' , onScroll);
     }, []);
+
+    // 채팅 언어 변경
+    useEffect(() => {
+        var frame = chatRef.current;
+        var current = frame.contentWindow || frame.contentDocument;
+
+        setTimeout(() => {
+            try {
+                current.app.lang = curlang.status
+            } catch(err){
+                setTimeout(() => {
+                    try {
+                        current.app.lang = curlang.status
+                    } catch(err){}
+                }, 1000);
+            };
+        }, 10);
+    }, [curlang]);
 
     const p_detaildata = curlang.p_data.session_detail;
     const m_detaildata = curlang.m_data.session_detail;
@@ -66,7 +83,7 @@ const Se_Detail = ({match}) => {
                             youtube={p_detaildata.a.youtube}
                             />
         P_contentsection = <PSection data={p_detaildata.a.list} />
-        P_chatlink = p_detaildata.a.chatlink
+        P_chatlink = env.chatPath + p_detaildata.a.chatlink
         
         // mobile
         M_topsection = <MTop title={m_detaildata.a.title} subject={m_detaildata.a.subject} time={m_detaildata.a.time} />
@@ -76,7 +93,7 @@ const Se_Detail = ({match}) => {
                             />
         M_contentsection = <MSection data={m_detaildata.a.list} />
         M_videotext = m_detaildata.a.video_text
-        M_chatlink = m_detaildata.a.chatlink
+        M_chatlink = env.chatPath + m_detaildata.a.chatlink
     }
     else if (pathname == '2') {
         chatDef = { scroll: 2120, height: 600 }
@@ -88,7 +105,7 @@ const Se_Detail = ({match}) => {
                            youtube={p_detaildata.b.youtube}
                            />
        P_contentsection = <PSection data={p_detaildata.b.list} />
-       P_chatlink = p_detaildata.b.chatlink
+       P_chatlink = env.chatPath + p_detaildata.b.chatlink
        
        // mobile
        M_topsection = <MTop title={m_detaildata.b.title} subject={m_detaildata.b.subject} time={m_detaildata.b.time} />
@@ -98,7 +115,7 @@ const Se_Detail = ({match}) => {
                            />
        M_contentsection = <MSection data={m_detaildata.b.list} />
        M_videotext = m_detaildata.b.video_text
-       M_chatlink = m_detaildata.b.chatlink
+       M_chatlink = env.chatPath + m_detaildata.b.chatlink
     }
     else if (pathname == '3') {
         chatDef = { scroll: 2000, height: 600 }
@@ -110,7 +127,7 @@ const Se_Detail = ({match}) => {
                             youtube={p_detaildata.c.youtube}
                             />
         P_contentsection = <PSection data={p_detaildata.c.list} />
-        P_chatlink = p_detaildata.c.chatlink
+        P_chatlink = env.chatPath + p_detaildata.c.chatlink
         
         // mobile
         M_topsection = <MTop title={m_detaildata.c.title} subject={m_detaildata.c.subject} time={m_detaildata.c.time} />
@@ -120,7 +137,7 @@ const Se_Detail = ({match}) => {
                             />
         M_contentsection = <MSection data={m_detaildata.c.list} />
         M_videotext = m_detaildata.c.video_text
-        M_chatlink = m_detaildata.c.chatlink
+        M_chatlink = env.chatPath + m_detaildata.c.chatlink
     }
     else if (pathname == '4') {
         chatDef = { scroll: 2500, height: 600 }
@@ -132,7 +149,7 @@ const Se_Detail = ({match}) => {
                             youtube={p_detaildata.d.youtube}
                             />
         P_contentsection = <PSection data={p_detaildata.d.list} />
-        P_chatlink = p_detaildata.d.chatlink
+        P_chatlink = env.chatPath + p_detaildata.d.chatlink
         
         // mobile
         M_topsection = <MTop title={m_detaildata.d.title} subject={m_detaildata.d.subject} time={m_detaildata.d.time} />
@@ -142,7 +159,7 @@ const Se_Detail = ({match}) => {
                             />
         M_contentsection = <MSection data={m_detaildata.d.list} />
         M_videotext = m_detaildata.d.video_text
-        M_chatlink = m_detaildata.d.chatlink
+        M_chatlink = env.chatPath + m_detaildata.d.chatlink
     }
     else if (pathname == '5') {
         chatDef = { scroll: 2300, height: 600 }
@@ -154,7 +171,7 @@ const Se_Detail = ({match}) => {
                             youtube={p_detaildata.e.youtube}
                             />
         P_contentsection = <PSection data={p_detaildata.e.list} />
-        P_chatlink = p_detaildata.e.chatlink
+        P_chatlink = env.chatPath + p_detaildata.e.chatlink
         
         // mobile
         M_topsection = <MTop title={m_detaildata.e.title} subject={m_detaildata.e.subject} time={m_detaildata.e.time} />
@@ -164,7 +181,7 @@ const Se_Detail = ({match}) => {
                             />
         M_contentsection = <MSection data={m_detaildata.e.list} />
         M_videotext = m_detaildata.e.video_text
-        M_chatlink = m_detaildata.e.chatlink
+        M_chatlink = env.chatPath + m_detaildata.e.chatlink
     }
     else if (pathname == '6') {
         chatDef = { scroll: 2570, height: 600 }
@@ -176,7 +193,7 @@ const Se_Detail = ({match}) => {
                             youtube={p_detaildata.f.youtube}
                             />
         P_contentsection = <PSection data={p_detaildata.f.list} />
-        P_chatlink = p_detaildata.f.chatlink
+        P_chatlink = env.chatPath + p_detaildata.f.chatlink
         
         // mobile
         M_topsection = <MTop title={m_detaildata.f.title} subject={m_detaildata.f.subject} time={m_detaildata.f.time} />
@@ -186,7 +203,7 @@ const Se_Detail = ({match}) => {
                             />
         M_contentsection = <MSection data={m_detaildata.f.list} />
         M_videotext = m_detaildata.f.video_text
-        M_chatlink = m_detaildata.f.chatlink
+        M_chatlink = env.chatPath + m_detaildata.f.chatlink
     }
     else if (pathname == '7') {
         chatDef = { scroll: 2570, height: 600 }
@@ -198,7 +215,7 @@ const Se_Detail = ({match}) => {
                             youtube={p_detaildata.g.youtube}
                             />
         P_contentsection = <PSection data={p_detaildata.g.list} />
-        P_chatlink = p_detaildata.g.chatlink
+        P_chatlink = env.chatPath + p_detaildata.g.chatlink
         
         // mobile
         M_topsection = <MTop title={m_detaildata.g.title} subject={m_detaildata.g.subject} time={m_detaildata.g.time} />
@@ -208,7 +225,7 @@ const Se_Detail = ({match}) => {
                             />
         M_contentsection = <MSection data={m_detaildata.g.list} />
         M_videotext = m_detaildata.g.video_text
-        M_chatlink = m_detaildata.g.chatlink
+        M_chatlink = env.chatPath + m_detaildata.g.chatlink
     }
     else if (pathname == '8') {
         chatDef = { scroll: 2090, height: 600 }
@@ -220,7 +237,7 @@ const Se_Detail = ({match}) => {
                             youtube={p_detaildata.h.youtube}
                             />
         P_contentsection = <PSection data={p_detaildata.h.list} />
-        P_chatlink = p_detaildata.h.chatlink
+        P_chatlink = env.chatPath + p_detaildata.h.chatlink
         
         // mobile
         M_topsection = <MTop title={m_detaildata.h.title} subject={m_detaildata.h.subject} time={m_detaildata.h.time} />
@@ -230,7 +247,7 @@ const Se_Detail = ({match}) => {
                             />
         M_contentsection = <MSection data={m_detaildata.h.list} />
         M_videotext = m_detaildata.h.video_text
-        M_chatlink = m_detaildata.h.chatlink
+        M_chatlink = env.chatPath + m_detaildata.h.chatlink
     }
 
     const [status, setStatus]  = useState('discription');
@@ -247,7 +264,7 @@ const Se_Detail = ({match}) => {
                                 {P_contentsection}
                             </PContentsArea>
                         </PLeftArea>
-                        {/* <Affix offsetTop={100}>
+                        <Affix offsetTop={100}>
                             <PRightArea>
                                 <PChatLine />
                                 <PChatArea>
@@ -255,7 +272,7 @@ const Se_Detail = ({match}) => {
                                 </PChatArea>
                                 <PChat ref={chatRef} src={P_chatlink} />
                             </PRightArea>
-                        </Affix> */}
+                        </Affix>
                     </PCenterArea>
                 </PInner>
             </PWrapper>

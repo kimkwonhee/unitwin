@@ -652,7 +652,7 @@ export const langkr = {
                 time : '05.25(화) 13:00~13:40',
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : true,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
+                chatlink : '1001',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
@@ -681,7 +681,7 @@ export const langkr = {
                 time : '05.26(수) 13:40~15:10',
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : true,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
+                chatlink : '1002',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
@@ -797,7 +797,7 @@ export const langkr = {
                 time : '05.25(화) 13:40~15:00',
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1003&l=kr',
+                chatlink : '1003',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -899,7 +899,7 @@ export const langkr = {
                 time : '05.25(화) 15:00~16:30',
                 video_text : '현대 사회가 유발하고 있는 많은 심리적‧정신적 질병에 대하여, 자아를 새롭게 발견하고, 사회와 건강하게 관계를 맺을 수 있는 치유를 예술적 개입을 통하여 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1004&l=kr',
+                chatlink : '1004',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -985,7 +985,7 @@ export const langkr = {
                 time : '05.25(화) 15:00~16:30',
                 video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1005&l=kr',
+                chatlink : '1005',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -1071,7 +1071,7 @@ export const langkr = {
                 time : '05.25(화) 16:30~17:50',
                 video_text : '“서울 어젠다: 예술교육 발전목표”가 천명하고 있는 것처럼, 예술교육의 중요성과 가치가 오늘날 현대 사회에 어떤 영향력을 발휘할 수 있는지에 대해 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1006&l=kr',
+                chatlink : '1006',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -1178,7 +1178,7 @@ export const langkr = {
                 time : '05.26(수) 13:40~15:15',
                 video_text : '판데믹 상황 속에서 위기에 놓인 학교 및 학생들이 예술교육을 통해 회복되고, 다양한 예술 분과 교육들이 학생들을 지속적으로 지지하고 지원할 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1007&l=kr',
+                chatlink : '1007',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -1273,7 +1273,7 @@ export const langkr = {
                 time : '05.26(수) 15:15~17:05',
                 video_text : '예술교육이 오늘날의 위기에 대항하여 지역 사회가 창조적으로 대응하고 역량을 강화할 수 있도록 도울 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1008&l=kr',
+                chatlink : '1008',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -1386,7 +1386,7 @@ export const langkr = {
                 time : '05.26(수) 15:15~16:55',
                 video_text : '예술교육을 통해 사회에서 소외된 주체들을 드러내고 이들의 목소리를 발굴하며, 이 과정을 통해 사회를 더욱 다양하고 포용적인 공동체로 이루는 과정을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1009&l=kr',
+                chatlink : '1009',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -1841,7 +1841,7 @@ export const langkr = {
             time : '05.26(수) 18:25~19:25',
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : true,
-            chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1012&l=kr',
+            chatlink : '1012',
             youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
@@ -2458,7 +2458,7 @@ export const langkr = {
                 time : '05.25(화) 13:00~13:40',
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : true,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
+                chatlink : '1001',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
@@ -2487,7 +2487,7 @@ export const langkr = {
                 time : '05.26(수) 13:40~15:10',
                 video_text : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
                 download : true,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
+                chatlink : '1002',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
@@ -2603,7 +2603,7 @@ export const langkr = {
                 time : '05.25(화) 13:40~15:00',
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1003&l=kr',
+                chatlink : '1003',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -2705,7 +2705,7 @@ export const langkr = {
                 time : '05.25(화) 15:00~16:30',
                 video_text : '현대 사회가 유발하고 있는 많은 심리적‧정신적 질병에 대하여, 자아를 새롭게 발견하고, 사회와 건강하게 관계를 맺을 수 있는 치유를 예술적 개입을 통하여 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1004&l=kr',
+                chatlink : '1004',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -2791,7 +2791,7 @@ export const langkr = {
                 time : '05.25(화) 15:00~16:30',
                 video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1005&l=kr',
+                chatlink : '1005',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -2877,7 +2877,7 @@ export const langkr = {
                 time : '05.25(화) 16:30~17:50',
                 video_text : '“서울 어젠다: 예술교육 발전목표”가 천명하고 있는 것처럼, 예술교육의 중요성과 가치가 오늘날 현대 사회에 어떤 영향력을 발휘할 수 있는지에 대해 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1006&l=kr',
+                chatlink : '1006',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -2984,7 +2984,7 @@ export const langkr = {
                 time : '05.26(수) 13:40~15:15',
                 video_text : '판데믹 상황 속에서 위기에 놓인 학교 및 학생들이 예술교육을 통해 회복되고, 다양한 예술 분과 교육들이 학생들을 지속적으로 지지하고 지원할 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1007&l=kr',
+                chatlink : '1007',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -3079,7 +3079,7 @@ export const langkr = {
                 time : '05.26(수) 15:15~17:05',
                 video_text : '예술교육이 오늘날의 위기에 대항하여 지역 사회가 창조적으로 대응하고 역량을 강화할 수 있도록 도울 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1008&l=kr',
+                chatlink : '1008',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -3192,7 +3192,7 @@ export const langkr = {
                 time : '05.26(수) 15:15~16:55',
                 video_text : '예술교육을 통해 사회에서 소외된 주체들을 드러내고 이들의 목소리를 발굴하며, 이 과정을 통해 사회를 더욱 다양하고 포용적인 공동체로 이루는 과정을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1009&l=kr',
+                chatlink : '1009',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -3296,7 +3296,7 @@ export const langkr = {
                 time : '05.26(수) 17:05~18:25',
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1010&l=kr',
+                chatlink : '1010',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -3648,7 +3648,7 @@ export const langkr = {
             time : '05.26(수) 18:25~19:25',
             video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
             download : true,
-            chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1012&l=kr',
+            chatlink : '1012',
             youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
             list : [
