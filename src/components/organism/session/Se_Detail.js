@@ -17,8 +17,6 @@ const Se_Detail = ({match}) => {
 
     const chatRef = useRef(null)
     
-    
-
     useEffect(() => {
         window.scrollTo(0,0);
         const onScroll = () => {
@@ -32,6 +30,7 @@ const Se_Detail = ({match}) => {
         window.addEventListener('scroll', onScroll)
         return () => window.removeEventListener('scroll' , onScroll);
     }, []);
+
 
     const p_detaildata = curlang.p_data.session_detail;
     const m_detaildata = curlang.m_data.session_detail;
@@ -247,7 +246,7 @@ const Se_Detail = ({match}) => {
                                 {P_contentsection}
                             </PContentsArea>
                         </PLeftArea>
-                        {/* <Affix offsetTop={100}>
+                        <Affix offsetTop={100}>
                             <PRightArea>
                                 <PChatLine />
                                 <PChatArea>
@@ -255,7 +254,9 @@ const Se_Detail = ({match}) => {
                                 </PChatArea>
                                 <PChat ref={chatRef} src={P_chatlink} />
                             </PRightArea>
-                        </Affix> */}
+                        </Affix>
+
+
                     </PCenterArea>
                 </PInner>
             </PWrapper>
