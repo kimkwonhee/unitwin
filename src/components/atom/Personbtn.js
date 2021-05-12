@@ -20,7 +20,7 @@ const Personbtn = ({className, src, name, title}) => {
                     onMouseEnter={(e) => setHovered(true)}
                     onMouseLeave={(e) => setHovered(false)}
                     title={title}
-                    onClick={e=> alert('준비중입니다.')}>
+                    >
                         <PWHover src={src} alt={name}>
                             <Fade 
                             duration={1000}
@@ -40,12 +40,10 @@ const Personbtn = ({className, src, name, title}) => {
             
             {/* mobile */}
             <MWrapper className={className}>
-                <MPrsImg src={src} alt={name} title={title} onClick={e=> alert('준비중입니다.')}/>
-                {/* <MTextArea> */}
-                    <MName>{name}</MName>
-                    <MTitle>{title}</MTitle>
-                    <MVideo>{curlang.m_data.videobtn}</MVideo>
-                {/* </MTextArea> */}
+                <MPrsImg src={src} alt={name} title={title} />
+                <MName>{name}</MName>
+                <MTitle>{title}</MTitle>
+                <MVideo>{curlang.m_data.videobtn}</MVideo>
             </MWrapper>   
         </>
        
@@ -104,7 +102,6 @@ const PWTitleTxt = styled.p`
     margin-bottom: 0;
     word-break : keep-all;
 `
-
 const PWLinkTxt = styled.p`
     margin-top: 6px;
     font-size: 14px;
@@ -112,16 +109,6 @@ const PWLinkTxt = styled.p`
     margin-bottom : 0px;
     color: ${color.white};
 `
-
-const PWLine = styled.div`
-    width: 100%;
-    height: 2px;
-    background-color: #fffa7d;
-    position: absolute;
-    bottom: 30%;
-    left: 0;
-`
-
 const PPrsImg = styled.div`
     width : 300px;
     height : 300px;
@@ -158,9 +145,6 @@ const MPrsImg = styled.div`
     border-radius : 50%;
     background : url(${props => props.src}) no-repeat center / cover;
     border: solid 3px ${color.white};
-`
-const MTextArea = styled.div`
-    /* height : 300px; */
 `
 
 const MName = styled.div`

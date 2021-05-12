@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import color from '../../../style/color'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 const Home_all = () => {
 
@@ -30,6 +31,8 @@ const Home_all = () => {
     const m_tue = curlang.m_data.home_all.session2;
     const m_wed = curlang.m_data.home_all.session3;
 
+    let langstatus = curlang.status
+
     return (
         <>
             <PWrapper>
@@ -55,7 +58,9 @@ const Home_all = () => {
                             <PSubTitle>{p_mon1.title8}</PSubTitle>
                             <PTime>{p_mon1.time8}</PTime>
                             <PTitle>{p_mon1.title9}</PTitle>
-                            <PMove>{curlang.p_data.move}</PMove>
+                            <PMove href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">
+                                {curlang.p_data.move}
+                            </PMove>
                     </PMonSection1>
                     <PMonSection2 />
                 </PSection1>
@@ -70,7 +75,14 @@ const Home_all = () => {
                             <PTueCharacter1>{p_tue1.text4}</PTueCharacter1>
                             <PPhasis1>{p_tue1.text5}</PPhasis1>
                             <PTueCharacter2>{p_tue1.text6}</PTueCharacter2>
-                            {/* <PMove>{curlang.p_data.move}</PMove> */}
+                            <PLink 
+                                status={langstatus}
+                                ktop="60px" 
+                                etop="90px"
+                                to={p_tue1.link}
+                            >
+                                <PMove>{curlang.p_data.move}</PMove>
+                            </PLink>
                     </PTueSection1>
                     <PTueSection2>
                             <PTime>{p_tue2.text1}</PTime>
@@ -80,7 +92,14 @@ const Home_all = () => {
                             <PTueCharacter2>{p_tue2.text5}</PTueCharacter2>
                             <PPhasis2>{p_tue2.text6}</PPhasis2>
                             <PTueCharacter2>{p_tue2.text7}</PTueCharacter2>
-                            {/* <PMove>{curlang.p_data.move}</PMove> */}
+                            <PLink 
+                                status={langstatus}
+                                ktop="85px"
+                                etop="100px"
+                                to={p_tue2.link}
+                            >
+                                <PMove>{curlang.p_data.move}</PMove>
+                            </PLink>
                     </PTueSection2>
                     <PTueSection3>
                             <PLeftArea>
@@ -91,7 +110,13 @@ const Home_all = () => {
                                 <PTueCharacter2>{p_tue3.text5}</PTueCharacter2>
                                 <PPhasis2>{p_tue3.text6}</PPhasis2>
                                 <PTueCharacter2>{p_tue3.text7}</PTueCharacter2>
-                                {/* <PMove>{curlang.p_data.move}</PMove> */}
+                                <PLink 
+                                    status={langstatus}
+                                    etop="80px"
+                                    to={p_tue3.link}
+                                >
+                                    <PMove ove>{curlang.p_data.move}</PMove>
+                                </PLink>
                             </PLeftArea>
                             <PRightArea>
                                 <PTime>{p_tue4.text1}</PTime>
@@ -101,7 +126,13 @@ const Home_all = () => {
                                 <PTueCharacter2>{p_tue4.text5}</PTueCharacter2>
                                 <PPhasis2>{p_tue4.text6}</PPhasis2>
                                 <PTueCharacter2>{p_tue4.text7}</PTueCharacter2>
-                                {/* <PMove>{curlang.p_data.move}</PMove> */}
+                                <PLink 
+                                    status={langstatus}
+                                    etop="50px"
+                                    to={p_tue4.link}
+                                >
+                                    <PMove ove>{curlang.p_data.move}</PMove>
+                                </PLink>
                             </PRightArea>
                     </PTueSection3>
                     <PTueSection4>
@@ -112,13 +143,24 @@ const Home_all = () => {
                         <PTueCharacter2>{p_tue5.text5}</PTueCharacter2>
                         <PPhasis2 top="40px">{p_tue5.text6}</PPhasis2>
                         <PTueCharacter2>{p_tue5.text7}</PTueCharacter2>
-                        {/* <PMove>{curlang.p_data.move}</PMove> */}
+                        <PLink 
+                            status={langstatus}
+                            ktop="60px" 
+                            to={p_tue5.link}
+                        >
+                            <PMove ove>{curlang.p_data.move}</PMove>
+                        </PLink>
                     </PTueSection4>
                     <PTueSection5>
                         <PTime>{p_tue6.text1}</PTime>
                         <PTitle>{p_tue6.text2}</PTitle>
                         <PSubTitle>{p_tue6.text3}</PSubTitle>
-                        {/* <PMove>{curlang.p_data.move}</PMove> */}
+                        <PLink 
+                            status={langstatus}
+                            to={p_tue6.link}
+                        >
+                            <PMove ove>{curlang.p_data.move}</PMove>
+                        </PLink>
                     </PTueSection5>
                 </PSection2>
                 <PSection3>
@@ -132,7 +174,12 @@ const Home_all = () => {
                             <PTueCharacter1>{p_wed1.text4}</PTueCharacter1>
                             <PPhasis1>{p_wed1.text5}</PPhasis1>
                             <PTueCharacter2>{p_wed1.text6}</PTueCharacter2>
-                            {/* <PMove>{curlang.p_data.move}</PMove> */}
+                            <PLink 
+                                status={langstatus} 
+                                to={p_wed1.link}
+                            >
+                                <PMove ove>{curlang.p_data.move}</PMove>
+                            </PLink>
                     </PWedSection1>
                     <PWedSection2>
                             <PTime>{p_wed2.text1}</PTime>
@@ -142,7 +189,12 @@ const Home_all = () => {
                             <PTueCharacter2>{p_wed2.text5}</PTueCharacter2>
                             <PPhasis2>{p_wed2.text6}</PPhasis2>
                             <PTueCharacter2>{p_wed2.text7}</PTueCharacter2>
-                            {/* <PMove>{curlang.p_data.move}</PMove> */}
+                            <PLink 
+                                status={langstatus}
+                                to={p_wed2.link}
+                            >
+                                <PMove ove>{curlang.p_data.move}</PMove>
+                            </PLink>
                     </PWedSection2>
                     <PWedSection3>
                             <PLeftArea>
@@ -153,7 +205,13 @@ const Home_all = () => {
                                 <PTueCharacter2>{p_wed3.text5}</PTueCharacter2>
                                 <PPhasis2>{p_wed3.text6}</PPhasis2>
                                 <PTueCharacter2>{p_wed3.text7}</PTueCharacter2>
-                                {/* <PMove>{curlang.p_data.move}</PMove> */}
+                                <PLink 
+                                    status={langstatus} 
+                                    etop="30px"
+                                    to={p_wed3.link}
+                                    >
+                                    <PMove ove>{curlang.p_data.move}</PMove>
+                                </PLink>
                             </PLeftArea>
                             <PRightArea>
                                 <PTime>{p_wed4.text1}</PTime>
@@ -163,7 +221,13 @@ const Home_all = () => {
                                 <PTueCharacter2>{p_wed4.text5}</PTueCharacter2>
                                 <PPhasis2>{p_wed4.text6}</PPhasis2>
                                 <PTueCharacter2>{p_wed4.text7}</PTueCharacter2>
-                                {/* <PMove>{curlang.p_data.move}</PMove> */}
+                                <PLink 
+                                    status={langstatus}
+                                    etop="8px"
+                                    to={p_wed4.link}
+                                >
+                                    <PMove ove>{curlang.p_data.move}</PMove>
+                                </PLink>
                             </PRightArea>
                     </PWedSection3>
                     <PWedSection4>
@@ -174,12 +238,23 @@ const Home_all = () => {
                         <PTueCharacter2>{p_wed5.text5}</PTueCharacter2>
                         <PPhasis2>{p_wed5.text6}</PPhasis2>
                         <PTueCharacter2>{p_wed5.text7}</PTueCharacter2>
-                        {/* <PMove>{curlang.p_data.move}</PMove> */}
+                        <PLink 
+                            status={langstatus}
+                            to={p_wed5.link}
+                        >
+                            <PMove ove>{curlang.p_data.move}</PMove>
+                        </PLink>
                     </PWedSection4>
                     <PWedSection5>
                         <PTime>{p_wed6.text1}</PTime>
                         <PTitle>{p_wed6.text2}</PTitle>
-                        {/* <PMove>{curlang.p_data.move}</PMove> */}
+                        <PLink 
+                            status={langstatus}
+                            ktop="60px" 
+                            to={p_wed6.link}
+                        >
+                            <PMove ove>{curlang.p_data.move}</PMove>
+                        </PLink>
                     </PWedSection5>
                 </PSection3>
             </PWrapper>
@@ -524,10 +599,8 @@ const PMove = styled.a`
     font-size: 16px;
     font-weight: 500;
     color: ${color.turtle_green};
-    transition : .6s;
     &:hover{
         color: ${color.turtle_green};
-        transform : scale(1.1);
     }
 `
 const PTitle = styled.div`
@@ -537,6 +610,12 @@ const PTitle = styled.div`
     white-space: pre-line;
     margin-top : 4px;
     text-align : center;
+`
+const PLink = styled(Link)`
+    text-decoration : none;
+    margin-top : ${props => (props.status =='kr') 
+                ? props.ktop || '40px' 
+                : props.etop || '40px'};
 `
 
 

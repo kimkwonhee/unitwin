@@ -17,7 +17,7 @@ const _Closing = () => {
     }))
     const chatRef = useRef(null)
     const chatDef = {
-        scroll: 4000,
+        scroll: 3400,
         height: 600
     }
 
@@ -42,12 +42,21 @@ const _Closing = () => {
 
     return (
         <>
+            {/* PC */}
             <PWrapper>
                 <PInner>
-                    <PTop title={p_detaildata.title} time={p_detaildata.time} /> 
+                    <PTop 
+                        title={p_detaildata.title} 
+                        time={p_detaildata.time} 
+                    /> 
                     <PCenterArea>
                         <PLeftArea>
-                            <PVideo discription={p_detaildata.video_text} down={p_detaildata.download} /> 
+                            <PVideo 
+                                discription={p_detaildata.video_text} 
+                                down={p_detaildata.download}
+                                youtube={p_detaildata.youtube} 
+                                downlink={p_detaildata.downlink}
+                            /> 
                             <PContentsArea>
                                 <PSection data={p_detaildata.list} /> 
                             </PContentsArea>
@@ -58,19 +67,23 @@ const _Closing = () => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat ref={chatRef} src={env.chat+'1000'} />
+                                <PChat ref={chatRef} src={p_detaildata.chatlink} />
                             </PRightArea>
                         </Affix> 
                     </PCenterArea>
                 </PInner>
             </PWrapper>
 
+
+        {/* mobile */}
             <MWrapper>
                 <MTopArea>
                     <MTop title={p_detaildata.title} time={p_detaildata.time} /> 
                 </MTopArea>
                 <MVideoArea>
-                    <MVideo discription={p_detaildata.video_text} down={p_detaildata.download} /> 
+                    <MVideo 
+                        youtube={m_detaildata.youtube} 
+                    /> 
                 </MVideoArea>
                 <MViewchangeArea>
                     <MViewbtn 
@@ -90,7 +103,12 @@ const _Closing = () => {
                 </MViewchangeArea>
                 <MDetailSection status={status}>
                     <MVideoText>{m_detaildata.video_text}</MVideoText>
-                    <MDownlodebtn down={m_detaildata.download}>{curlang.m_data.classdownload}</MDownlodebtn>
+                    <MDownlodebtn 
+                        down={m_detaildata.download}
+                        downlink={m_detaildata.downlink}
+                        >
+                            {curlang.m_data.classdownload}
+                        </MDownlodebtn>
                     <MSection data={p_detaildata.list} /> 
                 </MDetailSection>
                 <MChatSection status={status}>
@@ -173,7 +191,6 @@ const MWrapper = styled.div`
     flex-direction : column;
     align-items : center;
     width : auto;
-    padding-bottom : 100px;
 
     @media all and (min-width:1200px) {
         display : none;
@@ -215,7 +232,6 @@ const MDetailSection = styled.div`
 `
 const MChatSection = styled.div`
     width : 375px;
-    height : 750px;
     display : ${props => (props.status =='chat') ? 'block': 'none'};
     
     @media all and (max-width: 375px) {
@@ -231,7 +247,7 @@ const MSection = styled(ListSession)`
 `
 const MChat = styled.iframe`
     width: 100%;
-    height: 100%;
+    height: 500px;
     margin: 0;
     padding: 0;
     border: 0;

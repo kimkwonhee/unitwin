@@ -8,13 +8,15 @@ const Menubtn = ({className , children, id, movelink, location }) => {
 
     const pathname = location.pathname;
 
-    let target = null
-    if(movelink=='http://www.arteweek.kr/2021/views/opening.php') {
-        target ='_blank'
+    let target = ''
+
+    if(movelink==='http://www.arteweek.kr/2021/views/opening.php') 
+    {
+        target = '_blank'
     }
 
     let cur_status = 0;
-    if(pathname == env.path+'/home/') 
+    if(pathname === env.path+'/home/') 
     {
         cur_status = 0
     } else if (pathname == env.path+'/plenary-session' 
@@ -22,17 +24,17 @@ const Menubtn = ({className , children, id, movelink, location }) => {
                 || pathname == env.path+'/plenary-session/2') 
     {
         cur_status = 2
-    } else if (pathname == env.path+'/session') 
+    } else if (pathname === env.path+'/session') 
     {
         cur_status = 3
-    }else if (pathname == env.path+'/presession-showcase') 
+    }else if (pathname === env.path+'/presession-showcase') 
     {
         cur_status = 4
     } 
-    else if (pathname == env.path+'/byob') 
+    else if (pathname === env.path+'/byob') 
     {
         cur_status = 5
-    }else if (pathname == env.path+'/closing-ceremony') 
+    }else if (pathname === env.path+'/closing-ceremony') 
     {
         cur_status = 6
     }

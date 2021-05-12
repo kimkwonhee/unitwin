@@ -11,9 +11,11 @@ import color from '../../../style/color'
 import { Affix } from 'antd'
 
 const Pl_Detail = ({match}) => {
+    
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
+
     const chatRef = useRef(null)
     const chatDef = {
         scroll: 1150,
@@ -43,8 +45,6 @@ const Pl_Detail = ({match}) => {
     let P_topsection = null
     let P_videosection = null
     let P_contentsection = null
-    let P_videotext = null
-    let P_download = null
     let P_chatlink = null
 
     // mobile
@@ -52,24 +52,30 @@ const Pl_Detail = ({match}) => {
     let M_videosection = null
     let M_contentsection = null
     let M_videotext = null
-    let M_download = null
+    let M_downbtn = null
     let M_chatlink = null
+    let M_download_link = null
+
 
     if (pathname == '1') {
         P_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
         M_topsection = <MTop title={m_detaildata.wagner_part.title} time={m_detaildata.wagner_part.time} />
         
-        P_videosection = <PVideo discription={p_detaildata.wagner_part.video_text} down={p_detaildata.wagner_part.download} />
-        M_videosection = <MVideo discription={m_detaildata.wagner_part.video_text} down={m_detaildata.wagner_part.download} />
+        P_videosection = <PVideo 
+                            discription={p_detaildata.wagner_part.video_text} 
+                            down={p_detaildata.wagner_part.download} 
+                            youtube={p_detaildata.wagner_part.youtube}
+                            downlink={p_detaildata.wagner_part.downlink}
+                            />
+        M_videosection = <MVideo youtube={m_detaildata.wagner_part.youtube}/>
         
         P_contentsection = <PSection data={p_detaildata.wagner_part.list} />
         M_contentsection = <MSection data={m_detaildata.wagner_part.list} />
         
-        P_videotext = p_detaildata.wagner_part.video_text
+
         M_videotext = m_detaildata.wagner_part.video_text
-        
-        P_download = p_detaildata.wagner_part.download
-        M_download = m_detaildata.wagner_part.download
+        M_downbtn = m_detaildata.wagner_part.download
+        M_download_link = m_detaildata.wagner_part.downlink
 
         P_chatlink = p_detaildata.wagner_part.chatlink
         M_chatlink = m_detaildata.wagner_part.chatlink
@@ -79,17 +85,20 @@ const Pl_Detail = ({match}) => {
         P_topsection = <PTop title={p_detaildata.jorissen_part.title} time={p_detaildata.jorissen_part.time} />
         M_topsection = <MTop title={m_detaildata.jorissen_part.title} time={m_detaildata.jorissen_part.time} />
         
-        P_videosection = <PVideo discription={p_detaildata.jorissen_part.video_text} down={p_detaildata.jorissen_part.download} />
-        M_videosection = <MVideo discription={m_detaildata.jorissen_part.video_text} down={m_detaildata.jorissen_part.download} />
+        P_videosection = <PVideo 
+                            discription={p_detaildata.jorissen_part.video_text} 
+                            down={p_detaildata.jorissen_part.download} 
+                            youtube={p_detaildata.jorissen_part.youtube}
+                            downlink={p_detaildata.jorissen_part.downlink}
+                            />
+        M_videosection = <MVideo youtube={m_detaildata.jorissen_part.youtube}/>
         
         P_contentsection = <PSection data={p_detaildata.jorissen_part.list} />
         M_contentsection =<MSection data={m_detaildata.jorissen_part.list} />
         
-        P_videotext = p_detaildata.jorissen_part.video_text
         M_videotext = m_detaildata.jorissen_part.video_text
-        
-        P_download = p_detaildata.jorissen_part.download
-        M_download = m_detaildata.jorissen_part.download
+        M_downbtn = m_detaildata.jorissen_part.download
+        M_download_link = m_detaildata.jorissen_part.downlink
 
         P_chatlink = p_detaildata.jorissen_part.chatlink
         M_chatlink = m_detaildata.jorissen_part.chatlink
@@ -149,7 +158,12 @@ const Pl_Detail = ({match}) => {
                 </MViewchangeArea>
                 <MDetailSection status={status}>
                     <MVideoText>{M_videotext}</MVideoText>
-                    <MDownlodebtn down={M_download}>{curlang.m_data.classdownload}</MDownlodebtn>
+                    <MDownlodebtn 
+                        down={M_downbtn} 
+                        downlink={M_download_link}
+                    >
+                        {curlang.m_data.classdownload}
+                    </MDownlodebtn>
                     {M_contentsection}
                 </MDetailSection>
                 <MChatSection status={status}>
@@ -232,7 +246,6 @@ const MWrapper = styled.div`
     flex-direction : column;
     align-items : center;
     width : auto;
-    padding-bottom : 100px;
 
     @media all and (min-width:1200px) {
         display : none;
@@ -276,7 +289,6 @@ const MDetailSection = styled.div`
 `
 const MChatSection = styled.div`
     width : 375px;
-    height : 750px;
     display : ${props => (props.status =='chat') ? 'block': 'none'};
     
     @media all and (max-width: 375px) {
@@ -296,7 +308,7 @@ const MDownlodebtn = styled(Downloadbtn)`
 
 const MChat = styled.iframe`
     width: 100%;
-    height: 100%;
+    height: 500px;
     margin: 0;
     padding: 0;
     border: 0;

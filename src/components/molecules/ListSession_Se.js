@@ -2,8 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import Downloadbtn from '../../components/atom/Downloadbtn'
 import color from '../../style/color'
+import { useSelector } from 'react-redux'
 
 const ListSession_Se = ({className, data}) => {
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
     return (
         <>
             <PWrapper className={className}>
@@ -23,7 +29,12 @@ const ListSession_Se = ({className, data}) => {
                                         <PName>{data.name}<PEnName>{data.enname}</PEnName></PName>
                                         <PListtitle>{data.job}</PListtitle>
                                         <PContents>{data.contents}</PContents>
-                                        <PDownlodebtn down={data.download} >강의자료 다운로드</PDownlodebtn>
+                                        <PDownlodebtn 
+                                            downlink={data.downlink} 
+                                            down={data.download} 
+                                        >
+                                            {curlang.p_data.classdownload}
+                                        </PDownlodebtn>
                                     </PTextblock>
                                 </PItemInner>
                             })}   
@@ -44,14 +55,19 @@ const ListSession_Se = ({className, data}) => {
                             <MInner>
                                 {list.li_data.map(data => {
                                     return <>
-                                    <MTextblock>
-                                    <MImg src={data.imgs} alt={data.name} />     
-                                    </MTextblock>
-                                    <MName>{data.name}</MName>
-                                    <MEnName>{data.enname}</MEnName>
-                                    <MListtitle>{data.job}</MListtitle>
-                                    <MContents>{data.contents}</MContents>
-                                    <MDownlodebtn down={data.download} >강의자료 다운로드</MDownlodebtn>
+                                        <MTextblock>
+                                        <MImg src={data.imgs} alt={data.name} />     
+                                        </MTextblock>
+                                        <MName>{data.name}</MName>
+                                        <MEnName>{data.enname}</MEnName>
+                                        <MListtitle>{data.job}</MListtitle>
+                                        <MContents>{data.contents}</MContents>
+                                        <MDownlodebtn 
+                                            downlink={data.downlink}
+                                            down={data.download} 
+                                        >
+                                            {curlang.m_data.classdownload}
+                                        </MDownlodebtn>
                                     </>
                                 })}
                             </MInner>
@@ -98,6 +114,7 @@ const PImgblock = styled.div`
 const PImg = styled.img`
     width : 120px;
     height : 120px;
+    border-radius : 150px;
 `
 const PTextblock = styled.div`
     width : 100%;
@@ -178,6 +195,7 @@ const MTextblock = styled.div`
 const MImg = styled.img`
     width : 180px;
     height : 180px;
+    border-radius : 150px;
 `
 const MName = styled.div`
     margin-top : 28px;
@@ -194,6 +212,7 @@ const MEnName = styled.div`
 const MListtitle = styled.div`
     margin-top : 14px;
     font-size: 14px;
+    text-align : center;
     color: ${color.black};
 `
 const MContents = styled.div`

@@ -14,7 +14,7 @@ const Pr_Detail = ({match}) => {
     }))
     
     const p_detaildata = curlang.p_data.pr_showcase_detail;
-    const m_detaildata = curlang.m_data.pr_showcase_detail;
+    // const m_detaildata = curlang.m_data.pr_showcase_detail;
 
     
     let pathname = match.params.pr_detail
@@ -26,7 +26,7 @@ const Pr_Detail = ({match}) => {
     let P_siteaddress = null
 
 
-    if(pathname== 1) {
+    if(pathname === 1) {
         // session 1
         P_topsection = <PTop title={p_detaildata.session1.title}/>;
         P_sectionlist = p_detaildata.session1.list;
@@ -34,7 +34,7 @@ const Pr_Detail = ({match}) => {
         P_localname = p_detaildata.session1.local;
         P_siteaddress = p_detaildata.session1.site;
     }
-    if(pathname== 2) {
+    if(pathname === 2) {
         // session 2
         P_topsection = <PTop title={p_detaildata.session2.title}/>;
         P_sectionlist = p_detaildata.session2.list;
@@ -42,7 +42,7 @@ const Pr_Detail = ({match}) => {
         P_localname = p_detaildata.session2.local;
         P_siteaddress = p_detaildata.session2.site;
     }
-    if(pathname== 3) {
+    if(pathname === 3) {
         // session 3
         P_topsection = <PTop title={p_detaildata.session3.title}/>;
         P_sectionlist = p_detaildata.session3.list;
@@ -50,7 +50,7 @@ const Pr_Detail = ({match}) => {
         P_localname = p_detaildata.session3.local;
         P_siteaddress = p_detaildata.session3.site;
     }
-    if(pathname== 4) {
+    if(pathname === 4) {
         // session 4
         P_topsection = <PTop title={p_detaildata.session4.title}/>;
         P_sectionlist = p_detaildata.session4.list;
@@ -58,7 +58,7 @@ const Pr_Detail = ({match}) => {
         P_localname = p_detaildata.session4.local;
         P_siteaddress = p_detaildata.session4.site;
     }
-    if(pathname== 5) {
+    if(pathname === 5) {
         // session 4
         P_topsection = <PTop title={p_detaildata.session5.title}/>;
         P_sectionlist = p_detaildata.session5.list;

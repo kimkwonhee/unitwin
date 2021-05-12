@@ -6,18 +6,18 @@ import { useSelector } from 'react-redux'
 
 const _Home = () => {
 
-    const { curlang } = useSelector(state => ({
-        curlang : state.changlang.curlang
-    }))
-
     useEffect(() => {
         window.scrollTo(0,0);
     }, []);
+
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
     
     return (
         <Wrapper>
-            <Home_top curlang={curlang}/>
-            <Home_center curlang={curlang}/>
+            <Home_top curlang={curlang} />
+            <Home_center curlang={curlang} />
         </Wrapper>
     )
 }
