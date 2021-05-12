@@ -42,8 +42,14 @@ Firebase.prototype.init = function() {
 
     // Default
     if (this.def['room'] !== '') this.isStart = true;               // Room (Parameter 값이 있을 경우 실행)
-    if (this.def['lang'] !== 'kr') this.def['lang'] = 'en'          // Lang (Default)
-    if (this.def['lang'] !== 'kr') this.app.lang = 'en'
+    if (this.def['lang'] !== 'kr') {
+        this.def['lang'] = 'en'                                     // Lang (Default)
+        setTimeout(function () {
+            try {
+                app.lang = 'en';
+            } catch(err){};
+        }, 1000);
+    }
 
     // Room이 있을 경우 실행
     if (this.isStart) {
