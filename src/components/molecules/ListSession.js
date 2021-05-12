@@ -93,6 +93,7 @@ const PJob = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${color.black};
+    word-break : keep-all;
 `
 const PDiscription = styled.div`
     padding : 20px 0 20px 0;
@@ -149,12 +150,14 @@ const MListtitle = styled.div`
     font-size: 14px;
     text-align : center;
     color: ${color.black};
+    white-space : pre-line;
 `
 const MContents = styled.div`
     margin-top : 18px;
     font-size: 12px;
     color: ${color.black};
     text-align : center;
+    white-space : pre-line;
 `
 
 export default ListSession

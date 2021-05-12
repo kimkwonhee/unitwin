@@ -83,7 +83,7 @@ export const langen = {
         videobtn : 'View >',
         realchating : 'Live chat',
         lecture : 'Lecture description',
-        classdownload : 'Download lecture',
+        classdownload : 'Download presentation file',
         zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage',
         move : 'Link > ',
@@ -627,7 +627,7 @@ export const langen = {
                 {
                     imgs : plsession_img_01,
                     title : "Diversity in art education 2.0",
-                    time : "25 MAY(Tue) 13:00~13:40",
+                    time : "25 MAY(Tue) 13:00-13:40",
                     name : "Ernst Wagner",
                     enname : "",
                     jop : "- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany",
@@ -635,8 +635,8 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability."Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                    time : "26 MAY(Wed) 13:00~13:40",
+                    title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                    time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
                     jop : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
@@ -649,11 +649,12 @@ export const langen = {
         pl_session_detail : {
             wagner_part : {
                 title : 'Diversity in art education 2.0',
-                time : '05.25(화) 13:00~13:40',
+                time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : pl_detail1_img_01,
@@ -661,44 +662,46 @@ export const langen = {
                         name : 'Ernst Wagner',
                         en_name : '',
                         li_title : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
-                        li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술 교육에 대한 가장 중요한 문서를 다시 살펴볼 때다.\n'
-                                    +'서울 어젠다는 큰 성공을 거뒀고 그 이후로 많은 것이 성취되었다. 서울 어젠다가 유니트윈(UNITWIN)같은 네트워크에 국제적으로 집중된 협력을 촉발시킨 것을 예로 들 수 있다. 그러나, 2017년에 벤 볼든과 다른 사람들이 함께 발간한 전 세계 예술교육의 이해도에 대한 비교 연구(국제예술교육연보, V5, 2017)에선 서울 어젠다의 목표에 대한 세계적인 공감 하에 현저하게 다르고, 또 다양한 형태가 존재하고 있음을 보여준다.\n\n'
-                                    +'언스트 바그너의 강의는 이러한 다양성이 새롭게 보여질 필요가 있다는 것을 보여주기 위해 "시각적 문화의 탐구"를 예시로 사용할 것이다. 바그너는 이견에 대해서 추가적인 심사 숙고가 절대적으로 필요하다는 것을 보여줄 것이다.  그래야만 서울 어젠다의 3번째 목표인, "문화 다양성 증진과 문화적 대화"가 실행될 수 있다. 전 세계적으로 정치적, 그리고 문화적 긴장감이 고조되는 시대에, 오로지 예술 교육만이 문화적 다양성을 심각하게 받아들이고, 전세계의 이해당사자들을 진정한 대화에 끌어들임으로써 "문화적 문제의 해결"에 도움이 될 수 있다. 이 프레젠테이션에서는 이 방법이 어떻게 작용되는지에 대한 원칙이 제시될 것이다.'
+                        li_contents : 'More than ten years after the adoption of the Seoul Agenda, it is time to take a fresh look at this most important document on Arts Education worldwide. The Seoul Agenda has been a great success. Much has been achieved since then. For example, the Seoul Agenda has triggered intensive international cooperation in networks such as UNITWIN. But a comparative study on the understandings of arts education worldwide, published together with Ben Bolden and many others in 2017 (International Yearbook for Research in Arts Education, V5, 2017), shows that under the global consensus on the goals of the Seoul Agenda, quite different, diverse forms exist locally.\n\n'
+                                     +"Ernst Wagner's lecture will use the example of the global project Exploring Visual Cultures to show that this diversity needs to be looked at anew. He will show that it is absolutely necessary to take differences more into account. Only then will it be possible to implement the third goal of the Seoul"
+                                     +'Agenda: "Promotion of … cultural diversity and intercultural dialogue". In an era of increasing political and cultural tensions worldwide, Arts Education can only help “resolving the … cultural challenges” if it finally takes cultural diversity seriously and engages stakeholders worldwide in a genuine dialogue. The presentation will suggest principles how this could work.'
                     },
                     {
                         img : pl_detail1_img_02,
                         moder : '[Moderator]',
                         name : 'Chee-Hoo Lum',
                         en_name : '',
-                        li_title : '- Associate Professor,Nanyang Technological University, Singapore',
-                        li_contents : "치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다.\n\n"
-                                      +"그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다."                    }
+                        li_title : '- Associate Professor, Nanyang Technological University, Singapore',
+                        li_contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                      +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.'    
+                    }
                 ]
             },
             jorissen_part : {
-                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                time : '05.26(수) 13:40~15:10',
+                title : '“UNITWIN – Arts Education Research for Cultural\nDiversity and Sustainable Development”',
+                time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : plsession_img_02,
                         moder : '',
                         name : 'Benjamin Jörissen',
                         en_name : '',
-                        li_title : '- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일',
-                        li_contents : '벤자민 요리슨은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히-알렉산더-대학교 에를랑겐-누른베르크에서 유네스코 교육 예술 문화 의장직을 맡고 있다. 또한 벤자민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
-                                      +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
+                        li_title : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
+                        li_contents : 'Benjamin Jörissen is Chairholder of the Chair of Education with a focus on Culture and Aesthetics and of the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-University Erlangen-Nuremberg. He is, amongst others, member of the European Academy of Sciences and Arts and of the German Council for Arts and Cultural Education. His research focuses on educational theory and on empirical research in cultural, arts, and aesthetic education, especially with regard to UNESCO-related issues and the transformation of education in a post-digital culture.\n\n'
+                                      +'Jörissen leads several major empirical research projects on digitalisation in arts education, such as the Meta-Project „Digitalisation in Arts and Cultural Education“ funded by the German Ministry of Education and Research. Recent and upcoming publications: Jörissen e.a. (2018): Spectra of Transformation: Arts Education Research and Cultural Dynamics. Münster/New York: Waxmann; Jörissen/Kröner/Unterberg (2019): Forschung zur Digitalisierung in der kulturellen Bildung [Research on digitalization in cultural education]. Munich: kopaed; Jörissen/Unterberg/Klkepacki (Eds.): Aesthetics of Transformation. Arts Education Research and the Challenge of Cultural Sustainability.'
                     },
                     {
                         img : session_img_43,
                         moder : '[Moderator]',
                         name : 'Tanja Klepacki',
                         en_name : '',
-                        li_title : '- 유네스코 문화예술교육 선임 연구원, 독일',
-                        li_contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정'
+                        li_title : '- senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                        li_contents : 'Dr. Tanja Klepacki is the senior researcher at the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg (Germany). Amongst others, she serves as executive manager of the Chair’s Academy of School Theatre and Performative Education in Nuremberg. Her fields of work include theoretical and empirical studies in the realm of cultural and aesthetic education. Since December 2020, she also leads the editorial office of the newly founded peer-reviewed, open access "International Journal of Research in Cultural, Aesthetic, and Arts Education".'
                     }
                 ]
             }  
@@ -1969,11 +1972,12 @@ export const langen = {
     m_data : {
         // 기타
         videobtn : 'View >',
-        realchating : '실시간 채팅',
-        lecture : '강연설명',
-        classdownload : 'Download lecture',
-        zoom : 'ZOOM으로 참여하기',
+        realchating : 'Live chat',
+        lecture : 'Lecture description',
+        classdownload : 'Download presentation file',
+        zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage >',
+        move : 'Link > ',
 
         // 메뉴바
         menuber : {
@@ -2428,12 +2432,12 @@ export const langen = {
          pl_session : {
             title : 'Plenary Session',
             contents : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-            video_text : '영상보기',
+            video_text : 'View',
             data : [
                 {
                     imgs : plsession_img_01,
                     title : "Diversity in art education 2.0",
-                    time : "25 MAY(Tue) 13:00~13:40",
+                    time : "25 MAY(Tue) 13:00-13:40",
                     name : "Ernst Wagner",
                     enname : "",
                     jop : "- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany",
@@ -2441,8 +2445,8 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability."Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                    time : "26 MAY(Wed) 13:00~13:40",
+                    title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                    time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
                     jop : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
@@ -2455,9 +2459,9 @@ export const langen = {
          pl_session_detail : {
             wagner_part : {
                 title : 'Diversity in art education 2.0',
-                time : '05.25(화) 13:00~13:40',
+                time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1001&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
@@ -2467,26 +2471,27 @@ export const langen = {
                         moder : '',
                         name : 'Ernst Wagner',
                         en_name : '',
-                        li_title : '유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일',
-                        li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술 교육에 대한 가장 중요한 문서를 다시 살펴볼 때다.\n'
-                                    +'서울 어젠다는 큰 성공을 거뒀고 그 이후로 많은 것이 성취되었다. 서울 어젠다가 유니트윈(UNITWIN)같은 네트워크에 국제적으로 집중된 협력을 촉발시킨 것을 예로 들 수 있다. 그러나, 2017년에 벤 볼든과 다른 사람들이 함께 발간한 전 세계 예술교육의 이해도에 대한 비교 연구(국제예술교육연보, V5, 2017)에선 서울 어젠다의 목표에 대한 세계적인 공감 하에 현저하게 다르고, 또 다양한 형태가 존재하고 있음을 보여준다.\n\n'
-                                    +'언스트 바그너의 강의는 이러한 다양성이 새롭게 보여질 필요가 있다는 것을 보여주기 위해 "시각적 문화의 탐구"를 예시로 사용할 것이다. 바그너는 이견에 대해서 추가적인 심사 숙고가 절대적으로 필요하다는 것을 보여줄 것이다.  그래야만 서울 어젠다의 3번째 목표인, "문화 다양성 증진과 문화적 대화"가 실행될 수 있다. 전 세계적으로 정치적, 그리고 문화적 긴장감이 고조되는 시대에, 오로지 예술 교육만이 문화적 다양성을 심각하게 받아들이고, 전세계의 이해당사자들을 진정한 대화에 끌어들임으로써 "문화적 문제의 해결"에 도움이 될 수 있다. 이 프레젠테이션에서는 이 방법이 어떻게 작용되는지에 대한 원칙이 제시될 것이다.'
+                        li_title : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
+                        li_contents : 'More than ten years after the adoption of the Seoul Agenda, it is time to take a fresh look at this most important document on Arts Education worldwide. The Seoul Agenda has been a great success. Much has been achieved since then. For example, the Seoul Agenda has triggered intensive international cooperation in networks such as UNITWIN. But a comparative study on the understandings of arts education worldwide, published together with Ben Bolden and many others in 2017 (International Yearbook for Research in Arts Education, V5, 2017), shows that under the global consensus on the goals of the Seoul Agenda, quite different, diverse forms exist locally.\n\n'
+                                     +"Ernst Wagner's lecture will use the example of the global project Exploring Visual Cultures to show that this diversity needs to be looked at anew. He will show that it is absolutely necessary to take differences more into account. Only then will it be possible to implement the third goal of the Seoul"
+                                     +'Agenda: "Promotion of … cultural diversity and intercultural dialogue". In an era of increasing political and cultural tensions worldwide, Arts Education can only help “resolving the … cultural challenges” if it finally takes cultural diversity seriously and engages stakeholders worldwide in a genuine dialogue. The presentation will suggest principles how this could work.'
                     },
                     {
                         img : pl_detail1_img_02,
                         moder : '[Moderator]',
                         name : 'Chee-Hoo Lum',
                         en_name : '',
-                        li_title : '국립교육원 부교수, 싱가포르',
-                        li_contents : "치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다.\n\n"
-                                      +"그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다."                    }
+                        li_title : '- Associate Professor, Nanyang Technological University, Singapore',
+                        li_contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                      +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.'
+                    }
                 ]
             },
             jorissen_part : {
-                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability."Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                time : '05.26(수) 13:40~15:10',
+                title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1002&l=kr',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
@@ -2496,17 +2501,17 @@ export const langen = {
                         moder : '',
                         name : 'Benjamin Jörissen',
                         en_name : '',
-                        li_title : '- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일',
-                        li_contents : '벤자민 요리슨은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히-알렉산더-대학교 에를랑겐-누른베르크에서 유네스코 교육 예술 문화 의장직을 맡고 있다. 또한 벤자민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
-                                      +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
+                        li_title : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
+                        li_contents : 'Benjamin Jörissen is Chairholder of the Chair of Education with a focus on Culture and Aesthetics and of the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-University Erlangen-Nuremberg. He is, amongst others, member of the European Academy of Sciences and Arts and of the German Council for Arts and Cultural Education. His research focuses on educational theory and on empirical research in cultural, arts, and aesthetic education, especially with regard to UNESCO-related issues and the transformation of education in a post-digital culture.\n\n'
+                                      +'Jörissen leads several major empirical research projects on digitalisation in arts education, such as the Meta-Project „Digitalisation in Arts and Cultural Education“ funded by the German Ministry of Education and Research. Recent and upcoming publications: Jörissen e.a. (2018): Spectra of Transformation: Arts Education Research and Cultural Dynamics. Münster/New York: Waxmann; Jörissen/Kröner/Unterberg (2019): Forschung zur Digitalisierung in der kulturellen Bildung [Research on digitalization in cultural education]. Munich: kopaed; Jörissen/Unterberg/Klkepacki (Eds.): Aesthetics of Transformation. Arts Education Research and the Challenge of Cultural Sustainability.'
                     },
                     {
                         img : session_img_43,
                         moder : '[Moderator]',
                         name : 'Tanja Klepacki',
                         en_name : '',
-                        li_title : '- 유네스코 문화예술교육 선임 연구원, 독일',
-                        li_contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정'
+                        li_title : '- senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                        li_contents : 'Dr. Tanja Klepacki is the senior researcher at the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg (Germany). Amongst others, she serves as executive manager of the Chair’s Academy of School Theatre and Performative Education in Nuremberg. Her fields of work include theoretical and empirical studies in the realm of cultural and aesthetic education. Since December 2020, she also leads the editorial office of the newly founded peer-reviewed, open access "International Journal of Research in Cultural, Aesthetic, and Arts Education".'
                     }
                 ]
             }  
