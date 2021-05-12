@@ -216,7 +216,8 @@ Firebase.prototype.scrollDown = function(id, time) {
 
 // Replace Link
 Firebase.prototype.replaceLink = function(value) {
-    var expUrl = /(http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+    // var expUrl = /(http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+    var expUrl = /(http|https):\/\/[\w가-힣#!:.?+=&%@!\-\/]+/;
     var atag = '<a href="$&" target="_blank">$&</a>';
     return value.replace(expUrl, atag);
 }
