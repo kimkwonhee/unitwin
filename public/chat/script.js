@@ -26,11 +26,11 @@ var app = new Vue({
         list: [],
         label: {
             en: {
-                name: 'World Culture and Arts Education',
+                name: 'UNITWIN Symposium Facilitation Team',
                 placeholder: 'Please enter your message.'
             },
             kr: {
-                name: '세계문화예술교육 운영국',
+                name: '유니트윈 운영사무국',
                 placeholder: '메시지를 입력해 주세요.'
             }
         },
