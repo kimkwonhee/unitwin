@@ -21,6 +21,7 @@ const ListSession_Se = ({className, data}) => {
                         <PTitle>{list.li_title}</PTitle>
                         <PInner>
                             {list.li_data.map(data => {
+                                
                                 return <PItemInner>
                                     <PImgblock>
                                         <PImg src={data.imgs} alt={data.name} />     
@@ -28,7 +29,7 @@ const ListSession_Se = ({className, data}) => {
                                     <PTextblock>
                                         <PName>{data.name}<PEnName>{data.enname}</PEnName></PName>
                                         <PListtitle>{data.job}</PListtitle>
-                                        <PContents>{data.contents}</PContents>
+                                        <PContents dangerouslySetInnerHTML={ {__html: data.contents} } />
                                         <PDownlodebtn 
                                             downlink={data.downlink} 
                                             down={data.download} 
@@ -61,7 +62,7 @@ const ListSession_Se = ({className, data}) => {
                                         <MName>{data.name}</MName>
                                         <MEnName>{data.enname}</MEnName>
                                         <MListtitle>{data.job}</MListtitle>
-                                        <MContents>{data.contents}</MContents>
+                                        <MContents dangerouslySetInnerHTML={ {__html: data.contents} } />
                                         <MDownlodebtn 
                                             downlink={data.downlink}
                                             down={data.download} 

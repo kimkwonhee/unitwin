@@ -856,8 +856,8 @@ export const langen = {
                                 imgs : session_img_04,
                                 name : 'Su-youn Kim',
                                 enname : '',
-                                job : '- 경성대학교 조교수, 한국',
-                                contents : '김수연은 대략 20여년이 조금 넘는 극 예술가와 예술교육 전문가의 경력을 가지고 있으며 현재 경성대학교 연극영화학부의 조교수로 재직 중이다. 주된 관심사는 어떻게 연극이 건강한 학교와 사회 만들기에 공헌할 수 있을까 이다.',
+                                job : '- Assistant Professor, KyungSung University, Republic of Korea',
+                                contents : 'Su-youn Kim is an assistant professor in the School of Theatre&Film Art at KyungSung University. She has the back ground in performing art and theatre art education and her main interest is how drama and theatre can broadly cotribute to making socially healthy schools and societies.',
                                 download : true,
                                 downlink : env.link + '/the_suspicious_dining_table_PPT.pptx',
                             }
@@ -865,29 +865,29 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "창의적인 온라인 워크샵 만들기",
+                        li_title : "Creating Inclusive Online Creative Workshops",
                         li_data : [
                             {
                                 imgs : session_img_05,
-                                name : '이보람',
+                                name : 'Boram Lee',
                                 enname : '',
-                                job : '- 사우스오스트레일리아대학교 교수, 한국',
-                                contents : '스코틀랜드 스털링대학에서 행동 금융학을 전공하고 심리적 접근을 기반으로한 예술 문화 단체와 개인의 경영 경제 연구를 하고 있다.  2014년 영국 연구 위원회의 지원을 받은 신진 작가의 경력 개발, 사회 예술 경제적 가치 창출에 관한 프로젝트, 2018년 코르동 블루 지원 애들레이드의 축제와 관광 프로젝트,  2019년 한호재단 후원 한국 호주 장애 예술 협력 프로젝트 등 예술 산업 분야에 있어 광범위한 분야에 연구 관심을 가지고 있다.',
-                                download : true,
+                                job : '- Professor, University of South Australia , Republic of Korea',
+                                contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia. She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]   
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
-                                imgs : byob_img_01,
-                                name : '박신의',
+                                imgs : session_img_10,
+                                name : 'Kiwon Hong',
                                 enname : '',
-                                job : '- 제4회 유네스코 유니트윈 국제 학술대회 조직위원회 위원장 / 경희대학교 교수, 한국',
-                                contents : "박신의는 경희대학교 경영대학원 문화예술경영학과 교수이고, 한국문화예술교육진흥원 이사장이다. 주요 연구 주제는 '예술의 사회적 영향', '예술치유', '예술기업가정신', '박물관 경영', '문화정책' 등이다.",
+                                job : '- Professor, Korea National University of Arts, Republic of Korea',
+                                contents : '',
                                 download : false,
                                 downlink : '',
                             }
@@ -896,84 +896,92 @@ export const langen = {
                 ]
             },
             b : {
-                title : '세션 2',
-                subject : '예술 치유',
-                time : '05.25(화) 15:00~16:30',
-                video_text : '현대 사회가 유발하고 있는 많은 심리적‧정신적 질병에 대하여, 자아를 새롭게 발견하고, 사회와 건강하게 관계를 맺을 수 있는 치유를 예술적 개입을 통하여 모색합니다.',
+                title : 'Session 2',
+                subject : 'Arts for Healing',
+                time : '25 MAY, 15:00-16:30',
+                video_text : 'In this session, for many psychological and mental diseases caused by modern society, we discover our egos anew and seek healing through artistic intervention to build healthy relationships with society.',
                 download : false,
                 chatlink : '1004',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "예술과 예술을 통한 청소년 정신 건강 지원 : 예술가 교육을 위한 증거 기반 및 가이드",
+                        li_title : "Supporting Youth Mental Health in and through the Arts: An Evidence Base and Guide for Teaching Artists",
                         li_data : [
                             {
                                 imgs : session_img_06,
-                                name : '티나 쿠코 ',
-                                enname : '(Tiina Kukkonen)',
-                                job : '- 퀸즈대학교 박사과정, 캐나다',
-                                contents : '티나 쿠코(Tiina Kookonen)는 캐나다 킹스턴에 있는 퀸즈 대학교 교육학부의 박사과정 학생이자 예술 교육자, 그리고 시각 예술가다. 티나의 박사학위 연구는 농촌 예술 교육을 지원하는 데 있어 중간 조직의 역할에 초점을 맞추고 있다. 연구 동료이자 컨설턴트로 일하는 동안, 티나는 캐나다와 그 이상의 다른 국가의 예술 교육을 지지하는 것을 도왔다. 캐나다 예술 및 학습을 위한 네트워크, 유네스코를 위한 캐나다 위원회, 퀸즈 대학교 예술 및 교육의 유네스코 의장과 공동으로 "예술 교육에 대한 혁신적 행동: 서울 어젠다 재활성화"라는 성명서를 공동 집필했다. 또한 티나는 몇몇 증거를 기반한 가이드와 캐나다의 예술가들이 학교에서 제공하는 프로그램의 혜택에 대한 보고서를 작성하도록 위임받았다. 티나는 현재 캐나다 예술 교육 협회(CSEA)의 집행 위원회에서 지방 연락, 소셜 미디어, 지지에 대한 이사직을 맡고 있다. 교육자로서, 티나는 다양한 학교 및 지역사회 기반의 환경에서 모든 연령의 학생들에게 시각 예술을 가르쳤다.',
+                                name : 'Tiina Kukkonen',
+                                enname : '',
+                                job : "- Ph.D. candidate, Queen's University, Canada",
+                                contents : 'Tiina Kukkonen is a visual artist, arts educator, and Ph.D. candidate in the Faculty of Education at'
+                                          + "Queen's University in Kingston, Canada. Her doctoral research focuses on the role of intermediary organizations in supporting rural arts education. In her work as a research associate and consultant, Tiina has helped advocate for arts education in Canada and beyond. She co-authored the position"
+                                          + 'paper "Transformative Action on Arts Education: Re-invigorating the Seoul Agenda" in collaboration with the Canadian Network for Arts and Learning, the Canadian Commission for UNESCO, and the UNESCO Chair in Arts and Learning at'
+                                          + "Queen's University. She has also been commissioned to write several evidence-based guides and reports on the benefits of artists-in-schools programs in Canada.\n\n"
+                                          + 'Tiina currently serves on the executive committee of the Canadian Society for Education through Art (CSEA) as the Director of Provincial Liaison, Social Media, and Advocacy. As an educator, she has taught visual arts to learners of all ages in various school- and community-based settings.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Tiina_Kukkonen_Supporting_Youth_Mental_Health_in_and_through_the_Arts.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "변하는 세상에서 안정의 원천으로서 연극 / 연극 교육과 예술 교육의 중요성",
+                        li_title : 'The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World',
                         li_data : [
                             {
                                 imgs : session_img_07,
-                                name : '산자 크르스마노비츠 타식 ',
-                                enname : '(Sanja Krsmanović Tasić)',
-                                job : '- 국제극장교육협회(IDEA) 이사장, 세르비아',
-                                contents : '산자 크르스마노비츠 타식은 연극 감독, 안무가, 여배우, 드라마, 무용 교육자이다. 또 세르비아의 중등교육기관에 최초의 무대장치 예술 및 멀티미디어 수업의 커리큘럼을 집필하는 전문가 실무 그룹의 멤버이며, 세르비아의 CEDEUM의 회장이자 예술 유토피아, 그리고 "마터 테라"의 어린이들과 청소년들의 축제 예술 감독, 그리고 드라마/극장 교육 및 공연 예술에 대한 에세이, 리뷰 및 기사 집필자다. 산자는 수많은 프로그램 및 프로젝트의 저자이자 제작자이며 두 분야 모두 교육적이면서도 예술적이다. 산자는 작품"영혼의 생태학"으로는 예술과 예술교육을, 그리고 최초의 참여형 교육연극(Theatre in Education) 뮤지컬인 "움직임에 담긴 에세이"와 사이버 따돌림을 다룬 "돌의 말"처럼 작품에 대한 획기적인 개념과 방법론을 개발해오고 있다. 또한 그녀의 연극 그룹인 "헬렙 티타(Hleb Teatar)"와 함께, 산자는 국제적인 공연을 제작하고 순회하며, 연극교육의 혁신적인 형태를 개발하였다. 산자는 춤과 연구실, 극장에서의 경험을 드라마/극장 교육의 독창적인 전체론적 접근법과 방법론으로 혼합한 워크숍과 마스터 클래스를 진행해왔다. 또 2009년부터 2010년까지 세르비아 DICE(Drama Improves Key Lisbon Competences) 연구팀의 일원으로 활동했다. 산자는 2020년 5월 유네스코 국제 예술 교육 주간 행사의 일환으로 "예술 교육을 위한 종"이라는 광범위한 국제 운동을 시작했다.',
+                                name : 'Sanja Krsmanović Tasić',
+                                enname : '',
+                                job : '- President, International Drama/Theatre Education Association(IDEA), Serbia',
+                                contents : 'Theatre director, choreographer, actress, drama and dance pedagogue. Author and producer of numerous programs and projects both educational and artistic. She has been developing innovative methodologies and concepts in her work: of art and arts education as “ecology of the soul”, the first interactive TIE musical on Cyber bullying and “essays in movement”. Together with her theatre group Hleb Teatar , she creates and  tours performances internationally, also developing innovative forms of TIE. She conducts workshops and master classes blending her experience from dance and laboratory theatre into an original holistic approach and methodology of drama/theatre education. She has been part of the Serbian DICE (Drama Improves Key Lisbon Competences) research team (2009/10). Member of the expert working group for writing the curriculum of the first scenic arts and multimedia classes in Serbian gymnasiums.\n\n'
+                                           +'She has initiated the world wide action “Bells for Arts Education” as part of the celebration of UNESCO International Week of Arts Education in May 2020. She is the President of CEDEUM, Serbia, and Artistic Director of Artistic Utopia and  Mater Terra Children’s and Youth Festival. Author of essays, reviews and articles on drama/theatre education and performing arts.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Sanja_Krsmanovic_Tasic_The_Important_od_Drama_and_Theatre_Education.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "6학년 크리에이티브 아트 교실에서 생활 기술을 개발하기 위한 수행 교육",
+                        li_title : "Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms",
                         li_data : [
                             {
                                 imgs : session_img_08,
-                                name : '엠시 베트만 ',
-                                enname : '(MC Bettman)',
-                                job : '- 남아프리카대학교 교수, 남아프리카',
-                                contents : '엠시 베트만은 남아프리카 대학교 영어학부의 교수이며, 2020년에 남아프리카 대학교에서 교육학 박사학위를 취득했다. 베트만 박사의 논문 제목은 "남아프리카 초등학교 교육 및 학습 생활 오리엔테이션에서 성과적인 교육학으로서의 포럼 극장"이다. 베트만 박사는 네덜란드 위트레흐트 대학교에서 두 개의 석사 학위를 받았는데, 남아프리카 연극에 관한 주제로 영어영문학(English language and literature/1988년)과 연극과학학(Theatre Science/1989년)에서 취득했다.\n\n그녀의 전문 연구 분야는 보알(Boal)의 포럼 극장을 학교 맥락에서 적용하여 드라마를 통해 학습자들에게 삶의 기술을 가르치는 것이다. 미국 NADTA 요세미티 회의(2014년)와 호주 시드니 게임 체인저 컨퍼런스(2015년)에서 그녀는 두 개의 포럼 극장 워크숍을 국제 학술 관객들에게 선보였다. 박사학위 연구의 일환으로 마리에타의 사례 연구는 2016년 남아프리카의 한 초등학교에서 실행되었다. 또한 2016년 남아프리카 대학교에서 열린 2년 단위 부서별 타임 컨퍼런스에서 베트만 박사는 학교에서 포럼 극장을 적용하는 것에 대한 기간의 측면을 논문으로 발표했다. 베트만 박사는 학사 경력을 쌓기 전에 인터넷의 보급이나 인쇄를 통해 월간 뉴스레터 서비스를 제공하면서 20년간 기업 홍보 및 마케팅 분야에서 근무했다.',
-                                download : true,
+                                name : 'MC Bettman',
+                                enname : '',
+                                job : '- Lecturer, University of South Africa (UNISA), South Africa',
+                                contents : 'MC Bettman is a lecturer in the Department of English Studies at the University of South Africa (UNISA). She holds a D Ed, UNISA (2020). The title of her thesis is “Forum Theatre as Performative Pedagogy in Teaching and Learning Life Orientation in Primary Schools in South Africa”. Dr Bettman also holds two'
+                                           +"Master's Degrees conferred by the University of Utrecht, The Netherlands on the topic of South African theatre: Theatre Science (1989) and English Language and Literature (1988). Her research specialisation is the application of Boal’s Forum Theatre in a school context to teach learners life skills through drama. She has presented two Forum Theatre workshops to international academic audiences at the NADTA Yosemite conference, USA (2014); and the Sydney Game Changer Conference, Australia (2015). Her case study, as part of doctoral research, was conducted at a South African primary school in 2016.\n\n"
+                                           +'She also presented a paper on the aspect of time in the application of Forum Theatre in a school at the Bi-Annual Departmental Time conference, UNISA in 2016.\nPrior to her academic career Dr Bettman worked in Corporate Communication and Marketing for twenty years when she provided a monthly newsletter service through web-based dissemination or print.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "펜데믹 시대의 심리적 문제와 정신건강의 대응방안으로써의 문화예술치유",
+                        li_title : "Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era",
                         li_data : [
                             {
                                 imgs : session_img_09,
-                                name : '김채연',
+                                name : 'Chaeyeon Kim',
                                 enname : '',
-                                job : '- (사)한국임상미술치료협회 회장, 한국',
-                                contents : '김채연은 미술치료사이자 비영리법인 한국임상미술치료협회 대표이다. 미술치료학으로 석사와 박사학위를 받았고, 현재 문화예술경영학 박사과정에 재학 중이다. “남을 돕고 싶은 마음”과 “사람에 대한 관심”이 그녀를 미술치료사의 길을 걷게 하였다. 그녀는 풍부한 사례와 근거를 통해 마음이 아프고 지친 사람들을  위해 미술치료사로 22년간 임상현장에서 환자들을 만나고 있다.  또한, 그녀는  많은 사람들이 미술을 통해 치유를 경험하고, 혜택을 받을 수 있도록 돕고자 비영리 법인을 설립하여, 문화예술치유 복지를 만들어 가기 위해 노력하고 있다.',
-                                download : true,
+                                job : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
+                                contents : 'Chaeyeon Kim is an art therapist and representative of the Korea Clinical Art Therapy Association, a non-profit corporation. She holds'
+                                          +"master's and doctoral degrees in art therapy, and she is currently enrolled in a doctorate program in business administration in cultural arts. Her “her desire to help others” and her “her interest in her people” put her on the path of her art therapist. She has been meeting patients in clinical settings for 22 years as an art therapist for her heartbreaking and weary people through her rich examples and evidence. In addition, she has established a non-profit corporation to help many people experience healing through art and receive benefits, and is striving to create culture and art healing welfare.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_10,
-                                name : '글로리아 자파타 ',
-                                enname : '(Gloria P. Zapata)',
-                                job : '- 후안 코파스 대학재단, 보고타 구립 대학 교 유네스코 의장, 콜롬비아',
-                                contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정',
+                                name : 'Gloria P. Zapata',
+                                enname : '',
+                                job : '- Unesco Chair, Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá, Colombia',
+                                contents : 'Dr Gloria P. Zapata is the UNESCO Chair in Arts, Education and Culture of Peace at Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá (<a href="http://unesco.cinvest.com.co" target="_blank">http://unesco.cinvest.com.co</a>) She is a music educator with a PhD in Music Psychology and Education from Roehampton University (U.K), a Master in Psycho pedagogy from Antioquia University (Medellin-Colombia). Gloria has worked as a consultant for the Ministry of Education and the Ministry of Culture in  Colombia. Her research interest focuses on the relationship between musical development, cultural context and education, which has led her to undertake several research projects with vulnerable communities and educational institutions affected by the Colombian conflict.',
                                 download : false,
                                 downlink : '',
                             }
@@ -982,84 +990,90 @@ export const langen = {
                 ]
             },
             c : {
-                title : '세션 3',
-                subject : '사회적 & 문화적 포용',
-                time : '05.25(화) 15:00~16:30',
-                video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
+                title : 'Session 3',
+                subject : 'Social & Cultural Inclusiveness',
+                time : '25 MAY, 15:25-16:55',
+                video_text : 'In this session, we seek ways for art education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "팬데믹과 관계없이 비대면 예술교육이 필요한 세계 아이들에 대한 고찰 ",
+                        li_title : "Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_11,
-                                name : '김태희',
+                                name : 'Tei Kim',
                                 enname : '',
-                                job : '- 바라예술성장연구소 소장, 한국',
-                                contents : '김태희 바라예술성장연구소 소장은 예술가이자 예술교육자로서 저술과 강연, 연구와 컨설팅, 예술활동을 통해 아이부터 노년에 이르기까지 본능과도 같은 모두의 예술 할 권리를 주장, 옹호하고 있습니다. 서울시 서울문화재단 생활문화주간 예술감독을 역임하였고, 현재는 동아일보(여성동아) 예술감독 및 지자체 문화재단과 정부, 기업에서 컨설턴트로 활동 중입니다. 대표 저서로는 학부모와 예술 교사들에게 예술교육에 대한 영감을 준『행복한 인재로 키우는 예술의 힘』, 유아동의 자발성과 창의성을 이끌어내는 예술교육서 『아이중심·놀이중심의 예술수업』등이 있습니다.',
-                                download : true,
+                                job : '- Director, BARA Art Growth Institute , Republic of Korea',
+                                contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
+                                         + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
+                                         + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "차이의 세계에서 성장하기: 싱가포르 다양성 속에서 살아가는 이야기",
+                        li_title : "Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.",
                         li_data : [
                             {
                                 imgs : session_img_42,
-                                name : '샤를린 라헨드란 ',
-                                enname : '(Charlene Rajendran)',
-                                job : '- 난양공과대학 조교수, 싱가포르',
-                                contents : '바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 ',
+                                name : 'Charlene Rajendran',
+                                enname : '',
+                                job : '- Assistant Professor, Nanyang Technological University, Singapore',
+                                contents : 'Charlene Rajendran is Assistant Professor at the National Institute of Education, an institute of Nanyang Technological University, Singapore. As theatre educator, researcher and dramaturg, her interests focus on contemporary theatre, play-based pedagogy, issues of difference and arts leadership. She has collaborated with diverse artists and is Co-Director of the Asian Dramaturgs’ Network.\n\n Her publications include: Performing Southeast Asia: Performance, Politics and the Contemporary (co-edited with Marcus Tan, 2020, Palgrave Macmillan); Excavations, Interrogations, Krishen Jit and Contemporary Malaysian Theatre (co-edited with Ken Takiguchi and Carmen Nge, 2018, Epigram and Five Arts Centre); academic articles in RIDE, Applied Theatre Research, TDR, Theatre, Dance and Performance Training, Asian Theatre Journal and creative works.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Charlene_Rajendran_UNITWIN_2021_Presentation.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "춤과 언어교육의 융합: 위기의 시대 속에서 사회 다양성과 평등에 대한 창의적인 대응",
+                        li_title : "Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis",
                         li_data : [
                             {
                                 imgs : session_img_13,
-                                name : '난 장 ',
-                                enname : '(Nan Zhang)',
-                                job : '- 모내시대학교 박사과정, 호주',
-                                contents : '난 장은 중국 베이징 무용 아카데미에서 학사 및 석사 학위를 마쳤다. 현재, 그녀는 호주 모나시 대학교 교육학부의 박사 후보생이며, 연구 관심사는 춤과 언어 교육, 콘텐츠 및 언어 통합 학습, 다문화주의, 사회적 다양성, 형평성 등이다. 사회적 다양성과 형평성과 깊은 관련이 있는 다양한 언어의 유지관리, 학습, 습득은 호주와 같은 다문화 사회에서 점점 더 중요하다. 불행히도, 세대가 교체되면서 많은 이민자 및/또는 아이들이 그들의 유산, 문화적, 또는 상호 문화적인 이해를 얻을 수 있도록 돕는 제2외국어 프로그램들이 증가하고 있으며, 이러한 증가는 사회적 다양성과 형평성에 더 부정적인 영향을 미칠 수 있다. 거의 관심을 갖지 않았던 이러한 도전에 대한 창의적인 대응은 바로 제2외국어 교육에 춤을 통합하는 것이다. 이 연구는 춤 교육학의 영향과 그것의 함의를 조사하기 위한 수단으로서 자문화기술지와 교육적 감식안 및 비평을 결합했다. 논의된 주제는 의사소통 및 타 문화간 역량, 언어 습득 및 몰입, 인지 학습 전달 및 다중적인 접근이었다. 이 연구는 무용 활동이 학생들의 제2외국어 및 문화적 역량 개발에 기여할 수 있는 이점에 대한 실증적 증거를 제공하고 춤을 제2외국어를 가르치는 접근법으로 채택하고자 하는 교사들에게 교육학적 통찰력을 제공한다.',
+                                name : 'Nan Zhang',
+                                enname : '',
+                                job : '- Ph.D. candidate, Monash University, China',
+                                contents : 'Nan Zhang completed her Bachelor and Master of Arts degree at the Beijing Dance Academy in China. Currently, she is a PhD candidate at the Faculty of Education, Monash University, Australia. Nan’s research interests include dance and language education, Content and Language Integrated Learning, multiculturalism, social diversity and equity.\n\n'
+                                           +"Deeply associated with social diversity and equity, the acquisition, learning, and maintenance of varied languages is increasingly important in multicultural societies, like Australia. Unfortunately, as the generation’s pass, there are also increased challenges for many immigrant and/or second language programs to assist children to acquire their heritage, cultural, and/or intercultural understanding, which can further negatively affect social diversity and equity.\n\n"
+                                           +'A creative response to these challenges that has had little attention is integrating dance into second language education. This study assembled autoethnography and educational connoisseurship and criticism as a means to investigate the impact of dance pedagogy and its implications. The themes discussed were: communicative and intercultural competence, language acquisition and immersion, cognitive learning transfer, and multiple accesses.\n\n'
+                                           +'This study offers empirical evidence for the benefits that dance activities can make to students’ second language and cultural competence development and affords pedagogical insights for teachers who want to employ dance as an approach to teach a second language.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Zhang_Integrating_dance_and_language_education_A_creative_response_to_social.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "주의력과/또는 과잉 활동 장애가 있는 4-8 학년 학생을 위한\n정서적 자기 조절을 촉진하기 위한 예술: 여러 사례 연구",
+                        li_title : "USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND / OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY",
                         li_data : [
                             {
                                 imgs : session_img_14,
-                                name : '야라 도크랏 ',
-                                enname : '(Yaara Docrat)',
-                                job : '- 퀸즈대학교 석사과정, 캐나다',
-                                contents : '야라 도크랏은 벤자민 볼든 박사(UNESCO 예술 및 학습 위원장)의 감독 아래 퀸즈 대학교 교육학부의 석사 후보이다. 야라의 교육적 관심사는 특수교육과 위기청소년이다. 야라는 2018년부터 2019년 영국에서 사회정서 및 정신건강(SEMH)이 필요한 학생들을 가르쳤고, 2021년 가을부터 치앙마이 아메리칸 퍼시픽 국제학교(The American Pacific International School of ChiangMai)에서 가르치게 되었다. 야라의 연구 관심사는 이러한 교육적 관심사, 예술 교육, 그리고 정서적 자기 규제를 결합하여 학생들에게 더 나은 서비스를 제공한다. 야라의 배경 덕분에 그녀는 이러한 필요성을 확인할 수 있었다. 2017~2018년 동안 교사 후보로서, 음악과 아이들에 대한 야라의 개인적 애정은 호주 온타리오주에서 1000명 이상의 학생들을 멘토링하고 연주하기위한 투어 뮤지션들을 모이게했다. 그녀는 이러한 노력을 인정받아 2018년에 킹스턴 시민 청소년 자원봉사자 상(Kingston Civil Youth Voluntism Award 2018)을 수상하였다. 야라는 모든 교실에서 예술을 보다 더 쉽게 통합할 수 있도록 사범교육 프로그램을 강화한다는 중심 임무에 도달하기 위해 일하고 있다.',
+                                name : 'Yaara Docrat ',
+                                enname : '',
+                                job : "- Master's candidate, Queen’s University, Canada",
+                                contents : 'Yaara Docrat is a Master of Education Candidate in the Faculty of Education at Queen’s University under the supervision of Dr. Benjamin Bolden (UNESCO Chair of Arts & Learning). Yaara’s teaching interests include special education and at-risk youth. From 2018-2019, Yaara taught students with social, emotional, and mental health (SEMH) needs in the United Kingdom and in Fall 2021, will teach at The American Pacific International School of Chiang Mai. Yaara’s research interests combine these teaching interests, arts education, and emotional self-regulation to better serve students alike.\n\n'
+                                           +'Yaara’s background has allowed her to identify this need. As a teacher candidate (2017-2018), Yaara’s personal love of music and children prompted her to organize touring musicians to play and mentor 1000+ students in Ontario. She was awarded the Kingston Civic Youth Volunteerism Award 2018 to recognize these efforts. Yaara works towards a central mission of strengthening teacher education programs to more easily integrate the arts within all classrooms.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Docrat_UsingTheArtsToFosterEmotionalSelfRegulationForGrade4To8StudentsWithAttentionAndOrHyperactivityChallengesAMultipleCaseStudy_UNITWIN2021.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_16,
-                                name : '네릴 제너렛 ',
-                                enname : '(Neryl Jeanneret)',
-                                job : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                                contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.',
+                                name : 'Neryl Jeanneret',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : 'Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1068,105 +1082,107 @@ export const langen = {
                 ]
             },
             d : {
-                title : '세션 4',
-                subject : '서울 어젠다',
-                time : '05.25(화) 16:30~17:50',
-                video_text : '“서울 어젠다: 예술교육 발전목표”가 천명하고 있는 것처럼, 예술교육의 중요성과 가치가 오늘날 현대 사회에 어떤 영향력을 발휘할 수 있는지에 대해 모색합니다.',
+                title : 'Session 4',
+                subject : 'Seoul Agenda',
+                time : '25 MAY, 16:55-18:10',
+                video_text : 'In this session, we seek how the importance and value of art education can influence modern society today like the "Seoul Agenda: The Objective of Arts Education Development" is clarifying.',
                 download : false,
                 chatlink : '1006',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "예술교육 지속가능성의 전망: 가치, 도전 그리고 가능성",
+                        li_title : "Visions of Sustainability for Arts Education: Value, Challenge and Potential",
                         li_data : [
                             {
                                 imgs : session_img_15,
-                                name : '벤자민 볼든 ',
-                                enname : '(Benjamin Bolden)',
-                                job : '- 퀸즈대학교 부교수, 캐나다',
-                                contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
+                                name : 'Benjamin Bolden',
+                                enname : '',
+                                job : "- Associate Professor, Queen's University, Canada",
+                                contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning. His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan. Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
                             },
                             {
                                 imgs : session_img_16,
-                                name : '네릴 제너렛 ',
-                                enname : '(Neryl Jeanneret)',
-                                job : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                                contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다',
+                                name : 'Neryl Jeanneret',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : 'Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "환경 예술작가, 젠터와의 대화: 과정과 교육적 가능성 탐색",
+                        li_title : "Dialoguing with Environmental Artist, Zen Teh: Exploring Processes and Pedagogical Possibilities",
                         li_data : [
                             {
                                 imgs : session_img_17,
-                                name : '치후 룸 ',
-                                enname : '(Chee-Hoo Lum)',
-                                job : '- 국립교육원 부교수, 싱가포르',
-                                contents : '치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다. 그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다.',
-                                download : true,
+                                name : 'Chee-Hoo Lum',
+                                enname : '',
+                                job : '- Associate Professor, Nanyang Technological University, Singapore',
+                                contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                           +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
                                 imgs : session_img_18,
-                                name : '젠 터 ',
-                                enname : '(Zen Teh)',
-                                job : '- 환경 예술가 및 교육자, 싱가포르',
-                                contents : '1988년생 젠 터는 자연과 인간의 행동에 대한 학문 간 연구에 관심이 있는 예술가이자 교육자이다. 젠의 연구는 배움이 자연 현상과 일상의 경험에 대한 우리의 타고난 호기심에 기초한다는 믿음에 바탕을 두고 있다. 예술가로서 그녀의 미술 연구는 사진, 조각, 설치 미술에 걸쳐 있다.\n\n젠은 그녀의 작품을 싱가포르의 산책로(Esplanade), 국립박물관, 미술관, 예술과학관 등 싱가포르에서 열린 수많은 단체전과 개인전에서 선보였다. 태국, 인도네시아, 한국, 대만, 홍콩, 중국 등 지역에서 작품 전시를 했으며, 아세안 파워시프트 2015, 하노이 이노베이션 위크 2016 등 지역 환경회의 초청 연사로 초청됐다. 또한 젠은 최근 제7회 프랑스+싱가포르 사진예술상 겸 결승 진출자(아티스트)의 2019년 공로상 수상작도 받았다.',
-                                download : true,
+                                name : 'Zen Teh',
+                                enname : '',
+                                job : '- Environmental Artist & Educator, Singapore',
+                                contents : 'Zen Teh (born and live in Singapore, 1988) is an artist and educator interested in interdisciplinary studies of nature and human behavior. Her practice draws on the belief that learning is built upon our innate curiosity towards natural phenomena and experiences of the everyday. As an artist, her art practice spans across photography, sculpture and installation art. Her works has been showcased in numerous group and solo exhibitions in Singapore, including the Esplanade Singapore, National Museum of Singapore, Singapore Art Museum and Art Science Museum.\n\n'
+                                           +'She has also exhibited regionally in Thailand, Indonesia, Korea, Taiwan, Hong Kong and China and was invited as a guest speaker at regional environmental conferences such as ASEAN Powershift 2015 and Hanoi Innovation Week 2016 on Sustainability. Teh has also been recently awarded the winning title for the 7th France+Singapore Photographic Arts Award and Finalist (Artist) for 2019 IMPART Awards.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "시각예술교육: 지연의 연속과 불확실한 시간 속에서 세계를 이어주고,\n풀어주고, 지속하며 완화해주는 국제적 맥락",
+                        li_title : "Visual Arts Educations: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.",
                         li_data : [
                             {
                                 imgs : session_img_19,
-                                name : '캐서린 콜만 ',
-                                enname : '(Kathryn Coleman) ',
-                                job : '- 맬버른대학교 부교수, 호주(빅토리아, 태즈메이니아)',
-                                contents : '캐서린 콜만 박사는 예술, 디지털 공간, 연습, 문화의 교차점에 관심을 둔다. 콜만 박사의 방식은 교사 실습, 정체성의 실천, 그리고 연습으로서의 지식을 통해 알게 된다.',
+                                name : 'Kathryn Coleman',
+                                enname : '',
+                                job : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
+                                contents : 'Dr Kathryn Coleman is interested in the intersection of art, digital spaces, practice and culture. Kate’s  praxis is informed by teacher practices, practices of identity, and knowledge as practice.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
                             },
                             {
                                 imgs : session_img_20,
-                                name : '마크 셀크릭 ',
-                                enname : '(Mark Selkrig)',
-                                job : '- 맬버른대학교 부교수, 호주(빅토리아, 태즈메이니아)',
-                                contents : '마크 셀크릭 부교수의 연구 관심사에는 교육자 업무의 본질 변화와 예술과 창의성이 개인과 공동체의 변화, 역량 향상, 및 기관에 영향을 미칠 수 있는 방법이 포함한다.',
+                                name : 'Mark Selkrig',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : 'Associate Professor Mark Selkrig’s research interests include the changing nature of educators’ work and ways the arts and creativity can influence change, capacity building and agency of individuals and communities.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
                             },
                             {
                                 imgs : session_img_21,
-                                name : '에비 맥도날드 ',
-                                enname : '(Abbey MacDonald)',
-                                job : '- 태즈매니아대학교 부교수, 호주(빅토리아, 태즈메이니아)',
-                                contents : '애비 맥도날드 박사는 자신의 연구를 위한 작품활동, 지지 및 다양한 이해 관계자들의 협업에 최대한 중점을 두고 있다. 애비는 교육 혁신 이해 관계자들과 협력하기 위해 예술 및 자선단체와 함께 일한다.',
+                                name : 'Abbey MacDonald',
+                                enname : '',
+                                job : '- Senior Lecturer, University of Tasmania, Australia',
+                                contents : 'Dr Abbey MacDonald brings a strong focus upon art making, advocacy and multi-stakeholder collaboration to her research. She works with Arts and philanthropic organisations to collaborate with education transformation stakeholders.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : closing_img_03,
-                                name : '김인설',
+                                name : 'InSul Kim',
                                 enname : '',
-                                job : '- 가톨릭대학교 부교수, 한국',
-                                contents : '가톨릭대학교 공연예술문화학과 전임교수. 예술을 통해 사회 문제를 새롭게 해석하고 이를 통해 사회가 긍정적인 방향으로 발전될 수 있는 주제들을 연구한다. 문화정책과 거버넌스, 예술경영, 예술교육, 예술치유, 문화기술, 문화 복지 등 예술을 통해 창출할 수 있는 사회자본 및 예술의 사회적 역할과 가치가 주요 관심사이다. 문화정책과 예술경영, 문화예술교육분야 등 다수의 국내외 학술지에서 편집위원으로 활동하고 있으며 한국연구재단, 한국문화예술위원회, 한국문화예술교육진흥원, 문화체육관광부 등에서 국책연구와 자문을 수행해 왔다.',
+                                job : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
+                                contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts. Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1175,93 +1191,98 @@ export const langen = {
                 ]
             },
             e : {
-                title : '세션 5',
-                subject : '교실 속의 예술',
-                time : '05.26(수) 13:40~15:15',
-                video_text : '판데믹 상황 속에서 위기에 놓인 학교 및 학생들이 예술교육을 통해 회복되고, 다양한 예술 분과 교육들이 학생들을 지속적으로 지지하고 지원할 수 있는 방법을 모색합니다.',
+                title : 'Session 5',
+                subject : 'Arts in the Classroom',
+                time : '26 MAY, 13:40-15:10',
+                video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through art education, and for various arts departments to continue to support students.',
                 download : false,
                 chatlink : '1007',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "COVID-19 대유행 기간 동안 케냐 대학 학생들의 석방, 구호, 성찰 및 복원을\n촉진하기 위한 미술 치료 사용",
+                        li_title : "The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_22,
-                                name : '마리 클레어 키덴다 ',
-                                enname : '(Mary Clare Kidenda)',
-                                job : '- 케냐 공과대학교 디자인창조미디어학과 학과장, 케냐',
-                                contents : '마리 클레어 키덴다는 영국 코번트리 대학교에서 디자인 및 시각 예술 박사 학위를, 나이로비 대학교에서 디자인 예술 석사 학위를 받았고, 케냐타 대학교에서 예술 교육 학사 학위를 받았다. 그녀는 상원 의원, 학교 교무 위원회 그리고 현재 케냐 기술 대학교의 디자인 및 창조 미디어 학부, 창조 예술 학교 및 미디어 기술 학부의 팀장이다. 마리는 위 부서에서 다양한 직책을 맡고 있다.\n\n또한 그녀는 다양한 중등 학교에서 예술 및 디자인 교육자로 근무했으며 그 분야에서 가장 우수한 교육자로 다양한 공로를 인정 받았습니다. 그녀가 경력을 쌓는 과정에서, 마리는 논문, 워크숍, 컨퍼런스에 참석하고 다양한 학술지에 그녀의 작업물이 게재되는 등, 국가의 다양한 수준의 커리큘럼 개정에 참여해왔다. 마리는 전국의 여러 예술 디자인 부서를 설립하고 이끌고 있다. 게다가 케냐 디자인 협회(DeSK)와 아프리카 연구 예술 위원회(ACASA)의 회원이자 시각 문화 탐구 전문가 패널의 회원이며 『아프리카의 시각 문화』라는 책의 편집장이다.',
+                                name : 'Mary Clare Kidenda',
+                                enname : '',
+                                job : '- Lecturer and Head, The Technical University of Kenya, Kenya',
+                                contents : 'Mary Clare Kidenda holds a Doctorate in Design and Visual Arts from Coventry University, UK. and Master of Arts in Design from the University of Nairobi.  Her  Bachelor of Education degree in Education and Fine Art is from Kenyatta University. She is a member of the Senate, School Academic Board and the current Academic Team Leader, Department of Design and Creative Media, School of Creative Arts and Media Technology at The Technical University of Kenya. She has held various positions at the department.\n\n'
+                                          +'She has been an Art and Design teacher in various secondary schools and has received various certificates of merit as the best Art and Design teacher. In the course of her career, Mary Clare has participated in curriculum reform at various levels in the country; written papers, attended workshops, conferences and published in various academic journals. She has set up and headed  several Art and Design Departments countrywide.\n\n'
+                                          +'Mary Clare is also a member of the Design Association of Kenya (DeSK) and Arts Council of the African Studies (ACASA). She is a Member of Experts Panel- Exploring Visual Cultures.  Mary is the chief editor of the book “ Visual Culture in Africa”.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Mary_Clare_Kidenda_The_use_of_Visual_Art_therapy_to_facilitate_the_release_relief_reflection_and_restoration_of_students_in_Kenyan_Universities_during_the_COVID_19_Pandemic.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "포용적 관행을 위한 인형극의 마술 같은 힘",
+                        li_title : "The Magic within Puppetry for Inclusive Practices",
                         li_data : [
                             {
                                 imgs : session_img_23,
-                                name : '에밀리 맥밀런 ',
-                                enname : '(Emily MacMillan)',
-                                job : '- 퀸즈대학교 석사과정, 캐나다',
-                                contents : "에밀리는 퀸즈대학교의 단(Dan) 연극 음악학교를 졸업했다. 현재 캐나다 온타리오주 퀸즈 대학교 교육학 석사과정 1학년생이며, 초등학교 5학년까지 가르쳐 본 실습생이다. 에밀리의 연구에는 인형극 예술이 교실 내 포용성을 키우는 데 어떻게 기초가 될 수 있는지, 특히 신경이 예민한 학생과 발달 장애가 있는 학생 사이에서 진정한 우정의 성장을 촉진 할 수 있는 방법을 보여주는 교육자를 위한 워크숍을 만드는 것을 포함한다.\n\n인형극이 화면을 넘어서 확장될 수 있고, 플랫폼에 상관없이 모든 학생들에게 포용성과 교실 커뮤니티를 제공할 수 있기 때문에 이러한 워크숍은 온라인이나 대면 수업으로 직접 이용될 수 있을 것이다. 에밀리의 프레젠테이션에는 '포용적 실천을 위한 인형극의 마법'에 대해 이야기할 예정이며 이 프리젠테이션에 참여한 관객들 각자가 이 마법을 조금이나마 느끼고 경험하기를 바란다. 고로 에밀리는 관객이 각자 가진 내면의 로저스씨를 이용해 이 프레젠테이션을 즐겼으면 한다.",
+                                name : 'Emily MacMillan ',
+                                enname : '',
+                                job : "- Master's candidate, Queen’s University, Canada",
+                                contents : "Emily is a graduate from Queen’s Dan School of Drama and Music. She is currently a 1st year student in the Masters of Education Program at Queen’s University in Ontario, Canada as well as a practicing virtual elementary teacher to a grade five class. Emily’s research includes creating workshops for educators to show how the art of puppetry can be fundamental in fostering inclusivity within the classroom and can promote the growth of genuine friendships, especially between neuro-typical students and students with developmental disabilities.\n\n"
+                                           +'These workshops will be available online and in-person as puppetry can extend beyond the screen and offer a sense of inclusivity and classroom community for all students, no matter the platform. Today Emily will be speaking about The Magic within Puppetry for Inclusive Practices. Emily hopes each and every one of you will feel and experience a little bit of this magic today during her presentation, so tap into your inner Mr. Rogers and enjoy the ride',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Emily_MacMillan_The_magic_within_puppetry_for_inclusive_practices.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "교실에서 다양성과 문화적 표현의 필요성 : 실용적인 전략과 그 실행",
+                        li_title : "The Necessity of Diversity and Cultural Representation in the Classrooms:  Practical Strategies and Their Implementation",
                         li_data : [
                             {
                                 imgs : session_img_24,
-                                name : '홍지혜',
+                                name : 'Jihea Hong-Park',
                                 enname : '',
-                                job : '- 브리검 영 대학교 부교수, 미국',
-                                contents : "재미 교포 피아니스트 홍지혜 씨는 현재 미국 전역과 세계 곳곳에서 연주자, 교육자, 그리고 티칭 아티스트로 활동하고 있다. 그녀는 뉴욕 카네기홀의 와일 리사이틀홀과 젠켈홀, 링컨센터, 머킨홀, 영국의 캠브리지 대학, 일본의 도쿄 음대, 코메 에콜마 홀, 그리고 한국의 인천 예술문화센터 등지에서 연주를 하였다. 현재 미국 브리검 영 대학 (Brigham Young University) 피아노 과 부교수로 교직 중이며 이전 줄리아드 음대 Evening Division 교수진과 뉴욕 필하모닉 수석 티칭 아티스트역임을 하였다.\n\n홍지혜 씨는 특강 연사로 Showa University, Kobe College, Osaka University of the Arts, Wuhan Conservatory of Music, Missouri State University, Grand Valley State University, Loyola College New Orleans, Weber State University, Juilliard’s Pre-College, 미얀마의 Gitameit Music Institute 등지의 각국 나라의 학생들을 가르쳤다. 그녀는 국제예술교육실천가대회 (ITAC5), College Music Society’s National Conferences, Youth Orchestra of St. Luke’s, 및 뉴욕 시 교육청 등에서 학회 발표를 하였으며 올 여름에는 2021 National Conference on Keyboard Pedagogy에서 강연 초대를 받았다.",
+                                job : '- Associate Professor, Brigham Young University, USA',
+                                contents : "Korean American pianist Jihea Hong-Park enjoys a versatile and active career as a recitalist, educator, chamber musician, teaching artist, workshop presenter, and interdisciplinary arts collaborator. She has performed at major venues such as Carnegie Hall, Lincoln Center for the Performing Arts, Merkin Hall, Symposium and Festival of the Centre of Intercultural Music Arts at the University of Cambridge in England, Incheon Performing Arts Center in South Korea, and Komae Ecorma Hall and Niigata Performing Arts Center in Japan.\n\n"
+                                           +'Ms. Hong-Park currently holds the position of Associate Professor of Piano at Brigham Young University. Prior to her appointment at BYU, she taught on the piano faculty at The Juilliard School’s Evening Division for 14 years and was a lead teaching artist at the New York Philharmonic. Through masterclasses, lectures, and chamber music instruction, she has worked with students from across the world.  As an avid workshop facilitator, Ms. Hong-Park has presented at the International Teaching Artist Conference, College Music Society’s National Conferences, Youth Orchestra of St. Luke’s, and New York City Department of Education. Recently, she has been invited to give presentations at the 2021 National Conference on Keyboard Pedagogy. Ms. Hong-Park received her B.M. and M.M. degrees at The Juilliard School.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Jihea_HongPark_UNESCO_Necessity_of_Cultural_Representation_in_Music_Classrooms.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "2020년 학생들의 목소리를 사용한 디지털 예술과 협작",
+                        li_title : "Facilitating student voice and collaboration with digital arts in 2020",
                         li_data : [
                             {
                                 imgs : session_img_25,
-                                name : '에밀리 윌슨 ',
-                                enname : '(Emily Wilson)',
-                                job : '- 멜버른 교육대학원 강사, 호주',
-                                contents : "에밀리 윌슨은 학부 및 대학원 음악 교육 교수다. 그녀의 연구 관심사로는 음악 교육 교육학, 학생 참여, 비공식 및 공식 음악 학습의 융합, 일대일 음악 교육학 등이 있다.",
+                                name : 'Emily Wilson',
+                                enname : '',
+                                job : '- Lecturer, The University of Melbourne, Australia',
+                                contents : "Emily Wilson is a lecturer in undergraduate and postgraduate music education. Her research interests include: music education pedagogy, student engagement, the confluence of informal and formal music learning, and one-to-one music pedagogy.",
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/WilsonJeanneret.pptx',
                             },
                             {
                                 imgs : session_img_16,
-                                name : '네릴 제너렛 ',
-                                enname : '(Neryl Jeanneret)',
-                                job : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                                contents : "네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.",
+                                name : 'Neryl Jeanneret ',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : "Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.",
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/WilsonJeanneret.pptx',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_15,
-                                name : '벤자민 볼든 ',
-                                enname : '(Emily Wilson)',
-                                job : '- 퀸즈대학교 부교수, 캐나다',
-                                contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
+                                name : 'Benjamin Bolden',
+                                enname : '',
+                                job : "- Associate Professor, Queen's University, Canada",
+                                contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning.\n\n'
+                                           +' His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan. Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1270,111 +1291,115 @@ export const langen = {
                 ]
             },
             f : {
-                title : '세션 6',
-                subject : '예술 참여',
-                time : '05.26(수) 15:15~17:05',
-                video_text : '예술교육이 오늘날의 위기에 대항하여 지역 사회가 창조적으로 대응하고 역량을 강화할 수 있도록 도울 수 있는 방법을 모색합니다.',
+                title : 'Session 6',
+                subject : 'Arts Engagement',
+                time : '26 MAY, 15:10-16:40',
+                video_text : "In this session, we seek how arts education can help communities respond creatively and empower communities in the face of today's crisis.",
                 download : false,
                 chatlink : '1008',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "팬더믹 이후의 온라인 문화예술교육은 어떻게 예술교육가의 정체성을 재구성하는가",
+                        li_title : "Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?",
                         li_data : [
                             {
                                 imgs : session_img_26,
-                                name : '제환정',
+                                name : 'Hwan Jung Jae',
                                 enname : '',
-                                job : '- 한국예술종합학교 객원교수, 한국',
-                                contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상구석구석 예술이 있기를 도모하고 있다.\n예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중. Temple University 무용 박사.',
-                                download : true,
+                                job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
+                                contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "온라인 관람 시대에 참여와 공유를 실천하는 박물관/미술관 교육 프로그램 개발",
+                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
                         li_data : [
                             {
                                 imgs : session_img_27,
-                                name : '정혜연',
+                                name : 'HyeYoun Chung',
                                 enname : '',
-                                job : '- 홍익대학교 조교수, 한국',
-                                contents : '본 발표의 자료인 박물관/미술관 교육연구 1,2 담당 교수로, 홍익대학교 교육대학원 미술교육과 교수이다. 홍익대 회화과 및 동대학원 졸업하고, Columbia 대학교 예술경영학 석사, 미술교육학 박사(미술관 교육 세부 전공)이다. 박물관/미술관 자문 및 교육프로그램 평가를 하고 있다.',
-                                download : true,
+                                job : '- Assistant professor, Hongik University, Republic of Korea',
+                                contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
                                 imgs : session_img_28,
-                                name : '성효진',
+                                name : 'Hyojin Sung',
                                 enname : '',
-                                job : '- 국제갤러리 전시팀 , 한국',
-                                contents : '박물관/미술관 교육연구 2 참여자로 서강대학교 영문과 졸업, 홍익대학교 미술교육학과 석사과정에 재학중이다. 국립현대미술관 과천관 미술관교육팀 서포터즈로 참여한 바 있으며, 미술품 경매회사 케이옥션을 거쳐 현재 국제갤러리 전시팀에 근무 중이다. 옥션과 상업화랑, 그리고 미술관 교육팀까지 다양한 분야에 속하며 대중의 예술 참여활동에 대한 활발한 연구 중에 있다.',
-                                download : true,
+                                job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
+                                contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "서비스 학습의 네러티브: 난양 미술 아카데미 사례 연구",
+                        li_title : "Narratives of Service Learning: a Case Study at Nanyang Academy of Fine Arts",
                         li_data : [
                             {
                                 imgs : session_img_41,
-                                name : '레베카 칸 ',
-                                enname : '(Rebecca Kan)',
-                                job : '- 난양아카데미 부총장, 싱가포르',
-                                contents : '레베카는 예술을 가르치고 배우는 데 열정적이며, 특히 전문 교육과 시그니처 교육학, 그리고 이 분야 사이에 놓여 있는 모든 것에 열정적이다. 교육연구부 차장 자격으로 고등예술교육의 질을 높이는 연구 프로젝트와 파트너십을 주도하며, 음악학교 수석 강사, 싱가포르 사회과학대학(SUSS)에서 겸임 강사 등을 맡아 성인 학습자들과 함께 음악적 이정표를 감상하는 예술을 준비한다.\n\n음악가이자 음악학자로서 훈련을 받은 레베카는 바로크양식의 협주곡의 창작 음악 과정을 전문으로 한다. 그녀는 박사 과정으로 국립 예술 위원회로부터 장학금을 받았고, 리버풀 대학교에서는 전액 장학금을 받았으며 영국 국제 연구생들을 위한 장학금을 받았다. 레베카는 현재 싱가포르 난양공과대학교의 국립교육원에서 교육학 박사 연구로 Tan Poey Queee 박사 교육 장학금을 받았다.',
+                                name : 'Rebecca Kan ',
+                                enname : '',
+                                job : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
+                                contents : 'Rebecca is passionate about teaching and learning of the arts, specifically in professional education, signature pedagogies, and everything that lies in-between. In her capacity as Vice-Dean of Pedagogy and Research Unit, she spearheads research projects and partnerships that enhance the quality of higher arts education. She is also a Senior Lecturer with the School of Music, and an Adjunct Lecturer at Singapore University of Social Sciences (SUSS), where she curates the art of appreciating musical milestones with adult learners. Trained as a musician and musicologist, Rebecca specialises in the creative musical processes of the Baroque concerto.\n\n'
+                                           +'For her Ph.D. studies, she received a grant from the National Arts Council, a full scholarship from the University of Liverpool, and the United Kingdom Scholarships for International Research Students. Rebecca is presently awarded the Tan Poey Quee Doctor in Education Scholarship for EdD studies at the National Institute of Education, Nanyang Technological University, Singapore.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
                             },
                             {
                                 imgs : session_img_29,
-                                name : '푸 세이밍 ',
-                                enname : '(Foo Say Ming)',
-                                job : '- 난양아카데미 학장, 싱가포르',
-                                contents : "푸 세이 밍은 싱가포르 음악계에서 활발한 활동을 하고 있다. 그는 싱가포르 교향악단에서 제1바이올리니스트로 활동한 것과 별개로, 영국 런던 왕립음악대학(RCM)과 함께 음악공연과 음악교육 학위 과정을 개설한 난양미술원에서 현악학부장을 겸임하고 있다. 싱가포르 실내악단 '리:믹스'를 지휘하는 세이 밍은 싱가포르 특유의 클래식과 현대음악에 대한 취향을 담은 독특한 레퍼토리를 대중들과 다양한 지역 국가 축제에서 선보임으로써 2개의 '올해의 CD'상을 수상하는 영예를 얻었다. 세이 밍은 왕립음악대학 졸업생이며, 훗날 그가 프랑스 바이올리니스트 피에르 아모얄과 함께 공부했던 스위스 콘서베토흐 드 로잔(Conservatoire de Lausanne) 음악 학교에서 비흐튜오시떼 - 퍼미에흐 펠리시티 듀 쥬히(Virtuosité - Premier Pélicities du Jeri)를 받았다.",
+                                name : 'Foo Say Ming ',
+                                enname : '',
+                                job : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
+                                contents : "Foo Say Ming is an active musician in the local music scene.  Apart from his work in the Singapore Symphony Orchestra as a 1st violinist, he is also heading the String Faculty at the Nanyang Academy of Fine Arts, which offers degree courses in music performance and music education with the Royal College of Music (RCM), London. Apart from his role as Assistant Conductor of the National University of Singapore (NUS) Symphony Orchestra, Say Ming also leads and direct a Singaporean chamber orchestra “re: mix”, which endeavours to bring a unique Singaporean voice its take on classical and the contemporary music. With its unique repertoire and its 2 “CD of the Year” accolades from The Straits Times, re: mix has since attracted the attention of audiences and festivals from several regional countries.\n\n"
+                                           +'Say Ming is a graduate of the Royal College of Music, was also later conferred the “Virtuosité - Premier Prix avec Félicitations du Jury” at the Conservatoire de Lausanne (Switzerland) where he studied with French violinist Pierre Amoyal, a protégé of Jascha Heifetz.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
                             },
                             {
                                 imgs : session_img_30,
-                                name : '탄정수안 ',
-                                enname : '(Tan Jeng Suan)',
-                                job : '- 난양아카데미 조교, 싱가포르',
-                                contents : "탄 정 수안은 난양미술원 피아노 연주과 4학년이다. 현재, 폴 량 박사의 지도 아래, 학교 콘서트에서 솔리스트이자 실내악가로써 공연을 해왔다. 그녀는 최근 런던 왕립 음악대학에서 국제학위를 받는 동안 리처드 어틀리(Richard Uttley)교수와 함께 공부할 기회를 얻었다. 탄은 학생 연구 조교로서 교육학 연구부, 학술 사무소와 함께 다양한 연구 프로젝트에 참여해왔다. 음악 교육에 깊은 관심을 갖고 있는 탄의 학부 연구 프로젝트는 실천 커뮤니티에 중점을 둔 음악 학교에서의 사회문화적인 교육에 초점을 맞췄다.\n\n그녀의 연구 프로젝트는 전통 음악 시스템에 대한 보완적 학습 방법으로 사회 문화 학습의 가능성을 탐구하려고 했다. 탄의 다른 연구 관심사는 영유아를 위한 음악 교육이다.",
+                                name : 'Tan Jeng Suan ',
+                                enname : '',
+                                job : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
+                                contents : 'Tan Jeng Suan is a final-year undergraduate student at the Nanyang Academy of Fine Arts, majoring in piano performance. Currently under the tutelage of Dr Paul Liang, she has performed in school concerts, both as a soloist and as a chamber musician. She recently had the opportunity to study with Professor Richard Uttley during her international placement with the Royal College of Music, London. As a student research assistant, she has been involved in various research projects with the Pedagogy and Research Unit, Office of Academic Affairs. Having a keen interest in music education, her undergraduate research project was focused on Communities of Practice: Sociocultural Learning in a Music Conservatoire.\n\n'
+                                           +'Her research project sought to explore possibilities for sociocultural learning as a complementary learning method to the traditional conservatory system. Her other research interests are in music education for young children.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "2020년 위기 속에서 창의 세대와 예술교육의 혁명",
+                        li_title : "The Creative Generation and Arts Education Innovations through the Crises of 2020",
                         li_data : [
                             {
                                 imgs : session_img_10,
-                                name : '제프 풀린 ',
-                                enname : '(Jeff Poulin)',
-                                job : '- 크리에이티브 제너레이션 전무이사, 미국',
-                                contents : '바이오 미정',
-                                download : true,
+                                name : 'Jeff Poulin',
+                                enname : '',
+                                job : '- Managing Director, Creative Generation, USA',
+                                contents : '',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : closing_img_04,
-                                name : '신혜선',
+                                name : 'Hyesun Shin ',
                                 enname : '',
-                                job : '- 위컬쳐 리서치&컨설팅 대표, 한국',
-                                contents : '현재 위컬처 리서치 앤 컨설팅의 대표이자 경희대학교 경영대학원 문화예술경영학과 강사로 활동 중이다. 문화예술교육, 국제문화교류, 문화정책, 예술경영을 중심으로 연구 및 강의하고 있다. 미국 오하이오주립대학교 문화정책·예술경영 전공으로 박사학위를 취득한 후, 숙명여자대학교 다문화통합연구소 책임연구원으로 재직하였다. 우리 삶 속의 예술과 예술활동에 참여하는 것이 인간 사이에 그리고 사회 간 관계에 어떠한 기여와 영향을 가지고 오는지에 대해 관심을 가지고 탐색하고 있다. ⸢문화예술교육 자원과 협력관계⸥를 공동저술하였으며, Journal of Arts Management, Law, and Society, 문화정책논총, 예술경영연구 등에 논문을 게재하였다.',
+                                job : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
+                                contents : 'WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education. Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.\n\n'
+                                           +'Her current research interests include arts education, cultural diversity, international cultural relations, and cultural policy. Shin’s articles have published in Journal of Arts Management, Law, and Society, Journal of Cultural Policy, Korean Journal of Culture and Arts Education Studies, and more.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1383,102 +1408,109 @@ export const langen = {
                 ]
             },
             g : {
-                title : '세션 7',
-                subject : '다양성 & 문화적 묘사',
-                time : '05.26(수) 15:15~16:55',
-                video_text : '예술교육을 통해 사회에서 소외된 주체들을 드러내고 이들의 목소리를 발굴하며, 이 과정을 통해 사회를 더욱 다양하고 포용적인 공동체로 이루는 과정을 모색합니다.',
+                title : 'Session 7',
+                subject : 'Diversity & Cultural Representation',
+                time : '26 MAY, 15:10-16:40',
+                video_text : 'Through art education, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
                 download : false,
                 chatlink : '1009',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "위기의 시기 속의 예술: 불평등 사례",
+                        li_title : "Arts in time of crisis: The case of inequality",
                         li_data : [
                             {
                                 imgs : session_img_31,
-                                name : '루스 렌슬러 ',
-                                enname : '(Ruth Rentschler)',
-                                job : '- 사우스오스트레일리아대학교 교수, 호주',
-                                contents : '루스 렌슬러(멜버른 혼즈  대학교 학사, 모내쉬 대학교 박사 취득)교수는 사우스오스트레일리아 주 대학교 경영 학교에서 근무하고 있다. 그녀는 예술과 문화의 맥락에서 경영학자, 연구자로서 국제적 인지도를 발전시키면서 우수한 국내 및 국제 보조금, 우수한 저널 출판물, 그리고 국내외 연구팀을 이끌면서 연구 우수성을 입증함과 동시에 국제적인 커리어를 쌓아나가고 있다.\n\n그녀는 오스트레일리아 댄스 시어터(Australian Dance Theatre) 현대 무용단의 이사회 부의장이자 장애 연극 위원회 의장을 맡고 있다. 루스는 예술 분야의 다양성과 사회적 참여에 초점을 맞춘 서적, 우수한 저널 기사(예: 기업윤리 저널(Journal of Business Ethics), 경영 연구 저널(Journal of Business Research), 브리티쉬 경영 저널(British Journal of Management))와 산업 연구 보고서를 국내외에 발표했다. 그녀는 지역사회에 봉사하는 부총장상, 최우수 박사 감독상, 커팅 레드 테이프상과 교육, 예술, 지역사회에 봉사하는 호주 훈장 등 다양한 영예와 상을 받았다.',
+                                name : 'Ruth Rentschler ',
+                                enname : '',
+                                job : '- Professor, University of South Australia Business School, Australia',
+                                contents : 'Professor Ruth Rentschler OAM (BA Hons Melbourne; PhD Monash) is located in UniSA Business, University of South Australia. She is a management scholar in the context of arts and culture, with a history of research excellence demonstrated by her quality national and international grants, quality journal publications and leading of national and international research team, while developing an international profile as a researcher. She is Deputy Chair of the board of Australian Dance Theatre and Chair of the Board of No Strings Attached, Theatre of Disability.\n\n'
+                                           +'She has published books, quality journal articles (e.g., Journal of Business Ethics; Journal of Business Research; British Journal of Management) and industry research reports nationally and internationally, with a focus on diversity and social inclusion in the context of the arts. She has received various honours and awards, such as Vice-Chancellor’s Award for Service to the Community, Best Doctoral Supervisor Award, Cutting Red Tape Award, and an Order of Australia for services to education, the arts and the community.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/UNITWIN_symposium_S_Korea25_26_May_2021slides.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "LGBTQ 역사 사례를 만드는 박물관들",
+                        li_title : "Museums Making A Case for LGBTQ History",
                         li_data : [
                             {
                                 imgs : session_img_32,
-                                name : '심지영',
+                                name : 'Ji-young Shim',
                                 enname : '',
-                                job : '- 홍익대학교 조교수, 한국',
-                                contents : '심지영 박사는 현재 홍익대학교 미술교육학과의 교수로 재직 중이며 국제미술교육학회, 한국문화교육학회, 한국관광학회(외식분과) 등의 이사직을 역임하고 있다. 펜실베니아주립대학교에서 박사학위, 뉴욕 컬럼비아 대학교에서 석사학위, 이화여자대학교 학사·석사학위를 취득하였다. 국내외에서 수석큐레이터, 문화예술교육자로 활동하였고 주요 분야로는 박물관·미술관의 사회문화적 맥락과 지역적 요인에 따른 논쟁적 예술 및 전시와 소통전략, 소외 계층을 위한 예술과 교육의 통합적 접근법 등 다양한 교육과 연구활동을 수행하고 있다.',
+                                job : '- Assistant professor, Hongik University, Republic of Korea',
+                                contents : 'Dr. Ji-young Shim is presently working as Assistant Professor, Dept. of Art Education, Hongik University, Seoul, South Korea. She has served as an executive member of the Korea Society for Culture and Arts Education Studies, Korean Society for Education through Art, the Tourism Science Society of Korea, and so on. She has working experience of with various art institutions as Chief Curator, Chief Manager, and Educator. She earned her B.A. in Art History, B.F.A. and M.F.A. in Western Painting at Ewha Womans University, M.A. in Arts Administration at Columbia University, and Ph.D. at the Pennsylvania State University.\n\n'
+                                           +'Dr. Shim’s research interests include public pedagogy through radical modern art, and controversial visual culture associated with manipulatively constructed concept of freedom of expression in relation to sociology of knowledge and censorship. She has also offered locked-in art world broader perspectives based on revisited dialectic and critical thinking.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Shim_Museums_Making_A_Case_for_LGBTQ_History_PresentationMaterial.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "남한 청소년과 탈북 청소년의 공존을 위한 지역사회 기반 미술 프로젝트의 현상학적 연구",
+                        li_title : "A Phenomenological Study of Community-based Art Project for the Coexistence between South Korean Youth and Young North Korean Defectors",
                         li_data : [
                             {
                                 imgs : session_img_33,
-                                name : '김유리',
+                                name : 'Yuri Kim',
                                 enname : '',
-                                job : '- 이화여자대학교 박사과정, 한국',
-                                contents : '김유리는 이화여자대학교 조형예술대학 융합미술치료학 전공 박사과정생이다. 10년 이상의 아동 미술 교육 경력이 있다. 예술교육가로 활동하다가 예술의 치유적 힘에 대한 믿음으로 미술치료사가 되었다. 미술치료 활동 분야로는, 남한청소년과 탈북청소년의 공존을 위한 미술치료 프로젝트, 한국문화예술교육진흥원에서 일반 시민을 대상으로 한 문화예술치유 프로젝트, 보육원에서 자란 청년들을 위한 미술치료 프로젝트, 다문화 가정 및 한부모 가정 아동을 위한 미술치료 등이 있다. 관심분야로는 미술치료에서 다문화주의, 사회행동, 트라우마가 있다.',
-                                download : true,
+                                job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
+                                contents : 'Yuri Kim is a Ph.D. student for integrated art therapy at Ewha Womans University. Her work is based on ten years of experience teaching art to children.\n\n'
+                                          +'While working as an arts educator, she became an art therapist with certainty in the therapeutic potential of art. Art therapy activities include art therapy projects for the coexistence of South Korean youth and North Korean defectors, culture and arts therapy projects for the general public at the Korean Culture and Arts Education Promotion Agency, art therapy projects for youth raised in children’s homes, multicultural families, and art therapy for children from single-parent families. Her research interests include multiculturalism, social action, and trauma in art therapy.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
-                                imgs : session_img_33,
-                                name : '박소정',
+                                imgs : session_img_34,
+                                name : 'Sojung Park',
                                 enname : '',
-                                job : '- 이화여자대학교 조교수, 한국',
-                                contents : '박소정 박사는 이화여자대학교 교육대학원 미술치료교육전공의 조교수로, 조형예술대학 박사과정 융합미술치료학 전공의 겸임교원으로도 재직 중이다. 박소정 교수는 미국미술치료학회 공인미술치료사이자 미국 뉴욕 주정부 공인 예술치료사이며, 미국의 The School of Visual Arts에서 미술치료 석사 학위를, Lesley University에서 표현예술치료로 박사학위를 수여했다.\n\n정신질환 및 중독이 있는 청소년 및 성인을 중심으로 폭넓은 임상 경험을 가진 박소정 교수의 관심 연구 분야로는 미술치료에서 다문화주의, 정신병리, 예술기반 연구 및 지역사회를 위한 사회행동적 미술치료가 있다. 박소정 교수는 2020년 미국미술치료학회의 Pearlie Roberson Scholarship Award의 수상자이며, 미국미술치료학회지의 Editorial board member이자 Multicultural Committee member로 활발히 활동 중이다.',
-                                download : true,
+                                job : "- Assistant professor, Ewha Woman's University, Republic of Korea",
+                                contents : "Sojung Park, Ph.D., ATR-BC, LCAT, is an assistant professor in the Graduate School of Education, Art Therapy Major, at the Ewha Womans University in Seoul, Korea. Dr. Park earned her master's degree in art therapy at the School of Visual Arts in New York, NY, and the doctorate in Expressive Therapies at Lesley University, Cambridge, MA. She has years of experience working with individuals with mental illnesses and addiction in the United States. Upon moving to Korea, Dr. Park has dedicated herself to teaching and training future art therapists. As a researcher Dr. Park has explored multiculturalism, psychiatric and/or addiction, and community-based practice and social action within art therapy, from both qualitative and art-based research paradigms.\n\n"
+                                          +'She received the 2020 Pearlie Roberson Scholarship Award from the American Art Therapy Association, for her research project which targets multicultural aspects and capacities of art therapy. Dr. Park is an active member of the editorial board for the Journal of the American Art Therapy Association and the multicultural committee of the American Art Therapy Association.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "침묵의 단계: 캐나다 엘 시스테마(El Sistema)가 코로나에 응답하다",
+                        li_title : "Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic",
                         li_data : [
                             {
                                 imgs : session_img_34,
-                                name : '션 코코란 ',
-                                enname : '(Sean Corcoran)',
-                                job : '- 퀸즈대학교 박사과정 , 캐나다',
-                                contents : '션은 퀸즈대학교 박사과정 학생으로 즉흥연주와 음악교육, 모든 학생들이 의미 있는 예술 실습을 할 수 있는 기회 창출하는 것에 관심이 많다. 예술가로서 션은 연결의 본질을 탐구하며 여기에는 연주자들, 관객들, 그리고 배경이 있다. 최근, 션은 알론조 킹과 LINES 발레단, 리도 피미엔타와 블라디미르 게레로 주니어의 작품에서 영감을 받았다.',
-                                download : true,
+                                name : 'Sean Corcoran',
+                                enname : '',
+                                job : '- Ph.D. candidate, Queen’s University, Canada',
+                                contents : 'Sean is a PhD student at Queen’s University who is interested in improvisation, music education, and creating opportunity for all students to engage in meaningful art practices. As an artist, Sean explores the nature of connection: among performers, to audience, and to setting. Recently, Sean has been inspired by the works of Alonzo King and the LINES ballet company, Lido Pimienta, and Vladimir Guerrero Jr.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
                                 imgs : session_img_15,
-                                name : '벤자민 볼든 ',
-                                enname : '(Sean Corcoran)',
-                                job : '- 퀸즈대학교 박사과정 , 캐나다',
-                                contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
-                                download : true,
+                                name : 'Benjamin Bolden',
+                                enname : '',
+                                job : "- Associate Professor, Queen's University, Canada",
+                                contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning.\n\n'
+                                          +'His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan.\n\n'
+                                          +'Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_17,
-                                name : '치후 룸 ',
-                                enname : '(Chee-Hoo Lum)',
-                                job : '- 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE) 음악교육학과 부교수, 한국',
-                                contents : '그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다. 그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발 전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다.',
+                                name : 'Chee-Hoo Lum',
+                                enname : '',
+                                job : '- Associate Professor,Nanyang Technological University, Singapore',
+                                contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                          +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1487,99 +1519,103 @@ export const langen = {
                 ]
             },
             h : {
-                title : '세션 8',
-                subject : '현장사례연구 2',
-                time : '05.26(수) 17:05~18:25',
-                video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
+                title : 'Session 8',
+                subject : 'Arts and Education in the Field 2',
+                time : '26 MAY, 16:40-18:25',
+                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1010',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "펜데믹 시기의 학교 수업계획 시 사회 예술과 문화 교육의 기회와 도전",
+                        li_title : "A Practice of Inclusive Arts Education: Focusing on a Case Study of Climate Crisis Class by Chaeknuna Project",
                         li_data : [
                             {
                                 imgs : session_img_36,
-                                name : '장수혜',
+                                name : 'Soohye Jang ',
                                 enname : '',
-                                job : '- 책누나프로젝트 대표, 한국',
-                                contents : "장수혜는 비영리 독서 및 문화예술교육단체, '책누나프로젝트'의 대표이자 공연예술 분야 독립프로듀서, 연구자이다. 2013년부터 전국의 봉사자 및 예술가들과 함께 도서관, 학교, 사회복지기관 등에서 동화책을 활용한 포용적이고 창의적인 사회문화예술수업을 운영해왔다. 시애틀대학교 예술리더십 석사를 졸업했으며 현재 홍익대학교 문화예술경영학 박사과정에 재학중이다.",
-                                download : true,
+                                job : '- Founding Director, Chaeknuna Project, Republic of Korea',
+                                contents : "Soohye Jang is a founding director of Chaeknuna Project, a nonprofit organization for book and arts education, an independent performing arts producer, and a researcher based in Seoul, Korea. Since 2013, she has been creating inclusive and creative classes using picture books in libraries, schools, and social welfare centers along with a group of volunteers and teaching artists across the country.\n\n"
+                                           +'She earned her MFA in Arts Leadership at Seattle University and is a current Ph.D. candidate of Culture and Arts Management at Hongik University.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "뉴 노멀 청소년에게 그림책으로 질문던지기",
+                        li_title : "Asking questions to youth with picture books who are living in new-normal days",
                         li_data : [
                             {
                                 imgs : session_img_37,
-                                name : '공윤지',
+                                name : 'Yunji Gong',
                                 enname : '',
-                                job : '- 프리랜서 문화예술교육사, 한국',
-                                contents : "공윤지는 문화예술교육 현장에서 학습자와 교육자 간의 소통과 교감에 의해 완성되는 소셜 인터랙션 과정에 관심이 있다. 문화예술교육사로서 메이커 문화와 그림책 기반 인문예술교육을 하고 있으며, 창작 그림책 작업을 병행하고 있다. 한국예술종합학교에서 인터랙션 디자인을 전공하고, 그림책상상 그림책학교에서 글 없는 그림책을 공부했다. 2009년부터 국립극장, 서울문화재단, 한국콘텐츠진흥원, 한국문화예술교육진흥원, 서울디자인재단 등에서 교육과 연구를 이어오고 있다.",
+                                job : '- Freelance Teaching Artist, Republic of Korea',
+                                contents : 'Yunji Gong is interested in the social interaction process between learners and Teaching Artist in the arts education field. As a teaching artist, she provides humanities and arts education based on Maker Mindset and Picturebooks. She is also a picturebook artist herself. She majored in Interaction Design at the Korea National University of Arts, and studied Wordless Picturebooks at Picturebook Imagination(<a href="http://www.imagination.kr" target="_blank">www.imagination.kr</a>). Since 2009, she has been carrying out art education and educational research at the National Theater, Seoul Foundation for Arts and Culture, Korea Creative Content Agency, Korea Arts and Culture Education Service, and Seoul Design Foundation.\n\n'
+                                          +"She has also created a book called, <The Hummingbird Has Spoken>, a Global Citizenship Education (GCE)  picturebook based on Wangari Matai's fable to promote environmental sensitivity. Currently, this book has been uploaded to the Let's Read e-book library of the Asian Foundation(letsreadasia.org) and offers free English and Bahasa Indonesian versions.",
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/공윤지_뉴노멀_청소년에게_그림책으로_질문_던지기.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "아이 코브 유",
+                        li_title : "I Cov You",
                         li_data : [
                             {
                                 imgs : session_img_38,
-                                name : '이현정',
+                                name : 'Hyunjung Lee ',
                                 enname : '',
-                                job : '- 지아정원 대표/이화여자대학교 박사과정, 한국',
-                                contents : "Art & Culture Community 지아정원 대표. 예술교육, 예술치유 기획자이자 TA, 미술치료사로 활동하고 있다. 공적 환경 개선을 위한 예술의 교육적 치유적 접근을 지역사회에서 실천하고 있다. 이화여자대학교 조형예술대학 융합미술치료학 전공 박사과정에 재학중이며, 예술의 풍요로움을 삶에 전하고 삶의 깊이와 성찰을 예술로 표현하는 예술과 삶의 고리를 만들어 내는 융합미술치료학 연구에 관심이 있다.",
-                                download : true,
+                                job : "- Director, Art & Culture Community G.A.Garden / Ph.D. candidate, Ewha Woman's University, Republic of Korea",
+                                contents : "The Director of Art & Culture Community GAGarden. She is an teaching artist, art therapist, and researcher. She takes an educational and therapeutic approach of art to improving the public space in the community. She is a doctoral student of intergrated art therapy at Ewha Womans University, and wants to create a link between art and life to convey the richness of art to life and to express the depth and reflection of life as art.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "위기 속에서 탄생한 새로운 예술교육 장르 소개",
+                        li_title : "Introducing a new genre of art education born in crisis",
                         li_data : [
                             {
                                 imgs : session_img_39,
-                                name : '배성종',
+                                name : 'Sungjong Bae ',
                                 enname : '',
-                                job : '- 예술강사, 한국',
-                                contents : "그가 어릴 적 꽤 오랫동안 그려왔던 꿈은 만화가였다. 머릿속에 떠오르는 장면과 이야기를 하얀색 종이에 펼쳐놓고 한참을 들여다볼 때가 가장 행복했다. 그리고 성인 된 후 연극을 전공하게 되면서 그는 긴 시간을 상상 속에서 살았다. 그러던 그가 현실과 마주하면서 다채로웠던 자아는 작아지고 무채색처럼 단순한 삶도 경험한다. 지금은 학교에서 과거의 알록달록했던 자신을 꺼내 아이들에게 호기심과 상상이라는 색을 소개하고 함께 그려보자 권하는 일을 하고 있다. 그는 앞으로도 다양한 모습을 한 예술이라는 친구와 함께하고 싶어 한다.",
-                                download : true,
+                                job : '- Teaching Artist, Republic of Korea',
+                                contents : "The dream he had been drawing for quite a while as a child was a cartoonist. He was happiest when he laid out the scenes and stories that came to mind on white paper and looked into it for a long time. And after becoming an adult, he went on to major in theater, and he lived a long time in my imagination. Then, as he faces reality, his colorful ego becomes smaller and he experiences a simple life like achromatic.\n\n"
+                                           +'He is now working at school to take out himself from the past, introduce the colors of curiosity and imagination to children, and encourage them to draw them together. In the future, he wants to be with a friend called art who has various appearances.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "과도기를 이어주다: 예술교육이 성인으로 가기 전의 아이들을 어떻게 이끌어 주는가",
+                        li_title : "Bridge the transition: How art education can help youths in transition to adulthood",
                         li_data : [
                             {
                                 imgs : session_img_40,
-                                name : '최영희',
+                                name : 'Younghee Choi',
                                 enname : '',
-                                job : '- 한국문화예술교육진흥원 미래교육팀 팀장, 한국',
-                                contents : "다양한 사람들과 예술교육의 가치를 공유하고 싶어 하는 사람이다. 현재 한국문화예술교육진흥원에서 동료들과 함께 문화예술교육 현장을 지원하고, 다양한 시도를 하고 있다.",
-                                download : true,
+                                job : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
+                                contents : "Younghee Choi is the person who wants to share the value of art education with others. Currently, Younghee supports cultural and art education sites with his colleagues at the Korea Arts & Culture Education Service and try to make various attempts.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : byob_img_02,
-                                name : '홍유진',
+                                name : 'Yujin Hong',
                                 enname : '',
-                                job : '- 한국문화예술교육진흥원 교육기반본부 본부장, 한국',
-                                contents : '홍유진은 문화체육관광부 산하 한국문화예술교육진흥원(KACES)에서 문화예술교육 정책 연구 및 조사분석, 정책 및 기관 전략 수립 등의 업무를 추진해왔다. 이화여자대학교에서 사회학(문화사회학)을 전공하고 박사학위를 받았고, 한국콘텐츠진흥원(KOCCA)에서 문화콘텐츠산업 정책에 관한 다양한 프로젝트를 진행했다. 현재 KACES의 교육기반본부장으로 문화예술교육 관련 연구, 연수, 국제협력 등을 총괄하며, 온라인 문화예술교육 추진단TF 팀장을 겸하고 있다.',
+                                job : '- Director of Educational Resources Division, Korea Arts & Culture Education Service, Republic of Korea',
+                                contents : 'YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience.\n\n'
+                                            +'Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1810,39 +1846,39 @@ export const langen = {
 
 
         // byob
-        byob : {
-            title : 'BYOB\n(Bring Your Own Bottle)',
-            contents : 'It is a networking session in which participants freely share symposium topics and their interests.',
-            link : 'https://forms.gle/m3JawtsfmuTczgn3A',
-            data : [
-                {
-                    imgs : byob_img_01,
-                    name : "Shin-Eui Park",
-                    jop : "- Chairman, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea",
-                    discripton : 'Shin-Eui Park is a professor of Arts and Cultural Management at Kyunghee University, Graduate School of Business, and chairman of the Korea Arts and Culture Education Service. Her major research topics include "Social Impact of the Arts", "Arts for Healing", "Arts Entrepreneurship", "Museum Management" and "Cultural Policy".'
+       byob : {
+        title : 'BYOB\n(Bring Your Own Bottle)',
+        contents : 'It is a networking session in which participants freely share symposium topics and their interests.',
+        link : 'https://forms.gle/m3JawtsfmuTczgn3A',
+        data : [
+            {
+                imgs : byob_img_01,
+                name : "Shin-Eui Park",
+                jop : "- Chairman, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea",
+                discripton : 'Shin-Eui Park is a professor of Arts and Cultural Management at Kyunghee University, Graduate School of Business, and chairman of the Korea Arts and Culture Education Service. Her major research topics include "Social Impact of the Arts", "Arts for Healing", "Arts Entrepreneurship", "Museum Management" and "Cultural Policy".'
 
-                },
-                {
-                    imgs : byob_img_02,
-                    name : "Yujin Hong",
-                    jop : "- Chairman, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea",
-                    discripton : "YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience. Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES."
-                },
-                {
-                    imgs : byob_img_03,
-                    name : "WoongJo Chang",
-                    jop : "- Associate Professor, Hongik University, Republic of Korea",
-                    discripton : "WoongJo Chang, Ph.D., is Associate Professor in the Department of Arts and Cultural Management in Hongik University, Seoul, Korea. Before coming to Hongik University, he taught in the Arts Leadership Program in Seattle University in the state of Washington, USA. He studied performing arts at Seoul National University and earned a Ph.D. in Cultural Policy and Arts Administration from the Ohio State University. His research is focused on small arts organizations’ entrepreneurial practices and how to support them. His recent works have appeared in books and journals, such as in Arts and Cultural Management: Critical and Primary Sources, International Jounrnal of Cultural Policy and the Journal of Arts Management, and Law and Society, of which he is currently serving as a consulting editor. Chang is also a co-chair of scientific committee of Korean Society of Arts and Cultural Management."
-                },
-            ]
-        },
+            },
+            {
+                imgs : byob_img_02,
+                name : "Yujin Hong ",
+                jop : "- Chairman, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea",
+                discripton : "YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience. Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES."
+            },
+            {
+                imgs : byob_img_03,
+                name : "WoongJo Chang ",
+                jop : "- Associate Professor, Hongik University, Republic of Korea",
+                discripton : "WoongJo Chang, Ph.D., is Associate Professor in the Department of Arts and Cultural Management in Hongik University, Seoul, Korea. Before coming to Hongik University, he taught in the Arts Leadership Program in Seattle University in the state of Washington, USA. He studied performing arts at Seoul National University and earned a Ph.D. in Cultural Policy and Arts Administration from the Ohio State University. His research is focused on small arts organizations’ entrepreneurial practices and how to support them. His recent works have appeared in books and journals, such as in Arts and Cultural Management: Critical and Primary Sources, International Jounrnal of Cultural Policy and the Journal of Arts Management, and Law and Society, of which he is currently serving as a consulting editor. Chang is also a co-chair of scientific committee of Korean Society of Arts and Cultural Management."
+            },
+        ]
+    },
 
         // 폐회세션 
         closing : {
-            title : '폐회세션',
-            time : '05.26(수) 18:25~19:25',
-            video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
-            download : true,
+            title : 'Closing Ceremony',
+            time : '26 MAY, 18:25-19:25',
+            video_text : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
+            download : false,
             chatlink : '1012',
             youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
@@ -1850,107 +1886,80 @@ export const langen = {
                 {
                     img : closing_img_01,
                     moder : '',
-                    name : '박신의',
+                    name : 'Shin-Eui Park',
                     en_name : '',
-                    li_title : '- 제4회 유네스코 유니트윈 국제 학술대회 조직위원회 위원장 / 경희대학교 교수, 한국',
-                    li_contents : "박신의는 경희대학교 경영대학원 문화예술경영학과 교수이고, 한국문화예술교육진흥원 이사장이다. 주요 연구 주제는 '예술의 사회적 영향', '예술치유', '예술기업가정신', '박물관 경영', '문화정책' 등이다."
+                    li_title : '- Chairperson, Korea Arts & Culture Education Service, Republic of Korea',
+                    li_contents : 'Shin-Eui Park is a professor of Arts and Cultural Management at Kyunghee University, Graduate School of Business, and chairman of the Korea Arts and Culture Education Service. Her major research topics include "Social Impact of the Arts", "Arts for Healing", "Arts Entrepreneurship", "Museum Management" and "Cultural Policy".'
                 },
                 {
                     img : closing_img_02,
                     moder : '',
-                    name : '홍유진',
+                    name : 'Yujin Hong',
                     en_name : '',
-                    li_title : '- 한국문화예술교육진흥원 교육기반본부 본부장, 한국',
-                    li_contents : '홍유진은 문화체육관광부 산하 한국문화예술교육진흥원(KACES)에서 문화예술교육 정책 연구 및 조사분석, 정책 및 기관 전략 수립 등의 업무를 추진해왔다. 이화여자대학교에서 사회학(문화사회학)을 전공하고 박사학위를 받았고, 한국콘텐츠진흥원(KOCCA)에서 문화콘텐츠산업 정책에 관한 다양한 프로젝트를 진행했다. 현재 KACES의 교육기반본부장으로 문화예술교육 관련 연구, 연수, 국제협력 등을 총괄하며, 온라인 문화예술교육 추진단TF 팀장을 겸하고 있다.'
+                    li_title : '- Director of educational resources division, Korea Arts & Culture Education Service, Republic of Korea',
+                    li_contents : 'YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience.\n\n'
+                                +'Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES.'
                 },
                 {
                     img : closing_img_03,
                     moder : '',
-                    name : '김인설',
+                    name : 'InSul Kim',
                     en_name : '',
-                    li_title : '- 가톨릭대학교 부교수, 한국',
-                    li_contents : '가톨릭대학교 공연예술문화학과 교수. 예술을 통해 사회 문제를 새롭게 해석하고 이를 통해 사회가 긍정적인 방향으로 발전될 수 있는 주제들을 연구한다. 문화정책과 거버넌스, 예술경영, 예술교육, 예술치유, 문화기술, 문화 복지 등 예술을 통해 창출할 수 있는 사회자본 및 예술의 사회적 역할과 가치가 주요 관심사이다. 문화정책과 예술경영, 문화예술교육분야 등 다수의 국내외 학술지에서 편집위원으로 활동하고 있으며 한국연구재단, 한국문화예술위원회, 한국문화예술교육진흥원, 문화체육관광부 등에서 국책연구와 자문을 수행해 왔다.'
+                    li_title : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
+                    li_contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
+                                  +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.'
                 },
                 {
                     img : closing_img_04,
                     moder : '',
-                    name : '신혜선',
+                    name : 'Hyesun Shin ',
                     en_name : '',
-                    li_title : '- 위컬쳐 리서치&컨설팅 대표, 한국',
-                    li_contents : '현재 위컬처 리서치 앤 컨설팅의 대표이자 경희대학교 경영대학원 문화예술경영학과 강사로 활동 중이다. 문화예술교육, 국제문화교류, 문화정책, 예술경영을 중심으로 연구 및 강의하고 있다. 미국 오하이오주립대학교 문화정책·예술경영 전공으로 박사학위를 취득한 후, 숙명여자대학교 다문화통합연구소 책임연구원으로 재직하였다. 우리 삶 속의 예술과 예술활동에 참여하는 것이 인간 사이에 그리고 사회 간 관계에 어떠한 기여와 영향을 가지고 오는지에 대해 관심을 가지고 탐색하고 있다. ⸢문화예술교육 자원과 협력관계⸥를 공동저술하였으며, Journal of Arts Management, Law, and Society, 문화정책논총, 예술경영연구 등에 논문을 게재하였다.'
-                },
-                {
-                    img : closing_img_05,
-                    moder : '',
-                    name : '벤자민 볼든 ',
-                    en_name : '(Benjamin Bolden)',
-                    li_title : '- 퀸즈대학교 부교수, 캐나다',
-                    li_contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.'          
-                },
-                {
-                    img : closing_img_06,
-                    moder : '',
-                    name : '네릴 제너렛 ',
-                    en_name : '(Neryl Jeanneret)',
-                    li_title : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                    li_contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.'
+                    li_title : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
+                    li_contents : 'WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education. Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.\n\n'
+                                  +'Her current research interests include arts education, cultural diversity, international cultural relations, and cultural policy. Shin’s articles have published in Journal of Arts Management, Law, and Society, Journal of Cultural Policy, Korean Journal of Culture and Arts Education Studies, and more.'
                 },
                 {
                     img : session_img_44,
                     moder : '',
-                    name : '시프라 스콘만 ',
-                    en_name : '(Shifra Schonmann)',
-                    li_title : '- 하이파대학교 명예교수, 이스라엘',
-                    li_contents : '시프라 스콘만은 이스라엘 하이파 대학교에서 바-넷저 의장의 청년들을 위한 극장, 사회, 교육의 소유주이자 명예교수이다'
-                },
-                {
-                    img : closing_img_08,
-                    moder : '',
-                    name : '치후 룸 ',
-                    en_name : '(Chee-Hoo Lum)',
-                    li_title : '- 국립교육원 부교수, 싱가포르',
-                    li_contents : '치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다. 그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다.'
+                    name : 'Shifra Schonmann',
+                    en_name : '',
+                    li_title : '- Professor Emerita, University of Haifa, Israel',
+                    li_contents : 'Shifra Schonmann is Professor Emerita, holder of Bar-Netzer Chair of Education, Society and Theatre for Young People at the University of Haifa, Israel'
                 },
                 {
                     img : closing_img_09,
                     moder : '',
-                    name : '보와 렁 ',
-                    en_name : '(Bo-Wah Leung)',
-                    li_title : '- 홍콩 교육 대학교 교수, 홍콩',
-                    li_contents : '보와 렁 교수는 현재 홍콩 교육대학교(EdUHK)에서 문화창조예술학과 교수이자 광동오페라방송연구센터장을 맡고 있다. 그는 "초등 및 중등 학교에서 광둥 오페라 교육에 관한 공동 프로젝트"라는 제목의 연구 프로젝트를 주도한 공로로 2011년 국제음악위원회(International Music Council)에서 유명한 음악적 권리상(Musical Rights Award)을 수상했으며, 2012년 홍콩 교육대학원(HKIEd)로부터 지식전수상(Knowledge Transfer Award)을 받았다. 렁 교수는 현재 국제음악교육학회(ISME) 회장 당선자이자 아시아-태평양 음악교육연구회(APSMER)의 의장, 중국 동북사범대학, 광저우 대학교, 화남 사범대학의 음악학과 겸임교수이며  아시아-태평양 예술교육저널의 편집장을 맡고있다.'
-                },
-                {
-                    img : closing_img_10,
-                    moder : '',
-                    name : '메이-춘 린 ',
-                    en_name : '(Mei-Chun Lin)',
-                    li_title : '- 미정',
-                    li_contents : '미정'
+                    name : 'Bo-Wah Leung',
+                    en_name : '',
+                    li_title : '- Professor, The Education University of Hong Kong, Hong Kong',
+                    li_contents : 'Professor Bo-Wah LEUNG is currently Professor of Cultural and Creative Arts and Director of Research Centre for Transmission of Cantonese Opera at The Education University of Hong Kong (EdUHK). He received the prestigious Musical Rights Award from the International Music Council in 2011 as well as the Knowledge Transfer Award from the HKIEd in 2012 for his leadership in a research project entitled “Collaborative Project on Teaching Cantonese Opera in Primary and Secondary Schools”.\n\n'
+                                  +'Professor Leung is currently President-Elect of International Society for Music Education (ISME), Chair of Board of Asia-Pacific Symposium for Music Education Research (APSMER), Adjunct Professor of Music at the Northeast Normal University, Guangzhou University, and South China Normal University, China, and Chief Editor of Asia-Pacific Journal for Arts Education.'
                 },
                 {
                     img : closing_img_11,
                     moder : '',
-                    name : '에밀리 어챙 아쿠노 ',
-                    en_name : '(Emily Achieng’ Akuno)',
-                    li_title : '- 케냐 대학교 음악과 교수, 케냐',
-                    li_contents : '케냐 출신의 에밀리 어챙 아쿠노 교수는 음악 연주자이자 교육자로 케냐, 미국, 영국에서 교육받았다. 그녀는 케냐와 남아프리카에서 음악 교육을 통해 문화적 관련성에 중점을 둔 연구를 수행했다. 현재 진행 중인 그녀의 연구는 케냐의 국립연구기금이 후원하는 프로젝트인 지역사회 발전을 위한 청년들에게 힘을 실어주기 위한 수단으로서의 창의성에 대한 연구다. 에밀리는 국제 음악 위원회(IMC)의 회장을 역임했으며, 현재 국제 음악 교육 협회(ISME)의 회장을 맡고 있다. 그녀가 집필한 책 중 하나는 『아프리카의 음악교육: 개념, 연습, 과정(2019)』이며, 이는 아프리카 학자들이 집필하고 라우트리지(Routlege) 출판사가 출판한 아프리카의 음악 교육에 관한 편집본이다.'
+                    name : 'Emily Achieng’ Akuno',
+                    en_name : '',
+                    li_title : '- Professor, University of Kenya, Kenya',
+                    li_contents : 'Emily Achieng’ Akuno from Kenya trained as a music performer-educator in Kenya, the USA and UK. She has worked in that capacity in Kenya and South Africa, with a research emphasis on cultural relevance in and through music education. Her ongoing research is a study of creativity as a means of empowering youth towards community development, a project funded by Kenya’s National Research Fund.\n\n'
+                                +'Emily is past President of the International Music Council (IMC) and currently serves as President of the International Society for Music Education (ISME). Her publications include Music Education in Africa: Concept, practice and processes (2019), an edited book on the teaching of music in Africa authored by African scholars and published by Routledge.'
                 },
                 {
                     img : closing_img_12,
                     moder : '',
-                    name : '랄프 벅 ',
-                    en_name : '(Ralph Buck)',
-                    li_title : '- 부교수, 뉴질랜드',
-                    li_contents : '랄프 벅(박사) 부교수는 뉴질랜드 오클랜드 대학교의 무용학부 학과장이다. 그의 연구와 교육은 무용교육 커리큘럼, 무용 교육학, 그리고 생활무용에 초점을 맞추고 있다. 랄프는 유네스코 무용 및 사회 포용(Dance and Social Inclusion)의장직을 맡고 있으며, 현재 세계예술교육연합(WAAE)과 같은 몇몇 국제무용연구 및 서비스 기관에서 활동하고 있다.\n\n'
-                                + '랄프의 교육과 리더십은 오클랜드 대학교 특별 교육 시상식에서 2008년 오클랜드 대학교 우수 교수상, 2010년 리더십상, 2006년 기회균등 우수상, 2016년 창의적인 예술 및 산업 연구 우수상 등을 수상하면서 인정받았다. 랄프는 노스웨스트사범대학 객원교수직과 베이징무용아카데미를 포함한 여러 국제 학술에 활동을 하고 있다. 그의 무용 교육 연구는 국제 학술지에 게재되었으며 중국, 호주, 콜롬비아, 스웨덴, 핀란드, 싱가포르, 덴마크, 뉴질랜드, 피지에서 초청 기조 연설과 마스터 클래스를 진행했다.'
+                    name : 'Ralph Buck  ',
+                    en_name : '',
+                    li_title : '- Associate Professor / Head of Department, University of Auckland',
+                    li_contents : 'Associate Professor Ralph Buck (PhD) is Head of Dance Studies, and Associate Dean International, University of Auckland, New Zealand. His research and teaching focuses on dance education curriculum, dance pedagogy and community dance. Ralph is the UNESCO Chair on Dance and Social Inclusion, and currently working within several international dance research and service organisations such as, World Alliance for Arts Education (WAAE). Ralph’s teaching and leadership has been recognised by The University of Auckland Distinguished Teaching Award, 2008; Award for Leadership, 2010; Excellence Award for Equal Opportunities 2006; and, Creative Arts and Industries Research Excellence Award, 2016.\n\n'
+                                  +'Ralph has several international academic appointments including Visiting Professorships at Northwest Normal University and Beijing Dance Academy. His research in dance education is published in international journals and he has delivered invited key notes and master classes in China, Australia, Columbia, Sweden, Finland, Singapore, Denmark, New Zealand and Fiji.'
                 },
                 {
                     img : closing_img_13,
-                    moder : '[사회자]',
-                    name : '장웅조',
+                    moder : '[Moderator]',
+                    name : 'WoongJo Chang ',
                     en_name : '',
-                    li_title : '- 홍익대학교 부교수, 한국',
-                    li_contents : '장웅조는 예술경영과 문화정책 연구를 해오며, 최근에는 예술리더십과 앙트러프러너십에 관련한 주제에 집중하고 있다. 서울대에서 중문학 학사와 공연예술학 석사를 마치고, 미국 오하이오 주립대학에서 예술정책 및 경영 전공으로 박사학위를 받았다. 이후 미국 시애틀대학교의 예술리더십 학과 교수를 거쳐 홍익대학교 문화예술경영학과 교수로 재직 중이다. 현재 Journal of Arts Management, Law, and Society, 예술경영연구, 문화경제, 문화정책논총 등의 편집위원이며 한국 문화예술경영학회의 학술위원장으로 활동하고 있다.'
+                    li_title : '- Associate Professor, Hongik University, Republic of Korea',
+                    li_contents : 'WoongJo Chang, Ph.D., is Associate Professor in the Department of Arts and Cultural Management in Hongik University, Seoul, Korea. Before coming to Hongik University, he taught in the Arts Leadership Program in Seattle University in the state of Washington, USA. He studied performing arts at Seoul National University and earned a Ph.D. in Cultural Policy and Arts Administration from the Ohio State University. His research is focused on small arts organizations’ entrepreneurial practices and how to support them. His recent works have appeared in books and journals, such as in Arts and Cultural Management: Critical and Primary Sources, International Jounrnal of Cultural Policy and the Journal of Arts Management, and Law and Society, of which he is currently serving as a consulting editor. Chang is also a co-chair of scientific committee of Korean Society of Arts and Cultural Management.'
                 }
             ]
         },
@@ -2668,8 +2677,8 @@ export const langen = {
                                 imgs : session_img_04,
                                 name : 'Su-youn Kim',
                                 enname : '',
-                                job : '- 경성대학교 조교수, 한국',
-                                contents : '김수연은 대략 20여년이 조금 넘는 극 예술가와 예술교육 전문가의 경력을 가지고 있으며 현재 경성대학교 연극영화학부의 조교수로 재직 중이다. 주된 관심사는 어떻게 연극이 건강한 학교와 사회 만들기에 공헌할 수 있을까 이다.',
+                                job : '- Assistant Professor, KyungSung University, Republic of Korea',
+                                contents : 'Su-youn Kim is an assistant professor in the School of Theatre&Film Art at KyungSung University. She has the back ground in performing art and theatre art education and her main interest is how drama and theatre can broadly cotribute to making socially healthy schools and societies.',
                                 download : true,
                                 downlink : env.link + '/the_suspicious_dining_table_PPT.pptx',
                             }
@@ -2677,29 +2686,29 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "창의적인 온라인 워크샵 만들기",
+                        li_title : "Creating Inclusive Online Creative Workshops",
                         li_data : [
                             {
                                 imgs : session_img_05,
-                                name : '이보람',
+                                name : 'Boram Lee',
                                 enname : '',
-                                job : '- 사우스오스트레일리아대학교 교수, 한국',
-                                contents : '스코틀랜드 스털링대학에서 행동 금융학을 전공하고 심리적 접근을 기반으로한 예술 문화 단체와 개인의 경영 경제 연구를 하고 있다.  2014년 영국 연구 위원회의 지원을 받은 신진 작가의 경력 개발, 사회 예술 경제적 가치 창출에 관한 프로젝트, 2018년 코르동 블루 지원 애들레이드의 축제와 관광 프로젝트,  2019년 한호재단 후원 한국 호주 장애 예술 협력 프로젝트 등 예술 산업 분야에 있어 광범위한 분야에 연구 관심을 가지고 있다.',
-                                download : true,
+                                job : '- Professor, University of South Australia , Republic of Korea',
+                                contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia. She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]   
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
-                                imgs : byob_img_01,
-                                name : '박신의',
+                                imgs : session_img_10,
+                                name : 'Kiwon Hong',
                                 enname : '',
-                                job : '- 제4회 유네스코 유니트윈 국제 학술대회 조직위원회 위원장 / 경희대학교 교수, 한국',
-                                contents : "박신의는 경희대학교 경영대학원 문화예술경영학과 교수이고, 한국문화예술교육진흥원 이사장이다. 주요 연구 주제는 '예술의 사회적 영향', '예술치유', '예술기업가정신', '박물관 경영', '문화정책' 등이다.",
+                                job : '- Professor, Korea National University of Arts, Republic of Korea',
+                                contents : '',
                                 download : false,
                                 downlink : '',
                             }
@@ -2708,171 +2717,184 @@ export const langen = {
                 ]
             },
             b : {
-                title : '세션 2',
-                subject : '예술 치유',
-                time : '05.25(화) 15:00~16:30',
-                video_text : '현대 사회가 유발하고 있는 많은 심리적‧정신적 질병에 대하여, 자아를 새롭게 발견하고, 사회와 건강하게 관계를 맺을 수 있는 치유를 예술적 개입을 통하여 모색합니다.',
+                title : 'Session 2',
+                subject : 'Arts for Healing',
+                time : '25 MAY, 15:00-16:30',
+                video_text : 'In this session, for many psychological and mental diseases caused by modern society, we discover our egos anew and seek healing through artistic intervention to build healthy relationships with society.',
                 download : false,
                 chatlink : '1004',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "예술과 예술을 통한 청소년 정신 건강 지원 : 예술가 교육을 위한 증거 기반 및 가이드",
+                        li_title : "Supporting Youth Mental Health in and through the Arts: An Evidence Base and Guide for Teaching Artists",
                         li_data : [
                             {
                                 imgs : session_img_06,
-                                name : '티나 쿠코 ',
-                                enname : '(Tiina Kukkonen)',
-                                job : '- 퀸즈대학교 박사과정, 캐나다',
-                                contents : '티나 쿠코(Tiina Kookonen)는 캐나다 킹스턴에 있는 퀸즈 대학교 교육학부의 박사과정 학생이자 예술 교육자, 그리고 시각 예술가다. 티나의 박사학위 연구는 농촌 예술 교육을 지원하는 데 있어 중간 조직의 역할에 초점을 맞추고 있다. 연구 동료이자 컨설턴트로 일하는 동안, 티나는 캐나다와 그 이상의 다른 국가의 예술 교육을 지지하는 것을 도왔다. 캐나다 예술 및 학습을 위한 네트워크, 유네스코를 위한 캐나다 위원회, 퀸즈 대학교 예술 및 교육의 유네스코 의장과 공동으로 "예술 교육에 대한 혁신적 행동: 서울 어젠다 재활성화"라는 성명서를 공동 집필했다. 또한 티나는 몇몇 증거를 기반한 가이드와 캐나다의 예술가들이 학교에서 제공하는 프로그램의 혜택에 대한 보고서를 작성하도록 위임받았다. 티나는 현재 캐나다 예술 교육 협회(CSEA)의 집행 위원회에서 지방 연락, 소셜 미디어, 지지에 대한 이사직을 맡고 있다. 교육자로서, 티나는 다양한 학교 및 지역사회 기반의 환경에서 모든 연령의 학생들에게 시각 예술을 가르쳤다.',
+                                name : 'Tiina Kukkonen',
+                                enname : '',
+                                job : "- Ph.D. candidate, Queen's University, Canada",
+                                contents : 'Tiina Kukkonen is a visual artist, arts educator, and Ph.D. candidate in the Faculty of Education at'
+                                          + "Queen's University in Kingston, Canada. Her doctoral research focuses on the role of intermediary organizations in supporting rural arts education. In her work as a research associate and consultant, Tiina has helped advocate for arts education in Canada and beyond. She co-authored the position"
+                                          + 'paper "Transformative Action on Arts Education: Re-invigorating the Seoul Agenda" in collaboration with the Canadian Network for Arts and Learning, the Canadian Commission for UNESCO, and the UNESCO Chair in Arts and Learning at'
+                                          + "Queen's University. She has also been commissioned to write several evidence-based guides and reports on the benefits of artists-in-schools programs in Canada.\n\n"
+                                          + 'Tiina currently serves on the executive committee of the Canadian Society for Education through Art (CSEA) as the Director of Provincial Liaison, Social Media, and Advocacy. As an educator, she has taught visual arts to learners of all ages in various school- and community-based settings.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Tiina_Kukkonen_Supporting_Youth_Mental_Health_in_and_through_the_Arts.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "변하는 세상에서 안정의 원천으로서 연극 / 연극 교육과 예술 교육의 중요성",
+                        li_title : 'The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World',
                         li_data : [
                             {
                                 imgs : session_img_07,
-                                name : '산자 크르스마노비츠 타식 ',
-                                enname : '(Sanja Krsmanović Tasić)',
-                                job : '- 국제극장교육협회(IDEA) 이사장, 세르비아',
-                                contents : '산자 크르스마노비츠 타식은 연극 감독, 안무가, 여배우, 드라마, 무용 교육자이다. 또 세르비아의 중등교육기관에 최초의 무대장치 예술 및 멀티미디어 수업의 커리큘럼을 집필하는 전문가 실무 그룹의 멤버이며, 세르비아의 CEDEUM의 회장이자 예술 유토피아, 그리고 "마터 테라"의 어린이들과 청소년들의 축제 예술 감독, 그리고 드라마/극장 교육 및 공연 예술에 대한 에세이, 리뷰 및 기사 집필자다. 산자는 수많은 프로그램 및 프로젝트의 저자이자 제작자이며 두 분야 모두 교육적이면서도 예술적이다. 산자는 작품"영혼의 생태학"으로는 예술과 예술교육을, 그리고 최초의 참여형 교육연극(Theatre in Education) 뮤지컬인 "움직임에 담긴 에세이"와 사이버 따돌림을 다룬 "돌의 말"처럼 작품에 대한 획기적인 개념과 방법론을 개발해오고 있다. 또한 그녀의 연극 그룹인 "헬렙 티타(Hleb Teatar)"와 함께, 산자는 국제적인 공연을 제작하고 순회하며, 연극교육의 혁신적인 형태를 개발하였다. 산자는 춤과 연구실, 극장에서의 경험을 드라마/극장 교육의 독창적인 전체론적 접근법과 방법론으로 혼합한 워크숍과 마스터 클래스를 진행해왔다. 또 2009년부터 2010년까지 세르비아 DICE(Drama Improves Key Lisbon Competences) 연구팀의 일원으로 활동했다. 산자는 2020년 5월 유네스코 국제 예술 교육 주간 행사의 일환으로 "예술 교육을 위한 종"이라는 광범위한 국제 운동을 시작했다.',
+                                name : 'Sanja Krsmanović Tasić',
+                                enname : '',
+                                job : '- President, International Drama/Theatre Education Association(IDEA), Serbia',
+                                contents : 'Theatre director, choreographer, actress, drama and dance pedagogue. Author and producer of numerous programs and projects both educational and artistic. She has been developing innovative methodologies and concepts in her work: of art and arts education as “ecology of the soul”, the first interactive TIE musical on Cyber bullying and “essays in movement”. Together with her theatre group Hleb Teatar , she creates and  tours performances internationally, also developing innovative forms of TIE. She conducts workshops and master classes blending her experience from dance and laboratory theatre into an original holistic approach and methodology of drama/theatre education. She has been part of the Serbian DICE (Drama Improves Key Lisbon Competences) research team (2009/10). Member of the expert working group for writing the curriculum of the first scenic arts and multimedia classes in Serbian gymnasiums.\n\n'
+                                           +'She has initiated the world wide action “Bells for Arts Education” as part of the celebration of UNESCO International Week of Arts Education in May 2020. She is the President of CEDEUM, Serbia, and Artistic Director of Artistic Utopia and  Mater Terra Children’s and Youth Festival. Author of essays, reviews and articles on drama/theatre education and performing arts.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Sanja_Krsmanovic_Tasic_The_Important_od_Drama_and_Theatre_Education.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "6학년 크리에이티브 아트 교실에서 생활 기술을 개발하기 위한 수행 교육",
+                        li_title : "Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms",
                         li_data : [
                             {
                                 imgs : session_img_08,
-                                name : '엠시 베트만 ',
-                                enname : '(MC Bettman)',
-                                job : '- 남아프리카대학교 교수, 남아프리카',
-                                contents : '엠시 베트만은 남아프리카 대학교 영어학부의 교수이며, 2020년에 남아프리카 대학교에서 교육학 박사학위를 취득했다. 베트만 박사의 논문 제목은 "남아프리카 초등학교 교육 및 학습 생활 오리엔테이션에서 성과적인 교육학으로서의 포럼 극장"이다. 베트만 박사는 네덜란드 위트레흐트 대학교에서 두 개의 석사 학위를 받았는데, 남아프리카 연극에 관한 주제로 영어영문학(English language and literature/1988년)과 연극과학학(Theatre Science/1989년)에서 취득했다.\n\n그녀의 전문 연구 분야는 보알(Boal)의 포럼 극장을 학교 맥락에서 적용하여 드라마를 통해 학습자들에게 삶의 기술을 가르치는 것이다. 미국 NADTA 요세미티 회의(2014년)와 호주 시드니 게임 체인저 컨퍼런스(2015년)에서 그녀는 두 개의 포럼 극장 워크숍을 국제 학술 관객들에게 선보였다. 박사학위 연구의 일환으로 마리에타의 사례 연구는 2016년 남아프리카의 한 초등학교에서 실행되었다. 또한 2016년 남아프리카 대학교에서 열린 2년 단위 부서별 타임 컨퍼런스에서 베트만 박사는 학교에서 포럼 극장을 적용하는 것에 대한 기간의 측면을 논문으로 발표했다. 베트만 박사는 학사 경력을 쌓기 전에 인터넷의 보급이나 인쇄를 통해 월간 뉴스레터 서비스를 제공하면서 20년간 기업 홍보 및 마케팅 분야에서 근무했다.',
-                                download : true,
+                                name : 'MC Bettman',
+                                enname : '',
+                                job : '- Lecturer, University of South Africa (UNISA), South Africa',
+                                contents : 'MC Bettman is a lecturer in the Department of English Studies at the University of South Africa (UNISA). She holds a D Ed, UNISA (2020). The title of her thesis is “Forum Theatre as Performative Pedagogy in Teaching and Learning Life Orientation in Primary Schools in South Africa”. Dr Bettman also holds two'
+                                           +"Master's Degrees conferred by the University of Utrecht, The Netherlands on the topic of South African theatre: Theatre Science (1989) and English Language and Literature (1988). Her research specialisation is the application of Boal’s Forum Theatre in a school context to teach learners life skills through drama. She has presented two Forum Theatre workshops to international academic audiences at the NADTA Yosemite conference, USA (2014); and the Sydney Game Changer Conference, Australia (2015). Her case study, as part of doctoral research, was conducted at a South African primary school in 2016.\n\n"
+                                           +'She also presented a paper on the aspect of time in the application of Forum Theatre in a school at the Bi-Annual Departmental Time conference, UNISA in 2016.\nPrior to her academic career Dr Bettman worked in Corporate Communication and Marketing for twenty years when she provided a monthly newsletter service through web-based dissemination or print.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "펜데믹 시대의 심리적 문제와 정신건강의 대응방안으로써의 문화예술치유",
+                        li_title : "Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era",
                         li_data : [
                             {
                                 imgs : session_img_09,
-                                name : '김채연',
+                                name : 'Chaeyeon Kim',
                                 enname : '',
-                                job : '- (사)한국임상미술치료협회 회장, 한국',
-                                contents : '김채연은 미술치료사이자 비영리법인 한국임상미술치료협회 대표이다. 미술치료학으로 석사와 박사학위를 받았고, 현재 문화예술경영학 박사과정에 재학 중이다. “남을 돕고 싶은 마음”과 “사람에 대한 관심”이 그녀를 미술치료사의 길을 걷게 하였다. 그녀는 풍부한 사례와 근거를 통해 마음이 아프고 지친 사람들을  위해 미술치료사로 22년간 임상현장에서 환자들을 만나고 있다.  또한, 그녀는  많은 사람들이 미술을 통해 치유를 경험하고, 혜택을 받을 수 있도록 돕고자 비영리 법인을 설립하여, 문화예술치유 복지를 만들어 가기 위해 노력하고 있다.',
-                                download : true,
+                                job : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
+                                contents : 'Chaeyeon Kim is an art therapist and representative of the Korea Clinical Art Therapy Association, a non-profit corporation. She holds'
+                                          +"master's and doctoral degrees in art therapy, and she is currently enrolled in a doctorate program in business administration in cultural arts. Her “her desire to help others” and her “her interest in her people” put her on the path of her art therapist. She has been meeting patients in clinical settings for 22 years as an art therapist for her heartbreaking and weary people through her rich examples and evidence. In addition, she has established a non-profit corporation to help many people experience healing through art and receive benefits, and is striving to create culture and art healing welfare.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_10,
-                                name : '글로리아 자파타 ',
-                                enname : '(Gloria P. Zapata)',
-                                job : '- 후안 코파스 대학재단, 보고타 구립 대학 교 유네스코 의장, 콜롬비아',
-                                contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정',
+                                name : 'Gloria P. Zapata',
+                                enname : '',
+                                job : '- Unesco Chair, Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá, Colombia',
+                                contents : 'Dr Gloria P. Zapata is the UNESCO Chair in Arts, Education and Culture of Peace at Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá (<a href="http://unesco.cinvest.com.co" target="_blank">http://unesco.cinvest.com.co</a>) She is a music educator with a PhD in Music Psychology and Education from Roehampton University (U.K), a Master in Psycho pedagogy from Antioquia University (Medellin-Colombia). Gloria has worked as a consultant for the Ministry of Education and the Ministry of Culture in  Colombia. Her research interest focuses on the relationship between musical development, cultural context and education, which has led her to undertake several research projects with vulnerable communities and educational institutions affected by the Colombian conflict.',
                                 download : false,
                                 downlink : '',
-
                             }
                         ]
                     },
                 ]
             },
             c : {
-                title : '세션 3',
-                subject : '사회적 & 문화적 포용',
-                time : '05.25(화) 15:00~16:30',
-                video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
+                title : 'Session 3',
+                subject : 'Social & Cultural Inclusiveness',
+                time : '25 MAY, 15:25-16:55',
+                video_text : 'In this session, we seek ways for art education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "팬데믹과 관계없이 비대면 예술교육이 필요한 세계 아이들에 대한 고찰 ",
+                        li_title : "Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_11,
-                                name : '김태희',
+                                name : 'Tei Kim',
                                 enname : '',
-                                job : '- 바라예술성장연구소 소장, 한국',
-                                contents : '김태희 바라예술성장연구소 소장은 예술가이자 예술교육자로서 저술과 강연, 연구와 컨설팅, 예술활동을 통해 아이부터 노년에 이르기까지 본능과도 같은 모두의 예술 할 권리를 주장, 옹호하고 있습니다. 서울시 서울문화재단 생활문화주간 예술감독을 역임하였고, 현재는 동아일보(여성동아) 예술감독 및 지자체 문화재단과 정부, 기업에서 컨설턴트로 활동 중입니다. 대표 저서로는 학부모와 예술 교사들에게 예술교육에 대한 영감을 준『행복한 인재로 키우는 예술의 힘』, 유아동의 자발성과 창의성을 이끌어내는 예술교육서 『아이중심·놀이중심의 예술수업』등이 있습니다.',
-                                download : true,
+                                job : '- Director, BARA Art Growth Institute , Republic of Korea',
+                                contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
+                                         + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
+                                         + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "차이의 세계에서 성장하기: 싱가포르 다양성 속에서 살아가는 이야기",
+                        li_title : "Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.",
                         li_data : [
                             {
                                 imgs : session_img_42,
-                                name : '샤를린 라헨드란 ',
-                                enname : '(Charlene Rajendran)',
-                                job : '- 난양공과대학 조교수, 싱가포르',
-                                contents : '바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 바이오 미정 ',
+                                name : 'Charlene Rajendran',
+                                enname : '',
+                                job : '- Assistant Professor, Nanyang Technological University, Singapore',
+                                contents : 'Charlene Rajendran is Assistant Professor at the National Institute of Education, an institute of Nanyang Technological University, Singapore. As theatre educator, researcher and dramaturg, her interests focus on contemporary theatre, play-based pedagogy, issues of difference and arts leadership. She has collaborated with diverse artists and is Co-Director of the Asian Dramaturgs’ Network.\n\n Her publications include: Performing Southeast Asia: Performance, Politics and the Contemporary (co-edited with Marcus Tan, 2020, Palgrave Macmillan); Excavations, Interrogations, Krishen Jit and Contemporary Malaysian Theatre (co-edited with Ken Takiguchi and Carmen Nge, 2018, Epigram and Five Arts Centre); academic articles in RIDE, Applied Theatre Research, TDR, Theatre, Dance and Performance Training, Asian Theatre Journal and creative works.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Charlene_Rajendran_UNITWIN_2021_Presentation.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "춤과 언어교육의 융합: 위기의 시대 속에서 사회 다양성과 평등에 대한 창의적인 대응",
+                        li_title : "Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis",
                         li_data : [
                             {
                                 imgs : session_img_13,
-                                name : '난 장 ',
-                                enname : '(Nan Zhang)',
-                                job : '- 모내시대학교 박사과정, 호주',
-                                contents : '난 장은 중국 베이징 무용 아카데미에서 학사 및 석사 학위를 마쳤다. 현재, 그녀는 호주 모나시 대학교 교육학부의 박사 후보생이며, 연구 관심사는 춤과 언어 교육, 콘텐츠 및 언어 통합 학습, 다문화주의, 사회적 다양성, 형평성 등이다. 사회적 다양성과 형평성과 깊은 관련이 있는 다양한 언어의 유지관리, 학습, 습득은 호주와 같은 다문화 사회에서 점점 더 중요하다. 불행히도, 세대가 교체되면서 많은 이민자 및/또는 아이들이 그들의 유산, 문화적, 또는 상호 문화적인 이해를 얻을 수 있도록 돕는 제2외국어 프로그램들이 증가하고 있으며, 이러한 증가는 사회적 다양성과 형평성에 더 부정적인 영향을 미칠 수 있다. 거의 관심을 갖지 않았던 이러한 도전에 대한 창의적인 대응은 바로 제2외국어 교육에 춤을 통합하는 것이다. 이 연구는 춤 교육학의 영향과 그것의 함의를 조사하기 위한 수단으로서 자문화기술지와 교육적 감식안 및 비평을 결합했다. 논의된 주제는 의사소통 및 타 문화간 역량, 언어 습득 및 몰입, 인지 학습 전달 및 다중적인 접근이었다. 이 연구는 무용 활동이 학생들의 제2외국어 및 문화적 역량 개발에 기여할 수 있는 이점에 대한 실증적 증거를 제공하고 춤을 제2외국어를 가르치는 접근법으로 채택하고자 하는 교사들에게 교육학적 통찰력을 제공한다.',
+                                name : 'Nan Zhang',
+                                enname : '',
+                                job : '- Ph.D. candidate, Monash University, China',
+                                contents : 'Nan Zhang completed her Bachelor and Master of Arts degree at the Beijing Dance Academy in China. Currently, she is a PhD candidate at the Faculty of Education, Monash University, Australia. Nan’s research interests include dance and language education, Content and Language Integrated Learning, multiculturalism, social diversity and equity.\n\n'
+                                           +"Deeply associated with social diversity and equity, the acquisition, learning, and maintenance of varied languages is increasingly important in multicultural societies, like Australia. Unfortunately, as the generation’s pass, there are also increased challenges for many immigrant and/or second language programs to assist children to acquire their heritage, cultural, and/or intercultural understanding, which can further negatively affect social diversity and equity.\n\n"
+                                           +'A creative response to these challenges that has had little attention is integrating dance into second language education. This study assembled autoethnography and educational connoisseurship and criticism as a means to investigate the impact of dance pedagogy and its implications. The themes discussed were: communicative and intercultural competence, language acquisition and immersion, cognitive learning transfer, and multiple accesses.\n\n'
+                                           +'This study offers empirical evidence for the benefits that dance activities can make to students’ second language and cultural competence development and affords pedagogical insights for teachers who want to employ dance as an approach to teach a second language.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Zhang_Integrating_dance_and_language_education_A_creative_response_to_social.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "주의력과/또는 과잉 활동 장애가 있는 4-8 학년 학생을 위한\n정서적 자기 조절을 촉진하기 위한 예술: 여러 사례 연구",
+                        li_title : "USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND / OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY",
                         li_data : [
                             {
                                 imgs : session_img_14,
-                                name : '야라 도크랏 ',
-                                enname : '(Yaara Docrat)',
-                                job : '- 퀸즈대학교 석사과정, 캐나다',
-                                contents : '야라 도크랏은 벤자민 볼든 박사(UNESCO 예술 및 학습 위원장)의 감독 아래 퀸즈 대학교 교육학부의 석사 후보이다. 야라의 교육적 관심사는 특수교육과 위기청소년이다. 야라는 2018년부터 2019년 영국에서 사회정서 및 정신건강(SEMH)이 필요한 학생들을 가르쳤고, 2021년 가을부터 치앙마이 아메리칸 퍼시픽 국제학교(The American Pacific International School of ChiangMai)에서 가르치게 되었다. 야라의 연구 관심사는 이러한 교육적 관심사, 예술 교육, 그리고 정서적 자기 규제를 결합하여 학생들에게 더 나은 서비스를 제공한다. 야라의 배경 덕분에 그녀는 이러한 필요성을 확인할 수 있었다. 2017~2018년 동안 교사 후보로서, 음악과 아이들에 대한 야라의 개인적 애정은 호주 온타리오주에서 1000명 이상의 학생들을 멘토링하고 연주하기위한 투어 뮤지션들을 모이게했다. 그녀는 이러한 노력을 인정받아 2018년에 킹스턴 시민 청소년 자원봉사자 상(Kingston Civil Youth Voluntism Award 2018)을 수상하였다. 야라는 모든 교실에서 예술을 보다 더 쉽게 통합할 수 있도록 사범교육 프로그램을 강화한다는 중심 임무에 도달하기 위해 일하고 있다.',
+                                name : 'Yaara Docrat ',
+                                enname : '',
+                                job : "- Master's candidate, Queen’s University, Canada",
+                                contents : 'Yaara Docrat is a Master of Education Candidate in the Faculty of Education at Queen’s University under the supervision of Dr. Benjamin Bolden (UNESCO Chair of Arts & Learning). Yaara’s teaching interests include special education and at-risk youth. From 2018-2019, Yaara taught students with social, emotional, and mental health (SEMH) needs in the United Kingdom and in Fall 2021, will teach at The American Pacific International School of Chiang Mai. Yaara’s research interests combine these teaching interests, arts education, and emotional self-regulation to better serve students alike.\n\n'
+                                           +'Yaara’s background has allowed her to identify this need. As a teacher candidate (2017-2018), Yaara’s personal love of music and children prompted her to organize touring musicians to play and mentor 1000+ students in Ontario. She was awarded the Kingston Civic Youth Volunteerism Award 2018 to recognize these efforts. Yaara works towards a central mission of strengthening teacher education programs to more easily integrate the arts within all classrooms.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Docrat_UsingTheArtsToFosterEmotionalSelfRegulationForGrade4To8StudentsWithAttentionAndOrHyperactivityChallengesAMultipleCaseStudy_UNITWIN2021.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_16,
-                                name : '네릴 제너렛 ',
-                                enname : '(Neryl Jeanneret)',
-                                job : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                                contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.',
+                                name : 'Neryl Jeanneret',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : 'Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.',
                                 download : false,
                                 downlink : '',
                             }
@@ -2881,105 +2903,107 @@ export const langen = {
                 ]
             },
             d : {
-                title : '세션 4',
-                subject : '서울 어젠다',
-                time : '05.25(화) 16:30~17:50',
-                video_text : '“서울 어젠다: 예술교육 발전목표”가 천명하고 있는 것처럼, 예술교육의 중요성과 가치가 오늘날 현대 사회에 어떤 영향력을 발휘할 수 있는지에 대해 모색합니다.',
+                title : 'Session 4',
+                subject : 'Seoul Agenda',
+                time : '25 MAY, 16:55-18:10',
+                video_text : 'In this session, we seek how the importance and value of art education can influence modern society today like the "Seoul Agenda: The Objective of Arts Education Development" is clarifying.',
                 download : false,
                 chatlink : '1006',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "예술교육 지속가능성의 전망: 가치, 도전 그리고 가능성",
+                        li_title : "Visions of Sustainability for Arts Education: Value, Challenge and Potential",
                         li_data : [
                             {
                                 imgs : session_img_15,
-                                name : '벤자민 볼든 ',
-                                enname : '(Benjamin Bolden)',
-                                job : '- 퀸즈대학교 부교수, 캐나다',
-                                contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
+                                name : 'Benjamin Bolden',
+                                enname : '',
+                                job : "- Associate Professor, Queen's University, Canada",
+                                contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning. His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan. Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
                             },
                             {
                                 imgs : session_img_16,
-                                name : '네릴 제너렛 ',
-                                enname : '(Neryl Jeanneret)',
-                                job : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                                contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다',
+                                name : 'Neryl Jeanneret',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : 'Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "환경 예술작가, 젠터와의 대화: 과정과 교육적 가능성 탐색",
+                        li_title : "Dialoguing with Environmental Artist, Zen Teh: Exploring Processes and Pedagogical Possibilities",
                         li_data : [
                             {
                                 imgs : session_img_17,
-                                name : '치후 룸 ',
-                                enname : '(Chee-Hoo Lum)',
-                                job : '- 국립교육원 부교수, 싱가포르',
-                                contents : '치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다. 그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다.',
-                                download : true,
+                                name : 'Chee-Hoo Lum',
+                                enname : '',
+                                job : '- Associate Professor, Nanyang Technological University, Singapore',
+                                contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                           +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
                                 imgs : session_img_18,
-                                name : '젠 터 ',
-                                enname : '(Zen Teh)',
-                                job : '- 환경 예술가 및 교육자, 싱가포르',
-                                contents : '1988년생 젠 터는 자연과 인간의 행동에 대한 학문 간 연구에 관심이 있는 예술가이자 교육자이다. 젠의 연구는 배움이 자연 현상과 일상의 경험에 대한 우리의 타고난 호기심에 기초한다는 믿음에 바탕을 두고 있다. 예술가로서 그녀의 미술 연구는 사진, 조각, 설치 미술에 걸쳐 있다.\n\n젠은 그녀의 작품을 싱가포르의 산책로(Esplanade), 국립박물관, 미술관, 예술과학관 등 싱가포르에서 열린 수많은 단체전과 개인전에서 선보였다. 태국, 인도네시아, 한국, 대만, 홍콩, 중국 등 지역에서 작품 전시를 했으며, 아세안 파워시프트 2015, 하노이 이노베이션 위크 2016 등 지역 환경회의 초청 연사로 초청됐다. 또한 젠은 최근 제7회 프랑스+싱가포르 사진예술상 겸 결승 진출자(아티스트)의 2019년 공로상 수상작도 받았다.',
-                                download : true,
+                                name : 'Zen Teh',
+                                enname : '',
+                                job : '- Environmental Artist & Educator, Singapore',
+                                contents : 'Zen Teh (born and live in Singapore, 1988) is an artist and educator interested in interdisciplinary studies of nature and human behavior. Her practice draws on the belief that learning is built upon our innate curiosity towards natural phenomena and experiences of the everyday. As an artist, her art practice spans across photography, sculpture and installation art. Her works has been showcased in numerous group and solo exhibitions in Singapore, including the Esplanade Singapore, National Museum of Singapore, Singapore Art Museum and Art Science Museum.\n\n'
+                                           +'She has also exhibited regionally in Thailand, Indonesia, Korea, Taiwan, Hong Kong and China and was invited as a guest speaker at regional environmental conferences such as ASEAN Powershift 2015 and Hanoi Innovation Week 2016 on Sustainability. Teh has also been recently awarded the winning title for the 7th France+Singapore Photographic Arts Award and Finalist (Artist) for 2019 IMPART Awards.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "시각예술교육: 지연의 연속과 불확실한 시간 속에서 세계를 이어주고,\n풀어주고, 지속하며 완화해주는 국제적 맥락",
+                        li_title : "Visual Arts Educations: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.",
                         li_data : [
                             {
                                 imgs : session_img_19,
-                                name : '캐서린 콜만 ',
-                                enname : '(Kathryn Coleman) ',
-                                job : '- 맬버른대학교 부교수, 호주(빅토리아, 태즈메이니아)',
-                                contents : '캐서린 콜만 박사는 예술, 디지털 공간, 연습, 문화의 교차점에 관심을 둔다. 콜만 박사의 방식은 교사 실습, 정체성의 실천, 그리고 연습으로서의 지식을 통해 알게 된다.',
+                                name : 'Kathryn Coleman',
+                                enname : '',
+                                job : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
+                                contents : 'Dr Kathryn Coleman is interested in the intersection of art, digital spaces, practice and culture. Kate’s  praxis is informed by teacher practices, practices of identity, and knowledge as practice.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
                             },
                             {
                                 imgs : session_img_20,
-                                name : '마크 셀크릭 ',
-                                enname : '(Mark Selkrig)',
-                                job : '- 맬버른대학교 부교수, 호주(빅토리아, 태즈메이니아)',
-                                contents : '마크 셀크릭 부교수의 연구 관심사에는 교육자 업무의 본질 변화와 예술과 창의성이 개인과 공동체의 변화, 역량 향상, 및 기관에 영향을 미칠 수 있는 방법이 포함한다.',
+                                name : 'Mark Selkrig',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : 'Associate Professor Mark Selkrig’s research interests include the changing nature of educators’ work and ways the arts and creativity can influence change, capacity building and agency of individuals and communities.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
                             },
                             {
                                 imgs : session_img_21,
-                                name : '에비 맥도날드 ',
-                                enname : '(Abbey MacDonald)',
-                                job : '- 태즈매니아대학교 부교수, 호주(빅토리아, 태즈메이니아)',
-                                contents : '애비 맥도날드 박사는 자신의 연구를 위한 작품활동, 지지 및 다양한 이해 관계자들의 협업에 최대한 중점을 두고 있다. 애비는 교육 혁신 이해 관계자들과 협력하기 위해 예술 및 자선단체와 함께 일한다.',
+                                name : 'Abbey MacDonald',
+                                enname : '',
+                                job : '- Senior Lecturer, University of Tasmania, Australia',
+                                contents : 'Dr Abbey MacDonald brings a strong focus upon art making, advocacy and multi-stakeholder collaboration to her research. She works with Arts and philanthropic organisations to collaborate with education transformation stakeholders.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : closing_img_03,
-                                name : '김인설',
+                                name : 'InSul Kim',
                                 enname : '',
-                                job : '- 가톨릭대학교 부교수, 한국',
-                                contents : '가톨릭대학교 공연예술문화학과 전임교수. 예술을 통해 사회 문제를 새롭게 해석하고 이를 통해 사회가 긍정적인 방향으로 발전될 수 있는 주제들을 연구한다. 문화정책과 거버넌스, 예술경영, 예술교육, 예술치유, 문화기술, 문화 복지 등 예술을 통해 창출할 수 있는 사회자본 및 예술의 사회적 역할과 가치가 주요 관심사이다. 문화정책과 예술경영, 문화예술교육분야 등 다수의 국내외 학술지에서 편집위원으로 활동하고 있으며 한국연구재단, 한국문화예술위원회, 한국문화예술교육진흥원, 문화체육관광부 등에서 국책연구와 자문을 수행해 왔다.',
+                                job : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
+                                contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts. Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
                                 download : false,
                                 downlink : '',
                             }
@@ -2988,93 +3012,98 @@ export const langen = {
                 ]
             },
             e : {
-                title : '세션 5',
-                subject : '교실 속의 예술',
-                time : '05.26(수) 13:40~15:15',
-                video_text : '판데믹 상황 속에서 위기에 놓인 학교 및 학생들이 예술교육을 통해 회복되고, 다양한 예술 분과 교육들이 학생들을 지속적으로 지지하고 지원할 수 있는 방법을 모색합니다.',
+                title : 'Session 5',
+                subject : 'Arts in the Classroom',
+                time : '26 MAY, 13:40-15:10',
+                video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through art education, and for various arts departments to continue to support students.',
                 download : false,
                 chatlink : '1007',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "COVID-19 대유행 기간 동안 케냐 대학 학생들의 석방, 구호, 성찰 및 복원을\n촉진하기 위한 미술 치료 사용",
+                        li_title : "The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_22,
-                                name : '마리 클레어 키덴다 ',
-                                enname : '(Mary Clare Kidenda)',
-                                job : '- 케냐 공과대학교 디자인창조미디어학과 학과장, 케냐',
-                                contents : '마리 클레어 키덴다는 영국 코번트리 대학교에서 디자인 및 시각 예술 박사 학위를, 나이로비 대학교에서 디자인 예술 석사 학위를 받았고, 케냐타 대학교에서 예술 교육 학사 학위를 받았다. 그녀는 상원 의원, 학교 교무 위원회 그리고 현재 케냐 기술 대학교의 디자인 및 창조 미디어 학부, 창조 예술 학교 및 미디어 기술 학부의 팀장이다. 마리는 위 부서에서 다양한 직책을 맡고 있다.\n\n또한 그녀는 다양한 중등 학교에서 예술 및 디자인 교육자로 근무했으며 그 분야에서 가장 우수한 교육자로 다양한 공로를 인정 받았습니다. 그녀가 경력을 쌓는 과정에서, 마리는 논문, 워크숍, 컨퍼런스에 참석하고 다양한 학술지에 그녀의 작업물이 게재되는 등, 국가의 다양한 수준의 커리큘럼 개정에 참여해왔다. 마리는 전국의 여러 예술 디자인 부서를 설립하고 이끌고 있다. 게다가 케냐 디자인 협회(DeSK)와 아프리카 연구 예술 위원회(ACASA)의 회원이자 시각 문화 탐구 전문가 패널의 회원이며 『아프리카의 시각 문화』라는 책의 편집장이다.',
+                                name : 'Mary Clare Kidenda',
+                                enname : '',
+                                job : '- Lecturer and Head, The Technical University of Kenya, Kenya',
+                                contents : 'Mary Clare Kidenda holds a Doctorate in Design and Visual Arts from Coventry University, UK. and Master of Arts in Design from the University of Nairobi.  Her  Bachelor of Education degree in Education and Fine Art is from Kenyatta University. She is a member of the Senate, School Academic Board and the current Academic Team Leader, Department of Design and Creative Media, School of Creative Arts and Media Technology at The Technical University of Kenya. She has held various positions at the department.\n\n'
+                                          +'She has been an Art and Design teacher in various secondary schools and has received various certificates of merit as the best Art and Design teacher. In the course of her career, Mary Clare has participated in curriculum reform at various levels in the country; written papers, attended workshops, conferences and published in various academic journals. She has set up and headed  several Art and Design Departments countrywide.\n\n'
+                                          +'Mary Clare is also a member of the Design Association of Kenya (DeSK) and Arts Council of the African Studies (ACASA). She is a Member of Experts Panel- Exploring Visual Cultures.  Mary is the chief editor of the book “ Visual Culture in Africa”.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Mary_Clare_Kidenda_The_use_of_Visual_Art_therapy_to_facilitate_the_release_relief_reflection_and_restoration_of_students_in_Kenyan_Universities_during_the_COVID_19_Pandemic.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "포용적 관행을 위한 인형극의 마술 같은 힘",
+                        li_title : "The Magic within Puppetry for Inclusive Practices",
                         li_data : [
                             {
                                 imgs : session_img_23,
-                                name : '에밀리 맥밀런 ',
-                                enname : '(Emily MacMillan)',
-                                job : '- 퀸즈대학교 석사과정, 캐나다',
-                                contents : "에밀리는 퀸즈대학교의 단(Dan) 연극 음악학교를 졸업했다. 현재 캐나다 온타리오주 퀸즈 대학교 교육학 석사과정 1학년생이며, 초등학교 5학년까지 가르쳐 본 실습생이다. 에밀리의 연구에는 인형극 예술이 교실 내 포용성을 키우는 데 어떻게 기초가 될 수 있는지, 특히 신경이 예민한 학생과 발달 장애가 있는 학생 사이에서 진정한 우정의 성장을 촉진 할 수 있는 방법을 보여주는 교육자를 위한 워크숍을 만드는 것을 포함한다.\n\n인형극이 화면을 넘어서 확장될 수 있고, 플랫폼에 상관없이 모든 학생들에게 포용성과 교실 커뮤니티를 제공할 수 있기 때문에 이러한 워크숍은 온라인이나 대면 수업으로 직접 이용될 수 있을 것이다. 에밀리의 프레젠테이션에는 '포용적 실천을 위한 인형극의 마법'에 대해 이야기할 예정이며 이 프리젠테이션에 참여한 관객들 각자가 이 마법을 조금이나마 느끼고 경험하기를 바란다. 고로 에밀리는 관객이 각자 가진 내면의 로저스씨를 이용해 이 프레젠테이션을 즐겼으면 한다.",
+                                name : 'Emily MacMillan ',
+                                enname : '',
+                                job : "- Master's candidate, Queen’s University, Canada",
+                                contents : "Emily is a graduate from Queen’s Dan School of Drama and Music. She is currently a 1st year student in the Masters of Education Program at Queen’s University in Ontario, Canada as well as a practicing virtual elementary teacher to a grade five class. Emily’s research includes creating workshops for educators to show how the art of puppetry can be fundamental in fostering inclusivity within the classroom and can promote the growth of genuine friendships, especially between neuro-typical students and students with developmental disabilities.\n\n"
+                                           +'These workshops will be available online and in-person as puppetry can extend beyond the screen and offer a sense of inclusivity and classroom community for all students, no matter the platform. Today Emily will be speaking about The Magic within Puppetry for Inclusive Practices. Emily hopes each and every one of you will feel and experience a little bit of this magic today during her presentation, so tap into your inner Mr. Rogers and enjoy the ride',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Emily_MacMillan_The_magic_within_puppetry_for_inclusive_practices.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "교실에서 다양성과 문화적 표현의 필요성 : 실용적인 전략과 그 실행",
+                        li_title : "The Necessity of Diversity and Cultural Representation in the Classrooms:  Practical Strategies and Their Implementation",
                         li_data : [
                             {
                                 imgs : session_img_24,
-                                name : '홍지혜',
+                                name : 'Jihea Hong-Park',
                                 enname : '',
-                                job : '- 브리검 영 대학교 부교수, 미국',
-                                contents : "재미 교포 피아니스트 홍지혜 씨는 현재 미국 전역과 세계 곳곳에서 연주자, 교육자, 그리고 티칭 아티스트로 활동하고 있다. 그녀는 뉴욕 카네기홀의 와일 리사이틀홀과 젠켈홀, 링컨센터, 머킨홀, 영국의 캠브리지 대학, 일본의 도쿄 음대, 코메 에콜마 홀, 그리고 한국의 인천 예술문화센터 등지에서 연주를 하였다. 현재 미국 브리검 영 대학 (Brigham Young University) 피아노 과 부교수로 교직 중이며 이전 줄리아드 음대 Evening Division 교수진과 뉴욕 필하모닉 수석 티칭 아티스트역임을 하였다.\n\n홍지혜 씨는 특강 연사로 Showa University, Kobe College, Osaka University of the Arts, Wuhan Conservatory of Music, Missouri State University, Grand Valley State University, Loyola College New Orleans, Weber State University, Juilliard’s Pre-College, 미얀마의 Gitameit Music Institute 등지의 각국 나라의 학생들을 가르쳤다. 그녀는 국제예술교육실천가대회 (ITAC5), College Music Society’s National Conferences, Youth Orchestra of St. Luke’s, 및 뉴욕 시 교육청 등에서 학회 발표를 하였으며 올 여름에는 2021 National Conference on Keyboard Pedagogy에서 강연 초대를 받았다.",
+                                job : '- Associate Professor, Brigham Young University, USA',
+                                contents : "Korean American pianist Jihea Hong-Park enjoys a versatile and active career as a recitalist, educator, chamber musician, teaching artist, workshop presenter, and interdisciplinary arts collaborator. She has performed at major venues such as Carnegie Hall, Lincoln Center for the Performing Arts, Merkin Hall, Symposium and Festival of the Centre of Intercultural Music Arts at the University of Cambridge in England, Incheon Performing Arts Center in South Korea, and Komae Ecorma Hall and Niigata Performing Arts Center in Japan.\n\n"
+                                           +'Ms. Hong-Park currently holds the position of Associate Professor of Piano at Brigham Young University. Prior to her appointment at BYU, she taught on the piano faculty at The Juilliard School’s Evening Division for 14 years and was a lead teaching artist at the New York Philharmonic. Through masterclasses, lectures, and chamber music instruction, she has worked with students from across the world.  As an avid workshop facilitator, Ms. Hong-Park has presented at the International Teaching Artist Conference, College Music Society’s National Conferences, Youth Orchestra of St. Luke’s, and New York City Department of Education. Recently, she has been invited to give presentations at the 2021 National Conference on Keyboard Pedagogy. Ms. Hong-Park received her B.M. and M.M. degrees at The Juilliard School.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Jihea_HongPark_UNESCO_Necessity_of_Cultural_Representation_in_Music_Classrooms.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "2020년 학생들의 목소리를 사용한 디지털 예술과 협작",
+                        li_title : "Facilitating student voice and collaboration with digital arts in 2020",
                         li_data : [
                             {
                                 imgs : session_img_25,
-                                name : '에밀리 윌슨 ',
-                                enname : '(Emily Wilson)',
-                                job : '- 멜버른 교육대학원 강사, 호주',
-                                contents : "에밀리 윌슨은 학부 및 대학원 음악 교육 교수다. 그녀의 연구 관심사로는 음악 교육 교육학, 학생 참여, 비공식 및 공식 음악 학습의 융합, 일대일 음악 교육학 등이 있다.",
+                                name : 'Emily Wilson',
+                                enname : '',
+                                job : '- Lecturer, The University of Melbourne, Australia',
+                                contents : "Emily Wilson is a lecturer in undergraduate and postgraduate music education. Her research interests include: music education pedagogy, student engagement, the confluence of informal and formal music learning, and one-to-one music pedagogy.",
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/WilsonJeanneret.pptx',
                             },
                             {
                                 imgs : session_img_16,
-                                name : '네릴 제너렛 ',
-                                enname : '(Neryl Jeanneret)',
-                                job : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                                contents : "네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.",
+                                name : 'Neryl Jeanneret ',
+                                enname : '',
+                                job : '- Associate Professor, The University of Melbourne, Australia',
+                                contents : "Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.",
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/WilsonJeanneret.pptx',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_15,
-                                name : '벤자민 볼든 ',
-                                enname : '(Emily Wilson)',
-                                job : '- 퀸즈대학교 부교수, 캐나다',
-                                contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
+                                name : 'Benjamin Bolden',
+                                enname : '',
+                                job : "- Associate Professor, Queen's University, Canada",
+                                contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning.\n\n'
+                                           +' His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan. Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
                                 download : false,
                                 downlink : '',
                             }
@@ -3083,111 +3112,115 @@ export const langen = {
                 ]
             },
             f : {
-                title : '세션 6',
-                subject : '예술 참여',
-                time : '05.26(수) 15:15~17:05',
-                video_text : '예술교육이 오늘날의 위기에 대항하여 지역 사회가 창조적으로 대응하고 역량을 강화할 수 있도록 도울 수 있는 방법을 모색합니다.',
+                title : 'Session 6',
+                subject : 'Arts Engagement',
+                time : '26 MAY, 15:10-16:40',
+                video_text : "In this session, we seek how arts education can help communities respond creatively and empower communities in the face of today's crisis.",
                 download : false,
                 chatlink : '1008',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "팬더믹 이후의 온라인 문화예술교육은 어떻게 예술교육가의 정체성을 재구성하는가",
+                        li_title : "Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?",
                         li_data : [
                             {
                                 imgs : session_img_26,
-                                name : '제환정',
+                                name : 'Hwan Jung Jae',
                                 enname : '',
-                                job : '- 한국예술종합학교 객원교수, 한국',
-                                contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상구석구석 예술이 있기를 도모하고 있다.\n예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중. Temple University 무용 박사.',
-                                download : true,
+                                job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
+                                contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "온라인 관람 시대에 참여와 공유를 실천하는 박물관/미술관 교육 프로그램 개발",
+                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
                         li_data : [
                             {
                                 imgs : session_img_27,
-                                name : '정혜연',
+                                name : 'HyeYoun Chung',
                                 enname : '',
-                                job : '- 홍익대학교 조교수, 한국',
-                                contents : '본 발표의 자료인 박물관/미술관 교육연구 1,2 담당 교수로, 홍익대학교 교육대학원 미술교육과 교수이다. 홍익대 회화과 및 동대학원 졸업하고, Columbia 대학교 예술경영학 석사, 미술교육학 박사(미술관 교육 세부 전공)이다. 박물관/미술관 자문 및 교육프로그램 평가를 하고 있다.',
-                                download : true,
+                                job : '- Assistant professor, Hongik University, Republic of Korea',
+                                contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
                                 imgs : session_img_28,
-                                name : '성효진',
+                                name : 'Hyojin Sung',
                                 enname : '',
-                                job : '- 국제갤러리 전시팀 , 한국',
-                                contents : '박물관/미술관 교육연구 2 참여자로 서강대학교 영문과 졸업, 홍익대학교 미술교육학과 석사과정에 재학중이다. 국립현대미술관 과천관 미술관교육팀 서포터즈로 참여한 바 있으며, 미술품 경매회사 케이옥션을 거쳐 현재 국제갤러리 전시팀에 근무 중이다. 옥션과 상업화랑, 그리고 미술관 교육팀까지 다양한 분야에 속하며 대중의 예술 참여활동에 대한 활발한 연구 중에 있다.',
-                                download : true,
+                                job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
+                                contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "서비스 학습의 네러티브: 난양 미술 아카데미 사례 연구",
+                        li_title : "Narratives of Service Learning: a Case Study at Nanyang Academy of Fine Arts",
                         li_data : [
                             {
                                 imgs : session_img_41,
-                                name : '레베카 칸 ',
-                                enname : '(Rebecca Kan)',
-                                job : '- 난양아카데미 부총장, 싱가포르',
-                                contents : '레베카는 예술을 가르치고 배우는 데 열정적이며, 특히 전문 교육과 시그니처 교육학, 그리고 이 분야 사이에 놓여 있는 모든 것에 열정적이다. 교육연구부 차장 자격으로 고등예술교육의 질을 높이는 연구 프로젝트와 파트너십을 주도하며, 음악학교 수석 강사, 싱가포르 사회과학대학(SUSS)에서 겸임 강사 등을 맡아 성인 학습자들과 함께 음악적 이정표를 감상하는 예술을 준비한다.\n\n음악가이자 음악학자로서 훈련을 받은 레베카는 바로크양식의 협주곡의 창작 음악 과정을 전문으로 한다. 그녀는 박사 과정으로 국립 예술 위원회로부터 장학금을 받았고, 리버풀 대학교에서는 전액 장학금을 받았으며 영국 국제 연구생들을 위한 장학금을 받았다. 레베카는 현재 싱가포르 난양공과대학교의 국립교육원에서 교육학 박사 연구로 Tan Poey Queee 박사 교육 장학금을 받았다.',
+                                name : 'Rebecca Kan ',
+                                enname : '',
+                                job : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
+                                contents : 'Rebecca is passionate about teaching and learning of the arts, specifically in professional education, signature pedagogies, and everything that lies in-between. In her capacity as Vice-Dean of Pedagogy and Research Unit, she spearheads research projects and partnerships that enhance the quality of higher arts education. She is also a Senior Lecturer with the School of Music, and an Adjunct Lecturer at Singapore University of Social Sciences (SUSS), where she curates the art of appreciating musical milestones with adult learners. Trained as a musician and musicologist, Rebecca specialises in the creative musical processes of the Baroque concerto.\n\n'
+                                           +'For her Ph.D. studies, she received a grant from the National Arts Council, a full scholarship from the University of Liverpool, and the United Kingdom Scholarships for International Research Students. Rebecca is presently awarded the Tan Poey Quee Doctor in Education Scholarship for EdD studies at the National Institute of Education, Nanyang Technological University, Singapore.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
                             },
                             {
                                 imgs : session_img_29,
-                                name : '푸 세이밍 ',
-                                enname : '(Foo Say Ming)',
-                                job : '- 난양아카데미 학장, 싱가포르',
-                                contents : "푸 세이 밍은 싱가포르 음악계에서 활발한 활동을 하고 있다. 그는 싱가포르 교향악단에서 제1바이올리니스트로 활동한 것과 별개로, 영국 런던 왕립음악대학(RCM)과 함께 음악공연과 음악교육 학위 과정을 개설한 난양미술원에서 현악학부장을 겸임하고 있다. 싱가포르 실내악단 '리:믹스'를 지휘하는 세이 밍은 싱가포르 특유의 클래식과 현대음악에 대한 취향을 담은 독특한 레퍼토리를 대중들과 다양한 지역 국가 축제에서 선보임으로써 2개의 '올해의 CD'상을 수상하는 영예를 얻었다. 세이 밍은 왕립음악대학 졸업생이며, 훗날 그가 프랑스 바이올리니스트 피에르 아모얄과 함께 공부했던 스위스 콘서베토흐 드 로잔(Conservatoire de Lausanne) 음악 학교에서 비흐튜오시떼 - 퍼미에흐 펠리시티 듀 쥬히(Virtuosité - Premier Pélicities du Jeri)를 받았다.",
+                                name : 'Foo Say Ming ',
+                                enname : '',
+                                job : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
+                                contents : "Foo Say Ming is an active musician in the local music scene.  Apart from his work in the Singapore Symphony Orchestra as a 1st violinist, he is also heading the String Faculty at the Nanyang Academy of Fine Arts, which offers degree courses in music performance and music education with the Royal College of Music (RCM), London. Apart from his role as Assistant Conductor of the National University of Singapore (NUS) Symphony Orchestra, Say Ming also leads and direct a Singaporean chamber orchestra “re: mix”, which endeavours to bring a unique Singaporean voice its take on classical and the contemporary music. With its unique repertoire and its 2 “CD of the Year” accolades from The Straits Times, re: mix has since attracted the attention of audiences and festivals from several regional countries.\n\n"
+                                           +'Say Ming is a graduate of the Royal College of Music, was also later conferred the “Virtuosité - Premier Prix avec Félicitations du Jury” at the Conservatoire de Lausanne (Switzerland) where he studied with French violinist Pierre Amoyal, a protégé of Jascha Heifetz.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
                             },
                             {
                                 imgs : session_img_30,
-                                name : '탄정수안 ',
-                                enname : '(Tan Jeng Suan)',
-                                job : '- 난양아카데미 조교, 싱가포르',
-                                contents : "탄 정 수안은 난양미술원 피아노 연주과 4학년이다. 현재, 폴 량 박사의 지도 아래, 학교 콘서트에서 솔리스트이자 실내악가로써 공연을 해왔다. 그녀는 최근 런던 왕립 음악대학에서 국제학위를 받는 동안 리처드 어틀리(Richard Uttley)교수와 함께 공부할 기회를 얻었다. 탄은 학생 연구 조교로서 교육학 연구부, 학술 사무소와 함께 다양한 연구 프로젝트에 참여해왔다. 음악 교육에 깊은 관심을 갖고 있는 탄의 학부 연구 프로젝트는 실천 커뮤니티에 중점을 둔 음악 학교에서의 사회문화적인 교육에 초점을 맞췄다.\n\n그녀의 연구 프로젝트는 전통 음악 시스템에 대한 보완적 학습 방법으로 사회 문화 학습의 가능성을 탐구하려고 했다. 탄의 다른 연구 관심사는 영유아를 위한 음악 교육이다.",
+                                name : 'Tan Jeng Suan ',
+                                enname : '',
+                                job : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
+                                contents : 'Tan Jeng Suan is a final-year undergraduate student at the Nanyang Academy of Fine Arts, majoring in piano performance. Currently under the tutelage of Dr Paul Liang, she has performed in school concerts, both as a soloist and as a chamber musician. She recently had the opportunity to study with Professor Richard Uttley during her international placement with the Royal College of Music, London. As a student research assistant, she has been involved in various research projects with the Pedagogy and Research Unit, Office of Academic Affairs. Having a keen interest in music education, her undergraduate research project was focused on Communities of Practice: Sociocultural Learning in a Music Conservatoire.\n\n'
+                                           +'Her research project sought to explore possibilities for sociocultural learning as a complementary learning method to the traditional conservatory system. Her other research interests are in music education for young children.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "2020년 위기 속에서 창의 세대와 예술교육의 혁명",
+                        li_title : "The Creative Generation and Arts Education Innovations through the Crises of 2020",
                         li_data : [
                             {
                                 imgs : session_img_10,
-                                name : '제프 풀린 ',
-                                enname : '(Jeff Poulin)',
-                                job : '- 크리에이티브 제너레이션 전무이사, 미국',
-                                contents : '바이오 미정',
-                                download : true,
+                                name : 'Jeff Poulin',
+                                enname : '',
+                                job : '- Managing Director, Creative Generation, USA',
+                                contents : '',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : closing_img_04,
-                                name : '신혜선',
+                                name : 'Hyesun Shin ',
                                 enname : '',
-                                job : '- 위컬쳐 리서치&컨설팅 대표, 한국',
-                                contents : '현재 위컬처 리서치 앤 컨설팅의 대표이자 경희대학교 경영대학원 문화예술경영학과 강사로 활동 중이다. 문화예술교육, 국제문화교류, 문화정책, 예술경영을 중심으로 연구 및 강의하고 있다. 미국 오하이오주립대학교 문화정책·예술경영 전공으로 박사학위를 취득한 후, 숙명여자대학교 다문화통합연구소 책임연구원으로 재직하였다. 우리 삶 속의 예술과 예술활동에 참여하는 것이 인간 사이에 그리고 사회 간 관계에 어떠한 기여와 영향을 가지고 오는지에 대해 관심을 가지고 탐색하고 있다. ⸢문화예술교육 자원과 협력관계⸥를 공동저술하였으며, Journal of Arts Management, Law, and Society, 문화정책논총, 예술경영연구 등에 논문을 게재하였다.',
+                                job : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
+                                contents : 'WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education. Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.\n\n'
+                                           +'Her current research interests include arts education, cultural diversity, international cultural relations, and cultural policy. Shin’s articles have published in Journal of Arts Management, Law, and Society, Journal of Cultural Policy, Korean Journal of Culture and Arts Education Studies, and more.',
                                 download : false,
                                 downlink : '',
                             }
@@ -3196,102 +3229,109 @@ export const langen = {
                 ]
             },
             g : {
-                title : '세션 7',
-                subject : '다양성 & 문화적 묘사',
-                time : '05.26(수) 15:15~16:55',
-                video_text : '예술교육을 통해 사회에서 소외된 주체들을 드러내고 이들의 목소리를 발굴하며, 이 과정을 통해 사회를 더욱 다양하고 포용적인 공동체로 이루는 과정을 모색합니다.',
+                title : 'Session 7',
+                subject : 'Diversity & Cultural Representation',
+                time : '26 MAY, 15:10-16:40',
+                video_text : 'Through art education, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
                 download : false,
                 chatlink : '1009',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "위기의 시기 속의 예술: 불평등 사례",
+                        li_title : "Arts in time of crisis: The case of inequality",
                         li_data : [
                             {
                                 imgs : session_img_31,
-                                name : '루스 렌슬러 ',
-                                enname : '(Ruth Rentschler)',
-                                job : '- 사우스오스트레일리아대학교 교수, 호주',
-                                contents : '루스 렌슬러(멜버른 혼즈  대학교 학사, 모내쉬 대학교 박사 취득)교수는 사우스오스트레일리아 주 대학교 경영 학교에서 근무하고 있다. 그녀는 예술과 문화의 맥락에서 경영학자, 연구자로서 국제적 인지도를 발전시키면서 우수한 국내 및 국제 보조금, 우수한 저널 출판물, 그리고 국내외 연구팀을 이끌면서 연구 우수성을 입증함과 동시에 국제적인 커리어를 쌓아나가고 있다.\n\n그녀는 오스트레일리아 댄스 시어터(Australian Dance Theatre) 현대 무용단의 이사회 부의장이자 장애 연극 위원회 의장을 맡고 있다. 루스는 예술 분야의 다양성과 사회적 참여에 초점을 맞춘 서적, 우수한 저널 기사(예: 기업윤리 저널(Journal of Business Ethics), 경영 연구 저널(Journal of Business Research), 브리티쉬 경영 저널(British Journal of Management))와 산업 연구 보고서를 국내외에 발표했다. 그녀는 지역사회에 봉사하는 부총장상, 최우수 박사 감독상, 커팅 레드 테이프상과 교육, 예술, 지역사회에 봉사하는 호주 훈장 등 다양한 영예와 상을 받았다.',
+                                name : 'Ruth Rentschler ',
+                                enname : '',
+                                job : '- Professor, University of South Australia Business School, Australia',
+                                contents : 'Professor Ruth Rentschler OAM (BA Hons Melbourne; PhD Monash) is located in UniSA Business, University of South Australia. She is a management scholar in the context of arts and culture, with a history of research excellence demonstrated by her quality national and international grants, quality journal publications and leading of national and international research team, while developing an international profile as a researcher. She is Deputy Chair of the board of Australian Dance Theatre and Chair of the Board of No Strings Attached, Theatre of Disability.\n\n'
+                                           +'She has published books, quality journal articles (e.g., Journal of Business Ethics; Journal of Business Research; British Journal of Management) and industry research reports nationally and internationally, with a focus on diversity and social inclusion in the context of the arts. She has received various honours and awards, such as Vice-Chancellor’s Award for Service to the Community, Best Doctoral Supervisor Award, Cutting Red Tape Award, and an Order of Australia for services to education, the arts and the community.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/UNITWIN_symposium_S_Korea25_26_May_2021slides.pptx',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "LGBTQ 역사 사례를 만드는 박물관들",
+                        li_title : "Museums Making A Case for LGBTQ History",
                         li_data : [
                             {
                                 imgs : session_img_32,
-                                name : '심지영',
+                                name : 'Ji-young Shim',
                                 enname : '',
-                                job : '- 홍익대학교 조교수, 한국',
-                                contents : '심지영 박사는 현재 홍익대학교 미술교육학과의 교수로 재직 중이며 국제미술교육학회, 한국문화교육학회, 한국관광학회(외식분과) 등의 이사직을 역임하고 있다. 펜실베니아주립대학교에서 박사학위, 뉴욕 컬럼비아 대학교에서 석사학위, 이화여자대학교 학사·석사학위를 취득하였다. 국내외에서 수석큐레이터, 문화예술교육자로 활동하였고 주요 분야로는 박물관·미술관의 사회문화적 맥락과 지역적 요인에 따른 논쟁적 예술 및 전시와 소통전략, 소외 계층을 위한 예술과 교육의 통합적 접근법 등 다양한 교육과 연구활동을 수행하고 있다.',
+                                job : '- Assistant professor, Hongik University, Republic of Korea',
+                                contents : 'Dr. Ji-young Shim is presently working as Assistant Professor, Dept. of Art Education, Hongik University, Seoul, South Korea. She has served as an executive member of the Korea Society for Culture and Arts Education Studies, Korean Society for Education through Art, the Tourism Science Society of Korea, and so on. She has working experience of with various art institutions as Chief Curator, Chief Manager, and Educator. She earned her B.A. in Art History, B.F.A. and M.F.A. in Western Painting at Ewha Womans University, M.A. in Arts Administration at Columbia University, and Ph.D. at the Pennsylvania State University.\n\n'
+                                           +'Dr. Shim’s research interests include public pedagogy through radical modern art, and controversial visual culture associated with manipulatively constructed concept of freedom of expression in relation to sociology of knowledge and censorship. She has also offered locked-in art world broader perspectives based on revisited dialectic and critical thinking.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/Shim_Museums_Making_A_Case_for_LGBTQ_History_PresentationMaterial.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "남한 청소년과 탈북 청소년의 공존을 위한 지역사회 기반 미술 프로젝트의 현상학적 연구",
+                        li_title : "A Phenomenological Study of Community-based Art Project for the Coexistence between South Korean Youth and Young North Korean Defectors",
                         li_data : [
                             {
                                 imgs : session_img_33,
-                                name : '김유리',
+                                name : 'Yuri Kim',
                                 enname : '',
-                                job : '- 이화여자대학교 박사과정, 한국',
-                                contents : '김유리는 이화여자대학교 조형예술대학 융합미술치료학 전공 박사과정생이다. 10년 이상의 아동 미술 교육 경력이 있다. 예술교육가로 활동하다가 예술의 치유적 힘에 대한 믿음으로 미술치료사가 되었다. 미술치료 활동 분야로는, 남한청소년과 탈북청소년의 공존을 위한 미술치료 프로젝트, 한국문화예술교육진흥원에서 일반 시민을 대상으로 한 문화예술치유 프로젝트, 보육원에서 자란 청년들을 위한 미술치료 프로젝트, 다문화 가정 및 한부모 가정 아동을 위한 미술치료 등이 있다. 관심분야로는 미술치료에서 다문화주의, 사회행동, 트라우마가 있다.',
-                                download : true,
+                                job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
+                                contents : 'Yuri Kim is a Ph.D. student for integrated art therapy at Ewha Womans University. Her work is based on ten years of experience teaching art to children.\n\n'
+                                          +'While working as an arts educator, she became an art therapist with certainty in the therapeutic potential of art. Art therapy activities include art therapy projects for the coexistence of South Korean youth and North Korean defectors, culture and arts therapy projects for the general public at the Korean Culture and Arts Education Promotion Agency, art therapy projects for youth raised in children’s homes, multicultural families, and art therapy for children from single-parent families. Her research interests include multiculturalism, social action, and trauma in art therapy.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
-                                imgs : session_img_33,
-                                name : '박소정',
+                                imgs : session_img_34,
+                                name : 'Sojung Park',
                                 enname : '',
-                                job : '- 이화여자대학교 조교수, 한국',
-                                contents : '박소정 박사는 이화여자대학교 교육대학원 미술치료교육전공의 조교수로, 조형예술대학 박사과정 융합미술치료학 전공의 겸임교원으로도 재직 중이다. 박소정 교수는 미국미술치료학회 공인미술치료사이자 미국 뉴욕 주정부 공인 예술치료사이며, 미국의 The School of Visual Arts에서 미술치료 석사 학위를, Lesley University에서 표현예술치료로 박사학위를 수여했다.\n\n정신질환 및 중독이 있는 청소년 및 성인을 중심으로 폭넓은 임상 경험을 가진 박소정 교수의 관심 연구 분야로는 미술치료에서 다문화주의, 정신병리, 예술기반 연구 및 지역사회를 위한 사회행동적 미술치료가 있다. 박소정 교수는 2020년 미국미술치료학회의 Pearlie Roberson Scholarship Award의 수상자이며, 미국미술치료학회지의 Editorial board member이자 Multicultural Committee member로 활발히 활동 중이다.',
-                                download : true,
+                                job : "- Assistant professor, Ewha Woman's University, Republic of Korea",
+                                contents : "Sojung Park, Ph.D., ATR-BC, LCAT, is an assistant professor in the Graduate School of Education, Art Therapy Major, at the Ewha Womans University in Seoul, Korea. Dr. Park earned her master's degree in art therapy at the School of Visual Arts in New York, NY, and the doctorate in Expressive Therapies at Lesley University, Cambridge, MA. She has years of experience working with individuals with mental illnesses and addiction in the United States. Upon moving to Korea, Dr. Park has dedicated herself to teaching and training future art therapists. As a researcher Dr. Park has explored multiculturalism, psychiatric and/or addiction, and community-based practice and social action within art therapy, from both qualitative and art-based research paradigms.\n\n"
+                                          +'She received the 2020 Pearlie Roberson Scholarship Award from the American Art Therapy Association, for her research project which targets multicultural aspects and capacities of art therapy. Dr. Park is an active member of the editorial board for the Journal of the American Art Therapy Association and the multicultural committee of the American Art Therapy Association.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "침묵의 단계: 캐나다 엘 시스테마(El Sistema)가 코로나에 응답하다",
+                        li_title : "Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic",
                         li_data : [
                             {
                                 imgs : session_img_34,
-                                name : '션 코코란 ',
-                                enname : '(Sean Corcoran)',
-                                job : '- 퀸즈대학교 박사과정 , 캐나다',
-                                contents : '션은 퀸즈대학교 박사과정 학생으로 즉흥연주와 음악교육, 모든 학생들이 의미 있는 예술 실습을 할 수 있는 기회 창출하는 것에 관심이 많다. 예술가로서 션은 연결의 본질을 탐구하며 여기에는 연주자들, 관객들, 그리고 배경이 있다. 최근, 션은 알론조 킹과 LINES 발레단, 리도 피미엔타와 블라디미르 게레로 주니어의 작품에서 영감을 받았다.',
-                                download : true,
+                                name : 'Sean Corcoran',
+                                enname : '',
+                                job : '- Ph.D. candidate, Queen’s University, Canada',
+                                contents : 'Sean is a PhD student at Queen’s University who is interested in improvisation, music education, and creating opportunity for all students to engage in meaningful art practices. As an artist, Sean explores the nature of connection: among performers, to audience, and to setting. Recently, Sean has been inspired by the works of Alonzo King and the LINES ballet company, Lido Pimienta, and Vladimir Guerrero Jr.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             },
                             {
                                 imgs : session_img_15,
-                                name : '벤자민 볼든 ',
-                                enname : '(Sean Corcoran)',
-                                job : '- 퀸즈대학교 박사과정 , 캐나다',
-                                contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
-                                download : true,
+                                name : 'Benjamin Bolden',
+                                enname : '',
+                                job : "- Associate Professor, Queen's University, Canada",
+                                contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning.\n\n'
+                                          +'His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan.\n\n'
+                                          +'Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : session_img_17,
-                                name : '치후 룸 ',
-                                enname : '(Chee-Hoo Lum)',
-                                job : '- 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE) 음악교육학과 부교수, 한국',
-                                contents : '그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다. 그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발 전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다.',
+                                name : 'Chee-Hoo Lum',
+                                enname : '',
+                                job : '- Associate Professor,Nanyang Technological University, Singapore',
+                                contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                          +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.',
                                 download : false,
                                 downlink : '',
                             }
@@ -3300,99 +3340,103 @@ export const langen = {
                 ]
             },
             h : {
-                title : '세션 8',
-                subject : '현장사례연구 2',
-                time : '05.26(수) 17:05~18:25',
-                video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
+                title : 'Session 8',
+                subject : 'Arts and Education in the Field 2',
+                time : '26 MAY, 16:40-18:25',
+                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1010',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "펜데믹 시기의 학교 수업계획 시 사회 예술과 문화 교육의 기회와 도전",
+                        li_title : "A Practice of Inclusive Arts Education: Focusing on a Case Study of Climate Crisis Class by Chaeknuna Project",
                         li_data : [
                             {
                                 imgs : session_img_36,
-                                name : '장수혜',
+                                name : 'Soohye Jang ',
                                 enname : '',
-                                job : '- 책누나프로젝트 대표, 한국',
-                                contents : "장수혜는 비영리 독서 및 문화예술교육단체, '책누나프로젝트'의 대표이자 공연예술 분야 독립프로듀서, 연구자이다. 2013년부터 전국의 봉사자 및 예술가들과 함께 도서관, 학교, 사회복지기관 등에서 동화책을 활용한 포용적이고 창의적인 사회문화예술수업을 운영해왔다. 시애틀대학교 예술리더십 석사를 졸업했으며 현재 홍익대학교 문화예술경영학 박사과정에 재학중이다.",
-                                download : true,
+                                job : '- Founding Director, Chaeknuna Project, Republic of Korea',
+                                contents : "Soohye Jang is a founding director of Chaeknuna Project, a nonprofit organization for book and arts education, an independent performing arts producer, and a researcher based in Seoul, Korea. Since 2013, she has been creating inclusive and creative classes using picture books in libraries, schools, and social welfare centers along with a group of volunteers and teaching artists across the country.\n\n"
+                                           +'She earned her MFA in Arts Leadership at Seattle University and is a current Ph.D. candidate of Culture and Arts Management at Hongik University.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "뉴 노멀 청소년에게 그림책으로 질문던지기",
+                        li_title : "Asking questions to youth with picture books who are living in new-normal days",
                         li_data : [
                             {
                                 imgs : session_img_37,
-                                name : '공윤지',
+                                name : 'Yunji Gong',
                                 enname : '',
-                                job : '- 프리랜서 문화예술교육사, 한국',
-                                contents : "공윤지는 문화예술교육 현장에서 학습자와 교육자 간의 소통과 교감에 의해 완성되는 소셜 인터랙션 과정에 관심이 있다. 문화예술교육사로서 메이커 문화와 그림책 기반 인문예술교육을 하고 있으며, 창작 그림책 작업을 병행하고 있다. 한국예술종합학교에서 인터랙션 디자인을 전공하고, 그림책상상 그림책학교에서 글 없는 그림책을 공부했다. 2009년부터 국립극장, 서울문화재단, 한국콘텐츠진흥원, 한국문화예술교육진흥원, 서울디자인재단 등에서 교육과 연구를 이어오고 있다.",
+                                job : '- Freelance Teaching Artist, Republic of Korea',
+                                contents : 'Yunji Gong is interested in the social interaction process between learners and Teaching Artist in the arts education field. As a teaching artist, she provides humanities and arts education based on Maker Mindset and Picturebooks. She is also a picturebook artist herself. She majored in Interaction Design at the Korea National University of Arts, and studied Wordless Picturebooks at Picturebook Imagination(<a href="http://www.imagination.kr/" target="_blank">www.imagination.kr/</a>). Since 2009, she has been carrying out art education and educational research at the National Theater, Seoul Foundation for Arts and Culture, Korea Creative Content Agency, Korea Arts and Culture Education Service, and Seoul Design Foundation.\n\n'
+                                          +"She has also created a book called, <The Hummingbird Has Spoken>, a Global Citizenship Education (GCE)  picturebook based on Wangari Matai's fable to promote environmental sensitivity. Currently, this book has been uploaded to the Let's Read e-book library of the Asian Foundation(letsreadasia.org) and offers free English and Bahasa Indonesian versions.",
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/공윤지_뉴노멀_청소년에게_그림책으로_질문_던지기.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "아이 코브 유",
+                        li_title : "I Cov You",
                         li_data : [
                             {
                                 imgs : session_img_38,
-                                name : '이현정',
+                                name : 'Hyunjung Lee ',
                                 enname : '',
-                                job : '- 지아정원 대표/이화여자대학교 박사과정, 한국',
-                                contents : "Art & Culture Community 지아정원 대표. 예술교육, 예술치유 기획자이자 TA, 미술치료사로 활동하고 있다. 공적 환경 개선을 위한 예술의 교육적 치유적 접근을 지역사회에서 실천하고 있다. 이화여자대학교 조형예술대학 융합미술치료학 전공 박사과정에 재학중이며, 예술의 풍요로움을 삶에 전하고 삶의 깊이와 성찰을 예술로 표현하는 예술과 삶의 고리를 만들어 내는 융합미술치료학 연구에 관심이 있다.",
-                                download : true,
+                                job : "- Director, Art & Culture Community G.A.Garden / Ph.D. candidate, Ewha Woman's University, Republic of Korea",
+                                contents : "The Director of Art & Culture Community GAGarden. She is an teaching artist, art therapist, and researcher. She takes an educational and therapeutic approach of art to improving the public space in the community. She is a doctoral student of intergrated art therapy at Ewha Womans University, and wants to create a link between art and life to convey the richness of art to life and to express the depth and reflection of life as art.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "위기 속에서 탄생한 새로운 예술교육 장르 소개",
+                        li_title : "Introducing a new genre of art education born in crisis",
                         li_data : [
                             {
                                 imgs : session_img_39,
-                                name : '배성종',
+                                name : 'Sungjong Bae ',
                                 enname : '',
-                                job : '- 예술강사, 한국',
-                                contents : "그가 어릴 적 꽤 오랫동안 그려왔던 꿈은 만화가였다. 머릿속에 떠오르는 장면과 이야기를 하얀색 종이에 펼쳐놓고 한참을 들여다볼 때가 가장 행복했다. 그리고 성인 된 후 연극을 전공하게 되면서 그는 긴 시간을 상상 속에서 살았다. 그러던 그가 현실과 마주하면서 다채로웠던 자아는 작아지고 무채색처럼 단순한 삶도 경험한다. 지금은 학교에서 과거의 알록달록했던 자신을 꺼내 아이들에게 호기심과 상상이라는 색을 소개하고 함께 그려보자 권하는 일을 하고 있다. 그는 앞으로도 다양한 모습을 한 예술이라는 친구와 함께하고 싶어 한다.",
-                                download : true,
+                                job : '- Teaching Artist, Republic of Korea',
+                                contents : "The dream he had been drawing for quite a while as a child was a cartoonist. He was happiest when he laid out the scenes and stories that came to mind on white paper and looked into it for a long time. And after becoming an adult, he went on to major in theater, and he lived a long time in my imagination. Then, as he faces reality, his colorful ego becomes smaller and he experiences a simple life like achromatic.\n\n"
+                                           +'He is now working at school to take out himself from the past, introduce the colors of curiosity and imagination to children, and encourage them to draw them together. In the future, he wants to be with a friend called art who has various appearances.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "과도기를 이어주다: 예술교육이 성인으로 가기 전의 아이들을 어떻게 이끌어 주는가",
+                        li_title : "Bridge the transition: How art education can help youths in transition to adulthood",
                         li_data : [
                             {
                                 imgs : session_img_40,
-                                name : '최영희',
+                                name : 'Younghee Choi',
                                 enname : '',
-                                job : '- 한국문화예술교육진흥원 미래교육팀 팀장, 한국',
-                                contents : "다양한 사람들과 예술교육의 가치를 공유하고 싶어 하는 사람이다. 현재 한국문화예술교육진흥원에서 동료들과 함께 문화예술교육 현장을 지원하고, 다양한 시도를 하고 있다.",
-                                download : true,
+                                job : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
+                                contents : "Younghee Choi is the person who wants to share the value of art education with others. Currently, Younghee supports cultural and art education sites with his colleagues at the Korea Arts & Culture Education Service and try to make various attempts.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
                     },
                     {
-                        moder : '[모더레이터]',
+                        moder : '[Moderator]',
                         li_title : "",
                         li_data : [
                             {
                                 imgs : byob_img_02,
-                                name : '홍유진',
+                                name : 'Yujin Hong',
                                 enname : '',
-                                job : '- 한국문화예술교육진흥원 교육기반본부 본부장, 한국',
-                                contents : '홍유진은 문화체육관광부 산하 한국문화예술교육진흥원(KACES)에서 문화예술교육 정책 연구 및 조사분석, 정책 및 기관 전략 수립 등의 업무를 추진해왔다. 이화여자대학교에서 사회학(문화사회학)을 전공하고 박사학위를 받았고, 한국콘텐츠진흥원(KOCCA)에서 문화콘텐츠산업 정책에 관한 다양한 프로젝트를 진행했다. 현재 KACES의 교육기반본부장으로 문화예술교육 관련 연구, 연수, 국제협력 등을 총괄하며, 온라인 문화예술교육 추진단TF 팀장을 겸하고 있다.',
+                                job : '- Director of Educational Resources Division, Korea Arts & Culture Education Service, Republic of Korea',
+                                contents : 'YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience.\n\n'
+                                            +'Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES.',
                                 download : false,
                                 downlink : '',
                             }
@@ -3638,14 +3682,14 @@ export const langen = {
             },
             {
                 imgs : byob_img_02,
-                name : "Yujin Hong",
+                name : "Yujin Hong ",
                 jop : "- Chairman, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea",
                 discripton : "YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience. Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES."
             },
             {
                 imgs : byob_img_03,
-                name : "WoongJo Chang",
-                jop : "- Associate Professor, Hongik University,\nRepublic of Korea",
+                name : "WoongJo Chang ",
+                jop : "- Associate Professor, Hongik University, Republic of Korea",
                 discripton : "WoongJo Chang, Ph.D., is Associate Professor in the Department of Arts and Cultural Management in Hongik University, Seoul, Korea. Before coming to Hongik University, he taught in the Arts Leadership Program in Seattle University in the state of Washington, USA. He studied performing arts at Seoul National University and earned a Ph.D. in Cultural Policy and Arts Administration from the Ohio State University. His research is focused on small arts organizations’ entrepreneurial practices and how to support them. His recent works have appeared in books and journals, such as in Arts and Cultural Management: Critical and Primary Sources, International Jounrnal of Cultural Policy and the Journal of Arts Management, and Law and Society, of which he is currently serving as a consulting editor. Chang is also a co-chair of scientific committee of Korean Society of Arts and Cultural Management."
             },
         ]
@@ -3653,10 +3697,10 @@ export const langen = {
 
         // 폐회세션 
         closing : {
-            title : '폐회세션',
-            time : '05.26(수) 18:25~19:25',
-            video_text : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
-            download : true,
+            title : 'Closing Ceremony',
+            time : '26 MAY, 18:25-19:25',
+            video_text : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
+            download : false,
             chatlink : '1012',
             youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
             downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
@@ -3664,107 +3708,80 @@ export const langen = {
                 {
                     img : closing_img_01,
                     moder : '',
-                    name : '박신의',
+                    name : 'Shin-Eui Park',
                     en_name : '',
-                    li_title : '- 제4회 유네스코 유니트윈 국제 학술대회 조직위원회 위원장 / 경희대학교 교수, 한국',
-                    li_contents : "박신의는 경희대학교 경영대학원 문화예술경영학과 교수이고, 한국문화예술교육진흥원 이사장이다. 주요 연구 주제는 '예술의 사회적 영향', '예술치유', '예술기업가정신', '박물관 경영', '문화정책' 등이다."
+                    li_title : '- Chairperson, Korea Arts & Culture Education Service, Republic of Korea',
+                    li_contents : 'Shin-Eui Park is a professor of Arts and Cultural Management at Kyunghee University, Graduate School of Business, and chairman of the Korea Arts and Culture Education Service. Her major research topics include "Social Impact of the Arts", "Arts for Healing", "Arts Entrepreneurship", "Museum Management" and "Cultural Policy".'
                 },
                 {
                     img : closing_img_02,
                     moder : '',
-                    name : '홍유진',
+                    name : 'Yujin Hong',
                     en_name : '',
-                    li_title : '- 한국문화예술교육진흥원 교육기반본부 본부장, 한국',
-                    li_contents : '홍유진은 문화체육관광부 산하 한국문화예술교육진흥원(KACES)에서 문화예술교육 정책 연구 및 조사분석, 정책 및 기관 전략 수립 등의 업무를 추진해왔다. 이화여자대학교에서 사회학(문화사회학)을 전공하고 박사학위를 받았고, 한국콘텐츠진흥원(KOCCA)에서 문화콘텐츠산업 정책에 관한 다양한 프로젝트를 진행했다. 현재 KACES의 교육기반본부장으로 문화예술교육 관련 연구, 연수, 국제협력 등을 총괄하며, 온라인 문화예술교육 추진단TF 팀장을 겸하고 있다.'
+                    li_title : '- Director of educational resources division, Korea Arts & Culture Education Service, Republic of Korea',
+                    li_contents : 'YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience.\n\n'
+                                +'Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES.'
                 },
                 {
                     img : closing_img_03,
                     moder : '',
-                    name : '김인설',
+                    name : 'InSul Kim',
                     en_name : '',
-                    li_title : '- 가톨릭대학교 부교수, 한국',
-                    li_contents : '가톨릭대학교 공연예술문화학과 교수. 예술을 통해 사회 문제를 새롭게 해석하고 이를 통해 사회가 긍정적인 방향으로 발전될 수 있는 주제들을 연구한다. 문화정책과 거버넌스, 예술경영, 예술교육, 예술치유, 문화기술, 문화 복지 등 예술을 통해 창출할 수 있는 사회자본 및 예술의 사회적 역할과 가치가 주요 관심사이다. 문화정책과 예술경영, 문화예술교육분야 등 다수의 국내외 학술지에서 편집위원으로 활동하고 있으며 한국연구재단, 한국문화예술위원회, 한국문화예술교육진흥원, 문화체육관광부 등에서 국책연구와 자문을 수행해 왔다.'
+                    li_title : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
+                    li_contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
+                                  +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.'
                 },
                 {
                     img : closing_img_04,
                     moder : '',
-                    name : '신혜선',
+                    name : 'Hyesun Shin ',
                     en_name : '',
-                    li_title : '- 위컬쳐 리서치&컨설팅 대표, 한국',
-                    li_contents : '현재 위컬처 리서치 앤 컨설팅의 대표이자 경희대학교 경영대학원 문화예술경영학과 강사로 활동 중이다. 문화예술교육, 국제문화교류, 문화정책, 예술경영을 중심으로 연구 및 강의하고 있다. 미국 오하이오주립대학교 문화정책·예술경영 전공으로 박사학위를 취득한 후, 숙명여자대학교 다문화통합연구소 책임연구원으로 재직하였다. 우리 삶 속의 예술과 예술활동에 참여하는 것이 인간 사이에 그리고 사회 간 관계에 어떠한 기여와 영향을 가지고 오는지에 대해 관심을 가지고 탐색하고 있다. ⸢문화예술교육 자원과 협력관계⸥를 공동저술하였으며, Journal of Arts Management, Law, and Society, 문화정책논총, 예술경영연구 등에 논문을 게재하였다.'
-                },
-                {
-                    img : closing_img_05,
-                    moder : '',
-                    name : '벤자민 볼든 ',
-                    en_name : '(Benjamin Bolden)',
-                    li_title : '- 퀸즈대학교 부교수, 캐나다',
-                    li_contents : '음악 교육자이자 작곡가인 벤자민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤자민의 연구 관심사는 예술 교육, 음악 교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.'          
-                },
-                {
-                    img : closing_img_06,
-                    moder : '',
-                    name : '네릴 제너렛 ',
-                    en_name : '(Neryl Jeanneret)',
-                    li_title : '- 멜버른 교육대학원, 유네스코 예술연구소 부교수, 호주',
-                    li_contents : '네릴 제네렛(Neryl Jenneret)은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.'
+                    li_title : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
+                    li_contents : 'WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education. Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.\n\n'
+                                  +'Her current research interests include arts education, cultural diversity, international cultural relations, and cultural policy. Shin’s articles have published in Journal of Arts Management, Law, and Society, Journal of Cultural Policy, Korean Journal of Culture and Arts Education Studies, and more.'
                 },
                 {
                     img : session_img_44,
                     moder : '',
-                    name : '시프라 스콘만 ',
-                    en_name : '(Shifra Schonmann)',
-                    li_title : '- 하이파대학교 명예교수, 이스라엘',
-                    li_contents : '시프라 스콘만은 이스라엘 하이파 대학교에서 바-넷저 의장의 청년들을 위한 극장, 사회, 교육의 소유주이자 명예교수이다'
-                },
-                {
-                    img : closing_img_08,
-                    moder : '',
-                    name : '치후 룸 ',
-                    en_name : '(Chee-Hoo Lum)',
-                    li_title : '- 국립교육원 부교수, 싱가포르',
-                    li_contents : '치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다. 그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다.'
+                    name : 'Shifra Schonmann',
+                    en_name : '',
+                    li_title : '- Professor Emerita, University of Haifa, Israel',
+                    li_contents : 'Shifra Schonmann is Professor Emerita, holder of Bar-Netzer Chair of Education, Society and Theatre for Young People at the University of Haifa, Israel'
                 },
                 {
                     img : closing_img_09,
                     moder : '',
-                    name : '보와 렁 ',
-                    en_name : '(Bo-Wah Leung)',
-                    li_title : '- 홍콩 교육 대학교 교수, 홍콩',
-                    li_contents : '보와 렁 교수는 현재 홍콩 교육대학교(EdUHK)에서 문화창조예술학과 교수이자 광동오페라방송연구센터장을 맡고 있다. 그는 "초등 및 중등 학교에서 광둥 오페라 교육에 관한 공동 프로젝트"라는 제목의 연구 프로젝트를 주도한 공로로 2011년 국제음악위원회(International Music Council)에서 유명한 음악적 권리상(Musical Rights Award)을 수상했으며, 2012년 홍콩 교육대학원(HKIEd)로부터 지식전수상(Knowledge Transfer Award)을 받았다. 렁 교수는 현재 국제음악교육학회(ISME) 회장 당선자이자 아시아-태평양 음악교육연구회(APSMER)의 의장, 중국 동북사범대학, 광저우 대학교, 화남 사범대학의 음악학과 겸임교수이며  아시아-태평양 예술교육저널의 편집장을 맡고있다.'
-                },
-                {
-                    img : closing_img_10,
-                    moder : '',
-                    name : '메이-춘 린 ',
-                    en_name : '(Mei-Chun Lin)',
-                    li_title : '- 미정',
-                    li_contents : '미정'
+                    name : 'Bo-Wah Leung',
+                    en_name : '',
+                    li_title : '- Professor, The Education University of Hong Kong, Hong Kong',
+                    li_contents : 'Professor Bo-Wah LEUNG is currently Professor of Cultural and Creative Arts and Director of Research Centre for Transmission of Cantonese Opera at The Education University of Hong Kong (EdUHK). He received the prestigious Musical Rights Award from the International Music Council in 2011 as well as the Knowledge Transfer Award from the HKIEd in 2012 for his leadership in a research project entitled “Collaborative Project on Teaching Cantonese Opera in Primary and Secondary Schools”.\n\n'
+                                  +'Professor Leung is currently President-Elect of International Society for Music Education (ISME), Chair of Board of Asia-Pacific Symposium for Music Education Research (APSMER), Adjunct Professor of Music at the Northeast Normal University, Guangzhou University, and South China Normal University, China, and Chief Editor of Asia-Pacific Journal for Arts Education.'
                 },
                 {
                     img : closing_img_11,
                     moder : '',
-                    name : '에밀리 어챙 아쿠노 ',
-                    en_name : '(Emily Achieng’ Akuno)',
-                    li_title : '- 케냐 대학교 음악과 교수, 케냐',
-                    li_contents : '케냐 출신의 에밀리 어챙 아쿠노 교수는 음악 연주자이자 교육자로 케냐, 미국, 영국에서 교육받았다. 그녀는 케냐와 남아프리카에서 음악 교육을 통해 문화적 관련성에 중점을 둔 연구를 수행했다. 현재 진행 중인 그녀의 연구는 케냐의 국립연구기금이 후원하는 프로젝트인 지역사회 발전을 위한 청년들에게 힘을 실어주기 위한 수단으로서의 창의성에 대한 연구다. 에밀리는 국제 음악 위원회(IMC)의 회장을 역임했으며, 현재 국제 음악 교육 협회(ISME)의 회장을 맡고 있다. 그녀가 집필한 책 중 하나는 『아프리카의 음악교육: 개념, 연습, 과정(2019)』이며, 이는 아프리카 학자들이 집필하고 라우트리지(Routlege) 출판사가 출판한 아프리카의 음악 교육에 관한 편집본이다.'
+                    name : 'Emily Achieng’ Akuno',
+                    en_name : '',
+                    li_title : '- Professor, University of Kenya, Kenya',
+                    li_contents : 'Emily Achieng’ Akuno from Kenya trained as a music performer-educator in Kenya, the USA and UK. She has worked in that capacity in Kenya and South Africa, with a research emphasis on cultural relevance in and through music education. Her ongoing research is a study of creativity as a means of empowering youth towards community development, a project funded by Kenya’s National Research Fund.\n\n'
+                                +'Emily is past President of the International Music Council (IMC) and currently serves as President of the International Society for Music Education (ISME). Her publications include Music Education in Africa: Concept, practice and processes (2019), an edited book on the teaching of music in Africa authored by African scholars and published by Routledge.'
                 },
                 {
                     img : closing_img_12,
                     moder : '',
-                    name : '랄프 벅 ',
-                    en_name : '(Ralph Buck)',
-                    li_title : '- 부교수, 뉴질랜드',
-                    li_contents : '랄프 벅(박사) 부교수는 뉴질랜드 오클랜드 대학교의 무용학부 학과장이다. 그의 연구와 교육은 무용교육 커리큘럼, 무용 교육학, 그리고 생활무용에 초점을 맞추고 있다. 랄프는 유네스코 무용 및 사회 포용(Dance and Social Inclusion)의장직을 맡고 있으며, 현재 세계예술교육연합(WAAE)과 같은 몇몇 국제무용연구 및 서비스 기관에서 활동하고 있다.\n\n'
-                                + '랄프의 교육과 리더십은 오클랜드 대학교 특별 교육 시상식에서 2008년 오클랜드 대학교 우수 교수상, 2010년 리더십상, 2006년 기회균등 우수상, 2016년 창의적인 예술 및 산업 연구 우수상 등을 수상하면서 인정받았다. 랄프는 노스웨스트사범대학 객원교수직과 베이징무용아카데미를 포함한 여러 국제 학술에 활동을 하고 있다. 그의 무용 교육 연구는 국제 학술지에 게재되었으며 중국, 호주, 콜롬비아, 스웨덴, 핀란드, 싱가포르, 덴마크, 뉴질랜드, 피지에서 초청 기조 연설과 마스터 클래스를 진행했다.'
+                    name : 'Ralph Buck  ',
+                    en_name : '',
+                    li_title : '- Associate Professor / Head of Department, University of Auckland',
+                    li_contents : 'Associate Professor Ralph Buck (PhD) is Head of Dance Studies, and Associate Dean International, University of Auckland, New Zealand. His research and teaching focuses on dance education curriculum, dance pedagogy and community dance. Ralph is the UNESCO Chair on Dance and Social Inclusion, and currently working within several international dance research and service organisations such as, World Alliance for Arts Education (WAAE). Ralph’s teaching and leadership has been recognised by The University of Auckland Distinguished Teaching Award, 2008; Award for Leadership, 2010; Excellence Award for Equal Opportunities 2006; and, Creative Arts and Industries Research Excellence Award, 2016.\n\n'
+                                  +'Ralph has several international academic appointments including Visiting Professorships at Northwest Normal University and Beijing Dance Academy. His research in dance education is published in international journals and he has delivered invited key notes and master classes in China, Australia, Columbia, Sweden, Finland, Singapore, Denmark, New Zealand and Fiji.'
                 },
                 {
                     img : closing_img_13,
-                    moder : '[사회자]',
-                    name : '장웅조',
+                    moder : '[Moderator]',
+                    name : 'WoongJo Chang ',
                     en_name : '',
-                    li_title : '- 홍익대학교 부교수, 한국',
-                    li_contents : '장웅조는 예술경영과 문화정책 연구를 해오며, 최근에는 예술리더십과 앙트러프러너십에 관련한 주제에 집중하고 있다. 서울대에서 중문학 학사와 공연예술학 석사를 마치고, 미국 오하이오 주립대학에서 예술정책 및 경영 전공으로 박사학위를 받았다. 이후 미국 시애틀대학교의 예술리더십 학과 교수를 거쳐 홍익대학교 문화예술경영학과 교수로 재직 중이다. 현재 Journal of Arts Management, Law, and Society, 예술경영연구, 문화경제, 문화정책논총 등의 편집위원이며 한국 문화예술경영학회의 학술위원장으로 활동하고 있다.'
+                    li_title : '- Associate Professor, Hongik University, Republic of Korea',
+                    li_contents : 'WoongJo Chang, Ph.D., is Associate Professor in the Department of Arts and Cultural Management in Hongik University, Seoul, Korea. Before coming to Hongik University, he taught in the Arts Leadership Program in Seattle University in the state of Washington, USA. He studied performing arts at Seoul National University and earned a Ph.D. in Cultural Policy and Arts Administration from the Ohio State University. His research is focused on small arts organizations’ entrepreneurial practices and how to support them. His recent works have appeared in books and journals, such as in Arts and Cultural Management: Critical and Primary Sources, International Jounrnal of Cultural Policy and the Journal of Arts Management, and Law and Society, of which he is currently serving as a consulting editor. Chang is also a co-chair of scientific committee of Korean Society of Arts and Cultural Management.'
                 }
             ]
         },
