@@ -311,7 +311,7 @@ const Se_Detail = ({match}) => {
                     <MChatArea>
                         <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
-                    <MChat src={M_chatlink} />
+                    <MChat ref={chatRef} src={M_chatlink} />
                 </MChatSection>
             </MWrapper>
         </>

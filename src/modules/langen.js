@@ -793,25 +793,25 @@ export const langen = {
         // 주제 세션 상세
         session_detail : {
             a : {
-                title : '세션 1',
-                subject : '현장사례연구 1',
-                time : '05.25(화) 13:40~15:00',
-                video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
+                title : 'Session 1',
+                subject : 'Arts and Education in the Field 1',
+                time : '25 MAY, 13:40-15:25',
+                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1003',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "극장은 '작은 지구'입니다",
+                        li_title : "The theater is ‘A Small Earth’",
                         li_data : [
                             {
                                 imgs : session_img_01,
-                                name : '정용성',
+                                name : 'YongSung Jung',
                                 enname : '',
-                                job : '- 국립극단 팀장, 한국',
-                                contents : '정용성은 국립극단 홍보마케팅팀장으로 근무중이다. 그는 이전에 LG아트센터, 샤롯데 씨어터, 명동예술극장에서 근무하였으며, 공연장에서 일한 경험은 그의 업무 범위를 확대하는데 큰 도움을 제공하였다. 현재 국립극단은 연극을 제작하는 예술단체이면서 3개의 공연장(명동예술극장, 백성희장민호극장, 소극장 판)을 운영하고 있기 때문에 그는 홍보와 마케팅뿐만 아니라 동시에 티켓(매표소)관리와 하우스매니지먼트 업무를 총괄하고 있다. 또한 그는 홍익대학교 문화예술경영대학원 박사과정에 재학중이다. 그는 관객개발, 공연마케팅, 재원조성 등에 관심을 갖고 있다.',
-                                download : true,
+                                job : '- Director, National Theater Company of Korea, Republic of Korea',
+                                contents : 'Yong Sung Jung is Director in PR & Marketing Division in National Theater Company of Korea, Korea. He has worked at LG Arts Center, Charlotte Theater, and Myeong-dong Theater before the National Theater Company. The experience of working in theaters has helped him expand his scope of work. The National Theater Company is an art organization that produces dramas and operates three theaters. (Myeong-dong Theater, Baek Seonghui & Jang Minho Theater, Theater Pan) So he is in charge of public relations and marketing, and at the same time in charge of managing the ticket office and house management. He is also studying in doctoral program in Department of Arts and Cultural Management at Hongik University, Korea. His research areas include the audience development, marketing for performing arts, and fundraising.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
@@ -819,46 +819,47 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "펜데믹 시기, 예술의 변화",
+                        li_title : "The Age of Pandemics, the Change of Art",
                         li_data : [
                             {
                                 imgs : session_img_02,
-                                name : '이은수',
+                                name : 'Eunsu Lee',
                                 enname : '',
-                                job : '- 국립현대미술관 주무관, 한국',
-                                contents : '국립현대미술관에서 약 15년간 근무하면서 작가와 작품 등 다양한 시각예술 콘텐츠를 관객을 중심으로 소통의 관점에서 바라보는 시야를 갖고 있다. 서울관 개관 이후 현재까지 기관내 독보적으로 고객서비스 전담 주무관으로 활동하며 관람객들에게 보다 나은 문화예술 경험을 제공하기 위해 다양한 프로그램을 기획 · 운영하였다. 미술관 접점의 고객지원 서비스 수준을 분석하여 전문성과 동시에 공공의 문화공간으로의 요구를 충족시키는 방향으로 서비스를 적극 개발하고 특정사업으로 육성하는 등 현장운영부터 서비스 기획까지 관리하는 총괄 직무를 담당하고 있다. 현재 홍익대학교에서 문화예술경영학 박사과정을 수학하고 있다.',
-                                download : true,
+                                job : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
+                                contents : 'While working at the National Museum of Modern and Contemporary Art for about 15 years, she has a view of various visual art contents, including artists and works, from the perspective of communication with the audience at the center. Since the opening of the Seoul Hall, it has been uniquely responsible for customer service within the institution and has planned and operated various programs to provide visitors with a better cultural and artistic experience.\n\n'
+                                         + 'She is in charge of managing on-site operations to service planning, such as analyzing the level of customer support services at art museum contacts, actively developing services to meet the needs of public cultural spaces, and fostering them into specific projects. She is currently studying for a Ph.D. in Culture, Arts and Management at Hongik University.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]   
                     },
                     {
                         moder : '',
-                        li_title : "지속가능한 예술생태계 구축을 통한 선제적 위기 대처: 성북 ‘예술순환로’프로젝트 사례 중심",
+                        li_title : "Proactive crisis response by establishing a sustainable art ecosystem: Focusing on the case of Seongbuk 'artsoonhwanro' project",
                         li_data : [
                             {
                                 imgs : session_img_03,
-                                name : '김소원',
+                                name : 'Sowon Kim',
                                 enname : '',
-                                job : '- 성북문화재단 학예연구사, 한국',
-                                contents : '김소원은 이화여대 서양미술사학과 석사 졸업 후 전시기획, 글쓰기, 연구 기반의 활동을 하고 있다. 현재 성북문화재단 학예연구사 재직하며 다양한 전시를 기획해 오고 있으며, 홍익대학교 대학원 문화예술경영학 박사 과정을 겸하고 있다. 문화예술계 종사자들과 지속적으로 소통하며 관심사들을 연구하고 그것들을 전시와 글로 실현시켜오고 있으며, 현재는 성북어린이미술관에서 어린이와 어른에 경계를 두지 않는 시의성 있는 주제의 전시들을 기획하고 있다.',
-                                download : true,
+                                job : '- Curator, Seongbuk Museum of Art, Republic of Korea',
+                                contents : "Sowon Kim has been engaged in exhibition planning, artistic writing, and research-based activities since graduating from Ewha Womans University's M.A of History of Art. Currently, she has been working as an curator at the Seongbuk Cultural Foundation and has been planning various exhibitions, as well as a Ph.D. in arts and cultural management at Hongik University. It has been continuously communicating with people in the arts field, studying interests, and realizing them in curating and writings. Currently, Seongbuk Children's Museum is planning exhibitions with timeless themes that are not bound to children and adults.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]   
                     },
                     {
                         moder : '',
-                        li_title : "수상한 식탁",
+                        li_title : "The Suspicious Dining Table",
                         li_data : [
                             {
                                 imgs : session_img_04,
-                                name : '김수연',
+                                name : 'Su-youn Kim',
                                 enname : '',
                                 job : '- 경성대학교 조교수, 한국',
                                 contents : '김수연은 대략 20여년이 조금 넘는 극 예술가와 예술교육 전문가의 경력을 가지고 있으며 현재 경성대학교 연극영화학부의 조교수로 재직 중이다. 주된 관심사는 어떻게 연극이 건강한 학교와 사회 만들기에 공헌할 수 있을까 이다.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/the_suspicious_dining_table_PPT.pptx',
                             }
                         ]   
                     },
@@ -2604,25 +2605,25 @@ export const langen = {
         // 주제 세션 상세
         session_detail : {
             a : {
-                title : '세션 1',
-                subject : '현장사례연구 1',
-                time : '05.25(화) 13:40~15:00',
-                video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
+                title : 'Session 1',
+                subject : 'Arts and Education in the Field 1',
+                time : '25 MAY, 13:40-15:25',
+                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1003',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
                         moder : '',
-                        li_title : "극장은 '작은 지구'입니다",
+                        li_title : "The theater is ‘A Small Earth’",
                         li_data : [
                             {
                                 imgs : session_img_01,
-                                name : '정용성',
+                                name : 'YongSung Jung',
                                 enname : '',
-                                job : '- 국립극단 팀장, 한국',
-                                contents : '정용성은 국립극단 홍보마케팅팀장으로 근무중이다. 그는 이전에 LG아트센터, 샤롯데 씨어터, 명동예술극장에서 근무하였으며, 공연장에서 일한 경험은 그의 업무 범위를 확대하는데 큰 도움을 제공하였다. 현재 국립극단은 연극을 제작하는 예술단체이면서 3개의 공연장(명동예술극장, 백성희장민호극장, 소극장 판)을 운영하고 있기 때문에 그는 홍보와 마케팅뿐만 아니라 동시에 티켓(매표소)관리와 하우스매니지먼트 업무를 총괄하고 있다. 또한 그는 홍익대학교 문화예술경영대학원 박사과정에 재학중이다. 그는 관객개발, 공연마케팅, 재원조성 등에 관심을 갖고 있다.',
-                                download : true,
+                                job : '- Director, National Theater Company of Korea, Republic of Korea',
+                                contents : 'Yong Sung Jung is Director in PR & Marketing Division in National Theater Company of Korea, Korea. He has worked at LG Arts Center, Charlotte Theater, and Myeong-dong Theater before the National Theater Company. The experience of working in theaters has helped him expand his scope of work. The National Theater Company is an art organization that produces dramas and operates three theaters. (Myeong-dong Theater, Baek Seonghui & Jang Minho Theater, Theater Pan) So he is in charge of public relations and marketing, and at the same time in charge of managing the ticket office and house management. He is also studying in doctoral program in Department of Arts and Cultural Management at Hongik University, Korea. His research areas include the audience development, marketing for performing arts, and fundraising.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]
@@ -2630,46 +2631,47 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "펜데믹 시기, 예술의 변화",
+                        li_title : "The Age of Pandemics, the Change of Art",
                         li_data : [
                             {
                                 imgs : session_img_02,
-                                name : '이은수',
+                                name : 'Eunsu Lee',
                                 enname : '',
-                                job : '- 국립현대미술관 주무관, 한국',
-                                contents : '국립현대미술관에서 약 15년간 근무하면서 작가와 작품 등 다양한 시각예술 콘텐츠를 관객을 중심으로 소통의 관점에서 바라보는 시야를 갖고 있다. 서울관 개관 이후 현재까지 기관내 독보적으로 고객서비스 전담 주무관으로 활동하며 관람객들에게 보다 나은 문화예술 경험을 제공하기 위해 다양한 프로그램을 기획 · 운영하였다. 미술관 접점의 고객지원 서비스 수준을 분석하여 전문성과 동시에 공공의 문화공간으로의 요구를 충족시키는 방향으로 서비스를 적극 개발하고 특정사업으로 육성하는 등 현장운영부터 서비스 기획까지 관리하는 총괄 직무를 담당하고 있다. 현재 홍익대학교에서 문화예술경영학 박사과정을 수학하고 있다.',
-                                download : true,
+                                job : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
+                                contents : 'While working at the National Museum of Modern and Contemporary Art for about 15 years, she has a view of various visual art contents, including artists and works, from the perspective of communication with the audience at the center. Since the opening of the Seoul Hall, it has been uniquely responsible for customer service within the institution and has planned and operated various programs to provide visitors with a better cultural and artistic experience.\n\n'
+                                         + 'She is in charge of managing on-site operations to service planning, such as analyzing the level of customer support services at art museum contacts, actively developing services to meet the needs of public cultural spaces, and fostering them into specific projects. She is currently studying for a Ph.D. in Culture, Arts and Management at Hongik University.',
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]   
                     },
                     {
                         moder : '',
-                        li_title : "지속가능한 예술생태계 구축을 통한 선제적 위기 대처: 성북 ‘예술순환로’프로젝트 사례 중심",
+                        li_title : "Proactive crisis response by establishing a sustainable art ecosystem: Focusing on the case of Seongbuk 'artsoonhwanro' project",
                         li_data : [
                             {
                                 imgs : session_img_03,
-                                name : '김소원',
+                                name : 'Sowon Kim',
                                 enname : '',
-                                job : '- 성북문화재단 학예연구사, 한국',
-                                contents : '김소원은 이화여대 서양미술사학과 석사 졸업 후 전시기획, 글쓰기, 연구 기반의 활동을 하고 있다. 현재 성북문화재단 학예연구사 재직하며 다양한 전시를 기획해 오고 있으며, 홍익대학교 대학원 문화예술경영학 박사 과정을 겸하고 있다. 문화예술계 종사자들과 지속적으로 소통하며 관심사들을 연구하고 그것들을 전시와 글로 실현시켜오고 있으며, 현재는 성북어린이미술관에서 어린이와 어른에 경계를 두지 않는 시의성 있는 주제의 전시들을 기획하고 있다.',
-                                download : true,
+                                job : '- Curator, Seongbuk Museum of Art, Republic of Korea',
+                                contents : "Sowon Kim has been engaged in exhibition planning, artistic writing, and research-based activities since graduating from Ewha Womans University's M.A of History of Art. Currently, she has been working as an curator at the Seongbuk Cultural Foundation and has been planning various exhibitions, as well as a Ph.D. in arts and cultural management at Hongik University. It has been continuously communicating with people in the arts field, studying interests, and realizing them in curating and writings. Currently, Seongbuk Children's Museum is planning exhibitions with timeless themes that are not bound to children and adults.",
+                                download : false,
                                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                             }
                         ]   
                     },
                     {
                         moder : '',
-                        li_title : "수상한 식탁",
+                        li_title : "The Suspicious Dining Table",
                         li_data : [
                             {
                                 imgs : session_img_04,
-                                name : '김수연',
+                                name : 'Su-youn Kim',
                                 enname : '',
                                 job : '- 경성대학교 조교수, 한국',
                                 contents : '김수연은 대략 20여년이 조금 넘는 극 예술가와 예술교육 전문가의 경력을 가지고 있으며 현재 경성대학교 연극영화학부의 조교수로 재직 중이다. 주된 관심사는 어떻게 연극이 건강한 학교와 사회 만들기에 공헌할 수 있을까 이다.',
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/the_suspicious_dining_table_PPT.pptx',
                             }
                         ]   
                     },

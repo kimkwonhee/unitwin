@@ -17,13 +17,16 @@ const Pl_Detail = ({match}) => {
         curlang : state.changlang.curlang
     }))
 
+    const chatPRef = useRef(null);
+    const chatMRef = useRef(null);
+
     useEffect(() => {
         window.scrollTo(0,0);
         const onScroll = () => {
             let scrollTop = document.documentElement.scrollTop
             if (scrollTop > chatDef.scroll) {
                 var result = chatDef.height - (scrollTop - chatDef.scroll)
-                chatRef.current.style.height = result + 'px'
+                chatPRef.current.style.height = result + 'px'
             }
         }
         // Chat Scroll
@@ -33,16 +36,20 @@ const Pl_Detail = ({match}) => {
 
     // 채팅 언어 변경
     useEffect(() => {
-        var frame = chatRef.current;
-        var current = frame.contentWindow || frame.contentDocument;
+        var Pframe = chatPRef.current;
+        var Mframe = chatMRef.current;
+        var Pcurrent = Pframe.contentWindow || Pframe.contentDocument;
+        var Mcurrent = Mframe.contentWindow || Mframe.contentDocument;
 
         setTimeout(() => {
             try {
-                current.app.lang = curlang.status
+                Pcurrent.app.lang = curlang.status
+                Mcurrent.app.lang = curlang.status
             } catch(err){
                 setTimeout(() => {
                     try {
-                        current.app.lang = curlang.status
+                        Pcurrent.app.lang = curlang.status
+                        Mcurrent.app.lang = curlang.status
                     } catch(err){}
                 }, 1000);
             };
@@ -70,7 +77,7 @@ const Pl_Detail = ({match}) => {
     let M_chatlink = null
     let M_download_link = null
 
-    const chatRef = useRef(null)
+    
     let chatDef = {
         scroll: 1150,
         height: 600
@@ -155,7 +162,7 @@ const Pl_Detail = ({match}) => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat ref={chatRef} src={P_chatlink} />
+                                <PChat ref={chatPRef} src={P_chatlink} />
                             </PRightArea>
                         </Affix>
                         
@@ -203,7 +210,7 @@ const Pl_Detail = ({match}) => {
                     <MChatArea>
                         <MChatText>{curlang.m_data.realchating}</MChatText>
                     </MChatArea>
-                    <MChat ref={chatRef} src={M_chatlink} />
+                    <MChat ref={chatMRef} src={M_chatlink} />
                 </MChatSection>
             </MWrapper>
         </>
