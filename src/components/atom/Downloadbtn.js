@@ -1,8 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
+import { useSelector } from 'react-redux'
 
 const Downloadbtn = ({className, down, children, downlink}) => {
+    
+    const { curlang } = useSelector(state => ({
+        curlang : state.changlang.curlang
+    }))
+
+    let langstatus = curlang.status
+
     return (
         <>
             <PWrapper
@@ -11,6 +19,7 @@ const Downloadbtn = ({className, down, children, downlink}) => {
                 href={downlink}
                 download
                 target="_blank"
+                status={langstatus}
             >
                 <PText>{children}</PText>
             </PWrapper>
@@ -21,8 +30,9 @@ const Downloadbtn = ({className, down, children, downlink}) => {
                 href={downlink}
                 download
                 target="_blank"
+                status={langstatus}
             >
-            <MText>{children}</MText>
+                <MText>{children}</MText>
             </MWrapper>
         </>
         
@@ -31,16 +41,12 @@ const Downloadbtn = ({className, down, children, downlink}) => {
 // PC
 const PWrapper = styled.a`
     cursor: pointer;
-    width : 146px;
+    width : ${props => (props.status === 'kr') ? '146px' : '220px'};
     height : 36px;
     display : ${props => props.down ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;
     background-color: ${color.turtle_green};
-    transition: .6s;
-    &:hover {
-        opacity: 0.8;
-    }
 
     @media all and (max-width:1199px) {
         display : none;
@@ -55,8 +61,6 @@ const PText = styled.div`
 // Mobile
 const MWrapper = styled.a`
     cursor: pointer;
-    width : 146px;
-    height : 36px;
     display : ${props => props.down ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;

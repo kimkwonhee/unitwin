@@ -83,7 +83,7 @@ export const langen = {
         videobtn : 'View >',
         realchating : 'Live chat',
         lecture : 'Lecture description',
-        classdownload : 'Download lecture',
+        classdownload : 'Download presentation file',
         zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage',
         move : 'Link > ',
@@ -103,11 +103,13 @@ export const langen = {
             img : home_title,
             subimg : home_subtitle,
             title : 'About',
-            time : '24~26 MAY, 2021',
+            time : '24 ~ 26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
             advance : 'APPLICATION',
-            contents : '- The 11th Anniversary of The Seoul Agenda: Goals for the Development of Arts Education\n\n'
-                     +'- The 10th Anniversary of International Arts Education Week',
+            contents : 'As we, Korea Art & Culture Education Service, are the full member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development", we hold a regular symposium for seeking reflection and future of art education.\n\n'
+                       +'The 4th UNITWIN symposium seeks to discuss how the fundamentals and examples of art education can contribute in-depth to the social and cultural crises facing'
+                       +"today's world under the theme "
+                       +'"Arts Education in and through in a time of crisis"',
             subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n'
                          +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
@@ -118,34 +120,34 @@ export const langen = {
             contents : ''
         },
         
-        // home 전체 일정
+        // home PC 전체 일정
         home_all : {
             session1 : {
                 day : '05.24 Mon',
                 mon1 : {
-                    time1 : '13:00~13:15',
+                    time1 : '13:00-13:15',
                     title1 : 'Opening Perfomance',
-                    time2 : '13:15~13:25',
+                    time2 : '13:15-13:25',
                     title2 : 'Welcome Speech',
-                    time3 : '13:25~13:28',
+                    time3 : '13:25-13:28',
                     title3 : 'Congratulatory Speech',
-                    time4 : '13:28~13:43',
+                    time4 : '13:28-13:43',
                     title4 : 'Plenary Presentaion 1',
-                    time5 : '13:43~13:58',
+                    time5 : '13:43-13:58',
                     title5 : 'Plenary Presentaion 2',
-                    time6 : '13:58~14:08',
+                    time6 : '13:58-14:08',
                     title6 : 'Plenary Presentaion 3' ,
-                    time7 : '14:08~14:13',
+                    time7 : '14:08-14:13',
                     title7 : 'Theme Video',
                     title8 : '(Voice of All)',
-                    time8 : '14:15~15:35',
+                    time8 : '14:15-15:35',
                     title9 : 'The 4th UNESCO-UNITWIN\nSymposium Pre-session'
                 }
             },
             session2 : {
                 day : '05.25 Tue',
                 tue1 : {
-                    text1 : '13:00~13:40',
+                    text1 : '13:00-13:40',
                     text2 : 'Plenary Session 1',
                     text3 : '(Diversity in art education 2.0)',
                     text4 : 'Ernst Wagner',
@@ -154,17 +156,17 @@ export const langen = {
                     link : '/unitwin2021/plenary-session/1'
                 },
                 tue2 : {
-                    text1 : '13:40~15:25',
+                    text1 : '13:40-15:25',
                     text2 : 'Session 1',
                     text3 : '(Arts and Education in the Field 1)',
-                    text4 : '',
-                    text5 : '',
+                    text4 : '[Moderator]',
+                    text5 : 'Kiwon Hong',
                     text6 : '[Presenter]',
                     text7 : 'Jung YongSung, Lee Eunsu,\nKim Sowon, Kim Su-youn,\nLee Boram',
                     link : '/unitwin2021/session/1'
                 },
                 tue3 : {
-                    text1 : '15:25~16:55',
+                    text1 : '15:25-16:55',
                     text2 : 'Session 2',
                     text3 : '(Arts for Healing)',
                     text4 : '[Moderator]',
@@ -174,7 +176,7 @@ export const langen = {
                     link : '/unitwin2021/session/2'
                 },
                 tue4 : {
-                    text1 : '15:25~16:55',
+                    text1 : '15:25-16:55',
                     text2 : 'Session 3',
                     text3 : '(Social & Cultural Inclusiveness)',
                     text4 : '[Moderator]',
@@ -184,17 +186,17 @@ export const langen = {
                     link : '/unitwin2021/session/3'
                 },
                 tue5 : {
-                    text1 : '16:55~18:10',
+                    text1 : '16:55-18:10',
                     text2 : 'Session 4',
                     text3 : '(Seoul Agenda)',
                     text4 : '[Moderator]',
                     text5 : 'Kim InSul',
                     text6 : '[Presenter]',
-                    text7 : 'Benjamin Bolden&Neryl Jeanneret,\nChee-Hoo Lum&Zen Teh,\nKathryn Coleman&Mark Selkrig&Abbey MacDonald',
+                    text7 : 'Benjamin Bolden & Neryl Jeanneret,\nChee-Hoo Lum & Zen Teh,\nKathryn Coleman & Mark Selkrig &\nAbbey MacDonald',
                     link : '/unitwin2021/session/4'
                 },
                 tue6 : {
-                    text1 : '18:10~19:10',
+                    text1 : '18:10-19:10',
                     text2 : 'BYOB',
                     text3 : '(Bring Your Own Bottle)',
                     link : '/unitwin2021/byob'
@@ -203,7 +205,7 @@ export const langen = {
             session3 : {
                 day : '05.26 Wed',
                 wed1 : {
-                    text1 : '13:00~13:40',
+                    text1 : '13:00-13:40',
                     text2 : 'Plenary Session 2',
                     text3 : '(“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”)',
                     text4 : 'Benjamin Jörissen',
@@ -212,37 +214,37 @@ export const langen = {
                     link : '/unitwin2021/plenary-session/2'
                 },
                 wed2 : {
-                    text1 : '13:40~15:10',
+                    text1 : '13:40-15:10',
                     text2 : 'Session 5',
                     text3 : '(Arts in the Classroom)',
                     text4 : '[Moderator]',
                     text5 : 'Benjamin Bolden',
                     text6 : '[Presenter]',
-                    text7 : 'Mary Clare Kidenda,\nEmily MacMillan,\nHong-Park Jihea,\nEmily Wilson&Neryl Jeanneret',
+                    text7 : 'Mary Clare Kidenda,\nEmily MacMillan,\nHong-Park Jihea,\nEmily Wilson & Neryl Jeanneret',
                     link : '/unitwin2021/session/5'
                 },
                 wed3 : {
-                    text1 : '15:10~16:40',
+                    text1 : '15:10-16:40',
                     text2 : 'Session 6',
                     text3 : '(Arts Engagement)',
                     text4 : '[Moderator]',
                     text5 : 'Shin Hyesun',
                     text6 : '[Presenter]',
-                    text7 : 'Jae Hwan Jung,\nChung Hyeyoun&\nSung Hyojin,\nRebecca Kan&Foo Say Ming&Tan Jeng Suan,\nJeff Poulin',
+                    text7 : 'Jae Hwan Jung,\nChung Hyeyoun &\nSung Hyojin,\nRebecca Kan &\nFoo Say Ming &\nTan Jeng Suan,\nJeff Poulin',
                     link : '/unitwin2021/session/6'
                 },
                 wed4 : {
-                    text1 : '15:10~16:40',
+                    text1 : '15:10-16:40',
                     text2 : 'Session 7',
                     text3 : '(Diversity & Cultural Representation)',
                     text4 : '[Moderator]',
                     text5 : 'Chee-Hoo Lum',
                     text6 : '[Presenter]',
-                    text7 : 'Ruth Rentschler,\nShim Ji-young,\nKim Yuri&Park Sojung,\nSean Corcoran&Benjamin Bolden',
+                    text7 : 'Ruth Rentschler,\nShim Ji-young,\nKim Yuri & Park Sojung, Sean Corcoran &\nBenjamin Bolden',
                     link : '/unitwin2021/session/7'
                 },
                 wed5 : {
-                    text1 : '16:40~18:25',
+                    text1 : '16:40-18:25',
                     text2 : 'Session 8',
                     text3 : '(Arts and Education in the Field 2)',
                     text4 : '[Moderator]',
@@ -252,7 +254,7 @@ export const langen = {
                     link : '/unitwin2021/session/8'
                 },
                 wed6 : {
-                    text1 : '18:25~19:25',
+                    text1 : '18:25-19:25',
                     text2 : 'UNITWIN Closing Ceremony',
                     link : '/unitwin2021/closing-ceremony'
                 },
@@ -263,34 +265,34 @@ export const langen = {
         home_day1 : {
             title : 'Opening Ceremony & Pre-session',
             video : true,
-            time : '13:00~15:35',
+            time : '13:00-15:35',
             link : 'http://www.arteweek.kr/2021/views/opening.php',
             video_text : 'View All',
             session1 : {
                 text1 : 'Opening Perfomance',
-                text2 : '13:00~13:15',
+                text2 : '13:00-13:15',
                 text3 : '<Body-Go-Round>',
                 text4 : 'Cha jinyeob',
                 text5 : '- Director, collective A, Republic of Korea',
             },
             session2 : {
                 text1 : 'Welcome Speech',
-                text2 : '13:15~13:25',
-                text3 : '',
-                text4 : '',
-                text5 : '',
-                text6 : '',
+                text2 : '13:15-13:25',
+                text3 : 'Hee Hwang',
+                text4 : '- Minister, Ministry of Culture, Sports and Tourism, Republic of Korea',
+                text5 : 'Shin-Eui Park',
+                text6 : '- Chairperson, Korea Arts & Culture Education Service, Republic of Korea',
             },
             session3 : {
                 text1 : 'Congratulatory Speech',
-                text2 : '13:25~13:28',
+                text2 : '13:25-13:28',
                 text3 : 'Larry O’ Farrell',
                 text4 : '',
                 text5 : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”, Canada',
             },
             session4 : {
                 text1 : 'Plenary Presentaion 1',
-                text2 : '13:28~13:43',
+                text2 : '13:28-13:43',
                 text3 : 'Culture and Climate Change',
                 text4 : 'Ben Twist',
                 text5 : '',
@@ -298,36 +300,36 @@ export const langen = {
             },
             session5 : {
                 text1 : 'Plenary Presentaion 2',
-                text2 : '13:43~13:58',
+                text2 : '13:43-13:58',
                 text3 : '',
                 text4 : 'Peter Sellars',
                 text5 : '',
-                text6 : '- Theater Director / Professor, UCLA, U.S.A',
+                text6 : '- Theater Director / Professor, UCLA, USA',
             },
             session6 : {
                 text1 : 'Plenary Presentaion 3',
-                text2 : '13:58~14:08',
-                text3 : '',
+                text2 : '13:58-14:08',
+                text3 : 'Taking responsibility for your own art',
                 text4 : 'Yozoh',
                 text5 : '',
                 text6 : '- Singer-songwriter, MAGICSTRAWBERRY SOUND / Writer, Republic of Korea',
             },
             session7 : {
                 text1 : 'Theme Video',
-                text2 : '14:08~14:13',
+                text2 : '14:08-14:13',
                 text3 : '<Voice of All>',
-                text4 : 'Delivering the message of “The Role of Participatory Art Education in the Social Crisis” through interviews with arts educators and citizens',
+                text4 : 'Voice of All: Exploring the Meaning of Equality through the Lens of Arts education',
             },
             session8 : {
                 text1 : 'The 4th UNESCO-UNITWIN Symposium\nPre-session',
-                text2 : '14:15~15:35',
-                text3 : '<Pre-session: Climate Crisis and Arts Education>',
+                text2 : '14:15-15:35',
+                text3 : '<Climate Crisis and Arts Education>',
                 text4 : 'Shin-Eui Park',
                 text5 : '- Chairperson, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea',
                 text6 : 'Jisoo Sung',
                 text7 : '- Director, Collective Doingle, Republic of Korea',
-                text8 : '1.5℃',
-                text9 : '- Youth activist group engaged in climate crisis, Republic of Korea',
+                text8 : '',
+                text9 : '',
                 text10 : 'Sang-Mi Mo',
                 text11 : '- Director, Busan Moida Art Cooperative Society, Republic of Korea',
                 text12 : 'Jinsuk Gang',
@@ -341,13 +343,13 @@ export const langen = {
         home_day2 : {
             title : 'The 4th UNESCO-UNITWIN SYMPOSIUM',
             video : false,
-            time : '13:00~19:10',
+            time : '13:00-19:10',
             link : '',
             video_text1 : 'View',
             video_text2 : 'View All',
             session1 : {
                 text1 : 'Plenary\nSession 1',
-                text2 : '13:00~13:40',
+                text2 : '13:00-13:40',
                 text3 : 'Diversity in art education 2.0',
                 text4 : 'Ernst Wagner',
                 text5 : '',
@@ -361,7 +363,7 @@ export const langen = {
             session2 : {
                 text1 : 'Session 1',
                 text2 : 'Arts and Education in the Field 1',
-                text3 : '13:00~15:25',
+                text3 : '13:00-15:25',
                 text4 : "The theater is ‘A Small Earth’ ",
                 text5 : 'YongSung Jung',
                 text6 : '- Director, National Theater Company of Korea, Republic of Korea',
@@ -377,12 +379,15 @@ export const langen = {
                 text16 : 'Creating Inclusive Online Creative Workshops',
                 text17 : 'Boram Lee',
                 text18 : '- Professor, University of South Australia , Republic of Korea',
+                text19 : '[Moderator]',
+                text20 : 'Kiwon Hong ',
+                text21 : '- Professor, Korea National University of Arts, Republic of Korea',
                 link : '/unitwin2021/session/1'
             },
             session3 : {
                 text1 : 'Session 2',
                 text2 : 'Arts for Healing',
-                text3 : '15:25~16:55',
+                text3 : '15:25-16:55',
                 text4 : 'Supporting Youth Mental Health in and through the Arts: An Evidence Base and Guide for Teaching Artists',
                 text5 : 'Tiina Kukkonen',
                 text6 : '',
@@ -395,7 +400,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), South Africa',
-                text16 : 'Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pendemic Era',
+                text16 : 'Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -407,7 +412,7 @@ export const langen = {
             session4 : {
                 text1 : 'Session 3',
                 text2 : 'Social & Cultural Inclusiveness',
-                text3 : '15:25~16:55',
+                text3 : '15:25-16:55',
                 text4 : 'Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic',
                 text5 : 'Tei Kim',
                 text6 : '- Director, BARA Art Growth Institute , Republic of Korea',
@@ -418,7 +423,7 @@ export const langen = {
                 text11 : 'Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis',
                 text12 : 'Nan Zhang',
                 text13 : '',
-                text14 : '- Ph.D. candidate, Monash University, Australia',
+                text14 : '- Ph.D. candidate, Monash University, China',
                 text15 : 'USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND/OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY',
                 text16 : 'Yaara Docrat',
                 text17 : '',
@@ -432,7 +437,7 @@ export const langen = {
             session5 : {
                 text1 : 'Session 4',
                 text2 : 'Seoul Agenda',
-                text3 : '16:55~18:10',
+                text3 : '16:55-18:10',
                 text4 : 'Visions of Sustainability for Arts Education: Value, Challenge and Potential',
                 text5 : 'Benjamin Bolden',
                 text6 : '',
@@ -450,10 +455,10 @@ export const langen = {
                 text18 : 'Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
-                text21 : '- Associate Professor, The University of Melbourne, Australia',
+                text21 : '- The Melbourne Graduate School of Education, The University of Melbourne',
                 text22 : 'Mark Selkrig',
                 text23 : '',
-                text24 : '- Associate Professor, The University of Melbourne, Australia',
+                text24 : '- The Melbourne Graduate School of Education, The University of Melbourne',
                 text25 : 'Abbey MacDonald',
                 text26 : '',
                 text27 : '- Senior Lecturer, University of Tasmania, Australia',
@@ -464,7 +469,7 @@ export const langen = {
             },
             session6 : {
                 text1 : 'BYOB',
-                text2 : '18:00~19:10',
+                text2 : '18:00-19:10',
                 text3 : 'Bring Your Own Bottle',
                 text4 : 'It is a networking session in which participants freely share symposium topics and their interests.',
                 text5 : '',
@@ -476,13 +481,13 @@ export const langen = {
         home_day3 : {
             title : 'The 4th UNESCO-UNITWIN SYMPOSIUM',
             video : false,
-            time : '13:00~19:25',
+            time : '13:00-19:25',
             link : '',
             video_text1 : 'View',
             video_text2 : 'View All',
             session1 : {
                 text1 : 'Plenary\nSession 2',
-                text2 : '13:00 ~ 13:40',
+                text2 : '13:00 - 13:40',
                 text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
@@ -490,13 +495,13 @@ export const langen = {
                 text7 : '[Moderator]',
                 text8 : 'Tanja Klepacki',
                 text9 : '',
-                text10 : 'Chair senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                text10 : 'senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
                 link : '/unitwin2021/plenary-session/2'
             },
             session2 : {
                 text1 : 'Session 5',
                 text2 : 'Arts in the Classroom',
-                text3 : '13:40~15:10',
+                text3 : '13:40-15:10',
                 text4 : "The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic",
                 text5 : 'Mary Clare Kidenda',
                 text6 : '',
@@ -507,7 +512,7 @@ export const langen = {
                 text11 : "- Master's candidate, Queen’s University, Canada",
                 text12 : 'The Necessity of Diversity and Cultural Representation in the Classrooms:  Practical Strategies and Their Implementation',
                 text13 : 'Jihea Hong-Park',
-                text14 : '- Associate Professor, Brigham Young University, U.S.A',
+                text14 : '- Associate Professor, Brigham Young University, USA',
                 text15 : 'Facilitating student voice and collaboration with digital arts in 2020',
                 text16 : 'Emily Wilson',
                 text17 : '',
@@ -524,7 +529,7 @@ export const langen = {
             session3 : {
                 text1 : 'Session 6',
                 text2 : 'Arts Engagement',
-                text3 : '15:10~16:40',
+                text3 : '15:10-16:40',
                 text4 : 'Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
@@ -536,17 +541,17 @@ export const langen = {
                 text12 : 'Narratives of Service Learning: a Case Study at Nanyang Academy of Fine Arts',
                 text13 : 'Rebecca Kan',
                 text14 : '',
-                text15 : '- Vice-Dean, Nanyang Academy, Singapore',
+                text15 : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
                 text16 : 'Foo Say Ming',
                 text17 : '',
-                text18 : '- Head of Studies, Nanyang Academy, Singapore',
+                text18 : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
                 text19 : 'Tan Jeng Suan',
                 text20 : '',
-                text21 : '- BMus 4 Student Assistant, Nanyang Academy, Singapore',
+                text21 : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
                 text22 : 'The Creative Generation and Arts Education Innovations through the Crises of 2020',
                 text23 : 'Jeff Poulin',
                 text24 : '',
-                text25 : '- Managing Director, Creative Generation, U.S.A',
+                text25 : '- Managing Director, Creative Generation, USA',
                 text26 : '[Moderator]',
                 text27 : 'Hyesun Shin',
                 text28 : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
@@ -555,7 +560,7 @@ export const langen = {
             session4 : {
                 text1 : 'Session 7',
                 text2 : 'Diversity & Cultural Representation',
-                text3 : '15:10~16:40',
+                text3 : '15:10-16:40',
                 text4 : 'Arts in time of crisis: The case of inequality',
                 text5 : 'Ruth Rentschler',
                 text6 : '',
@@ -584,8 +589,8 @@ export const langen = {
             session5 : {
                 text1 : 'Session 8',
                 text2 : 'Arts and Education in the Field 2',
-                text3 : '16:40~18:25',
-                text4 : 'Opportunities and Challenges for Social Arts and Cultural Education during Pandemic with a Focus on the Class Planning Process',
+                text3 : '16:40-18:25',
+                text4 : 'A Practice of Inclusive Arts Education : Focusing on a Case Study of Climate Crisis Class by Chaeknuna Project',
                 text5 : 'Soohye Jang',
                 text6 : '- Founding Director, Chaeknuna Project, Republic of Korea',
                 text7 : 'Asking questions to youth with picture books who are living in new-normal days',
@@ -599,7 +604,7 @@ export const langen = {
                 text15 : '- Teaching Artist, Republic of Korea',
                 text16 : 'Bridge the transition: How art education can help youths in transition to adulthood',
                 text17 : 'Younghee Choi',
-                text18 : '- Head of Creative School Team, Korea Arts&Culture Education Service, Republic of Korea',
+                text18 : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
                 text19 : '[Moderator]',
                 text20 : 'Yujin Hong',
                 text21 : '- Director of Educational Resources Division, Korea Arts&Culture Education Service, Republic of Korea',
@@ -607,7 +612,7 @@ export const langen = {
             },
             session6 : {
                 text1 : 'UNITWIN Closing Ceremony',
-                text2 : '18:25~19:25',
+                text2 : '18:25-19:25',
                 text3 : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
                 link : '/unitwin2021/closing-ceremony'
             },
@@ -622,7 +627,7 @@ export const langen = {
                 {
                     imgs : plsession_img_01,
                     title : "Diversity in art education 2.0",
-                    time : "25 MAY(Tue) 13:00~13:40",
+                    time : "25 MAY(Tue) 13:00-13:40",
                     name : "Ernst Wagner",
                     enname : "",
                     jop : "- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany",
@@ -630,8 +635,8 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability."Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                    time : "26 MAY(Wed) 13:00~13:40",
+                    title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                    time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
                     jop : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
@@ -644,11 +649,12 @@ export const langen = {
         pl_session_detail : {
             wagner_part : {
                 title : 'Diversity in art education 2.0',
-                time : '05.25(화) 13:00~13:40',
+                time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : '1001',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : pl_detail1_img_01,
@@ -656,44 +662,46 @@ export const langen = {
                         name : 'Ernst Wagner',
                         en_name : '',
                         li_title : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
-                        li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술 교육에 대한 가장 중요한 문서를 다시 살펴볼 때다.\n'
-                                    +'서울 어젠다는 큰 성공을 거뒀고 그 이후로 많은 것이 성취되었다. 서울 어젠다가 유니트윈(UNITWIN)같은 네트워크에 국제적으로 집중된 협력을 촉발시킨 것을 예로 들 수 있다. 그러나, 2017년에 벤 볼든과 다른 사람들이 함께 발간한 전 세계 예술교육의 이해도에 대한 비교 연구(국제예술교육연보, V5, 2017)에선 서울 어젠다의 목표에 대한 세계적인 공감 하에 현저하게 다르고, 또 다양한 형태가 존재하고 있음을 보여준다.\n\n'
-                                    +'언스트 바그너의 강의는 이러한 다양성이 새롭게 보여질 필요가 있다는 것을 보여주기 위해 "시각적 문화의 탐구"를 예시로 사용할 것이다. 바그너는 이견에 대해서 추가적인 심사 숙고가 절대적으로 필요하다는 것을 보여줄 것이다.  그래야만 서울 어젠다의 3번째 목표인, "문화 다양성 증진과 문화적 대화"가 실행될 수 있다. 전 세계적으로 정치적, 그리고 문화적 긴장감이 고조되는 시대에, 오로지 예술 교육만이 문화적 다양성을 심각하게 받아들이고, 전세계의 이해당사자들을 진정한 대화에 끌어들임으로써 "문화적 문제의 해결"에 도움이 될 수 있다. 이 프레젠테이션에서는 이 방법이 어떻게 작용되는지에 대한 원칙이 제시될 것이다.'
+                        li_contents : 'More than ten years after the adoption of the Seoul Agenda, it is time to take a fresh look at this most important document on Arts Education worldwide. The Seoul Agenda has been a great success. Much has been achieved since then. For example, the Seoul Agenda has triggered intensive international cooperation in networks such as UNITWIN. But a comparative study on the understandings of arts education worldwide, published together with Ben Bolden and many others in 2017 (International Yearbook for Research in Arts Education, V5, 2017), shows that under the global consensus on the goals of the Seoul Agenda, quite different, diverse forms exist locally.\n\n'
+                                     +"Ernst Wagner's lecture will use the example of the global project Exploring Visual Cultures to show that this diversity needs to be looked at anew. He will show that it is absolutely necessary to take differences more into account. Only then will it be possible to implement the third goal of the Seoul"
+                                     +'Agenda: "Promotion of … cultural diversity and intercultural dialogue". In an era of increasing political and cultural tensions worldwide, Arts Education can only help “resolving the … cultural challenges” if it finally takes cultural diversity seriously and engages stakeholders worldwide in a genuine dialogue. The presentation will suggest principles how this could work.'
                     },
                     {
                         img : pl_detail1_img_02,
                         moder : '[Moderator]',
                         name : 'Chee-Hoo Lum',
                         en_name : '',
-                        li_title : '- Associate Professor,Nanyang Technological University, Singapore',
-                        li_contents : "치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다.\n\n"
-                                      +"그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다."                    }
+                        li_title : '- Associate Professor, Nanyang Technological University, Singapore',
+                        li_contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                      +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.'    
+                    }
                 ]
             },
             jorissen_part : {
-                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                time : '05.26(수) 13:40~15:10',
+                title : '“UNITWIN – Arts Education Research for Cultural\nDiversity and Sustainable Development”',
+                time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : '1002',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
+                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
                 list : [
                     {
                         img : plsession_img_02,
                         moder : '',
                         name : 'Benjamin Jörissen',
                         en_name : '',
-                        li_title : '- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일',
-                        li_contents : '벤자민 요리슨은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히-알렉산더-대학교 에를랑겐-누른베르크에서 유네스코 교육 예술 문화 의장직을 맡고 있다. 또한 벤자민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
-                                      +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
+                        li_title : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
+                        li_contents : 'Benjamin Jörissen is Chairholder of the Chair of Education with a focus on Culture and Aesthetics and of the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-University Erlangen-Nuremberg. He is, amongst others, member of the European Academy of Sciences and Arts and of the German Council for Arts and Cultural Education. His research focuses on educational theory and on empirical research in cultural, arts, and aesthetic education, especially with regard to UNESCO-related issues and the transformation of education in a post-digital culture.\n\n'
+                                      +'Jörissen leads several major empirical research projects on digitalisation in arts education, such as the Meta-Project „Digitalisation in Arts and Cultural Education“ funded by the German Ministry of Education and Research. Recent and upcoming publications: Jörissen e.a. (2018): Spectra of Transformation: Arts Education Research and Cultural Dynamics. Münster/New York: Waxmann; Jörissen/Kröner/Unterberg (2019): Forschung zur Digitalisierung in der kulturellen Bildung [Research on digitalization in cultural education]. Munich: kopaed; Jörissen/Unterberg/Klkepacki (Eds.): Aesthetics of Transformation. Arts Education Research and the Challenge of Cultural Sustainability.'
                     },
                     {
                         img : session_img_43,
                         moder : '[Moderator]',
                         name : 'Tanja Klepacki',
                         en_name : '',
-                        li_title : '- 유네스코 문화예술교육 선임 연구원, 독일',
-                        li_contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정'
+                        li_title : '- senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                        li_contents : 'Dr. Tanja Klepacki is the senior researcher at the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg (Germany). Amongst others, she serves as executive manager of the Chair’s Academy of School Theatre and Performative Education in Nuremberg. Her fields of work include theoretical and empirical studies in the realm of cultural and aesthetic education. Since December 2020, she also leads the editorial office of the newly founded peer-reviewed, open access "International Journal of Research in Cultural, Aesthetic, and Arts Education".'
                     }
                 ]
             }  
@@ -1964,11 +1972,12 @@ export const langen = {
     m_data : {
         // 기타
         videobtn : 'View >',
-        realchating : '실시간 채팅',
-        lecture : '강연설명',
-        classdownload : 'Download lecture',
-        zoom : 'ZOOM으로 참여하기',
+        realchating : 'Live chat',
+        lecture : 'Lecture description',
+        classdownload : 'Download presentation file',
+        zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage >',
+        move : 'Link > ',
 
         // 메뉴바
         menuber : {
@@ -1984,13 +1993,14 @@ export const langen = {
             img : home_title_mo,
             subimg : home_subtitle_mo,
             title : 'About',
-            time : '24~26 MAY, 2021',
+            time : '24 ~ 26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
             advance : 'APPLICATION',
-            contents : '- The 11th Anniversary of The Seoul Agenda: Goals for the Development of Arts Education\n\n'
-                     +'- The 10th Anniversary of International Arts Education Week',
+            contents : 'As we, Korea Art & Culture Education Service, are the full member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development", we hold a regular symposium for seeking reflection and future of art education.\n\n'
+                       +'The 4th UNITWIN symposium seeks to discuss how the fundamentals and examples of art education can contribute in-depth to the social and cultural crises facing'
+                       +"today's world under the theme ",
             subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development'
-                         +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+                       +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
         
         home_center : {
@@ -2002,61 +2012,61 @@ export const langen = {
         home_all : {
             session1 : {
                 text1 : '05.24 Mon',
-                text2 : '13:00~13:15',
+                text2 : '13:00-13:15',
                 text3 : 'Opening Perfomance',
-                text4 : '13:15~13:25',
+                text4 : '13:15-13:25',
                 text5 : 'Welcome Speech',
-                text6 : '13:25~13:28',
+                text6 : '13:25-13:28',
                 text7 : 'Congratulatory Speech',
-                text8 : '13:28~13:43',
+                text8 : '13:28-13:43',
                 text9 : 'Plenary Presentaion 1',
-                text10 : '13:43~13:58',
+                text10 : '13:43-13:58',
                 text11 : 'Plenary Presentaion 2',
-                text12 : '13:58~14:08',
+                text12 : '13:58-14:08',
                 text13 : 'Plenary Presentaion 3',
-                text14 : '14:08~14:13',
+                text14 : '14:08-14:13',
                 text15 : 'Theme Video',
                 text16 : '(Voice of All)',
-                text17 : '14:15~15:35',
+                text17 : '14:15-15:35',
                 text18 : 'The 4th UNESCO-UNITWIN\nSymposium Pre-session',
             },
             session2 : {
                 text1 : '05.25 Tue',
-                text2 : '13:00~13:40',
+                text2 : '13:00-13:40',
                 text3 : 'Plenary Session 1',
                 text4 : '(Diversity in art education 2.0)',
-                text5 : '13:40~15:25',
+                text5 : '13:40-15:25',
                 text6 : 'Session 1',
                 text7 : '(Arts and Education in the Field 1)',
-                text8 : '15:25~16:55',
+                text8 : '15:25-16:55',
                 text9 : 'Session 2',
                 text10 : '(Arts for Healing)',
                 text11 : 'Session 3',
                 text12 : '(Social & Cultural Inclusiveness)',
-                text13 : '16:55~18:10',
+                text13 : '16:55-18:10',
                 text14 : 'Session 4',
                 text15 : '(Seoul Agenda)',
-                text16 : '18:10~19:10',
+                text16 : '18:10-19:10',
                 text17 : 'BYOB',
                 text18 : '(Bring Your Own Bottle)',
             },
             session3 : {
                 text1 : '05.26 Wed',
-                text2 : '13:00~13:40',
+                text2 : '13:00-13:40',
                 text3 : 'Plenary Session 2',
                 text4 : '(“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”)',
-                text5 : '13:40~15:10',
+                text5 : '13:40-15:10',
                 text6 : 'Session 5',
                 text7 : '(Arts in the Classroom)',
-                text8 : '15:10~16:40',
+                text8 : '15:10-16:40',
                 text9 : 'Session 6',
                 text10 : '(Arts Engagement)',
                 text11 : 'Session 7',
                 text12 : '(Diversity & Cultural Representation)',
-                text13 : '16:40~18:25',
+                text13 : '16:40-18:25',
                 text14 : 'Session 8',
                 text15 : '(Arts and Education in the Field 2)',
-                text16 : '18:25~19:25',
+                text16 : '18:25-19:25',
                 text17 : 'UNITWIN Closing Ceremony',
             }
         },
@@ -2065,34 +2075,34 @@ export const langen = {
         home_day1 : {
             title : 'Opening Ceremony &\nPre-session',
             video : true,
-            time : '13:00~14:19',
+            time : '13:00-15:35',
             link : 'http://www.arteweek.kr/2021/views/opening.php',
             video_text : 'View All',
             session1 : {
                 text1 : 'Opening Perfomance',
-                text2 : '13:00~13:15',
+                text2 : '13:00-13:15',
                 text3 : '<Body-Go-Round>',
                 text4 : 'Cha jinyeob',
                 text5 : '- Director, collective A, Republic of Korea',
             },
             session2 : {
                 text1 : 'Welcome\nSpeech',
-                text2 : '13:15~13:25',
-                text3 : '',
-                text4 : '',
-                text5 : '',
-                text6 : '',
+                text2 : '13:15-13:25',
+                text3 : 'Hee Hwang',
+                text4 : '- Minister, Ministry of Culture, Sports and Tourism, Republic of Korea',
+                text5 : 'Shin-Eui Park',
+                text6 : '- Chairperson, Korea Arts & Culture Education Service, Republic of Korea',
             },
             session3 : {
                 text1 : 'Congratulatory Speech',
-                text2 : '13:25~13:28',
+                text2 : '13:25-13:28',
                 text3 : 'Larry O’ Farrell',
                 text4 : '',
                 text5 : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”, Canada',
             },
             session4 : {
                 text1 : 'Plenary Presentaion 1',
-                text2 : '13:28~13:43',
+                text2 : '13:28-13:43',
                 text3 : 'Culture and Climate Change',
                 text4 : 'Ben Twist',
                 text5 : '',
@@ -2100,36 +2110,36 @@ export const langen = {
             },
             session5 : {
                 text1 : 'Plenary Presentaion 2',
-                text2 : '13:43~13:58',
+                text2 : '13:43-13:58',
                 text3 : '',
                 text4 : 'Peter Sellars',
                 text5 : '',
-                text6 : '- Theater Director / Professor, UCLA, U.S.A',
+                text6 : '- Theater Director / Professor, UCLA, USA',
             },
             session6 : {
                 text1 : 'Plenary Presentaion 3',
-                text2 : '13:58~14:08',
-                text3 : '',
+                text2 : '13:58-14:08',
+                text3 : 'Taking responsibility for your own art',
                 text4 : 'Yozoh',
                 text5 : '',
                 text6 : '- Singer-songwriter, MAGICSTRAWBERRY SOUND / Writer, Republic of Korea',
             },
             session7 : {
                 text1 : 'Theme Video',
-                text2 : '14:08~14:13',
+                text2 : '14:08-14:13',
                 text3 : '<Voice of All>',
-                text4 : 'Delivering the message of “The Role of Participatory Art Education in the Social Crisis” through interviews with arts educators and citizens',
+                text4 : 'Voice of All: Exploring the Meaning of Equality through the Lens of Arts education',
             },
             session8 : {
                 text1 : 'The 4th UNESCO-UNITWIN Symposium\nPre-session',
-                text2 : '14:15~15:35',
-                text3 : '<Pre-session: Climate Crisis and Arts Education>',
+                text2 : '14:15-15:35',
+                text3 : '<Climate Crisis and Arts Education>',
                 text4 : 'Shin-Eui Park',
                 text5 : '- Chairperson, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea',
                 text6 : 'Jisoo Sung',
                 text7 : '- Director, Collective Doingle, Republic of Korea',
-                text8 : '1.5℃',
-                text9 : '- Youth activist group engaged in climate crisis, Republic of Korea',
+                text8 : '',
+                text9 : '',
                 text10 : 'Sang-Mi Mo',
                 text11 : '- Director, Busan Moida Art Cooperative Society, Republic of Korea',
                 text12 : 'Jinsuk Gang',
@@ -2143,13 +2153,13 @@ export const langen = {
          home_day2 : {
             title : 'The 4th UNESCO-UNITWIN SYMPOSIUM',
             video : false,
-            time : '13:00~19:00',
+            time : '13:00-19:10',
             link : '',
             video_text1 : 'View',
             video_text2 : 'View All',
             session1 : {
                 text1 : 'Plenary\nSession 1',
-                text2 : '13:00~13:40',
+                text2 : '13:00-13:40',
                 text3 : 'Diversity in art education 2.0',
                 text4 : 'Ernst Wagner',
                 text5 : '',
@@ -2163,11 +2173,11 @@ export const langen = {
             session2 : {
                 text1 : 'Session 1',
                 text2 : 'Arts and Education\nin the Field 1',
-                text3 : '13:00~15:25',
+                text3 : '13:00-15:25',
                 text4 : "The theater is ‘A Small Earth’ ",
                 text5 : 'YongSung Jung',
                 text6 : '- Director, National Theater Company of Korea, Republic of Korea',
-                text7 : 'The Age of Pandemics,\nthe Change of Art',
+                text7 : 'The Age of Pandemics, the Change of Art',
                 text8 : 'Eunsu Lee',
                 text9 : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
                 text10 : "Proactive crisis response by establishing a sustainable art ecosystem: Focusing on the case of Seongbuk 'artsoonhwanro' project",
@@ -2179,12 +2189,15 @@ export const langen = {
                 text16 : 'Creating Inclusive Online Creative Workshops',
                 text17 : 'Boram Lee',
                 text18 : '- Professor, University of South Australia , Republic of Korea',
+                text19 : '[Moderator]',
+                text20 : 'Kiwon Hong ',
+                text21 : '- Professor, Korea National University of Arts, Republic of Korea',
                 link : '/unitwin2021/session/1'
             },
             session3 : {
                 text1 : 'Session 2',
                 text2 : 'Arts for\nHealing',
-                text3 : '15:25~16:55',
+                text3 : '15:25-16:55',
                 text4 : 'Supporting Youth Mental Health in and through the Arts: An Evidence Base and Guide for Teaching Artists',
                 text5 : 'Tiina Kukkonen',
                 text6 : '',
@@ -2197,7 +2210,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), South Africa',
-                text16 : 'Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pendemic Era',
+                text16 : 'Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -2209,7 +2222,7 @@ export const langen = {
             session4 : {
                 text1 : 'Session 3',
                 text2 : 'Social & Cultural Inclusiveness',
-                text3 : '15:25~16:55',
+                text3 : '15:25-16:55',
                 text4 : 'Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic',
                 text5 : 'Tei Kim',
                 text6 : '- Director, BARA Art Growth Institute , Republic of Korea',
@@ -2220,7 +2233,7 @@ export const langen = {
                 text11 : 'Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis',
                 text12 : 'Nan Zhang',
                 text13 : '',
-                text14 : '- Ph.D. candidate, Monash University, Australia',
+                text14 : '- Ph.D. candidate, Monash University, China',
                 text15 : 'USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND/OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY',
                 text16 : 'Yaara Docrat',
                 text17 : '',
@@ -2234,7 +2247,7 @@ export const langen = {
             session5 : {
                 text1 : 'Session 4',
                 text2 : 'Seoul Agenda',
-                text3 : '16:55~18:10',
+                text3 : '16:55-18:10',
                 text4 : 'Visions of Sustainability for Arts Education: Value, Challenge and Potential',
                 text5 : 'Benjamin Bolden',
                 text6 : '',
@@ -2252,10 +2265,10 @@ export const langen = {
                 text18 : 'Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
-                text21 : '- Associate Professor, The University of Melbourne, Australia',
+                text21 : '- The Melbourne Graduate School of Education, The University of Melbourne',
                 text22 : 'Mark Selkrig',
                 text23 : '',
-                text24 : '- Associate Professor, The University of Melbourne, Australia',
+                text24 : '- The Melbourne Graduate School of Education, The University of Melbourne',
                 text25 : 'Abbey MacDonald',
                 text26 : '',
                 text27 : '- Senior Lecturer, University of Tasmania, Australia',
@@ -2266,7 +2279,7 @@ export const langen = {
             },
             session6 : {
                 text1 : 'BYOB',
-                text2 : '18:00~19:10',
+                text2 : '18:00-19:10',
                 text3 : 'Bring Your Own Bottle',
                 text4 : 'It is a networking session in which participants freely share symposium topics and their interests.',
                 text5 : '',
@@ -2278,13 +2291,13 @@ export const langen = {
         home_day3 : {
             title : 'The 4th UNESCO-UNITWIN SYMPOSIUM',
             video : false,
-            time : '13:00~19:25',
+            time : '13:00-19:25',
             link : '',
             video_text1 : 'View',
             video_text2 : 'View All',
             session1 : {
                 text1 : 'Plenary\nSession 2',
-                text2 : '13:00 ~ 13:40',
+                text2 : '13:00 - 13:40',
                 text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
@@ -2292,24 +2305,24 @@ export const langen = {
                 text7 : '[Moderator]',
                 text8 : 'Tanja Klepacki',
                 text9 : '',
-                text10 : 'Chair senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                text10 : 'senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
                 link : '/unitwin2021/plenary-session/2'
             },
             session2 : {
                 text1 : 'Session 5',
                 text2 : 'Arts in the Classroom',
-                text3 : '13:40~15:10',
+                text3 : '13:40-15:10',
                 text4 : "The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic",
                 text5 : 'Mary Clare Kidenda',
                 text6 : '',
                 text7 : '- Lecturer and Head, The Technical University of Kenya, Kenya',
                 text8 : 'The Magic within Puppetry for Inclusive Practices',
                 text9 : 'Emily MacMillan',
-                text10 : '(Emily MacMillan)',
+                text10 : '',
                 text11 : "- Master's candidate, Queen’s University, Canada",
                 text12 : 'The Necessity of Diversity and Cultural Representation in the Classrooms:  Practical Strategies and Their Implementation',
                 text13 : 'Jihea Hong-Park',
-                text14 : '- Associate Professor, Brigham Young University, U.S.A',
+                text14 : '- Associate Professor, Brigham Young University, USA',
                 text15 : 'Facilitating student voice and collaboration with digital arts in 2020',
                 text16 : 'Emily Wilson',
                 text17 : '',
@@ -2326,7 +2339,7 @@ export const langen = {
             session3 : {
                 text1 : 'Session 6',
                 text2 : 'Arts Engagement',
-                text3 : '15:10~16:40',
+                text3 : '15:10-16:40',
                 text4 : 'Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
@@ -2338,17 +2351,17 @@ export const langen = {
                 text12 : 'Narratives of Service Learning: a Case Study at Nanyang Academy of Fine Arts',
                 text13 : 'Rebecca Kan',
                 text14 : '',
-                text15 : '- Vice-Dean, Nanyang Academy, Singapore',
+                text15 : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
                 text16 : 'Foo Say Ming',
                 text17 : '',
-                text18 : '- Head of Studies, Nanyang Academy, Singapore',
+                text18 : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
                 text19 : 'Tan Jeng Suan',
                 text20 : '',
-                text21 : '- BMus 4 Student Assistant, Nanyang Academy, Singapore',
+                text21 : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
                 text22 : 'The Creative Generation and Arts Education Innovations through the Crises of 2020',
                 text23 : 'Jeff Poulin',
                 text24 : '',
-                text25 : '- Managing Director, Creative Generation, U.S.A',
+                text25 : '- Managing Director, Creative Generation, USA',
                 text26 : '[Moderator]',
                 text27 : 'Hyesun Shin',
                 text28 : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
@@ -2357,7 +2370,7 @@ export const langen = {
             session4 : {
                 text1 : 'Session 7',
                 text2 : 'Diversity & Cultural Representation',
-                text3 : '15:10~16:40',
+                text3 : '15:10-16:40',
                 text4 : 'Arts in time of crisis: The case of inequality',
                 text5 : 'Ruth Rentschler',
                 text6 : '',
@@ -2386,8 +2399,8 @@ export const langen = {
             session5 : {
                 text1 : 'Session 8',
                 text2 : 'Arts and Education\nin the Field 2',
-                text3 : '16:40~18:25',
-                text4 : 'Opportunities and Challenges for Social Arts and Cultural Education during Pandemic with a Focus on the Class Planning Process',
+                text3 : '16:40-18:25',
+                text4 : 'A Practice of Inclusive Arts Education : Focusing on a Case Study of Climate Crisis Class by Chaeknuna Project',
                 text5 : 'Soohye Jang',
                 text6 : '- Founding Director, Chaeknuna Project, Republic of Korea',
                 text7 : 'Asking questions to youth with picture books who are living in new-normal days',
@@ -2401,7 +2414,7 @@ export const langen = {
                 text15 : '- Teaching Artist, Republic of Korea',
                 text16 : 'Bridge the transition: How art education can help youths in transition to adulthood',
                 text17 : 'Younghee Choi',
-                text18 : '- Head of Creative School Team, Korea Arts&Culture Education Service, Republic of Korea',
+                text18 : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
                 text19 : '[Moderator]',
                 text20 : 'Yujin Hong',
                 text21 : '- Director of Educational Resources Division, Korea Arts&Culture Education Service, Republic of Korea',
@@ -2409,7 +2422,7 @@ export const langen = {
             },
             session6 : {
                 text1 : 'UNITWIN Closing Ceremony',
-                text2 : '18:25~19:25',
+                text2 : '18:25-19:25',
                 text3 : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
                 link : '/unitwin2021/closing-ceremony'
             },
@@ -2419,12 +2432,12 @@ export const langen = {
          pl_session : {
             title : 'Plenary Session',
             contents : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-            video_text : '영상보기',
+            video_text : 'View',
             data : [
                 {
                     imgs : plsession_img_01,
                     title : "Diversity in art education 2.0",
-                    time : "25 MAY(Tue) 13:00~13:40",
+                    time : "25 MAY(Tue) 13:00-13:40",
                     name : "Ernst Wagner",
                     enname : "",
                     jop : "- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany",
@@ -2432,8 +2445,8 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability."Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                    time : "26 MAY(Wed) 13:00~13:40",
+                    title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                    time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
                     jop : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
@@ -2446,9 +2459,9 @@ export const langen = {
          pl_session_detail : {
             wagner_part : {
                 title : 'Diversity in art education 2.0',
-                time : '05.25(화) 13:00~13:40',
+                time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : '1001',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
@@ -2458,26 +2471,27 @@ export const langen = {
                         moder : '',
                         name : 'Ernst Wagner',
                         en_name : '',
-                        li_title : '유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일',
-                        li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술 교육에 대한 가장 중요한 문서를 다시 살펴볼 때다.\n'
-                                    +'서울 어젠다는 큰 성공을 거뒀고 그 이후로 많은 것이 성취되었다. 서울 어젠다가 유니트윈(UNITWIN)같은 네트워크에 국제적으로 집중된 협력을 촉발시킨 것을 예로 들 수 있다. 그러나, 2017년에 벤 볼든과 다른 사람들이 함께 발간한 전 세계 예술교육의 이해도에 대한 비교 연구(국제예술교육연보, V5, 2017)에선 서울 어젠다의 목표에 대한 세계적인 공감 하에 현저하게 다르고, 또 다양한 형태가 존재하고 있음을 보여준다.\n\n'
-                                    +'언스트 바그너의 강의는 이러한 다양성이 새롭게 보여질 필요가 있다는 것을 보여주기 위해 "시각적 문화의 탐구"를 예시로 사용할 것이다. 바그너는 이견에 대해서 추가적인 심사 숙고가 절대적으로 필요하다는 것을 보여줄 것이다.  그래야만 서울 어젠다의 3번째 목표인, "문화 다양성 증진과 문화적 대화"가 실행될 수 있다. 전 세계적으로 정치적, 그리고 문화적 긴장감이 고조되는 시대에, 오로지 예술 교육만이 문화적 다양성을 심각하게 받아들이고, 전세계의 이해당사자들을 진정한 대화에 끌어들임으로써 "문화적 문제의 해결"에 도움이 될 수 있다. 이 프레젠테이션에서는 이 방법이 어떻게 작용되는지에 대한 원칙이 제시될 것이다.'
+                        li_title : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
+                        li_contents : 'More than ten years after the adoption of the Seoul Agenda, it is time to take a fresh look at this most important document on Arts Education worldwide. The Seoul Agenda has been a great success. Much has been achieved since then. For example, the Seoul Agenda has triggered intensive international cooperation in networks such as UNITWIN. But a comparative study on the understandings of arts education worldwide, published together with Ben Bolden and many others in 2017 (International Yearbook for Research in Arts Education, V5, 2017), shows that under the global consensus on the goals of the Seoul Agenda, quite different, diverse forms exist locally.\n\n'
+                                     +"Ernst Wagner's lecture will use the example of the global project Exploring Visual Cultures to show that this diversity needs to be looked at anew. He will show that it is absolutely necessary to take differences more into account. Only then will it be possible to implement the third goal of the Seoul"
+                                     +'Agenda: "Promotion of … cultural diversity and intercultural dialogue". In an era of increasing political and cultural tensions worldwide, Arts Education can only help “resolving the … cultural challenges” if it finally takes cultural diversity seriously and engages stakeholders worldwide in a genuine dialogue. The presentation will suggest principles how this could work.'
                     },
                     {
                         img : pl_detail1_img_02,
                         moder : '[Moderator]',
                         name : 'Chee-Hoo Lum',
                         en_name : '',
-                        li_title : '국립교육원 부교수, 싱가포르',
-                        li_contents : "치후 룸은 싱가포르 난양공대 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다.\n\n"
-                                      +"그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1)『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』 (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 컨퍼런스 프레젠테이션을 했다."                    }
+                        li_title : '- Associate Professor, Nanyang Technological University, Singapore',
+                        li_contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
+                                      +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.'
+                    }
                 ]
             },
             jorissen_part : {
-                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability."Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
-                time : '05.26(수) 13:40~15:10',
+                title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : true,
+                download : false,
                 chatlink : '1002',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
@@ -2487,17 +2501,17 @@ export const langen = {
                         moder : '',
                         name : 'Benjamin Jörissen',
                         en_name : '',
-                        li_title : '- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일',
-                        li_contents : '벤자민 요리슨은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히-알렉산더-대학교 에를랑겐-누른베르크에서 유네스코 교육 예술 문화 의장직을 맡고 있다. 또한 벤자민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
-                                      +'요리슨은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 “예술과 문화 교육의 디지털화”와 같은 예술 교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 요리슨 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』. 왁스만, 요리슨/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』. 요리슨/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』'
+                        li_title : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
+                        li_contents : 'Benjamin Jörissen is Chairholder of the Chair of Education with a focus on Culture and Aesthetics and of the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-University Erlangen-Nuremberg. He is, amongst others, member of the European Academy of Sciences and Arts and of the German Council for Arts and Cultural Education. His research focuses on educational theory and on empirical research in cultural, arts, and aesthetic education, especially with regard to UNESCO-related issues and the transformation of education in a post-digital culture.\n\n'
+                                      +'Jörissen leads several major empirical research projects on digitalisation in arts education, such as the Meta-Project „Digitalisation in Arts and Cultural Education“ funded by the German Ministry of Education and Research. Recent and upcoming publications: Jörissen e.a. (2018): Spectra of Transformation: Arts Education Research and Cultural Dynamics. Münster/New York: Waxmann; Jörissen/Kröner/Unterberg (2019): Forschung zur Digitalisierung in der kulturellen Bildung [Research on digitalization in cultural education]. Munich: kopaed; Jörissen/Unterberg/Klkepacki (Eds.): Aesthetics of Transformation. Arts Education Research and the Challenge of Cultural Sustainability.'
                     },
                     {
                         img : session_img_43,
                         moder : '[Moderator]',
                         name : 'Tanja Klepacki',
                         en_name : '',
-                        li_title : '- 유네스코 문화예술교육 선임 연구원, 독일',
-                        li_contents : '바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정바이오 미정'
+                        li_title : '- senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                        li_contents : 'Dr. Tanja Klepacki is the senior researcher at the UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität (FAU) Erlangen-Nürnberg (Germany). Amongst others, she serves as executive manager of the Chair’s Academy of School Theatre and Performative Education in Nuremberg. Her fields of work include theoretical and empirical studies in the realm of cultural and aesthetic education. Since December 2020, she also leads the editorial office of the newly founded peer-reviewed, open access "International Journal of Research in Cultural, Aesthetic, and Arts Education".'
                     }
                 ]
             }  

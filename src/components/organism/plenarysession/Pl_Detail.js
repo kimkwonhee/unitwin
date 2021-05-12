@@ -16,12 +16,6 @@ const Pl_Detail = ({match}) => {
         curlang : state.changlang.curlang
     }))
 
-    const chatRef = useRef(null)
-    const chatDef = {
-        scroll: 1150,
-        height: 600
-    }
-
     useEffect(() => {
         window.scrollTo(0,0);
         const onScroll = () => {
@@ -34,12 +28,13 @@ const Pl_Detail = ({match}) => {
         // Chat Scroll
         window.addEventListener('scroll', onScroll)
         return () => window.removeEventListener('scroll' , onScroll);
-    }, []);
+    }, [curlang]);
 
     const p_detaildata = curlang.p_data.pl_session_detail;
     const m_detaildata = curlang.m_data.pl_session_detail;
 
     let pathname = match.params.detail
+    let langstatus = curlang.status
     
     // PC
     let P_topsection = null
@@ -56,8 +51,19 @@ const Pl_Detail = ({match}) => {
     let M_chatlink = null
     let M_download_link = null
 
+    const chatRef = useRef(null)
+    let chatDef = {
+        scroll: 1150,
+        height: 600
+    }
 
     if (pathname == '1') {
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 980, height: 600 }
+        } else if (langstatus === 'en') {
+            chatDef = { scroll: 1150, height: 600 }
+        }
+
         P_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
         M_topsection = <MTop title={m_detaildata.wagner_part.title} time={m_detaildata.wagner_part.time} />
         
@@ -82,6 +88,12 @@ const Pl_Detail = ({match}) => {
         
     }
     else if (pathname == '2') {
+        if(langstatus === 'kr') {
+            chatDef = { scroll: 850, height: 600 }
+        } else {
+            chatDef = { scroll: 1050, height: 600 }
+        }
+
         P_topsection = <PTop title={p_detaildata.jorissen_part.title} time={p_detaildata.jorissen_part.time} />
         M_topsection = <MTop title={m_detaildata.jorissen_part.title} time={m_detaildata.jorissen_part.time} />
         
@@ -161,6 +173,7 @@ const Pl_Detail = ({match}) => {
                     <MDownlodebtn 
                         down={M_downbtn} 
                         downlink={M_download_link}
+                        status={langstatus}
                     >
                         {curlang.m_data.classdownload}
                     </MDownlodebtn>
@@ -301,7 +314,7 @@ const MVideoText = styled.div`
     color: ${color.black};
 `
 const MDownlodebtn = styled(Downloadbtn)`
-    width : 146px;
+    width : ${props => (props.status === 'kr') ? '146px' : '220px'};
     height : 36px;
     margin-bottom : 40px;
 `

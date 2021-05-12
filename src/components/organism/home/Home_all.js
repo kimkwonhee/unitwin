@@ -94,8 +94,7 @@ const Home_all = () => {
                             <PTueCharacter2>{p_tue2.text7}</PTueCharacter2>
                             <PLink 
                                 status={langstatus}
-                                ktop="85px"
-                                etop="100px"
+                                etop="65px"
                                 to={p_tue2.link}
                             >
                                 <PMove>{curlang.p_data.move}</PMove>
@@ -207,7 +206,7 @@ const Home_all = () => {
                                 <PTueCharacter2>{p_wed3.text7}</PTueCharacter2>
                                 <PLink 
                                     status={langstatus} 
-                                    etop="30px"
+                                    etop="10px"
                                     to={p_wed3.link}
                                     >
                                     <PMove ove>{curlang.p_data.move}</PMove>
@@ -223,7 +222,7 @@ const Home_all = () => {
                                 <PTueCharacter2>{p_wed4.text7}</PTueCharacter2>
                                 <PLink 
                                     status={langstatus}
-                                    etop="8px"
+                                    etop="20px"
                                     to={p_wed4.link}
                                 >
                                     <PMove ove>{curlang.p_data.move}</PMove>
@@ -657,6 +656,7 @@ const MContents = styled.div`
     border-top: solid 0.5px ${color.turtle_green};
 `
 const MTime = styled.div`
+    width : 120px;
     font-size: 14px;
     color: ${color.brownish_grey};
     margin-right: 35px;

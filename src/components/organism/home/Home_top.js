@@ -97,7 +97,7 @@ const Home_top = ({className , curlang}) => {
 // PC
 const PWrapper = styled.div`
     width : auto;
-    height : ${props => props.status === 'kr' ? '1400px' : '1350px'};
+    height : ${props => props.status === 'kr' ? '1400px' : '1450px'};
     display : flex;
     justify-content : center;
     padding-bottom : 100px;
@@ -167,7 +167,7 @@ const PContents = styled(PageTopArea)`
 // Mobile
 const MWrapper = styled.div`
     width : auto;
-    height : ${props => props.status == 'kr' ? '800px' : '790px'};
+    height : ${props => props.status == 'kr' ? '800px' : '890px'};
     padding : 0 16px 50px 16px; 
     display : flex;
     justify-content : center;
