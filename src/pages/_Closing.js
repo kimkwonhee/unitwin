@@ -67,7 +67,7 @@ const _Closing = () => {
                                 <PChatArea>
                                     <PChatText>{curlang.p_data.realchating}</PChatText>
                                 </PChatArea>
-                                <PChat ref={chatRef} src={env.chat+'1000'} />
+                                <PChat ref={chatRef} src={p_detaildata.chatlink} />
                             </PRightArea>
                         </Affix> 
                     </PCenterArea>

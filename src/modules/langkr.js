@@ -1490,7 +1490,7 @@ export const langkr = {
                 time : '05.26(수) 17:05~18:25',
                 video_text : '한국 문화예술교육 실천가‧교육가‧기관별 사례를 통해 예술교육의 위기를 창조적으로 돌파하는 방법과 사회 위기 해결에 대안을 제시할 수 있는 방법을 모색합니다.',
                 download : false,
-                chatlink : 'http://arteweek.kr/2021/unitwin2021/chat/index.html?r=1010&l=kr',
+                chatlink : env.chat+'1010',
                 youtube : 'https://www.youtube.com/embed/PdX_kOdePVY',
                 list : [
                     {
@@ -1519,7 +1519,7 @@ export const langkr = {
                                 job : '- 프리랜서 문화예술교육사, 한국',
                                 contents : "공윤지는 문화예술교육 현장에서 학습자와 교육자 간의 소통과 교감에 의해 완성되는 소셜 인터랙션 과정에 관심이 있다. 문화예술교육사로서 메이커 문화와 그림책 기반 인문예술교육을 하고 있으며, 창작 그림책 작업을 병행하고 있다. 한국예술종합학교에서 인터랙션 디자인을 전공하고, 그림책상상 그림책학교에서 글 없는 그림책을 공부했다. 2009년부터 국립극장, 서울문화재단, 한국콘텐츠진흥원, 한국문화예술교육진흥원, 서울디자인재단 등에서 교육과 연구를 이어오고 있다.",
                                 download : true,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                downlink : env.link + '/공윤지_뉴노멀_청소년에게_그림책으로_질문_던지기.pdf',
                             }
                         ]
                     },

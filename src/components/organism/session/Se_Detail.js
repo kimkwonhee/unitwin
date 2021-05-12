@@ -247,7 +247,7 @@ const Se_Detail = ({match}) => {
                                 {P_contentsection}
                             </PContentsArea>
                         </PLeftArea>
-                        <Affix offsetTop={100}>
+                        {/* <Affix offsetTop={100}>
                             <PRightArea>
                                 <PChatLine />
                                 <PChatArea>
@@ -255,7 +255,7 @@ const Se_Detail = ({match}) => {
                                 </PChatArea>
                                 <PChat ref={chatRef} src={P_chatlink} />
                             </PRightArea>
-                        </Affix>
+                        </Affix> */}
                     </PCenterArea>
                 </PInner>
             </PWrapper>

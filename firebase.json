@@ -8,7 +8,7 @@
     ],
     "redirects": [ {
       "source": "/",
-      "destination": "/unitwin/home",
+      "destination": "/unitwin2021/home",
       "type": 301
     } ],
     "rewrites": [ {
