@@ -32,7 +32,6 @@ const Se_Detail = ({match}) => {
         return () => window.removeEventListener('scroll' , onScroll);
     }, []);
 
-<<<<<<< HEAD
     // 채팅 언어 변경
     useEffect(() => {
         var frame = chatRef.current;
@@ -50,8 +49,6 @@ const Se_Detail = ({match}) => {
             };
         }, 10);
     }, [curlang]);
-=======
->>>>>>> kim
 
     const p_detaildata = curlang.p_data.session_detail;
     const m_detaildata = curlang.m_data.session_detail;
@@ -276,11 +273,6 @@ const Se_Detail = ({match}) => {
                                 <PChat ref={chatRef} src={P_chatlink} />
                             </PRightArea>
                         </Affix>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> kim
                     </PCenterArea>
                 </PInner>
             </PWrapper>
