@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import color from '../../style/color'
 
 const Themebtn = ({children, padding, onClick, selectedcatagory, value, className}) => {
+    
     return (
         <Wrapper 
             padding={padding} 
