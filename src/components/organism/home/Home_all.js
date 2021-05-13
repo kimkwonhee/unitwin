@@ -680,6 +680,7 @@ const MSubTitle = styled.div`
     font-size: 14px;
     font-weight: 500;
     white-space : pre-line;
+    word-break : keep-all;
     color: ${color.turtle_green};
 `
 

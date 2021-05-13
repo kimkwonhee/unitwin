@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import color from '../../../style/color'
 import Calendarbtn from '../../atom/Calendarbtn'
 import PageTopArea from '../../molecules/PageTopArea'
 import Home_all from './Home_all'
 import Home_day1 from './Home_day1'
 import Home_day2 from './Home_day2'
 import Home_day3 from './Home_day3'
+import timeimg from '../../../images/time_img.png'
 
 const Home_center = ({curlang}) => {
     const p_detaildata = curlang.p_data.home_center;
@@ -17,7 +19,9 @@ const Home_center = ({curlang}) => {
     const onClick = (site, number) => {
         setCal(site);
         setStatus(number);
-    }   
+    }
+
+    let langstatus = curlang.status
 
     return (
         <>
@@ -29,6 +33,13 @@ const Home_center = ({curlang}) => {
                             contents={p_detaildata.contents}
                             subfontsize="20px"
                         />
+                        <PTimeArea>
+                            <PTimeBaseText>{curlang.p_data.basetimetext}</PTimeBaseText>
+                            <PTimeChangebtn href="https://www.thetimezoneconverter.com/" target="_blank">
+                                <PTimeImg src={timeimg} alt="time"/>
+                                <PTimeChangeText>{curlang.p_data.timechang}</PTimeChangeText>
+                            </PTimeChangebtn>
+                        </PTimeArea>
                     <PSection1>
                         <Calendarbtn 
                             id="1"
@@ -69,6 +80,11 @@ const Home_center = ({curlang}) => {
                             contents={m_detaildata.contents}
                             subfontsize="20px"
                         />
+                    <MTimeBaseText>{curlang.p_data.basetimetext}</MTimeBaseText>
+                    <MTimeChangebtn status={langstatus} href="https://www.thetimezoneconverter.com/" target="_blank">
+                        <MTimeImg src={timeimg} alt="time"/>
+                        <MTimeChangeText>{curlang.p_data.timechang}</MTimeChangeText>
+                    </MTimeChangebtn>
                     <MSection1>
                         <Calendarbtn 
                             id="1"
@@ -119,10 +135,43 @@ const PWrapper = styled.div`
 const PInner = styled.div`
     width : 1200px;
 `
+const PTimeArea = styled.div`
+    margin-top : 16px;
+    margin-bottom : 40px;
+    display : flex;
+    justify-content : space-between;
+`
 const PContents = styled(PageTopArea)`
     margin-top : 100px;
-    margin-bottom : 100px;
 `
+const PTimeImg = styled.img`
+    width : 20px;
+    height : 20px;
+    margin-right : 8px;
+`
+const PTimeBaseText = styled.div`
+     font-size: 16px;
+     font-weight: 500;
+     color: #e43c00;
+`
+const PTimeChangebtn = styled.a`
+    padding : 8px 35px;
+    background-color: ${color.turtle_green};
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    transition : .6s;
+    &:hover {
+        opacity : 0.8;
+    }
+`
+const PTimeChangeText = styled.div`
+    font-size: 14px;
+    font-weight: bold;
+    color: ${color.white};
+`
+
+
 const PSection1 = styled.div`
     display : flex;
     justify-content : space-between;
@@ -141,6 +190,37 @@ const MWrapper = styled.div`
     @media all and (min-width:1200px) {
         display : none;
     }
+`
+const MTimeBaseText = styled.div`
+    font-size: 16px;
+    font-weight: 500;
+    color: #e43c00;
+`
+
+const MTimeChangebtn = styled.a`
+    width : ${props => props.status === 'kr' ? '177px' : '250px;'};
+    height : 36px;
+    margin-top : 12px;
+    margin-bottom : 20px;
+    background-color: ${color.turtle_green};
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    transition : .6s;
+    &:hover {
+        opacity : 0.8;
+    }
+`
+const MTimeImg = styled.img`
+    width : 20px;
+    height : 20px;
+    margin-right : 8px;
+`
+
+const MTimeChangeText = styled.div`
+    font-size: 14px;
+    font-weight: bold;
+    color: ${color.white};
 `
 const MInner = styled.div`
     position : relative;
