@@ -15,6 +15,7 @@ var app = new Vue({
         if (this.isStart) {
             this.fb.setFocus('send_input', 100);
             this.fb.scrollDown('message', 100);
+            this.onScroll();
             
         } else {
             var result = this.fb.errorCode(true, 'E1000', 'Main');
@@ -27,15 +28,19 @@ var app = new Vue({
         label: {
             en: {
                 name: 'UNITWIN Symposium Facilitation Team',
-                placeholder: 'Please enter your message.'
+                placeholder: 'Please enter your message.',
+                wait: 'Wait 3sec'
             },
             kr: {
                 name: '유니트윈 운영사무국',
-                placeholder: '메시지를 입력해 주세요.'
+                placeholder: '메시지를 입력해 주세요.',
+                wait: '3초만 기다려 주세요'
             }
         },
-        timer: 3000,
+        timer: 500,
         isTyping: false,
+        didScroll: true,
+        isBottom: false,
         lang: 'kr'
     },
     computed: {
@@ -54,6 +59,29 @@ var app = new Vue({
         }
     },
     methods: {
+        // On Scroll
+        onScroll: function() {
+            $("#message").scroll(function() {
+                var scrollTop = $(this).scrollTop();
+                var innerHeight = $(this).innerHeight();
+                var scrollHeight = $(this).prop('scrollHeight');
+        
+                if (scrollTop + innerHeight >= scrollHeight) {
+                    _this.isBottom = false;
+                } else {
+                    _this.isBottom = true;
+                }
+            });
+        },
+
+        // Down Button
+        down: function() {
+            this.fb.scrollDown('message', 100);
+            this.fb.setFocus('send_input', 100);
+            this.isBottom = true;
+        },
+
+        // Send
         send: function() {
             // 메시지 전송
             if (!this.isTyping) {
@@ -65,9 +93,8 @@ var app = new Vue({
 
                 // 스크롤 마지막으로 이동
                 this.fb.scrollDown('message', 100);
-
                 this.isTyping = true;
-                
+
                 // 3초 딜레이 해제
                 setTimeout(function() {
                     try {
