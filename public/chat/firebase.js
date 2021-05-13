@@ -58,7 +58,7 @@ Firebase.prototype.init = function() {
             this.db.collection(this.def.collection).doc(this.def.doc).collection(this.def.room)
             .where('isDeleted', '==', false)
             .orderBy('created', 'desc')
-            .limit(this.def.limit)
+            // .limit(this.def.limit)
             .onSnapshot(function(doc) {
                 if (!doc.empty) {
                     app.list = [];            
