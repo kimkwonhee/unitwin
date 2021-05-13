@@ -25,6 +25,8 @@ const _Session = () => {
     useEffect(() => {
         setSelList(p_detaildata[2].item);
         m_setSelList(m_detaildata[2].item);
+        setSelectCatagory(p_detaildata[1].catagory1.text1);
+        setMSelectCatagory(m_detaildata[1].catagory1.text1);
     }, [curlang]);
 
     useEffect(() => {
