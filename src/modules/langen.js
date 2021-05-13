@@ -253,7 +253,7 @@ export const langen = {
                 },
                 wed6 : {
                     text1 : '18:25-19:25',
-                    text2 : 'UNITWIN Closing Ceremony',
+                    text2 : 'Closing Ceremony',
                     link : '/unitwin2021/closing-ceremony'
                 },
             }
@@ -486,7 +486,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 2',
                 text2 : '13:00 - 13:40',
-                text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
+                text3 : '“UNITWIN – Arts Education Research for Cultural\nDiversity and Sustainable Development”',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
                 text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”/Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
@@ -609,7 +609,7 @@ export const langen = {
                 link : '/unitwin2021/session/8'
             },
             session6 : {
-                text1 : 'UNITWIN Closing Ceremony',
+                text1 : 'Closing Ceremony',
                 text2 : '18:25-19:25',
                 text3 : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
                 link : '/unitwin2021/closing-ceremony'
@@ -2075,7 +2075,7 @@ export const langen = {
                 text14 : 'Session 8',
                 text15 : '(Arts and Education in the Field 2)',
                 text16 : '18:25-19:25',
-                text17 : 'UNITWIN Closing Ceremony',
+                text17 : 'Closing Ceremony',
             }
         },
 
@@ -2306,7 +2306,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 2',
                 text2 : '13:00-13:40',
-                text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
+                text3 : '“UNITWIN – Arts Education Research for Cultural\nDiversity and Sustainable Development”',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
                 text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”/Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
@@ -2429,7 +2429,7 @@ export const langen = {
                 link : '/unitwin2021/session/8'
             },
             session6 : {
-                text1 : 'UNITWIN Closing Ceremony',
+                text1 : 'Closing Ceremony',
                 text2 : '18:25-19:25',
                 text3 : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
                 link : '/unitwin2021/closing-ceremony'
