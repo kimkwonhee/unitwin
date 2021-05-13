@@ -714,7 +714,7 @@ export const langkr = {
 
             },
             {
-                title : '강연자 소개',
+                title : '발제자 소개',
                 contents : '',
                 keyword : '',
                 catagory1 : {
@@ -2525,7 +2525,7 @@ export const langkr = {
                             +'제4회 유니트윈 학술대회는 "위기의 시대, 행동하는 예술교육"를 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있게 기여할 수 있는지 논하려 합니다.',
             },
             {
-                title : '강연자 소개',
+                title : '발제자 소개',
                 contents : '',
                 keyword : '키워드',
                 catagory1 : {
