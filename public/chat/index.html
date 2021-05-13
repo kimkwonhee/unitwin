@@ -26,6 +26,10 @@
                     <div class='content' v-html='getContent(data)'></div>
                 </div>
             </section>
+
+            <div id='down' v-if='isBottom'>
+                <img src='./down.svg' @click='down' />
+            </div>
         </section>
 
         <section id='send' v-if='isStart'>

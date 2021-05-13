@@ -26,7 +26,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "PUBLIC_URL='/unitwin2021/' react-scripts build",
-    "build_dev": "PUBLIC_URL='/2021/unitwin2021/' react-scripts build",
     "build_ori": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

@@ -79,10 +79,15 @@ Firebase.prototype.init = function() {
                     app.list = [];
                 }
 
-                // 스크롤 마지막으로 이동 (처음만)
+                // 스크롤 관련
                 if (!self.isScroll) {
+                    // 스크롤 마지막으로 이동 (처음만)
                     self.scrollDown('message', 100);
                     self.isScroll = true;
+
+                } else {
+                    // 하단 버튼 생성
+                    app.isBottom = true;
                 }
 
             }, function(error) {
