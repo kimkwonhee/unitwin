@@ -21,6 +21,7 @@ function Firebase(config, def) {
     this.db = null;
     this.isStart = false;
     this.list = 0;
+    this.isScroll = false;
 
     // Init (Firebase)
     firebase.initializeApp(this.config);
@@ -78,8 +79,11 @@ Firebase.prototype.init = function() {
                     app.list = [];
                 }
 
-                // 스크롤 마지막으로 이동
-                self.scrollDown('message', 100);
+                // 스크롤 마지막으로 이동 (처음만)
+                if (!self.isScroll) {
+                    self.scrollDown('message', 100);
+                    self.isScroll = true;
+                }
 
             }, function(error) {
                 self.errorCode(self.def.isDebug, 'E1002', 'firebase init', error);

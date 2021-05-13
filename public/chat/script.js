@@ -62,6 +62,10 @@ var app = new Vue({
                     this.fb.set(this.message);
                     this.message = '';
                 }
+
+                // 스크롤 마지막으로 이동
+                this.fb.scrollDown('message', 100);
+
                 this.isTyping = true;
                 
                 // 3초 딜레이 해제
