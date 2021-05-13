@@ -437,6 +437,7 @@ const MLeftTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
     white-space : pre-line;
+    word-break : keep-all;
     color: ${color.black};
 `
 const MLeftTime = styled.div`
@@ -450,6 +451,7 @@ const MRightTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
     white-space : pre-line;
+    word-break : break-all;
     color: ${color.black};
 `
 const MRight = styled.div`
@@ -490,6 +492,7 @@ const MRightEnName = styled.span`
 const MRightJop = styled.div`
     font-size: 12px;
     white-space : pre-line;
+    word-break : keep-all;
     color: ${color.black};
 `
 

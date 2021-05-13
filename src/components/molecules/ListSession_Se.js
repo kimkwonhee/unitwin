@@ -54,21 +54,21 @@ const ListSession_Se = ({className, data}) => {
                             <MModer>{list.moder}</MModer>
                             <MTitle>{list.li_title}</MTitle>
                             <MInner>
-                                {list.li_data.map(data => {
+                                {list.li_data.map((data, i )=> {
                                     return <>
-                                        <MTextblock>
-                                        <MImg src={data.imgs} alt={data.name} />     
-                                        </MTextblock>
-                                        <MName>{data.name}</MName>
-                                        <MEnName>{data.enname}</MEnName>
-                                        <MListtitle>{data.job}</MListtitle>
-                                        <MContents dangerouslySetInnerHTML={ {__html: data.contents} } />
-                                        <MDownlodebtn 
-                                            downlink={data.downlink}
-                                            down={data.download} 
-                                        >
-                                            {curlang.m_data.classdownload}
-                                        </MDownlodebtn>
+                                            <MTextblock>
+                                                <MImg src={data.imgs} alt={data.name} />     
+                                            </MTextblock>
+                                            <MName>{data.name}</MName>
+                                            <MEnName>{data.enname}</MEnName>
+                                            <MListtitle>{data.job}</MListtitle>
+                                            <MContents dangerouslySetInnerHTML={ {__html: data.contents} } />
+                                            <MDownlodebtn 
+                                                downlink={data.downlink}
+                                                down={data.download} 
+                                            >
+                                                {curlang.m_data.classdownload}
+                                            </MDownlodebtn>   
                                     </>
                                 })}
                             </MInner>
@@ -194,17 +194,25 @@ const MInner = styled.div`
     border-top : 1px solid ${color.turtle_green};
 `
 const MTextblock = styled.div`
+    /* padding-top  : 60px; */
+    /* &:first-child {
+        padding-top  : 0px;
+    } */
 `
 const MImg = styled.img`
     width : 180px;
     height : 180px;
     border-radius : 150px;
+    margin-top  : 0px;
 `
 const MName = styled.div`
     margin-top : 28px;
     font-size: 14px;
     font-weight: bold;
     color: ${color.black};
+`
+const MEmpty = styled.div`
+    margin-top : 60px;
 `
 const MEnName = styled.div`
     margin-top : 2px;
@@ -216,6 +224,7 @@ const MListtitle = styled.div`
     margin-top : 14px;
     font-size: 14px;
     text-align : center;
+    word-break : keep-all;
     color: ${color.black};
 `
 const MContents = styled.div`
@@ -226,7 +235,6 @@ const MContents = styled.div`
     white-space : pre-line;
     word-break : keep-all;
 `
-
 const MDownlodebtn = styled(Downloadbtn)`
     margin-top : 28px;
 `

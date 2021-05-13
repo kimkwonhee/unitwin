@@ -640,6 +640,7 @@ const MLeftTitle = styled.div`
     font-weight: bold;
     white-space : pre-line;
     color: ${color.black};
+    word-break : keep-all;
 `
 const MLeftSub = styled.div`
     margin-top : 12px;
@@ -647,6 +648,7 @@ const MLeftSub = styled.div`
     font-weight: bold;
     white-space : pre-line;
     color: ${color.turtle_green};
+    word-break : keep-all;
 `
 const MLeftTime = styled.div`
     margin-top : 2px;
@@ -668,6 +670,7 @@ const MRightTitle = styled.div`
     font-weight: bold;
     white-space : pre-line;
     color: ${color.black};
+    word-break : keep-all;
 `
 
 const MRight = styled.div`
@@ -710,6 +713,7 @@ const MRightJop = styled.div`
     font-size: 12px;
     white-space : pre-line;
     color: ${color.black};
+    word-break : keep-all;
 `
 
 const MLink = styled(Link)`

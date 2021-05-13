@@ -60,13 +60,18 @@ const PText = styled.div`
 
 // Mobile
 const MWrapper = styled.a`
-    cursor: pointer;
+    ${props => props.href ==='' ? 'pointer-events: none' : 'cursor: pointer' };
     width : ${props => (props.status === 'kr') ? '146px' : '220px'};
     height : 36px;
     display : ${props => props.down ? 'flex' : 'none'};
     justify-content : center;
     align-items : center;
-    background-color: ${color.turtle_green};
+    background-color: ${props => props.href ==='' ?color.white : color.turtle_green };
+    margin-bottom : ${props => props.href ==='' ? null : '60px' };
+
+    &:last-child {
+        margin-bottom : 0px;
+    }
     
     @media all and (min-width:1200px) {
         display : none;

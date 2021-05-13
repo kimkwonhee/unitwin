@@ -64,11 +64,7 @@ import closing_img_01 from '../images/session_26.png'
 import closing_img_02 from '../images/session_27.png'
 import closing_img_03 from '../images/session_28.png'
 import closing_img_04 from '../images/session_29.png'
-import closing_img_05 from '../images/session_15.png'
-import closing_img_06 from '../images/session_16.png'
-import closing_img_08 from '../images/session_17.png'
 import closing_img_09 from '../images/session_10.png'
-import closing_img_10 from '../images/session_30.png'
 import closing_img_11 from '../images/session_31.png'
 import closing_img_12 from '../images/session_32.png'
 import closing_img_13 from '../images/session_33.png'
@@ -87,6 +83,8 @@ export const langen = {
         zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage',
         move : 'Link > ',
+        basetimetext : '* This online symposium will be held based on Korean Standard Time(KST)',
+        timechang : 'The Time Zone Converter',
 
         // 메뉴 바
         menuber : {
@@ -363,7 +361,7 @@ export const langen = {
             session2 : {
                 text1 : 'Session 1',
                 text2 : 'Arts and Education in the Field 1',
-                text3 : '13:00-15:25',
+                text3 : '13:40-15:25',
                 text4 : "The theater is ‘A Small Earth’ ",
                 text5 : 'YongSung Jung',
                 text6 : '- Director, National Theater Company of Korea, Republic of Korea',
@@ -392,10 +390,10 @@ export const langen = {
                 text5 : 'Tiina Kukkonen',
                 text6 : '',
                 text7 : "- Ph.D. candidate, Queen's University, Canada",
-                text8 : '"The Importance of Drama/Theatre Education and Arts Education as the Source of Stability in an ever Changing World”',
+                text8 : '"The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World”',
                 text9 : 'Sanja Krsmanović Tasić',
                 text10 : '',
-                text11 : '- President, International Drama/Theatre Education Association(IDEA), Serbia',
+                text11 : '- President, International Drama / Theatre Education Association(IDEA), Serbia',
                 text12 : 'Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms',
                 text13 : 'MC Bettman',
                 text14 : '',
@@ -455,7 +453,7 @@ export const langen = {
                 text18 : 'Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
-                text21 : '- The Melbourne Graduate School of Education, The University of Melbourne',
+                text21 : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
                 text22 : 'Mark Selkrig',
                 text23 : '',
                 text24 : '- The Melbourne Graduate School of Education, The University of Melbourne',
@@ -530,10 +528,10 @@ export const langen = {
                 text1 : 'Session 6',
                 text2 : 'Arts Engagement',
                 text3 : '15:10-16:40',
-                text4 : 'Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?',
+                text4 : 'Renegotiating Identities: How Does the Online Arts Education Affect the Identities of Teaching Artists?',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                text7 : 'Development of museum/art museum education programmes for participation and sharing in the era of online viewing',
+                text7 : 'Development of museum / art museum education programmes for participation and sharing in the era of online viewing',
                 text8 : 'Hyeyoun Chung',
                 text9 : '- Assistant professor, Hongik University, Republic of Korea',
                 text10 : 'Hyojin Sung',
@@ -590,7 +588,7 @@ export const langen = {
                 text1 : 'Session 8',
                 text2 : 'Arts and Education in the Field 2',
                 text3 : '16:40-18:25',
-                text4 : 'A Practice of Inclusive Arts Education : Focusing on a Case Study of Climate Crisis Class by Chaeknuna Project',
+                text4 : 'Arts in time of crisis: The case of inequality',
                 text5 : 'Soohye Jang',
                 text6 : '- Founding Director, Chaeknuna Project, Republic of Korea',
                 text7 : 'Asking questions to youth with picture books who are living in new-normal days',
@@ -898,7 +896,7 @@ export const langen = {
             b : {
                 title : 'Session 2',
                 subject : 'Arts for Healing',
-                time : '25 MAY, 15:00-16:30',
+                time : '25 MAY, 15:25-16:55',
                 video_text : 'In this session, for many psychological and mental diseases caused by modern society, we discover our egos anew and seek healing through artistic intervention to build healthy relationships with society.',
                 download : false,
                 chatlink : '1004',
@@ -1479,7 +1477,7 @@ export const langen = {
                         li_title : "Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic",
                         li_data : [
                             {
-                                imgs : session_img_34,
+                                imgs : session_img_35,
                                 name : 'Sean Corcoran',
                                 enname : '',
                                 job : '- Ph.D. candidate, Queen’s University, Canada',
@@ -1554,7 +1552,7 @@ export const langen = {
                                 job : '- Freelance Teaching Artist, Republic of Korea',
                                 contents : 'Yunji Gong is interested in the social interaction process between learners and Teaching Artist in the arts education field. As a teaching artist, she provides humanities and arts education based on Maker Mindset and Picturebooks. She is also a picturebook artist herself. She majored in Interaction Design at the Korea National University of Arts, and studied Wordless Picturebooks at Picturebook Imagination(<a href="http://www.imagination.kr" target="_blank">www.imagination.kr</a>). Since 2009, she has been carrying out art education and educational research at the National Theater, Seoul Foundation for Arts and Culture, Korea Creative Content Agency, Korea Arts and Culture Education Service, and Seoul Design Foundation.\n\n'
                                           +"She has also created a book called, <The Hummingbird Has Spoken>, a Global Citizenship Education (GCE)  picturebook based on Wangari Matai's fable to promote environmental sensitivity. Currently, this book has been uploaded to the Let's Read e-book library of the Asian Foundation(letsreadasia.org) and offers free English and Bahasa Indonesian versions.",
-                                download : true,
+                                download : false,
                                 downlink : env.link + '/공윤지_뉴노멀_청소년에게_그림책으로_질문_던지기.pdf',
                             }
                         ]
@@ -2183,7 +2181,7 @@ export const langen = {
             session2 : {
                 text1 : 'Session 1',
                 text2 : 'Arts and Education\nin the Field 1',
-                text3 : '13:00-15:25',
+                text3 : '13:40-15:25',
                 text4 : "The theater is ‘A Small Earth’ ",
                 text5 : 'YongSung Jung',
                 text6 : '- Director, National Theater Company of Korea, Republic of Korea',
@@ -2212,10 +2210,10 @@ export const langen = {
                 text5 : 'Tiina Kukkonen',
                 text6 : '',
                 text7 : "- Ph.D. candidate, Queen's University, Canada",
-                text8 : '"The Importance of Drama/Theatre Education and Arts Education as the Source of Stability in an ever Changing World”',
+                text8 : '"The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World”',
                 text9 : 'Sanja Krsmanović Tasić',
                 text10 : '',
-                text11 : '- President, International Drama/Theatre Education Association(IDEA), Serbia',
+                text11 : '- President, International Drama / Theatre Education Association(IDEA), Serbia',
                 text12 : 'Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms',
                 text13 : 'MC Bettman',
                 text14 : '',
@@ -2275,7 +2273,7 @@ export const langen = {
                 text18 : 'Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
-                text21 : '- The Melbourne Graduate School of Education, The University of Melbourne',
+                text21 : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
                 text22 : 'Mark Selkrig',
                 text23 : '',
                 text24 : '- The Melbourne Graduate School of Education, The University of Melbourne',
@@ -2307,7 +2305,7 @@ export const langen = {
             video_text2 : 'View All',
             session1 : {
                 text1 : 'Plenary\nSession 2',
-                text2 : '13:00 - 13:40',
+                text2 : '13:00-13:40',
                 text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? : Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
@@ -2350,10 +2348,10 @@ export const langen = {
                 text1 : 'Session 6',
                 text2 : 'Arts Engagement',
                 text3 : '15:10-16:40',
-                text4 : 'Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?',
+                text4 : 'Renegotiating Identities: How Does the Online Arts Education Affect the Identities of Teaching Artists?',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                text7 : 'Development of museum/art museum education programmes for participation and sharing in the era of online viewing',
+                text7 : 'Development of museum / art museum education programmes for participation and sharing in the era of online viewing',
                 text8 : 'Hyeyoun Chung',
                 text9 : '- Assistant professor, Hongik University, Republic of Korea',
                 text10 : 'Hyojin Sung',
@@ -2410,7 +2408,7 @@ export const langen = {
                 text1 : 'Session 8',
                 text2 : 'Arts and Education\nin the Field 2',
                 text3 : '16:40-18:25',
-                text4 : 'A Practice of Inclusive Arts Education : Focusing on a Case Study of Climate Crisis Class by Chaeknuna Project',
+                text4 : 'Arts in time of crisis: The case of inequality',
                 text5 : 'Soohye Jang',
                 text6 : '- Founding Director, Chaeknuna Project, Republic of Korea',
                 text7 : 'Asking questions to youth with picture books who are living in new-normal days',
@@ -2719,7 +2717,7 @@ export const langen = {
             b : {
                 title : 'Session 2',
                 subject : 'Arts for Healing',
-                time : '25 MAY, 15:00-16:30',
+                time : '25 MAY, 15:25-16:55',
                 video_text : 'In this session, for many psychological and mental diseases caused by modern society, we discover our egos anew and seek healing through artistic intervention to build healthy relationships with society.',
                 download : false,
                 chatlink : '1004',
@@ -2946,8 +2944,8 @@ export const langen = {
                                 job : '- Associate Professor, Nanyang Technological University, Singapore',
                                 contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
                                            +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                downlink : '',
                             },
                             {
                                 imgs : session_img_18,
@@ -3280,8 +3278,8 @@ export const langen = {
                                 job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                                 contents : 'Yuri Kim is a Ph.D. student for integrated art therapy at Ewha Womans University. Her work is based on ten years of experience teaching art to children.\n\n'
                                           +'While working as an arts educator, she became an art therapist with certainty in the therapeutic potential of art. Art therapy activities include art therapy projects for the coexistence of South Korean youth and North Korean defectors, culture and arts therapy projects for the general public at the Korean Culture and Arts Education Promotion Agency, art therapy projects for youth raised in children’s homes, multicultural families, and art therapy for children from single-parent families. Her research interests include multiculturalism, social action, and trauma in art therapy.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                downlink : '',
                             },
                             {
                                 imgs : session_img_34,
@@ -3300,13 +3298,13 @@ export const langen = {
                         li_title : "Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic",
                         li_data : [
                             {
-                                imgs : session_img_34,
+                                imgs : session_img_35,
                                 name : 'Sean Corcoran',
                                 enname : '',
                                 job : '- Ph.D. candidate, Queen’s University, Canada',
                                 contents : 'Sean is a PhD student at Queen’s University who is interested in improvisation, music education, and creating opportunity for all students to engage in meaningful art practices. As an artist, Sean explores the nature of connection: among performers, to audience, and to setting. Recently, Sean has been inspired by the works of Alonzo King and the LINES ballet company, Lido Pimienta, and Vladimir Guerrero Jr.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                downlink : '',
                             },
                             {
                                 imgs : session_img_15,
@@ -3375,7 +3373,7 @@ export const langen = {
                                 job : '- Freelance Teaching Artist, Republic of Korea',
                                 contents : 'Yunji Gong is interested in the social interaction process between learners and Teaching Artist in the arts education field. As a teaching artist, she provides humanities and arts education based on Maker Mindset and Picturebooks. She is also a picturebook artist herself. She majored in Interaction Design at the Korea National University of Arts, and studied Wordless Picturebooks at Picturebook Imagination(<a href="http://www.imagination.kr/" target="_blank">www.imagination.kr/</a>). Since 2009, she has been carrying out art education and educational research at the National Theater, Seoul Foundation for Arts and Culture, Korea Creative Content Agency, Korea Arts and Culture Education Service, and Seoul Design Foundation.\n\n'
                                           +"She has also created a book called, <The Hummingbird Has Spoken>, a Global Citizenship Education (GCE)  picturebook based on Wangari Matai's fable to promote environmental sensitivity. Currently, this book has been uploaded to the Let's Read e-book library of the Asian Foundation(letsreadasia.org) and offers free English and Bahasa Indonesian versions.",
-                                download : true,
+                                download : false,
                                 downlink : env.link + '/공윤지_뉴노멀_청소년에게_그림책으로_질문_던지기.pdf',
                             }
                         ]

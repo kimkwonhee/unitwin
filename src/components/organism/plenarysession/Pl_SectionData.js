@@ -145,6 +145,7 @@ const PEnName = styled.span`
 const PJop = styled.div`
     font-size: 14px;
     font-weight: 500;
+    word-break : keep-all;
     color: ${color.black};
 `
 const PVideobtn = styled(Videobtn)`
@@ -215,6 +216,7 @@ const MJop = styled.div`
     font-size: 14px;
     color: ${color.black};
     white-space: pre-line;
+    word-break : keep-all;
     text-align : center;
     line-height: 1.5;
     margin-bottom : 18px;
@@ -224,6 +226,7 @@ const MDiscription = styled.div`
     font-size: 12px;
     line-height: 1.5;
     text-align : center;
+    word-break : keep-all;
     margin-bottom : ${props => props.location.pathname === env.path+'/byob' ? '0px': '28px' }
 `
 const MVideobtn = styled(Videobtn)`

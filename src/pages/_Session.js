@@ -208,7 +208,7 @@ const MSection = styled.div`
 `
 const MLink = styled(Link)`
     display: inline-block;
-    width: calc(50% - 29px);
+    width: calc(50% - 20px);
     text-decoration : none;
 
     &:nth-child(2n-1) {
