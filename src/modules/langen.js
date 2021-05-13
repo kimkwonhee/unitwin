@@ -710,9 +710,9 @@ export const langen = {
         session : [
             {
                 title : 'Session',
-                contents : 'Korea Art & Culture Education Service is the signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development", we hold an annual symposium for seeking reflection and future of art education. The 4th UNESCO-UNITWIN symposium seeks to discuss how the fundamentals and examples of art education can contribute in-depth to the social and cultural crises facing'
-                          +"today's world under the theme "
-                          +'"Arts Education in and through a Time of Crisis : How arts education can contribute to resolving today’s challenges"',
+                contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development." We hold an annual symposium for seeking reflection and future of arts and culture education. The 4th UNESCO-UNITWIN symposium seeks to discuss how the fundamentals and practices of arts and culture education can contribute in-depth to the social and cultural crises facing'
+                        +"today's world under the "
+                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving today’s challenges."',
             },
             {
                 title : 'Presenter',
@@ -2532,9 +2532,9 @@ export const langen = {
         session : [
             {
                 title : 'Session',
-                contents : 'Korea Art & Culture Education Service is the signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development", we hold an annual symposium for seeking reflection and future of art education. The 4th UNESCO-UNITWIN symposium seeks to discuss how the fundamentals and examples of art education can contribute in-depth to the social and cultural crises facing'
-                          +"today's world under the theme "
-                          +'"Arts Education in and through a Time of Crisis : How arts education can contribute to resolving today’s challenges"',
+                contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development." We hold an annual symposium for seeking reflection and future of arts and culture education. The 4th UNESCO-UNITWIN symposium seeks to discuss how the fundamentals and practices of arts and culture education can contribute in-depth to the social and cultural crises facing'
+                        +"today's world under the "
+                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving today’s challenges."',
             },
             {
                 title : 'Presenter',
