@@ -4,7 +4,13 @@ import color from '../../style/color'
 
 const Themebtn = ({children, padding, onClick, selectedcatagory, value, className}) => {
     return (
-        <Wrapper padding={padding} onClick={onClick} value={value} selectedcatagory={selectedcatagory} className={className}>
+        <Wrapper 
+            padding={padding} 
+            onClick={onClick} 
+            value={value} 
+            selectedcatagory={selectedcatagory} 
+            className={className}
+        >
             <Text>{children}</Text>
         </Wrapper>
     )

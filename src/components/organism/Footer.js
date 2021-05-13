@@ -14,10 +14,10 @@ const Footer = ({className, curlang, langkr, langen}) => {
                     <PSection1>
                         <PAddress>{p_detaildata.ftaddress}</PAddress>
                         <PLogoArea>
-                            <PLogoA>
+                            <PLogoA href={p_detaildata.logolink_a} target="_blank">
                                 <PLogoImgA src={p_detaildata.ftlogo_1} alt={p_detaildata.ftlogo_1_alt} />
                             </PLogoA>
-                            <PLogoB>
+                            <PLogoB href={p_detaildata.logolink_b} target="_blank">
                                 <PLogoImgB src={p_detaildata.ftlogo_2} alt={p_detaildata.ftlogo_2_alt} />
                             </PLogoB>
                         </PLogoArea>
@@ -41,10 +41,10 @@ const Footer = ({className, curlang, langkr, langen}) => {
                         <MAddress>{m_detaildata.ftaddress}</MAddress>
                         <MTelphone>{m_detaildata.fttel}</MTelphone>
                         <MActiveTime>{m_detaildata.activetime}</MActiveTime>
-                        <MLogoA>
+                        <MLogoA href={m_detaildata.logolink_a} target="_blank">
                             <MLogoImgA src={m_detaildata.ftlogo_1} alt={m_detaildata.ftlogo_1_alt} />
                         </MLogoA>
-                        <MLogoB>
+                        <MLogoB href={m_detaildata.logolink_b} target="_blank">
                             <MLogoImgB src={m_detaildata.ftlogo_2} alt={m_detaildata.ftlogo_2_alt} />
                         </MLogoB>
                     </MInner>
@@ -97,14 +97,14 @@ const PAddress = styled.div`
 const PLogoArea = styled.div`
     display : flex;
 `
-const PLogoA = styled.div`
+const PLogoA = styled.a`
     margin-right : 30px;
 `
 const PLogoImgA = styled.img`
     width : 160px;
     height : 32px;
 `
-const PLogoB = styled.div`
+const PLogoB = styled.a`
 `
 const PLogoImgB = styled.img`
     width : 186px;
@@ -159,6 +159,8 @@ const MWrapper = styled.div`
 const MInner = styled.div`
     padding-bottom : 60px;
     border-bottom : 1px solid ${color.brown_grey};
+    display : flex;
+    flex-direction : column;
 `
 const MCenter = styled.div`
     width : 375px;
@@ -190,14 +192,14 @@ const MActiveTime = styled.div`
     font-size: 12px;
     color: ${color.white};
 `
-const MLogoA = styled.div`
+const MLogoA = styled.a`
     margin-top : 40px;
 `
 const MLogoImgA = styled.img`
     width : 120px;
     height : 24px;
 `
-const MLogoB = styled.div`
+const MLogoB = styled.a`
     margin-top : 12px;
 `
 const MLogoImgB = styled.img`

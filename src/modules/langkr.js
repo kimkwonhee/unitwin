@@ -55,6 +55,7 @@ import session_img_41 from '../images/session_48.png'
 import session_img_42 from '../images/session_49.png'
 import session_img_43 from '../images/session_50.png'
 import session_img_44 from '../images/session_51.png'
+import session_img_45 from '../images/session_52.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -62,7 +63,6 @@ import closing_img_01 from '../images/session_26.png'
 import closing_img_02 from '../images/session_27.png'
 import closing_img_03 from '../images/session_28.png'
 import closing_img_04 from '../images/session_29.png'
-import closing_img_09 from '../images/session_10.png'
 import closing_img_11 from '../images/session_31.png'
 import closing_img_12 from '../images/session_32.png'
 import closing_img_13 from '../images/session_33.png'
@@ -77,7 +77,7 @@ export const langkr = {
         videobtn : '영상보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
-        classdownload : '강의자료 다운로드',
+        classdownload : '발제자료 다운로드',
         zoom : '참여하기',
         unithomebtn : '유니트윈 홈페이지 바로가기',
         move : '이동하기 > ',
@@ -124,7 +124,7 @@ export const langkr = {
                     time2 : '13:15-13:25',
                     title2 : '환영사',
                     time3 : '13:25-13:28',
-                    title3 : '축사',
+                    title3 : '해외 축사',
                     time4 : '13:28-13:43',
                     title4 : '기조발제 1',
                     time5 : '13:43-13:58',
@@ -132,8 +132,8 @@ export const langkr = {
                     time6 : '13:58-14:08',
                     title6 : '기조발제 3' ,
                     time7 : '14:08-14:13',
-                    title7 : '개막영상',
-                    title8 : '(모두의 목소리)',
+                    title7 : '개막 영상',
+                    title8 : '(모두의 목소리-문화예술교육을\n통해 바라본 평등의 의미)',
                     time8 : '14:15-15:35',
                     title9 : '제4회 유니트윈\n국제 학술대회 사전행사'
                 }
@@ -249,7 +249,7 @@ export const langkr = {
                 },
                 wed6 : {
                     text1 : '18:25-19:25',
-                    text2 : '폐회 세션',
+                    text2 : '폐회세션',
                     link : '/unitwin2021/closing-ceremony'
                 },
             }
@@ -278,7 +278,7 @@ export const langkr = {
                 text6 : '- 한국문화예술교육진흥원 이사장, 대한민국',
             },
             session3 : {
-                text1 : '축사',
+                text1 : '해외 축사',
                 text2 : '13:25-13:28',
                 text3 : '래리 오패럴 ',
                 text4 : '(Larry O’ Farrell)',
@@ -309,7 +309,7 @@ export const langkr = {
                 text6 : '- 매직스트로베리사운드 싱어송라이터 / 작가, 대한민국',
             },
             session7 : {
-                text1 : '개막영상',
+                text1 : '개막 영상',
                 text2 : '14:08-14:13',
                 text3 : '<모두의 목소리-문화예술교육을 통해 바라본 평등의 의미>',
                 text4 : '우리 곁 시민들(여성·아동·노인·장애인·청소년)과 예술 강사의 목소리로 전하는 사회 위기 속 예술교육의 역할',
@@ -606,7 +606,7 @@ export const langkr = {
                 link : '/unitwin2021/session/8'
             },
             session6 : {
-                text1 : '폐회 세션',
+                text1 : '폐회세션',
                 text2 : '18:25-19:25',
                 text3 : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고,\n예술교육의 방향성을 탐색합니다.',
                 link : '/unitwin2021/closing-ceremony'
@@ -730,14 +730,14 @@ export const langkr = {
                 },
                 catagory2 : {
                     text1 : '전체',
-                    text2 : '팬데믹 / 지속가능예술 / 온라인워크숍',
-                    text3 : '청소년정신건강 / 연극교육 / 심리',
-                    text4 : '글로벌 / 다양성 / 존중',
-                    text5 : '지속가능성 / 환경 / 국제적',
-                    text6 : '다양성포용 / 복원 / 성찰 / 디지털',
-                    text7 : '예술교육가 / 온라인관람 / 창의세대',
-                    text8 : '평등 / LGBTQ / 공존',
-                    text9 : '사회적예술 / 뉴노멀 / 과도기',
+                    text2 : '세션 1: 현장사례연구 1',
+                    text3 : '세션 2: 예술 치유',
+                    text4 : '세션 3: 사회적 & 문화적 포용',
+                    text5 : '세션 4: 서울 어젠다',
+                    text6 : '세션 5: 교실 속의 예술',
+                    text7 : '세션 6: 예술 참여',
+                    text8 : '세션 7: 다양성 & 문화적 묘사',
+                    text9 : '세션 8: 현장사례연구 2',
                 }
             },
             {
@@ -1915,7 +1915,7 @@ export const langkr = {
                     li_contents : '쉬프라 숀만은 이스라엘 하이파 대학교에서 바-넷저 의장의 청년들을 위한 극장, 사회, 교육의 소유주이자 명예교수이다.'
                 },
                 {
-                    img : closing_img_09,
+                    img : session_img_45,
                     moder : '',
                     name : '보와 렁 ',
                     en_name : '(Bo-Wah Leung)',
@@ -1962,7 +1962,9 @@ export const langkr = {
             ftlogo_2_alt : '한국문화예술교육진흥원',
             ftpolicy : '개인정보처리방침',
             ftcopyright : 'Copyright ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.',
-            link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304'
+            link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304',
+            logolink_a : 'https://www.mcst.go.kr/kor/main.jsp',
+            logolink_b : 'https://www.arte.or.kr/'
         },
     },
 
@@ -1972,7 +1974,7 @@ export const langkr = {
         videobtn : '영상보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
-        classdownload : '강의자료 다운로드',
+        classdownload : '발제자료 다운로드',
         zoom : 'ZOOM으로 참여하기',
         unithomebtn : '유니트윈 홈페이지 바로가기  >',
 
@@ -2015,7 +2017,7 @@ export const langkr = {
                 text4 : '13:15-13:25',
                 text5 : '환영사',
                 text6 : '13:25-13:28',
-                text7 : '축사',
+                text7 : '해외 축사',
                 text8 : '13:28-13:43',
                 text9 : '기조발제 1',
                 text10 : '13:43-13:58',
@@ -2023,8 +2025,8 @@ export const langkr = {
                 text12 : '13:58-14:08',
                 text13 : '기조발제 3',
                 text14 : '14:08-14:13',
-                text15 : '개막영상',
-                text16 : '(모두의 목소리)',
+                text15 : '개막 영상',
+                text16 : '(모두의 목소리-문화예술교육을 통해 바라본 평등의 의미)',
                 text17 : '14:15-15:35',
                 text18 : '제4회 유니트윈 국제 학술대회 사전행사',
             },
@@ -2065,7 +2067,7 @@ export const langkr = {
                 text14 : '세션 8',
                 text15 : '(현장사례연구 2)',
                 text16 : '18:25-19:25',
-                text17 : '폐회 세션',
+                text17 : '폐회세션',
             }
         },
 
@@ -2092,7 +2094,7 @@ export const langkr = {
                 text6 : '- 한국문화예술교육진흥원 이사장, 대한민국',
             },
             session3 : {
-                text1 : '축사',
+                text1 : '해외 축사',
                 text2 : '13:25-13:28',
                 text3 : '래리 오패럴 ',
                 text4 : '(Larry O’ Farrell)',
@@ -2123,7 +2125,7 @@ export const langkr = {
                 text6 : '- 매직스트로베리사운드 싱어송라이터 / 작가, 대한민국',
             },
             session7 : {
-                text1 : '개막영상',
+                text1 : '개막 영상',
                 text2 : '14:08-14:13',
                 text3 : '<모두의 목소리-문화예술교육을 통해 바라본 평등의 의미>',
                 text4 : '우리 곁 시민들(여성·아동·노인·장애인·청소년)과 예술 강사의 목소리로 전하는 사회 위기 속 예술교육의 역할',
@@ -2419,7 +2421,7 @@ export const langkr = {
                 link : '/unitwin2021/session/8'
             },
             session6 : {
-                text1 : '폐회 세션',
+                text1 : '폐회세션',
                 text2 : '18:25-19:25',
                 text3 : '국내 예술교육 연구자 및 유니트윈 회원들이 모여 학술대회 세션에 대해 리뷰하고, 예술교육의 방향성을 탐색합니다.',
                 link : '/unitwin2021/closing-ceremony'
@@ -2539,14 +2541,14 @@ export const langkr = {
                 },
                 catagory2 : {
                     text1 : '전체',
-                    text2 : '팬데믹 / 지속가능예술 / 온라인워크숍',
-                    text3 : '청소년정신건강 / 연극교육 / 심리',
-                    text4 : '글로벌 / 다양성 / 존중',
-                    text5 : '지속가능성 / 환경 / 국제적',
-                    text6 : '다양성포용 / 복원 / 성찰 / 디지털',
-                    text7 : '예술교육가 / 온라인관람 / 창의세대',
-                    text8 : '평등 / LGBTQ / 공존',
-                    text9 : '사회적예술 / 뉴노멀 / 과도기',
+                    text2 : '세션 1: 현장사례연구 1',
+                    text3 : '세션 2: 예술 치유',
+                    text4 : '세션 3: 사회적 & 문화적 포용',
+                    text5 : '세션 4: 서울 어젠다',
+                    text6 : '세션 5: 교실 속의 예술',
+                    text7 : '세션 6: 예술 참여',
+                    text8 : '세션 7: 다양성 & 문화적 묘사',
+                    text9 : '세션 8: 현장사례연구 2',
                 }
             },
             {
@@ -3726,7 +3728,7 @@ export const langkr = {
                     li_contents : '쉬프라 숀만은 이스라엘 하이파 대학교에서 바-넷저 의장의 청년들을 위한 극장, 사회, 교육의 소유주이자 명예교수이다.'
                 },
                 {
-                    img : closing_img_09,
+                    img : session_img_45,
                     moder : '',
                     name : '보와 렁 ',
                     en_name : '(Bo-Wah Leung)',
@@ -3774,7 +3776,9 @@ export const langkr = {
             ftlogo_2_alt : '한국문화예술교육진흥원',
             ftpolicy : '개인정보처리방침',
             ftcopyright : 'ⓒ KOREA ARTS & CULTURE EDUCATION SERVICE. All Rights Reserved.',
-            link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304'
+            link : 'https://www.arte.or.kr/disclosure/data/Data_BoardView.do?board_id=BRD_ID0052304',
+            logolink_a : 'https://www.mcst.go.kr/kor/main.jsp',
+            logolink_b : 'https://www.arte.or.kr/'
         }
     }
 }
