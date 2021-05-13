@@ -47,6 +47,10 @@ const PWrapper = styled.a`
     justify-content : center;
     align-items : center;
     background-color: ${color.turtle_green};
+    transition : .6s;
+    &:hover {
+        opacity : 0.8;
+    }
 
     @media all and (max-width:1199px) {
         display : none;
