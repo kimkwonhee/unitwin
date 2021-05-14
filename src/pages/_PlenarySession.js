@@ -6,6 +6,7 @@ import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData
 import { useSelector } from 'react-redux'
 import color from '../style/color'
 import SessionBg from '../images/session_bg_pc.png';
+import ReactGA from 'react-ga'
 
 const _PlenarySession = withRouter(() => {
     
@@ -17,6 +18,8 @@ const _PlenarySession = withRouter(() => {
     const m_detaildata = curlang.m_data.pl_session;
 
     useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search)
+        console.log(window.location.pathname + window.location.search)
         window.scrollTo(0,0);
     }, []);
 

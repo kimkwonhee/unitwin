@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import ListSessionTop from '../../molecules/ListSessionTop'
 import ListVideoSession from '../../molecules/ListVideoSession'
@@ -7,7 +7,7 @@ import { withRouter } from 'react-router-dom'
 import img_1 from '../../../images/session_10.png'
 import color from '../../../style/color'
 import { useSelector } from 'react-redux'
-
+import ReactGA from 'react-ga'
 const Pr_Detail = ({match}) => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -16,7 +16,11 @@ const Pr_Detail = ({match}) => {
     const p_detaildata = curlang.p_data.pr_showcase_detail;
     // const m_detaildata = curlang.m_data.pr_showcase_detail;
 
-    
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search)
+        console.log(window.location.pathname + window.location.search)
+    }, [])
+
     let pathname = match.params.pr_detail
 
     let P_topsection = null

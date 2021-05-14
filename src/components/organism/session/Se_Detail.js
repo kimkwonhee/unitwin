@@ -9,6 +9,7 @@ import { useSelector } from 'react-redux'
 import color from '../../../style/color'
 import { Affix } from 'antd'
 import env from '../../../modules/env'
+import ReactGA from 'react-ga'
 
 const Se_Detail = ({match}) => {
 
@@ -18,6 +19,11 @@ const Se_Detail = ({match}) => {
 
     const chatPRef = useRef(null);
     const chatMRef = useRef(null);
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search)
+        console.log(window.location.pathname + window.location.search)
+    }, [])
     
     useEffect(() => {
         window.scrollTo(0,0);

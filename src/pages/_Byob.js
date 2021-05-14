@@ -5,7 +5,7 @@ import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData
 import { useSelector } from 'react-redux'
 import color from '../style/color'
 import SessionBg from '../images/session_bg_pc.png';
-
+import ReactGA from 'react-ga'
 const _Byob = () => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -17,6 +17,8 @@ const _Byob = () => {
     const langstatus = curlang.staus
 
     useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search)
+        console.log(window.location.pathname + window.location.search)
         window.scrollTo(0,0);
     }, []);
 

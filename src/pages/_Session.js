@@ -6,7 +6,7 @@ import ThemebtnGroup from '../components/molecules/ThemebtnGroup'
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 import SessionBg from '../images/session_bg_pc.png';
-
+import ReactGA from 'react-ga'
 const _Session = () => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -30,6 +30,8 @@ const _Session = () => {
     }, [curlang]);
 
     useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search)
+        console.log(window.location.pathname + window.location.search)
         window.scrollTo(0,0);
     }, []);
 

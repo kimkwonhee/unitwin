@@ -6,6 +6,7 @@ import color from '../style/color'
 import lottie from 'lottie-web'
 import animData from '../images/circle_showcase.json'
 import { useSelector } from 'react-redux'
+import ReactGA from 'react-ga'
 
 const _PreShowcase = () => {
     const { curlang } = useSelector(state => ({
@@ -29,6 +30,8 @@ const _PreShowcase = () => {
             })
         }
         lottiePlayer()
+        ReactGA.pageview(window.location.pathname + window.location.search)
+        console.log(window.location.pathname + window.location.search)
     }, [])
 
     const p_detaildata = curlang.p_data.pr_showcase;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Menubar from './components/organism/Menubar'
 import { Route, Switch } from 'react-router-dom'
 import styled, { createGlobalStyle } from 'styled-components'
@@ -16,6 +16,7 @@ import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
 import 'antd/dist/antd.css'
 import { useSelector } from 'react-redux'
 import env from './modules/env'
+import ReactGA from 'react-ga'
 
 const Globalstyles = createGlobalStyle`
 
@@ -40,6 +41,16 @@ const App = () => {
     langkr : state.changlang.langkr,
     langen : state.changlang.langen
   }))
+
+  useEffect(() => {
+    initGA()
+  }, [])
+
+  const initGA = () => {
+    ReactGA.initialize('G-8BW0WPEKCF')
+  }
+
+  
 
   return (
     <Wrapper>
