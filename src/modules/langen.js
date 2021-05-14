@@ -206,7 +206,7 @@ export const langen = {
                 wed1 : {
                     text1 : '13:00-13:40',
                     text2 : 'Plenary Session 2',
-                    text3 : '(“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”)',
+                    text3 : '("Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.)',
                     text4 : 'Benjamin Jörissen',
                     text5 : '[Moderator]',
                     text6 : 'Tanja Klepacki',
@@ -487,7 +487,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 2',
                 text2 : '13:00 - 13:40',
-                text3 : '“UNITWIN – Arts Education Research for Cultural\nDiversity and Sustainable Development”',
+                text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
                 text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”/Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
@@ -634,7 +634,7 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                     time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
@@ -677,7 +677,7 @@ export const langen = {
                 ]
             },
             jorissen_part : {
-                title : '“UNITWIN – Arts Education Research for Cultural\nDiversity and Sustainable Development”',
+                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : false,
@@ -2065,7 +2065,7 @@ export const langen = {
                 text1 : '05.26 Wed',
                 text2 : '13:00-13:40',
                 text3 : 'Plenary Session 2',
-                text4 : '(“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”)',
+                text4 : '("Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.)',
                 text5 : '13:40-15:10',
                 text6 : 'Session 5',
                 text7 : '(Arts in the Classroom)',
@@ -2309,7 +2309,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 2',
                 text2 : '13:00-13:40',
-                text3 : '“UNITWIN – Arts Education Research for Cultural\nDiversity and Sustainable Development”',
+                text3 : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
                 text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”/Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
@@ -2456,7 +2456,7 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                     time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
@@ -2499,7 +2499,7 @@ export const langen = {
                 ]
             },
             jorissen_part : {
-                title : '“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : false,
