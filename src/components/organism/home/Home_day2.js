@@ -37,11 +37,13 @@ const Home_day2 = () => {
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
-                            <PRightSection>
-                                <PRightTitle>{p_detaildata.session1.text3}</PRightTitle>
-                                <PRightName>{p_detaildata.session1.text4}<PRightEnName>{p_detaildata.session1.text5}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session1.text6}</PRightJop>
-                            </PRightSection>
+                            <PLink to={p_detaildata.session1.link_detail_1}>
+                                <PRightSection>
+                                    <PRightTitle>{p_detaildata.session1.text3}</PRightTitle>
+                                    <PRightName>{p_detaildata.session1.text4}<PRightEnName>{p_detaildata.session1.text5}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session1.text6}</PRightJop>
+                                </PRightSection>
+                            </PLink>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session1.text7}</PRightModer>
                                 <PRightName>{p_detaildata.session1.text8}<PRightEnName>{p_detaildata.session1.text9}</PRightEnName></PRightName>
@@ -485,7 +487,6 @@ const PSection = styled.div`
     height : auto;
     display : flex;
     border-bottom : 1px solid ${color.turtle_green};
-    padding : 40px 0;
     &:last-child {
         margin-bottom : 200px;
         border-bottom : none;
@@ -497,6 +498,7 @@ const PLeftInner = styled.div`
     height : auto;
     margin-right : 24px;
     padding-left : 40px;
+    padding-top : 40px;
 `
 const PLeftTitle = styled.div`
     font-size: 28px;
@@ -539,13 +541,23 @@ const PRightInner = styled.div`
     }
 `
 const PRightSection = styled.div`
-    margin-bottom : 40px;
     border-bottom : 1px solid #d0d0d0;
-    padding-bottom: 40px;
+    padding : 40px 0px 40px 24px;
+    
     &:last-child {
         margin-bottom : 0px;
         border-bottom : none;
-        padding-bottom: 0;
+    }
+
+    &:hover { 
+        transition : .6s;
+        background-color : rgba(131,185,73,0.08);
+        &:after {
+            content : '>';
+            position : absolute;
+            right : 0;
+            font-size : 16px;
+        }
     }
 `
 const PRightTitle = styled.div`
@@ -579,7 +591,6 @@ const PRightJop = styled.div`
     color: ${color.black};
 `
 const PRightModer = styled.div`
-    margin-top : 40px;
     margin-bottom : 8px;
     font-size: 16px;
     font-weight: bold;

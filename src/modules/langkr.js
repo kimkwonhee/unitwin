@@ -353,7 +353,8 @@ export const langkr = {
                 text8 : '치후 럼 ',
                 text9 : '(Chee-Hoo Lum)',
                 text10 : '- 난양 공과대학교 부교수, 싱가포르',
-                link : '/unitwin2021/plenary-session/1'
+                link : '/unitwin2021/plenary-session/1',
+                link_detail_1 : '/unitwin2021/plenary-session/1'
             },
             session2 : {
                 text1 : '세션 1',
@@ -1837,7 +1838,7 @@ export const langkr = {
         // byob
         byob : {
             title : 'BYOB\n온라인 만남의 광장',
-            contents : 'BYOB(Bring Your Own Bottle)는 학술대회 참가자들이 자유롭게 학술대회 주제 및 참가자의 관심사에 대해 나누는 네트워킹 세션입니다',
+            contents : 'BYOB(Bring Your Own Bottle)는 학술대회 참가자들이 자유롭게 학술대회 주제 및\n참가자의 관심사에 대해 나누는 네트워킹 세션입니다',
             link : 'https://event-us.kr/KnKPI0mLveYY/event/31441',
             data : [
                 {

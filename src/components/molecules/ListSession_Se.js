@@ -224,7 +224,7 @@ const MListtitle = styled.div`
     word-break : keep-all;
     color: ${color.black};
 `
-const MContents = styled.div`
+const MContents = styled.div`   
     margin-top : 18px;
     font-size: 12px;
     color: ${color.black};

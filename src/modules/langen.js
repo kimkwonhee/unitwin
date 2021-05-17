@@ -65,7 +65,6 @@ import closing_img_01 from '../images/session_26.png'
 import closing_img_02 from '../images/session_27.png'
 import closing_img_03 from '../images/session_28.png'
 import closing_img_04 from '../images/session_29.png'
-import closing_img_09 from '../images/session_10.png'
 import closing_img_11 from '../images/session_31.png'
 import closing_img_12 from '../images/session_32.png'
 import closing_img_13 from '../images/session_33.png'
@@ -105,10 +104,11 @@ export const langen = {
             time : '24 ~ 26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
             advance : 'APPLICATION',
-            contents : 'As we, Korea Art & Culture Education Service, are the full member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development", we hold a regular symposium for seeking reflection and future of art education.\n\n'
-                       +'The 4th UNITWIN symposium seeks to discuss how the fundamentals and examples of art education can contribute in-depth to the social and cultural crises facing '
-                       +"today's world under the theme "
-                       +'"Arts Education in and through in a time of crisis"',
+            contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
+                        +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
+                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
+                        +"today's "
+                        +'challenges".',
             subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n'
                          +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
@@ -710,9 +710,11 @@ export const langen = {
         session : [
             {
                 title : 'Session',
-                contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development." We hold an annual symposium for seeking reflection and future of arts and culture education. The 4th UNESCO-UNITWIN symposium seeks to discuss how the fundamentals and practices of arts and culture education can contribute in-depth to the social and cultural crises facing '
-                        +"today's world under the "
-                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving today’s challenges."',
+                contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
+                        +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
+                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
+                        +"today's "
+                        +'challenges".',
             },
             {
                 title : 'Presenter',
@@ -1860,7 +1862,7 @@ export const langen = {
             {
                 imgs : byob_img_02,
                 name : "Yujin Hong ",
-                jop : "- Chairman, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea",
+                jop : "- Director of Educational Resources Division, Korea Arts&Culture Education Service, Republic of Korea",
                 discripton : "YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience. Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES."
             },
             {
@@ -2007,9 +2009,11 @@ export const langen = {
             time : '24 ~ 26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
             advance : 'APPLICATION',
-            contents : 'As we, Korea Art & Culture Education Service, are the full member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development", we hold a regular symposium for seeking reflection and future of art education.\n\n'
-                       +'The 4th UNITWIN symposium seeks to discuss how the fundamentals and examples of art education can contribute in-depth to the social and cultural crises facing '
-                       +"today's world under the theme ",
+            contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
+                        +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
+                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
+                        +"today's "
+                        +'challenges".',
             subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development'
                        +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
@@ -2532,9 +2536,11 @@ export const langen = {
         session : [
             {
                 title : 'Session',
-                contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development." We hold an annual symposium for seeking reflection and future of arts and culture education. The 4th UNESCO-UNITWIN symposium seeks to discuss how the fundamentals and practices of arts and culture education can contribute in-depth to the social and cultural crises facing '
-                        +"today's world under the "
-                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving today’s challenges."',
+                contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
+                        +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
+                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
+                        +"today's "
+                        +'challenges".',
             },
             {
                 title : 'Presenter',
@@ -3684,7 +3690,7 @@ export const langen = {
             {
                 imgs : byob_img_02,
                 name : "Yujin Hong ",
-                jop : "- Chairman, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea",
+                jop : "- Director of Educational Resources Division, Korea Arts&Culture Education Service, Republic of Korea",
                 discripton : "YuJin Hong has been conducting policy research and strategy analysis to establish the policies of arts and culture education at Korea Arts & Culture Education Service(KACES) under the Ministry of Culture, Sports and Tourism of Korea. She received her Ph.D. in cultural sociology(cultural policy) from Ewha Womans University and worked on various projects on cultural contents industry policy at Korea Creative Content Agency(KOCCA) as prior experience. Currently, she oversees the research part, evaluation, public/international relations and the training programs as director of educational resources division and she is also the TF team leader of online culture and arts education at KACES."
             },
             {
