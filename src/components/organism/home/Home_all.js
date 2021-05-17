@@ -41,6 +41,9 @@ const Home_all = () => {
                         <PDayText>{curlang.p_data.home_all.session1.day}</PDayText>
                     </PDayBlock>
                     <PMonSection1>
+                            <PMove href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">
+                                {curlang.p_data.move}
+                            </PMove>
                             <PTime>{p_mon1.time1}</PTime>
                             <PTitle>{p_mon1.title1}</PTitle>
                             <PTime>{p_mon1.time2}</PTime>
@@ -58,9 +61,7 @@ const Home_all = () => {
                             <PSubTitle>{p_mon1.title8}</PSubTitle>
                             <PTime>{p_mon1.time8}</PTime>
                             <PTitle>{p_mon1.title9}</PTitle>
-                            <PMove href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">
-                                {curlang.p_data.move}
-                            </PMove>
+                            
                     </PMonSection1>
                     <PMonSection2 />
                 </PSection1>
@@ -69,12 +70,6 @@ const Home_all = () => {
                         <PDayText>{curlang.p_data.home_all.session2.day}</PDayText>
                     </PDayBlock>
                     <PTueSection1>
-                            <PTime>{p_tue1.text1}</PTime>
-                            <PTitle>{p_tue1.text2}</PTitle>
-                            <PSubTitle>{p_tue1.text3}</PSubTitle>
-                            <PTueCharacter1>{p_tue1.text4}</PTueCharacter1>
-                            <PPhasis1>{p_tue1.text5}</PPhasis1>
-                            <PTueCharacter2>{p_tue1.text6}</PTueCharacter2>
                             <PLink 
                                 status={langstatus}
                                 ktop="60px" 
@@ -83,6 +78,12 @@ const Home_all = () => {
                             >
                                 <PMove>{curlang.p_data.move}</PMove>
                             </PLink>
+                            <PTime>{p_tue1.text1}</PTime>
+                            <PTitle>{p_tue1.text2}</PTitle>
+                            <PSubTitle>{p_tue1.text3}</PSubTitle>
+                            <PTueCharacter1>{p_tue1.text4}</PTueCharacter1>
+                            <PPhasis1>{p_tue1.text5}</PPhasis1>
+                            <PTueCharacter2>{p_tue1.text6}</PTueCharacter2>
                     </PTueSection1>
                     <PTueSection2>
                             <PTime>{p_tue2.text1}</PTime>
@@ -576,13 +577,14 @@ const PTime = styled.div`
     color: ${color.brownish_grey};
     margin-top : none;
     
-    &:nth-child(3),
-    &:nth-child(5),
-    &:nth-child(7),
-    &:nth-child(9),
-    &:nth-child(11),
-    &:nth-child(13),
-    &:nth-child(16) {
+    &:nth-child(2),
+    &:nth-child(4),
+    &:nth-child(6),
+    &:nth-child(8),
+    &:nth-child(10),
+    &:nth-child(12),
+    &:nth-child(14),
+    &:nth-child(17) {
         margin-top : 30px;
     }
 `
@@ -594,7 +596,6 @@ const PSubTitle = styled.div`
 `
 const PMove = styled.a`
     cursor: pointer;
-    margin-top : ${props => props.top || '40px'};
     font-size: 16px;
     font-weight: 500;
     color: ${color.turtle_green};
