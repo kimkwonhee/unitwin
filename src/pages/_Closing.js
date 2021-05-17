@@ -11,6 +11,9 @@ import mobileviewbtn from '../components/atom/mobileviewbtn'
 import Downloadbtn from '../components/atom/Downloadbtn'
 import env from '../modules/env'
 import ReactGA from 'react-ga'
+import { Helmet } from "react-helmet"
+
+
 const _Closing = () => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -85,7 +88,8 @@ const _Closing = () => {
     const [status, setStatus]  = useState('discription');
 
     return (
-        <>
+        <>  
+            <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/closing-ceremony" />
             {/* PC */}
             <PWrapper>
                 <PInner>

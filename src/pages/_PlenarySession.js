@@ -32,7 +32,7 @@ const _PlenarySession = withRouter(() => {
 
     return (
         <>
-            <Helmet title="plenary-session - The 4th UNESCO-UNITWIN SYMPOSIUM" />
+            <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/plenary-session" />
             <PWrapper>
                 <PBg bg={SessionBg}></PBg>
                 <PInner>
