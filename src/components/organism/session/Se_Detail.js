@@ -21,8 +21,14 @@ const Se_Detail = ({match}) => {
     const chatMRef = useRef(null);
 
     useEffect(() => {
-        ReactGA.pageview(window.location.pathname + window.location.search)
-        // console.log(window.location.pathname + window.location.search)
+        const gaSetting = async () => {
+            await ReactGA.initialize('G-8BW0WPEKCF')
+            await ReactGA.set({
+                page: window.location.pathname + window.location.search
+            })
+            await ReactGA.pageview(window.location.pathname + window.location.search)
+        }
+        gaSetting()
     }, [])
     
     useEffect(() => {
