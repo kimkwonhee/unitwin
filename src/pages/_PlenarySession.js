@@ -18,8 +18,14 @@ const _PlenarySession = withRouter(() => {
     const m_detaildata = curlang.m_data.pl_session;
 
     useEffect(() => {
-        ReactGA.pageview(window.location.pathname + window.location.search)
-        // console.log(window.location.pathname + window.location.search)
+        const gaSetting = async () => {
+            await ReactGA.initialize('G-8BW0WPEKCF')
+            await ReactGA.set({
+                page: window.location.pathname + window.location.search
+            })
+            await ReactGA.pageview(window.location.pathname + window.location.search)
+        }
+        gaSetting()
         window.scrollTo(0,0);
     }, []);
 
