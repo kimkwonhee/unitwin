@@ -1837,7 +1837,7 @@ export const langkr = {
         // byob
         byob : {
             title : 'BYOB\n온라인 만남의 광장',
-            contents : 'BYOB(Bring Your Own Bottle)는 학술대회 참가자들이 자유롭게 학술대회 주제 및 참가자의 관심사에 대해 나누는 네트워킹 세션입니다',
+            contents : 'BYOB(Bring Your Own Bottle)는 학술대회 참가자들이 자유롭게 학술대회 주제 및\n참가자의 관심사에 대해 나누는 네트워킹 세션입니다',
             link : 'https://event-us.kr/KnKPI0mLveYY/event/31441',
             data : [
                 {
