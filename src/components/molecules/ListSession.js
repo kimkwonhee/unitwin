@@ -25,20 +25,21 @@ const ListSession = ({className, data}) => {
             })}
             </PWrapper>
 
-            <MWrapper>
+            <MWrapper className={className}>
                 {data.map((list, idx) => {
-                    return (
-                        <MInner key={idx}>
-                            <MTextblock>
-                                <MImg src={list.img} alt={list.name} />     
-                            </MTextblock>
-                            <MModer>{list.moder}</MModer>
-                            <MName>{list.name}</MName>
-                            <MEnName>{list.en_name}</MEnName>
-                            <MListtitle>{list.li_title}</MListtitle>
-                            <MContents dangerouslySetInnerHTML={ {__html: list.li_contents} } />
-                        </MInner>
-                    )
+                    return <Mdiv id={list.hashtag}>
+                                <MInner >
+                                    <MTextblock>
+                                        <MImg src={list.img} alt={list.name} />     
+                                    </MTextblock>
+                                    <MModer>{list.moder}</MModer>
+                                    <MName>{list.name}</MName>
+                                    <MEnName>{list.en_name}</MEnName>
+                                    <MListtitle>{list.li_title}</MListtitle>
+                                    <MContents dangerouslySetInnerHTML={ {__html: list.li_contents} } />
+                                </MInner>
+                            </Mdiv>
+                    
                 })}
             </MWrapper>
         </>
@@ -56,8 +57,8 @@ const PSection = styled.div`
     &:before {
         display: block; 
         content: " "; 
-        margin-top: -100px; 
-        height: 100px; 
+        margin-top: -60px; 
+        height: 60px; 
         visibility: hidden; 
         pointer-events: none;
     }
@@ -121,12 +122,22 @@ const MWrapper = styled.div`
         display : none;
     }
 `
+const Mdiv = styled.div`
+    &:before {
+        display: block; 
+        content: " "; 
+        margin-top: -40px; 
+        height: 40px; 
+        visibility: hidden; 
+        pointer-events: none;
+    }
+`
 const MInner = styled.div`
     width : 100%;
     display : flex;
     flex-direction : column;
     align-items : center;
-    padding : 40px 10px 40px 10px;
+    padding : 40px 10px;
 `
 const MTextblock = styled.div`
 `

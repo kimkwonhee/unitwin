@@ -659,6 +659,7 @@ export const langen = {
                     {
                         img : pl_detail1_img_01,
                         moder : '',
+                        hashtag : 'Ernst',
                         name : 'Ernst Wagner',
                         en_name : '',
                         li_title : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
@@ -669,6 +670,7 @@ export const langen = {
                         img : pl_detail1_img_02,
                         moder : '[Moderator]',
                         name : 'Chee-Hoo Lum',
+                        hashtag : 'Chee_Hoo',
                         en_name : '',
                         li_title : '- Associate Professor, Nanyang Technological University, Singapore',
                         li_contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
@@ -688,6 +690,7 @@ export const langen = {
                     {
                         img : plsession_img_02,
                         moder : '',
+                        hashtag : 'Benjamin',
                         name : 'Benjamin Jörissen',
                         en_name : '',
                         li_title : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
@@ -697,6 +700,7 @@ export const langen = {
                     {
                         img : session_img_43,
                         moder : '[Moderator]',
+                        hashtag : 'Tanja',
                         name : 'Tanja Klepacki',
                         en_name : '',
                         li_title : '- senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
@@ -808,6 +812,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_01,
+                                hashtag : 'YongSung',
                                 name : 'YongSung Jung',
                                 enname : '',
                                 job : '- Director, National Theater Company of Korea, Republic of Korea',
@@ -824,6 +829,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_02,
+                                hashtag : 'Eunsu',
                                 name : 'Eunsu Lee',
                                 enname : '',
                                 job : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
@@ -840,6 +846,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_03,
+                                hashtag : 'Sowon',
                                 name : 'Sowon Kim',
                                 enname : '',
                                 job : '- Curator, Seongbuk Museum of Art, Republic of Korea',
@@ -855,6 +862,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_04,
+                                hashtag : 'Su_youn',
                                 name : 'Su-youn Kim',
                                 enname : '',
                                 job : '- Assistant Professor, KyungSung University, Republic of Korea',
@@ -870,6 +878,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_05,
+                                hashtag : 'Boram',
                                 name : 'Boram Lee',
                                 enname : '',
                                 job : '- Professor, University of South Australia , Republic of Korea',
@@ -885,6 +894,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                hashtag : 'Kiwon',
                                 name : 'Kiwon Hong',
                                 enname : '',
                                 job : '- Professor, Korea National University of Arts, Republic of Korea',
@@ -911,6 +921,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_06,
+                                hashtag : 'Tiina',
                                 name : 'Tiina Kukkonen',
                                 enname : '',
                                 job : "- Ph.D. candidate, Queen's University, Canada",
@@ -930,6 +941,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_07,
+                                hashtag : 'Sanja',
                                 name : 'Sanja Krsmanović Tasić',
                                 enname : '',
                                 job : '- President, International Drama/Theatre Education Association(IDEA), Serbia',
@@ -946,6 +958,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_08,
+                                hashtag : 'MC_Bettman',
                                 name : 'MC Bettman',
                                 enname : '',
                                 job : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
@@ -963,6 +976,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_09,
+                                hashtag : 'Chaeyeon',
                                 name : 'Chaeyeon Kim',
                                 enname : '',
                                 job : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
@@ -979,6 +993,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                hashtag : 'Gloria',
                                 name : 'Gloria P. Zapata',
                                 enname : '',
                                 job : '- Unesco Chair, Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá, Colombia',
@@ -1005,6 +1020,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_11,
+                                hashtag : 'Tei',
                                 name : 'Tei Kim',
                                 enname : '',
                                 job : '- Director, BARA Art Growth Institute , Republic of Korea',
@@ -1022,6 +1038,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_42,
+                                hashtag : 'Charlene',
                                 name : 'Charlene Rajendran',
                                 enname : '',
                                 job : '- Assistant Professor, Nanyang Technological University, Singapore',
@@ -1037,6 +1054,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_13,
+                                hashtag : 'Nan_Zhang',
                                 name : 'Nan Zhang',
                                 enname : '',
                                 job : '- Ph.D. candidate, Monash University, China',
@@ -1055,6 +1073,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_14,
+                                hashtag : 'Yaara',
                                 name : 'Yaara Docrat ',
                                 enname : '',
                                 job : "- Master's candidate, Queen’s University, Canada",
@@ -1071,6 +1090,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_16,
+                                hashtag : 'Neryl',
                                 name : 'Neryl Jeanneret',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
@@ -1097,6 +1117,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                hashtag : 'Benjamin',
                                 name : 'Benjamin Bolden',
                                 enname : '',
                                 job : "- Associate Professor, Queen's University, Canada",
@@ -1106,6 +1127,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_16,
+                                hashtag : 'Neryl',
                                 name : 'Neryl Jeanneret',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
@@ -1121,6 +1143,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                hashtag : 'Chee_Hoo',
                                 name : 'Chee-Hoo Lum',
                                 enname : '',
                                 job : '- Associate Professor, Nanyang Technological University, Singapore',
@@ -1131,6 +1154,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_18,
+                                hashtag : 'Zen',
                                 name : 'Zen Teh',
                                 enname : '',
                                 job : '- Environmental Artist & Educator, Singapore',
@@ -1147,6 +1171,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_19,
+                                hashtag : 'Kathryn',
                                 name : 'Kathryn Coleman',
                                 enname : '',
                                 job : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
@@ -1156,6 +1181,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_20,
+                                hashtag : 'Mark',
                                 name : 'Mark Selkrig',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
@@ -1165,6 +1191,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_21,
+                                hashtag : 'Abbey',
                                 name : 'Abbey MacDonald',
                                 enname : '',
                                 job : '- Senior Lecturer, University of Tasmania, Australia',
@@ -1180,6 +1207,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : closing_img_03,
+                                hashtag : 'InSul',
                                 name : 'InSul Kim',
                                 enname : '',
                                 job : '- Associate Professor, The Catholic University of Korea, Republic of Korea',

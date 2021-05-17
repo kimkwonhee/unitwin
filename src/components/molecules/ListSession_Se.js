@@ -21,7 +21,7 @@ const ListSession_Se = ({className, data}) => {
                         <PTitle>{list.li_title}</PTitle>
                         <PInner>
                             {list.li_data.map((data, i) => {
-                                return <Test isTop={i === 0} id={data.hashtag}>
+                                return <Pdiv isTop={i === 0} id={data.hashtag}>
                                         <PItemInner >
                                             <PImgblock >
                                                 <PImg src={data.imgs} alt={data.name} />     
@@ -38,7 +38,7 @@ const ListSession_Se = ({className, data}) => {
                                                 </PDownlodebtn>
                                             </PTextblock>
                                         </PItemInner>
-                                    </Test>
+                                    </Pdiv>
                             })}   
                         </PInner>
                     </PSection>
@@ -96,7 +96,7 @@ const PInner = styled.div`
     padding-top : 20px;
     border-top : 1px solid ${color.turtle_green};
 `
-const Test = styled.div`
+const Pdiv = styled.div`
     padding-bottom : 40px;
     
     &:last-child {
@@ -105,8 +105,8 @@ const Test = styled.div`
     &:before {
         display: block; 
         content: " "; 
-        margin-top:${props => props.isTop ? '-200px' : '-100px'}; 
-        height: ${props => props.isTop ? '200px' : '100px'};
+        margin-top:${props => props.isTop ? '-190px' : '-110px'}; 
+        height: ${props => props.isTop ? '190px' : '110px'};
         visibility: hidden; 
         pointer-events: none;
     }

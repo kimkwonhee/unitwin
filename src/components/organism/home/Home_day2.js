@@ -40,17 +40,17 @@ const Home_day2 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session1.text3}</PRightTitle>
-                                <a href={p_detaildata.session1.link + '#Ernst'}>
+                                <PDetailLink to={p_detaildata.session1.link + '#Ernst'}>
                                     <PRightName>{p_detaildata.session1.text4}<PRightEnName>{p_detaildata.session1.text5}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session1.text6}</PRightJop>
-                                </a>
+                                </PDetailLink>
                             </PRightSection>
                                 <PRightSection>
                                     <PRightModer>{p_detaildata.session1.text7}</PRightModer>
-                                    <a href={p_detaildata.session1.link + '#Chee_Hoo'}>
+                                    <PDetailLink to={p_detaildata.session1.link + '#Chee_Hoo'}>
                                         <PRightName>{p_detaildata.session1.text8}<PRightEnName>{p_detaildata.session1.text9}</PRightEnName></PRightName>
                                         <PRightJop>{p_detaildata.session1.text10}</PRightJop>
-                                    </a>
+                                    </PDetailLink>
                                 </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -68,42 +68,42 @@ const Home_day2 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text4}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session2.link ,hash: "#YongSung_Jung"}}>
+                                <PDetailLink to={p_detaildata.session2.link + '#YongSung'}>
                                     <PRightName>{p_detaildata.session2.text5}</PRightName>
                                     <PRightJop>{p_detaildata.session2.text6}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text7}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session2.link ,hash: "#Eunsu_Lee"}}>
+                                <PDetailLink to={p_detaildata.session2.link + '#Eunsu'}>
                                     <PRightName>{p_detaildata.session2.text8}</PRightName>
                                     <PRightJop>{p_detaildata.session2.text9}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text10}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session2.link ,hash: "#Sowon_Kim"}}>
+                                <PDetailLink to={p_detaildata.session2.link + '#Sowon'}>
                                     <PRightName>{p_detaildata.session2.text11}</PRightName>
                                     <PRightJop>{p_detaildata.session2.text12}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text13}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session2.link ,hash: "#Su_youn_Kim"}}>
+                                <PDetailLink to={p_detaildata.session2.link + '#Su_youn'}>
                                     <PRightName>{p_detaildata.session2.text14}</PRightName>
                                     <PRightJop>{p_detaildata.session2.text15}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text16}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session2.link ,hash: "#Boram_Lee"}}>
+                                <PDetailLink to={p_detaildata.session2.link + '#Boram'}>
                                     <PRightName>{p_detaildata.session2.text17}</PRightName>
                                     <PRightJop>{p_detaildata.session2.text18}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session2.text19}</PRightModer>
-                                <PDetailLink to={{pathname :p_detaildata.session2.link ,hash: "#Kiwon_Hong"}}>
+                                <PDetailLink to={p_detaildata.session2.link + '#Kiwon'}>
                                     <PRightName>{p_detaildata.session2.text20}</PRightName>
                                     <PRightJop>{p_detaildata.session2.text21}</PRightJop>
                                 </PDetailLink>
@@ -124,35 +124,35 @@ const Home_day2 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text4}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session3.link ,hash: "#Tiina_Kukkonen"}}>
+                                <PDetailLink to={p_detaildata.session3.link + '#Tiina'}>
                                     <PRightName>{p_detaildata.session3.text5}<PRightEnName>{p_detaildata.session3.text6}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text7}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text8}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session3.link ,hash: "#Sanja_Krsmanović_Tasić"}}>
+                                <PDetailLink to={p_detaildata.session3.link + '#Sanja'}>
                                     <PRightName>{p_detaildata.session3.text9}<PRightEnName>{p_detaildata.session3.text10}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text11}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text12}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session3.link ,hash: "#MC_Bettman"}}>
+                                <PDetailLink to={p_detaildata.session3.link + '#MC_Bettman'}>
                                     <PRightName>{p_detaildata.session3.text13}<PRightEnName>{p_detaildata.session3.text14}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text15}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text16}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session3.link ,hash: "#Chaeyeon_Kim"}}>
+                                <PDetailLink to={p_detaildata.session3.link + '#Chaeyeon'}>
                                     <PRightName>{p_detaildata.session3.text17}</PRightName>
                                     <PRightJop>{p_detaildata.session3.text18}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session3.text19}</PRightModer>
-                                <PDetailLink to={{pathname :p_detaildata.session3.link ,hash: "#Gloria_P_Zapata"}}>
+                                <PDetailLink to={p_detaildata.session3.link + '#Gloria'}>
                                     <PRightName>{p_detaildata.session3.text20}<PRightEnName>{p_detaildata.session3.text21}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text22}</PRightJop>
                                 </PDetailLink>
@@ -173,33 +173,38 @@ const Home_day2 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text4}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session4.link ,hash: "#Tei_Kim"}}>
+                                <PDetailLink to={p_detaildata.session4.link + '#Tei'}>
                                     <PRightName>{p_detaildata.session4.text5}</PRightName>
                                     <PRightJop>{p_detaildata.session4.text6}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text7}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session4.link ,hash: "#Charlene_Rajendran"}}>
+                                <PDetailLink to={p_detaildata.session4.link + '#Charlene'}>
                                     <PRightName>{p_detaildata.session4.text8}<PRightEnName>{p_detaildata.session4.text9}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session4.text10}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text11}</PRightTitle>
-                                <PDetailLink to={{pathname :p_detaildata.session4.link ,hash: "#Charlene_Rajendran"}}></PDetailLink>
+                                <PDetailLink to={p_detaildata.session4.link + '#Nan_Zhang'}>
                                 <PRightName>{p_detaildata.session4.text12}<PRightEnName>{p_detaildata.session4.text13}</PRightEnName></PRightName>
                                 <PRightJop>{p_detaildata.session4.text14}</PRightJop>
+                                </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text15}</PRightTitle>
-                                <PRightName>{p_detaildata.session4.text16}<PRightEnName>{p_detaildata.session4.text17}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session4.text18}</PRightJop>
+                                <PDetailLink to={p_detaildata.session4.link + '#Yaara'}>
+                                    <PRightName>{p_detaildata.session4.text16}<PRightEnName>{p_detaildata.session4.text17}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session4.text18}</PRightJop>
+                                </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session4.text19}</PRightModer>
-                                <PRightName>{p_detaildata.session4.text20}<PRightEnName>{p_detaildata.session4.text21}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session4.text22}</PRightJop>
+                                <PDetailLink to={p_detaildata.session4.link + '#Neryl'}>
+                                    <PRightName>{p_detaildata.session4.text20}<PRightEnName>{p_detaildata.session4.text21}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session4.text22}</PRightJop>
+                                </PDetailLink>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -228,24 +233,36 @@ const Home_day2 = () => {
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session5.text11}</PRightTitle>
-                                <PRightName>{p_detaildata.session5.text12}<PRightEnName>{p_detaildata.session5.text13}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session5.text14}</PRightJop>
-                                <PRightName>{p_detaildata.session5.text15}<PRightEnName>{p_detaildata.session5.text16}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session5.text17}</PRightJop>
+                                <PDetailLink to={p_detaildata.session5.link + '#Chee_Hoo'}>
+                                    <PRightName>{p_detaildata.session5.text12}<PRightEnName>{p_detaildata.session5.text13}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session5.text14}</PRightJop>
+                                </PDetailLink>
+                                <PDetailLink to={p_detaildata.session5.link + '#Zen'}>
+                                    <PRightName>{p_detaildata.session5.text15}<PRightEnName>{p_detaildata.session5.text16}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session5.text17}</PRightJop>
+                                </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session5.text18}</PRightTitle>
-                                <PRightName>{p_detaildata.session5.text19}<PRightEnName>{p_detaildata.session5.text20}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session5.text21}</PRightJop>
-                                <PRightName>{p_detaildata.session5.text22}<PRightEnName>{p_detaildata.session5.text23}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session5.text24}</PRightJop>
-                                <PRightName>{p_detaildata.session5.text25}<PRightEnName>{p_detaildata.session5.text26}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session5.text27}</PRightJop>
+                                <PDetailLink to={p_detaildata.session5.link + '#Kathryn'}>
+                                    <PRightName>{p_detaildata.session5.text19}<PRightEnName>{p_detaildata.session5.text20}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session5.text21}</PRightJop>
+                                </PDetailLink>
+                                <PDetailLink to={p_detaildata.session5.link + '#Mark'}>
+                                    <PRightName>{p_detaildata.session5.text22}<PRightEnName>{p_detaildata.session5.text23}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session5.text24}</PRightJop>
+                                </PDetailLink>
+                                <PDetailLink to={p_detaildata.session5.link + '#Abbey'}>
+                                    <PRightName>{p_detaildata.session5.text25}<PRightEnName>{p_detaildata.session5.text26}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session5.text27}</PRightJop>
+                                </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session5.text28}</PRightModer>
-                                <PRightName>{p_detaildata.session5.text29}</PRightName>
-                                <PRightJop>{p_detaildata.session5.text30}</PRightJop>
+                                <PDetailLink to={p_detaildata.session5.link + '#InSul'}>
+                                    <PRightName>{p_detaildata.session5.text29}</PRightName>
+                                    <PRightJop>{p_detaildata.session5.text30}</PRightJop>
+                                </PDetailLink>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -294,13 +311,17 @@ const Home_day2 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session1.text3}</MRightTitle>
-                                        <MRightName>{m_detaildata.session1.text4}<MRightEnName>{m_detaildata.session1.text5}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session1.text6}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session1.link + '#MErnst'}>
+                                            <MRightName>{m_detaildata.session1.text4}<MRightEnName>{m_detaildata.session1.text5}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session1.text6}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session1.text7}</MRightModer>
-                                        <MRightName>{m_detaildata.session1.text8}<MRightEnName>{m_detaildata.session1.text9}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session1.text10}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session1.link + '#MChee_Hoo'}>
+                                            <MRightName>{m_detaildata.session1.text8}<MRightEnName>{m_detaildata.session1.text9}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session1.text10}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -582,10 +603,6 @@ const PRightSection = styled.div`
         margin-bottom : 0px;
         border-bottom : none;
     }
-
-    /* &:hover {  
-        background-color : rgba(131,185,73,0.08);
-    } */
 `
 const PRightTitle = styled.div`
      font-size: 20px;
@@ -601,8 +618,7 @@ const PRightName = styled.div`
     margin-bottom : 8px;
     white-space : pre-line;
 
-    &:nth-child(4),
-    &:nth-child(6) {
+    &:nth-child(2) {
         margin-top : 40px;
     }
 `
@@ -752,6 +768,13 @@ const MLink = styled(Link)`
 `
 const MVideobtn = styled(Videobtn)`
     margin-top : 19px;
+`
+const MDetailLink = styled(NavHashLink)`
+    color: ${color.black};
+    
+    &:hover {
+        color: ${color.turtle_green};
+    }
 `
 
 

@@ -17,7 +17,6 @@ import 'antd/dist/antd.css'
 import { useSelector } from 'react-redux'
 import env from './modules/env'
 import ReactGA from 'react-ga'
-import { createBrowserHistory } from 'history'
 
 const Globalstyles = createGlobalStyle`
 
