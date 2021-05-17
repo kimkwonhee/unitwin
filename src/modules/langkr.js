@@ -354,7 +354,6 @@ export const langkr = {
                 text9 : '(Chee-Hoo Lum)',
                 text10 : '- 난양 공과대학교 부교수, 싱가포르',
                 link : '/unitwin2021/plenary-session/1',
-                link_detail_1 : '/unitwin2021/plenary-session/1'
             },
             session2 : {
                 text1 : '세션 1',

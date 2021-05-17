@@ -37,18 +37,20 @@ const Home_day2 = () => {
                     </PLeftInner>
                     <PRight>
                         <PRightInner>
-                            <PLink to={p_detaildata.session1.link_detail_1}>
+                            <PLink to={{pathname :p_detaildata.session1.link ,hash: "#user1"}}>
                                 <PRightSection>
                                     <PRightTitle>{p_detaildata.session1.text3}</PRightTitle>
                                     <PRightName>{p_detaildata.session1.text4}<PRightEnName>{p_detaildata.session1.text5}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session1.text6}</PRightJop>
                                 </PRightSection>
                             </PLink>
-                            <PRightSection>
-                                <PRightModer>{p_detaildata.session1.text7}</PRightModer>
-                                <PRightName>{p_detaildata.session1.text8}<PRightEnName>{p_detaildata.session1.text9}</PRightEnName></PRightName>
-                                <PRightJop>{p_detaildata.session1.text10}</PRightJop>
-                            </PRightSection>
+                            <PLink to={{pathname :p_detaildata.session1.link ,hash: "#user2"}}>
+                                <PRightSection>
+                                    <PRightModer>{p_detaildata.session1.text7}</PRightModer>
+                                    <PRightName>{p_detaildata.session1.text8}<PRightEnName>{p_detaildata.session1.text9}</PRightEnName></PRightName>
+                                    <PRightJop>{p_detaildata.session1.text10}</PRightJop>
+                                </PRightSection>
+                            </PLink>
                         </PRightInner>
                     </PRight>
                 </PSection>

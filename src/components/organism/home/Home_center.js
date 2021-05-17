@@ -13,7 +13,7 @@ const Home_center = ({curlang}) => {
     const p_detaildata = curlang.p_data.home_center;
     const m_detaildata = curlang.m_data.home_center;
 
-    const [cal, setCal] = useState(<Home_all />);
+    const [cal, setCal] = useState(<Home_day2 />);
     const [status, setStatus] = useState(1);
 
     const onClick = (site, number) => {
@@ -41,30 +41,30 @@ const Home_center = ({curlang}) => {
                             </PTimeChangebtn>
                         </PTimeArea>
                     <PSection1>
-                        <Calendarbtn 
-                            id="1"
-                            title="All" 
-                            calendar="05.24 ~ 05.26"
-                            status={status}
-                            onClick={(e)=> onClick(<Home_all />, 1)} />
                         <Calendarbtn
-                            id="2"
+                            id="4"
                             title="Day 1" 
                             calendar="05.24 Mon"
                             status={status}
-                            onClick={(e)=> onClick(<Home_day1 />, 2)} />
+                            onClick={(e)=> onClick(<Home_day1 />, 4)} />
                         <Calendarbtn
-                            id="3"
+                            id="1"
                             title="Day 2" 
                             calendar="05.25 Tue"
                             status={status}
-                            onClick={(e)=> onClick(<Home_day2 />, 3)} />
+                            onClick={(e)=> onClick(<Home_day2 />, 1)} />
                         <Calendarbtn
-                            id="4" 
+                            id="2" 
                             title="Day 3" 
                             calendar="05.26 Wed"
                             status={status}
-                            onClick={(e)=> onClick(<Home_day3 />, 4)} />
+                            onClick={(e)=> onClick(<Home_day3 />, 2)} />
+                        <Calendarbtn 
+                            id="3"
+                            title="All" 
+                            calendar="05.24 ~ 05.26"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_all />, 3)} />
                     </PSection1>
                     <PSection2>
                         {cal}
@@ -86,30 +86,30 @@ const Home_center = ({curlang}) => {
                         <MTimeChangeText>{curlang.p_data.timechang}</MTimeChangeText>
                     </MTimeChangebtn>
                     <MSection1>
-                        <Calendarbtn 
-                            id="1"
-                            title="All" 
-                            calendar="05.24 ~ 05.26"
-                            status={status}
-                            onClick={(e)=> onClick(<Home_all />, 1)} />
                         <Calendarbtn
-                            id="2"
+                            id="4"
                             title="Day 1" 
                             calendar="05.24 Mon"
                             status={status}
-                            onClick={(e)=> onClick(<Home_day1 />, 2)} />
+                            onClick={(e)=> onClick(<Home_day1 />, 4)} />
                         <Calendarbtn
-                            id="3"
+                            id="1"
                             title="Day 2" 
                             calendar="05.25 Tue"
                             status={status}
-                            onClick={(e)=> onClick(<Home_day2 />, 3)} />
+                            onClick={(e)=> onClick(<Home_day2 />, 1)} />
                         <Calendarbtn
-                            id="4" 
+                            id="2" 
                             title="Day 3" 
                             calendar="05.26 Wed"
                             status={status}
-                            onClick={(e)=> onClick(<Home_day3 />, 4)} />
+                            onClick={(e)=> onClick(<Home_day3 />, 2)} />
+                        <Calendarbtn 
+                            id="3"
+                            title="All" 
+                            calendar="05.24 ~ 05.26"
+                            status={status}
+                            onClick={(e)=> onClick(<Home_all />, 3)} />
                     </MSection1>
                     <MSection2>
                         {cal}
