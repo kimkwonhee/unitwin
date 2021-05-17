@@ -10,6 +10,7 @@ import color from '../../../style/color'
 import { Affix } from 'antd'
 import env from '../../../modules/env'
 import ReactGA from 'react-ga'
+import { Helmet } from "react-helmet"
 
 const Se_Detail = ({match}) => {
 
@@ -72,6 +73,7 @@ const Se_Detail = ({match}) => {
 
     let pathname = match.params.se_detail
     let langstatus = curlang.status
+    let halmet_title = ''
 
     // PC
     let P_topsection = null
@@ -98,6 +100,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 2250, height: 600 }
         }
         
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/1" />
         // PC
         P_topsection = <PTop title={p_detaildata.a.title} subject={p_detaildata.a.subject} time={p_detaildata.a.time} />
         P_videosection = <PVideo 
@@ -124,6 +127,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 2450, height: 600 }
         }
 
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/2" />
        // PC
        P_topsection = <PTop title={p_detaildata.b.title} subject={p_detaildata.b.subject} time={p_detaildata.b.time} />
        P_videosection = <PVideo 
@@ -150,6 +154,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 2550, height: 600 }
         }
 
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/3" />
         // PC
         P_topsection = <PTop title={p_detaildata.c.title} subject={p_detaildata.c.subject} time={p_detaildata.c.time} />
         P_videosection = <PVideo 
@@ -176,6 +181,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 2750, height: 600 }
         }
         
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/4" />
         // PC
         P_topsection = <PTop title={p_detaildata.d.title} subject={p_detaildata.d.subject} time={p_detaildata.d.time} />
         P_videosection = <PVideo 
@@ -202,6 +208,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 2650, height: 600 }
         }
         
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/5" />
         // PC
         P_topsection = <PTop title={p_detaildata.e.title} subject={p_detaildata.e.subject} time={p_detaildata.e.time} />
         P_videosection = <PVideo 
@@ -228,6 +235,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 2900, height: 600 }
         }
 
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/6" />
         // PC
         P_topsection = <PTop title={p_detaildata.f.title} subject={p_detaildata.f.subject} time={p_detaildata.f.time} />
         P_videosection = <PVideo 
@@ -254,6 +262,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 3000, height: 600 }
         }
         
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/7" />
         // PC
         P_topsection = <PTop title={p_detaildata.g.title} subject={p_detaildata.g.subject} time={p_detaildata.g.time} />
         P_videosection = <PVideo 
@@ -280,6 +289,7 @@ const Se_Detail = ({match}) => {
             chatDef = { scroll: 2400, height: 600 }
         }
         
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session/8" />
         // PC
         P_topsection = <PTop title={p_detaildata.h.title} subject={p_detaildata.h.subject} time={p_detaildata.h.time} />
         P_videosection = <PVideo 
@@ -304,6 +314,7 @@ const Se_Detail = ({match}) => {
 
     return (
         <>
+            {halmet_title}
             <PWrapper>
                 <PInner>
                     {P_topsection}

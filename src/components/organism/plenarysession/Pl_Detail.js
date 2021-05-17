@@ -11,6 +11,7 @@ import color from '../../../style/color'
 import { Affix } from 'antd'
 import env from '../../../modules/env'
 import ReactGA from 'react-ga'
+import { Helmet } from "react-helmet"
 
 const Pl_Detail = ({match, location}) => {
     // let scroll = window.scrollTo();
@@ -88,6 +89,7 @@ const Pl_Detail = ({match, location}) => {
 
     let pathname = match.params.detail
     let langstatus = curlang.status
+    let halmet_title = ''
     
     // PC
     let P_topsection = null
@@ -116,6 +118,8 @@ const Pl_Detail = ({match, location}) => {
         } else if (langstatus === 'en') {
             chatDef = { scroll: 1150, height: 600 }
         }
+
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/plenary-session/1" />
 
         P_topsection = <PTop title={p_detaildata.wagner_part.title} time={p_detaildata.wagner_part.time} />
         M_topsection = <MTop title={m_detaildata.wagner_part.title} time={m_detaildata.wagner_part.time} />
@@ -147,6 +151,7 @@ const Pl_Detail = ({match, location}) => {
             chatDef = { scroll: 1050, height: 600 }
         }
 
+        halmet_title = <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/plenary-session/2" />
         P_topsection = <PTop title={p_detaildata.jorissen_part.title} time={p_detaildata.jorissen_part.time} />
         M_topsection = <MTop title={m_detaildata.jorissen_part.title} time={m_detaildata.jorissen_part.time} />
         
@@ -173,6 +178,7 @@ const Pl_Detail = ({match, location}) => {
 
     return (
         <>
+            {halmet_title}
             <PWrapper>
                 <PInner>
                    {P_topsection}

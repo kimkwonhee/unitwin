@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 import SessionBg from '../images/session_bg_pc.png';
 import ReactGA from 'react-ga'
+import { Helmet } from "react-helmet"
+
+
 const _Session = () => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -76,6 +79,7 @@ const _Session = () => {
     
     return (
         <>
+            <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/session" />
             {/* Pc */}
             <PWrapper>
                 <PBg bg={SessionBg}></PBg>
