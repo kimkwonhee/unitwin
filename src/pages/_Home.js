@@ -4,6 +4,7 @@ import Home_center from '../components/organism/home/Home_center'
 import Home_top from '../components/organism/home/Home_top'
 import { useSelector } from 'react-redux'
 import ReactGA from 'react-ga'
+import { Helmet } from "react-helmet"
 
 const _Home = () => {
 
@@ -25,10 +26,14 @@ const _Home = () => {
     }))
     
     return (
-        <Wrapper>
-            <Home_top curlang={curlang} />
-            <Home_center curlang={curlang} />
-        </Wrapper>
+        <>
+            <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM" />
+            <Wrapper>
+                <Home_top curlang={curlang} />
+                <Home_center curlang={curlang} />
+            </Wrapper>
+        </>
+        
     )
 }
 

@@ -7,6 +7,7 @@ import { useSelector } from 'react-redux'
 import color from '../style/color'
 import SessionBg from '../images/session_bg_pc.png';
 import ReactGA from 'react-ga'
+import { Helmet } from "react-helmet"
 
 const _PlenarySession = withRouter(() => {
     
@@ -31,6 +32,7 @@ const _PlenarySession = withRouter(() => {
 
     return (
         <>
+            <Helmet title="plenary-session - The 4th UNESCO-UNITWIN SYMPOSIUM" />
             <PWrapper>
                 <PBg bg={SessionBg}></PBg>
                 <PInner>
