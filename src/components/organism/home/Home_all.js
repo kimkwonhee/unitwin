@@ -36,7 +36,7 @@ const Home_all = () => {
     return (
         <>
             <PWrapper>
-                <PSection1>
+                <PSection1 status={langstatus}>
                     <PDayBlock>
                         <PDayText>{curlang.p_data.home_all.session1.day}</PDayText>
                     </PDayBlock>
@@ -45,7 +45,6 @@ const Home_all = () => {
                                 href="http://www.arteweek.kr/2021/views/opening.php" 
                                 target="_blank"
                                 status={langstatus}
-                                kbottom="30px"
                                 ebottom="50px"
                             >
                                 {curlang.p_data.move}
@@ -71,17 +70,20 @@ const Home_all = () => {
                     </PMonSection1>
                     <PMonSection2 />
                 </PSection1>
-                <PSection2>
+                <PSection2 status={langstatus}>
                     <PDayBlock>
                         <PDayText>{curlang.p_data.home_all.session2.day}</PDayText>
                     </PDayBlock>
-                    <PTueSection1>
-                            <PLink to={p_tue1.link} >
-                                <PMove
-                                    status={langstatus}
-                                    kbottom="30px"
-                                    ebottom="50px"
-                                >
+                    <PTueSection1
+                        status={langstatus}
+                        pdktop="77px"
+                        pdetop="77px"
+                        >
+                            <PLink 
+                                to={p_tue1.link}
+                                status={langstatus}
+                            >
+                                <PMove>
                                     {curlang.p_data.move}
                                 </PMove>
                             </PLink>
@@ -107,8 +109,14 @@ const Home_all = () => {
                             <PPhasis2>{p_tue2.text6}</PPhasis2>
                             <PTueCharacter2>{p_tue2.text7}</PTueCharacter2>
                     </PTueSection2>
-                    <PTueSection3>
-                            <PLeftArea>
+                    <PTueSection3
+                        status={langstatus}
+                    >
+                            <PLeftArea 
+                                status={langstatus}
+                                pdktop="40px"
+                                pdetop="65px"
+                            >
                                 <PLink 
                                     status={langstatus}
                                     to={p_tue3.link}
@@ -166,11 +174,14 @@ const Home_all = () => {
                         <PSubTitle>{p_tue6.text3}</PSubTitle>
                     </PTueSection5>
                 </PSection2>
-                <PSection3>
+                <PSection3 status={langstatus}>
                     <PDayBlock>
                         <PDayText>{curlang.p_data.home_all.session3.day}</PDayText>
                     </PDayBlock>
-                    <PWedSection1>
+                    <PWedSection1
+                        status={langstatus}
+                        pdetop="30px"
+                        >
                             <PLink 
                                 status={langstatus} 
                                 to={p_wed1.link}
@@ -199,8 +210,14 @@ const Home_all = () => {
                             <PPhasis2>{p_wed2.text6}</PPhasis2>
                             <PTueCharacter2>{p_wed2.text7}</PTueCharacter2>
                     </PWedSection2>
-                    <PWedSection3>
-                            <PLeftArea>
+                    <PWedSection3
+                        status={langstatus}
+                    >
+                            <PLeftArea
+                                status={langstatus}
+                                pdktop="40px"
+                                pdetop="65px"
+                            >
                                 <PLink 
                                     status={langstatus} 
                                     to={p_wed3.link}
@@ -417,17 +434,17 @@ const PWrapper = styled.div`
 `
 const PSection1 = styled.div`
     width : 400px;
-    height : 2310px;
+    height : ${props => (props.status ==='kr') ? '2310px' : '2380px'};
     border-right : 1px solid ${color.turtle_green};
 `
 const PSection2 = styled.div`
     width : 400px;
-    height : 2310px;
+    height : ${props => (props.status ==='kr') ? '2310px' : '2380px'};
     border-right : 1px solid ${color.turtle_green};
 `
 const PSection3 = styled.div`
     width : 400px;
-    height : 2310px;
+    height : ${props => (props.status ==='kr') ? '2310px' : '2380px'};
 `
 const PMonSection1 = styled.div`
     height : 950px;
@@ -443,11 +460,13 @@ const PMonSection2 = styled.div`
     border-top : 1px solid ${color.turtle_green};
 `
 const PTueSection1 = styled.div`
+    padding-top : ${props => (props.status ==='kr') 
+                ? props.pdktop || '0px' 
+                : props.pdetop || '0px'};
     height : 480px;
     display : flex;
     flex-direction : column;
     align-items : center;
-    justify-content  : center;
     border-top : 1px solid ${color.turtle_green};
 `
 const PTueSection2 = styled.div`
@@ -459,15 +478,17 @@ const PTueSection2 = styled.div`
     border-top : 1px solid ${color.turtle_green};
 `
 const PTueSection3 = styled.div`
-    height : 454px;
+    height : ${props => (props.status ==='kr') ? '454px' : '530px'};
     display : flex;
     border-top : 1px solid ${color.turtle_green};
 `
 const PLeftArea = styled.div`
+    padding-top : ${props => (props.status ==='kr') 
+                ? props.pdktop || '0px' 
+                : props.pdetop || '0px'};
     width : 200px;
     height : 100%;
     display : flex;
-    justify-content : center;
     flex-direction : column;
     align-items : center;
     border-right : 1px solid ${color.turtle_green};
@@ -497,6 +518,9 @@ const PTueSection5 = styled.div`
     border-top : 1px solid ${color.turtle_green};
 `
 const PWedSection1 = styled.div`
+    padding-top : ${props => (props.status ==='kr') 
+                ? props.pdktop || '0px' 
+                : props.pdetop || '0px'};
     height : 480px;
     display : flex;
     flex-direction : column;
@@ -513,7 +537,7 @@ const PWedSection2 = styled.div`
     border-top : 1px solid ${color.turtle_green};
 `
 const PWedSection3 = styled.div`
-    height : 454px;
+    height : ${props => (props.status ==='kr') ? '454px' : '530px'};
     display : flex;
     border-top : 1px solid ${color.turtle_green};
 `
@@ -604,7 +628,7 @@ const PMove = styled.a`
     background-color: ${color.turtle_green};
     transition : .6s;
     margin-bottom : ${props => (props.status ==='kr') 
-                ? props.kbottom || '0px' 
+                ? props.kbottom || '30px' 
                 : props.ebottom || '0px'};
 
     &:hover{
@@ -623,6 +647,9 @@ const PTitle = styled.div`
 const PLink = styled(Link)`
     text-decoration : none;
     cursor: pointer;
+    margin-bottom : ${props => (props.status ==='kr') 
+                ? props.kbottom || '30px' 
+                : props.ebottom || '30px'};
 `
 
 
