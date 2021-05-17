@@ -551,15 +551,8 @@ const PRightSection = styled.div`
         border-bottom : none;
     }
 
-    &:hover { 
-        transition : .6s;
+    &:hover {  
         background-color : rgba(131,185,73,0.08);
-        &:after {
-            content : '>';
-            position : absolute;
-            right : 0;
-            font-size : 16px;
-        }
     }
 `
 const PRightTitle = styled.div`
