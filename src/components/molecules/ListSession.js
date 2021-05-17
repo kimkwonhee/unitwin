@@ -8,7 +8,7 @@ const ListSession = ({className, data}) => {
             <PWrapper className={className}>
             {data.map((list, idx) => {
                 return (
-                    <PSection key={idx}>
+                    <PSection key={idx} id={list.hashtag}>
                         <PInner>
                             <PImgblock>
                                 <PImg src={list.img} alt={list.name} />     
@@ -53,6 +53,14 @@ const PWrapper = styled.div`
     }
 `
 const PSection = styled.div`
+    &:before {
+        display: block; 
+        content: " "; 
+        margin-top: -100px; 
+        height: 100px; 
+        visibility: hidden; 
+        pointer-events: none;
+    }
 `
 const PInner = styled.div`
     width : 100%;

@@ -659,6 +659,7 @@ export const langkr = {
                         img : pl_detail1_img_01,
                         moder : '',
                         name : '에른스트 바그너 ',
+                        hashtag : 'Ernst',
                         en_name : '(Ernst Wagner)',
                         li_title : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일',
                         li_contents : '서울 어젠다 채택 이후로 10년이 넘는 기간 동안, 전 세계의 예술교육에 대한 가장 중요한 문서를 다시 살펴볼 때다. 서울 어젠다는 큰 성공을 거뒀고 그 이후로 많은 것이 성취되었다. 서울 어젠다가 유니트윈같은 네트워크에 국제적으로 집중된 협력을 촉발한 것을 예로 들 수 있다.\n\n'
@@ -669,6 +670,7 @@ export const langkr = {
                         img : pl_detail1_img_02,
                         moder : '[모더레이터]',
                         name : '치후 럼 ',
+                        hashtag : 'Chee_Hoo',
                         en_name : '(Chee-Hoo Lum)',
                         li_title : '- 난양 공과대학교 부교수, 싱가포르',
                         li_contents : "치후 럼은 싱가포르 난양 공과대학교 국립교육원 영상공연학그룹(NIE)의 음악교육학과 부교수이다. 그는 NIE(National Institute of Education, Singapore) 교육 예술 연구 센터(CARE)의 코디네이터이자 유네스코 유니트윈: 문화적 다양성과 지속가능한 발전을 위한 예술 교육 연구소의 회원이다. 치후의 연구 관심사는 정체성, 문화적 다양성 및 다문화주의, 음악 교육에서의 기술과 세계화, 아이들의 음악 문화, 창의성과 즉흥성, 그리고 초등 음악 방법 등이다. 그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다.\n\n"
@@ -689,6 +691,7 @@ export const langkr = {
                         img : plsession_img_02,
                         moder : '',
                         name : '베냐민 외리슨 ',
+                        hashtag : 'Benjamin',
                         en_name : '(Benjamin Jörissen)',
                         li_title : '- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 정회원 / 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교 유네스코 문화예술교육 체어 의장, 독일',
                         li_contents : '베냐민 외리슨은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교에서 유네스코 교육예술 문화 의장직을 맡고 있다. 또한 베냐민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
@@ -698,6 +701,7 @@ export const langkr = {
                         img : session_img_43,
                         moder : '[모더레이터]',
                         name : '타냐 클레패키 ',
+                        hashtag : 'Tanja',
                         en_name : '(Tanja Klepacki)',
                         li_title : '- 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교 유네스코 문화예술교육 체어 선임 연구원, 독일',
                         li_contents : '타냐 클레패키 박사는 독일 에를랑겐-뉘른베르크의 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교에 유네스코 교육문화 의장 선임 연구원이다. 그중에서도 그녀는 뉘른베르크에 있는 학교 연극 및 공연 교육 학회의 전무이사를 맡고 있다. 그녀의 업무 분야는 문화 및 미학 교육의 영역에서 이론 및 실증 연구다.\n\n'
@@ -1091,9 +1095,11 @@ export const langkr = {
                     {
                         moder : '',
                         li_title : "예술교육 지속가능성의 전망: 가치, 도전 그리고 가능성",
+                        hashtag : 'vision',
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                hashtag : 'Benjamin',
                                 name : '벤저민 볼든 ',
                                 enname : '(Benjamin Bolden)',
                                 job : '- 퀸스 대학교 부교수, 캐나다',
@@ -1103,6 +1109,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_16,
+                                hashtag : 'Neryl',
                                 name : '네릴 지네렛 ',
                                 enname : '(Neryl Jeanneret)',
                                 job : '- 멜버른 부교수, 호주',
@@ -1118,6 +1125,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                hashtag : '1',
                                 name : '치후 럼 ',
                                 enname : '(Chee-Hoo Lum)',
                                 job : '- 난양 공과대학교 부교수, 싱가포르',
@@ -1128,6 +1136,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_18,
+                                hashtag : '1',
                                 name : '젠 테 ',
                                 enname : '(Zen Teh)',
                                 job : '- 환경예술가 및 교육자, 싱가포르',
@@ -1144,6 +1153,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_19,
+                                hashtag : '1',
                                 name : '캐서린 콜먼 ',
                                 enname : '(Kathryn Coleman) ',
                                 job : '- 맬버른 대학교 부교수, 호주',
@@ -1153,6 +1163,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_20,
+                                hashtag : '1',
                                 name : '마크 셀크리그 ',
                                 enname : '(Mark Selkrig)',
                                 job : '- 맬버른 대학교 부교수, 호주',
@@ -1162,6 +1173,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_21,
+                                hashtag : '1',
                                 name : '애비 맥도널드 ',
                                 enname : '(Abbey MacDonald)',
                                 job : '- 태즈매니아 대학교 부교수, 호주',
@@ -1177,6 +1189,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : closing_img_03,
+                                hashtag : '1',
                                 name : '김인설',
                                 enname : '',
                                 job : '- 가톨릭대학교 부교수, 한국',

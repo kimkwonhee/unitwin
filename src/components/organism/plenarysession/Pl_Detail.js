@@ -14,9 +14,7 @@ import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
 
 const Pl_Detail = ({match, location}) => {
-    // let scroll = window.scrollTo();
-    // console.log(window.scrollY);
-    
+
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
@@ -71,25 +69,30 @@ const Pl_Detail = ({match, location}) => {
         }, 10);
     }, [curlang]);
 
+
     let hashtag = location.hash
-    console.log(window.scrollY);
 
     useEffect(() => {
-        if(hashtag === "#user1") {
-            window.scrollTo(0,681);
-        }else if(hashtag === "#user2") {
-            window.scrollTo(0,1081);
-        }else {
-            window.scrollTo(0,0);
+        const handleWhell = (e) => {
+            console.log(window.scrollY);
         }
+        window.addEventListener("mousewheel", handleWhell);
+        return () => window.removeEventListener("mousewheel", handleWhell);       
+    }, []);
+
+
+    let pathname = match.params.detail
+    let langstatus = curlang.status
+    let halmet_title = ''
+
+    useEffect(() => {
+        
     },[]);
 
     const p_detaildata = curlang.p_data.pl_session_detail;
     const m_detaildata = curlang.m_data.pl_session_detail;
 
-    let pathname = match.params.detail
-    let langstatus = curlang.status
-    let halmet_title = ''
+    
     
     // PC
     let P_topsection = null

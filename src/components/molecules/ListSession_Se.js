@@ -20,24 +20,25 @@ const ListSession_Se = ({className, data}) => {
                         <PModer>{list.moder}</PModer>
                         <PTitle>{list.li_title}</PTitle>
                         <PInner>
-                            {list.li_data.map(data => {
-                                
-                                return <PItemInner>
-                                    <PImgblock>
-                                        <PImg src={data.imgs} alt={data.name} />     
-                                    </PImgblock>
-                                    <PTextblock>
-                                        <PName>{data.name}<PEnName>{data.enname}</PEnName></PName>
-                                        <PListtitle>{data.job}</PListtitle>
-                                        <PContents dangerouslySetInnerHTML={ {__html: data.contents} } />
-                                        <PDownlodebtn 
-                                            downlink={data.downlink} 
-                                            down={data.download} 
-                                        >
-                                            {curlang.p_data.classdownload}
-                                        </PDownlodebtn>
-                                    </PTextblock>
-                                </PItemInner>
+                            {list.li_data.map((data, i) => {
+                                return <Test isTop={i === 0} id={data.hashtag}>
+                                        <PItemInner >
+                                            <PImgblock >
+                                                <PImg src={data.imgs} alt={data.name} />     
+                                            </PImgblock>
+                                            <PTextblock>
+                                                <PName>{data.name}<PEnName>{data.enname}</PEnName></PName>
+                                                <PListtitle>{data.job}</PListtitle>
+                                                <PContents dangerouslySetInnerHTML={ {__html: data.contents} } />
+                                                <PDownlodebtn 
+                                                    downlink={data.downlink} 
+                                                    down={data.download} 
+                                                >
+                                                    {curlang.p_data.classdownload}
+                                                </PDownlodebtn>
+                                            </PTextblock>
+                                        </PItemInner>
+                                    </Test>
                             })}   
                         </PInner>
                     </PSection>
@@ -95,12 +96,24 @@ const PInner = styled.div`
     padding-top : 20px;
     border-top : 1px solid ${color.turtle_green};
 `
-const PItemInner = styled.div`
-    display : flex;
+const Test = styled.div`
     padding-bottom : 40px;
+    
     &:last-child {
         padding-bottom : 0px;
     }
+    &:before {
+        display: block; 
+        content: " "; 
+        margin-top:${props => props.isTop ? '-200px' : '-100px'}; 
+        height: ${props => props.isTop ? '200px' : '100px'};
+        visibility: hidden; 
+        pointer-events: none;
+    }
+`
+const PItemInner = styled.div`
+    display : flex;
+    
 `
 const PTitle = styled.div`
     font-size: 20px;
