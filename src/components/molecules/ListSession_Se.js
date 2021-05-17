@@ -211,9 +211,6 @@ const MName = styled.div`
     font-weight: bold;
     color: ${color.black};
 `
-const MEmpty = styled.div`
-    margin-top : 60px;
-`
 const MEnName = styled.div`
     margin-top : 2px;
     font-size: 14px;
