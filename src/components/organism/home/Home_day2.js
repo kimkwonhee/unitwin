@@ -561,6 +561,7 @@ const PRightTitle = styled.div`
      white-space : pre-line;
      color: ${color.black};
      margin-bottom : 40px;
+     word-break : keep-all;
 `
 const PRightName = styled.div`
     font-size: 16px;

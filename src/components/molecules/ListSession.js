@@ -17,7 +17,7 @@ const ListSession = ({className, data}) => {
                                 <PModer>{list.moder}</PModer>
                                 <PName>{list.name}<PEnName>{list.en_name}</PEnName></PName>
                                 <PJob>{list.li_title}</PJob>
-                                <PDiscription>{list.li_contents}</PDiscription>
+                                <PDiscription dangerouslySetInnerHTML={ {__html: list.li_contents} } />
                             </PTextblock>
                         </PInner>
                     </PSection>
@@ -36,7 +36,7 @@ const ListSession = ({className, data}) => {
                             <MName>{list.name}</MName>
                             <MEnName>{list.en_name}</MEnName>
                             <MListtitle>{list.li_title}</MListtitle>
-                            <MContents>{list.li_contents}</MContents>   
+                            <MContents dangerouslySetInnerHTML={ {__html: list.li_contents} } />
                         </MInner>
                     )
                 })}

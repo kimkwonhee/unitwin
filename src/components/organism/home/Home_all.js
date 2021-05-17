@@ -66,9 +66,8 @@ const Home_all = () => {
                             <PSubTitle>{p_mon1.title8}</PSubTitle>
                             <PTime>{p_mon1.time8}</PTime>
                             <PTitle>{p_mon1.title9}</PTitle>
-                            
                     </PMonSection1>
-                    <PMonSection2 />
+                    <PMonSection2 status={langstatus} />
                 </PSection1>
                 <PSection2 status={langstatus}>
                     <PDayBlock>
@@ -115,7 +114,7 @@ const Home_all = () => {
                             <PLeftArea 
                                 status={langstatus}
                                 pdktop="40px"
-                                pdetop="65px"
+                                pdetop="45px"
                             >
                                 <PLink 
                                     status={langstatus}
@@ -129,9 +128,13 @@ const Home_all = () => {
                                 <PPhasis1>{p_tue3.text4}</PPhasis1>
                                 <PTueCharacter2>{p_tue3.text5}</PTueCharacter2>
                                 <PPhasis2>{p_tue3.text6}</PPhasis2>
-                                <PTueCharacter2>{p_tue3.text7}</PTueCharacter2>
+                                <PTueCharacter2 ftsize="14px">{p_tue3.text7}</PTueCharacter2>
                             </PLeftArea>
-                            <PRightArea>
+                            <PRightArea
+                                status={langstatus}
+                                pdktop="40px"
+                                pdetop="45px"
+                            >
                                 <PLink 
                                     status={langstatus}
                                     to={p_tue4.link}
@@ -144,7 +147,7 @@ const Home_all = () => {
                                 <PPhasis1>{p_tue4.text4}</PPhasis1>
                                 <PTueCharacter2>{p_tue4.text5}</PTueCharacter2>
                                 <PPhasis2>{p_tue4.text6}</PPhasis2>
-                                <PTueCharacter2>{p_tue4.text7}</PTueCharacter2>
+                                <PTueCharacter2 ftsize="14px">{p_tue4.text7}</PTueCharacter2>
                             </PRightArea>
                     </PTueSection3>
                     <PTueSection4>
@@ -216,7 +219,7 @@ const Home_all = () => {
                             <PLeftArea
                                 status={langstatus}
                                 pdktop="40px"
-                                pdetop="65px"
+                                pdetop="45px"
                             >
                                 <PLink 
                                     status={langstatus} 
@@ -230,9 +233,13 @@ const Home_all = () => {
                                 <PPhasis1>{p_wed3.text4}</PPhasis1>
                                 <PTueCharacter2>{p_wed3.text5}</PTueCharacter2>
                                 <PPhasis2>{p_wed3.text6}</PPhasis2>
-                                <PTueCharacter2>{p_wed3.text7}</PTueCharacter2>
+                                <PTueCharacter2 ftsize="14px">{p_wed3.text7}</PTueCharacter2>
                             </PLeftArea>
-                            <PRightArea>
+                            <PRightArea
+                                status={langstatus}
+                                pdktop="40px"
+                                pdetop="45px"
+                                >
                                 <PLink 
                                     status={langstatus}
                                     to={p_wed4.link}
@@ -245,7 +252,7 @@ const Home_all = () => {
                                 <PPhasis1>{p_wed4.text4}</PPhasis1>
                                 <PTueCharacter2>{p_wed4.text5}</PTueCharacter2>
                                 <PPhasis2>{p_wed4.text6}</PPhasis2>
-                                <PTueCharacter2>{p_wed4.text7}</PTueCharacter2>
+                                <PTueCharacter2 ftsize="14px">{p_wed4.text7}</PTueCharacter2>
                             </PRightArea>
                     </PWedSection3>
                     <PWedSection4>
@@ -455,7 +462,7 @@ const PMonSection1 = styled.div`
     border-top : 1px solid ${color.turtle_green};
 `
 const PMonSection2 = styled.div`
-    height : 1292px;
+    height : ${props => (props.status ==='kr') ? '1292px' : '1362px'};
     background-color: #f9fff4;
     border-top : 1px solid ${color.turtle_green};
 `
@@ -494,12 +501,14 @@ const PLeftArea = styled.div`
     border-right : 1px solid ${color.turtle_green};
 `
 const PRightArea = styled.div`
+    padding-top : ${props => (props.status ==='kr') 
+                ? props.pdktop || '0px' 
+                : props.pdetop || '0px'};
     width : 200px;
     height : 100%;
     display : flex;
     flex-direction : column;
     align-items : center;
-    justify-content : center;
 `
 const PTueSection4 = styled.div`
     height : 558px;
@@ -590,7 +599,7 @@ const PTueCharacter1 = styled.div`
 `
 const PTueCharacter2 = styled.div`
     margin-top : 8px;
-    font-size: 16px;
+    font-size: ${props => props.ftsize || '16px' };
     font-weight: bold;
     color: ${color.black};
     white-space: pre-line;

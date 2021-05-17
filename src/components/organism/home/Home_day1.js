@@ -50,8 +50,6 @@ const Home_day1 = () => {
                             <PRightSection>
                                 <PRightName>{p_detaildata.session2.text3}</PRightName>
                                 <PRightJop>{p_detaildata.session2.text4}</PRightJop>
-                            </PRightSection>
-                            <PRightSection>
                                 <PRightName>{p_detaildata.session2.text5}</PRightName>
                                 <PRightJop>{p_detaildata.session2.text6}</PRightJop>
                             </PRightSection>
@@ -140,8 +138,6 @@ const Home_day1 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session8.text3}</PRightTitle>
-                                <PRightName>{p_detaildata.session8.text4}</PRightName>
-                                <PRightJop>{p_detaildata.session8.text5}</PRightJop>
                                 <PRightName>{p_detaildata.session8.text6}</PRightName>
                                 <PRightJop>{p_detaildata.session8.text7}</PRightJop>
                                 <PRightName>{p_detaildata.session8.text8}</PRightName>
@@ -152,6 +148,11 @@ const Home_day1 = () => {
                                 <PRightJop>{p_detaildata.session8.text13}</PRightJop>
                                 <PRightName>{p_detaildata.session8.text14}</PRightName>
                                 <PRightJop>{p_detaildata.session8.text15}</PRightJop>
+                            </PRightSection>
+                            <PRightSection>
+                                <PRightModer>{p_detaildata.session8.text16}</PRightModer>
+                                <PRightName>{p_detaildata.session8.text4}</PRightName>
+                                <PRightJop>{p_detaildata.session8.text5}</PRightJop>
                             </PRightSection>
                         </PRightInner>
                     </PRight>
@@ -193,8 +194,6 @@ const Home_day1 = () => {
                                 <MRightSection>
                                     <MRightName>{m_detaildata.session2.text3}</MRightName>
                                     <MRightJop>{m_detaildata.session2.text4}</MRightJop>
-                                </MRightSection>
-                                <MRightSection>
                                     <MRightName>{m_detaildata.session2.text5}</MRightName>
                                     <MRightJop>{m_detaildata.session2.text6}</MRightJop>
                                 </MRightSection>
@@ -238,7 +237,7 @@ const Home_day1 = () => {
                         <MRight>
                             <MRightInner>
                                 <MRightSection>
-                                    {/* <MRightTitle>{m_detaildata.session5.text3}</MRightTitle> */}
+                                    <MRightTitle>{m_detaildata.session5.text3}</MRightTitle>
                                     <MRightName>{m_detaildata.session5.text4}<MRightEnName>{m_detaildata.session5.text5}</MRightEnName></MRightName>
                                     <MRightJop>{m_detaildata.session5.text6}</MRightJop>
                                 </MRightSection>
@@ -283,8 +282,6 @@ const Home_day1 = () => {
                             <MRightInner>
                                 <MRightSection>
                                     <MRightTitle>{m_detaildata.session8.text3}</MRightTitle>
-                                    <MRightName>{m_detaildata.session8.text4}</MRightName>
-                                    <MRightJop>{m_detaildata.session8.text5}</MRightJop>
                                     <MRightName>{m_detaildata.session8.text6}</MRightName>
                                     <MRightJop>{m_detaildata.session8.text7}</MRightJop>
                                     <MRightName>{m_detaildata.session8.text8}</MRightName>
@@ -295,6 +292,11 @@ const Home_day1 = () => {
                                     <MRightJop>{m_detaildata.session8.text13}</MRightJop>
                                     <MRightName>{m_detaildata.session8.text14}</MRightName>
                                     <MRightJop>{m_detaildata.session8.text15}</MRightJop>
+                                </MRightSection>
+                                <MRightSection>
+                                    <MRightModer>{m_detaildata.session8.text16}</MRightModer>
+                                    <MRightName>{m_detaildata.session8.text4}</MRightName>
+                                    <MRightJop>{m_detaildata.session8.text5}</MRightJop>
                                 </MRightSection>
                             </MRightInner>
                         </MRight>
@@ -350,9 +352,7 @@ const PLeftTime = styled.div`
 const PRight = styled.div`
     width : 894px;
     margin-left : 18px;
-    /* display : block; */
-    display : flex;
-    align-items : center;
+    display : block;
 `
 const PRightInner = styled.div`
     border-bottom : 1px solid ${color.very_light_pink};
@@ -362,9 +362,12 @@ const PRightInner = styled.div`
 `
 const PRightSection = styled.div`
     margin-bottom : 40px;
-    
+    border-bottom : 1px solid #d0d0d0;
+    padding-bottom: 40px;
     &:last-child {
         margin-bottom : 0px;
+        border-bottom : none;
+        padding-bottom: 0;
     }
 `
 const PRightTitle = styled.div`
@@ -372,6 +375,7 @@ const PRightTitle = styled.div`
      font-weight: bold;
      color: ${color.black};
      margin-bottom : 40px;
+     word-break : keep-all;
 `
 const PRightSubText = styled.div`
     font-size: 16px;
@@ -383,10 +387,12 @@ const PRightName = styled.div`
     font-weight: bold;
     color: ${color.black};
     margin-bottom : 8px;
-
-    margin-top : 40px;
-    &:first-child {
-        margin-top : 0px;
+    
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(8),
+    &:nth-child(10) {
+        margin-top : 40px;
     }
 `
 const PRightEnName = styled.span`
@@ -400,6 +406,12 @@ const PRightJop = styled.div`
     color: ${color.black};
 `
 
+const PRightModer = styled.div`
+    margin-bottom : 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: ${color.turtle_green};
+`
 
 // Mobile
 const MWrapper = styled.div`
@@ -429,7 +441,7 @@ const MSection = styled.div`
     }
 `
 const MLeftInner = styled.div`
-    width : 129px;
+    width : 182px;
     height : auto;
     padding-left : 12px;
 `
@@ -451,11 +463,11 @@ const MRightTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
     white-space : pre-line;
-    word-break : break-all;
+    word-break : keep-all;
     color: ${color.black};
 `
 const MRight = styled.div`
-    width : 200px;
+    width : 100%;
     display : block;
 `
 const MRightInner = styled.div`
@@ -466,9 +478,13 @@ const MRightInner = styled.div`
 `
 const MRightSection = styled.div`
     margin-bottom : 12px;
+    border-bottom : 1px solid #d0d0d0;
+    padding-bottom: 12px;
     
     &:last-child {
         margin-bottom : 0px;
+        border-bottom : none;
+        padding-bottom: 0;
     }
 `
 const MRightName = styled.div`
@@ -476,7 +492,7 @@ const MRightName = styled.div`
     font-weight : 500;
     color: ${color.black};
     margin-bottom : 2px;
-
+    &:nth-child(3),
     &:nth-child(4),
     &:nth-child(6),
     &:nth-child(8),
@@ -494,6 +510,13 @@ const MRightJop = styled.div`
     white-space : pre-line;
     word-break : keep-all;
     color: ${color.black};
+`
+const MRightModer = styled.div`
+    /* margin-top : 40px; */
+    margin-bottom : 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: ${color.turtle_green};
 `
 
 
