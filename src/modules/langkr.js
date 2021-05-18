@@ -1154,8 +1154,8 @@ export const langkr = {
                                 contents : '음악 교육자이자 작곡가인 벤저민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤저민의 연구 관심사는 예술교육, 음악교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등 학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Benjamin_Bolden&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -1166,8 +1166,8 @@ export const langkr = {
                                 contents : '네릴 지네렛은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Benjamin_Bolden&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -1185,8 +1185,8 @@ export const langkr = {
                                           +'그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1) 『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』, (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 콘퍼런스 프레젠테이션을 했다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum&Zen_Teh.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             },
                             {
                                 imgs : session_img_18,
@@ -1198,8 +1198,8 @@ export const langkr = {
                                           +'젠은 그녀의 작품을 싱가포르의 산책로(Esplanade), 국립박물관, 미술관, 예술과학관 등 싱가포르에서 열린 수많은 단체전과 개인전에서 선보였다. 태국, 인도네시아, 한국, 대만, 홍콩, 중국 등 지역에서 작품 전시를 했으며, 아세안 파워시프트 2015, 하노이 이노베이션 위크 2016등 지역 환경 회의 초청 연사로 초청됐다. 또한 젠은 최근 제7회 프랑스+싱가포르 사진예술상 겸 결승 진출자(아티스트)의 2019년 공로상 수상작도 받았다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum&Zen_Teh.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             }
                         ]
                     },
@@ -1216,8 +1216,8 @@ export const langkr = {
                                 contents : '캐서린 콜먼 박사는 예술, 디지털 공간, 연습, 문화의 교차점에 관심을 둔다. 콜먼 박사의 방식은 교사 실습, 정체성의 실천, 그리고 연습으로서의 지식을 통해 알게 된다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pptx',
-                                abdownlink : env.link + '/Abstract_Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pdf',
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_20,
@@ -1228,8 +1228,8 @@ export const langkr = {
                                 contents : '마크 셀크리그 부교수의 연구 관심사에는 교육자 업무의 본질 변화와 예술과 창의성이 개인과 공동체의 변화, 역량 향상 및 기관에 영향을 미칠 수 있는 방법이 포함된다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pptx',
-                                abdownlink : env.link + '/Abstract_Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pdf',
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_21,
@@ -1240,8 +1240,8 @@ export const langkr = {
                                 contents : '애비 맥도널드 박사는 자신의 연구를 위한 작품활동, 지지 및 다양한 이해 관계자들의 협업에 최대한 중점을 두고 있다. 애비는 교육 혁신 이해 관계자들과 협력하기 위해 예술 및 자선단체와 함께 일한다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pptx',
-                                abdownlink : env.link + '/Abstract_Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pdf',
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             }
                         ]
                     },
@@ -1342,8 +1342,8 @@ export const langkr = {
                                 contents : "에밀리 윌슨은 학부 및 대학원 음악 교육 조교수다. 그녀의 연구 관심사로는 음악 교육 교육학, 학생 참여, 비공식 및 공식 음악 학습의 융합, 일대일 음악 교육학 등이 있다.",
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Emily_Wilson&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Emily_Wilson&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -1354,8 +1354,8 @@ export const langkr = {
                                 contents : "네릴 지네렛은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.",
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Emily_Wilson&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Emily_Wilson&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -1418,7 +1418,7 @@ export const langkr = {
                                 download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung&Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             },
                             {
                                 imgs : session_img_28,
@@ -1430,7 +1430,7 @@ export const langkr = {
                                 download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung&Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             }
                         ]
                     },
@@ -1448,8 +1448,8 @@ export const langkr = {
                                            +'음악가이자 음악학자로서 훈련을 받은 레베카는 바로크양식의 협주곡 창작 음악 과정을 전문으로 한다. 그녀는 박사 과정으로 국립 예술 위원회로부터 장학금을 받았고, 리버풀 대학교에서는 전액 장학금을 받았으며 영국 국제 연구생들을 위한 장학금을 받았다. 레베카는 현재 싱가포르 난양 공과대학교의 국립교육원에서 교육학 박사 연구로 Tan Poey Queee 박사 교육 장학금을 받았다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
-                                abdownlink : env.link + '/Abstract_Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_29,
@@ -1461,8 +1461,8 @@ export const langkr = {
                                            +'세이 밍은 왕립음악대학 졸업생이며, 훗날 그가 프랑스 바이올리니스트 피에르 아모얄과 함께 공부했던 스위스 콘서베토흐 드 로잔(Conservatoire de Lausanne) 음악 학교에서 비흐튜오시떼 - 퍼미에흐 펠리시티 듀 쥬히(Virtuosité - Premier Pélicities du Jeri)를 받았다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
-                                abdownlink : env.link + '/Abstract_Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_30,
@@ -1474,8 +1474,8 @@ export const langkr = {
                                            +'탄은 학생 연구 조교로서 교육학 연구부, 학술 사무소와 함께 다양한 연구 프로젝트에 참여해왔다. 음악 교육에 깊은 관심을 갖고 있는 탄의 학부 연구 프로젝트는 실천 커뮤니티에 중점을 둔 음악 학교에서의 사회문화적인 교육에 초점을 맞췄다. 그녀의 연구 프로젝트는 전통 음악 시스템에 대한 보완적 학습 방법으로 사회 문화 학습의 가능성을 탐구하려고 했다. 탄의 다른 연구 관심사는 영유아를 위한 음악 교육이다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
-                                abdownlink : env.link + '/Abstract_Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             }
                         ]
                     },
@@ -1577,8 +1577,8 @@ export const langkr = {
                                           +'미술치료 활동 분야로는, 남한 청소년과 탈북청소년의 공존을 위한 미술치료 프로젝트, 한국문화예술교육진흥원에서 일반 시민을 대상으로 한 문화예술치유 프로젝트, 보육원에서 자란 청년들을 위한 미술치료 프로젝트, 다문화 가정 및 한부모 가정 아동을 위한 미술치료 등이 있다. 관심분야로는 미술치료에서 다문화주의, 사회행동, 트라우마가 있다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Yuri_Kim&Sojung_Park.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
                                 imgs : session_img_34,
@@ -1590,8 +1590,8 @@ export const langkr = {
                                           +'정신질환 및 중독이 있는 청소년 및 성인을 중심으로 폭넓은 임상 경험을 가진 박소정 교수의 관심 연구 분야로는 미술치료에서 다문화주의, 정신병리, 예술기반 연구 및 지역사회를 위한 사회행동적 미술치료가 있다. 박소정 교수는 2020년 미국미술치료학회의 Pearlie Roberson Scholarship Award의 수상자이며, 미국미술치료학회지의 Editorial board member이자 Multicultural Committee member로 활발히 활동 중이다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Yuri_Kim&Sojung_Park.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
                     },
@@ -1608,8 +1608,8 @@ export const langkr = {
                                 contents : '숀은 퀸즈 대학교 박사과정생으로 즉흥 연주와 음악교육, 모든 학생이 의미 있는 예술 실습을 할 수 있는 기회 창출하는 것에 관심이 많다. 예술가로서 숀은 연결의 본질을 탐구하며 여기에는 연주자들, 관객들, 그리고 배경이 있다. 최근, 숀은 알론조 킹과 LINES 발레단, 리도 피미엔타와 블라디미르 게레로 주니어의 작품에서 영감을 받았다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Sean_Corcoran&Benjamin_Bolden.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
                             },
                             {
                                 imgs : session_img_15,
@@ -1621,8 +1621,8 @@ export const langkr = {
                                            +'벤은 교사로서 캐나다, 영국, 대만의 중등 학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Sean_Corcoran&Benjamin_Bolden.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
                             }
                         ]
                     },
@@ -2664,7 +2664,8 @@ export const langkr = {
                         en_name : '(Benjamin Jörissen)',
                         li_title : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 정회원 / 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교 유네스코 문화예술교육 체어 의장, 독일',
                         li_contents : '베냐민 외리센은 문화와 미학에 초점을 맞춘 교육 의장, 그리고 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교에서 유네스코 교육예술 문화 의장직을 맡고 있다. 또한 베냐민은 유럽 과학 예술 아카데미와 독일 예술 문화 교육 협회의 회원이다. 그의 연구는 특히 유네스코와 관련된 문제들과 포스트 디지털 문화에서의 교육의 변혁과 관련하여, 교육 이론과 문화, 예술, 미학 교육에 대한 경험적 연구에 초점을 맞추고 있다.\n\n'
-                                    +'베냐민은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 "예술과 문화 교육의 디지털화"와 같은 예술교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 외리센 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』, 왁스만, 외리센/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』, 외리센/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』.'       
+                                    +'베냐민은 독일 연방교육연구부의 자금 지원을 받는 메타 프로젝트 "예술과 문화 교육의 디지털화"와 같은 예술교육의 디지털화에 관한 몇 가지 주요 경험적 연구에 기반한 프로젝트를 이끌고 있다. 최근 출판된 책과 및 향후 출판될 책은 다음과 같다: 외리센 『변환 스펙트럼: 예술교육연구와 문화역학(2018)』, 왁스만, 외리센/크뢰너/언터버그 『문화교육의 디지털화에 관한 연구(2019)』, 외리센/언터버그/클레파키: 『변혁의 미학. 예술교육연구와 문화적 지속가능성의 도전』.'
+                                    
                     },
                     {
                         img : session_img_43,
@@ -3101,8 +3102,8 @@ export const langkr = {
                                 contents : '음악 교육자이자 작곡가인 벤저민 볼든 박사는 캐나다 퀸즈 대학교 교육학부의 부교수이자 유네스코 예술 및 학습 위원장이다. 벤저민의 연구 관심사는 예술교육, 음악교육, 작곡의 교육과 학습, 창의성, 예술 기반 연구, 사범교육, 교사 지식, 교사의 전문 학습이다. 그의 연구는 Review of Education, Teaching and Teacher Education, Music Education Research, Music Educators Journal을 포함한 저널에 발간되었다. 벤은 교사로서 캐나다, 영국, 대만의 중등 학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Benjamin_Bolden&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -3112,8 +3113,8 @@ export const langkr = {
                                 contents : '네릴 지네렛은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Benjamin_Bolden&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -3130,8 +3131,8 @@ export const langkr = {
                                           +'그는 현재 음악교육연구 저널(JRME), 음악교육 연구조사(RSME), 영유아를 위한 국제 음악 저널(IJMEC)의 편집위원이다. 치후는 네 권의 편집된 책을 출판했는데 이는 다음과 같다: (1) 『문맥화된 예술 교육 실천: 싱가포르에 관한 국제적 대화』, (2) 『아시아와 태평양의 음악 유년기』, (3) 『예술 교육 및 문화적 다양성: 정책, 연구, 실천 및 비판적 관점』, (4) 『예술 환경: 예술과 놀이 체험에 참여하는 어린이들』. (4)의 책은 총 세 권으로 공동 저술된 학술서적이며 이는 다음과 같다. (1) 『살아있는 전설 가르치기: 21세기 음악 교육자를 위한 전문적 발전과 수업』, (2) 『전통의 세미오너트: 싱가포르의 음악, 문화 및 정체성』, (3) 『세계 음악 교육학: 학교-지역 사회 교차로』. 그는 학술 서적의 챕터, 기사의 글을 편집하고 국내외에서 수많은 콘퍼런스 프레젠테이션을 했다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum&Zen_Teh.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             },
                             {
                                 imgs : session_img_18,
@@ -3142,8 +3143,8 @@ export const langkr = {
                                           +'젠은 그녀의 작품을 싱가포르의 산책로(Esplanade), 국립박물관, 미술관, 예술과학관 등 싱가포르에서 열린 수많은 단체전과 개인전에서 선보였다. 태국, 인도네시아, 한국, 대만, 홍콩, 중국 등 지역에서 작품 전시를 했으며, 아세안 파워시프트 2015, 하노이 이노베이션 위크 2016등 지역 환경 회의 초청 연사로 초청됐다. 또한 젠은 최근 제7회 프랑스+싱가포르 사진예술상 겸 결승 진출자(아티스트)의 2019년 공로상 수상작도 받았다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Benjamin_Bolden&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum&Zen_Teh.pdf',
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             }
                         ]
                     },
@@ -3159,8 +3160,8 @@ export const langkr = {
                                 contents : '캐서린 콜먼 박사는 예술, 디지털 공간, 연습, 문화의 교차점에 관심을 둔다. 콜먼 박사의 방식은 교사 실습, 정체성의 실천, 그리고 연습으로서의 지식을 통해 알게 된다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pptx',
-                                abdownlink : env.link + '/Abstract_Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pdf',
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_20,
@@ -3170,8 +3171,8 @@ export const langkr = {
                                 contents : '마크 셀크리그 부교수의 연구 관심사에는 교육자 업무의 본질 변화와 예술과 창의성이 개인과 공동체의 변화, 역량 향상 및 기관에 영향을 미칠 수 있는 방법이 포함된다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pptx',
-                                abdownlink : env.link + '/Abstract_Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pdf',
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_21,
@@ -3181,8 +3182,8 @@ export const langkr = {
                                 contents : '애비 맥도널드 박사는 자신의 연구를 위한 작품활동, 지지 및 다양한 이해 관계자들의 협업에 최대한 중점을 두고 있다. 애비는 교육 혁신 이해 관계자들과 협력하기 위해 예술 및 자선단체와 함께 일한다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pptx',
-                                abdownlink : env.link + '/Abstract_Kathryn_Coleman&Mark_Selkrig&Abbey_MacDonald.pdf',
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             }
                         ]
                     },
@@ -3278,8 +3279,8 @@ export const langkr = {
                                 contents : "에밀리 윌슨은 학부 및 대학원 음악 교육 조교수다. 그녀의 연구 관심사로는 음악 교육 교육학, 학생 참여, 비공식 및 공식 음악 학습의 융합, 일대일 음악 교육학 등이 있다.",
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Emily_Wilson&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Emily_Wilson&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -3289,8 +3290,8 @@ export const langkr = {
                                 contents : "네릴 지네렛은 UNITWIN 문화 다양성 및 지속 가능한 발전을 위한 교육 연구 네트워크 코디네이터이자 MGSE의 유네스코 예술 연구소 공동 책임자이다.",
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Emily_Wilson&Neryl_Jeanneret.pptx',
-                                abdownlink : env.link + '/Abstract_Emily_Wilson&Neryl_Jeanneret.pdf',
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -3350,7 +3351,7 @@ export const langkr = {
                                 download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung&Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             },
                             {
                                 imgs : session_img_28,
@@ -3361,7 +3362,7 @@ export const langkr = {
                                 download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung&Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             }
                         ]
                     },
@@ -3378,8 +3379,8 @@ export const langkr = {
                                            +'음악가이자 음악학자로서 훈련을 받은 레베카는 바로크양식의 협주곡 창작 음악 과정을 전문으로 한다. 그녀는 박사 과정으로 국립 예술 위원회로부터 장학금을 받았고, 리버풀 대학교에서는 전액 장학금을 받았으며 영국 국제 연구생들을 위한 장학금을 받았다. 레베카는 현재 싱가포르 난양 공과대학교의 국립교육원에서 교육학 박사 연구로 Tan Poey Queee 박사 교육 장학금을 받았다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
-                                abdownlink : env.link + '/Abstract_Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_29,
@@ -3390,8 +3391,8 @@ export const langkr = {
                                            +'세이 밍은 왕립음악대학 졸업생이며, 훗날 그가 프랑스 바이올리니스트 피에르 아모얄과 함께 공부했던 스위스 콘서베토흐 드 로잔(Conservatoire de Lausanne) 음악 학교에서 비흐튜오시떼 - 퍼미에흐 펠리시티 듀 쥬히(Virtuosité - Premier Pélicities du Jeri)를 받았다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
-                                abdownlink : env.link + '/Abstract_Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_30,
@@ -3402,8 +3403,8 @@ export const langkr = {
                                            +'탄은 학생 연구 조교로서 교육학 연구부, 학술 사무소와 함께 다양한 연구 프로젝트에 참여해왔다. 음악 교육에 깊은 관심을 갖고 있는 탄의 학부 연구 프로젝트는 실천 커뮤니티에 중점을 둔 음악 학교에서의 사회문화적인 교육에 초점을 맞췄다. 그녀의 연구 프로젝트는 전통 음악 시스템에 대한 보완적 학습 방법으로 사회 문화 학습의 가능성을 탐구하려고 했다. 탄의 다른 연구 관심사는 영유아를 위한 음악 교육이다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
-                                abdownlink : env.link + '/Abstract_Rebecca_Kan&Foo_Say_Ming&Tan_Jeng_Suan.pdf',
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             }
                         ]
                     },
@@ -3500,8 +3501,8 @@ export const langkr = {
                                           +'미술치료 활동 분야로는, 남한 청소년과 탈북청소년의 공존을 위한 미술치료 프로젝트, 한국문화예술교육진흥원에서 일반 시민을 대상으로 한 문화예술치유 프로젝트, 보육원에서 자란 청년들을 위한 미술치료 프로젝트, 다문화 가정 및 한부모 가정 아동을 위한 미술치료 등이 있다. 관심분야로는 미술치료에서 다문화주의, 사회행동, 트라우마가 있다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Yuri_Kim&Sojung_Park.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
                                 imgs : session_img_34,
@@ -3512,8 +3513,8 @@ export const langkr = {
                                           +'정신질환 및 중독이 있는 청소년 및 성인을 중심으로 폭넓은 임상 경험을 가진 박소정 교수의 관심 연구 분야로는 미술치료에서 다문화주의, 정신병리, 예술기반 연구 및 지역사회를 위한 사회행동적 미술치료가 있다. 박소정 교수는 2020년 미국미술치료학회의 Pearlie Roberson Scholarship Award의 수상자이며, 미국미술치료학회지의 Editorial board member이자 Multicultural Committee member로 활발히 활동 중이다.',
                                 download : false,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Yuri_Kim&Sojung_Park.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
                     },
@@ -3529,8 +3530,8 @@ export const langkr = {
                                 contents : '숀은 퀸즈 대학교 박사과정생으로 즉흥 연주와 음악교육, 모든 학생이 의미 있는 예술 실습을 할 수 있는 기회 창출하는 것에 관심이 많다. 예술가로서 숀은 연결의 본질을 탐구하며 여기에는 연주자들, 관객들, 그리고 배경이 있다. 최근, 숀은 알론조 킹과 LINES 발레단, 리도 피미엔타와 블라디미르 게레로 주니어의 작품에서 영감을 받았다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Sean_Corcoran&Benjamin_Bolden.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
                             },
                             {
                                 imgs : session_img_15,
@@ -3541,8 +3542,8 @@ export const langkr = {
                                            +'벤은 교사로서 캐나다, 영국, 대만의 중등 학생, 대학생들과 함께 일해왔다. 벤은 캐나다 음악 센터(CMC)의 부 작곡가이며, 그가 작품들은 다양한 프로와 아마추어 공연 앙상블에 의해 연주되었다.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran&Benjamin_Bolden.pptx',
-                                abdownlink : env.link + '/Abstract_Sean_Corcoran&Benjamin_Bolden.pdf',
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
            }                 
                         ]
                     },
