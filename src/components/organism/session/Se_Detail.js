@@ -76,7 +76,7 @@ const Se_Detail = ({match, location}) => {
 
     useEffect(() => {
         const handleWhell = (e) => {
-            console.log(window.scrollY);
+            // console.log(window.scrollY);
         }
         window.addEventListener("mousewheel", handleWhell);
         return () => window.removeEventListener("mousewheel", handleWhell);       
