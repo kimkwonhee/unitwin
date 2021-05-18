@@ -401,7 +401,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<The Pandemic Era… The social value and role art therapy>',
+                text16 : '<The Pandemic Era … The social value and role art therapy>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -994,7 +994,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "The Pandemic Era… The social value and role art therapy",
+                        li_title : "The Pandemic Era … The social value and role art therapy",
                         li_data : [
                             {
                                 imgs : session_img_09,
@@ -2376,7 +2376,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<The Pandemic Era… The social value and role art therapy>',
+                text16 : '<The Pandemic Era … The social value and role art therapy>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -2959,7 +2959,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "The Pandemic Era… The social value and role art therapy",
+                        li_title : "The Pandemic Era … The social value and role art therapy",
                         li_data : [
                             {
                                 imgs : session_img_09,
