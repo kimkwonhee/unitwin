@@ -199,7 +199,6 @@ const MWrapper = styled.div`
 `
 
 const MSection = styled.div`
-    margin-top : 60px;
 
     &:first-child {
         margin-top : 0px;
@@ -232,7 +231,7 @@ const MInner = styled.div`
 `
 const MDownloadArea = styled.div`
     display : flex;
-    margin-bottom : 30px;
+    margin-bottom : 60px;
 `
 const MTextblock = styled.div`
     /* padding-top  : 60px; */
