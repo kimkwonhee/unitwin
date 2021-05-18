@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Downloadbtn from '../../components/atom/Downloadbtn'
+import Downloadbtn2 from '../../components/atom/Downloadbtn2'
 import color from '../../style/color'
 import { useSelector } from 'react-redux'
 
@@ -30,12 +31,20 @@ const ListSession_Se = ({className, data}) => {
                                                 <PName>{data.name}<PEnName>{data.enname}</PEnName></PName>
                                                 <PListtitle>{data.job}</PListtitle>
                                                 <PContents dangerouslySetInnerHTML={ {__html: data.contents} } />
-                                                <PDownlodebtn 
-                                                    downlink={data.downlink} 
-                                                    down={data.download} 
-                                                >
-                                                    {curlang.p_data.classdownload}
-                                                </PDownlodebtn>
+                                                <PDownloadArea>
+                                                    <PDownlodebtn 
+                                                        downlink={data.downlink} 
+                                                        down={data.download} 
+                                                    >
+                                                        {curlang.p_data.classdownload}
+                                                    </PDownlodebtn>
+                                                    <PDownlodebtn2 
+                                                        downlink={data.abdownlink} 
+                                                        down={data.abdownload} 
+                                                    >
+                                                        {curlang.p_data.abdownload}
+                                                    </PDownlodebtn2>
+                                                </PDownloadArea>
                                             </PTextblock>
                                         </PItemInner>
                                     </Pdiv>
@@ -64,12 +73,20 @@ const ListSession_Se = ({className, data}) => {
                                             <MEnName>{data.enname}</MEnName>
                                             <MListtitle>{data.job}</MListtitle>
                                             <MContents dangerouslySetInnerHTML={ {__html: data.contents} } />
-                                            <MDownlodebtn 
-                                                downlink={data.downlink}
-                                                down={data.download} 
-                                            >
-                                                {curlang.m_data.classdownload}
-                                            </MDownlodebtn>   
+                                            <MDownloadArea>
+                                                <MDownlodebtn 
+                                                    downlink={data.downlink}
+                                                    down={data.download} 
+                                                >
+                                                    {curlang.m_data.classdownload}
+                                                </MDownlodebtn>
+                                                <MDownlodebtn2 
+                                                    downlink={data.abdownlink} 
+                                                    down={data.abdownload}  
+                                                >
+                                                    {curlang.m_data.abdownload}
+                                                </MDownlodebtn2>
+                                            </MDownloadArea>   
                                     </>
                                 })}
                             </MInner>
@@ -110,6 +127,10 @@ const Pdiv = styled.div`
         visibility: hidden; 
         pointer-events: none;
     }
+`
+
+const PDownloadArea = styled.div`
+    display : flex;
 `
 const PItemInner = styled.div`
     display : flex;
@@ -164,6 +185,9 @@ const PContents = styled.div`
     word-break : keep-all;
 `
 const PDownlodebtn = styled(Downloadbtn)`
+    margin-right : 8px;
+`
+const PDownlodebtn2 = styled(Downloadbtn2)`
 `
 
 const MWrapper = styled.div`
@@ -206,6 +230,10 @@ const MInner = styled.div`
     padding-left : 12px;
     border-top : 1px solid ${color.turtle_green};
 `
+const MDownloadArea = styled.div`
+    display : flex;
+    margin-bottom : 30px;
+`
 const MTextblock = styled.div`
     /* padding-top  : 60px; */
     /* &:first-child {
@@ -246,6 +274,10 @@ const MContents = styled.div`
     word-break : keep-all;
 `
 const MDownlodebtn = styled(Downloadbtn)`
+    margin-top : 28px;
+    margin-right : 8px;
+`
+const MDownlodebtn2 = styled(Downloadbtn2)`
     margin-top : 28px;
 `
 

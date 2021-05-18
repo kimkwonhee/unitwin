@@ -331,13 +331,17 @@ const Home_day3 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session1.text3}</MRightTitle>
-                                        <MRightName>{m_detaildata.session1.text4}<MRightEnName>{m_detaildata.session1.text5}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session1.text6}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session1.link + '#Benjamin'}>
+                                            <MRightName>{m_detaildata.session1.text4}<MRightEnName>{m_detaildata.session1.text5}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session1.text6}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session1.text7}</MRightModer>
-                                        <MRightName>{m_detaildata.session1.text8}<MRightEnName>{m_detaildata.session1.text9}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session1.text10}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session1.link + '#Tanja'}>
+                                            <MRightName>{m_detaildata.session1.text8}<MRightEnName>{m_detaildata.session1.text9}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session1.text10}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -357,30 +361,43 @@ const Home_day3 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session2.text4}</MRightTitle>
-                                        <MRightName>{m_detaildata.session2.text5}<MRightEnName>{m_detaildata.session2.text6}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session2.text7}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session2.link + '#Mary'}>
+                                            <MRightName>{m_detaildata.session2.text5}<MRightEnName>{m_detaildata.session2.text6}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session2.text7}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session2.text8}</MRightTitle>
-                                        <MRightName>{m_detaildata.session2.text9}<MRightEnName>{m_detaildata.session2.text10}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session2.text11}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session2.link + '#Emily'}>
+                                            <MRightName>{m_detaildata.session2.text9}<MRightEnName>{m_detaildata.session2.text10}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session2.text11}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session2.text12}</MRightTitle>
-                                        <MRightName>{m_detaildata.session2.text13}</MRightName>
-                                        <MRightJop>{m_detaildata.session2.text14}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session2.link + '#Jihea'}>
+                                            <MRightName>{m_detaildata.session2.text13}</MRightName>
+                                            <MRightJop>{m_detaildata.session2.text14}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session2.text15}</MRightTitle>
-                                        <MRightName>{m_detaildata.session2.text16}<MRightEnName>{m_detaildata.session2.text17}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session2.text18}</MRightJop>
-                                        <MRightName>{m_detaildata.session2.text19}<MRightEnName>{m_detaildata.session2.text20}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session2.text21}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session2.link + '#Wilson'}>
+                                            <MRightName>{m_detaildata.session2.text16}<MRightEnName>{m_detaildata.session2.text17}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session2.text18}</MRightJop>
+                                        </MDetailLink>
+                                        <MEmpty />
+                                        <MDetailLink to={m_detaildata.session2.link + '#Neryl'}>
+                                            <MRightName>{m_detaildata.session2.text19}<MRightEnName>{m_detaildata.session2.text20}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session2.text21}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session2.text22}</MRightModer>
-                                        <MRightName>{m_detaildata.session2.text23}<MRightEnName>{m_detaildata.session2.text24}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session2.text25}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session2.link + '#Benjamin'}>
+                                            <MRightName>{m_detaildata.session2.text23}<MRightEnName>{m_detaildata.session2.text24}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session2.text25}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -400,34 +417,53 @@ const Home_day3 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session3.text4}</MRightTitle>
-                                        <MRightName>{m_detaildata.session3.text5}</MRightName>
-                                        <MRightJop>{m_detaildata.session3.text6}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session3.link + '#Hwan_Jung'}>
+                                            <MRightName>{m_detaildata.session3.text5}</MRightName>
+                                            <MRightJop>{m_detaildata.session3.text6}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session3.text7}</MRightTitle>
-                                        <MRightName>{m_detaildata.session3.text8}</MRightName>
-                                        <MRightJop>{m_detaildata.session3.text9}</MRightJop>
-                                        <MRightName>{m_detaildata.session3.text10}</MRightName>
-                                        <MRightJop>{m_detaildata.session3.text11}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session3.link + '#HyeYoun'}>
+                                            <MRightName>{m_detaildata.session3.text8}</MRightName>
+                                            <MRightJop>{m_detaildata.session3.text9}</MRightJop>
+                                        </MDetailLink>
+                                        <MEmpty />
+                                        <MDetailLink to={m_detaildata.session3.link + '#Hyojin'}>
+                                            <MRightName>{m_detaildata.session3.text10}</MRightName>
+                                            <MRightJop>{m_detaildata.session3.text11}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session3.text12}</MRightTitle>
-                                        <MRightName>{m_detaildata.session3.text13}<MRightEnName>{m_detaildata.session3.text14}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session3.text15}</MRightJop>
-                                        <MRightName>{m_detaildata.session3.text16}<MRightEnName>{m_detaildata.session3.text17}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session3.text18}</MRightJop>
-                                        <MRightName>{m_detaildata.session3.text19}<MRightEnName>{m_detaildata.session3.text20}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session3.text21}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session3.link + '#Rebecca'}>
+                                            <MRightName>{m_detaildata.session3.text13}<MRightEnName>{m_detaildata.session3.text14}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session3.text15}</MRightJop>
+                                        </MDetailLink>
+                                        <MEmpty />
+                                        <MDetailLink to={m_detaildata.session3.link + '#Foo'}>
+                                            <MRightName>{m_detaildata.session3.text16}<MRightEnName>{m_detaildata.session3.text17}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session3.text18}</MRightJop>
+                                        </MDetailLink>
+                                        <MEmpty />
+                                        <MDetailLink to={m_detaildata.session3.link + '#Tan'}>
+                                            <MRightName>{m_detaildata.session3.text19}<MRightEnName>{m_detaildata.session3.text20}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session3.text21}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session3.text22}</MRightTitle>
-                                        <MRightName>{m_detaildata.session3.text23}<MRightEnName>{m_detaildata.session3.text24}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session3.text25}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session3.link + '#Jeff'}>
+                                            <MRightName>{m_detaildata.session3.text23}<MRightEnName>{m_detaildata.session3.text24}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session3.text25}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session3.text26}</MRightModer>
-                                        <MRightName>{m_detaildata.session3.text27}</MRightName>
-                                        <MRightJop>{m_detaildata.session3.text28}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session3.link + '#Hyesun'}>
+                                            <MRightName>{m_detaildata.session3.text27}</MRightName>
+                                            <MRightJop>{m_detaildata.session3.text28}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -447,32 +483,48 @@ const Home_day3 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session4.text4}</MRightTitle>
-                                        <MRightName>{m_detaildata.session4.text5}<MRightEnName>{m_detaildata.session4.text6}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session4.text7}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session4.link + '#Ruth'}>
+                                            <MRightName>{m_detaildata.session4.text5}<MRightEnName>{m_detaildata.session4.text6}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session4.text7}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session4.text8}</MRightTitle>
-                                        <MRightName>{m_detaildata.session4.text9}</MRightName>
-                                        <MRightJop>{m_detaildata.session4.text10}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session4.link + '#Ji_young'}>
+                                            <MRightName>{m_detaildata.session4.text9}</MRightName>
+                                            <MRightJop>{m_detaildata.session4.text10}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session4.text11}</MRightTitle>
-                                        <MRightName>{m_detaildata.session4.text12}</MRightName>
-                                        <MRightJop>{m_detaildata.session4.text13}</MRightJop>
-                                        <MRightName>{m_detaildata.session4.text14}</MRightName>
-                                        <MRightJop>{m_detaildata.session4.text15}</MRightJop>  
+                                        <MDetailLink to={m_detaildata.session4.link + '#Yuri'}>
+                                            <MRightName>{m_detaildata.session4.text12}</MRightName>
+                                            <MRightJop>{m_detaildata.session4.text13}</MRightJop>
+                                        </MDetailLink>
+                                        <MEmpty />
+                                        <MDetailLink to={m_detaildata.session4.link + '#Sojung'}>
+                                            <MRightName>{m_detaildata.session4.text14}</MRightName>
+                                            <MRightJop>{m_detaildata.session4.text15}</MRightJop> 
+                                        </MDetailLink> 
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session4.text16}</MRightTitle>
-                                        <MRightName>{m_detaildata.session4.text17}<MRightEnName>{m_detaildata.session4.text18}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session4.text19}</MRightJop>
-                                        <MRightName>{m_detaildata.session4.text20}<MRightEnName>{m_detaildata.session4.text21}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session4.text22}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session4.link + '#Sean'}>
+                                            <MRightName>{m_detaildata.session4.text17}<MRightEnName>{m_detaildata.session4.text18}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session4.text19}</MRightJop>
+                                        </MDetailLink>
+                                        <MEmpty />
+                                        <MDetailLink to={m_detaildata.session4.link + '#Benjamin'}>
+                                            <MRightName>{m_detaildata.session4.text20}<MRightEnName>{m_detaildata.session4.text21}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session4.text22}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session4.text23}</MRightModer>
-                                        <MRightName>{m_detaildata.session4.text24}<MRightEnName>{m_detaildata.session4.text25}</MRightEnName></MRightName>
-                                        <MRightJop>{m_detaildata.session4.text26}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session4.link + '#Chee_Hoo'}>
+                                            <MRightName>{m_detaildata.session4.text24}<MRightEnName>{m_detaildata.session4.text25}</MRightEnName></MRightName>
+                                            <MRightJop>{m_detaildata.session4.text26}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -492,33 +544,45 @@ const Home_day3 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session5.text4}</MRightTitle>
-                                        <MRightName>{m_detaildata.session5.text5}</MRightName>
-                                        <MRightJop>{m_detaildata.session5.text6}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session5.link + '#Soohye'}>
+                                            <MRightName>{m_detaildata.session5.text5}</MRightName>
+                                            <MRightJop>{m_detaildata.session5.text6}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session5.text7}</MRightTitle>
-                                        <MRightName>{m_detaildata.session5.text8}</MRightName>
-                                        <MRightJop>{m_detaildata.session5.text9}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session5.link + '#Yunji'}>
+                                            <MRightName>{m_detaildata.session5.text8}</MRightName>
+                                            <MRightJop>{m_detaildata.session5.text9}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session5.text10}</MRightTitle>
-                                        <MRightName>{m_detaildata.session5.text11}</MRightName>
-                                        <MRightJop>{m_detaildata.session5.text12}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session5.link + '#Hyunjung'}>
+                                            <MRightName>{m_detaildata.session5.text11}</MRightName>
+                                            <MRightJop>{m_detaildata.session5.text12}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session5.text13}</MRightTitle>
-                                        <MRightName>{m_detaildata.session5.text14}</MRightName>
-                                        <MRightJop>{m_detaildata.session5.text15}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session5.link + '#Sungjong'}>
+                                            <MRightName>{m_detaildata.session5.text14}</MRightName>
+                                            <MRightJop>{m_detaildata.session5.text15}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session5.text16}</MRightTitle>
-                                        <MRightName>{m_detaildata.session5.text17}</MRightName>
-                                        <MRightJop>{m_detaildata.session5.text18}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session5.link + '#Younghee'}>
+                                            <MRightName>{m_detaildata.session5.text17}</MRightName>
+                                            <MRightJop>{m_detaildata.session5.text18}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session5.text19}</MRightModer>
-                                        <MRightName>{m_detaildata.session5.text20}</MRightName>
-                                        <MRightJop>{m_detaildata.session5.text21}</MRightJop>
+                                        <MDetailLink to={m_detaildata.session5.link + '#Yujin'}>
+                                            <MRightName>{m_detaildata.session5.text20}</MRightName>
+                                            <MRightJop>{m_detaildata.session5.text21}</MRightJop>
+                                        </MDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -683,6 +747,9 @@ const MWrapper = styled.div`
         display : none;
     }
 `
+const MEmpty = styled.div`
+    margin-bottom : 12px;
+`
 const MInner = styled.div`
     position : relative;
     width : 100%;
@@ -770,7 +837,6 @@ const MRightSection = styled.div`
 const MRightName = styled.div`
     font-size: 14px;
     font-weight : 500;
-    color: ${color.black};
     margin-bottom : 2px;
 
     &:nth-child(4),
@@ -785,7 +851,6 @@ const MRightEnName = styled.span`
 const MRightJop = styled.div`
     font-size: 12px;
     white-space : pre-line;
-    color: ${color.black};
     word-break : keep-all;
 `
 
@@ -794,6 +859,13 @@ const MLink = styled(Link)`
 `
 const MVideobtn = styled(Videobtn)`
     margin-top : 19px;
+`
+const MDetailLink = styled(NavHashLink)`
+    color: ${color.black};
+    
+    &:hover {
+        color: ${color.turtle_green};
+    }
 `
 
 

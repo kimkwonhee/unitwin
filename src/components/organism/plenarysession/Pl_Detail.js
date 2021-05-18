@@ -6,6 +6,7 @@ import ListVideoSession from '../../molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import mobileviewbtn from '../../atom/mobileviewbtn'
 import Downloadbtn from '../../atom/Downloadbtn'
+import Downloadbtn2 from '../../atom/Downloadbtn2'
 import { useSelector } from 'react-redux'
 import color from '../../../style/color'
 import { Affix } from 'antd'
@@ -90,6 +91,8 @@ const Pl_Detail = ({match, location}) => {
     let M_downbtn = null
     let M_chatlink = null
     let M_download_link = null
+    let M_abdownbtn = null
+    let M_abdownload_link = null
 
     
     let chatDef = {
@@ -111,9 +114,11 @@ const Pl_Detail = ({match, location}) => {
         
         P_videosection = <PVideo 
                             discription={p_detaildata.wagner_part.video_text} 
-                            down={p_detaildata.wagner_part.download} 
+                            down={p_detaildata.wagner_part.download}
+                            abdown={p_detaildata.wagner_part.abdownload}
                             youtube={p_detaildata.wagner_part.youtube}
                             downlink={p_detaildata.wagner_part.downlink}
+                            abdownlink={p_detaildata.wagner_part.abdownlink}
                             />
         M_videosection = <MVideo youtube={m_detaildata.wagner_part.youtube}/>
         
@@ -123,7 +128,9 @@ const Pl_Detail = ({match, location}) => {
 
         M_videotext = m_detaildata.wagner_part.video_text
         M_downbtn = m_detaildata.wagner_part.download
+        M_abdownbtn = m_detaildata.wagner_part.abdownload
         M_download_link = m_detaildata.wagner_part.downlink
+        M_abdownload_link = m_detaildata.wagner_part.abdownlink
 
         P_chatlink = env.chatPath + p_detaildata.wagner_part.chatlink
         M_chatlink = env.chatPath + m_detaildata.wagner_part.chatlink
@@ -142,9 +149,11 @@ const Pl_Detail = ({match, location}) => {
         
         P_videosection = <PVideo 
                             discription={p_detaildata.jorissen_part.video_text} 
-                            down={p_detaildata.jorissen_part.download} 
+                            down={p_detaildata.jorissen_part.download}
+                            abdown={p_detaildata.jorissen_part.abdownload}
                             youtube={p_detaildata.jorissen_part.youtube}
                             downlink={p_detaildata.jorissen_part.downlink}
+                            abdownlink={p_detaildata.jorissen_part.abdownlink}
                             />
         M_videosection = <MVideo youtube={m_detaildata.jorissen_part.youtube}/>
         
@@ -153,7 +162,9 @@ const Pl_Detail = ({match, location}) => {
         
         M_videotext = m_detaildata.jorissen_part.video_text
         M_downbtn = m_detaildata.jorissen_part.download
+        M_abdownbtn = m_detaildata.jorissen_part.abdownload
         M_download_link = m_detaildata.jorissen_part.downlink
+        M_abdownload_link = m_detaildata.jorissen_part.abdownlink
 
         P_chatlink = env.chatPath + p_detaildata.jorissen_part.chatlink
         M_chatlink = env.chatPath + m_detaildata.jorissen_part.chatlink
@@ -215,13 +226,22 @@ const Pl_Detail = ({match, location}) => {
                 </MViewchangeArea>
                 <MDetailSection status={status}>
                     <MVideoText>{M_videotext}</MVideoText>
-                    <MDownlodebtn 
-                        down={M_downbtn} 
-                        downlink={M_download_link}
-                        status={langstatus}
-                    >
-                        {curlang.m_data.classdownload}
-                    </MDownlodebtn>
+                    <MDownloadArea>
+                        <MDownlodebtn 
+                            down={M_downbtn}
+                            downlink={M_download_link}
+                            status={langstatus}
+                        >
+                            {curlang.m_data.classdownload}
+                        </MDownlodebtn>
+                        <MDownlodebtn2 
+                            down={M_abdownbtn}
+                            downlink={M_abdownload_link}
+                            status={langstatus}
+                        >
+                            {curlang.m_data.abdownload}
+                        </MDownlodebtn2>
+                    </MDownloadArea>
                     {M_contentsection}
                 </MDetailSection>
                 <MChatSection status={status}>
@@ -359,8 +379,19 @@ const MVideoText = styled.div`
     color: ${color.black};
     word-break : keep-all;
 `
+const MDownloadArea = styled.div`
+    display : flex;
+    justify-content : center;
+`
 const MDownlodebtn = styled(Downloadbtn)`
-    width : ${props => (props.status === 'kr') ? '146px' : '220px'};
+    width : ${props => (props.status === 'kr') ? '168px' : '224px'};
+    height : 36px;
+    margin-bottom : 40px;
+    margin-right : 8px;
+`
+
+const MDownlodebtn2 = styled(Downloadbtn2)`
+    width : ${props => (props.status === 'kr') ? '168px' : '122px'};
     height : 36px;
     margin-bottom : 40px;
 `

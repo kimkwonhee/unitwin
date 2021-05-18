@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import Downloadbtn from '../atom/Downloadbtn'
+import Downloadbtn2 from '../atom/Downloadbtn2'
 import color from '../../style/color'
 import { useSelector } from 'react-redux'
 
 
-const ListVideoSession = ({down, height, discription, youtube, downlink}) => {
+const ListVideoSession = ({down, abdown, height, discription, youtube, downlink, abdownlink}) => {
 
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -24,7 +25,10 @@ const ListVideoSession = ({down, height, discription, youtube, downlink}) => {
                     </PIfram>
                 </PVideoArea>
                 <PDescription>{discription}</PDescription>
-                <PDownlodebtn downlink={downlink} down={down}>{curlang.p_data.classdownload}</PDownlodebtn>
+                <PDownloadArea>
+                    <PDownlodebtn downlink={downlink} down={down}>{curlang.p_data.classdownload}</PDownlodebtn>
+                    <PDownlodebtn2 downlink={abdownlink} down={abdown}>{curlang.p_data.abdownload}</PDownlodebtn2>
+                </PDownloadArea>
             </PWrapper>
 
             {/* Mobile */}
@@ -59,9 +63,14 @@ const PDescription = styled.div`
      word-break : keep-all;
 `
 const PDownlodebtn = styled(Downloadbtn)`
+    margin-right : 16px;
 `
-
+const PDownlodebtn2 = styled(Downloadbtn2)`
+`
 const PIfram = styled.iframe`
+`
+const PDownloadArea = styled.div`
+    display : flex;
 `
 
 // Movile

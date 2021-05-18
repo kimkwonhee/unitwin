@@ -80,6 +80,7 @@ export const langen = {
         realchating : 'Live chat',
         lecture : 'Lecture description',
         classdownload : 'Presentation material',
+        abdownload : 'Abstract',
         zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage',
         move : 'Link > ',
@@ -326,11 +327,11 @@ export const langen = {
                 text4 : 'Shin-Eui Park',
                 text5 : '- Chairperson, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea',
                 text6 : 'Jisoo Sung',
-                text7 : '- Director, Collective Doingle, Republic of Korea',
+                text7 : '- Director, Collective Doingle-Around representative, Republic of Korea',
                 text8 : '',
                 text9 : '',
                 text10 : 'Sang-Mi Mo',
-                text11 : '- Director, Busan Moida Art Cooperative Society, Republic of Korea',
+                text11 : '- Director, Moida Art Cooperative Society, Republic of Korea',
                 text12 : 'Jinsuk Gang',
                 text13 : '- Director, Gwangmyeong Upcycle Art Center, Republic of Korea',
                 text14 : 'Jinhee Park',
@@ -400,7 +401,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era>',
+                text16 : '<The Pandemic Era… The social value and role art therapy>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -491,7 +492,7 @@ export const langen = {
                 text3 : '<"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.>',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
-                text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”/Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
                 text7 : '[Moderator]',
                 text8 : 'Tanja Klepacki',
                 text9 : '',
@@ -502,7 +503,7 @@ export const langen = {
                 text1 : 'Session 5',
                 text2 : 'Arts in the Classroom',
                 text3 : '13:40-15:10',
-                text4 : "<The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic>",
+                text4 : "<The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic>",
                 text5 : 'Mary Clare Kidenda',
                 text6 : '',
                 text7 : '- Lecturer and Head, The Technical University of Kenya, Kenya',
@@ -651,10 +652,12 @@ export const langen = {
                 title : 'Diversity in art education 2.0',
                 time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : false,
+                download : true,
+                abdownload : true,
                 chatlink : '1001',
                 youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
-                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                downlink : env.link + '/Ernst_Wagner.pptx',
+                abdownlink : env.link + '/Abstract_Ernst_Wagner.pdf',
                 list : [
                     {
                         img : pl_detail1_img_01,
@@ -682,10 +685,12 @@ export const langen = {
                 title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : false,
+                download : true,
+                abdownload : true,
                 chatlink : '1002',
                 youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
-                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                downlink : env.link + '/Benjamin_Jorissen.pdf',
+                abdownlink : env.link + '/Abstract_Benjamin_Jorissen.pdf',
                 list : [
                     {
                         img : plsession_img_02,
@@ -817,8 +822,10 @@ export const langen = {
                                 enname : '',
                                 job : '- Director, National Theater Company of Korea, Republic of Korea',
                                 contents : 'Yong Sung Jung is Director in PR & Marketing Division in National Theater Company of Korea, Korea. He has worked at LG Arts Center, Charlotte Theater, and Myeong-dong Theater before the National Theater Company. The experience of working in theaters has helped him expand his scope of work. The National Theater Company is an art organization that produces dramas and operates three theaters. (Myeong-dong Theater, Baek Seonghui & Jang Minho Theater, Theater Pan) So he is in charge of public relations and marketing, and at the same time in charge of managing the ticket office and house management. He is also studying in doctoral program in Department of Arts and Cultural Management at Hongik University, Korea. His research areas include the audience development, marketing for performing arts, and fundraising.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/YongSung_Jung.pdf',
+                                abdownlink : env.link + '/Abstract_YongSung_Jung.pdf',
                             }
                         ]
                         
@@ -836,7 +843,9 @@ export const langen = {
                                 contents : 'While working at the National Museum of Modern and Contemporary Art for about 15 years, she has a view of various visual art contents, including artists and works, from the perspective of communication with the audience at the center. Since the opening of the Seoul Hall, it has been uniquely responsible for customer service within the institution and has planned and operated various programs to provide visitors with a better cultural and artistic experience.\n\n'
                                          + 'She is in charge of managing on-site operations to service planning, such as analyzing the level of customer support services at art museum contacts, actively developing services to meet the needs of public cultural spaces, and fostering them into specific projects. She is currently studying for a Ph.D. in Culture, Arts and Management at Hongik University.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_Eunsu_Lee.pdf',
                             }
                         ]   
                     },
@@ -852,7 +861,9 @@ export const langen = {
                                 job : '- Curator, Seongbuk Museum of Art, Republic of Korea',
                                 contents : "Sowon Kim has been engaged in exhibition planning, artistic writing, and research-based activities since graduating from Ewha Womans University's M.A of History of Art. Currently, she has been working as an curator at the Seongbuk Cultural Foundation and has been planning various exhibitions, as well as a Ph.D. in arts and cultural management at Hongik University. It has been continuously communicating with people in the arts field, studying interests, and realizing them in curating and writings. Currently, Seongbuk Children's Museum is planning exhibitions with timeless themes that are not bound to children and adults.",
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_Sowon_Kim.pdf',
                             }
                         ]   
                     },
@@ -868,7 +879,9 @@ export const langen = {
                                 job : '- Assistant Professor, KyungSung University, Republic of Korea',
                                 contents : 'Su-youn Kim is an assistant professor in the School of Theatre&Film Art at KyungSung University. She has the back ground in performing art and theatre art education and her main interest is how drama and theatre can broadly cotribute to making socially healthy schools and societies.',
                                 download : true,
-                                downlink : env.link + '/the_suspicious_dining_table_PPT.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Su-youn_Kim.pptx',
+                                abdownlink : env.link + '/Abstract_Su-youn_Kim.pdf',
                             }
                         ]   
                     },
@@ -882,9 +895,12 @@ export const langen = {
                                 name : 'Boram Lee',
                                 enname : '',
                                 job : '- Professor, University of South Australia , Republic of Korea',
-                                contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia. She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
+                                contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia.\n\n'
+                                            +'She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_Boram_Lee.pdf',
                             }
                         ]   
                     },
@@ -931,7 +947,9 @@ export const langen = {
                                           + "Queen's University. She has also been commissioned to write several evidence-based guides and reports on the benefits of artists-in-schools programs in Canada.\n\n"
                                           + 'Tiina currently serves on the executive committee of the Canadian Society for Education through Art (CSEA) as the Director of Provincial Liaison, Social Media, and Advocacy. As an educator, she has taught visual arts to learners of all ages in various school- and community-based settings.',
                                 download : true,
-                                downlink : env.link + '/Tiina_Kukkonen_Supporting_Youth_Mental_Health_in_and_through_the_Arts.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Tiina_Kukkonen.pdf',
+                                abdownlink : env.link + '/Abstract_Tiina_Kukkonen.pdf',
                             }
                         ]
                     },
@@ -948,7 +966,9 @@ export const langen = {
                                 contents : 'Theatre director, choreographer, actress, drama and dance pedagogue. Author and producer of numerous programs and projects both educational and artistic. She has been developing innovative methodologies and concepts in her work: of art and arts education as “ecology of the soul”, the first interactive TIE musical on Cyber bullying and “essays in movement”. Together with her theatre group Hleb Teatar , she creates and  tours performances internationally, also developing innovative forms of TIE. She conducts workshops and master classes blending her experience from dance and laboratory theatre into an original holistic approach and methodology of drama/theatre education. She has been part of the Serbian DICE (Drama Improves Key Lisbon Competences) research team (2009/10). Member of the expert working group for writing the curriculum of the first scenic arts and multimedia classes in Serbian gymnasiums.\n\n'
                                            +'She has initiated the world wide action “Bells for Arts Education” as part of the celebration of UNESCO International Week of Arts Education in May 2020. She is the President of CEDEUM, Serbia, and Artistic Director of Artistic Utopia and  Mater Terra Children’s and Youth Festival. Author of essays, reviews and articles on drama/theatre education and performing arts.',
                                 download : true,
-                                downlink : env.link + '/Sanja_Krsmanovic_Tasic_The_Important_od_Drama_and_Theatre_Education.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Sanja_Krsmanovic_Tasic.pptx',
+                                abdownlink : env.link + '/Abstract_Sanja_Krsmanovic_Tasic.pdf',
                             }
                         ]
                     },
@@ -966,13 +986,15 @@ export const langen = {
                                         +'Her research specialisation is the application of Boal’s Forum Theatre in a school context to teach learners life skills through drama. She has presented two Forum Theatre workshops to international academic audiences at the NADTA Yosemite conference, USA (2014); and the Sydney Game Changer Conference, Australia (2015). Her case study, as part of doctoral research, was conducted at a South African primary school in 2016. She also presented a paper on the aspect of time in the application of Forum Theatre in a school at the Bi-Annual Departmental Time conference, UNISA in 2016.\n\n'
                                         +'rior to her academic career Dr Bettman worked in Corporate Communication and Marketing for twenty years when she provided a monthly newsletter service through web-based dissemination or print.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_MC_Bettman.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era",
+                        li_title : "The Pandemic Era… The social value and role art therapy",
                         li_data : [
                             {
                                 imgs : session_img_09,
@@ -982,8 +1004,10 @@ export const langen = {
                                 job : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                                 contents : 'Chaeyeon Kim is an art therapist and representative of the Korea Clinical Art Therapy Association, a non-profit corporation. She holds'
                                           +"master's and doctoral degrees in art therapy, and she is currently enrolled in a doctorate program in business administration in cultural arts. Her “her desire to help others” and her “her interest in her people” put her on the path of her art therapist. She has been meeting patients in clinical settings for 22 years as an art therapist for her heartbreaking and weary people through her rich examples and evidence. In addition, she has established a non-profit corporation to help many people experience healing through art and receive benefits, and is striving to create culture and art healing welfare.",
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Chaeyeon_Kim.pptx',
+                                abdownlink : env.link + '/Abstract_Chaeyeon_Kim.pdf',
                             }
                         ]
                     },
@@ -1027,8 +1051,10 @@ export const langen = {
                                 contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
                                          + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
                                          + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Tei_Kim.pdf',
+                                abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
                             }
                         ]
                     },
@@ -1044,7 +1070,9 @@ export const langen = {
                                 job : '- Assistant Professor, Nanyang Technological University, Singapore',
                                 contents : 'Charlene Rajendran is Assistant Professor at the National Institute of Education, an institute of Nanyang Technological University, Singapore. As theatre educator, researcher and dramaturg, her interests focus on contemporary theatre, play-based pedagogy, issues of difference and arts leadership. She has collaborated with diverse artists and is Co-Director of the Asian Dramaturgs’ Network.\n\n Her publications include: Performing Southeast Asia: Performance, Politics and the Contemporary (co-edited with Marcus Tan, 2020, Palgrave Macmillan); Excavations, Interrogations, Krishen Jit and Contemporary Malaysian Theatre (co-edited with Ken Takiguchi and Carmen Nge, 2018, Epigram and Five Arts Centre); academic articles in RIDE, Applied Theatre Research, TDR, Theatre, Dance and Performance Training, Asian Theatre Journal and creative works.',
                                 download : true,
-                                downlink : env.link + '/Charlene_Rajendran_UNITWIN_2021_Presentation.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Charlene_Rajendran.pptx',
+                                abdownlink : env.link + '/Abstract_Charlene_Rajendran.pdf',
                             }
                         ]
                     },
@@ -1063,7 +1091,9 @@ export const langen = {
                                            +'A creative response to these challenges that has had little attention is integrating dance into second language education. This study assembled autoethnography and educational connoisseurship and criticism as a means to investigate the impact of dance pedagogy and its implications. The themes discussed were: communicative and intercultural competence, language acquisition and immersion, cognitive learning transfer, and multiple accesses.\n\n'
                                            +'This study offers empirical evidence for the benefits that dance activities can make to students’ second language and cultural competence development and affords pedagogical insights for teachers who want to employ dance as an approach to teach a second language.',
                                 download : true,
-                                downlink : env.link + '/Zhang_Integrating_dance_and_language_education_A_creative_response_to_social.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Nan_Zhang.pdf',
+                                abdownlink : env.link + '/Abstract_Nan_Zhang.pdf',
                             }
                         ]
                     },
@@ -1080,7 +1110,9 @@ export const langen = {
                                 contents : 'Yaara Docrat is a Master of Education Candidate in the Faculty of Education at Queen’s University under the supervision of Dr. Benjamin Bolden (UNESCO Chair of Arts & Learning). Yaara’s teaching interests include special education and at-risk youth. From 2018-2019, Yaara taught students with social, emotional, and mental health (SEMH) needs in the United Kingdom and in Fall 2021, will teach at The American Pacific International School of Chiang Mai. Yaara’s research interests combine these teaching interests, arts education, and emotional self-regulation to better serve students alike.\n\n'
                                            +'Yaara’s background has allowed her to identify this need. As a teacher candidate (2017-2018), Yaara’s personal love of music and children prompted her to organize touring musicians to play and mentor 1000+ students in Ontario. She was awarded the Kingston Civic Youth Volunteerism Award 2018 to recognize these efforts. Yaara works towards a central mission of strengthening teacher education programs to more easily integrate the arts within all classrooms.',
                                 download : true,
-                                downlink : env.link + '/Docrat_UsingTheArtsToFosterEmotionalSelfRegulationForGrade4To8StudentsWithAttentionAndOrHyperactivityChallengesAMultipleCaseStudy_UNITWIN2021.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Yaara_Docrat.pdf',
+                                abdownlink : env.link + '/Abstract_Yaara_Docrat.pdf',
                             }
                         ]
                     },
@@ -1123,7 +1155,9 @@ export const langen = {
                                 job : "- Associate Professor, Queen's University, Canada",
                                 contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning. His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan. Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
                                 download : true,
-                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -1133,7 +1167,9 @@ export const langen = {
                                 job : '- Associate Professor, The University of Melbourne, Australia',
                                 contents : 'Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.',
                                 download : true,
-                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -1150,7 +1186,9 @@ export const langen = {
                                 contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
                                            +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             },
                             {
                                 imgs : session_img_18,
@@ -1161,7 +1199,9 @@ export const langen = {
                                 contents : 'Zen Teh (born and live in Singapore, 1988) is an artist and educator interested in interdisciplinary studies of nature and human behavior. Her practice draws on the belief that learning is built upon our innate curiosity towards natural phenomena and experiences of the everyday. As an artist, her art practice spans across photography, sculpture and installation art. Her works has been showcased in numerous group and solo exhibitions in Singapore, including the Esplanade Singapore, National Museum of Singapore, Singapore Art Museum and Art Science Museum.\n\n'
                                            +'She has also exhibited regionally in Thailand, Indonesia, Korea, Taiwan, Hong Kong and China and was invited as a guest speaker at regional environmental conferences such as ASEAN Powershift 2015 and Hanoi Innovation Week 2016 on Sustainability. Teh has also been recently awarded the winning title for the 7th France+Singapore Photographic Arts Award and Finalist (Artist) for 2019 IMPART Awards.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             }
                         ]
                     },
@@ -1177,7 +1217,9 @@ export const langen = {
                                 job : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
                                 contents : 'Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish during a prolonged lockdown and time of uncertainty.',
                                 download : true,
-                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_20,
@@ -1187,7 +1229,9 @@ export const langen = {
                                 job : '- Associate Professor, The University of Melbourne, Australia',
                                 contents : 'Associate Professor Mark Selkrig’s research interests include the changing nature of educators’ work and ways the arts and creativity can influence change, capacity building and agency of individuals and communities.',
                                 download : true,
-                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_21,
@@ -1197,7 +1241,9 @@ export const langen = {
                                 job : '- Senior Lecturer, University of Tasmania, Australia',
                                 contents : 'Dr Abbey MacDonald brings a strong focus upon art making, advocacy and multi-stakeholder collaboration to her research. She works with Arts and philanthropic organisations to collaborate with education transformation stakeholders.',
                                 download : true,
-                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             }
                         ]
                     },
@@ -1211,7 +1257,8 @@ export const langen = {
                                 name : 'InSul Kim',
                                 enname : '',
                                 job : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
-                                contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts. Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
+                                contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
+                                            +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1230,7 +1277,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic",
+                        li_title : "The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_22,
@@ -1242,7 +1289,9 @@ export const langen = {
                                           +'She has been an Art and Design teacher in various secondary schools and has received various certificates of merit as the best Art and Design teacher. In the course of her career, Mary Clare has participated in curriculum reform at various levels in the country; written papers, attended workshops, conferences and published in various academic journals. She has set up and headed  several Art and Design Departments countrywide.\n\n'
                                           +'Mary Clare is also a member of the Design Association of Kenya (DeSK) and Arts Council of the African Studies (ACASA). She is a Member of Experts Panel- Exploring Visual Cultures.  Mary is the chief editor of the book “ Visual Culture in Africa”.',
                                 download : true,
-                                downlink : env.link + '/Mary_Clare_Kidenda_The_use_of_Visual_Art_therapy_to_facilitate_the_release_relief_reflection_and_restoration_of_students_in_Kenyan_Universities_during_the_COVID_19_Pandemic.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Mary_Clare_Kidenda.pdf',
+                                abdownlink : env.link + '/Abstract_Mary_Clare_Kidenda.pdf',
                             }
                         ]
                     },
@@ -1259,7 +1308,9 @@ export const langen = {
                                 contents : "Emily is a graduate from Queen’s Dan School of Drama and Music. She is currently a 1st year student in the Masters of Education Program at Queen’s University in Ontario, Canada as well as a practicing virtual elementary teacher to a grade five class. Emily’s research includes creating workshops for educators to show how the art of puppetry can be fundamental in fostering inclusivity within the classroom and can promote the growth of genuine friendships, especially between neuro-typical students and students with developmental disabilities.\n\n"
                                            +'These workshops will be available online and in-person as puppetry can extend beyond the screen and offer a sense of inclusivity and classroom community for all students, no matter the platform. Today Emily will be speaking about The Magic within Puppetry for Inclusive Practices. Emily hopes each and every one of you will feel and experience a little bit of this magic today during her presentation, so tap into your inner Mr. Rogers and enjoy the ride',
                                 download : true,
-                                downlink : env.link + '/Emily_MacMillan_The_magic_within_puppetry_for_inclusive_practices.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Emily_MacMillan.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_MacMillan.pdf',
                             }
                         ]
                     },
@@ -1276,7 +1327,9 @@ export const langen = {
                                 contents : "Korean American pianist Jihea Hong-Park enjoys a versatile and active career as a recitalist, educator, chamber musician, teaching artist, workshop presenter, and interdisciplinary arts collaborator. She has performed at major venues such as Carnegie Hall, Lincoln Center for the Performing Arts, Merkin Hall, Symposium and Festival of the Centre of Intercultural Music Arts at the University of Cambridge in England, Incheon Performing Arts Center in South Korea, and Komae Ecorma Hall and Niigata Performing Arts Center in Japan.\n\n"
                                            +'Ms. Hong-Park currently holds the position of Associate Professor of Piano at Brigham Young University. Prior to her appointment at BYU, she taught on the piano faculty at The Juilliard School’s Evening Division for 14 years and was a lead teaching artist at the New York Philharmonic. Through masterclasses, lectures, and chamber music instruction, she has worked with students from across the world.  As an avid workshop facilitator, Ms. Hong-Park has presented at the International Teaching Artist Conference, College Music Society’s National Conferences, Youth Orchestra of St. Luke’s, and New York City Department of Education. Recently, she has been invited to give presentations at the 2021 National Conference on Keyboard Pedagogy. Ms. Hong-Park received her B.M. and M.M. degrees at The Juilliard School.',
                                 download : true,
-                                downlink : env.link + '/Jihea_HongPark_UNESCO_Necessity_of_Cultural_Representation_in_Music_Classrooms.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Jihea_Hong-Park.pdf',
+                                abdownlink : env.link + '/Abstract_Jihea_Hong-Park.pdf',
                             }
                         ]
                     },
@@ -1292,7 +1345,9 @@ export const langen = {
                                 job : '- Lecturer, The University of Melbourne, Australia',
                                 contents : "Emily Wilson is a lecturer in undergraduate and postgraduate music education. Her research interests include: music education pedagogy, student engagement, the confluence of informal and formal music learning, and one-to-one music pedagogy.",
                                 download : true,
-                                downlink : env.link + '/WilsonJeanneret.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -1302,7 +1357,9 @@ export const langen = {
                                 job : '- Associate Professor, The University of Melbourne, Australia',
                                 contents : "Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.",
                                 download : true,
-                                downlink : env.link + '/WilsonJeanneret.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -1345,8 +1402,10 @@ export const langen = {
                                 enname : '',
                                 job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
                                 contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
                             }
                         ]
                     },
@@ -1362,7 +1421,9 @@ export const langen = {
                                 job : '- Assistant professor, Hongik University, Republic of Korea',
                                 contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             },
                             {
                                 imgs : session_img_28,
@@ -1372,7 +1433,9 @@ export const langen = {
                                 job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
                                 contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             }
                         ]
                     },
@@ -1389,7 +1452,9 @@ export const langen = {
                                 contents : 'Rebecca is passionate about teaching and learning of the arts, specifically in professional education, signature pedagogies, and everything that lies in-between. In her capacity as Vice-Dean of Pedagogy and Research Unit, she spearheads research projects and partnerships that enhance the quality of higher arts education. She is also a Senior Lecturer with the School of Music, and an Adjunct Lecturer at Singapore University of Social Sciences (SUSS), where she curates the art of appreciating musical milestones with adult learners. Trained as a musician and musicologist, Rebecca specialises in the creative musical processes of the Baroque concerto.\n\n'
                                            +'For her Ph.D. studies, she received a grant from the National Arts Council, a full scholarship from the University of Liverpool, and the United Kingdom Scholarships for International Research Students. Rebecca is presently awarded the Tan Poey Quee Doctor in Education Scholarship for EdD studies at the National Institute of Education, Nanyang Technological University, Singapore.',
                                 download : true,
-                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_29,
@@ -1400,7 +1465,9 @@ export const langen = {
                                 contents : "Foo Say Ming is an active musician in the local music scene.  Apart from his work in the Singapore Symphony Orchestra as a 1st violinist, he is also heading the String Faculty at the Nanyang Academy of Fine Arts, which offers degree courses in music performance and music education with the Royal College of Music (RCM), London. Apart from his role as Assistant Conductor of the National University of Singapore (NUS) Symphony Orchestra, Say Ming also leads and direct a Singaporean chamber orchestra “re: mix”, which endeavours to bring a unique Singaporean voice its take on classical and the contemporary music. With its unique repertoire and its 2 “CD of the Year” accolades from The Straits Times, re: mix has since attracted the attention of audiences and festivals from several regional countries.\n\n"
                                            +'Say Ming is a graduate of the Royal College of Music, was also later conferred the “Virtuosité - Premier Prix avec Félicitations du Jury” at the Conservatoire de Lausanne (Switzerland) where he studied with French violinist Pierre Amoyal, a protégé of Jascha Heifetz.',
                                 download : true,
-                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_30,
@@ -1411,7 +1478,9 @@ export const langen = {
                                 contents : 'Tan Jeng Suan is a final-year undergraduate student at the Nanyang Academy of Fine Arts, majoring in piano performance. Currently under the tutelage of Dr Paul Liang, she has performed in school concerts, both as a soloist and as a chamber musician. She recently had the opportunity to study with Professor Richard Uttley during her international placement with the Royal College of Music, London. As a student research assistant, she has been involved in various research projects with the Pedagogy and Research Unit, Office of Academic Affairs. Having a keen interest in music education, her undergraduate research project was focused on Communities of Practice: Sociocultural Learning in a Music Conservatoire.\n\n'
                                            +'Her research project sought to explore possibilities for sociocultural learning as a complementary learning method to the traditional conservatory system. Her other research interests are in music education for young children.',
                                 download : true,
-                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             }
                         ]
                     },
@@ -1427,7 +1496,9 @@ export const langen = {
                                 job : '- Managing Director, Creative Generation, USA',
                                 contents : '',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Jeff_Poulin.pdf',
                             }
                         ]
                     },
@@ -1441,8 +1512,8 @@ export const langen = {
                                 name : 'Hyesun Shin ',
                                 enname : '',
                                 job : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
-                                contents : 'WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education. Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.\n\n'
-                                           +'Her current research interests include arts education, cultural diversity, international cultural relations, and cultural policy. Shin’s articles have published in Journal of Arts Management, Law, and Society, Journal of Cultural Policy, Korean Journal of Culture and Arts Education Studies, and more.',
+                                contents : 'Dr. Hyesun Shin is currently teaching at the Department of Arts and Cultural Management, Graduate School of Business Administration, Kyung Hee University in Seoul as a lecturer. While running an independent research organization, WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education.\n\n'
+                                            +'Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.',
                                 download : false,
                                 downlink : '',
                             }
@@ -1472,7 +1543,9 @@ export const langen = {
                                 contents : 'Professor Ruth Rentschler OAM (BA Hons Melbourne; PhD Monash) is located in UniSA Business, University of South Australia. She is a management scholar in the context of arts and culture, with a history of research excellence demonstrated by her quality national and international grants, quality journal publications and leading of national and international research team, while developing an international profile as a researcher. She is Deputy Chair of the board of Australian Dance Theatre and Chair of the Board of No Strings Attached, Theatre of Disability.\n\n'
                                            +'She has published books, quality journal articles (e.g., Journal of Business Ethics; Journal of Business Research; British Journal of Management) and industry research reports nationally and internationally, with a focus on diversity and social inclusion in the context of the arts. She has received various honours and awards, such as Vice-Chancellor’s Award for Service to the Community, Best Doctoral Supervisor Award, Cutting Red Tape Award, and an Order of Australia for services to education, the arts and the community.',
                                 download : true,
-                                downlink : env.link + '/UNITWIN_symposium_S_Korea25_26_May_2021slides.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Ruth_Rentschler.pptx',
+                                abdownlink : env.link + '/Abstract_Ruth_Rentschler.pdf',
                             }
                         ]
                     },
@@ -1489,7 +1562,9 @@ export const langen = {
                                 contents : 'Dr. Ji-young Shim is presently working as Assistant Professor, Dept. of Art Education, Hongik University, Seoul, South Korea. She has served as an executive member of the Korea Society for Culture and Arts Education Studies, Korean Society for Education through Art, the Tourism Science Society of Korea, and so on. She has working experience of with various art institutions as Chief Curator, Chief Manager, and Educator. She earned her B.A. in Art History, B.F.A. and M.F.A. in Western Painting at Ewha Womans University, M.A. in Arts Administration at Columbia University, and Ph.D. at the Pennsylvania State University.\n\n'
                                            +'Dr. Shim’s research interests include public pedagogy through radical modern art, and controversial visual culture associated with manipulatively constructed concept of freedom of expression in relation to sociology of knowledge and censorship. She has also offered locked-in art world broader perspectives based on revisited dialectic and critical thinking.',
                                 download : true,
-                                downlink : env.link + '/Shim_Museums_Making_A_Case_for_LGBTQ_History_PresentationMaterial.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Ji-young_Shim.pdf',
+                                abdownlink : env.link + '/Abstract_Ji-young_Shim.pdf',
                             }
                         ]
                     },
@@ -1506,7 +1581,9 @@ export const langen = {
                                 contents : 'Yuri Kim is a Ph.D. student for integrated art therapy at Ewha Womans University. Her work is based on ten years of experience teaching art to children.\n\n'
                                           +'While working as an arts educator, she became an art therapist with certainty in the therapeutic potential of art. Art therapy activities include art therapy projects for the coexistence of South Korean youth and North Korean defectors, culture and arts therapy projects for the general public at the Korean Culture and Arts Education Promotion Agency, art therapy projects for youth raised in children’s homes, multicultural families, and art therapy for children from single-parent families. Her research interests include multiculturalism, social action, and trauma in art therapy.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
                                 imgs : session_img_34,
@@ -1517,7 +1594,9 @@ export const langen = {
                                 contents : "Sojung Park, Ph.D., ATR-BC, LCAT, is an assistant professor in the Graduate School of Education, Art Therapy Major, at the Ewha Womans University in Seoul, Korea. Dr. Park earned her master's degree in art therapy at the School of Visual Arts in New York, NY, and the doctorate in Expressive Therapies at Lesley University, Cambridge, MA. She has years of experience working with individuals with mental illnesses and addiction in the United States. Upon moving to Korea, Dr. Park has dedicated herself to teaching and training future art therapists. As a researcher Dr. Park has explored multiculturalism, psychiatric and/or addiction, and community-based practice and social action within art therapy, from both qualitative and art-based research paradigms.\n\n"
                                           +'She received the 2020 Pearlie Roberson Scholarship Award from the American Art Therapy Association, for her research project which targets multicultural aspects and capacities of art therapy. Dr. Park is an active member of the editorial board for the Journal of the American Art Therapy Association and the multicultural committee of the American Art Therapy Association.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
                     },
@@ -1532,8 +1611,10 @@ export const langen = {
                                 enname : '',
                                 job : '- Ph.D. candidate, Queen’s University, Canada',
                                 contents : 'Sean is a PhD student at Queen’s University who is interested in improvisation, music education, and creating opportunity for all students to engage in meaningful art practices. As an artist, Sean explores the nature of connection: among performers, to audience, and to setting. Recently, Sean has been inspired by the works of Alonzo King and the LINES ballet company, Lido Pimienta, and Vladimir Guerrero Jr.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
                             },
                             {
                                 imgs : session_img_15,
@@ -1544,8 +1625,10 @@ export const langen = {
                                 contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning.\n\n'
                                           +'His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan.\n\n'
                                           +'Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
                             }
                         ]
                     },
@@ -1590,7 +1673,9 @@ export const langen = {
                                 contents : "Soohye Jang is a founding director of Chaeknuna Project, a nonprofit organization for book and arts education, an independent performing arts producer, and a researcher based in Seoul, Korea. Since 2013, she has been creating inclusive and creative classes using picture books in libraries, schools, and social welfare centers along with a group of volunteers and teaching artists across the country.\n\n"
                                            +'She earned her MFA in Arts Leadership at Seattle University and is a current Ph.D. candidate of Culture and Arts Management at Hongik University.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Soohye_Jang.pdf',
                             }
                         ]
                     },
@@ -1606,8 +1691,10 @@ export const langen = {
                                 job : '- Freelance Teaching Artist, Republic of Korea',
                                 contents : 'Yunji Gong is interested in the social interaction process between learners and Teaching Artist in the arts education field. As a teaching artist, she provides humanities and arts education based on Maker Mindset and Picturebooks. She is also a picturebook artist herself. She majored in Interaction Design at the Korea National University of Arts, and studied Wordless Picturebooks at Picturebook Imagination(<a href="http://www.imagination.kr" target="_blank">www.imagination.kr</a>). Since 2009, she has been carrying out art education and educational research at the National Theater, Seoul Foundation for Arts and Culture, Korea Creative Content Agency, Korea Arts and Culture Education Service, and Seoul Design Foundation.\n\n'
                                           +"She has also created a book called, <The Hummingbird Has Spoken>, a Global Citizenship Education (GCE)  picturebook based on Wangari Matai's fable to promote environmental sensitivity. Currently, this book has been uploaded to the Let's Read e-book library of the Asian Foundation(letsreadasia.org) and offers free English and Bahasa Indonesian versions.",
-                                download : false,
-                                downlink : env.link + '/공윤지_뉴노멀_청소년에게_그림책으로_질문_던지기.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Yunji_Gong.pdf',
+                                abdownlink : env.link + '/Abstract_Yunji_Gong.pdf',
                             }
                         ]
                     },
@@ -1622,8 +1709,10 @@ export const langen = {
                                 enname : '',
                                 job : "- Director, Art & Culture Community G.A.Garden / Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                                 contents : "The Director of Art & Culture Community GAGarden. She is an teaching artist, art therapist, and researcher. She takes an educational and therapeutic approach of art to improving the public space in the community. She is a doctoral student of intergrated art therapy at Ewha Womans University, and wants to create a link between art and life to convey the richness of art to life and to express the depth and reflection of life as art.",
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Hyunjung_Lee.pdf',
                             }
                         ]
                     },
@@ -1640,7 +1729,9 @@ export const langen = {
                                 contents : "The dream he had been drawing for quite a while as a child was a cartoonist. He was happiest when he laid out the scenes and stories that came to mind on white paper and looked into it for a long time. And after becoming an adult, he went on to major in theater, and he lived a long time in my imagination. Then, as he faces reality, his colorful ego becomes smaller and he experiences a simple life like achromatic.\n\n"
                                            +'He is now working at school to take out himself from the past, introduce the colors of curiosity and imagination to children, and encourage them to draw them together. In the future, he wants to be with a friend called art who has various appearances.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Sungjong_Bae.pdf',
                             }
                         ]
                     },
@@ -1656,7 +1747,9 @@ export const langen = {
                                 job : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
                                 contents : "Younghee Choi is the person who wants to share the value of art education with others. Currently, Younghee supports cultural and art education sites with his colleagues at the Korea Arts & Culture Education Service and try to make various attempts.",
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Younghee_Choi.pdf',
                             }
                         ]
                     },
@@ -1962,8 +2055,9 @@ export const langen = {
                     name : 'InSul Kim',
                     en_name : '',
                     li_title : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
-                    li_contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
-                                  +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.'
+                    li_contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
+                            +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
+                                
                 },
                 {
                     img : closing_img_04,
@@ -2043,6 +2137,7 @@ export const langen = {
         realchating : 'Live chat',
         lecture : 'Lecture description',
         classdownload : 'Download presentation file',
+        abdownload : 'Abstract',
         zoom : 'Participate',
         unithomebtn : 'Go to UNITWIN Official Webpage >',
         move : 'Link > ',
@@ -2207,11 +2302,11 @@ export const langen = {
                 text4 : 'Shin-Eui Park',
                 text5 : '- Chairperson, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea',
                 text6 : 'Jisoo Sung',
-                text7 : '- Director, Collective Doingle, Republic of Korea',
+                text7 : '- Director, Collective Doingle-Around representative, Republic of Korea',
                 text8 : '',
                 text9 : '',
                 text10 : 'Sang-Mi Mo',
-                text11 : '- Director, Busan Moida Art Cooperative Society, Republic of Korea',
+                text11 : '- Director, Moida Art Cooperative Society, Republic of Korea',
                 text12 : 'Jinsuk Gang',
                 text13 : '- Director, Gwangmyeong Upcycle Art Center, Republic of Korea',
                 text14 : 'Jinhee Park',
@@ -2281,7 +2376,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era>',
+                text16 : '<The Pandemic Era… The social value and role art therapy>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -2372,7 +2467,7 @@ export const langen = {
                 text3 : '<"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.>',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
-                text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”/Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
+                text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
                 text7 : '[Moderator]',
                 text8 : 'Tanja Klepacki',
                 text9 : '',
@@ -2383,7 +2478,7 @@ export const langen = {
                 text1 : 'Session 5',
                 text2 : 'Arts in the Classroom',
                 text3 : '13:40-15:10',
-                text4 : "<The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic>",
+                text4 : "<The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic>",
                 text5 : 'Mary Clare Kidenda',
                 text6 : '',
                 text7 : '- Lecturer and Head, The Technical University of Kenya, Kenya',
@@ -2532,10 +2627,12 @@ export const langen = {
                 title : 'Diversity in art education 2.0',
                 time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : false,
+                download : true,
+                abdownload : true,
                 chatlink : '1001',
                 youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
-                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                downlink : env.link + '/Ernst_Wagner.pptx',
+                abdownlink : env.link + '/Abstract_Ernst_Wagner.pdf',
                 list : [
                     {
                         img : pl_detail1_img_01,
@@ -2561,10 +2658,12 @@ export const langen = {
                 title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
                 time : '26 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
-                download : false,
+                download : true,
+                abdownload : true,
                 chatlink : '1002',
                 youtube : 'https://www.youtube.com/embed/i2e8VRc12Tk',
-                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                downlink : env.link + '/Benjamin_Jorissen.pdf',
+                abdownlink : env.link + '/Abstract_Benjamin_Jorissen.pdf',
                 list : [
                     {
                         img : plsession_img_02,
@@ -2694,8 +2793,10 @@ export const langen = {
                                 enname : '',
                                 job : '- Director, National Theater Company of Korea, Republic of Korea',
                                 contents : 'Yong Sung Jung is Director in PR & Marketing Division in National Theater Company of Korea, Korea. He has worked at LG Arts Center, Charlotte Theater, and Myeong-dong Theater before the National Theater Company. The experience of working in theaters has helped him expand his scope of work. The National Theater Company is an art organization that produces dramas and operates three theaters. (Myeong-dong Theater, Baek Seonghui & Jang Minho Theater, Theater Pan) So he is in charge of public relations and marketing, and at the same time in charge of managing the ticket office and house management. He is also studying in doctoral program in Department of Arts and Cultural Management at Hongik University, Korea. His research areas include the audience development, marketing for performing arts, and fundraising.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/YongSung_Jung.pdf',
+                                abdownlink : env.link + '/Abstract_YongSung_Jung.pdf',
                             }
                         ]
                         
@@ -2706,13 +2807,16 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_02,
+                                hashtag : 'Eunsu',
                                 name : 'Eunsu Lee',
                                 enname : '',
                                 job : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
                                 contents : 'While working at the National Museum of Modern and Contemporary Art for about 15 years, she has a view of various visual art contents, including artists and works, from the perspective of communication with the audience at the center. Since the opening of the Seoul Hall, it has been uniquely responsible for customer service within the institution and has planned and operated various programs to provide visitors with a better cultural and artistic experience.\n\n'
                                          + 'She is in charge of managing on-site operations to service planning, such as analyzing the level of customer support services at art museum contacts, actively developing services to meet the needs of public cultural spaces, and fostering them into specific projects. She is currently studying for a Ph.D. in Culture, Arts and Management at Hongik University.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_Eunsu_Lee.pdf',
                             }
                         ]   
                     },
@@ -2727,7 +2831,9 @@ export const langen = {
                                 job : '- Curator, Seongbuk Museum of Art, Republic of Korea',
                                 contents : "Sowon Kim has been engaged in exhibition planning, artistic writing, and research-based activities since graduating from Ewha Womans University's M.A of History of Art. Currently, she has been working as an curator at the Seongbuk Cultural Foundation and has been planning various exhibitions, as well as a Ph.D. in arts and cultural management at Hongik University. It has been continuously communicating with people in the arts field, studying interests, and realizing them in curating and writings. Currently, Seongbuk Children's Museum is planning exhibitions with timeless themes that are not bound to children and adults.",
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_Sowon_Kim.pdf',
                             }
                         ]   
                     },
@@ -2742,7 +2848,9 @@ export const langen = {
                                 job : '- Assistant Professor, KyungSung University, Republic of Korea',
                                 contents : 'Su-youn Kim is an assistant professor in the School of Theatre&Film Art at KyungSung University. She has the back ground in performing art and theatre art education and her main interest is how drama and theatre can broadly cotribute to making socially healthy schools and societies.',
                                 download : true,
-                                downlink : env.link + '/the_suspicious_dining_table_PPT.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Su-youn_Kim.pptx',
+                                abdownlink : env.link + '/Abstract_Su-youn_Kim.pdf',
                             }
                         ]   
                     },
@@ -2752,12 +2860,16 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_05,
+                                hashtag : 'Boram',
                                 name : 'Boram Lee',
                                 enname : '',
                                 job : '- Professor, University of South Australia , Republic of Korea',
-                                contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia. She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
+                                contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia.\n\n'
+                                            +'She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_Boram_Lee.pdf',
                             }
                         ]   
                     },
@@ -2802,7 +2914,9 @@ export const langen = {
                                           + "Queen's University. She has also been commissioned to write several evidence-based guides and reports on the benefits of artists-in-schools programs in Canada.\n\n"
                                           + 'Tiina currently serves on the executive committee of the Canadian Society for Education through Art (CSEA) as the Director of Provincial Liaison, Social Media, and Advocacy. As an educator, she has taught visual arts to learners of all ages in various school- and community-based settings.',
                                 download : true,
-                                downlink : env.link + '/Tiina_Kukkonen_Supporting_Youth_Mental_Health_in_and_through_the_Arts.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Tiina_Kukkonen.pdf',
+                                abdownlink : env.link + '/Abstract_Tiina_Kukkonen.pdf',
                             }
                         ]
                     },
@@ -2818,7 +2932,9 @@ export const langen = {
                                 contents : 'Theatre director, choreographer, actress, drama and dance pedagogue. Author and producer of numerous programs and projects both educational and artistic. She has been developing innovative methodologies and concepts in her work: of art and arts education as “ecology of the soul”, the first interactive TIE musical on Cyber bullying and “essays in movement”. Together with her theatre group Hleb Teatar , she creates and  tours performances internationally, also developing innovative forms of TIE. She conducts workshops and master classes blending her experience from dance and laboratory theatre into an original holistic approach and methodology of drama/theatre education. She has been part of the Serbian DICE (Drama Improves Key Lisbon Competences) research team (2009/10). Member of the expert working group for writing the curriculum of the first scenic arts and multimedia classes in Serbian gymnasiums.\n\n'
                                            +'She has initiated the world wide action “Bells for Arts Education” as part of the celebration of UNESCO International Week of Arts Education in May 2020. She is the President of CEDEUM, Serbia, and Artistic Director of Artistic Utopia and  Mater Terra Children’s and Youth Festival. Author of essays, reviews and articles on drama/theatre education and performing arts.',
                                 download : true,
-                                downlink : env.link + '/Sanja_Krsmanovic_Tasic_The_Important_od_Drama_and_Theatre_Education.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Sanja_Krsmanovic_Tasic.pptx',
+                                abdownlink : env.link + '/Abstract_Sanja_Krsmanovic_Tasic.pdf',
                             }
                         ]
                     },
@@ -2835,13 +2951,15 @@ export const langen = {
                                         +'Her research specialisation is the application of Boal’s Forum Theatre in a school context to teach learners life skills through drama. She has presented two Forum Theatre workshops to international academic audiences at the NADTA Yosemite conference, USA (2014); and the Sydney Game Changer Conference, Australia (2015). Her case study, as part of doctoral research, was conducted at a South African primary school in 2016. She also presented a paper on the aspect of time in the application of Forum Theatre in a school at the Bi-Annual Departmental Time conference, UNISA in 2016.\n\n'
                                         +'rior to her academic career Dr Bettman worked in Corporate Communication and Marketing for twenty years when she provided a monthly newsletter service through web-based dissemination or print.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Abstract_Ernst_Wagner.pdf',
+                                abdownlink : env.link + '/Abstract_MC_Bettman.pdf',
                             }
                         ]
                     },
                     {
                         moder : '',
-                        li_title : "Healing of Culture and Arts as a Countermeasure to Psychological Problems and Mental Health in the Pandemic Era",
+                        li_title : "The Pandemic Era… The social value and role art therapy",
                         li_data : [
                             {
                                 imgs : session_img_09,
@@ -2850,8 +2968,10 @@ export const langen = {
                                 job : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                                 contents : 'Chaeyeon Kim is an art therapist and representative of the Korea Clinical Art Therapy Association, a non-profit corporation. She holds'
                                           +"master's and doctoral degrees in art therapy, and she is currently enrolled in a doctorate program in business administration in cultural arts. Her “her desire to help others” and her “her interest in her people” put her on the path of her art therapist. She has been meeting patients in clinical settings for 22 years as an art therapist for her heartbreaking and weary people through her rich examples and evidence. In addition, she has established a non-profit corporation to help many people experience healing through art and receive benefits, and is striving to create culture and art healing welfare.",
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Chaeyeon_Kim.pptx',
+                                abdownlink : env.link + '/Abstract_Chaeyeon_Kim.pdf',
                             }
                         ]
                     },
@@ -2893,8 +3013,10 @@ export const langen = {
                                 contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
                                          + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
                                          + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Tei_Kim.pdf',
+                                abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
                             }
                         ]
                     },
@@ -2909,7 +3031,9 @@ export const langen = {
                                 job : '- Assistant Professor, Nanyang Technological University, Singapore',
                                 contents : 'Charlene Rajendran is Assistant Professor at the National Institute of Education, an institute of Nanyang Technological University, Singapore. As theatre educator, researcher and dramaturg, her interests focus on contemporary theatre, play-based pedagogy, issues of difference and arts leadership. She has collaborated with diverse artists and is Co-Director of the Asian Dramaturgs’ Network.\n\n Her publications include: Performing Southeast Asia: Performance, Politics and the Contemporary (co-edited with Marcus Tan, 2020, Palgrave Macmillan); Excavations, Interrogations, Krishen Jit and Contemporary Malaysian Theatre (co-edited with Ken Takiguchi and Carmen Nge, 2018, Epigram and Five Arts Centre); academic articles in RIDE, Applied Theatre Research, TDR, Theatre, Dance and Performance Training, Asian Theatre Journal and creative works.',
                                 download : true,
-                                downlink : env.link + '/Charlene_Rajendran_UNITWIN_2021_Presentation.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Charlene_Rajendran.pptx',
+                                abdownlink : env.link + '/Abstract_Charlene_Rajendran.pdf',
                             }
                         ]
                     },
@@ -2927,7 +3051,9 @@ export const langen = {
                                            +'A creative response to these challenges that has had little attention is integrating dance into second language education. This study assembled autoethnography and educational connoisseurship and criticism as a means to investigate the impact of dance pedagogy and its implications. The themes discussed were: communicative and intercultural competence, language acquisition and immersion, cognitive learning transfer, and multiple accesses.\n\n'
                                            +'This study offers empirical evidence for the benefits that dance activities can make to students’ second language and cultural competence development and affords pedagogical insights for teachers who want to employ dance as an approach to teach a second language.',
                                 download : true,
-                                downlink : env.link + '/Zhang_Integrating_dance_and_language_education_A_creative_response_to_social.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Nan_Zhang.pdf',
+                                abdownlink : env.link + '/Abstract_Nan_Zhang.pdf',
                             }
                         ]
                     },
@@ -2943,7 +3069,9 @@ export const langen = {
                                 contents : 'Yaara Docrat is a Master of Education Candidate in the Faculty of Education at Queen’s University under the supervision of Dr. Benjamin Bolden (UNESCO Chair of Arts & Learning). Yaara’s teaching interests include special education and at-risk youth. From 2018-2019, Yaara taught students with social, emotional, and mental health (SEMH) needs in the United Kingdom and in Fall 2021, will teach at The American Pacific International School of Chiang Mai. Yaara’s research interests combine these teaching interests, arts education, and emotional self-regulation to better serve students alike.\n\n'
                                            +'Yaara’s background has allowed her to identify this need. As a teacher candidate (2017-2018), Yaara’s personal love of music and children prompted her to organize touring musicians to play and mentor 1000+ students in Ontario. She was awarded the Kingston Civic Youth Volunteerism Award 2018 to recognize these efforts. Yaara works towards a central mission of strengthening teacher education programs to more easily integrate the arts within all classrooms.',
                                 download : true,
-                                downlink : env.link + '/Docrat_UsingTheArtsToFosterEmotionalSelfRegulationForGrade4To8StudentsWithAttentionAndOrHyperactivityChallengesAMultipleCaseStudy_UNITWIN2021.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Yaara_Docrat.pdf',
+                                abdownlink : env.link + '/Abstract_Yaara_Docrat.pdf',
                             }
                         ]
                     },
@@ -2984,7 +3112,9 @@ export const langen = {
                                 job : "- Associate Professor, Queen's University, Canada",
                                 contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning. His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan. Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
                                 download : true,
-                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -2993,7 +3123,9 @@ export const langen = {
                                 job : '- Associate Professor, The University of Melbourne, Australia',
                                 contents : 'Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.',
                                 download : true,
-                                downlink : env.link + '/Bolden_Jenneret_Visions_of_Sustainability.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Benjamin_Bolden__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -3008,8 +3140,10 @@ export const langen = {
                                 job : '- Associate Professor, Nanyang Technological University, Singapore',
                                 contents : "Chee-Hoo Lum is associate professor of music education with the Visual & Performing Academic Group at the National Institute of Education (NIE), Nanyang Technological University, Singapore. He is the Co-ordinator of NIE Centre for Arts Research in Education (CARE) and a member of the UNESCO UNITWIN: Arts Education Research for Cultural Diversity and Sustainable Development. Chee-Hoo's research interests include issues towards identity, cultural diversity and multiculturalism, technology and globalization in music education; children's musical cultures; creativity and improvisation; and elementary music methods. He is currently on the editorial board of JRME (Journal of Research in Music Education), RSME (Research Studies in Music Education) and IJMEC (International Journal of Music for Early Childhood).\n\n"
                                            +'Chee-Hoo has published four edited books: (1) Contextualized Practices in Arts Education: An International Dialogue on Singapore; (2) Musical Childhoods of Asia and The Pacific; (3) Arts Education and Cultural Diversity: Policies, Research, Practices and Critical Perspectives; (4) The Artground Ecology: Engaging Children in Arts and Play Experiences; three co-authored academic books: (1) Teaching Living Legends: Professional development and lessons for the 21st century music educator; (2) Semionauts of Tradition: Music, Culture & Identity in Singapore; (3) World Music Pedagogy: School-Community Intersections, academic book chapters, referred journal articles and made numerous conference presentations at local and international settings.',
-                                download : true,
-                                downlink : '',
+                                download : false,
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             },
                             {
                                 imgs : session_img_18,
@@ -3019,7 +3153,9 @@ export const langen = {
                                 contents : 'Zen Teh (born and live in Singapore, 1988) is an artist and educator interested in interdisciplinary studies of nature and human behavior. Her practice draws on the belief that learning is built upon our innate curiosity towards natural phenomena and experiences of the everyday. As an artist, her art practice spans across photography, sculpture and installation art. Her works has been showcased in numerous group and solo exhibitions in Singapore, including the Esplanade Singapore, National Museum of Singapore, Singapore Art Museum and Art Science Museum.\n\n'
                                            +'She has also exhibited regionally in Thailand, Indonesia, Korea, Taiwan, Hong Kong and China and was invited as a guest speaker at regional environmental conferences such as ASEAN Powershift 2015 and Hanoi Innovation Week 2016 on Sustainability. Teh has also been recently awarded the winning title for the 7th France+Singapore Photographic Arts Award and Finalist (Artist) for 2019 IMPART Awards.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Benjamin_Bolden__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Chee-Hoo_Lum__Zen_Teh.pdf',
                             }
                         ]
                     },
@@ -3034,7 +3170,9 @@ export const langen = {
                                 job : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
                                 contents : 'Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish during a prolonged lockdown and time of uncertainty.',
                                 download : true,
-                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_20,
@@ -3043,7 +3181,9 @@ export const langen = {
                                 job : '- Associate Professor, The University of Melbourne, Australia',
                                 contents : 'Associate Professor Mark Selkrig’s research interests include the changing nature of educators’ work and ways the arts and creativity can influence change, capacity building and agency of individuals and communities.',
                                 download : true,
-                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             },
                             {
                                 imgs : session_img_21,
@@ -3052,7 +3192,9 @@ export const langen = {
                                 job : '- Senior Lecturer, University of Tasmania, Australia',
                                 contents : 'Dr Abbey MacDonald brings a strong focus upon art making, advocacy and multi-stakeholder collaboration to her research. She works with Arts and philanthropic organisations to collaborate with education transformation stakeholders.',
                                 download : true,
-                                downlink : env.link + '/Coleman_Visual_Arts_Education_s.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pptx',
+                                abdownlink : env.link + '/Abstract_Kathryn_Coleman__Mark_Selkrig__Abbey_MacDonald.pdf',
                             }
                         ]
                     },
@@ -3065,7 +3207,8 @@ export const langen = {
                                 name : 'InSul Kim',
                                 enname : '',
                                 job : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
-                                contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts. Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
+                                contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
+                                            +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
                                 download : false,
                                 downlink : '',
                             }
@@ -3084,7 +3227,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "The use of  Art therapy to facilitate the release, relief, reflection and restoration  of students in Kenyan Universities during the COVID-19 Pandemic",
+                        li_title : "The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_22,
@@ -3095,7 +3238,9 @@ export const langen = {
                                           +'She has been an Art and Design teacher in various secondary schools and has received various certificates of merit as the best Art and Design teacher. In the course of her career, Mary Clare has participated in curriculum reform at various levels in the country; written papers, attended workshops, conferences and published in various academic journals. She has set up and headed  several Art and Design Departments countrywide.\n\n'
                                           +'Mary Clare is also a member of the Design Association of Kenya (DeSK) and Arts Council of the African Studies (ACASA). She is a Member of Experts Panel- Exploring Visual Cultures.  Mary is the chief editor of the book “ Visual Culture in Africa”.',
                                 download : true,
-                                downlink : env.link + '/Mary_Clare_Kidenda_The_use_of_Visual_Art_therapy_to_facilitate_the_release_relief_reflection_and_restoration_of_students_in_Kenyan_Universities_during_the_COVID_19_Pandemic.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Mary_Clare_Kidenda.pdf',
+                                abdownlink : env.link + '/Abstract_Mary_Clare_Kidenda.pdf',
                             }
                         ]
                     },
@@ -3111,7 +3256,9 @@ export const langen = {
                                 contents : "Emily is a graduate from Queen’s Dan School of Drama and Music. She is currently a 1st year student in the Masters of Education Program at Queen’s University in Ontario, Canada as well as a practicing virtual elementary teacher to a grade five class. Emily’s research includes creating workshops for educators to show how the art of puppetry can be fundamental in fostering inclusivity within the classroom and can promote the growth of genuine friendships, especially between neuro-typical students and students with developmental disabilities.\n\n"
                                            +'These workshops will be available online and in-person as puppetry can extend beyond the screen and offer a sense of inclusivity and classroom community for all students, no matter the platform. Today Emily will be speaking about The Magic within Puppetry for Inclusive Practices. Emily hopes each and every one of you will feel and experience a little bit of this magic today during her presentation, so tap into your inner Mr. Rogers and enjoy the ride',
                                 download : true,
-                                downlink : env.link + '/Emily_MacMillan_The_magic_within_puppetry_for_inclusive_practices.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Emily_MacMillan.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_MacMillan.pdf',
                             }
                         ]
                     },
@@ -3127,7 +3274,9 @@ export const langen = {
                                 contents : "Korean American pianist Jihea Hong-Park enjoys a versatile and active career as a recitalist, educator, chamber musician, teaching artist, workshop presenter, and interdisciplinary arts collaborator. She has performed at major venues such as Carnegie Hall, Lincoln Center for the Performing Arts, Merkin Hall, Symposium and Festival of the Centre of Intercultural Music Arts at the University of Cambridge in England, Incheon Performing Arts Center in South Korea, and Komae Ecorma Hall and Niigata Performing Arts Center in Japan.\n\n"
                                            +'Ms. Hong-Park currently holds the position of Associate Professor of Piano at Brigham Young University. Prior to her appointment at BYU, she taught on the piano faculty at The Juilliard School’s Evening Division for 14 years and was a lead teaching artist at the New York Philharmonic. Through masterclasses, lectures, and chamber music instruction, she has worked with students from across the world.  As an avid workshop facilitator, Ms. Hong-Park has presented at the International Teaching Artist Conference, College Music Society’s National Conferences, Youth Orchestra of St. Luke’s, and New York City Department of Education. Recently, she has been invited to give presentations at the 2021 National Conference on Keyboard Pedagogy. Ms. Hong-Park received her B.M. and M.M. degrees at The Juilliard School.',
                                 download : true,
-                                downlink : env.link + '/Jihea_HongPark_UNESCO_Necessity_of_Cultural_Representation_in_Music_Classrooms.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Jihea_Hong-Park.pdf',
+                                abdownlink : env.link + '/Abstract_Jihea_Hong-Park.pdf',
                             }
                         ]
                     },
@@ -3142,7 +3291,9 @@ export const langen = {
                                 job : '- Lecturer, The University of Melbourne, Australia',
                                 contents : "Emily Wilson is a lecturer in undergraduate and postgraduate music education. Her research interests include: music education pedagogy, student engagement, the confluence of informal and formal music learning, and one-to-one music pedagogy.",
                                 download : true,
-                                downlink : env.link + '/WilsonJeanneret.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             },
                             {
                                 imgs : session_img_16,
@@ -3151,7 +3302,9 @@ export const langen = {
                                 job : '- Associate Professor, The University of Melbourne, Australia',
                                 contents : "Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.",
                                 download : true,
-                                downlink : env.link + '/WilsonJeanneret.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Emily_Wilson__Neryl_Jeanneret.pptx',
+                                abdownlink : env.link + '/Abstract_Emily_Wilson__Neryl_Jeanneret.pdf',
                             }
                         ]
                     },
@@ -3192,8 +3345,10 @@ export const langen = {
                                 enname : '',
                                 job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
                                 contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
                             }
                         ]
                     },
@@ -3208,7 +3363,9 @@ export const langen = {
                                 job : '- Assistant professor, Hongik University, Republic of Korea',
                                 contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             },
                             {
                                 imgs : session_img_28,
@@ -3217,7 +3374,9 @@ export const langen = {
                                 job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
                                 contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
                             }
                         ]
                     },
@@ -3233,7 +3392,9 @@ export const langen = {
                                 contents : 'Rebecca is passionate about teaching and learning of the arts, specifically in professional education, signature pedagogies, and everything that lies in-between. In her capacity as Vice-Dean of Pedagogy and Research Unit, she spearheads research projects and partnerships that enhance the quality of higher arts education. She is also a Senior Lecturer with the School of Music, and an Adjunct Lecturer at Singapore University of Social Sciences (SUSS), where she curates the art of appreciating musical milestones with adult learners. Trained as a musician and musicologist, Rebecca specialises in the creative musical processes of the Baroque concerto.\n\n'
                                            +'For her Ph.D. studies, she received a grant from the National Arts Council, a full scholarship from the University of Liverpool, and the United Kingdom Scholarships for International Research Students. Rebecca is presently awarded the Tan Poey Quee Doctor in Education Scholarship for EdD studies at the National Institute of Education, Nanyang Technological University, Singapore.',
                                 download : true,
-                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_29,
@@ -3243,7 +3404,9 @@ export const langen = {
                                 contents : "Foo Say Ming is an active musician in the local music scene.  Apart from his work in the Singapore Symphony Orchestra as a 1st violinist, he is also heading the String Faculty at the Nanyang Academy of Fine Arts, which offers degree courses in music performance and music education with the Royal College of Music (RCM), London. Apart from his role as Assistant Conductor of the National University of Singapore (NUS) Symphony Orchestra, Say Ming also leads and direct a Singaporean chamber orchestra “re: mix”, which endeavours to bring a unique Singaporean voice its take on classical and the contemporary music. With its unique repertoire and its 2 “CD of the Year” accolades from The Straits Times, re: mix has since attracted the attention of audiences and festivals from several regional countries.\n\n"
                                            +'Say Ming is a graduate of the Royal College of Music, was also later conferred the “Virtuosité - Premier Prix avec Félicitations du Jury” at the Conservatoire de Lausanne (Switzerland) where he studied with French violinist Pierre Amoyal, a protégé of Jascha Heifetz.',
                                 download : true,
-                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             },
                             {
                                 imgs : session_img_30,
@@ -3253,7 +3416,9 @@ export const langen = {
                                 contents : 'Tan Jeng Suan is a final-year undergraduate student at the Nanyang Academy of Fine Arts, majoring in piano performance. Currently under the tutelage of Dr Paul Liang, she has performed in school concerts, both as a soloist and as a chamber musician. She recently had the opportunity to study with Professor Richard Uttley during her international placement with the Royal College of Music, London. As a student research assistant, she has been involved in various research projects with the Pedagogy and Research Unit, Office of Academic Affairs. Having a keen interest in music education, her undergraduate research project was focused on Communities of Practice: Sociocultural Learning in a Music Conservatoire.\n\n'
                                            +'Her research project sought to explore possibilities for sociocultural learning as a complementary learning method to the traditional conservatory system. Her other research interests are in music education for young children.',
                                 download : true,
-                                downlink : env.link + '/Narratives_of_Service_Learning_UniTWIN_Presentation_26_May_2021_Kan_Foo_Tan.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                                abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                             }
                         ]
                     },
@@ -3268,7 +3433,9 @@ export const langen = {
                                 job : '- Managing Director, Creative Generation, USA',
                                 contents : '',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Jeff_Poulin.pdf',
                             }
                         ]
                     },
@@ -3281,8 +3448,8 @@ export const langen = {
                                 name : 'Hyesun Shin ',
                                 enname : '',
                                 job : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
-                                contents : 'WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education. Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.\n\n'
-                                           +'Her current research interests include arts education, cultural diversity, international cultural relations, and cultural policy. Shin’s articles have published in Journal of Arts Management, Law, and Society, Journal of Cultural Policy, Korean Journal of Culture and Arts Education Studies, and more.',
+                                contents : 'Dr. Hyesun Shin is currently teaching at the Department of Arts and Cultural Management, Graduate School of Business Administration, Kyung Hee University in Seoul as a lecturer. While running an independent research organization, WECULTURE research and consulting, she has co-authored a book, Arts and Cultural Education in Korea: Resources and Network, and published public-commissioned research reports on topics of cultural policy, international cultural relations, and arts education.\n\n'
+                                            +'Previously, she also served as a senior researcher at the Sookmyung Institute for Multicultural Studies and as an assistant editor for the OMNES: Journal of Multicultural Society in between 2017 and 2018. At Ohio State, she has served as a visiting scholar at the Department of Arts Administration, Education, and Policy after receiving her Ph.D. degree in Arts Policy and Administration at the same institution in 2015.',
                                 download : false,
                                 downlink : '',
                             }
@@ -3311,7 +3478,9 @@ export const langen = {
                                 contents : 'Professor Ruth Rentschler OAM (BA Hons Melbourne; PhD Monash) is located in UniSA Business, University of South Australia. She is a management scholar in the context of arts and culture, with a history of research excellence demonstrated by her quality national and international grants, quality journal publications and leading of national and international research team, while developing an international profile as a researcher. She is Deputy Chair of the board of Australian Dance Theatre and Chair of the Board of No Strings Attached, Theatre of Disability.\n\n'
                                            +'She has published books, quality journal articles (e.g., Journal of Business Ethics; Journal of Business Research; British Journal of Management) and industry research reports nationally and internationally, with a focus on diversity and social inclusion in the context of the arts. She has received various honours and awards, such as Vice-Chancellor’s Award for Service to the Community, Best Doctoral Supervisor Award, Cutting Red Tape Award, and an Order of Australia for services to education, the arts and the community.',
                                 download : true,
-                                downlink : env.link + '/UNITWIN_symposium_S_Korea25_26_May_2021slides.pptx',
+                                abdownload : true,
+                                downlink : env.link + '/Ruth_Rentschler.pptx',
+                                abdownlink : env.link + '/Abstract_Ruth_Rentschler.pdf',
                             }
                         ]
                     },
@@ -3327,7 +3496,9 @@ export const langen = {
                                 contents : 'Dr. Ji-young Shim is presently working as Assistant Professor, Dept. of Art Education, Hongik University, Seoul, South Korea. She has served as an executive member of the Korea Society for Culture and Arts Education Studies, Korean Society for Education through Art, the Tourism Science Society of Korea, and so on. She has working experience of with various art institutions as Chief Curator, Chief Manager, and Educator. She earned her B.A. in Art History, B.F.A. and M.F.A. in Western Painting at Ewha Womans University, M.A. in Arts Administration at Columbia University, and Ph.D. at the Pennsylvania State University.\n\n'
                                            +'Dr. Shim’s research interests include public pedagogy through radical modern art, and controversial visual culture associated with manipulatively constructed concept of freedom of expression in relation to sociology of knowledge and censorship. She has also offered locked-in art world broader perspectives based on revisited dialectic and critical thinking.',
                                 download : true,
-                                downlink : env.link + '/Shim_Museums_Making_A_Case_for_LGBTQ_History_PresentationMaterial.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Ji-young_Shim.pdf',
+                                abdownlink : env.link + '/Abstract_Ji-young_Shim.pdf',
                             }
                         ]
                     },
@@ -3342,8 +3513,10 @@ export const langen = {
                                 job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                                 contents : 'Yuri Kim is a Ph.D. student for integrated art therapy at Ewha Womans University. Her work is based on ten years of experience teaching art to children.\n\n'
                                           +'While working as an arts educator, she became an art therapist with certainty in the therapeutic potential of art. Art therapy activities include art therapy projects for the coexistence of South Korean youth and North Korean defectors, culture and arts therapy projects for the general public at the Korean Culture and Arts Education Promotion Agency, art therapy projects for youth raised in children’s homes, multicultural families, and art therapy for children from single-parent families. Her research interests include multiculturalism, social action, and trauma in art therapy.',
-                                download : true,
-                                downlink : '',
+                                download : false,
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
                                 imgs : session_img_34,
@@ -3353,7 +3526,9 @@ export const langen = {
                                 contents : "Sojung Park, Ph.D., ATR-BC, LCAT, is an assistant professor in the Graduate School of Education, Art Therapy Major, at the Ewha Womans University in Seoul, Korea. Dr. Park earned her master's degree in art therapy at the School of Visual Arts in New York, NY, and the doctorate in Expressive Therapies at Lesley University, Cambridge, MA. She has years of experience working with individuals with mental illnesses and addiction in the United States. Upon moving to Korea, Dr. Park has dedicated herself to teaching and training future art therapists. As a researcher Dr. Park has explored multiculturalism, psychiatric and/or addiction, and community-based practice and social action within art therapy, from both qualitative and art-based research paradigms.\n\n"
                                           +'She received the 2020 Pearlie Roberson Scholarship Award from the American Art Therapy Association, for her research project which targets multicultural aspects and capacities of art therapy. Dr. Park is an active member of the editorial board for the Journal of the American Art Therapy Association and the multicultural committee of the American Art Therapy Association.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
                     },
@@ -3368,7 +3543,9 @@ export const langen = {
                                 job : '- Ph.D. candidate, Queen’s University, Canada',
                                 contents : 'Sean is a PhD student at Queen’s University who is interested in improvisation, music education, and creating opportunity for all students to engage in meaningful art practices. As an artist, Sean explores the nature of connection: among performers, to audience, and to setting. Recently, Sean has been inspired by the works of Alonzo King and the LINES ballet company, Lido Pimienta, and Vladimir Guerrero Jr.',
                                 download : true,
-                                downlink : '',
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
                             },
                             {
                                 imgs : session_img_15,
@@ -3378,8 +3555,10 @@ export const langen = {
                                 contents : 'Dr. Benjamin Bolden, music educator and composer, is an associate professor and UNESCO Chair of Arts and Learning in the Faculty of Education at Queen’s University, Canada. His research interests include arts education, music education, the learning and teaching of composing, creativity, arts-based research, teacher education, teacher knowledge, and teachers’ professional learning.\n\n'
                                           +'His research has been published in journals including Review of Education, Teaching and Teacher Education, Music Education Research, and Music Educators Journal. As a teacher, Ben has worked with pre-school, elementary, secondary, and university students in Canada, England, and Taiwan.\n\n'
                                           +'Ben is an associate composer of the Canadian Music Centre and his compositions have been performed by a variety of professional and amateur performing ensembles.',
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                abdownlink : env.link + '/Abstract_Sean_Corcoran__Benjamin_Bolden.pdf',
                             }
                         ]
                     },
@@ -3422,7 +3601,9 @@ export const langen = {
                                 contents : "Soohye Jang is a founding director of Chaeknuna Project, a nonprofit organization for book and arts education, an independent performing arts producer, and a researcher based in Seoul, Korea. Since 2013, she has been creating inclusive and creative classes using picture books in libraries, schools, and social welfare centers along with a group of volunteers and teaching artists across the country.\n\n"
                                            +'She earned her MFA in Arts Leadership at Seattle University and is a current Ph.D. candidate of Culture and Arts Management at Hongik University.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Soohye_Jang.pdf',
                             }
                         ]
                     },
@@ -3437,8 +3618,10 @@ export const langen = {
                                 job : '- Freelance Teaching Artist, Republic of Korea',
                                 contents : 'Yunji Gong is interested in the social interaction process between learners and Teaching Artist in the arts education field. As a teaching artist, she provides humanities and arts education based on Maker Mindset and Picturebooks. She is also a picturebook artist herself. She majored in Interaction Design at the Korea National University of Arts, and studied Wordless Picturebooks at Picturebook Imagination(<a href="http://www.imagination.kr/" target="_blank">www.imagination.kr/</a>). Since 2009, she has been carrying out art education and educational research at the National Theater, Seoul Foundation for Arts and Culture, Korea Creative Content Agency, Korea Arts and Culture Education Service, and Seoul Design Foundation.\n\n'
                                           +"She has also created a book called, <The Hummingbird Has Spoken>, a Global Citizenship Education (GCE)  picturebook based on Wangari Matai's fable to promote environmental sensitivity. Currently, this book has been uploaded to the Let's Read e-book library of the Asian Foundation(letsreadasia.org) and offers free English and Bahasa Indonesian versions.",
-                                download : false,
-                                downlink : env.link + '/공윤지_뉴노멀_청소년에게_그림책으로_질문_던지기.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Yunji_Gong.pdf',
+                                abdownlink : env.link + '/Abstract_Yunji_Gong.pdf',
                             }
                         ]
                     },
@@ -3452,8 +3635,10 @@ export const langen = {
                                 enname : '',
                                 job : "- Director, Art & Culture Community G.A.Garden / Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                                 contents : "The Director of Art & Culture Community GAGarden. She is an teaching artist, art therapist, and researcher. She takes an educational and therapeutic approach of art to improving the public space in the community. She is a doctoral student of intergrated art therapy at Ewha Womans University, and wants to create a link between art and life to convey the richness of art to life and to express the depth and reflection of life as art.",
-                                download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Hyunjung_Lee.pdf',
                             }
                         ]
                     },
@@ -3469,7 +3654,9 @@ export const langen = {
                                 contents : "The dream he had been drawing for quite a while as a child was a cartoonist. He was happiest when he laid out the scenes and stories that came to mind on white paper and looked into it for a long time. And after becoming an adult, he went on to major in theater, and he lived a long time in my imagination. Then, as he faces reality, his colorful ego becomes smaller and he experiences a simple life like achromatic.\n\n"
                                            +'He is now working at school to take out himself from the past, introduce the colors of curiosity and imagination to children, and encourage them to draw them together. In the future, he wants to be with a friend called art who has various appearances.',
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Sungjong_Bae.pdf',
                             }
                         ]
                     },
@@ -3484,7 +3671,9 @@ export const langen = {
                                 job : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
                                 contents : "Younghee Choi is the person who wants to share the value of art education with others. Currently, Younghee supports cultural and art education sites with his colleagues at the Korea Arts & Culture Education Service and try to make various attempts.",
                                 download : false,
-                                downlink : 'http://arteweek.kr/unitwin2021/test1.pdf',
+                                abdownload : true,
+                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                abdownlink : env.link + '/Abstract_Younghee_Choi.pdf',
                             }
                         ]
                     },
@@ -3790,8 +3979,9 @@ export const langen = {
                     name : 'InSul Kim',
                     en_name : '',
                     li_title : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
-                    li_contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is  interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
-                                  +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.'
+                    li_contents : 'InSul Kim is a professor at the Department of Performing Arts & Culture in the Catholic University of Korea. She is interested in how arts can be used as an alternative form to reflect social problems, initiate civic engagement, and produce social capital. Her research topics are cultural policy and governance, arts education, therapeutic arts, digital arts, cultural welfare, and community arts that are related to the subject of the social impacts of the arts.\n\n'
+                            +'Dr. Kim also serves as an editorial member of academic journals in cultural policy, arts management, and arts education; as well as a consultant for National Research Foundation of Korea, Korea Arts & Culture Education Service, and Ministry of Culture, Tourism & Sports including other national arts and cultural agencies.',
+                    
                 },
                 {
                     img : closing_img_04,
