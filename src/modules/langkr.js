@@ -77,7 +77,7 @@ export const langkr = {
         videobtn : '영상보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
-        classdownload : '발제자료',
+        classdownload : '발제 자료',
         zoom : '참여하기',
         unithomebtn : '유니트윈 홈페이지 바로가기',
         move : '이동하기 > ',
@@ -282,7 +282,7 @@ export const langkr = {
                 text2 : '13:25-13:28',
                 text3 : '래리 오패럴 ',
                 text4 : '(Larry O’ Farrell)',
-                text5 : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 퀸즈 대학교 명예교수, 캐나다',
+                text5 : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 퀸스 대학교 명예교수, 캐나다',
             },
             session4 : {
                 text1 : '기조발제 1',
@@ -296,7 +296,7 @@ export const langkr = {
                 text1 : '기조발제 2',
                 text2 : '13:43-13:58',
                 text3 : '<창조적 교육학의 친절함, 보살핌 그리고 치유성>',
-                text4 : '피터 셀라스 ',
+                text4 : '피터 셀러스 ',
                 text5 : '(Peter Sellars)',
                 text6 : '- 연극 감독 / UCLA 교수, 미국',
             },
@@ -311,7 +311,7 @@ export const langkr = {
             session7 : {
                 text1 : '개막 영상',
                 text2 : '14:08-14:13',
-                text3 : '<모두의 목소리-문화예술교육을 통해 바라본 평등의 의미>',
+                text3 : '<모두의 목소리 - 위기의 시대 속에서도 예술을 통해 삶의 희망을 발견하는 시민들의 목소리>',
                 text4 : '우리 곁 시민들(여성·아동·노인·장애인·청소년)과 예술 강사의 목소리로 전하는 사회 위기 속 예술교육의 역할',
             },
             session8 : {
@@ -637,7 +637,7 @@ export const langkr = {
                     title : '예술 교육의 과제로서의 "문화적 회복력"과 "미적 회복력": 문화적 지속가능성 교육학을 위한 회복컨셉에 대한 범위와 한계',
                     time : "05.26(수) 13:00-13:40",
                     name : "베냐민 외리슨 ",
-                    enname : "(Benjamin Jorissen)",
+                    enname : "(Benjamin Jörissen)",
                     jop : "- 유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일",
                     link : env.path+'/plenary-session/2'
                 }
@@ -1232,6 +1232,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_22,
+                                hashtag : 'Mary',
                                 name : '메리 클레어 키덴다 ',
                                 enname : '(Mary Clare Kidenda)',
                                 job : '- 케냐 공과대학교 학과장, 케냐',
@@ -1248,6 +1249,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_23,
+                                hashtag : 'Emily',
                                 name : '에밀리 맥밀런 ',
                                 enname : '(Emily MacMillan)',
                                 job : '- 퀸스 대학교 석사과정생, 캐나다',
@@ -1264,6 +1266,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_24,
+                                hashtag : 'Jihea',
                                 name : '홍지혜',
                                 enname : '',
                                 job : '- 브리검 영 대학교 부교수, 미국',
@@ -1280,6 +1283,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_25,
+                                hashtag : 'Wilson',
                                 name : '에밀리 윌슨 ',
                                 enname : '(Emily Wilson)',
                                 job : '- 멜버른 대학교 조교수, 호주',
@@ -1289,6 +1293,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_16,
+                                hashtag : 'Neryl',
                                 name : '네릴 지네렛 ',
                                 enname : '(Neryl Jeanneret)',
                                 job : '- 멜버른 대학교 부교수, 호주',
@@ -1304,6 +1309,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                hashtag : 'Benjamin',
                                 name : '벤저민 볼든 ',
                                 enname : '(Emily Wilson)',
                                 job : '- 퀸스 대학교 부교수, 캐나다',
@@ -1330,6 +1336,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_26,
+                                hashtag : 'Hwan_Jung',
                                 name : '제환정',
                                 enname : '',
                                 job : '- 한국예술종합학교 객원교수, 대한민국',
@@ -1345,6 +1352,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_27,
+                                hashtag : 'HyeYoun',
                                 name : '정혜연',
                                 enname : '',
                                 job : '- 홍익대학교 조교수, 대한민국',
@@ -1354,6 +1362,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_28,
+                                hashtag : 'Hyojin',
                                 name : '성효진',
                                 enname : '',
                                 job : '- 홍익대학교 석사과정생 / 국제갤러리 전시팀 , 대한민국',
@@ -1369,6 +1378,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_41,
+                                hashtag : 'Rebecca',
                                 name : '레베카 칸 ',
                                 enname : '(Rebecca Kan)',
                                 job : '- 난양 미술 아카데미 부총장, 싱가포르',
@@ -1379,6 +1389,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_29,
+                                hashtag : 'Foo',
                                 name : '푸 세이 밍 ',
                                 enname : '(Foo Say Ming)',
                                 job : '- 난양 미술 아카데미 학장, 싱가포르',
@@ -1389,6 +1400,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_30,
+                                hashtag : 'Tan',
                                 name : '탄 젱 수안 ',
                                 enname : '(Tan Jeng Suan)',
                                 job : '- 난양 미술 아카데미 조교, 싱가포르',
@@ -1405,6 +1417,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                hashtag : 'Jeff',
                                 name : '제프 풀린 ',
                                 enname : '(Jeff Poulin)',
                                 job : '- 크리에이티브 제너레이션 전무이사, 미국',
@@ -1420,6 +1433,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : closing_img_04,
+                                hashtag : 'Hyesun',
                                 name : '신혜선',
                                 enname : '',
                                 job : '- 위컬쳐 리서치 & 컨설팅 대표, 대한민국',
@@ -1447,6 +1461,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_31,
+                                hashtag : 'Ruth',
                                 name : '루스 렌츠러 ',
                                 enname : '(Ruth Rentschler)',
                                 job : '- 사우스 오스트레일리아 대학교 교수, 호주',
@@ -1463,6 +1478,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_32,
+                                hashtag : 'Ji_young',
                                 name : '심지영',
                                 enname : '',
                                 job : '- 홍익대학교 조교수, 대한민국',
@@ -1479,6 +1495,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_33,
+                                hashtag : 'Yuri',
                                 name : '김유리',
                                 enname : '',
                                 job : '- 이화여자대학교 박사과정생, 대한민국',
@@ -1489,6 +1506,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_34,
+                                hashtag : 'Sojung',
                                 name : '박소정',
                                 enname : '',
                                 job : '- 이화여자대학교 조교수, 대한민국',
@@ -1505,6 +1523,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_35,
+                                hashtag : 'Sean',
                                 name : '숀 코르코란 ',
                                 enname : '(Sean Corcoran)',
                                 job : '- 퀸스 대학교 박사과정생 , 캐나다',
@@ -1514,6 +1533,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_15,
+                                hashtag : 'Benjamin',
                                 name : '벤저민 볼든 ',
                                 enname : '(Benjamin Bolden)',
                                 job : '- 퀸스 대학교 부교수, 캐나다',
@@ -1530,6 +1550,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                hashtag : 'Chee_Hoo',
                                 name : '치후 럼 ',
                                 enname : '(Chee-Hoo Lum)',
                                 job : '- 난양 공과대학교 부교수, 싱가포르',
@@ -1557,6 +1578,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_36,
+                                hashtag : 'Soohye',
                                 name : '장수혜',
                                 enname : '',
                                 job : '- 책누나프로젝트 대표, 대한민국',
@@ -1572,6 +1594,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_37,
+                                hashtag : 'Yunji',
                                 name : '공윤지',
                                 enname : '',
                                 job : '- 프리랜서 문화예술교육사, 대한민국',
@@ -1588,6 +1611,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_38,
+                                hashtag : 'Hyunjung',
                                 name : '이현정',
                                 enname : '',
                                 job : '- 지아정원 대표 / 이화여자대학교 박사과정생, 대한민국',
@@ -1603,6 +1627,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_39,
+                                hashtag : 'Sungjong',
                                 name : '배성종',
                                 enname : '',
                                 job : '- 예술 강사, 대한민국',
@@ -1619,6 +1644,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_40,
+                                hashtag : 'Younghee',
                                 name : '최영희',
                                 enname : '',
                                 job : '- 한국문화예술교육진흥원 미래교육팀 팀장, 대한민국',
@@ -1634,6 +1660,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : byob_img_02,
+                                hashtag : 'Yujin',
                                 name : '홍유진',
                                 enname : '',
                                 job : '- 한국문화예술교육진흥원 교육기반본부 본부장, 대한민국',
@@ -2007,7 +2034,7 @@ export const langkr = {
         videobtn : '영상보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
-        classdownload : '발제자료 다운로드',
+        classdownload : '발제 자료',
         zoom : 'ZOOM으로 참여하기',
         unithomebtn : '유니트윈 홈페이지 바로가기  >',
 
@@ -2131,7 +2158,7 @@ export const langkr = {
                 text2 : '13:25-13:28',
                 text3 : '래리 오패럴 ',
                 text4 : '(Larry O’ Farrell)',
-                text5 : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 퀸즈 대학교 명예교수, 캐나다',
+                text5 : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 퀸스 대학교 명예교수, 캐나다',
             },
             session4 : {
                 text1 : '기조발제 1',
@@ -2145,7 +2172,7 @@ export const langkr = {
                 text1 : '기조발제 2',
                 text2 : '13:43-13:58',
                 text3 : '<창조적 교육학의 친절함, 보살핌\n그리고 치유성>',
-                text4 : '피터 셀라스 ',
+                text4 : '피터 셀러스 ',
                 text5 : '(Peter Sellars)',
                 text6 : '- 연극 감독 / UCLA 교수, 미국',
             },
@@ -2160,7 +2187,7 @@ export const langkr = {
             session7 : {
                 text1 : '개막 영상',
                 text2 : '14:08-14:13',
-                text3 : '<모두의 목소리-문화예술교육을 통해 바라본 평등의 의미>',
+                text3 : '<모두의 목소리 - 위기의 시대 속에서도 예술을 통해 삶의 희망을 발견하는 시민들의 목소리>',
                 text4 : '우리 곁 시민들(여성·아동·노인·장애인·청소년)과 예술 강사의 목소리로 전하는 사회 위기 속 예술교육의 역할',
             },
             session8 : {
@@ -2482,7 +2509,7 @@ export const langkr = {
                     title : '예술 교육의 과제로서의 "문화적 회복력"과\n"미적 회복력": 문화적 지속가능성 교육학을 위한\n회복컨셉에 대한 범위와 한계',
                     time : "05.26(수) 13:00-13:40",
                     name : "베냐민 외리슨 ",
-                    enname : "(Benjamin Jorissen)",
+                    enname : "(Benjamin Jörissen)",
                     jop : "유니트윈-문화다양성과 지속발전가능한 예술교육 연구 프로그램 정회원, 독일",
                     link : env.path+'/plenary-session/2'
                 }

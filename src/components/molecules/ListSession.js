@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
 
 const ListSession = ({className, data}) => {
+
     return (
         <>
             <PWrapper className={className}>
@@ -27,19 +28,16 @@ const ListSession = ({className, data}) => {
 
             <MWrapper className={className}>
                 {data.map((list, idx) => {
-                    return <Mdiv id={list.hashtag}>
-                                <MInner >
-                                    <MTextblock>
-                                        <MImg src={list.img} alt={list.name} />     
-                                    </MTextblock>
-                                    <MModer>{list.moder}</MModer>
-                                    <MName>{list.name}</MName>
-                                    <MEnName>{list.en_name}</MEnName>
-                                    <MListtitle>{list.li_title}</MListtitle>
-                                    <MContents dangerouslySetInnerHTML={ {__html: list.li_contents} } />
-                                </MInner>
-                            </Mdiv>
-                    
+                    return  <MInner key={idx} id={list.hashtag}>
+                                <MTextblock>
+                                    <MImg src={list.img} alt={list.name} />     
+                                </MTextblock>
+                                <MModer>{list.moder}</MModer>
+                                <MName>{list.name}</MName>
+                                <MEnName>{list.en_name}</MEnName>
+                                <MListtitle>{list.li_title}</MListtitle>
+                                <MContents dangerouslySetInnerHTML={ {__html: list.li_contents} } />
+                            </MInner>
                 })}
             </MWrapper>
         </>

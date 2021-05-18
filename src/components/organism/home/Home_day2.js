@@ -226,6 +226,7 @@ const Home_day2 = () => {
                                     <PRightName>{p_detaildata.session5.text5}<PRightEnName>{p_detaildata.session5.text6}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session5.text7}</PRightJop>
                                 </PDetailLink>
+                                <PEmpty />
                                 <PDetailLink to={p_detaildata.session5.link + '#Neryl'}>
                                     <PRightName>{p_detaildata.session5.text8}<PRightEnName>{p_detaildata.session5.text9}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session5.text10}</PRightJop>
@@ -237,6 +238,7 @@ const Home_day2 = () => {
                                     <PRightName>{p_detaildata.session5.text12}<PRightEnName>{p_detaildata.session5.text13}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session5.text14}</PRightJop>
                                 </PDetailLink>
+                                <PEmpty />
                                 <PDetailLink to={p_detaildata.session5.link + '#Zen'}>
                                     <PRightName>{p_detaildata.session5.text15}<PRightEnName>{p_detaildata.session5.text16}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session5.text17}</PRightJop>
@@ -248,10 +250,12 @@ const Home_day2 = () => {
                                     <PRightName>{p_detaildata.session5.text19}<PRightEnName>{p_detaildata.session5.text20}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session5.text21}</PRightJop>
                                 </PDetailLink>
+                                <PEmpty />
                                 <PDetailLink to={p_detaildata.session5.link + '#Mark'}>
                                     <PRightName>{p_detaildata.session5.text22}<PRightEnName>{p_detaildata.session5.text23}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session5.text24}</PRightJop>
                                 </PDetailLink>
+                                <PEmpty />
                                 <PDetailLink to={p_detaildata.session5.link + '#Abbey'}>
                                     <PRightName>{p_detaildata.session5.text25}<PRightEnName>{p_detaildata.session5.text26}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session5.text27}</PRightJop>
@@ -311,17 +315,17 @@ const Home_day2 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session1.text3}</MRightTitle>
-                                        <MDetailLink to={m_detaildata.session1.link + '#MErnst'}>
+                                        <PDetailLink to={m_detaildata.session1.link + '#MErnst'}>
                                             <MRightName>{m_detaildata.session1.text4}<MRightEnName>{m_detaildata.session1.text5}</MRightEnName></MRightName>
                                             <MRightJop>{m_detaildata.session1.text6}</MRightJop>
-                                        </MDetailLink>
+                                        </PDetailLink>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session1.text7}</MRightModer>
-                                        <MDetailLink to={m_detaildata.session1.link + '#MChee_Hoo'}>
+                                        <PDetailLink to={m_detaildata.session1.link + '#MChee_Hoo'}>
                                             <MRightName>{m_detaildata.session1.text8}<MRightEnName>{m_detaildata.session1.text9}</MRightEnName></MRightName>
                                             <MRightJop>{m_detaildata.session1.text10}</MRightJop>
-                                        </MDetailLink>
+                                        </PDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -547,6 +551,10 @@ const PSection = styled.div`
         border-bottom : none;
     }
 `
+const PEmpty = styled.div`
+    margin-bottom : 30px;
+`
+
 // left
 const PLeftInner = styled.div`
     width : 282px;
@@ -769,13 +777,13 @@ const MLink = styled(Link)`
 const MVideobtn = styled(Videobtn)`
     margin-top : 19px;
 `
-const MDetailLink = styled(NavHashLink)`
-    color: ${color.black};
+// const MDetailLink = styled(NavHashLink)`
+//     color: ${color.black};
     
-    &:hover {
-        color: ${color.turtle_green};
-    }
-`
+//     &:hover {
+//         color: ${color.turtle_green};
+//     }
+// `
 
 
 export default Home_day2

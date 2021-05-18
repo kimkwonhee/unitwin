@@ -1234,6 +1234,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_22,
+                                hashtag : 'Mary',
                                 name : 'Mary Clare Kidenda',
                                 enname : '',
                                 job : '- Lecturer and Head, The Technical University of Kenya, Kenya',
@@ -1251,6 +1252,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_23,
+                                hashtag : 'Emily',
                                 name : 'Emily MacMillan ',
                                 enname : '',
                                 job : "- Master's candidate, Queen’s University, Canada",
@@ -1267,6 +1269,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_24,
+                                hashtag : 'Jihea',
                                 name : 'Jihea Hong-Park',
                                 enname : '',
                                 job : '- Associate Professor, Brigham Young University, USA',
@@ -1283,6 +1286,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_25,
+                                hashtag : 'Wilson',
                                 name : 'Emily Wilson',
                                 enname : '',
                                 job : '- Lecturer, The University of Melbourne, Australia',
@@ -1292,6 +1296,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_16,
+                                hashtag : 'Neryl',
                                 name : 'Neryl Jeanneret ',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
@@ -1307,6 +1312,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                hashtag : 'Benjamin',
                                 name : 'Benjamin Bolden',
                                 enname : '',
                                 job : "- Associate Professor, Queen's University, Canada",
@@ -1334,6 +1340,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_26,
+                                hashtag : 'Hwan_Jung',
                                 name : 'Hwan Jung Jae',
                                 enname : '',
                                 job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
@@ -1349,6 +1356,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_27,
+                                hashtag : 'HyeYoun',
                                 name : 'HyeYoun Chung',
                                 enname : '',
                                 job : '- Assistant professor, Hongik University, Republic of Korea',
@@ -1358,6 +1366,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_28,
+                                hashtag : 'Hyojin',
                                 name : 'Hyojin Sung',
                                 enname : '',
                                 job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
@@ -1373,6 +1382,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_41,
+                                hashtag : 'Rebecca',
                                 name : 'Rebecca Kan ',
                                 enname : '',
                                 job : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
@@ -1383,6 +1393,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_29,
+                                hashtag : 'Foo',
                                 name : 'Foo Say Ming ',
                                 enname : '',
                                 job : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
@@ -1393,6 +1404,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_30,
+                                hashtag : 'Tan',
                                 name : 'Tan Jeng Suan ',
                                 enname : '',
                                 job : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
@@ -1409,6 +1421,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                hashtag : 'Jeff',
                                 name : 'Jeff Poulin',
                                 enname : '',
                                 job : '- Managing Director, Creative Generation, USA',
@@ -1424,6 +1437,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : closing_img_04,
+                                hashtag : 'Hyesun',
                                 name : 'Hyesun Shin ',
                                 enname : '',
                                 job : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
@@ -1451,6 +1465,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_31,
+                                hashtag : 'Ruth',
                                 name : 'Ruth Rentschler ',
                                 enname : '',
                                 job : '- Professor, University of South Australia Business School, Australia',
@@ -1467,6 +1482,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_32,
+                                hashtag : 'Ji_young',
                                 name : 'Ji-young Shim',
                                 enname : '',
                                 job : '- Assistant professor, Hongik University, Republic of Korea',
@@ -1483,6 +1499,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_33,
+                                hashtag : 'Yuri',
                                 name : 'Yuri Kim',
                                 enname : '',
                                 job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
@@ -1493,6 +1510,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_34,
+                                hashtag : 'Sojung',
                                 name : 'Sojung Park',
                                 enname : '',
                                 job : "- Assistant professor, Ewha Woman's University, Republic of Korea",
@@ -1509,6 +1527,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_35,
+                                hashtag : 'Sean',
                                 name : 'Sean Corcoran',
                                 enname : '',
                                 job : '- Ph.D. candidate, Queen’s University, Canada',
@@ -1518,6 +1537,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_15,
+                                hashtag : 'Benjamin',
                                 name : 'Benjamin Bolden',
                                 enname : '',
                                 job : "- Associate Professor, Queen's University, Canada",
@@ -1535,6 +1555,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                hashtag : 'Chee_Hoo',
                                 name : 'Chee-Hoo Lum',
                                 enname : '',
                                 job : '- Associate Professor,Nanyang Technological University, Singapore',
@@ -1562,6 +1583,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_36,
+                                hashtag : 'Soohye',
                                 name : 'Soohye Jang ',
                                 enname : '',
                                 job : '- Founding Director, Chaeknuna Project, Republic of Korea',
@@ -1578,6 +1600,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_37,
+                                hashtag : 'Yunji',
                                 name : 'Yunji Gong',
                                 enname : '',
                                 job : '- Freelance Teaching Artist, Republic of Korea',
@@ -1594,6 +1617,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_38,
+                                hashtag : 'Hyunjung',
                                 name : 'Hyunjung Lee ',
                                 enname : '',
                                 job : "- Director, Art & Culture Community G.A.Garden / Ph.D. candidate, Ewha Woman's University, Republic of Korea",
@@ -1609,6 +1633,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_39,
+                                hashtag : 'Sungjong',
                                 name : 'Sungjong Bae ',
                                 enname : '',
                                 job : '- Teaching Artist, Republic of Korea',
@@ -1625,6 +1650,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_40,
+                                hashtag : 'Younghee',
                                 name : 'Younghee Choi',
                                 enname : '',
                                 job : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
@@ -1640,6 +1666,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : byob_img_02,
+                                hashtag : 'Yujin',
                                 name : 'Yujin Hong',
                                 enname : '',
                                 job : '- Director of Educational Resources Division, Korea Arts & Culture Education Service, Republic of Korea',
