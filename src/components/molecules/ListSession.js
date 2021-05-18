@@ -28,7 +28,9 @@ const ListSession = ({className, data}) => {
 
             <MWrapper className={className}>
                 {data.map((list, idx) => {
-                    return  <MInner key={idx} id={list.hashtag}>
+                    return  (
+                        <Mdiv key={idx} id={list.hashtag}>
+                            <MInner>
                                 <MTextblock>
                                     <MImg src={list.img} alt={list.name} />     
                                 </MTextblock>
@@ -38,6 +40,8 @@ const ListSession = ({className, data}) => {
                                 <MListtitle>{list.li_title}</MListtitle>
                                 <MContents dangerouslySetInnerHTML={ {__html: list.li_contents} } />
                             </MInner>
+                        </Mdiv>
+                    )
                 })}
             </MWrapper>
         </>

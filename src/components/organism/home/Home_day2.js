@@ -315,17 +315,17 @@ const Home_day2 = () => {
                                 <MRightInner>
                                     <MRightSection>
                                         <MRightTitle>{m_detaildata.session1.text3}</MRightTitle>
-                                        <PDetailLink to={m_detaildata.session1.link + '#MErnst'}>
+                                        <a href={m_detaildata.session1.link + '#MErnst'}>
                                             <MRightName>{m_detaildata.session1.text4}<MRightEnName>{m_detaildata.session1.text5}</MRightEnName></MRightName>
                                             <MRightJop>{m_detaildata.session1.text6}</MRightJop>
-                                        </PDetailLink>
+                                        </a>
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session1.text7}</MRightModer>
-                                        <PDetailLink to={m_detaildata.session1.link + '#MChee_Hoo'}>
+                                        <MDetailLink to={m_detaildata.session1.link + '#Chee_Hoo'}>
                                             <MRightName>{m_detaildata.session1.text8}<MRightEnName>{m_detaildata.session1.text9}</MRightEnName></MRightName>
                                             <MRightJop>{m_detaildata.session1.text10}</MRightJop>
-                                        </PDetailLink>
+                                        </MDetailLink>
                                     </MRightSection>
                                 </MRightInner>
                             </MRight>
@@ -752,7 +752,6 @@ const MRightSection = styled.div`
 const MRightName = styled.div`
     font-size: 14px;
     font-weight : 500;
-    color: ${color.black};
     margin-bottom : 2px;
 
     &:nth-child(4),
@@ -767,7 +766,6 @@ const MRightEnName = styled.span`
 const MRightJop = styled.div`
     font-size: 12px;
     white-space : pre-line;
-    color: ${color.black};
     word-break : keep-all;
 `
 
@@ -777,13 +775,13 @@ const MLink = styled(Link)`
 const MVideobtn = styled(Videobtn)`
     margin-top : 19px;
 `
-// const MDetailLink = styled(NavHashLink)`
-//     color: ${color.black};
+const MDetailLink = styled(NavHashLink)`
+    color: ${color.black};
     
-//     &:hover {
-//         color: ${color.turtle_green};
-//     }
-// `
+    &:hover {
+        color: ${color.turtle_green};
+    }
+`
 
 
 export default Home_day2

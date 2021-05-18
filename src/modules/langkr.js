@@ -2541,7 +2541,7 @@ export const langkr = {
                     {
                         img : pl_detail1_img_02,
                         moder : '[모더레이터]',
-                        hashtag : 'MChee_Hoo',
+                        hashtag : 'Chee_Hoo',
                         name : '치후 럼 ',
                         en_name : '(Chee-Hoo Lum)',
                         li_title : '- 난양 공과대학교 부교수, 싱가포르',
