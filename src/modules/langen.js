@@ -69,6 +69,16 @@ import closing_img_11 from '../images/session_31.png'
 import closing_img_12 from '../images/session_32.png'
 import closing_img_13 from '../images/session_33.png'
 
+// 기획세션
+import c_logo1 from '../images/pre_logo1.png'
+import c_logo2 from '../images/pre_logo2.png'
+import c_logo3 from '../images/pre_logo3.png'
+import c_logo4 from '../images/pre_logo4.png'
+import m_c_logo1 from '../images/m_pre_logo1.png'
+import m_c_logo2 from '../images/m_pre_logo2.png'
+import m_c_logo3 from '../images/m_pre_logo3.png'
+import m_c_logo4 from '../images/m_pre_logo4.png'
+
 import env from '../modules/env'
 
 export const langen = {
@@ -76,6 +86,7 @@ export const langen = {
     // PC Data
     p_data : {
         // 기타
+        phototext : 'View gallery',
         videobtn : 'View >',
         realchating : 'Live chat',
         lecture : 'Lecture description',
@@ -779,12 +790,12 @@ export const langen = {
                     { id : 23, img : session_img_24, name : 'Jihea Hong-Park' , title : "Arts in the Classroom", link : "/unitwin2021/session/5", catagory : 'Diversity'},
                     { id : 24, img : session_img_25, name : 'Emily Wilson' , title : "Arts in the Classroom", link : "/unitwin2021/session/5", catagory : 'Diversity'},
                     { id : 25, img : session_img_16, name : 'Neryl Jeanneret' , title : "Arts in the Classroom", link : "/unitwin2021/session/5", catagory : 'Diversity'},
-                    { id : 26, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 27, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 28, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 29, img : session_img_41, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 30, img : session_img_29, name : 'Foo Say Ming' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 31, img : session_img_30, name : 'Tan Jeng Suan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 26, img : session_img_41, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 27, img : session_img_29, name : 'Foo Say Ming' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 28, img : session_img_30, name : 'Tan Jeng Suan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 29, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 30, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 31, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 32, img : session_img_10, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 33, img : session_img_31, name : 'Ruth Rentschler' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
                     { id : 34, img : session_img_32, name : 'Ji-young Shim' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
@@ -1403,7 +1414,7 @@ export const langen = {
                                 job : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
                                 contents : 'Rebecca is passionate about teaching and learning of the arts, specifically in professional education, signature pedagogies, and everything that lies in-between. In her capacity as Vice-Dean of Pedagogy and Research Unit, she spearheads research projects and partnerships that enhance the quality of higher arts education. She is also a Senior Lecturer with the School of Music, and an Adjunct Lecturer at Singapore University of Social Sciences (SUSS), where she curates the art of appreciating musical milestones with adult learners. Trained as a musician and musicologist, Rebecca specialises in the creative musical processes of the Baroque concerto.\n\n'
                                            +'For her Ph.D. studies, she received a grant from the National Arts Council, a full scholarship from the University of Liverpool, and the United Kingdom Scholarships for International Research Students. Rebecca is presently awarded the Tan Poey Quee Doctor in Education Scholarship for EdD studies at the National Institute of Education, Nanyang Technological University, Singapore.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -1416,7 +1427,7 @@ export const langen = {
                                 job : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
                                 contents : "Foo Say Ming is an active musician in the local music scene.  Apart from his work in the Singapore Symphony Orchestra as a 1st violinist, he is also heading the String Faculty at the Nanyang Academy of Fine Arts, which offers degree courses in music performance and music education with the Royal College of Music (RCM), London. Apart from his role as Assistant Conductor of the National University of Singapore (NUS) Symphony Orchestra, Say Ming also leads and direct a Singaporean chamber orchestra “re: mix”, which endeavours to bring a unique Singaporean voice its take on classical and the contemporary music. With its unique repertoire and its 2 “CD of the Year” accolades from The Straits Times, re: mix has since attracted the attention of audiences and festivals from several regional countries.\n\n"
                                            +'Say Ming is a graduate of the Royal College of Music, was also later conferred the “Virtuosité - Premier Prix avec Félicitations du Jury” at the Conservatoire de Lausanne (Switzerland) where he studied with French violinist Pierre Amoyal, a protégé of Jascha Heifetz.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -1429,7 +1440,7 @@ export const langen = {
                                 job : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
                                 contents : 'Tan Jeng Suan is a final-year undergraduate student at the Nanyang Academy of Fine Arts, majoring in piano performance. Currently under the tutelage of Dr Paul Liang, she has performed in school concerts, both as a soloist and as a chamber musician. She recently had the opportunity to study with Professor Richard Uttley during her international placement with the Royal College of Music, London. As a student research assistant, she has been involved in various research projects with the Pedagogy and Research Unit, Office of Academic Affairs. Having a keen interest in music education, her undergraduate research project was focused on Communities of Practice: Sociocultural Learning in a Music Conservatoire.\n\n'
                                            +'Her research project sought to explore possibilities for sociocultural learning as a complementary learning method to the traditional conservatory system. Her other research interests are in music education for young children.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -1776,221 +1787,151 @@ export const langen = {
 
         // 기획세션
         pr_showcase : {
-            title : '기획세션',
-            contents : '과학기술을 접목한 기술융합예술 활성화를 위해 디지털과 동시대 기술을 활용한\n예술작품 창작과 향유, 기초예술의 온라인 확장 등 미래예술 발전을 위해 다양한 추진하고 있습니다.',
+            title : 'Pre-session',
+            contents : 'Online exhibition presenting Korean artist groups and local cases demonstrating the social engagement of art in times of crisis and Pre-session of the 4th UNESCO-UNITWIN Symposium interweaving the theme with case studies and discussions.\n\n'
+                        +'Watch 2021 International Arts Education Week Opening Ceremony & Pre-session: Climate Crisis and Arts Education\n'
+                        +'(<a href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">http://www.arteweek.kr/2021/views/opening.php</a>)',
             session1 : 
             { 
-                img : '로고1', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo1, 
+                contents : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                alt : 'Gwangmyeong Upcycle Art Center',
                 link : env.path+'/presession-showcase/1' 
             },
             session2 : 
             { 
-                img : '로고2', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo2, 
+                contents : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
+                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
+                alt : 'Sangsangchanggo Soom',
                 link : env.path+'/presession-showcase/2' 
             },
             session3 : 
             { 
-                img : '로고3', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo3, 
+                contents : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.', 
+                alt : 'Moida Art Cooperative Society',
                 link : env.path+'/presession-showcase/3' 
             },
             session4 : 
             { 
-                img : '로고4', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo4, 
+                contents : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                alt : 'Collective Doingle-Around representative',
                 link : env.path+'/presession-showcase/4' 
-            },
-            session5 : 
-            { 
-                img : '로고5', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : env.path+'/presession-showcase/5' 
             }
         },
 
         pr_showcase_detail : {
             session1 : {
-                title : '세션 1',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Gwangmyeong Upcycle Art Center',
+                img : c_logo1,
+                discription : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
+                photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo2,
+                        name : 'Sangsangchanggo Soom',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo3,
+                        name : 'Moida Art Cooperative Society',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo4,
+                        name : 'Collective Doingle-Around representative',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session2 : {
-                title : '세션 2',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Sangsangchanggo Soom',
+                img : c_logo2,
+                discription : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
+                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
+                youtube : 'https://www.youtube.com/embed/VmMbXkbTvWM',
+                photo : 'https://photos.app.goo.gl/RESXXh1x1VFdRLLN6',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo1,
+                        name : 'Gwangmyeong Upcycle Art Center',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo3,
+                        name : 'Moida Art Cooperative Society',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo4,
+                        name : 'Collective Doingle-Around representative',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session3 : {
-                title : '세션 3',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Moida Art Cooperative Society',
+                img : c_logo3,
+                discription : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.',
+                youtube : 'https://www.youtube.com/embed/iulsUzEOfiM',
+                photo : 'https://photos.app.goo.gl/rQo7DY2n2Nh9zibHA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo1,
+                        name : 'Gwangmyeong Upcycle Art Center',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo2,
+                        name : 'Sangsangchanggo Soom',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo4,
+                        name : 'Collective Doingle-Around representative',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session4 : {
-                title : '세션 4',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Collective Doingle-Around representative',
+                img : c_logo4,
+                discription : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                youtube : 'https://www.youtube.com/embed/sj1LJl1MkPc',
+                photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo1,
+                        name : 'Gwangmyeong Upcycle Art Center',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo2,
+                        name : 'Sangsangchanggo Soom',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo3,
+                        name : 'Moida Art Cooperative Society',
                         link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
-            },
-            session5 : {
-                title : '세션 5',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
-                list : [
-                    {
-                        id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/1'
-                    },
-                    {
-                        id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/2'
-                    },
-                    {
-                        id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/4'
-                    }
-                ]
-            },
+            }
         },
 
 
@@ -2750,12 +2691,12 @@ export const langen = {
                     { id : 23, img : session_img_24, name : 'Jihea Hong-Park' , title : "Arts in the Classroom", link : "/unitwin2021/session/5", catagory : 'Diversity'},
                     { id : 24, img : session_img_25, name : 'Emily Wilson' , title : "Arts in the Classroom", link : "/unitwin2021/session/5", catagory : 'Diversity'},
                     { id : 25, img : session_img_16, name : 'Neryl Jeanneret' , title : "Arts in the Classroom", link : "/unitwin2021/session/5", catagory : 'Diversity'},
-                    { id : 26, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 27, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 28, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 29, img : session_img_41, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 30, img : session_img_29, name : 'Foo Say Ming' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 31, img : session_img_30, name : 'Tan Jeng Suan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 26, img : session_img_41, name : 'Rebecca Kan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 27, img : session_img_29, name : 'Foo Say Ming' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 28, img : session_img_30, name : 'Tan Jeng Suan' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 29, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 30, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 31, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 32, img : session_img_10, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 33, img : session_img_31, name : 'Ruth Rentschler' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
                     { id : 34, img : session_img_32, name : 'Ji-young Shim' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
@@ -3346,7 +3287,7 @@ export const langen = {
                                 job : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
                                 contents : 'Rebecca is passionate about teaching and learning of the arts, specifically in professional education, signature pedagogies, and everything that lies in-between. In her capacity as Vice-Dean of Pedagogy and Research Unit, she spearheads research projects and partnerships that enhance the quality of higher arts education. She is also a Senior Lecturer with the School of Music, and an Adjunct Lecturer at Singapore University of Social Sciences (SUSS), where she curates the art of appreciating musical milestones with adult learners. Trained as a musician and musicologist, Rebecca specialises in the creative musical processes of the Baroque concerto.\n\n'
                                            +'For her Ph.D. studies, she received a grant from the National Arts Council, a full scholarship from the University of Liverpool, and the United Kingdom Scholarships for International Research Students. Rebecca is presently awarded the Tan Poey Quee Doctor in Education Scholarship for EdD studies at the National Institute of Education, Nanyang Technological University, Singapore.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -3358,7 +3299,7 @@ export const langen = {
                                 job : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
                                 contents : "Foo Say Ming is an active musician in the local music scene.  Apart from his work in the Singapore Symphony Orchestra as a 1st violinist, he is also heading the String Faculty at the Nanyang Academy of Fine Arts, which offers degree courses in music performance and music education with the Royal College of Music (RCM), London. Apart from his role as Assistant Conductor of the National University of Singapore (NUS) Symphony Orchestra, Say Ming also leads and direct a Singaporean chamber orchestra “re: mix”, which endeavours to bring a unique Singaporean voice its take on classical and the contemporary music. With its unique repertoire and its 2 “CD of the Year” accolades from The Straits Times, re: mix has since attracted the attention of audiences and festivals from several regional countries.\n\n"
                                            +'Say Ming is a graduate of the Royal College of Music, was also later conferred the “Virtuosité - Premier Prix avec Félicitations du Jury” at the Conservatoire de Lausanne (Switzerland) where he studied with French violinist Pierre Amoyal, a protégé of Jascha Heifetz.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -3370,7 +3311,7 @@ export const langen = {
                                 job : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
                                 contents : 'Tan Jeng Suan is a final-year undergraduate student at the Nanyang Academy of Fine Arts, majoring in piano performance. Currently under the tutelage of Dr Paul Liang, she has performed in school concerts, both as a soloist and as a chamber musician. She recently had the opportunity to study with Professor Richard Uttley during her international placement with the Royal College of Music, London. As a student research assistant, she has been involved in various research projects with the Pedagogy and Research Unit, Office of Academic Affairs. Having a keen interest in music education, her undergraduate research project was focused on Communities of Practice: Sociocultural Learning in a Music Conservatoire.\n\n'
                                            +'Her research project sought to explore possibilities for sociocultural learning as a complementary learning method to the traditional conservatory system. Her other research interests are in music education for young children.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -3699,222 +3640,156 @@ export const langen = {
 
         // 기획세션
         pr_showcase : {
-            title : '기획세션',
-            contents : '과학기술을 접목한 기술융합예술 활성화를 위해 디지털과 동시대 기술을 활용한\n예술작품 창작과 향유, 기초예술의 온라인 확장 등 미래예술 발전을 위해 다양한 추진하고 있습니다.',
+            title : 'Pre-session',
+            contents : 'Online exhibition presenting Korean artist groups and local cases demonstrating the social engagement of art in times of crisis and Pre-session of the 4th UNESCO-UNITWIN Symposium interweaving the theme with case studies and discussions.\n\n'
+                        +'Watch 2021 International Arts Education Week Opening Ceremony & Pre-session: Climate Crisis and Arts Education\n'
+                        +'(<a href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">http://www.arteweek.kr/2021/views/opening.php</a>)',
             session1 : 
             { 
-                img : '로고1', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo1,
+                company : 'Gwangmyeong Upcycle Art Center',
+                contents : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                alt : 'Gwangmyeong Upcycle Art Center',
                 link : env.path+'/presession-showcase/1' 
             },
             session2 : 
             { 
-                img : '로고2', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo2,
+                company : 'Sangsangchanggo Soom',
+                contents : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
+                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
+                alt : 'Sangsangchanggo Soom',
                 link : env.path+'/presession-showcase/2' 
             },
             session3 : 
             { 
-                img : '로고3', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo3,
+                company : 'Moida Art Cooperative Society',
+                contents : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.', 
+                alt : 'Moida Art Cooperative Society',
                 link : env.path+'/presession-showcase/3' 
             },
             session4 : 
             { 
-                img : '로고4', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo4,
+                company : 'Collective Doingle-Around representative',
+                contents : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                alt : 'Collective Doingle-Around representative',
                 link : env.path+'/presession-showcase/4' 
-            },
-            session5 : 
-            { 
-                img : '로고5', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : env.path+'/presession-showcase/5' 
             }
         },
 
         // 기획세션 상세페이지
         pr_showcase_detail : {
             session1 : {
-                title : '세션 1',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Gwangmyeong Upcycle Art Center',
+                img : m_c_logo1,
+                discription : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
+                photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo2,
+                        name : 'Sangsangchanggo Soom',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo3,
+                        name : 'Moida Art Cooperative Society',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo4,
+                        name : 'Collective Doingle-Around representative',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session2 : {
-                title : '세션 2',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Sangsangchanggo Soom',
+                img : m_c_logo2,
+                discription : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
+                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
+                youtube : 'https://www.youtube.com/embed/VmMbXkbTvWM',
+                photo : 'https://photos.app.goo.gl/RESXXh1x1VFdRLLN6',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo1,
+                        name : 'Gwangmyeong Upcycle Art Center',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo3,
+                        name : 'Moida Art Cooperative Society',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo4,
+                        name : 'Collective Doingle-Around representative',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session3 : {
-                title : '세션 3',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Moida Art Cooperative Society',
+                img : m_c_logo3,
+                discription : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.', 
+                youtube : 'https://www.youtube.com/embed/iulsUzEOfiM',
+                photo : 'https://photos.app.goo.gl/rQo7DY2n2Nh9zibHA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo1,
+                        name : 'Gwangmyeong Upcycle Art Center',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo2,
+                        name : 'Sangsangchanggo Soom',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo4,
+                        name : 'Collective Doingle-Around representative',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session4 : {
-                title : '세션 4',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : 'Collective Doingle-Around representative',
+                img : m_c_logo4,
+                discription : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                youtube : 'https://www.youtube.com/embed/sj1LJl1MkPc',
+                photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo1,
+                        name : 'Gwangmyeong Upcycle Art Center',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo2,
+                        name : 'Sangsangchanggo Soom',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo3,
+                        name : 'Moida Art Cooperative Society',
                         link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
-            },
-            session5 : {
-                title : '세션 5',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
-                list : [
-                    {
-                        id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/1'
-                    },
-                    {
-                        id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/2'
-                    },
-                    {
-                        id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/4'
-                    }
-                ]
-            },
+            }
         },
         
 

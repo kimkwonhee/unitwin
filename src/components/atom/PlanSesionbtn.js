@@ -1,20 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import color from '../../style/color'
+import { Link,withRouter } from 'react-router-dom'
 
-const PlanSesionbtn = ({src, name,discription, link}) => {
+const PlanSesionbtn = ({src, name, link}) => {
     return (
         <>
-            <PWrapper>
-                <PLinkTag to={link}>
+            <PLinkTag to={link}>
+                <PWrapper>
                     <PImgArea>
                         <PlImg src={src} alt={name}/>
                     </PImgArea>
-                </PLinkTag>
-                    <PName>{name}</PName>
-                    <PDiscription>{discription}</PDiscription>
-            </PWrapper>
+                </PWrapper>
+            </PLinkTag>
         </>
     )
 }
@@ -31,31 +28,24 @@ const PWrapper = styled.div`
 `
 const PImgArea = styled.div`
     cursor: pointer;
-    border-radius : 50%;
-    background : url(${props => props.src});
-    border: solid 3px ${color.white};
-
-    &:hover {
-        border: solid 3px ${color.turtle_green};
-    }
+    width : 320px;
+    height : 240px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
 `
 const PlImg = styled.img`
-    width : 180px;
-    height : 180px;
-`
-const PName = styled.div`
-    margin-top : 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: ${color.black};
-`
-const PDiscription = styled.div`
-    margin-top : 8px;
-    font-size: 12px;
-    color: ${color.black};
+    transition: .6s;
+    border-radius: 20px;
+    padding : 27px 19px;
+    &:hover {
+        transform:scale(1.1);
+        background : rgba(0,0,0, .04);
+    }
 `
 const PLinkTag = styled(Link)`
     text-decoration : none !important;
 `
 
-export default PlanSesionbtn
+
+export default withRouter(PlanSesionbtn)

@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Unitwinbtn from '../atom/Unitwinbtn'
 import color from '../../style/color'
+import { withRouter } from 'react-router-dom'
 
 const PageTopArea = ({ 
     className, 
@@ -11,7 +12,8 @@ const PageTopArea = ({
     subfontsize, 
     homebtn, 
     top,
-    keyword
+    keyword,
+    location
     }) => {
     return (
         <>
@@ -24,11 +26,13 @@ const PageTopArea = ({
                     <PTopTitle>{title}</PTopTitle>
                 </PTopTitleArea>
                 <PContentsArea>
-                    <PTopContents 
-                        subfontsize={subfontsize}
-                    >
+                    {location.pathname === '/unitwin2021/presession-showcase'
+                    ? <PTopContents subfontsize={subfontsize}
+                        dangerouslySetInnerHTML={ {__html: contents} }/>
+                    : <PTopContents subfontsize={subfontsize}>
                         {contents}
-                    </PTopContents>
+                      </PTopContents>
+                    }
                     <PSubContents>
                         {subcontents}
                     </PSubContents>
@@ -36,16 +40,19 @@ const PageTopArea = ({
                 </PContentsArea>
             </PTopArea>
 
-
             {/* mobile */}
             <MTopArea className={className} top={top} >
                 <MTopTitleArea>
                     <MTopTitle>{title}</MTopTitle>
                     <MTopKeyword keyword={keyword}>{keyword}</MTopKeyword>
                 </MTopTitleArea>
-                <MTopContents subfontsize={subfontsize}>
+                {location.pathname === '/unitwin2021/presession-showcase'
+                ?<MTopContents subfontsize={subfontsize}
+                               dangerouslySetInnerHTML={ {__html: contents} }/>
+                :<MTopContents subfontsize={subfontsize}>
                     {contents}
-                </MTopContents>
+                 </MTopContents>
+                }
                 <MSubContents>
                         {subcontents}
                 </MSubContents>
@@ -158,6 +165,6 @@ const MUnitwinbtn = styled(Unitwinbtn)`
     margin-top : 16px;
 `
 
-export default PageTopArea
+export default withRouter(PageTopArea)
 
 

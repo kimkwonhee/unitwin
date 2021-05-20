@@ -24,10 +24,22 @@ const Menubtn = ({className , children, id, movelink, location }) => {
                 || pathname == env.path+'/plenary-session/2') 
     {
         cur_status = 2
-    } else if (pathname === env.path+'/session') 
+    } else if (pathname === env.path+'/session'
+                || pathname == env.path+'/session/1'
+                || pathname == env.path+'/session/2'
+                || pathname == env.path+'/session/3'
+                || pathname == env.path+'/session/4'
+                || pathname == env.path+'/session/5'
+                || pathname == env.path+'/session/6'
+                || pathname == env.path+'/session/7'
+                || pathname == env.path+'/session/8') 
     {
         cur_status = 3
-    }else if (pathname === env.path+'/presession-showcase') 
+    }else if (pathname === env.path+'/presession-showcase'
+                || pathname == env.path+'/presession-showcase/1'
+                || pathname == env.path+'/presession-showcase/2'
+                || pathname == env.path+'/presession-showcase/3'
+                || pathname == env.path+'/presession-showcase/4') 
     {
         cur_status = 4
     } else if (pathname === env.path+'/byob') 

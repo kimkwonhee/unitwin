@@ -349,9 +349,7 @@ const DrawerMenuTxt = styled.p`
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
-  color: ${props => (props.id== 4) 
-             ?  color.brown_grey 
-             : color.black };
+  color: ${color.black};
 `
 const DrawerFooter = styled.div`
   width: 100%;

@@ -67,6 +67,17 @@ import closing_img_11 from '../images/session_31.png'
 import closing_img_12 from '../images/session_32.png'
 import closing_img_13 from '../images/session_33.png'
 
+// 기획세션
+import c_logo1 from '../images/pre_logo1.png'
+import c_logo2 from '../images/pre_logo2.png'
+import c_logo3 from '../images/pre_logo3.png'
+import c_logo4 from '../images/pre_logo4.png'
+import m_c_logo1 from '../images/m_pre_logo1.png'
+import m_c_logo2 from '../images/m_pre_logo2.png'
+import m_c_logo3 from '../images/m_pre_logo3.png'
+import m_c_logo4 from '../images/m_pre_logo4.png'
+
+
 import env from '../modules/env'
 
 export const langkr = {
@@ -74,6 +85,7 @@ export const langkr = {
     // PC Data
     p_data : {
         // 기타
+        phototext : '갤러리 보기',
         videobtn : '영상보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
@@ -778,12 +790,12 @@ export const langkr = {
                     { id : 23, img : session_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 24, img : session_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 25, img : session_img_16, name : '네릴 지네렛' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
-                    { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 29, img : session_img_41, name : '레베카 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 30, img : session_img_29, name : '푸 세이 밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 31, img : session_img_30, name : '탄 젱 수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 26, img : session_img_41, name : '레베카 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 27, img : session_img_29, name : '푸 세이 밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 28, img : session_img_30, name : '탄 젱 수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 29, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 30, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 31, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 33, img : session_img_31, name : '루스 렌츠러' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
@@ -1398,7 +1410,7 @@ export const langkr = {
                                 job : '- 난양 미술 아카데미 부총장, 싱가포르',
                                 contents : '레베카는 예술을 가르치고 배우는 데 열정적이며, 특히 전문 교육과 시그니처 교육학, 그리고 이 분야 사이에 놓여 있는 모든 것에 열정적이다. 교육연구부 차장 자격으로 고등예술교육의 질을 높이는 연구 프로젝트와 파트너십을 주도하며, 음악학교 수석 강사, 싱가포르 사회과학대학(SUSS)에서 겸임 강사 등을 맡아 성인 학습자들과 함께 음악적 이정표를 감상하는 예술을 준비한다.\n\n'
                                            +'음악가이자 음악학자로서 훈련을 받은 레베카는 바로크양식의 협주곡 창작 음악 과정을 전문으로 한다. 그녀는 박사 과정으로 국립 예술 위원회로부터 장학금을 받았고, 리버풀 대학교에서는 전액 장학금을 받았으며 영국 국제 연구생들을 위한 장학금을 받았다. 레베카는 현재 싱가포르 난양 공과대학교의 국립교육원에서 교육학 박사 연구로 Tan Poey Queee 박사 교육 장학금을 받았다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -1411,7 +1423,7 @@ export const langkr = {
                                 job : '- 난양 미술 아카데미 학장, 싱가포르',
                                 contents : "푸 세이 밍은 싱가포르 음악계에서 활발한 활동을 하고 있다. 그는 싱가포르 교향악단에서 제1 바이올리니스트로 활동한 것과 별개로, 영국 런던 왕립음악대학(RCM)과 함께 음악공연과 음악교육 학위 과정을 개설한 난양 미술 아카데미에서 현악학부장을 겸임하고 있다. 싱가포르 실내악단 '리:믹스'를 지휘하는 세이 밍은 싱가포르 특유의 클래식과 현대음악에 대한 취향을 담은 독특한 레퍼토리를 대중들과 다양한 지역 국가 축제에서 선보임으로써 2개의 '올해의 CD'상을 수상하는 영예를 얻었다.\n\n"
                                            +'세이 밍은 왕립음악대학 졸업생이며, 훗날 그가 프랑스 바이올리니스트 피에르 아모얄과 함께 공부했던 스위스 콘서베토흐 드 로잔(Conservatoire de Lausanne) 음악 학교에서 비흐튜오시떼 - 퍼미에흐 펠리시티 듀 쥬히(Virtuosité - Premier Pélicities du Jeri)를 받았다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -1424,7 +1436,7 @@ export const langkr = {
                                 job : '- 난양 미술 아카데미 조교, 싱가포르',
                                 contents : "탄 젱 수안은 난양 미술 아카데미 피아노 연주과 4학년이다. 현재, 폴 량 박사의 지도 아래, 학교 콘서트에서 솔리스트이자 실내악가로 공연을 해왔다. 그녀는 최근 런던 왕립 음악대학에서 국제학위를 받는 동안 리처드 어틀리(Richard Uttley)교수와 함께 공부할 기회를 얻었다.\n\n"
                                            +'탄은 학생 연구 조교로서 교육학 연구부, 학술 사무소와 함께 다양한 연구 프로젝트에 참여해왔다. 음악 교육에 깊은 관심을 갖고 있는 탄의 학부 연구 프로젝트는 실천 커뮤니티에 중점을 둔 음악 학교에서의 사회문화적인 교육에 초점을 맞췄다. 그녀의 연구 프로젝트는 전통 음악 시스템에 대한 보완적 학습 방법으로 사회 문화 학습의 가능성을 탐구하려고 했다. 탄의 다른 연구 관심사는 영유아를 위한 음악 교육이다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -1769,220 +1781,151 @@ export const langkr = {
         // 기획세션
         pr_showcase : {
             title : '기획세션',
-            contents : '과학기술을 접목한 기술융합예술 활성화를 위해 디지털과 동시대 기술을 활용한\n예술작품 창작과 향유, 기초예술의 온라인 확장 등 미래예술 발전을 위해 다양한 추진하고 있습니다.',
+            contents : '위기의 시대 속 예술의 사회 참여를 보여주는 한국 예술가 그룹 및 지역사회 사례를 웹으로 전시하고, 현장에서 사례 발표와 토론을 통해 학술대회의 주제와 연결하는 기획 세션\n\n'
+                        +'2021 세계문화예술교육 주간 개막식 및 제4회 유네스코 유니트윈 국제 학술대회 사전행사 보러가기\n'
+                        +'(<a href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">http://www.arteweek.kr/2021/views/opening.php</a>)',
             session1 : 
             { 
-                img : '로고1', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo1, 
+                contents : '광명업사이클아트센터는 광명시에서 운영하는 기관으로 폐자원을 예술로 재탄생시키는 국내 최초의 업사이클 문화예술 공간입니다. 사용하지 않는 유휴공간을 업사이클 주제의 문화예술공간으로 재탄생시켰으며 2015년 6월 12일 개관했습니다. 업사이클을 주제로 작품 전시, 공모전, 체험교육, 청소년 행사, 공연, 예술시장, 지역기부 프로젝트 등 다양한 문화 ․예술사업을 추진하고 있습니다.',
+                alt : '광명업사이클아트센터',
                 link : env.path+'/presession-showcase/1' 
             },
             session2 : 
             { 
-                img : '로고2', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo2, 
+                contents : '상상창고 숨은 ‘삶 닮다 예술, 예술 닮다 삶’ 슬로건을 가지고 삶을 담아내고 닮아가는 예술, 예술을 닮아가고, 삶을 담아내는 예술 활동을 하는 예술가 그룹입니다. 사람과 사람, 사람과 자연을 잇고 시간과 공간을 잇는 관계의 감각을 키워갑니다. 좋은 질문을 만들어 가고 스스로 사유하며 삶에 작동되는 호기심을 통해 생각의 힘을 키워가는 예술감수성은 섬세한 감각으로 삶의 곳곳에서 틈을 포착하며 함께 살아가는 삶의 지혜를 나누게 합니다. 무엇인가 함부로 하지 않는 시선을 장착해가며 가치 있는 것들을 공감하는 예술교육을 지향합니다. 더불어 누구에겐가 비빌 기지가 되어 줄 수 있는 함께 사는 삶을 항상 응원합니다', 
+                alt : '상상창고숨',
                 link : env.path+'/presession-showcase/2' 
             },
             session3 : 
             { 
-                img : '로고3', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo3, 
+                contents : '부산지역 내 문화예술 확산과 지역사회의 발전을 위해 설립된 시각예술인들의 단체로 지역과 문화예술을 잇는 다양한 문화프로그램을 기획하고 운영하는 단체입니다. 시각예술인들과 함께 부산바다를 배경으로 펼치는 아트마켓과 해양도시 부산을 담은 다양한 문화예술교육 및 바다환경을 테마로 하는 비치코밍등의 활동을 펼치고 있습니다.', 
+                alt : '모이다아트협동조합',
                 link : env.path+'/presession-showcase/3' 
             },
             session4 : 
             { 
-                img : '로고4', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : c_logo4, 
+                contents : "콜렉티브 뒹굴은 신체성과 공간성과 의미와 본질을 만나기 위해 다원적인 예술 언어를 기반으로 '노는' 존재들이다. 2020년 <기후정의 창작집단 선언>을 했다. 성장, 개발, ‘먹고사니즘’이 0순위인 세상에서 예술 하겠다고 마음먹었을 때부터 이미 신자유주의 시스템의 하자이자 균열이었으니, "
+                            +'더 신나게 "성장을 빙자한 착취를 그만두라"고 말하는 활동을 이어가고 있다.', 
+                alt : '콜렉티브뒹굴',
                 link : env.path+'/presession-showcase/4' 
-            },
-            session5 : 
-            { 
-                img : '로고5', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : env.path+'/presession-showcase/5' 
             }
         },
 
+        // 기획세션 상세페이지
         pr_showcase_detail : {
             session1 : {
-                title : '세션 1',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '광명업사이클아트센터',
+                img : c_logo1,
+                discription : '광명업사이클아트센터는 광명시에서 운영하는 기관으로 폐자원을 예술로 재탄생시키는 국내 최초의 업사이클 문화예술 공간입니다. 사용하지 않는 유휴공간을 업사이클 주제의 문화예술공간으로 재탄생시켰으며 2015년 6월 12일 개관했습니다. 업사이클을 주제로 작품 전시, 공모전, 체험교육, 청소년 행사, 공연, 예술시장, 지역기부 프로젝트 등 다양한 문화 ․예술사업을 추진하고 있습니다.',
+                youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
+                photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo2,
+                        name : '상상창고 숨',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo3,
+                        name : '모이다아트협동조합',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo4,
+                        name : '콜렉티브 뒹굴',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session2 : {
-                title : '세션 2',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '상상창고 숨',
+                img : c_logo2,
+                discription : '상상창고 숨은 ‘삶 닮다 예술, 예술 닮다 삶’ 슬로건을 가지고 삶을 담아내고 닮아가는 예술, 예술을 닮아가고, 삶을 담아내는 예술 활동을 하는 예술가 그룹입니다. 사람과 사람, 사람과 자연을 잇고 시간과 공간을 잇는 관계의 감각을 키워갑니다. 좋은 질문을 만들어 가고 스스로 사유하며 삶에 작동되는 호기심을 통해 생각의 힘을 키워가는 예술감수성은 섬세한 감각으로 삶의 곳곳에서 틈을 포착하며 함께 살아가는 삶의 지혜를 나누게 합니다. 무엇인가 함부로 하지 않는 시선을 장착해가며 가치 있는 것들을 공감하는 예술교육을 지향합니다. 더불어 누구에겐가 비빌 기지가 되어 줄 수 있는 함께 사는 삶을 항상 응원합니다',
+                youtube : 'https://www.youtube.com/embed/VmMbXkbTvWM',
+                photo : 'https://photos.app.goo.gl/RESXXh1x1VFdRLLN6',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo1,
+                        name : '광명업사이클아트센터',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo3,
+                        name : '모이다아트협동조합',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo4,
+                        name : '콜렉티브 뒹굴',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session3 : {
-                title : '세션 3',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '모이다아트협동조합',
+                img : c_logo3,
+                discription : '부산지역 내 문화예술 확산과 지역사회의 발전을 위해 설립된 시각예술인들의 단체로 지역과 문화예술을 잇는 다양한 문화프로그램을 기획하고 운영하는 단체입니다. 시각예술인들과 함께 부산바다를 배경으로 펼치는 아트마켓과 해양도시 부산을 담은 다양한 문화예술교육 및 바다환경을 테마로 하는 비치코밍등의 활동을 펼치고 있습니다.',
+                youtube : 'https://www.youtube.com/embed/iulsUzEOfiM',
+                photo : 'https://photos.app.goo.gl/rQo7DY2n2Nh9zibHA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo1,
+                        name : '광명업사이클아트센터',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo2,
+                        name : '상상창고 숨',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo4,
+                        name : '콜렉티브 뒹굴',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session4 : {
-                title : '세션 4',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '콜렉티브 뒹굴',
+                img : c_logo4,
+                discription : "콜렉티브 뒹굴은 신체성과 공간성과 의미와 본질을 만나기 위해 다원적인 예술 언어를 기반으로 '노는' 존재들이다. 2020년 <기후정의 창작집단 선언>을 했다. 성장, 개발, ‘먹고사니즘’이 0순위인 세상에서 예술 하겠다고 마음먹었을 때부터 이미 신자유주의 시스템의 하자이자 균열이었으니, "
+                            +'더 신나게 "성장을 빙자한 착취를 그만두라"고 말하는 활동을 이어가고 있다.', 
+                youtube : 'https://www.youtube.com/embed/sj1LJl1MkPc',
+                photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo1,
+                        name : '광명업사이클아트센터',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo2,
+                        name : '상상창고 숨',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : c_logo3,
+                        name : '모이다아트협동조합',
                         link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
-            },
-            session5 : {
-                title : '세션 5',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
-                list : [
-                    {
-                        id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/1'
-                    },
-                    {
-                        id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/2'
-                    },
-                    {
-                        id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/4'
-                    }
-                ]
-            },
+            }
         },
 
 
@@ -2742,12 +2685,12 @@ export const langkr = {
                     { id : 23, img : session_img_24, name : '홍지혜' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 24, img : session_img_25, name : '에밀리 윌슨' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
                     { id : 25, img : session_img_16, name : '네릴 지네렛' , title : "교실 속의 예술", link : "/unitwin2021/session/5", catagory : '다양성포용'},
-                    { id : 26, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 27, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 28, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 29, img : session_img_41, name : '레베카 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 30, img : session_img_29, name : '푸 세이 밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 31, img : session_img_30, name : '탄 젱 수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 26, img : session_img_41, name : '레베카 칸' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 27, img : session_img_29, name : '푸 세이 밍' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 28, img : session_img_30, name : '탄 젱 수안' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 29, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 30, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 31, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 33, img : session_img_31, name : '루스 렌츠러' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
@@ -3332,7 +3275,7 @@ export const langkr = {
                                 job : '- 난양 미술 아카데미 부총장, 싱가포르',
                                 contents : '레베카는 예술을 가르치고 배우는 데 열정적이며, 특히 전문 교육과 시그니처 교육학, 그리고 이 분야 사이에 놓여 있는 모든 것에 열정적이다. 교육연구부 차장 자격으로 고등예술교육의 질을 높이는 연구 프로젝트와 파트너십을 주도하며, 음악학교 수석 강사, 싱가포르 사회과학대학(SUSS)에서 겸임 강사 등을 맡아 성인 학습자들과 함께 음악적 이정표를 감상하는 예술을 준비한다.\n\n'
                                            +'음악가이자 음악학자로서 훈련을 받은 레베카는 바로크양식의 협주곡 창작 음악 과정을 전문으로 한다. 그녀는 박사 과정으로 국립 예술 위원회로부터 장학금을 받았고, 리버풀 대학교에서는 전액 장학금을 받았으며 영국 국제 연구생들을 위한 장학금을 받았다. 레베카는 현재 싱가포르 난양 공과대학교의 국립교육원에서 교육학 박사 연구로 Tan Poey Queee 박사 교육 장학금을 받았다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -3344,7 +3287,7 @@ export const langkr = {
                                 job : '- 난양 미술 아카데미 학장, 싱가포르',
                                 contents : "푸 세이 밍은 싱가포르 음악계에서 활발한 활동을 하고 있다. 그는 싱가포르 교향악단에서 제1 바이올리니스트로 활동한 것과 별개로, 영국 런던 왕립음악대학(RCM)과 함께 음악공연과 음악교육 학위 과정을 개설한 난양 미술 아카데미에서 현악학부장을 겸임하고 있다. 싱가포르 실내악단 '리:믹스'를 지휘하는 세이 밍은 싱가포르 특유의 클래식과 현대음악에 대한 취향을 담은 독특한 레퍼토리를 대중들과 다양한 지역 국가 축제에서 선보임으로써 2개의 '올해의 CD'상을 수상하는 영예를 얻었다.\n\n"
                                            +'세이 밍은 왕립음악대학 졸업생이며, 훗날 그가 프랑스 바이올리니스트 피에르 아모얄과 함께 공부했던 스위스 콘서베토흐 드 로잔(Conservatoire de Lausanne) 음악 학교에서 비흐튜오시떼 - 퍼미에흐 펠리시티 듀 쥬히(Virtuosité - Premier Pélicities du Jeri)를 받았다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -3356,7 +3299,7 @@ export const langkr = {
                                 job : '- 난양 미술 아카데미 조교, 싱가포르',
                                 contents : "탄 젱 수안은 난양 미술 아카데미 피아노 연주과 4학년이다. 현재, 폴 량 박사의 지도 아래, 학교 콘서트에서 솔리스트이자 실내악가로 공연을 해왔다. 그녀는 최근 런던 왕립 음악대학에서 국제학위를 받는 동안 리처드 어틀리(Richard Uttley)교수와 함께 공부할 기회를 얻었다.\n\n"
                                            +'탄은 학생 연구 조교로서 교육학 연구부, 학술 사무소와 함께 다양한 연구 프로젝트에 참여해왔다. 음악 교육에 깊은 관심을 갖고 있는 탄의 학부 연구 프로젝트는 실천 커뮤니티에 중점을 둔 음악 학교에서의 사회문화적인 교육에 초점을 맞췄다. 그녀의 연구 프로젝트는 전통 음악 시스템에 대한 보완적 학습 방법으로 사회 문화 학습의 가능성을 탐구하려고 했다. 탄의 다른 연구 관심사는 영유아를 위한 음악 교육이다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
@@ -3683,221 +3626,155 @@ export const langkr = {
         // 기획세션
         pr_showcase : {
             title : '기획세션',
-            contents : '과학기술을 접목한 기술융합예술 활성화를 위해 디지털과 동시대 기술을 활용한\n예술작품 창작과 향유, 기초예술의 온라인 확장 등 미래예술 발전을 위해 다양한 추진하고 있습니다.',
+            contents : '위기의 시대 속 예술의 사회 참여를 보여주는 한국 예술가 그룹 및 지역사회 사례를 웹으로 전시하고, 현장에서 사례 발표와 토론을 통해 학술대회의 주제와 연결하는 기획 세션\n\n'
+                        +'2021 세계문화예술교육 주간 개막식 및 제4회 유네스코 유니트윈 국제 학술대회 사전행사 보러가기\n'
+                        +'(<a href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">http://www.arteweek.kr/2021/views/opening.php</a>)',
             session1 : 
             { 
-                img : '로고1', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo1,
+                company : '광명업사이클아트센터',
+                contents : '광명업사이클아트센터는 광명시에서 운영하는 기관으로 폐자원을 예술로 재탄생시키는 국내 최초의 업사이클 문화예술 공간입니다. 사용하지 않는 유휴공간을 업사이클 주제의 문화예술공간으로 재탄생시켰으며 2015년 6월 12일 개관했습니다. 업사이클을 주제로 작품 전시, 공모전, 체험교육, 청소년 행사, 공연, 예술시장, 지역기부 프로젝트 등 다양한 문화 ․예술사업을 추진하고 있습니다.',
+                alt : '광명업사이클아트센터',
                 link : env.path+'/presession-showcase/1' 
             },
             session2 : 
             { 
-                img : '로고2', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo2,
+                company : '상상창고숨',
+                contents : '상상창고 숨은 ‘삶 닮다 예술, 예술 닮다 삶’ 슬로건을 가지고 삶을 담아내고 닮아가는 예술, 예술을 닮아가고, 삶을 담아내는 예술 활동을 하는 예술가 그룹입니다. 사람과 사람, 사람과 자연을 잇고 시간과 공간을 잇는 관계의 감각을 키워갑니다. 좋은 질문을 만들어 가고 스스로 사유하며 삶에 작동되는 호기심을 통해 생각의 힘을 키워가는 예술감수성은 섬세한 감각으로 삶의 곳곳에서 틈을 포착하며 함께 살아가는 삶의 지혜를 나누게 합니다. 무엇인가 함부로 하지 않는 시선을 장착해가며 가치 있는 것들을 공감하는 예술교육을 지향합니다. 더불어 누구에겐가 비빌 기지가 되어 줄 수 있는 함께 사는 삶을 항상 응원합니다', 
+                alt : '상상창고숨',
                 link : env.path+'/presession-showcase/2' 
             },
             session3 : 
             { 
-                img : '로고3', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo3,
+                company : '모이다아트협동조합',
+                contents : '부산지역 내 문화예술 확산과 지역사회의 발전을 위해 설립된 시각예술인들의 단체로 지역과 문화예술을 잇는 다양한 문화프로그램을 기획하고 운영하는 단체입니다. 시각예술인들과 함께 부산바다를 배경으로 펼치는 아트마켓과 해양도시 부산을 담은 다양한 문화예술교육 및 바다환경을 테마로 하는 비치코밍등의 활동을 펼치고 있습니다.', 
+                alt : '모이다아트협동조합',
                 link : env.path+'/presession-showcase/3' 
             },
             session4 : 
             { 
-                img : '로고4', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
+                img : m_c_logo4,
+                company : '콜렉티브뒹굴',
+                contents : "콜렉티브 뒹굴은 신체성과 공간성과 의미와 본질을 만나기 위해 다원적인 예술 언어를 기반으로 '노는' 존재들이다. 2020년 <기후정의 창작집단 선언>을 했다. 성장, 개발, ‘먹고사니즘’이 0순위인 세상에서 예술 하겠다고 마음먹었을 때부터 이미 신자유주의 시스템의 하자이자 균열이었으니, "
+                            +'더 신나게 "성장을 빙자한 착취를 그만두라"고 말하는 활동을 이어가고 있다.', 
+                alt : '콜렉티브뒹굴',
                 link : env.path+'/presession-showcase/4' 
-            },
-            session5 : 
-            { 
-                img : '로고5', 
-                contents : '[더미텍스트1] 그들에게 생명을 불어넣는 것은 따뜻한 봄바람이다. 풀밭에 속잎 나고, 가지에 싹이 트고, 꽃 피고 새 우는 봄날의 천지는 얼마나 기쁘며, 얼마나 아름다우냐? 이것을 얼음 속에서 불러내는 것이 따뜻한 봄바람이다.', 
-                link : env.path+'/presession-showcase/5' 
             }
         },
 
         // 기획세션 상세페이지
         pr_showcase_detail : {
             session1 : {
-                title : '세션 1',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '광명업사이클아트센터',
+                img : m_c_logo1,
+                discription : '광명업사이클아트센터는 광명시에서 운영하는 기관으로 폐자원을 예술로 재탄생시키는 국내 최초의 업사이클 문화예술 공간입니다. 사용하지 않는 유휴공간을 업사이클 주제의 문화예술공간으로 재탄생시켰으며 2015년 6월 12일 개관했습니다. 업사이클을 주제로 작품 전시, 공모전, 체험교육, 청소년 행사, 공연, 예술시장, 지역기부 프로젝트 등 다양한 문화 ․예술사업을 추진하고 있습니다.',
+                youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
+                photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo2,
+                        name : '상상창고 숨',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo3,
+                        name : '모이다아트협동조합',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo4,
+                        name : '콜렉티브 뒹굴',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session2 : {
-                title : '세션 2',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '상상창고 숨',
+                img : m_c_logo2,
+                discription : '상상창고 숨은 ‘삶 닮다 예술, 예술 닮다 삶’ 슬로건을 가지고 삶을 담아내고 닮아가는 예술, 예술을 닮아가고, 삶을 담아내는 예술 활동을 하는 예술가 그룹입니다. 사람과 사람, 사람과 자연을 잇고 시간과 공간을 잇는 관계의 감각을 키워갑니다. 좋은 질문을 만들어 가고 스스로 사유하며 삶에 작동되는 호기심을 통해 생각의 힘을 키워가는 예술감수성은 섬세한 감각으로 삶의 곳곳에서 틈을 포착하며 함께 살아가는 삶의 지혜를 나누게 합니다. 무엇인가 함부로 하지 않는 시선을 장착해가며 가치 있는 것들을 공감하는 예술교육을 지향합니다. 더불어 누구에겐가 비빌 기지가 되어 줄 수 있는 함께 사는 삶을 항상 응원합니다',
+                youtube : 'https://www.youtube.com/embed/VmMbXkbTvWM',
+                photo : 'https://photos.app.goo.gl/RESXXh1x1VFdRLLN6',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo1,
+                        name : '광명업사이클아트센터',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo3,
+                        name : '모이다아트협동조합',
                         link : env.path+'/presession-showcase/3'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo4,
+                        name : '콜렉티브 뒹굴',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session3 : {
-                title : '세션 3',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '모이다아트협동조합',
+                img : m_c_logo3,
+                discription : '부산지역 내 문화예술 확산과 지역사회의 발전을 위해 설립된 시각예술인들의 단체로 지역과 문화예술을 잇는 다양한 문화프로그램을 기획하고 운영하는 단체입니다. 시각예술인들과 함께 부산바다를 배경으로 펼치는 아트마켓과 해양도시 부산을 담은 다양한 문화예술교육 및 바다환경을 테마로 하는 비치코밍등의 활동을 펼치고 있습니다.',
+                youtube : 'https://www.youtube.com/embed/iulsUzEOfiM',
+                photo : 'https://photos.app.goo.gl/rQo7DY2n2Nh9zibHA',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo1,
+                        name : '광명업사이클아트센터',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo2,
+                        name : '상상창고 숨',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo4,
+                        name : '콜렉티브 뒹굴',
                         link : env.path+'/presession-showcase/4'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
             },
             session4 : {
-                title : '세션 4',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
+                title : '콜렉티브 뒹굴',
+                img : m_c_logo4,
+                discription : "콜렉티브 뒹굴은 신체성과 공간성과 의미와 본질을 만나기 위해 다원적인 예술 언어를 기반으로 '노는' 존재들이다. 2020년 <기후정의 창작집단 선언>을 했다. 성장, 개발, ‘먹고사니즘’이 0순위인 세상에서 예술 하겠다고 마음먹었을 때부터 이미 신자유주의 시스템의 하자이자 균열이었으니, "
+                            +'더 신나게 "성장을 빙자한 착취를 그만두라"고 말하는 활동을 이어가고 있다.', 
+                youtube : 'https://www.youtube.com/embed/sj1LJl1MkPc',
+                photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {
                         id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo1,
+                        name : '광명업사이클아트센터',
                         link : env.path+'/presession-showcase/1'
                     },
                     {
                         id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : '국내 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo2,
+                        name : '상상창고 숨',
                         link : env.path+'/presession-showcase/2'
                     },
                     {
                         id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
+                        img : m_c_logo3,
+                        name : '모이다아트협동조합',
                         link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session5',
-                        discription : 'session5 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/5'
                     }
                 ]
-            },
-            session5 : {
-                title : '세션 5',
-                discription : '인공지능과 빅데이터 기술의 발달로 대규모 데이터 분석능력을 넘어 문화예술 창작 분야까지 확장되고 있습니다. 또한, 5G와 같은 네트워크의 발달로 인해 초연결, 초대용량의 서비스가 가능해지면서 가상현실(VR)과 같이 기존의 네트워크 환경에서는 구현할 수 없는 것들이 가능해지면서 예술 창작의 경계가 점차 확대되고 있습니다. 예술과 기술의 융합을 통한 동반성장을 도모하고, 다양한 관점에서 살펴볼 수 있습니다.',
-                local : '광명 업사이클 아트센터',
-                site : 'WWW.ADCE.CO.KR',
-                list : [
-                    {
-                        id : 1,
-                        img : session_img_10,
-                        name : 'session1',
-                        discription : 'session1 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/1'
-                    },
-                    {
-                        id : 2,
-                        img : session_img_10,
-                        name : 'session2',
-                        discription : 'session2 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/2'
-                    },
-                    {
-                        id : 3,
-                        img : session_img_10,
-                        name : 'session3',
-                        discription : 'session3 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/3'
-                    },
-                    {
-                        id : 4,
-                        img : session_img_10,
-                        name : 'session4',
-                        discription : 'session4 최초 업사이클\n특화예술공간임을 강조하는 방법',
-                        link : env.path+'/presession-showcase/4'
-                    }
-                ]
-            },
+            }
         },
         
 

@@ -51,8 +51,6 @@ const App = () => {
     ReactGA.initialize('G-8BW0WPEKCF')
   }
 
-  
-
   return (
     <Wrapper>
       <Globalstyles />

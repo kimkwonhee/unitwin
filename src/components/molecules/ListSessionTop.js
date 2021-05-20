@@ -29,6 +29,7 @@ const ListSessionTop = ({className, title, subject, time}) => {
 const PWrapper = styled.div`
     margin-top : 180px;
     display : block;
+    
     @media all and (max-width:1199px) {
         display : none;
     }
