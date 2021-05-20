@@ -76,9 +76,9 @@ const Menubar = withRouter(({ className, curlang }) => {
                         <PLinkTag to={env.path+"/session"}>
                             <Menubtn id="3">{p_detaildata.text3}</Menubtn>
                         </PLinkTag>
-                        {/* <PLinkTag to={env.path+"/presession-showcase"}> */}
+                        <PLinkTag to={env.path+"/presession-showcase"}>
                             <Menubtn id="4">{p_detaildata.text4}</Menubtn>
-                        {/* </PLinkTag> */}
+                        </PLinkTag>
                         <PLinkTag to={env.path+"/byob"}>
                             <Menubtn id="5">{p_detaildata.text5}</Menubtn>
                         </PLinkTag>
@@ -174,11 +174,11 @@ const Menubar = withRouter(({ className, curlang }) => {
                         </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
-                        {/* <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/presession-showcase"}> */}
+                        <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/presession-showcase"}>
                             <DrawerMenuTxt id="4">
                             {m_detaildata.text4}
                             </DrawerMenuTxt>
-                        {/* </Link> */}
+                        </Link>
                     </DrawerMenuListItem>
                     <DrawerMenuListItem>
                         <Link onClick={e=> setDrawerVisible(false)} to={env.path+"/byob"}>

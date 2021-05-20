@@ -230,7 +230,7 @@ export const langen = {
                     text4 : '[Moderator]',
                     text5 : 'Shin Hyesun',
                     text6 : '[Presenter]',
-                    text7 : 'Jae Hwan Jung,\nChung Hyeyoun &\nSung Hyojin,\nRebecca Kan &\nFoo Say Ming &\nTan Jeng Suan,\nJeff Poulin',
+                    text7 : 'Rebecca Kan &\nFoo Say Ming &\nTan Jeng Suan,\nChung Hyeyoun &\nSung Hyojin,\nJae Hwan Jung,\nJeff Poulin',
                     link : '/unitwin2021/session/6'
                 },
                 wed4 : {
@@ -1393,54 +1393,6 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?",
-                        li_data : [
-                            {
-                                imgs : session_img_26,
-                                hashtag : 'Hwan_Jung',
-                                name : 'Hwan Jung Jae',
-                                enname : '',
-                                job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                                contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
-                                download : true,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
-                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
-                        li_data : [
-                            {
-                                imgs : session_img_27,
-                                hashtag : 'HyeYoun',
-                                name : 'HyeYoun Chung',
-                                enname : '',
-                                job : '- Assistant professor, Hongik University, Republic of Korea',
-                                contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            },
-                            {
-                                imgs : session_img_28,
-                                hashtag : 'Hyojin',
-                                name : 'Hyojin Sung',
-                                enname : '',
-                                job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
-                                contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
                         li_title : "Narratives of Service Learning: a Case Study at Nanyang Academy of Fine Arts",
                         li_data : [
                             {
@@ -1481,6 +1433,54 @@ export const langen = {
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
+                        li_data : [
+                            {
+                                imgs : session_img_27,
+                                hashtag : 'HyeYoun',
+                                name : 'HyeYoun Chung',
+                                enname : '',
+                                job : '- Assistant professor, Hongik University, Republic of Korea',
+                                contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            },
+                            {
+                                imgs : session_img_28,
+                                hashtag : 'Hyojin',
+                                name : 'Hyojin Sung',
+                                enname : '',
+                                job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
+                                contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?",
+                        li_data : [
+                            {
+                                imgs : session_img_26,
+                                hashtag : 'Hwan_Jung',
+                                name : 'Hwan Jung Jae',
+                                enname : '',
+                                job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
+                                contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
                             }
                         ]
                     },
@@ -1580,9 +1580,9 @@ export const langen = {
                                 job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                                 contents : 'Yuri Kim is a Ph.D. student for integrated art therapy at Ewha Womans University. Her work is based on ten years of experience teaching art to children.\n\n'
                                           +'While working as an arts educator, she became an art therapist with certainty in the therapeutic potential of art. Art therapy activities include art therapy projects for the coexistence of South Korean youth and North Korean defectors, culture and arts therapy projects for the general public at the Korean Culture and Arts Education Promotion Agency, art therapy projects for youth raised in children’s homes, multicultural families, and art therapy for children from single-parent families. Her research interests include multiculturalism, social action, and trauma in art therapy.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
@@ -1593,9 +1593,9 @@ export const langen = {
                                 job : "- Assistant professor, Ewha Woman's University, Republic of Korea",
                                 contents : "Sojung Park, Ph.D., ATR-BC, LCAT, is an assistant professor in the Graduate School of Education, Art Therapy Major, at the Ewha Womans University in Seoul, Korea. Dr. Park earned her master's degree in art therapy at the School of Visual Arts in New York, NY, and the doctorate in Expressive Therapies at Lesley University, Cambridge, MA. She has years of experience working with individuals with mental illnesses and addiction in the United States. Upon moving to Korea, Dr. Park has dedicated herself to teaching and training future art therapists. As a researcher Dr. Park has explored multiculturalism, psychiatric and/or addiction, and community-based practice and social action within art therapy, from both qualitative and art-based research paradigms.\n\n"
                                           +'She received the 2020 Pearlie Roberson Scholarship Award from the American Art Therapy Association, for her research project which targets multicultural aspects and capacities of art therapy. Dr. Park is an active member of the editorial board for the Journal of the American Art Therapy Association and the multicultural committee of the American Art Therapy Association.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
@@ -1728,9 +1728,9 @@ export const langen = {
                                 job : '- Teaching Artist, Republic of Korea',
                                 contents : "The dream he had been drawing for quite a while as a child was a cartoonist. He was happiest when he laid out the scenes and stories that came to mind on white paper and looked into it for a long time. And after becoming an adult, he went on to major in theater, and he lived a long time in my imagination. Then, as he faces reality, his colorful ego becomes smaller and he experiences a simple life like achromatic.\n\n"
                                            +'He is now working at school to take out himself from the past, introduce the colors of curiosity and imagination to children, and encourage them to draw them together. In the future, he wants to be with a friend called art who has various appearances.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Sungjong_Bae.pdf',
                                 abdownlink : env.link + '/Abstract_Sungjong_Bae.pdf',
                             }
                         ]
@@ -3337,51 +3337,6 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?",
-                        li_data : [
-                            {
-                                imgs : session_img_26,
-                                name : 'Hwan Jung Jae',
-                                enname : '',
-                                job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                                contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
-                                download : true,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
-                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
-                        li_data : [
-                            {
-                                imgs : session_img_27,
-                                name : 'HyeYoun Chung',
-                                enname : '',
-                                job : '- Assistant professor, Hongik University, Republic of Korea',
-                                contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            },
-                            {
-                                imgs : session_img_28,
-                                name : 'Hyojin Sung',
-                                enname : '',
-                                job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
-                                contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
                         li_title : "Narratives of Service Learning: a Case Study at Nanyang Academy of Fine Arts",
                         li_data : [
                             {
@@ -3419,6 +3374,51 @@ export const langen = {
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
+                        li_data : [
+                            {
+                                imgs : session_img_27,
+                                name : 'HyeYoun Chung',
+                                enname : '',
+                                job : '- Assistant professor, Hongik University, Republic of Korea',
+                                contents : 'HyeYoun Chung is a professor in art education of Hongik University who currently teaches Museum education Issues for this study. She graduated Hongik University and graduate school majored in painting and got master’s degree of arts administration and doctoral degree of art education in Columbia University. She  works for adversary member in many  museums of Korea.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            },
+                            {
+                                imgs : session_img_28,
+                                name : 'Hyojin Sung',
+                                enname : '',
+                                job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
+                                contents : "As a participant in <Museum and Art Museum Education Research 2>, she majored English Literature at Sogang University and is currently enrolled in the Department of Art Education at Hongik University’s Graduate School. She served as supporter of the education team at National Museum of Modern and Contemporary Art, Gwacheon, and is working at exhibition team of Kukje Gallery after going through the K Auction, an art auction house. From art museum to commercial gallery, she has experienced various fields of art and is actively researching the public's art engagement.",
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "Renegotiating Identities : How Does the Online Arts Education Affect the Identities of Teaching Artists?",
+                        li_data : [
+                            {
+                                imgs : session_img_26,
+                                name : 'Hwan Jung Jae',
+                                enname : '',
+                                job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
+                                contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
                             }
                         ]
                     },
@@ -3513,9 +3513,9 @@ export const langen = {
                                 job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                                 contents : 'Yuri Kim is a Ph.D. student for integrated art therapy at Ewha Womans University. Her work is based on ten years of experience teaching art to children.\n\n'
                                           +'While working as an arts educator, she became an art therapist with certainty in the therapeutic potential of art. Art therapy activities include art therapy projects for the coexistence of South Korean youth and North Korean defectors, culture and arts therapy projects for the general public at the Korean Culture and Arts Education Promotion Agency, art therapy projects for youth raised in children’s homes, multicultural families, and art therapy for children from single-parent families. Her research interests include multiculturalism, social action, and trauma in art therapy.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
@@ -3525,9 +3525,9 @@ export const langen = {
                                 job : "- Assistant professor, Ewha Woman's University, Republic of Korea",
                                 contents : "Sojung Park, Ph.D., ATR-BC, LCAT, is an assistant professor in the Graduate School of Education, Art Therapy Major, at the Ewha Womans University in Seoul, Korea. Dr. Park earned her master's degree in art therapy at the School of Visual Arts in New York, NY, and the doctorate in Expressive Therapies at Lesley University, Cambridge, MA. She has years of experience working with individuals with mental illnesses and addiction in the United States. Upon moving to Korea, Dr. Park has dedicated herself to teaching and training future art therapists. As a researcher Dr. Park has explored multiculturalism, psychiatric and/or addiction, and community-based practice and social action within art therapy, from both qualitative and art-based research paradigms.\n\n"
                                           +'She received the 2020 Pearlie Roberson Scholarship Award from the American Art Therapy Association, for her research project which targets multicultural aspects and capacities of art therapy. Dr. Park is an active member of the editorial board for the Journal of the American Art Therapy Association and the multicultural committee of the American Art Therapy Association.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
@@ -3653,9 +3653,9 @@ export const langen = {
                                 job : '- Teaching Artist, Republic of Korea',
                                 contents : "The dream he had been drawing for quite a while as a child was a cartoonist. He was happiest when he laid out the scenes and stories that came to mind on white paper and looked into it for a long time. And after becoming an adult, he went on to major in theater, and he lived a long time in my imagination. Then, as he faces reality, his colorful ego becomes smaller and he experiences a simple life like achromatic.\n\n"
                                            +'He is now working at school to take out himself from the past, introduce the colors of curiosity and imagination to children, and encourage them to draw them together. In the future, he wants to be with a friend called art who has various appearances.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Sungjong_Bae.pdf',
                                 abdownlink : env.link + '/Abstract_Sungjong_Bae.pdf',
                             }
                         ]

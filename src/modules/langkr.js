@@ -225,7 +225,7 @@ export const langkr = {
                     text4 : '[모더레이터]',
                     text5 : '신혜선',
                     text6 : '[발제자]',
-                    text7 : '제환정,\n정혜연 & 성효진,\n레베카 칸 & 푸 세이 밍 &\n탄 젱 수안, 제프 풀린',
+                    text7 : '레베카 칸 & 푸 세이 밍 &\n탄 젱 수안,\n정혜연 & 성효진,\n제환정, 제프 풀린',
                     link : '/unitwin2021/session/6'
                 },
                 wed4 : {
@@ -1388,54 +1388,6 @@ export const langkr = {
                 list : [
                     {
                         moder : '',
-                        li_title : "팬데믹 이후의 온라인 문화예술교육은 어떻게 예술교육가의 정체성을 재구성하는가",
-                        li_data : [
-                            {
-                                imgs : session_img_26,
-                                hashtag : 'Hwan_Jung',
-                                name : '제환정',
-                                enname : '',
-                                job : '- 한국예술종합학교 객원교수, 대한민국',
-                                contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상구석구석 예술이 있기를 도모하고 있다. 예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중. 템플 대학교에서 무용 박사학위를 받았고, 문화체육관광부 장관 표창을 받았다.',
-                                download : true,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
-                        li_title : "온라인 관람 시대에 참여와 공유를 실천하는 박물관 / 미술관 교육 프로그램 개발",
-                        li_data : [
-                            {
-                                imgs : session_img_27,
-                                hashtag : 'HyeYoun',
-                                name : '정혜연',
-                                enname : '',
-                                job : '- 홍익대학교 조교수, 대한민국',
-                                contents : '본 발표의 자료인 박물관 / 미술관 교육연구 1, 2 담당 교수로, 홍익대학교 교육대학원 미술교육과 교수이다. 홍익대 회화과 및 동대학원 졸업하고, 컬럼비아 대학교 예술경영학 석사, 미술교육학 박사(미술관 교육 세부 전공)이다. 박물관/미술관 자문 및 교육프로그램 평가를 하고 있다.',
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            },
-                            {
-                                imgs : session_img_28,
-                                hashtag : 'Hyojin',
-                                name : '성효진',
-                                enname : '',
-                                job : '- 홍익대학교 석사과정생 / 국제갤러리 전시팀 , 대한민국',
-                                contents : '박물관 / 미술관 교육연구 2 참여자로 서강대학교 영문과 졸업, 홍익대학교 미술교육학과 석사과정에 재학 중이다. 국립현대미술관 과천관 미술관교육팀 서포터즈로 참여한 바 있으며, 미술품 경매회사 케이옥션을 거쳐 현재 국제갤러리 전시팀에 근무 중이다. 옥션과 상업화랑, 그리고 미술관 교육팀까지 다양한 분야에 속하며 대중의 예술 참여활동에 대한 활발한 연구 중에 있다.',
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
                         li_title : "서비스 러닝의 네러티브: 난양 미술 아카데미 사례 연구",
                         li_data : [
                             {
@@ -1476,6 +1428,54 @@ export const langkr = {
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "온라인 관람 시대에 참여와 공유를 실천하는 박물관 / 미술관 교육 프로그램 개발",
+                        li_data : [
+                            {
+                                imgs : session_img_27,
+                                hashtag : 'HyeYoun',
+                                name : '정혜연',
+                                enname : '',
+                                job : '- 홍익대학교 조교수, 대한민국',
+                                contents : '본 발표의 자료인 박물관 / 미술관 교육연구 1, 2 담당 교수로, 홍익대학교 교육대학원 미술교육과 교수이다. 홍익대 회화과 및 동대학원 졸업하고, 컬럼비아 대학교 예술경영학 석사, 미술교육학 박사(미술관 교육 세부 전공)이다. 박물관/미술관 자문 및 교육프로그램 평가를 하고 있다.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            },
+                            {
+                                imgs : session_img_28,
+                                hashtag : 'Hyojin',
+                                name : '성효진',
+                                enname : '',
+                                job : '- 홍익대학교 석사과정생 / 국제갤러리 전시팀 , 대한민국',
+                                contents : '박물관 / 미술관 교육연구 2 참여자로 서강대학교 영문과 졸업, 홍익대학교 미술교육학과 석사과정에 재학 중이다. 국립현대미술관 과천관 미술관교육팀 서포터즈로 참여한 바 있으며, 미술품 경매회사 케이옥션을 거쳐 현재 국제갤러리 전시팀에 근무 중이다. 옥션과 상업화랑, 그리고 미술관 교육팀까지 다양한 분야에 속하며 대중의 예술 참여활동에 대한 활발한 연구 중에 있다.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "팬데믹 이후의 온라인 문화예술교육은 어떻게 예술교육가의 정체성을 재구성하는가",
+                        li_data : [
+                            {
+                                imgs : session_img_26,
+                                hashtag : 'Hwan_Jung',
+                                name : '제환정',
+                                enname : '',
+                                job : '- 한국예술종합학교 객원교수, 대한민국',
+                                contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상구석구석 예술이 있기를 도모하고 있다. 예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중. 템플 대학교에서 무용 박사학위를 받았고, 문화체육관광부 장관 표창을 받았다.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
                             }
                         ]
                     },
@@ -1575,9 +1575,9 @@ export const langkr = {
                                 job : '- 이화여자대학교 박사과정생, 대한민국',
                                 contents : '김유리는 이화여자대학교 조형예술대학 융합미술치료학 전공 박사과정생이다. 10년 이상의 아동 미술 교육 경력이 있다. 예술교육가로 활동하다가 예술의 치유적 힘에 대한 믿음으로 미술치료사가 되었다.\n\n'
                                           +'미술치료 활동 분야로는, 남한 청소년과 탈북청소년의 공존을 위한 미술치료 프로젝트, 한국문화예술교육진흥원에서 일반 시민을 대상으로 한 문화예술치유 프로젝트, 보육원에서 자란 청년들을 위한 미술치료 프로젝트, 다문화 가정 및 한부모 가정 아동을 위한 미술치료 등이 있다. 관심분야로는 미술치료에서 다문화주의, 사회행동, 트라우마가 있다.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
@@ -1588,9 +1588,9 @@ export const langkr = {
                                 job : '- 이화여자대학교 조교수, 대한민국',
                                 contents : '박소정 박사는 이화여자대학교 교육대학원 미술치료교육전공의 조교수로, 조형예술대학 박사과정 융합미술치료학 전공의 겸임교원으로도 재직 중이다. 박소정 교수는 미국미술치료학회 공인미술치료사이자 미국 뉴욕 주정부 공인 예술치료사이며, 미국의 스쿨 오브 비주얼 아트에서 미술치료 석사 학위를, 레슬리 대학교에서 표현예술치료로 박사학위를 수여했다.\n\n'
                                           +'정신질환 및 중독이 있는 청소년 및 성인을 중심으로 폭넓은 임상 경험을 가진 박소정 교수의 관심 연구 분야로는 미술치료에서 다문화주의, 정신병리, 예술기반 연구 및 지역사회를 위한 사회행동적 미술치료가 있다. 박소정 교수는 2020년 미국미술치료학회의 Pearlie Roberson Scholarship Award의 수상자이며, 미국미술치료학회지의 Editorial board member이자 Multicultural Committee member로 활발히 활동 중이다.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
@@ -1721,9 +1721,9 @@ export const langkr = {
                                 job : '- 예술 강사, 대한민국',
                                 contents : "그가 어릴 적 꽤 오랫동안 그려왔던 꿈은 만화가였다. 머릿속에 떠오르는 장면과 이야기를 하얀색 종이에 펼쳐놓고 한참을 들여다볼 때가 가장 행복했다. 그리고 성인 된 후 연극을 전공하게 되면서 그는 긴 시간을 상상 속에서 살았다. 그러던 그가 현실과 마주하면서 다채로웠던 자아는 작아지고 무채색처럼 단순한 삶도 경험한다.\n\n"
                                            +'지금은 학교에서 과거의 알록달록했던 자신을 꺼내 아이들에게 호기심과 상상이라는 색을 소개하고 함께 그려보자 권하는 일을 하고 있다. 그는 앞으로도 다양한 모습을 한 예술이라는 친구와 함께하고 싶어 한다.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Sungjong_Bae.pdf',
                                 abdownlink : env.link + '/Abstract_Sungjong_Bae.pdf',
                             }
                         ]
@@ -3323,51 +3323,6 @@ export const langkr = {
                 list : [
                     {
                         moder : '',
-                        li_title : "팬데믹 이후의 온라인 문화예술교육은 어떻게 예술교육가의 정체성을 재구성하는가",
-                        li_data : [
-                            {
-                                imgs : session_img_26,
-                                name : '제환정',
-                                enname : '',
-                                job : '- 한국예술종합학교 객원교수, 대한민국',
-                                contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상구석구석 예술이 있기를 도모하고 있다. 예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중. 템플 대학교에서 무용 박사학위를 받았고, 문화체육관광부 장관 표창을 받았다.',
-                                download : true,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
-                        li_title : "온라인 관람 시대에 참여와 공유를 실천하는 박물관 / 미술관 교육 프로그램 개발",
-                        li_data : [
-                            {
-                                imgs : session_img_27,
-                                name : '정혜연',
-                                enname : '',
-                                job : '- 홍익대학교 조교수, 대한민국',
-                                contents : '본 발표의 자료인 박물관 / 미술관 교육연구 1, 2 담당 교수로, 홍익대학교 교육대학원 미술교육과 교수이다. 홍익대 회화과 및 동대학원 졸업하고, 컬럼비아 대학교 예술경영학 석사, 미술교육학 박사(미술관 교육 세부 전공)이다. 박물관/미술관 자문 및 교육프로그램 평가를 하고 있다.',
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            },
-                            {
-                                imgs : session_img_28,
-                                name : '성효진',
-                                enname : '',
-                                job : '- 홍익대학교 석사과정생 / 국제갤러리 전시팀 , 대한민국',
-                                contents : '박물관 / 미술관 교육연구 2 참여자로 서강대학교 영문과 졸업, 홍익대학교 미술교육학과 석사과정에 재학 중이다. 국립현대미술관 과천관 미술관교육팀 서포터즈로 참여한 바 있으며, 미술품 경매회사 케이옥션을 거쳐 현재 국제갤러리 전시팀에 근무 중이다. 옥션과 상업화랑, 그리고 미술관 교육팀까지 다양한 분야에 속하며 대중의 예술 참여활동에 대한 활발한 연구 중에 있다.',
-                                download : false,
-                                abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
-                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
-                            }
-                        ]
-                    },
-                    {
-                        moder : '',
                         li_title : "서비스 러닝의 네러티브: 난양 미술 아카데미 사례 연구",
                         li_data : [
                             {
@@ -3405,6 +3360,51 @@ export const langkr = {
                                 abdownload : true,
                                 downlink : env.link + '/Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
                                 abdownlink : env.link + '/Abstract_Rebecca_Kan__Foo_Say_Ming__Tan_Jeng_Suan.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "온라인 관람 시대에 참여와 공유를 실천하는 박물관 / 미술관 교육 프로그램 개발",
+                        li_data : [
+                            {
+                                imgs : session_img_27,
+                                name : '정혜연',
+                                enname : '',
+                                job : '- 홍익대학교 조교수, 대한민국',
+                                contents : '본 발표의 자료인 박물관 / 미술관 교육연구 1, 2 담당 교수로, 홍익대학교 교육대학원 미술교육과 교수이다. 홍익대 회화과 및 동대학원 졸업하고, 컬럼비아 대학교 예술경영학 석사, 미술교육학 박사(미술관 교육 세부 전공)이다. 박물관/미술관 자문 및 교육프로그램 평가를 하고 있다.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            },
+                            {
+                                imgs : session_img_28,
+                                name : '성효진',
+                                enname : '',
+                                job : '- 홍익대학교 석사과정생 / 국제갤러리 전시팀 , 대한민국',
+                                contents : '박물관 / 미술관 교육연구 2 참여자로 서강대학교 영문과 졸업, 홍익대학교 미술교육학과 석사과정에 재학 중이다. 국립현대미술관 과천관 미술관교육팀 서포터즈로 참여한 바 있으며, 미술품 경매회사 케이옥션을 거쳐 현재 국제갤러리 전시팀에 근무 중이다. 옥션과 상업화랑, 그리고 미술관 교육팀까지 다양한 분야에 속하며 대중의 예술 참여활동에 대한 활발한 연구 중에 있다.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hyeyoun_Chung__Hyojin_Sung.pdf',
+                                abdownlink : env.link + '/Abstract_Hyeyoun_Chung__Hyojin_Sung.pdf',
+                            }
+                        ]
+                    },
+                    {
+                        moder : '',
+                        li_title : "팬데믹 이후의 온라인 문화예술교육은 어떻게 예술교육가의 정체성을 재구성하는가",
+                        li_data : [
+                            {
+                                imgs : session_img_26,
+                                name : '제환정',
+                                enname : '',
+                                job : '- 한국예술종합학교 객원교수, 대한민국',
+                                contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상구석구석 예술이 있기를 도모하고 있다. 예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중. 템플 대학교에서 무용 박사학위를 받았고, 문화체육관광부 장관 표창을 받았다.',
+                                download : true,
+                                abdownload : true,
+                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
                             }
                         ]
                     },
@@ -3499,9 +3499,9 @@ export const langkr = {
                                 job : '- 이화여자대학교 박사과정생, 대한민국',
                                 contents : '김유리는 이화여자대학교 조형예술대학 융합미술치료학 전공 박사과정생이다. 10년 이상의 아동 미술 교육 경력이 있다. 예술교육가로 활동하다가 예술의 치유적 힘에 대한 믿음으로 미술치료사가 되었다.\n\n'
                                           +'미술치료 활동 분야로는, 남한 청소년과 탈북청소년의 공존을 위한 미술치료 프로젝트, 한국문화예술교육진흥원에서 일반 시민을 대상으로 한 문화예술치유 프로젝트, 보육원에서 자란 청년들을 위한 미술치료 프로젝트, 다문화 가정 및 한부모 가정 아동을 위한 미술치료 등이 있다. 관심분야로는 미술치료에서 다문화주의, 사회행동, 트라우마가 있다.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             },
                             {
@@ -3511,9 +3511,9 @@ export const langkr = {
                                 job : '- 이화여자대학교 조교수, 대한민국',
                                 contents : '박소정 박사는 이화여자대학교 교육대학원 미술치료교육전공의 조교수로, 조형예술대학 박사과정 융합미술치료학 전공의 겸임교원으로도 재직 중이다. 박소정 교수는 미국미술치료학회 공인미술치료사이자 미국 뉴욕 주정부 공인 예술치료사이며, 미국의 스쿨 오브 비주얼 아트에서 미술치료 석사 학위를, 레슬리 대학교에서 표현예술치료로 박사학위를 수여했다.\n\n'
                                           +'정신질환 및 중독이 있는 청소년 및 성인을 중심으로 폭넓은 임상 경험을 가진 박소정 교수의 관심 연구 분야로는 미술치료에서 다문화주의, 정신병리, 예술기반 연구 및 지역사회를 위한 사회행동적 미술치료가 있다. 박소정 교수는 2020년 미국미술치료학회의 Pearlie Roberson Scholarship Award의 수상자이며, 미국미술치료학회지의 Editorial board member이자 Multicultural Committee member로 활발히 활동 중이다.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Sean_Corcoran__Benjamin_Bolden.pptx',
+                                downlink : env.link + '/Yuri_Kim__Sojung_Park.pdf',
                                 abdownlink : env.link + '/Abstract_Yuri_Kim__Sojung_Park.pdf',
                             }
                         ]
@@ -3637,9 +3637,9 @@ export const langkr = {
                                 job : '- 예술 강사, 대한민국',
                                 contents : "그가 어릴 적 꽤 오랫동안 그려왔던 꿈은 만화가였다. 머릿속에 떠오르는 장면과 이야기를 하얀색 종이에 펼쳐놓고 한참을 들여다볼 때가 가장 행복했다. 그리고 성인 된 후 연극을 전공하게 되면서 그는 긴 시간을 상상 속에서 살았다. 그러던 그가 현실과 마주하면서 다채로웠던 자아는 작아지고 무채색처럼 단순한 삶도 경험한다.\n\n"
                                            +'지금은 학교에서 과거의 알록달록했던 자신을 꺼내 아이들에게 호기심과 상상이라는 색을 소개하고 함께 그려보자 권하는 일을 하고 있다. 그는 앞으로도 다양한 모습을 한 예술이라는 친구와 함께하고 싶어 한다.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Sungjong_Bae.pdf',
                                 abdownlink : env.link + '/Abstract_Sungjong_Bae.pdf',
                             }
                         ]

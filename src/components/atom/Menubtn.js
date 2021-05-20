@@ -30,8 +30,7 @@ const Menubtn = ({className , children, id, movelink, location }) => {
     }else if (pathname === env.path+'/presession-showcase') 
     {
         cur_status = 4
-    } 
-    else if (pathname === env.path+'/byob') 
+    } else if (pathname === env.path+'/byob') 
     {
         cur_status = 5
     }else if (pathname === env.path+'/closing-ceremony') 
@@ -65,18 +64,12 @@ const Wrapper = styled.a`
     font-size: 1em;
     font-weight: bold;
     margin-right : 10px;
-    color: ${props =>  (props.id== 4) 
-                        ? color.brown_grey 
-                        : (props.path==props.id) ? color.turtle_green : color.black};
+    color: ${props =>  (props.path==props.id) ? color.turtle_green : color.black};
     border-bottom : 2px solid transparent;
     transition: .3s;
     &:hover {
-        border-bottom : ${props =>(props.id== 4)
-                              ? '1px solid' + color.white
-                              : '2px solid' + color.turtle_green };
-        color : ${props => (props.id== 4) 
-                ?  color.brown_grey 
-                : color.turtle_green };
+        border-bottom : 2px solid ${color.turtle_green};
+        color :  ${color.turtle_green};
     }
 `
 export default withRouter(Menubtn)
