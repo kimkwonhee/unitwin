@@ -151,7 +151,7 @@ const Pr_Detail = ({match, location}) => {
                                             key={list.id}
                                             src={list.img} 
                                             name={list.name}
-                                            link={list.link}/>
+                                            link={list.link} />
                             })}
                         </PSection>
                     </PListArea>

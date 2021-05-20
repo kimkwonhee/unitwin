@@ -2568,7 +2568,7 @@ export const langkr = {
                     {
                         img : pl_detail1_img_01,
                         moder : '',
-                        hashtag : 'MErnst',
+                        mhashtag : 'MErnst',
                         name : '에른스트 바그너 ',
                         en_name : '(Ernst Wagner)',
                         li_title : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 명예회원 / 뮌헨 미술원 선임연구원, 독일',
@@ -2579,7 +2579,7 @@ export const langkr = {
                     {
                         img : pl_detail1_img_02,
                         moder : '[모더레이터]',
-                        hashtag : 'Chee_Hoo',
+                        mhashtag : 'MChee_Hoo',
                         name : '치후 럼 ',
                         en_name : '(Chee-Hoo Lum)',
                         li_title : '- 난양 공과대학교 부교수, 싱가포르',

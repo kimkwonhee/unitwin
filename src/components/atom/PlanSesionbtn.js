@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link,withRouter } from 'react-router-dom'
+import {withRouter } from 'react-router-dom'
 
 const PlanSesionbtn = ({src, name, link}) => {
     return (
         <>
-            <PLinkTag to={link}>
+            <PLinkTag href={link}>
                 <PWrapper>
                     <PImgArea>
                         <PlImg src={src} alt={name}/>
@@ -43,7 +43,7 @@ const PlImg = styled.img`
         background : rgba(0,0,0, .04);
     }
 `
-const PLinkTag = styled(Link)`
+const PLinkTag = styled.a`
     text-decoration : none !important;
 `
 

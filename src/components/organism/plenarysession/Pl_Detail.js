@@ -14,7 +14,7 @@ import env from '../../../modules/env'
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
 
-const Pl_Detail = ({match, location}) => {
+const Pl_Detail = ({match}) => {
 
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -389,13 +389,11 @@ const MDownlodebtn = styled(Downloadbtn)`
     margin-bottom : 40px;
     margin-right : 8px;
 `
-
 const MDownlodebtn2 = styled(Downloadbtn2)`
     width : ${props => (props.status === 'kr') ? '168px' : '122px'};
     height : 36px;
     margin-bottom : 40px;
 `
-
 const MChat = styled.iframe`
     width: 100%;
     height: 600px;

@@ -322,7 +322,7 @@ const Home_day2 = () => {
                                     </MRightSection>
                                     <MRightSection>
                                         <MRightModer>{m_detaildata.session1.text7}</MRightModer>
-                                        <MDetailLink to={m_detaildata.session1.link + '#Chee_Hoo'}>
+                                        <MDetailLink to={m_detaildata.session1.link + '#MChee_Hoo'}>
                                             <MRightName>{m_detaildata.session1.text8}<MRightEnName>{m_detaildata.session1.text9}</MRightEnName></MRightName>
                                             <MRightJop>{m_detaildata.session1.text10}</MRightJop>
                                         </MDetailLink>

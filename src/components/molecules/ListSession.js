@@ -1,8 +1,8 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
 
-const ListSession = ({className, data}) => {
+const ListSession = ({className, pdata, data}) => {
 
     return (
         <>
@@ -29,7 +29,7 @@ const ListSession = ({className, data}) => {
             <MWrapper className={className}>
                 {data.map((list, idx) => {
                     return  (
-                        <Mdiv key={idx} id={list.hashtag}>
+                        <Mdiv key={idx} id={list.mhashtag}>
                             <MInner>
                                 <MTextblock>
                                     <MImg src={list.img} alt={list.name} />     
