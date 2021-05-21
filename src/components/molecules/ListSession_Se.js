@@ -65,29 +65,31 @@ const ListSession_Se = ({className, data}) => {
                             <MTitle>{list.li_title}</MTitle>
                             <MInner>
                                 {list.li_data.map((data, i )=> {
-                                    return <>
-                                            <MTextblock>
-                                                <MImg src={data.imgs} alt={data.name} />     
-                                            </MTextblock>
-                                            <MName>{data.name}</MName>
-                                            <MEnName>{data.enname}</MEnName>
-                                            <MListtitle>{data.job}</MListtitle>
-                                            <MContents dangerouslySetInnerHTML={ {__html: data.contents} } />
-                                            <MDownloadArea>
-                                                <MDownlodebtn 
-                                                    downlink={data.downlink}
-                                                    down={data.download} 
-                                                >
-                                                    {curlang.m_data.classdownload}
-                                                </MDownlodebtn>
-                                                <MDownlodebtn2 
-                                                    downlink={data.abdownlink} 
-                                                    down={data.abdownload}  
-                                                >
-                                                    {curlang.m_data.abdownload}
-                                                </MDownlodebtn2>
-                                            </MDownloadArea>   
-                                    </>
+                                    return <Mdiv isTop={i === 0} id={data.mhashtag}>
+                                                <MFlex>
+                                                <MTextblock>
+                                                    <MImg src={data.imgs} alt={data.name} />     
+                                                </MTextblock>
+                                                <MName>{data.name}</MName>
+                                                <MEnName>{data.enname}</MEnName>
+                                                <MListtitle>{data.job}</MListtitle>
+                                                <MContents dangerouslySetInnerHTML={ {__html: data.contents} } />
+                                                <MDownloadArea>
+                                                    <MDownlodebtn 
+                                                        downlink={data.downlink}
+                                                        down={data.download} 
+                                                    >
+                                                        {curlang.m_data.classdownload}
+                                                    </MDownlodebtn>
+                                                    <MDownlodebtn2 
+                                                        downlink={data.abdownlink} 
+                                                        down={data.abdownload}  
+                                                    >
+                                                        {curlang.m_data.abdownload}
+                                                    </MDownlodebtn2>
+                                                </MDownloadArea>
+                                            </MFlex>     
+                                    </Mdiv>
                                 })}
                             </MInner>
                         </MSection>
@@ -197,6 +199,16 @@ const MWrapper = styled.div`
         display : none;
     }
 `
+const Mdiv = styled.div`  
+    &:before {
+        display: block; 
+        content: " "; 
+        margin-top:${props => props.isTop ? '-140px' : '-110px'}; 
+        height: ${props => props.isTop ? '140px' : '110px'};
+        visibility: hidden; 
+        pointer-events: none;
+    }
+`
 
 const MSection = styled.div`
 
@@ -221,13 +233,15 @@ const MTitle = styled.div`
 `
 const MInner = styled.div`
     width : 100%;
-    display : flex;
-    flex-direction : column;
-    align-items : center;
     padding-top : 20px;
     padding-right : 12px;
     padding-left : 12px;
     border-top : 1px solid ${color.turtle_green};
+`
+const MFlex = styled.div`
+    display : flex;
+    flex-direction : column;
+    align-items : center;
 `
 const MDownloadArea = styled.div`
     display : flex;

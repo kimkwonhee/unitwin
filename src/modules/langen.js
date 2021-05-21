@@ -1062,7 +1062,7 @@ export const langen = {
                                 contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
                                          + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
                                          + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Tei_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
@@ -2730,6 +2730,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_01,
+                                mhashtag : 'MYongSung',
                                 name : 'YongSung Jung',
                                 enname : '',
                                 job : '- Director, National Theater Company of Korea, Republic of Korea',
@@ -2748,7 +2749,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_02,
-                                hashtag : 'Eunsu',
+                                mhashtag : 'MEunsu',
                                 name : 'Eunsu Lee',
                                 enname : '',
                                 job : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
@@ -2767,6 +2768,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_03,
+                                mhashtag : 'MSowon',
                                 name : 'Sowon Kim',
                                 enname : '',
                                 job : '- Curator, Seongbuk Museum of Art, Republic of Korea',
@@ -2784,6 +2786,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_04,
+                                mhashtag : 'MSu_youn',
                                 name : 'Su-youn Kim',
                                 enname : '',
                                 job : '- Assistant Professor, KyungSung University, Republic of Korea',
@@ -2801,7 +2804,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_05,
-                                hashtag : 'Boram',
+                                mhashtag : 'MBoram',
                                 name : 'Boram Lee',
                                 enname : '',
                                 job : '- Professor, University of South Australia , Republic of Korea',
@@ -2820,6 +2823,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                mhashtag : 'MKiwon',
                                 name : 'Kiwon Hong',
                                 enname : '',
                                 job : '- Professor, Korea National University of Arts, Republic of Korea',
@@ -2846,6 +2850,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_06,
+                                mhashtag : 'MTiina',
                                 name : 'Tiina Kukkonen',
                                 enname : '',
                                 job : "- Ph.D. candidate, Queen's University, Canada",
@@ -2867,6 +2872,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_07,
+                                mhashtag : 'MSanja',
                                 name : 'Sanja Krsmanović Tasić',
                                 enname : '',
                                 job : '- President, International Drama/Theatre Education Association(IDEA), Serbia',
@@ -2885,6 +2891,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_08,
+                                mhashtag : 'MMC_Bettman',
                                 name : 'MC Bettman',
                                 enname : '',
                                 job : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
@@ -2904,6 +2911,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_09,
+                                mhashtag : 'MChaeyeon',
                                 name : 'Chaeyeon Kim',
                                 enname : '',
                                 job : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
@@ -2922,6 +2930,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                mhashtag : 'MGloria',
                                 name : 'Gloria P. Zapata',
                                 enname : '',
                                 job : '- Unesco Chair, Fundación Universitaria Juan N. Corpas and Distrital University in Bogotá, Colombia',
@@ -2948,13 +2957,14 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_11,
+                                mhashtag : 'MTei',
                                 name : 'Tei Kim',
                                 enname : '',
                                 job : '- Director, BARA Art Growth Institute , Republic of Korea',
                                 contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
                                          + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
                                          + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Tei_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
@@ -2967,6 +2977,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_42,
+                                mhashtag : 'MCharlene',
                                 name : 'Charlene Rajendran',
                                 enname : '',
                                 job : '- Assistant Professor, Nanyang Technological University, Singapore',
@@ -2984,6 +2995,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_13,
+                                mhashtag : 'MNan_Zhang',
                                 name : 'Nan Zhang',
                                 enname : '',
                                 job : '- Ph.D. candidate, Monash University, China',
@@ -3004,6 +3016,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_14,
+                                mhashtag : 'MYaara',
                                 name : 'Yaara Docrat ',
                                 enname : '',
                                 job : "- Master's candidate, Queen’s University, Canada",
@@ -3022,6 +3035,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_16,
+                                mhashtag : 'MNeryl',
                                 name : 'Neryl Jeanneret',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
@@ -3048,6 +3062,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                mhashtag : 'MBenjamin',
                                 name : 'Benjamin Bolden',
                                 enname : '',
                                 job : "- Associate Professor, Queen's University, Canada",
@@ -3059,6 +3074,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_16,
+                                mhashtag : 'MNeryl',
                                 name : 'Neryl Jeanneret',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
@@ -3076,6 +3092,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                mhashtag : 'MChee_Hoo',
                                 name : 'Chee-Hoo Lum',
                                 enname : '',
                                 job : '- Associate Professor, Nanyang Technological University, Singapore',
@@ -3088,6 +3105,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_18,
+                                mhashtag : 'MZen',
                                 name : 'Zen Teh',
                                 enname : '',
                                 job : '- Environmental Artist & Educator, Singapore',
@@ -3106,6 +3124,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_19,
+                                mhashtag : 'MKathryn',
                                 name : 'Kathryn Coleman',
                                 enname : '',
                                 job : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
@@ -3117,6 +3136,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_20,
+                                mhashtag : 'MMark',
                                 name : 'Mark Selkrig',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
@@ -3128,6 +3148,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_21,
+                                mhashtag : 'MAbbey',
                                 name : 'Abbey MacDonald',
                                 enname : '',
                                 job : '- Senior Lecturer, University of Tasmania, Australia',
@@ -3145,6 +3166,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : closing_img_03,
+                                mhashtag : 'MInSul',
                                 name : 'InSul Kim',
                                 enname : '',
                                 job : '- Associate Professor, The Catholic University of Korea, Republic of Korea',
@@ -3172,6 +3194,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_22,
+                                mhashtag : 'MMary',
                                 name : 'Mary Clare Kidenda',
                                 enname : '',
                                 job : '- Lecturer and Head, The Technical University of Kenya, Kenya',
@@ -3191,6 +3214,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_23,
+                                mhashtag : 'MEmily',
                                 name : 'Emily MacMillan ',
                                 enname : '',
                                 job : "- Master's candidate, Queen’s University, Canada",
@@ -3209,6 +3233,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_24,
+                                mhashtag : 'MJihea',
                                 name : 'Jihea Hong-Park',
                                 enname : '',
                                 job : '- Associate Professor, Brigham Young University, USA',
@@ -3227,6 +3252,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_25,
+                                mhashtag : 'MWilson',
                                 name : 'Emily Wilson',
                                 enname : '',
                                 job : '- Lecturer, The University of Melbourne, Australia',
@@ -3238,7 +3264,8 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_16,
-                                name : 'Neryl Jeanneret ',
+                                mhashtag : 'MNeryl',
+                                name : 'Neryl Jeanneret',
                                 enname : '',
                                 job : '- Associate Professor, The University of Melbourne, Australia',
                                 contents : "Neryl Jeanneret is the Network coordinator for UNITWIN Arts Education Research for Cultural Diversity And Sustainable Development and co-director of the UNESCO Observatory for the Arts at MGSE.",
@@ -3255,6 +3282,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                mhashtag : 'MBenjamin',
                                 name : 'Benjamin Bolden',
                                 enname : '',
                                 job : "- Associate Professor, Queen's University, Canada",
@@ -3282,6 +3310,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_41,
+                                mhashtag : 'MRebecca',
                                 name : 'Rebecca Kan ',
                                 enname : '',
                                 job : '- Vice-Dean, Nanyang Academy of Fine Arts, Singapore',
@@ -3294,6 +3323,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_29,
+                                mhashtag : 'MFoo',
                                 name : 'Foo Say Ming ',
                                 enname : '',
                                 job : '- Head of Studies, Nanyang Academy of Fine Arts, Singapore',
@@ -3306,6 +3336,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_30,
+                                mhashtag : 'MTan',
                                 name : 'Tan Jeng Suan ',
                                 enname : '',
                                 job : '- BMus 4 Student Assistant, Nanyang Academy of Fine Arts, Singapore',
@@ -3324,6 +3355,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_27,
+                                mhashtag : 'MHyeYoun',
                                 name : 'HyeYoun Chung',
                                 enname : '',
                                 job : '- Assistant professor, Hongik University, Republic of Korea',
@@ -3335,6 +3367,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_28,
+                                mhashtag : 'MHyojin',
                                 name : 'Hyojin Sung',
                                 enname : '',
                                 job : "- Master's candidate, Hongik University / Exhibition Team, Kukje Gallery, Republic of Korea",
@@ -3352,6 +3385,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_26,
+                                mhashtag : 'MHwan_Jung',
                                 name : 'Hwan Jung Jae',
                                 enname : '',
                                 job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
@@ -3369,6 +3403,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                mhashtag : 'MJeff',
                                 name : 'Jeff Poulin',
                                 enname : '',
                                 job : '- Managing Director, Creative Generation, USA',
@@ -3386,6 +3421,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : closing_img_04,
+                                mhashtag : 'MHyesun',
                                 name : 'Hyesun Shin ',
                                 enname : '',
                                 job : '- Co-founder & Director, WECULTURE research and consulting, Republic of Korea',
@@ -3413,6 +3449,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_31,
+                                mhashtag : 'MRuth',
                                 name : 'Ruth Rentschler ',
                                 enname : '',
                                 job : '- Professor, University of South Australia Business School, Australia',
@@ -3431,6 +3468,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_32,
+                                mhashtag : 'MJi_young',
                                 name : 'Ji-young Shim',
                                 enname : '',
                                 job : '- Assistant professor, Hongik University, Republic of Korea',
@@ -3449,6 +3487,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_33,
+                                mhashtag : 'MYuri',
                                 name : 'Yuri Kim',
                                 enname : '',
                                 job : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
@@ -3461,6 +3500,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_34,
+                                mhashtag : 'MSojung',
                                 name : 'Sojung Park',
                                 enname : '',
                                 job : "- Assistant professor, Ewha Woman's University, Republic of Korea",
@@ -3479,6 +3519,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_35,
+                                mhashtag : 'MSean',
                                 name : 'Sean Corcoran',
                                 enname : '',
                                 job : '- Ph.D. candidate, Queen’s University, Canada',
@@ -3490,6 +3531,7 @@ export const langen = {
                             },
                             {
                                 imgs : session_img_15,
+                                mhashtag : 'MBenjamin',
                                 name : 'Benjamin Bolden',
                                 enname : '',
                                 job : "- Associate Professor, Queen's University, Canada",
@@ -3509,6 +3551,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                mhashtag : 'MChee_Hoo',
                                 name : 'Chee-Hoo Lum',
                                 enname : '',
                                 job : '- Associate Professor,Nanyang Technological University, Singapore',
@@ -3536,6 +3579,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_36,
+                                mhashtag : 'MSoohye',
                                 name : 'Soohye Jang ',
                                 enname : '',
                                 job : '- Founding Director, Chaeknuna Project, Republic of Korea',
@@ -3554,6 +3598,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_37,
+                                mhashtag : 'MYunji',
                                 name : 'Yunji Gong',
                                 enname : '',
                                 job : '- Freelance Teaching Artist, Republic of Korea',
@@ -3572,6 +3617,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_38,
+                                mhashtag : 'MHyunjung',
                                 name : 'Hyunjung Lee ',
                                 enname : '',
                                 job : "- Director, Art & Culture Community G.A.Garden / Ph.D. candidate, Ewha Woman's University, Republic of Korea",
@@ -3589,6 +3635,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_39,
+                                mhashtag : 'MSungjong',
                                 name : 'Sungjong Bae ',
                                 enname : '',
                                 job : '- Teaching Artist, Republic of Korea',
@@ -3607,6 +3654,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : session_img_40,
+                                mhashtag : 'MYounghee',
                                 name : 'Younghee Choi',
                                 enname : '',
                                 job : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
@@ -3624,6 +3672,7 @@ export const langen = {
                         li_data : [
                             {
                                 imgs : byob_img_02,
+                                mhashtag : 'MYujin',
                                 name : 'Yujin Hong',
                                 enname : '',
                                 job : '- Director of Educational Resources Division, Korea Arts & Culture Education Service, Republic of Korea',

@@ -170,96 +170,109 @@ const Home_day1 = () => {
                         videotext={m_detaildata.video_text}
                     />
                     <MSection>
-                        <MLeftInner>
-                            <MLeftTitle>{m_detaildata.session1.text1}</MLeftTitle>
-                            <MLeftTime>{m_detaildata.session1.text2}</MLeftTime>
-                        </MLeftInner>
-                        <MRight>
-                            <MRightInner>
-                                <MRightSection>
-                                    <MRightTitle>{m_detaildata.session1.text3}</MRightTitle>
-                                    <MRightName>{m_detaildata.session1.text4}</MRightName>
-                                    <MRightJop>{m_detaildata.session1.text5}</MRightJop>
-                                </MRightSection>
-                            </MRightInner>
-                        </MRight>
+                        <MmiddleArea>
+                            <MLeftInner>
+                                <MLeftTitle>{m_detaildata.session1.text1}</MLeftTitle>
+                                <MLeftTime>{m_detaildata.session1.text2}</MLeftTime>
+                            </MLeftInner>
+                            <MRight>
+                                <MRightInner>
+                                    <MRightSection>
+                                        <MRightTitle>{m_detaildata.session1.text3}</MRightTitle>
+                                        <MRightName>{m_detaildata.session1.text4}</MRightName>
+                                        <MRightJop>{m_detaildata.session1.text5}</MRightJop>
+                                    </MRightSection>
+                                </MRightInner>
+                            </MRight>
+                        </MmiddleArea>
                     </MSection>
                     <MSection>
-                        <MLeftInner>
-                            <MLeftTitle>{m_detaildata.session2.text1}</MLeftTitle>
-                            <MLeftTime>{m_detaildata.session2.text2}</MLeftTime>
-                        </MLeftInner>
-                        <MRight>
-                            <MRightInner>
-                                <MRightSection>
-                                    <MRightName>{m_detaildata.session2.text3}</MRightName>
-                                    <MRightJop>{m_detaildata.session2.text4}</MRightJop>
-                                    <MRightName>{m_detaildata.session2.text5}</MRightName>
-                                    <MRightJop>{m_detaildata.session2.text6}</MRightJop>
-                                </MRightSection>
-                            </MRightInner>
-                        </MRight>
+                        <MmiddleArea>
+                            <MLeftInner>
+                                <MLeftTitle>{m_detaildata.session2.text1}</MLeftTitle>
+                                <MLeftTime>{m_detaildata.session2.text2}</MLeftTime>
+                            </MLeftInner>
+                            <MRight>
+                                <MRightInner>
+                                    <MRightSection>
+                                        <MRightName>{m_detaildata.session2.text3}</MRightName>
+                                        <MRightJop>{m_detaildata.session2.text4}</MRightJop>
+                                        <MRightName>{m_detaildata.session2.text5}</MRightName>
+                                        <MRightJop>{m_detaildata.session2.text6}</MRightJop>
+                                    </MRightSection>
+                                </MRightInner>
+                            </MRight>
+                        </MmiddleArea>
                     </MSection>
                     <MSection>
-                        <MLeftInner>
-                            <MLeftTitle>{m_detaildata.session3.text1}</MLeftTitle>
-                            <MLeftTime>{m_detaildata.session3.text2}</MLeftTime>
-                        </MLeftInner>
-                        <MRight>
-                            <MRightInner>
-                                <MRightSection>
-                                    <MRightName>{m_detaildata.session3.text3}<MRightEnName>{m_detaildata.session3.text4}</MRightEnName></MRightName>
-                                    <MRightJop>{m_detaildata.session3.text5}</MRightJop>
-                                </MRightSection>
-                            </MRightInner>
-                        </MRight>
+                        <MmiddleArea>
+                            <MLeftInner>
+                                <MLeftTitle>{m_detaildata.session3.text1}</MLeftTitle>
+                                <MLeftTime>{m_detaildata.session3.text2}</MLeftTime>
+                            </MLeftInner>
+                            <MRight>
+                                <MRightInner>
+                                    <MRightSection>
+                                        <MRightName>{m_detaildata.session3.text3}<MRightEnName>{m_detaildata.session3.text4}</MRightEnName></MRightName>
+                                        <MRightJop>{m_detaildata.session3.text5}</MRightJop>
+                                    </MRightSection>
+                                </MRightInner>
+                            </MRight>
+                        </MmiddleArea>
                     </MSection>
                     <MSection>
-                        <MLeftInner>
-                            <MLeftTitle>{m_detaildata.session4.text1}</MLeftTitle>
-                            <MLeftTime>{m_detaildata.session4.text2}</MLeftTime>
-                        </MLeftInner>
-                        <MRight>
-                            <MRightInner>
-                                <MRightSection>
-                                    <MRightTitle>{m_detaildata.session4.text3}</MRightTitle>
-                                    <MRightName>{m_detaildata.session4.text4}<MRightEnName>{m_detaildata.session4.text5}</MRightEnName></MRightName>
-                                    <MRightJop>{m_detaildata.session4.text6}</MRightJop>
-                                </MRightSection>
-                            </MRightInner>
-                        </MRight>
+                        <MmiddleArea>
+                            <MLeftInner>
+                                <MLeftTitle>{m_detaildata.session4.text1}</MLeftTitle>
+                                <MLeftTime>{m_detaildata.session4.text2}</MLeftTime>
+                            </MLeftInner>
+                            <MRight>
+                                <MRightInner>
+                                    <MRightSection>
+                                        <MRightTitle>{m_detaildata.session4.text3}</MRightTitle>
+                                        <MRightName>{m_detaildata.session4.text4}<MRightEnName>{m_detaildata.session4.text5}</MRightEnName></MRightName>
+                                        <MRightJop>{m_detaildata.session4.text6}</MRightJop>
+                                    </MRightSection>
+                                </MRightInner>
+                            </MRight>
+                        </MmiddleArea>
                     </MSection>
                     <MSection>
-                        <MLeftInner>
-                            <MLeftTitle>{m_detaildata.session5.text1}</MLeftTitle>
-                            <MLeftTime>{m_detaildata.session5.text2}</MLeftTime>
-                        </MLeftInner>
-                        <MRight>
-                            <MRightInner>
-                                <MRightSection>
-                                    <MRightTitle>{m_detaildata.session5.text3}</MRightTitle>
-                                    <MRightName>{m_detaildata.session5.text4}<MRightEnName>{m_detaildata.session5.text5}</MRightEnName></MRightName>
-                                    <MRightJop>{m_detaildata.session5.text6}</MRightJop>
-                                </MRightSection>
-                            </MRightInner>
-                        </MRight>
+                        <MmiddleArea>
+                            <MLeftInner>
+                                <MLeftTitle>{m_detaildata.session5.text1}</MLeftTitle>
+                                <MLeftTime>{m_detaildata.session5.text2}</MLeftTime>
+                            </MLeftInner>
+                            <MRight>
+                                <MRightInner>
+                                    <MRightSection>
+                                        <MRightTitle>{m_detaildata.session5.text3}</MRightTitle>
+                                        <MRightName>{m_detaildata.session5.text4}<MRightEnName>{m_detaildata.session5.text5}</MRightEnName></MRightName>
+                                        <MRightJop>{m_detaildata.session5.text6}</MRightJop>
+                                    </MRightSection>
+                                </MRightInner>
+                            </MRight>
+                        </MmiddleArea>
                     </MSection>
                     <MSection>
-                        <MLeftInner>
-                            <MLeftTitle>{m_detaildata.session6.text1}</MLeftTitle>
-                            <MLeftTime>{m_detaildata.session6.text2}</MLeftTime>
-                        </MLeftInner>
-                        <MRight>
-                            <MRightInner>
-                                <MRightSection>
-                                    {/* <MRightTitle>{m_detaildata.session6.text3}</MRightTitle> */}
-                                    <MRightName>{m_detaildata.session6.text4}<MRightEnName>{m_detaildata.session6.text5}</MRightEnName></MRightName>
-                                    <MRightJop>{m_detaildata.session6.text6}</MRightJop>
-                                </MRightSection>
-                            </MRightInner>
-                        </MRight>
+                        <MmiddleArea>
+                            <MLeftInner>
+                                <MLeftTitle>{m_detaildata.session6.text1}</MLeftTitle>
+                                <MLeftTime>{m_detaildata.session6.text2}</MLeftTime>
+                            </MLeftInner>
+                            <MRight>
+                                <MRightInner>
+                                    <MRightSection>
+                                        {/* <MRightTitle>{m_detaildata.session6.text3}</MRightTitle> */}
+                                        <MRightName>{m_detaildata.session6.text4}<MRightEnName>{m_detaildata.session6.text5}</MRightEnName></MRightName>
+                                        <MRightJop>{m_detaildata.session6.text6}</MRightJop>
+                                    </MRightSection>
+                                </MRightInner>
+                            </MRight>
+                        </MmiddleArea>
                     </MSection>
                     <MSection>
+                        <MmiddleArea>
                         <MLeftInner>
                             <MLeftTitle>{m_detaildata.session7.text1}</MLeftTitle>
                             <MLeftTime>{m_detaildata.session7.text2}</MLeftTime>
@@ -272,8 +285,10 @@ const Home_day1 = () => {
                                 </MRightSection>
                             </MRightInner>
                         </MRight>
+                        </MmiddleArea>
                     </MSection>
                     <MSection>
+                    <MmiddleArea>
                         <MLeftInner>
                             <MLeftTitle>{m_detaildata.session8.text1}</MLeftTitle>
                             <MLeftTime>{m_detaildata.session8.text2}</MLeftTime>
@@ -300,6 +315,7 @@ const Home_day1 = () => {
                                 </MRightSection>
                             </MRightInner>
                         </MRight>
+                        </MmiddleArea>
                     </MSection>
                 </MInner>
             </MWrapper> 
@@ -433,13 +449,18 @@ const MCal_TopArea = styled(Cal_TopArea)`
 const MSection = styled.div`
     width : 100%;
     height : auto;
-    display : flex;
+    /* display : flex; */
     border-bottom : 1px solid ${color.turtle_green};
     padding : 12px 0;
     &:last-child {
         border-bottom : none;
     }
 `
+const MmiddleArea = styled.div`
+    display : flex;
+    width : 100%;
+`
+
 const MLeftInner = styled.div`
     width : 182px;
     height : auto;
@@ -490,7 +511,6 @@ const MRightSection = styled.div`
 const MRightName = styled.div`
     font-size: 14px;
     font-weight : 500;
-    color: ${color.black};
     margin-bottom : 2px;
     &:nth-child(3),
     &:nth-child(4),

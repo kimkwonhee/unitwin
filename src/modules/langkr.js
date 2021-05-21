@@ -1059,7 +1059,7 @@ export const langkr = {
                                 enname : '',
                                 job : '- 바라예술성장연구소 소장, 대한민국',
                                 contents : '김태희 바라예술성장연구소 소장은 예술가이자 예술교육자로서 저술과 강연, 연구와 컨설팅, 예술 활동을 통해 아이부터 노년에 이르기까지 본능과도 같은 모두의 예술 할 권리를 주장, 옹호하고 있습니다. 서울시 서울문화재단 생활문화주간 예술감독을 역임하였고, 현재는 동아일보(여성동아) 예술감독 및 지자체 문화재단과 정부, 기업에서 컨설턴트로 활동 중입니다. 대표 저서로는 학부모와 예술교사들에게 예술교육에 대한 영감을 준『행복한 인재로 키우는 예술의 힘』, 유·아동의 자발성과 창의성을 이끌어내는 예술교육서 『아이중심·놀이중심의 예술수업』등이 있습니다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Tei_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
@@ -2602,7 +2602,7 @@ export const langkr = {
                     {
                         img : plsession_img_02,
                         moder : '',
-                        hashtag : 'Benjamin',
+                        mhashtag : 'MBenjamin',
                         name : '베냐민 외리슨 ',
                         en_name : '(Benjamin Jörissen)',
                         li_title : '- 유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회 정회원 / 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교 유네스코 문화예술교육 체어 의장, 독일',
@@ -2613,7 +2613,7 @@ export const langkr = {
                     {
                         img : session_img_43,
                         moder : '[모더레이터]',
-                        hashtag : 'Tanja',
+                        mhashtag : 'MTanja',
                         name : '타냐 클레패키 ',
                         en_name : '(Tanja Klepacki)',
                         li_title : '- 프리드리히 알렉산더 에를랑겐-뉘른베르크 대학교 유네스코 문화예술교육 체어 선임 연구원, 독일',
@@ -2724,6 +2724,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_01,
+                                mhashtag : 'MYongSung',
                                 name : '정용성',
                                 enname : '',
                                 job : '- 국립극단 팀장, 대한민국',
@@ -2742,7 +2743,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_02,
-                                name : '이은수',
+                                mhashtag : 'MEunsu',
                                 enname : '',
                                 job : '- 국립현대미술관 주무관, 대한민국',
                                 contents : '국립현대미술관에서 약 15년간 근무하면서 작가와 작품 등 다양한 시각예술 콘텐츠를 관객을 중심으로 소통의 관점에서 바라보는 시야를 갖고 있다. 서울관 개관 이후 현재까지 기관 내 독보적으로 고객서비스 전담 주무관으로 활동하며 관람객들에게 보다 나은 문화예술 경험을 제공하기 위해 다양한 프로그램을 기획 · 운영하였다.\n\n'
@@ -2760,6 +2761,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_03,
+                                mhashtag : 'MSowon',
                                 name : '김소원',
                                 enname : '',
                                 job : '- 성북문화재단 학예연구사, 대한민국',
@@ -2777,6 +2779,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_04,
+                                mhashtag : 'MSu_youn',
                                 name : '김수연',
                                 enname : '',
                                 job : '- 경성대학교 조교수, 대한민국',
@@ -2794,7 +2797,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_05,
-                                hashtag : 'Boram',
+                                mhashtag : 'MBoram',
                                 name : '이보람',
                                 enname : '',
                                 job : '- 사우스 오스트레일리아 대학교 교수, 대한민국',
@@ -2812,6 +2815,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                mhashtag : 'MKiwon',
                                 name : '홍기원',
                                 enname : '',
                                 job : '- 한국예술종합학교 교수, 대한민국',
@@ -2838,6 +2842,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_06,
+                                mhashtag : 'MTiina',
                                 name : '티나 쿠코넌 ',
                                 enname : '(Tiina Kukkonen)',
                                 job : '- 퀸스 대학교 박사과정생, 캐나다',
@@ -2856,6 +2861,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_07,
+                                mhashtag : 'MSanja',
                                 name : '사냐 크르노마노비츠 타시치 ',
                                 enname : '(Sanja Krsmanović Tasić)',
                                 job : '- 국제연극교육협회(IDEA) 이사장, 세르비아',
@@ -2876,6 +2882,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_08,
+                                mhashtag : 'MMC_Bettman',
                                 name : '엠시 베트만 ',
                                 enname : '(MC Bettman)',
                                 job : '- 남아프리카 대학교 조교수, 남아프리카 공화국',
@@ -2896,6 +2903,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_09,
+                                mhashtag : 'MChaeyeon',
                                 name : '김채연',
                                 enname : '',
                                 job : '- (사)한국임상미술치료협회 회장, 대한민국',
@@ -2913,6 +2921,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                mhashtag : 'MGloria',
                                 name : '글로리아 자파타 ',
                                 enname : '(Gloria P. Zapata)',
                                 job : '- 후안 코르파스 대학재단 및 보고타 지역 대학교 유네스코 체어, 콜롬비아',
@@ -2940,11 +2949,12 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_11,
+                                mhashtag : 'MTei',
                                 name : '김태희',
                                 enname : '',
                                 job : '- 바라예술성장연구소 소장, 대한민국',
                                 contents : '김태희 바라예술성장연구소 소장은 예술가이자 예술교육자로서 저술과 강연, 연구와 컨설팅, 예술 활동을 통해 아이부터 노년에 이르기까지 본능과도 같은 모두의 예술 할 권리를 주장, 옹호하고 있습니다. 서울시 서울문화재단 생활문화주간 예술감독을 역임하였고, 현재는 동아일보(여성동아) 예술감독 및 지자체 문화재단과 정부, 기업에서 컨설턴트로 활동 중입니다. 대표 저서로는 학부모와 예술교사들에게 예술교육에 대한 영감을 준『행복한 인재로 키우는 예술의 힘』, 유·아동의 자발성과 창의성을 이끌어내는 예술교육서 『아이중심·놀이중심의 예술수업』등이 있습니다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Tei_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
@@ -2957,6 +2967,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_42,
+                                mhashtag : 'MCharlene',
                                 name : '샬린 라헨드란 ',
                                 enname : '(Charlene Rajendran)',
                                 job : '- 난양 공과대학교 조교수, 싱가포르',
@@ -2975,6 +2986,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_13,
+                                mhashtag : 'MNan_Zhang',
                                 name : '난 장 ',
                                 enname : '(Nan Zhang)',
                                 job : '- 모내시 대학교 박사과정생, 중국',
@@ -2995,6 +3007,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_14,
+                                mhashtag : 'MYaara',
                                 name : '야라 도크래트 ',
                                 enname : '(Yaara Docrat)',
                                 job : '- 퀸스 대학교 석사과정생, 캐나다',
@@ -3013,6 +3026,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_16,
+                                mhashtag : 'MNeryl',
                                 name : '네릴 지네렛 ',
                                 enname : '(Neryl Jeanneret)',
                                 job : '- 멜버른 대학교 부교수, 호주',
@@ -3039,6 +3053,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                mhashtag : 'MBenjamin',
                                 name : '벤저민 볼든 ',
                                 enname : '(Benjamin Bolden)',
                                 job : '- 퀸스 대학교 부교수, 캐나다',
@@ -3050,6 +3065,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_16,
+                                mhashtag : 'MNeryl',
                                 name : '네릴 지네렛 ',
                                 enname : '(Neryl Jeanneret)',
                                 job : '- 멜버른 부교수, 호주',
@@ -3067,6 +3083,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                mhashtag : 'MChee_Hoo',
                                 name : '치후 럼 ',
                                 enname : '(Chee-Hoo Lum)',
                                 job : '- 난양 공과대학교 부교수, 싱가포르',
@@ -3079,6 +3096,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_18,
+                                mhashtag : 'MZen',
                                 name : '젠 테 ',
                                 enname : '(Zen Teh)',
                                 job : '- 환경예술가 및 교육자, 싱가포르',
@@ -3097,6 +3115,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_19,
+                                mhashtag : 'MKathryn',
                                 name : '캐서린 콜먼 ',
                                 enname : '(Kathryn Coleman) ',
                                 job : '- 맬버른 대학교 부교수, 호주',
@@ -3108,6 +3127,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_20,
+                                mhashtag : 'MMark',
                                 name : '마크 셀크리그 ',
                                 enname : '(Mark Selkrig)',
                                 job : '- 맬버른 대학교 부교수, 호주',
@@ -3119,6 +3139,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_21,
+                                mhashtag : 'MAbbey',
                                 name : '애비 맥도널드 ',
                                 enname : '(Abbey MacDonald)',
                                 job : '- 태즈매니아 대학교 부교수, 호주',
@@ -3136,6 +3157,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : closing_img_03,
+                                mhashtag : 'MInSul',
                                 name : '김인설',
                                 enname : '',
                                 job : '- 가톨릭대학교 부교수, 대한민국',
@@ -3162,6 +3184,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_22,
+                                mhashtag : 'MMary',
                                 name : '메리 클레어 키덴다 ',
                                 enname : '(Mary Clare Kidenda)',
                                 job : '- 케냐 공과대학교 학과장, 케냐',
@@ -3180,6 +3203,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_23,
+                                mhashtag : 'MEmily',
                                 name : '에밀리 맥밀런 ',
                                 enname : '(Emily MacMillan)',
                                 job : '- 퀸스 대학교 석사과정생, 캐나다',
@@ -3198,6 +3222,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_24,
+                                mhashtag : 'MJihea',
                                 name : '홍지혜',
                                 enname : '',
                                 job : '- 브리검 영 대학교 부교수, 미국',
@@ -3216,6 +3241,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_25,
+                                mhashtag : 'MWilson',
                                 name : '에밀리 윌슨 ',
                                 enname : '(Emily Wilson)',
                                 job : '- 멜버른 대학교 조교수, 호주',
@@ -3227,6 +3253,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_16,
+                                mhashtag : 'MNeryl',
                                 name : '네릴 지네렛 ',
                                 enname : '(Neryl Jeanneret)',
                                 job : '- 멜버른 대학교 부교수, 호주',
@@ -3244,6 +3271,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_15,
+                                mhashtag : 'MBenjamin',
                                 name : '벤저민 볼든 ',
                                 enname : '(Emily Wilson)',
                                 job : '- 퀸스 대학교 부교수, 캐나다',
@@ -3270,6 +3298,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_41,
+                                mhashtag : 'MRebecca',
                                 name : '레베카 칸 ',
                                 enname : '(Rebecca Kan)',
                                 job : '- 난양 미술 아카데미 부총장, 싱가포르',
@@ -3282,6 +3311,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_29,
+                                mhashtag : 'MFoo',
                                 name : '푸 세이 밍 ',
                                 enname : '(Foo Say Ming)',
                                 job : '- 난양 미술 아카데미 학장, 싱가포르',
@@ -3294,6 +3324,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_30,
+                                mhashtag : 'MTan',
                                 name : '탄 젱 수안 ',
                                 enname : '(Tan Jeng Suan)',
                                 job : '- 난양 미술 아카데미 조교, 싱가포르',
@@ -3312,6 +3343,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_27,
+                                mhashtag : 'MHyeYoun',
                                 name : '정혜연',
                                 enname : '',
                                 job : '- 홍익대학교 조교수, 대한민국',
@@ -3323,6 +3355,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_28,
+                                mhashtag : 'MHyojin',
                                 name : '성효진',
                                 enname : '',
                                 job : '- 홍익대학교 석사과정생 / 국제갤러리 전시팀 , 대한민국',
@@ -3340,6 +3373,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_26,
+                                mhashtag : 'MHwan_Jung',
                                 name : '제환정',
                                 enname : '',
                                 job : '- 한국예술종합학교 객원교수, 대한민국',
@@ -3357,6 +3391,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_10,
+                                mhashtag : 'MJeff',
                                 name : '제프 풀린 ',
                                 enname : '(Jeff Poulin)',
                                 job : '- 크리에이티브 제너레이션 전무이사, 미국',
@@ -3374,6 +3409,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : closing_img_04,
+                                mhashtag : 'MHyesun',
                                 name : '신혜선',
                                 enname : '',
                                 job : '- 위컬쳐 리서치 & 컨설팅 대표, 대한민국',
@@ -3401,6 +3437,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_31,
+                                mhashtag : 'MRuth',
                                 name : '루스 렌츠러 ',
                                 enname : '(Ruth Rentschler)',
                                 job : '- 사우스 오스트레일리아 대학교 교수, 호주',
@@ -3419,6 +3456,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_32,
+                                mhashtag : 'MJi_young',
                                 name : '심지영',
                                 enname : '',
                                 job : '- 홍익대학교 조교수, 대한민국',
@@ -3437,6 +3475,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_33,
+                                mhashtag : 'MYuri',
                                 name : '김유리',
                                 enname : '',
                                 job : '- 이화여자대학교 박사과정생, 대한민국',
@@ -3449,6 +3488,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_34,
+                                mhashtag : 'MSojung',
                                 name : '박소정',
                                 enname : '',
                                 job : '- 이화여자대학교 조교수, 대한민국',
@@ -3467,6 +3507,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_35,
+                                mhashtag : 'MSean',
                                 name : '숀 코르코란 ',
                                 enname : '(Sean Corcoran)',
                                 job : '- 퀸스 대학교 박사과정생 , 캐나다',
@@ -3478,6 +3519,7 @@ export const langkr = {
                             },
                             {
                                 imgs : session_img_15,
+                                mhashtag : 'MBenjamin',
                                 name : '벤저민 볼든 ',
                                 enname : '(Benjamin Bolden)',
                                 job : '- 퀸스 대학교 부교수, 캐나다',
@@ -3496,6 +3538,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_17,
+                                mhashtag : 'MChee_Hoo',
                                 name : '치후 럼 ',
                                 enname : '(Chee-Hoo Lum)',
                                 job : '- 난양 공과대학교 부교수, 싱가포르',
@@ -3523,6 +3566,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_36,
+                                mhashtag : 'MSoohye',
                                 name : '장수혜',
                                 enname : '',
                                 job : '- 책누나프로젝트 대표, 대한민국',
@@ -3540,6 +3584,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_37,
+                                mhashtag : 'MYunji',
                                 name : '공윤지',
                                 enname : '',
                                 job : '- 프리랜서 문화예술교육사, 대한민국',
@@ -3558,6 +3603,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_38,
+                                mhashtag : 'MHyunjung',
                                 name : '이현정',
                                 enname : '',
                                 job : '- 지아정원 대표 / 이화여자대학교 박사과정생, 대한민국',
@@ -3575,6 +3621,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_39,
+                                mhashtag : 'MSungjong',
                                 name : '배성종',
                                 enname : '',
                                 job : '- 예술 강사, 대한민국',
@@ -3593,6 +3640,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : session_img_40,
+                                mhashtag : 'MYounghee',
                                 name : '최영희',
                                 enname : '',
                                 job : '- 한국문화예술교육진흥원 미래교육팀 팀장, 대한민국',
@@ -3610,6 +3658,7 @@ export const langkr = {
                         li_data : [
                             {
                                 imgs : byob_img_02,
+                                mhashtag : 'MYujin',
                                 name : '홍유진',
                                 enname : '',
                                 job : '- 한국문화예술교육진흥원 교육기반본부 본부장, 대한민국',
