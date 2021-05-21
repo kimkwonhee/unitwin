@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import backgroud1 from '../../../images/home_bg01.jpg'
 import logo from '../../../images/home_top_logo.png'
 import Preregistrationbtn from '../../atom/Preregistrationbtn'
+import Preregistrationbtn2 from '../../atom/Preregistrationbtn2'
 import PageTopArea from '../../molecules/PageTopArea'
 import color from '../../../style/color'
 import lottie from 'lottie-web'
@@ -49,6 +50,7 @@ const Home_top = ({className , curlang}) => {
                         <PImgTitle status={langstatus} src={p_detaildata.img} alt="title" />
                         <PCalender>{p_detaildata.time}</PCalender>
                         <PApplybtn link={p_detaildata.link}>{p_detaildata.advance}</PApplybtn>
+                        <PApplybtn2 link={p_detaildata.downloadlink}>{p_detaildata.programtext}</PApplybtn2>
                         <PContents 
                             title={p_detaildata.title} 
                             contents={p_detaildata.contents}
@@ -80,7 +82,10 @@ const Home_top = ({className , curlang}) => {
                             subfontsize="20px"
                             homebtn={true}
                         />
-                        <MApplybtn link={m_detaildata.link}>{m_detaildata.advance}</MApplybtn>
+                        <MbtnArea>
+                            <MApplybtn link={m_detaildata.link}>{m_detaildata.advance}</MApplybtn>
+                            <MApplybtn2 link={m_detaildata.downloadlink}>{m_detaildata.programtext}</MApplybtn2>
+                        </MbtnArea>
                     </MContentsArea>
                 </MInner>
             </MWrapper>
@@ -146,6 +151,10 @@ const PCalender = styled.div`
     color: ${color.black};
 `
 const PApplybtn = styled(Preregistrationbtn)`
+    margin-bottom : 16px;
+`
+const PApplybtn2 = styled(Preregistrationbtn2)`
+    margin-bottom : 16px;
 `
 const PContents = styled(PageTopArea)`
     margin-top : 180px;
@@ -207,12 +216,20 @@ const MCalender = styled.div`
     font-weight: bold;
     color: ${color.black};
 `
-const MApplybtn = styled(Preregistrationbtn)`
+const MbtnArea = styled.div`
     margin-top : 24px;
-    width : 100%;
+    display : flex;
+`
+const MApplybtn = styled(Preregistrationbtn)`
+    width : 168px;
     height : 48px;
     font-size: 14px;
-    
+    margin-right : 7px;
+`
+const MApplybtn2 = styled(Preregistrationbtn2)`
+    width : 168px;
+    height : 48px;
+    font-size: 14px;  
 `
 const MContents = styled(PageTopArea)`
 `

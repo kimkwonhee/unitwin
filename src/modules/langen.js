@@ -58,6 +58,9 @@ import session_img_42 from '../images/session_49.png'
 import session_img_43 from '../images/session_50.png'
 import session_img_44 from '../images/session_51.png'
 import session_img_45 from '../images/session_52.png'
+import session_img_46 from '../images/session_53.png'
+import session_img_47 from '../images/session_54.png'
+import session_img_48 from '../images/session_55.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -115,7 +118,9 @@ export const langen = {
             title : 'About',
             time : '24 ~ 26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
+            downloadlink : '',
             advance : 'APPLICATION',
+            programtext : '프로그램북 다운로드',
             contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
                         +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
                         +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
@@ -796,7 +801,7 @@ export const langen = {
                     { id : 29, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 30, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 31, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 32, img : session_img_10, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 32, img : session_img_47, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 33, img : session_img_31, name : 'Ruth Rentschler' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
                     { id : 34, img : session_img_32, name : 'Ji-young Shim' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
                     { id : 35, img : session_img_33, name : 'Yuri Kim ' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
@@ -920,7 +925,7 @@ export const langen = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_48,
                                 hashtag : 'Kiwon',
                                 name : 'Kiwon Hong',
                                 enname : '',
@@ -1027,7 +1032,7 @@ export const langen = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_46,
                                 hashtag : 'Gloria',
                                 name : 'Gloria P. Zapata',
                                 enname : '',
@@ -1500,15 +1505,15 @@ export const langen = {
                         li_title : "The Creative Generation and Arts Education Innovations through the Crises of 2020",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_47,
                                 hashtag : 'Jeff',
                                 name : 'Jeff Poulin',
                                 enname : '',
                                 job : '- Managing Director, Creative Generation, USA',
                                 contents : '',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                downlink : env.link + '/Jeff_Poulin.pptx',
                                 abdownlink : env.link + '/Abstract_Jeff_Poulin.pdf',
                             }
                         ]
@@ -1683,9 +1688,9 @@ export const langen = {
                                 job : '- Founding Director, Chaeknuna Project, Republic of Korea',
                                 contents : "Soohye Jang is a founding director of Chaeknuna Project, a nonprofit organization for book and arts education, an independent performing arts producer, and a researcher based in Seoul, Korea. Since 2013, she has been creating inclusive and creative classes using picture books in libraries, schools, and social welfare centers along with a group of volunteers and teaching artists across the country.\n\n"
                                            +'She earned her MFA in Arts Leadership at Seattle University and is a current Ph.D. candidate of Culture and Arts Management at Hongik University.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Soohye_Jang.pdf',
                                 abdownlink : env.link + '/Abstract_Soohye_Jang.pdf',
                             }
                         ]
@@ -2099,7 +2104,9 @@ export const langen = {
             title : 'About',
             time : '24 ~ 26 MAY, 2021',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
+            downloadlink : '',
             advance : 'APPLICATION',
+            programtext : '프로그램북 다운로드',
             contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
                         +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
                         +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
@@ -2697,7 +2704,7 @@ export const langen = {
                     { id : 29, img : session_img_27, name : 'Hyeyoun Chung ' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 30, img : session_img_28, name : 'Hyojin Sung' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 31, img : session_img_26, name : 'Hwan Jung Jae' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
-                    { id : 32, img : session_img_10, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
+                    { id : 32, img : session_img_47, name : 'Jeff Poulin' , title : "Arts Engagement", link : "/unitwin2021/session/6", catagory : 'Art'},
                     { id : 33, img : session_img_31, name : 'Ruth Rentschler' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
                     { id : 34, img : session_img_32, name : 'Ji-young Shim' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
                     { id : 35, img : session_img_33, name : 'Yuri Kim ' , title : "Diversity & Cultural Representation", link : "/unitwin2021/session/7", catagory : 'Equality'},
@@ -2822,7 +2829,7 @@ export const langen = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_48,
                                 mhashtag : 'MKiwon',
                                 name : 'Kiwon Hong',
                                 enname : '',
@@ -2929,7 +2936,7 @@ export const langen = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_46,
                                 mhashtag : 'MGloria',
                                 name : 'Gloria P. Zapata',
                                 enname : '',
@@ -3402,15 +3409,15 @@ export const langen = {
                         li_title : "The Creative Generation and Arts Education Innovations through the Crises of 2020",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_47,
                                 mhashtag : 'MJeff',
                                 name : 'Jeff Poulin',
                                 enname : '',
                                 job : '- Managing Director, Creative Generation, USA',
                                 contents : '',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                downlink : env.link + '/Jeff_Poulin.pptx',
                                 abdownlink : env.link + '/Abstract_Jeff_Poulin.pdf',
                             }
                         ]
@@ -3585,9 +3592,9 @@ export const langen = {
                                 job : '- Founding Director, Chaeknuna Project, Republic of Korea',
                                 contents : "Soohye Jang is a founding director of Chaeknuna Project, a nonprofit organization for book and arts education, an independent performing arts producer, and a researcher based in Seoul, Korea. Since 2013, she has been creating inclusive and creative classes using picture books in libraries, schools, and social welfare centers along with a group of volunteers and teaching artists across the country.\n\n"
                                            +'She earned her MFA in Arts Leadership at Seattle University and is a current Ph.D. candidate of Culture and Arts Management at Hongik University.',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Soohye_Jang.pdf',
                                 abdownlink : env.link + '/Abstract_Soohye_Jang.pdf',
                             }
                         ]

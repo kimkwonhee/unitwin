@@ -8,9 +8,10 @@ import color from '../../../style/color'
 import { useSelector } from 'react-redux'
 import ReactGA from 'react-ga'
 import photoimg from '../../../images/photo_icon.png'
+import { Helmet } from "react-helmet"
 
 
-const Pr_Detail = ({match, location}) => {
+const Pr_Detai2 = ({match, location}) => {
     
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -34,119 +35,32 @@ const Pr_Detail = ({match, location}) => {
         window.scrollTo(0,0);
     },[curlang, location.pathname]);
 
-    let pathname = match.params.pr_detail
-
-    // pc
-    let P_topsection = null
-    let P_video_section = null
-    let P_logo_img = null
-    let P_sectionlist = null
-    let P_discription = null
-    let P_photoaddress = null
-
-    // mobile
-    let M_topsection = null
-    let M_videosection = null
-    let M_logo_img = null
-    let M_photoaddress = null
-    let M_discription = null
-    let M_sectionlist = null
-
-    if(pathname == '1') {
-        // session 1
-        // pc
-        P_topsection = <PTop title={p_detaildata.session1.title}/>
-        P_video_section = <PVideo youtube={p_detaildata.session1.youtube} height="675px"/>
-        P_logo_img = <PLogoImg src={p_detaildata.session1.img} alt="logo"/>
-        P_sectionlist = p_detaildata.session1.list;
-        P_discription = p_detaildata.session1.discription;
-        P_photoaddress = p_detaildata.session1.photo;
-
-        // mobile
-        M_topsection = <MTop title={m_detaildata.session1.title}/>
-        M_videosection = <MVideo youtube={m_detaildata.session1.youtube}/>
-        M_logo_img = <MLogoImg src={m_detaildata.session1.img} alt="logo" />
-        M_photoaddress = m_detaildata.session1.photo;
-        M_discription = m_detaildata.session1.discription;
-        M_sectionlist = m_detaildata.session1.list;
-    }else if(pathname == '2') {
-        // session 2
-        // pc
-        P_topsection = <PTop title={p_detaildata.session2.title}/>
-        P_video_section = <PVideo youtube={p_detaildata.session2.youtube} height="675px"/>
-        P_logo_img = <PLogoImg src={p_detaildata.session2.img} alt="logo"/>
-        P_sectionlist = p_detaildata.session2.list;
-        P_discription = p_detaildata.session2.discription;
-        P_photoaddress = p_detaildata.session2.photo;
-
-        // mobile
-        M_topsection = <MTop title={m_detaildata.session2.title}/>
-        M_videosection = <MVideo youtube={m_detaildata.session2.youtube}/>
-        M_logo_img = <MLogoImg src={m_detaildata.session2.img} alt="logo" />
-        M_photoaddress = m_detaildata.session2.photo;
-        M_discription = m_detaildata.session2.discription;
-        M_sectionlist = m_detaildata.session2.list;
-    } else if(pathname == '3') {
-        // session 3
-        // pc
-        P_topsection = <PTop title={p_detaildata.session3.title}/>;
-        P_video_section = <PVideo youtube={p_detaildata.session3.youtube} height="675px"/>
-        P_logo_img = <PLogoImg src={p_detaildata.session3.img} alt="logo"/>
-        P_sectionlist = p_detaildata.session3.list;
-        P_discription = p_detaildata.session3.discription;
-        P_photoaddress = p_detaildata.session3.photo;
-
-        // mobile
-        M_topsection = <MTop title={m_detaildata.session3.title}/>
-        M_videosection = <MVideo youtube={m_detaildata.session3.youtube}/>
-        M_logo_img = <MLogoImg src={m_detaildata.session3.img} alt="logo" />
-        M_photoaddress = m_detaildata.session3.photo;
-        M_discription = m_detaildata.session3.discription;
-        M_sectionlist = m_detaildata.session3.list;
-    } else if(pathname == '4') {
-        // session 4
-        // pc
-        P_topsection = <PTop title={p_detaildata.session4.title}/>;
-        P_video_section = <PVideo youtube={p_detaildata.session4.youtube} height="675px"/>
-        P_logo_img = <PLogoImg src={p_detaildata.session4.img} alt="logo"/>
-        P_sectionlist = p_detaildata.session4.list;
-        P_discription = p_detaildata.session4.discription;
-        P_photoaddress = p_detaildata.session4.photo;
-
-        // mobile
-        M_topsection = <MTop title={m_detaildata.session4.title}/>
-        M_videosection = <MVideo youtube={m_detaildata.session4.youtube}/>
-        M_logo_img = <MLogoImg src={m_detaildata.session4.img} alt="logo" />
-        M_photoaddress = m_detaildata.session4.photo;
-        M_discription = m_detaildata.session4.discription;
-        M_sectionlist = m_detaildata.session4.list;
-    }
-
     return (
         <>
+            <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/pre-session/2" />
             {/* pc */}
             <PWrapper>
                 <PInner>
-                    {P_topsection}
-                    {P_video_section}
+                    <PTop title={p_detaildata.session2.title}/>
+                    <PVideo youtube={p_detaildata.session2.youtube} height="675px"/>
                     <PContentsArea>
                         <PLogoArea>
-                            {P_logo_img}
+                            <PLogoImg src={p_detaildata.session2.img} alt="logo"/>
                         </PLogoArea>
                         <PTextArea>
                             <PTextTop>
-                                <PPhotobtnArea href={P_photoaddress} target="_blank">
+                                <PPhotobtnArea href={p_detaildata.session2.photo} target="_blank">
                                     <PPototext>{curlang.p_data.phototext}</PPototext>
                                     <PPotoimg src={photoimg} alt="아이콘"/>
                                 </PPhotobtnArea>
                             </PTextTop>
-                            <PDiscription>{P_discription}</PDiscription>
+                            <PDiscription>{p_detaildata.session2.discription}</PDiscription>
                         </PTextArea>
                     </PContentsArea>
                     <PListArea>
                         <PItemTitle>{curlang.p_data.pr_showcase.title}</PItemTitle>
                         <PSection>
-                            {P_sectionlist.map(list => {
+                            {p_detaildata.session2.list.map(list => {
                                 return <PlanSesionbtn 
                                             key={list.id}
                                             src={list.img} 
@@ -161,29 +75,29 @@ const Pr_Detail = ({match, location}) => {
             {/* mobile */}
             <MWrapper>
                 <MTopArea>
-                    {M_topsection}
+                    <MTop title={m_detaildata.session2.title}/>
                 </MTopArea>
                 <MVideoArea>
-                    {M_videosection}
+                    <MVideo youtube={m_detaildata.session2.youtube}/>
                 </MVideoArea>
                 <MTextArea>
-                    {M_logo_img}
-                    <MPhotobtnArea href={M_photoaddress} target="_blank">
+                    <MLogoImg src={m_detaildata.session2.img} alt="logo" />
+                    <MPhotobtnArea href={m_detaildata.session2.photo} target="_blank">
                         <MPototext>{curlang.p_data.phototext}</MPototext>
                         <MPotoimg src={photoimg} alt="아이콘"/>
                     </MPhotobtnArea>
-                    <MDiscription>{M_discription}</MDiscription>
+                    <MDiscription>{m_detaildata.session2.discription}</MDiscription>
                 </MTextArea>
                 <MItemSection>
                     <MItemSubject>{curlang.p_data.pr_showcase.title}</MItemSubject>
-                    {M_sectionlist.map(list => {
+                    {m_detaildata.session2.list.map(list => {
                         return <MItemInner>
                                     <MItemLogoArea>
                                         <MLogo src={list.img} alt={list.alt}/>
                                     </MItemLogoArea>
                                     <MItemTextArea>
                                         <MItemTitle>{list.name}</MItemTitle>
-                                        <MLink href={list.link}>
+                                        <MLink to={list.link}>
                                             <MMoreArea>
                                                 <MMorebtn>More &#62;</MMorebtn>
                                             </MMoreArea>
@@ -378,7 +292,7 @@ const MItemTitle = styled.div`
     color: ${color.black};
     margin-bottom : 12px;
 `
-const MLink = styled.a`
+const MLink = styled(Link)`
     text-decoration : none;
 `
 const MMoreArea = styled.div`
@@ -400,4 +314,4 @@ const MMorebtn = styled.div`
     color: ${color.white};
 `
 
-export default withRouter(Pr_Detail)
+export default withRouter(Pr_Detai2)

@@ -30,8 +30,7 @@ const Personbtn = ({className, src, name, title}) => {
                                     <PWTitleTxt>{title}</PWTitleTxt>
                                     <PWLinkTxt>{curlang.p_data.videobtn}</PWLinkTxt>
                                 </PWTitle>
-                            </Fade>
-                            
+                            </Fade>   
                         </PWHover>
                     </PPrsImg>
                 <PName>{name}</PName>

@@ -13,6 +13,10 @@ import Footer from './components/organism/Footer'
 import Pl_Detail from './components/organism/plenarysession/Pl_Detail'
 import Se_Detail from './components/organism/session/Se_Detail'
 import Pr_Detail from './components/organism/preshowcase/Pr_Detail'
+import Pr_Detail1 from './components/organism/preshowcase/Pr_Detail1'
+import Pr_Detail2 from './components/organism/preshowcase/Pr_Detail2'
+import Pr_Detail3 from './components/organism/preshowcase/Pr_Detail3'
+import Pr_Detail4 from './components/organism/preshowcase/Pr_Detail4'
 import 'antd/dist/antd.css'
 import { useSelector } from 'react-redux'
 import env from './modules/env'
@@ -62,7 +66,10 @@ const App = () => {
         <Route path={env.path+'/plenary-session'} component={_PlenarySession}/>
         <Route path={env.path+'/session/:se_detail'} component={Se_Detail}/>
         <Route path={env.path+'/session'} component={_Session}/>
-        <Route path={env.path+'/presession-showcase/:pr_detail'} component={Pr_Detail}/>
+        <Route path={env.path+'/presession-showcase/1'} component={Pr_Detail1}/>
+        <Route path={env.path+'/presession-showcase/2'} component={Pr_Detail2}/>
+        <Route path={env.path+'/presession-showcase/3'} component={Pr_Detail3}/>
+        <Route path={env.path+'/presession-showcase/4'} component={Pr_Detail4}/>
         <Route path={env.path+'/presession-showcase'} component={_PreShowcase}/>
         <Route path={env.path+'/byob'} component={_Byob}/>
         <Route path={env.path+'/closing-ceremony'} component={_Closing}/>

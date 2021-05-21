@@ -1,11 +1,18 @@
 import React from 'react'
 import styled from 'styled-components'
-import {withRouter } from 'react-router-dom'
+import {withRouter, Link, useHistory } from 'react-router-dom'
 
 const PlanSesionbtn = ({src, name, link}) => {
+    
+    let history = useHistory();
+    
+    // const onClick = () => {
+    //     history.replace(link);
+    // }
+
     return (
         <>
-            <PLinkTag href={link}>
+            <PLinkTag to={link} replace={true}>
                 <PWrapper>
                     <PImgArea>
                         <PlImg src={src} alt={name}/>
@@ -43,7 +50,7 @@ const PlImg = styled.img`
         background : rgba(0,0,0, .04);
     }
 `
-const PLinkTag = styled.a`
+const PLinkTag = styled(Link)`
     text-decoration : none !important;
 `
 

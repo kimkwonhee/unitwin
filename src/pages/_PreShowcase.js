@@ -134,7 +134,9 @@ const _PreShowcase = () => {
                                 <MItemTitle>{m_detaildata.session1.company}</MItemTitle>
                                 <MItemContents>{m_detaildata.session1.contents}</MItemContents>
                                 <MLink to={m_detaildata.session1.link}>
-                                    <MMorebtn>More &#62;</MMorebtn>
+                                    <MMoreArea>
+                                        <MMorebtn>More &#62;</MMorebtn>
+                                    </MMoreArea>
                                 </MLink>
                             </MTextArea>
                         </MItemInner>
@@ -146,7 +148,9 @@ const _PreShowcase = () => {
                                 <MItemTitle>{m_detaildata.session2.company}</MItemTitle>
                                 <MItemContents>{m_detaildata.session2.contents}</MItemContents>
                                 <MLink to={m_detaildata.session2.link}>
-                                    <MMorebtn>More &#62;</MMorebtn>
+                                    <MMoreArea>
+                                        <MMorebtn>More &#62;</MMorebtn>
+                                    </MMoreArea>
                                 </MLink>
                             </MTextArea>
                         </MItemInner>
@@ -158,7 +162,9 @@ const _PreShowcase = () => {
                                 <MItemTitle>{m_detaildata.session3.company}</MItemTitle>
                                 <MItemContents>{m_detaildata.session3.contents}</MItemContents>
                                 <MLink to={m_detaildata.session3.link}>
-                                    <MMorebtn>More &#62;</MMorebtn>
+                                    <MMoreArea>
+                                        <MMorebtn>More &#62;</MMorebtn>
+                                    </MMoreArea>
                                 </MLink>
                             </MTextArea>
                         </MItemInner>
@@ -170,7 +176,9 @@ const _PreShowcase = () => {
                                 <MItemTitle>{m_detaildata.session4.company}</MItemTitle>
                                 <MItemContents>{m_detaildata.session4.contents}</MItemContents>
                                 <MLink to={m_detaildata.session4.link}>
-                                    <MMorebtn>More &#62;</MMorebtn>
+                                    <MMoreArea>
+                                        <MMorebtn>More &#62;</MMorebtn>
+                                    </MMoreArea>
                                 </MLink>
                             </MTextArea>
                         </MItemInner>
@@ -450,13 +458,26 @@ const MItemContents = styled.div`
     white-space : pre-line;
     word-break : keep-all;
 `
+const MLink = styled(Link)`
+    text-decoration : none;
+`
+const MMoreArea = styled.div`
+    /* margin-top : 28px; */
+    width :62px;
+    height : 26px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color: ${color.turtle_green};
+    transition : .6s;
+    &:hover {
+        opacity : 0.8;
+    }
+`
 const MMorebtn = styled.div`
     font-size: 12px;
     font-weight: 500;
-    color: ${color.turtle_green};
-`
-const MLink = styled(Link)`
-    text-decoration : none;
+    color: ${color.white};
 `
 
 export default _PreShowcase

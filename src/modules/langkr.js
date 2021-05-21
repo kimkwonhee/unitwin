@@ -56,6 +56,9 @@ import session_img_42 from '../images/session_49.png'
 import session_img_43 from '../images/session_50.png'
 import session_img_44 from '../images/session_51.png'
 import session_img_45 from '../images/session_52.png'
+import session_img_46 from '../images/session_53.png'
+import session_img_47 from '../images/session_54.png'
+import session_img_48 from '../images/session_55.png'
 import byob_img_01 from '../images/session_26.png'
 import byob_img_02 from '../images/session_27.png'
 import byob_img_03 from '../images/session_33.png'
@@ -113,7 +116,9 @@ export const langkr = {
             title : '행사소개',
             time : '2021.05.24 ~ 05.26',
             link : 'https://event-us.kr/KnKPI0mLveYY/event/31441',
+            downloadlink : '',
             advance : '사전신청하기',
+            programtext : '프로그램북 다운로드',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
                       +'제4회 유니트윈 국제 학술대회는 "위기의 시대, 행동하는 예술교육"을 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있게 기여할 수 있는지 논하려 합니다.',
             subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전 가능한 예술교육 연구 모임\n'
@@ -796,7 +801,7 @@ export const langkr = {
                     { id : 29, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 30, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 31, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 32, img : session_img_47, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 33, img : session_img_31, name : '루스 렌츠러' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 35, img : session_img_33, name : '김유리' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
@@ -919,7 +924,7 @@ export const langkr = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_48,
                                 hashtag : 'Kiwon',
                                 name : '홍기원',
                                 enname : '',
@@ -1025,7 +1030,7 @@ export const langkr = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_46,
                                 hashtag : 'Gloria',
                                 name : '글로리아 자파타 ',
                                 enname : '(Gloria P. Zapata)',
@@ -1496,15 +1501,15 @@ export const langkr = {
                         li_title : "창의 세대(Creative Generation)와 2020년 위기 속 예술 교육의 혁신",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_47,
                                 hashtag : 'Jeff',
                                 name : '제프 풀린 ',
                                 enname : '(Jeff Poulin)',
                                 job : '- 크리에이티브 제너레이션 전무이사, 미국',
                                 contents : '',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                downlink : env.link + '/Jeff_Poulin.pptx',
                                 abdownlink : env.link + '/Abstract_Jeff_Poulin.pdf',
                             }
                         ]
@@ -1677,9 +1682,9 @@ export const langkr = {
                                 enname : '',
                                 job : '- 책누나프로젝트 대표, 대한민국',
                                 contents : "장수혜는 비영리 독서 및 문화예술교육단체, '책누나프로젝트'의 대표이자 공연예술 분야 독립 프로듀서, 연구자이다. 2013년부터 전국의 봉사자 및 예술가들과 함께 도서관, 학교, 사회복지기관 등에서 동화책을 활용한 포용적이고 창의적인 사회문화예술수업을 운영해왔다. 시애틀대학교 예술리더십 석사를 졸업했으며 현재 홍익대학교 문화예술경영학 박사과정에 재학 중이다.",
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Soohye_Jang.pdf',
                                 abdownlink : env.link + '/Abstract_Soohye_Jang.pdf',
                             }
                         ]
@@ -2090,7 +2095,9 @@ export const langkr = {
             title : '행사소개',
             time : '2021.05.24 ~ 05.26',
             link : 'https://event-us.kr/KnKPI0mLveYY/event/31441',
+            downloadlink : '',
             advance : '사전신청하기',
+            programtext : '프로그램북 다운로드',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능발전을 위한 예술교육 연구회"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
                       +'제4회 유니트윈 국제 학술대회는 "위기의 시대, 행동하는 예술교육"을 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있게 기여할 수 있는지 논하려 합니다.',
             subcontents : '※ 유네스코 유니트윈 – 문화다양성과 지속발전 가능한 예술교육 연구 모임\n'
@@ -2691,7 +2698,7 @@ export const langkr = {
                     { id : 29, img : session_img_27, name : '정혜연' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 30, img : session_img_28, name : '성효진' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 31, img : session_img_26, name : '제환정' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
-                    { id : 32, img : session_img_10, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
+                    { id : 32, img : session_img_47, name : '제프 풀린' , title : "예술 참여", link : "/unitwin2021/session/6", catagory : '예술교육가'},
                     { id : 33, img : session_img_31, name : '루스 렌츠러' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 34, img : session_img_32, name : '심지영' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
                     { id : 35, img : session_img_33, name : '김유리' , title : "다양성 & 문화적 대의", link : "/unitwin2021/session/7", catagory : '평등'},
@@ -2814,7 +2821,7 @@ export const langkr = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_48,
                                 mhashtag : 'MKiwon',
                                 name : '홍기원',
                                 enname : '',
@@ -2920,7 +2927,7 @@ export const langkr = {
                         li_title : "",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_46,
                                 mhashtag : 'MGloria',
                                 name : '글로리아 자파타 ',
                                 enname : '(Gloria P. Zapata)',
@@ -3390,15 +3397,15 @@ export const langkr = {
                         li_title : "창의 세대(Creative Generation)와 2020년 위기 속 예술 교육의 혁신",
                         li_data : [
                             {
-                                imgs : session_img_10,
+                                imgs : session_img_47,
                                 mhashtag : 'MJeff',
                                 name : '제프 풀린 ',
                                 enname : '(Jeff Poulin)',
                                 job : '- 크리에이티브 제너레이션 전무이사, 미국',
                                 contents : '',
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hwan_Jung_Jae.pptx',
+                                downlink : env.link + '/Jeff_Poulin.pptx',
                                 abdownlink : env.link + '/Abstract_Jeff_Poulin.pdf',
                             }
                         ]
@@ -3571,9 +3578,9 @@ export const langkr = {
                                 enname : '',
                                 job : '- 책누나프로젝트 대표, 대한민국',
                                 contents : "장수혜는 비영리 독서 및 문화예술교육단체, '책누나프로젝트'의 대표이자 공연예술 분야 독립 프로듀서, 연구자이다. 2013년부터 전국의 봉사자 및 예술가들과 함께 도서관, 학교, 사회복지기관 등에서 동화책을 활용한 포용적이고 창의적인 사회문화예술수업을 운영해왔다. 시애틀대학교 예술리더십 석사를 졸업했으며 현재 홍익대학교 문화예술경영학 박사과정에 재학 중이다.",
-                                download : false,
+                                download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Hyunjung_Lee.pdf',
+                                downlink : env.link + '/Soohye_Jang.pdf',
                                 abdownlink : env.link + '/Abstract_Soohye_Jang.pdf',
                             }
                         ]
