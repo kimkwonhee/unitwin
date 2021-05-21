@@ -9,7 +9,10 @@ import { useSelector } from 'react-redux'
 import SessionBg from '../images/session_bg_pc.png';
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
-import m_logo_title from '../images/m_prelogo_title.png';
+import m_logo1 from '../images/m_prelg_1.png';
+import m_logo2 from '../images/m_prelg_2.png';
+import m_logo3 from '../images/m_prelg_3.png';
+import m_logo4 from '../images/m_prelg_4.png';
 
 const _PreShowcase = () => {
 
@@ -123,7 +126,18 @@ const _PreShowcase = () => {
                     />
                     <MLogoArea>
                         <MBackImg id="animAreaMO" />
-                        <MLogotitle src={m_logo_title} alt="logo title"/>
+                        <MLink to={m_detaildata.session1.link}>
+                            <MLogo1 src={m_logo1} alt="logo1"/>
+                        </MLink>
+                        <MLink to={m_detaildata.session2.link}>
+                            <MLogo2 src={m_logo2} alt="logo1"/>
+                        </MLink>
+                        <MLink to={m_detaildata.session3.link}>
+                            <MLogo3 src={m_logo3} alt="logo1"/>
+                        </MLink>
+                        <MLink to={m_detaildata.session4.link}>
+                            <MLogo4 src={m_logo4} alt="logo1"/>
+                        </MLink>
                     </MLogoArea>
                     <MSection>
                         <MItemInner>
@@ -410,11 +424,28 @@ const MBackImg = styled.div`
     height: 100%;
     opacity : 0.4;
 `
-const MLogotitle = styled.img`
+const MLogo1 = styled.img`
     position : absolute;
     top : 0;
-    width : 100%;
-    height : 100%;
+    left : 30px;
+    z-index : 10;
+`
+const MLogo2 = styled.img`
+    position : absolute;
+    top : 80px;
+    left : 190px;
+    z-index : 10;
+`
+const MLogo3 = styled.img`
+    position : absolute;
+    top : 170px;
+    left : 10px;
+    z-index : 10;
+`
+const MLogo4 = styled.img`
+    position : absolute;
+    top : 190px;
+    left : 190px;
     z-index : 10;
 `
 const MSection = styled.div`

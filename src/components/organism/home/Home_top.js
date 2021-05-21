@@ -50,7 +50,7 @@ const Home_top = ({className , curlang}) => {
                         <PImgTitle status={langstatus} src={p_detaildata.img} alt="title" />
                         <PCalender>{p_detaildata.time}</PCalender>
                         <PApplybtn link={p_detaildata.link}>{p_detaildata.advance}</PApplybtn>
-                        <PApplybtn2 link={p_detaildata.downloadlink}>{p_detaildata.programtext}</PApplybtn2>
+                        {/* <PApplybtn2 link={p_detaildata.downloadlink}>{p_detaildata.programtext}</PApplybtn2> */}
                         <PContents 
                             title={p_detaildata.title} 
                             contents={p_detaildata.contents}
@@ -84,7 +84,7 @@ const Home_top = ({className , curlang}) => {
                         />
                         <MbtnArea>
                             <MApplybtn link={m_detaildata.link}>{m_detaildata.advance}</MApplybtn>
-                            <MApplybtn2 link={m_detaildata.downloadlink}>{m_detaildata.programtext}</MApplybtn2>
+                            {/* <MApplybtn2 link={m_detaildata.downloadlink}>{m_detaildata.programtext}</MApplybtn2> */}
                         </MbtnArea>
                     </MContentsArea>
                 </MInner>
@@ -221,7 +221,7 @@ const MbtnArea = styled.div`
     display : flex;
 `
 const MApplybtn = styled(Preregistrationbtn)`
-    width : 168px;
+    width : 100%;
     height : 48px;
     font-size: 14px;
     margin-right : 7px;

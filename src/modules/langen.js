@@ -126,8 +126,8 @@ export const langen = {
                         +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
                         +"today's "
                         +'challenges".',
-            subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n'
-                         +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+            subcontents : '○ UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n\n'
+                        +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
 
         // home 중앙
@@ -165,7 +165,7 @@ export const langen = {
                 tue1 : {
                     text1 : '13:00-13:40',
                     text2 : 'Plenary Session 1',
-                    text3 : '(Diversity in art education 2.0)',
+                    text3 : '(Diversity In Arts Education 2.0)',
                     text4 : 'Ernst Wagner',
                     text5 : '[Moderator]',
                     text6 : 'Chee-Hoo Lum',
@@ -320,7 +320,7 @@ export const langen = {
                 text3 : '<Creative Pedagogies of Kindness, Care, and Repair.>',
                 text4 : 'Peter Sellars',
                 text5 : '',
-                text6 : '- Theater Director / Professor, UCLA, USA',
+                text6 : '- Director / Professor, UCLA, USA',
             },
             session6 : {
                 text1 : 'Plenary Presentaion 3',
@@ -348,10 +348,10 @@ export const langen = {
                 text9 : '',
                 text10 : 'Sang-Mi Mo',
                 text11 : '- Director, Moida Art Cooperative Society, Republic of Korea',
-                text12 : 'Jinsuk Gang',
+                text12 : 'Suzy Jinsuk Gang',
                 text13 : '- Director, Gwangmyeong Upcycle Art Center, Republic of Korea',
                 text14 : 'Jinhee Park',
-                text15 : '- Director, Sangsangchanggo Soom / Creative Arts Education Lab Director, Jeju Foundation of Arts&Culture, Republic of Korea',
+                text15 : '- Director, Sangsangchanggo Soom , Republic of Korea',
                 text16 : '[Moderator]',
             }    
         },
@@ -367,7 +367,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 1',
                 text2 : '13:00-13:40',
-                text3 : '<Diversity in art education 2.0>',
+                text3 : '<Diversity In Arts Education 2.0>',
                 text4 : 'Ernst Wagner',
                 text5 : '',
                 text6 : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
@@ -381,13 +381,13 @@ export const langen = {
                 text1 : 'Session 1',
                 text2 : 'Arts and Education in the Field 1',
                 text3 : '13:40-15:25',
-                text4 : "<The theater is ‘A Small Earth’>",
+                text4 : "<The Theater is ‘A Small Earth’>",
                 text5 : 'YongSung Jung',
                 text6 : '- Director, National Theater Company of Korea, Republic of Korea',
                 text7 : '<The Age of Pandemics, the Change of Art>',
                 text8 : 'Eunsu Lee',
                 text9 : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
-                text10 : "<Proactive crisis response by establishing a sustainable art ecosystem: Focusing on the case of Seongbuk 'artsoonhwanro' project>",
+                text10 : "<Proactive Crisis Response by Establishing a Sustainable Art Ecosystem: Focusing on the Case of Seongbuk 'Art Soonhwanro' Project>",
                 text11 : 'Sowon Kim',
                 text12 : '- Curator, Seongbuk Museum of Art, Republic of Korea',
                 text13 : '<The Suspicious Dining Table>',
@@ -409,15 +409,15 @@ export const langen = {
                 text5 : 'Tiina Kukkonen',
                 text6 : '',
                 text7 : "- Ph.D. candidate, Queen's University, Canada",
-                text8 : '<"The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World”>',
+                text8 : '<The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World>',
                 text9 : 'Sanja Krsmanović Tasić',
                 text10 : '',
                 text11 : '- President, International Drama / Theatre Education Association(IDEA), Serbia',
-                text12 : '<Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms>',
+                text12 : '<Performative Pedagogy to Develop Life-skills in Grade 6 Creative Arts classrooms>',
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<The Pandemic Era … The social value and role art therapy>',
+                text16 : '<The Pandemic Era … The Social Value and Role Art Therapy>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -430,18 +430,18 @@ export const langen = {
                 text1 : 'Session 3',
                 text2 : 'Social & Cultural Inclusiveness',
                 text3 : '15:25-16:55',
-                text4 : '<Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic>',
+                text4 : '<Reaching Arts Education out to the Unreached: A Study on Child in the World Who Need Non-face-to-face Arts Education Regardless of Pandemic>',
                 text5 : 'Tei Kim',
                 text6 : '- Director, BARA Art Growth Institute , Republic of Korea',
                 text7 : '<Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.>',
                 text8 : 'Charlene Rajendran',
                 text9 : '',
                 text10 : '- Assistant Professor, Nanyang Technological University, Singapore',
-                text11 : '<Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis>',
+                text11 : '<Integrating Dance and Language Education: A Creative Response to Social Diversity and Equity in and through a Time of Crisis>',
                 text12 : 'Nan Zhang',
                 text13 : '',
                 text14 : '- Ph.D. candidate, Monash University, China',
-                text15 : '<USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND/OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY>',
+                text15 : '<Using the Arts to Foster Emotional Self-Regulation for Grades 4 to 8 Students with Attention and/or Hyperactivity Disorder: A Multiple Case Study>',
                 text16 : 'Yaara Docrat',
                 text17 : '',
                 text18 : "- Master's candidate, Queen’s University, Canada",
@@ -469,7 +469,7 @@ export const langen = {
                 text15 : 'Zen Teh',
                 text16 : '',
                 text17 : '- Environmental Artist&Educator, Singapore',
-                text18 : '<Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.>',
+                text18 : '<Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.>',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
                 text21 : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
@@ -519,7 +519,7 @@ export const langen = {
                 text1 : 'Session 5',
                 text2 : 'Arts in the Classroom',
                 text3 : '13:40-15:10',
-                text4 : "<The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic>",
+                text4 : "<The Use of Art Therapy to Facilitate the Release, Relief, Reflection and Restoration of Students in Kenyan Universities during the COVID-19 Pandemic>",
                 text5 : 'Mary Clare Kidenda',
                 text6 : '',
                 text7 : '- Lecturer and Head, The Technical University of Kenya, Kenya',
@@ -530,7 +530,7 @@ export const langen = {
                 text12 : '<The Necessity of Cultural Representation in Music Classrooms: Practical Strategies and Their Implementation>',
                 text13 : 'Jihea Hong-Park',
                 text14 : '- Associate Professor, Brigham Young University, USA',
-                text15 : '<Facilitating student voice and collaboration with digital arts in 2020>',
+                text15 : '<Facilitating Student Voice and Collaboration with Digital Arts in 2020>',
                 text16 : 'Emily Wilson',
                 text17 : '',
                 text18 : 'Lecturer, The University of Melbourne, Australia',
@@ -550,7 +550,7 @@ export const langen = {
                 text4 : '<Renegotiating Identities: How Does the Online Arts Education Affect the Identities of Teaching Artists?>',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                text7 : '<Development of museum / art museum education programmes for participation and sharing in the era of online viewing>',
+                text7 : '<Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing>',
                 text8 : 'Hyeyoun Chung',
                 text9 : '- Assistant professor, Hongik University, Republic of Korea',
                 text10 : 'Hyojin Sung',
@@ -578,11 +578,11 @@ export const langen = {
                 text1 : 'Session 7',
                 text2 : 'Diversity & Cultural Representation',
                 text3 : '15:10-16:40',
-                text4 : '<Arts in time of crisis: The case of inequality>',
+                text4 : '<Arts in Time of Crisis: The Case of Inequality>',
                 text5 : 'Ruth Rentschler',
                 text6 : '',
                 text7 : '- Professor, University of South Australia Business School, Australia',
-                text8 : '<Museums Making A Case for LGBTQ History>',
+                text8 : '<Museums Making a Case for LGBTQ History>',
                 text9 : 'Ji-young Shim',
                 text10 : '- Assistant professor, Hongik University, Republic of Korea',
                 text11 : '<A Phenomenological Study of Community-based Art Project for the Coexistence between South Korean Youth and Young North Korean Defectors>',
@@ -590,7 +590,7 @@ export const langen = {
                 text13 : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                 text14 : 'Sojung Park',
                 text15 : "- Assistant professor, Ewha Woman's University, Republic of Korea",
-                text16 : '<Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic>',
+                text16 : '<Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic>',
                 text17 : 'Sean Corcoran',
                 text18 : '',
                 text19 : '- Ph.D. candidate, Queen’s University, Canada',
@@ -610,16 +610,16 @@ export const langen = {
                 text4 : '<Arts in time of crisis: The case of inequality>',
                 text5 : 'Soohye Jang',
                 text6 : '- Founding Director, Chaeknuna Project, Republic of Korea',
-                text7 : '<Asking questions to youth with picture books who are living in new-normal days>',
+                text7 : '<Asking Questions to Youth with Picture Books Who are Living in New-normal days>',
                 text8 : 'Yunji Gong',
                 text9 : '- Freelance Teaching Artist, Republic of Korea',
                 text10 : '<I Cov You>',
                 text11 : 'Hyunjung Lee ',
                 text12 : "- Director, Art & Culture Community G.A.Garden/Ph.D. candidate, Ewha Woman's University, Republic of Korea",
-                text13 : '<Introducing a new genre of art education born in crisis>',
+                text13 : '<Introducing a New Genre of Arts Education Born in Crisis>',
                 text14 : 'Sungjong Bae',
                 text15 : '- Teaching Artist, Republic of Korea',
-                text16 : '<Bridge the transition: How art education can help youths in transition to adulthood>',
+                text16 : '<Bridge the Transition: How Arts Education Can Help Youths in Transition to Adulthood>',
                 text17 : 'Younghee Choi',
                 text18 : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
                 text19 : '[Moderator]',
@@ -643,7 +643,7 @@ export const langen = {
             data : [
                 {
                     imgs : plsession_img_01,
-                    title : "Diversity in art education 2.0",
+                    title : "Diversity In Arts Education 2.0",
                     time : "25 MAY(Tue) 13:00-13:40",
                     name : "Ernst Wagner",
                     enname : "",
@@ -665,7 +665,7 @@ export const langen = {
         // 기조발제 상세페이지
         pl_session_detail : {
             wagner_part : {
-                title : 'Diversity in art education 2.0',
+                title : 'Diversity In Arts Education 2.0',
                 time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : true,
@@ -829,7 +829,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "The theater is ‘A Small Earth’",
+                        li_title : "The Theater is ‘A Small Earth’",
                         li_data : [
                             {
                                 imgs : session_img_01,
@@ -867,7 +867,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Proactive crisis response by establishing a sustainable art ecosystem: Focusing on the case of Seongbuk 'artsoonhwanro' project",
+                        li_title : "Proactive Crisis Response by Establishing a Sustainable Art Ecosystem: Focusing on the Case of Seongbuk 'Art Soonhwanro' Project",
                         li_data : [
                             {
                                 imgs : session_img_03,
@@ -930,7 +930,8 @@ export const langen = {
                                 name : 'Kiwon Hong',
                                 enname : '',
                                 job : '- Professor, Korea National University of Arts, Republic of Korea',
-                                contents : '',
+                                contents : 'Professor Kiwon Hong read Aesthetics and Public Administration in Seoul National University (B.A.), New York University (M.P.A.) and Yonsei University (Ph.D). She began her carrier as a cultural policy researcher in public sector (Korea Culture and Tourism Research Institute) and moved to Academia to bridge the world of theory and reality. Her commitment in cultural policy research gave fruit to hosting the 9th International Conference on Cultural Policy Research (ICCPR) in Seoul 2016.\n\n'
+                                            +'She was the guest editor for special issue of International Journal of Cultural Policy, Culture and Politics: Consequences of Statist Cultural Policy. She responded to various calls from public sector where she thought would challenge the status quo. She served as board of trustees at various cultural organizations and committee members for government institutions. Her commitment in advocating gender equity in the arts and cultural field made her to become founding member of Women Cultural Policy Forum (NPO). It is her most pleasure to see students grow where she teaches arts policy and arts management at Korea National University of Arts, School of Drama.',
                                 download : false,
                                 downlink : '',
                             }
@@ -990,7 +991,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms",
+                        li_title : "Performative Pedagogy to Develop Life-skills in Grade 6 Creative Arts classrooms",
                         li_data : [
                             {
                                 imgs : session_img_08,
@@ -1010,7 +1011,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "The Pandemic Era … The social value and role art therapy",
+                        li_title : "The Pandemic Era … The Social Value and Role Art Therapy",
                         li_data : [
                             {
                                 imgs : session_img_09,
@@ -1056,7 +1057,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic",
+                        li_title : "Reaching Arts Education out to the Unreached: A Study on Child in the World Who Need Non-face-to-face Arts Education Regardless of Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_11,
@@ -1094,7 +1095,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis",
+                        li_title : "Integrating Dance and Language Education: A Creative Response to Social Diversity and Equity in and through a Time of Crisis",
                         li_data : [
                             {
                                 imgs : session_img_13,
@@ -1102,10 +1103,9 @@ export const langen = {
                                 name : 'Nan Zhang',
                                 enname : '',
                                 job : '- Ph.D. candidate, Monash University, China',
-                                contents : 'Nan Zhang completed her Bachelor and Master of Arts degree at the Beijing Dance Academy in China. Currently, she is a PhD candidate at the Faculty of Education, Monash University, Australia. Nan’s research interests include dance and language education, Content and Language Integrated Learning, multiculturalism, social diversity and equity.\n\n'
-                                           +"Deeply associated with social diversity and equity, the acquisition, learning, and maintenance of varied languages is increasingly important in multicultural societies, like Australia. Unfortunately, as the generation’s pass, there are also increased challenges for many immigrant and/or second language programs to assist children to acquire their heritage, cultural, and/or intercultural understanding, which can further negatively affect social diversity and equity.\n\n"
-                                           +'A creative response to these challenges that has had little attention is integrating dance into second language education. This study assembled autoethnography and educational connoisseurship and criticism as a means to investigate the impact of dance pedagogy and its implications. The themes discussed were: communicative and intercultural competence, language acquisition and immersion, cognitive learning transfer, and multiple accesses.\n\n'
-                                           +'This study offers empirical evidence for the benefits that dance activities can make to students’ second language and cultural competence development and affords pedagogical insights for teachers who want to employ dance as an approach to teach a second language.',
+                                contents : 'Nan Zhang completed her Bachelor and Master of Arts degree at the Beijing Dance Academy in China. Currently, she is a Ph.D. candidate at the Faculty of Education, Monash University, Australia. Nan’s research interests include dance and language education, Content and Language Integrated Learning, multiculturalism, social diversity and equity. Deeply associated with social diversity and equity, the acquisition, learning, and maintenance of varied languages is increasingly important in multicultural societies, like Australia. Unfortunately, as the generation’s pass, there are also increased challenges for many immigrant and/or second language programs to assist children to acquire their heritage, cultural, and/or intercultural understanding, which can further negatively affect social diversity and equity.\n\n'
+                                            +'A creative response to these challenges that has had little attention is integrating dance into second language education. This qualitative single case study sought the experiences of stakeholders including school leadership, students, parents and teachers using semi-structured interviews. Three overarching themes were identified: dance as supporting culture, dance as reinforcing language acquisition and dance as nurturing learning.\n\n'
+                                            +'This study offers insights into the inclusion of dance in community language programs. We assert that dance has potential to be a powerful teaching and learning technique and that it has a place in the learning and teaching of a second language.',
                                 download : true,
                                 abdownload : true,
                                 downlink : env.link + '/Nan_Zhang.pdf',
@@ -1115,7 +1115,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND / OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY",
+                        li_title : "Using the Arts to Foster Emotional Self-Regulation for Grades 4 to 8 Students with Attention and/or Hyperactivity Disorder: A Multiple Case Study",
                         li_data : [
                             {
                                 imgs : session_img_14,
@@ -1223,7 +1223,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Visual Arts Educations: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.",
+                        li_title : "Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.",
                         li_data : [
                             {
                                 imgs : session_img_19,
@@ -1293,7 +1293,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic",
+                        li_title : "The Use of Art Therapy to Facilitate the Release, Relief, Reflection and Restoration of Students in Kenyan Universities during the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_22,
@@ -1351,7 +1351,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Facilitating student voice and collaboration with digital arts in 2020",
+                        li_title : "Facilitating Student Voice and Collaboration with Digital Arts in 2020",
                         li_data : [
                             {
                                 imgs : session_img_25,
@@ -1454,7 +1454,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
+                        li_title : "Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing",
                         li_data : [
                             {
                                 imgs : session_img_27,
@@ -1548,7 +1548,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "Arts in time of crisis: The case of inequality",
+                        li_title : "Arts in Time of Crisis: The Case of Inequality",
                         li_data : [
                             {
                                 imgs : session_img_31,
@@ -1567,7 +1567,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Museums Making A Case for LGBTQ History",
+                        li_title : "Museums Making a Case for LGBTQ History",
                         li_data : [
                             {
                                 imgs : session_img_32,
@@ -1618,7 +1618,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic",
+                        li_title : "Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic",
                         li_data : [
                             {
                                 imgs : session_img_35,
@@ -1697,7 +1697,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Asking questions to youth with picture books who are living in new-normal days",
+                        li_title : "Asking Questions to Youth with Picture Books Who are Living in New-normal days",
                         li_data : [
                             {
                                 imgs : session_img_37,
@@ -1734,7 +1734,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Introducing a new genre of art education born in crisis",
+                        li_title : "Introducing a New Genre of Arts Education Born in Crisis",
                         li_data : [
                             {
                                 imgs : session_img_39,
@@ -1753,7 +1753,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Bridge the transition: How art education can help youths in transition to adulthood",
+                        li_title : "Bridge the Transition: How Arts Education Can Help Youths in Transition to Adulthood",
                         li_data : [
                             {
                                 imgs : session_img_40,
@@ -1799,7 +1799,7 @@ export const langen = {
             session1 : 
             { 
                 img : c_logo1, 
-                contents : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                contents : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
                 alt : 'Gwangmyeong Upcycle Art Center',
                 link : env.path+'/presession-showcase/1' 
             },
@@ -1831,7 +1831,7 @@ export const langen = {
             session1 : {
                 title : 'Gwangmyeong Upcycle Art Center',
                 img : c_logo1,
-                discription : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                discription : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
                 youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
                 photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
@@ -1859,7 +1859,7 @@ export const langen = {
                 title : 'Sangsangchanggo Soom',
                 img : c_logo2,
                 discription : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
-                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
+                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
                 youtube : 'https://www.youtube.com/embed/VmMbXkbTvWM',
                 photo : 'https://photos.app.goo.gl/RESXXh1x1VFdRLLN6',
                 list : [
@@ -2112,9 +2112,9 @@ export const langen = {
                         +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
                         +"today's "
                         +'challenges".',
-            subcontents : '※UNESCO UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development'
-                       +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
-        },
+            subcontents : '○ UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n\n'
+                        +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+            },
         
         home_center : {
             title : 'Overall',
@@ -2147,7 +2147,7 @@ export const langen = {
                 text1 : '05.25 Tue',
                 text2 : '13:00-13:40',
                 text3 : 'Plenary Session 1',
-                text4 : '(Diversity in art education 2.0)',
+                text4 : '(Diversity In Arts Education 2.0)',
                 text5 : '13:40-15:25',
                 text6 : 'Session 1',
                 text7 : '(Arts and Education in the Field 1)',
@@ -2227,7 +2227,7 @@ export const langen = {
                 text3 : '<Creative Pedagogies of Kindness, Care, and Repair.>',
                 text4 : 'Peter Sellars',
                 text5 : '',
-                text6 : '- Theater Director / Professor, UCLA, USA',
+                text6 : '- Director / Professor, UCLA, USA',
             },
             session6 : {
                 text1 : 'Plenary Presentaion 3',
@@ -2255,10 +2255,10 @@ export const langen = {
                 text9 : '',
                 text10 : 'Sang-Mi Mo',
                 text11 : '- Director, Moida Art Cooperative Society, Republic of Korea',
-                text12 : 'Jinsuk Gang',
+                text12 : 'Suzy Jinsuk Gang',
                 text13 : '- Director, Gwangmyeong Upcycle Art Center, Republic of Korea',
                 text14 : 'Jinhee Park',
-                text15 : '- Director, Sangsangchanggo Soom / Creative Arts Education Lab Director, Jeju Foundation of Arts&Culture, Republic of Korea',
+                text15 : '- Director, Sangsangchanggo Soom , Republic of Korea',
                 text16 : '[Moderator]',
             }    
         },
@@ -2274,7 +2274,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 1',
                 text2 : '13:00-13:40',
-                text3 : '<Diversity in art education 2.0>',
+                text3 : '<Diversity In Arts Education 2.0>',
                 text4 : 'Ernst Wagner',
                 text5 : '',
                 text6 : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
@@ -2288,13 +2288,13 @@ export const langen = {
                 text1 : 'Session 1',
                 text2 : 'Arts and Education\nin the Field 1',
                 text3 : '13:40-15:25',
-                text4 : "<The theater is ‘A Small Earth’>",
+                text4 : "<The Theater is ‘A Small Earth’>",
                 text5 : 'YongSung Jung',
                 text6 : '- Director, National Theater Company of Korea, Republic of Korea',
                 text7 : '<The Age of Pandemics, the Change of Art>',
                 text8 : 'Eunsu Lee',
                 text9 : '- Assistant Director, National Museum of Modern and Contemporary Art, Korea, Republic of Korea',
-                text10 : "<Proactive crisis response by establishing a sustainable art ecosystem: Focusing on the case of Seongbuk 'artsoonhwanro' project>",
+                text10 : "<Proactive Crisis Response by Establishing a Sustainable Art Ecosystem: Focusing on the Case of Seongbuk 'Art Soonhwanro' Project>",
                 text11 : 'Sowon Kim',
                 text12 : '- Curator, Seongbuk Museum of Art, Republic of Korea',
                 text13 : '<The Suspicious Dining Table>',
@@ -2316,15 +2316,15 @@ export const langen = {
                 text5 : 'Tiina Kukkonen',
                 text6 : '',
                 text7 : "- Ph.D. candidate, Queen's University, Canada",
-                text8 : '<"The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World”>',
+                text8 : '<The Importance of Drama / Theatre Education and Arts Education as the Source of Stability in an ever Changing World>',
                 text9 : 'Sanja Krsmanović Tasić',
                 text10 : '',
                 text11 : '- President, International Drama / Theatre Education Association(IDEA), Serbia',
-                text12 : '<Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms>',
+                text12 : '<Performative Pedagogy to Develop Life-skills in Grade 6 Creative Arts classrooms>',
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<The Pandemic Era … The social value and role art therapy>',
+                text16 : '<The Pandemic Era … The Social Value and Role Art Therapy>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -2337,18 +2337,18 @@ export const langen = {
                 text1 : 'Session 3',
                 text2 : 'Social & Cultural Inclusiveness',
                 text3 : '15:25-16:55',
-                text4 : '<Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic>',
+                text4 : '<Reaching Arts Education out to the Unreached: A Study on Child in the World Who Need Non-face-to-face Arts Education Regardless of Pandemic>',
                 text5 : 'Tei Kim',
                 text6 : '- Director, BARA Art Growth Institute , Republic of Korea',
                 text7 : '<Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.>',
                 text8 : 'Charlene Rajendran',
                 text9 : '',
                 text10 : '- Assistant Professor, Nanyang Technological University, Singapore',
-                text11 : '<Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis>',
+                text11 : '<Integrating Dance and Language Education: A Creative Response to Social Diversity and Equity in and through a Time of Crisis>',
                 text12 : 'Nan Zhang',
                 text13 : '',
                 text14 : '- Ph.D. candidate, Monash University, China',
-                text15 : '<USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND/OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY>',
+                text15 : '<Using the Arts to Foster Emotional Self-Regulation for Grades 4 to 8 Students with Attention and/or Hyperactivity Disorder: A Multiple Case Study>',
                 text16 : 'Yaara Docrat',
                 text17 : '',
                 text18 : "- Master's candidate, Queen’s University, Canada",
@@ -2376,7 +2376,7 @@ export const langen = {
                 text15 : 'Zen Teh',
                 text16 : '',
                 text17 : '- Environmental Artist&Educator, Singapore',
-                text18 : '<Visual Arts Education/s: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.>',
+                text18 : '<Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.>',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
                 text21 : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
@@ -2426,7 +2426,7 @@ export const langen = {
                 text1 : 'Session 5',
                 text2 : 'Arts in the Classroom',
                 text3 : '13:40-15:10',
-                text4 : "<The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic>",
+                text4 : "<The Use of Art Therapy to Facilitate the Release, Relief, Reflection and Restoration of Students in Kenyan Universities during the COVID-19 Pandemic>",
                 text5 : 'Mary Clare Kidenda',
                 text6 : '',
                 text7 : '- Lecturer and Head, The Technical University of Kenya, Kenya',
@@ -2437,7 +2437,7 @@ export const langen = {
                 text12 : '<The Necessity of Cultural Representation in Music Classrooms: Practical Strategies and Their Implementation>',
                 text13 : 'Jihea Hong-Park',
                 text14 : '- Associate Professor, Brigham Young University, USA',
-                text15 : '<Facilitating student voice and collaboration with digital arts in 2020>',
+                text15 : '<Facilitating Student Voice and Collaboration with Digital Arts in 2020>',
                 text16 : 'Emily Wilson',
                 text17 : '',
                 text18 : 'Lecturer, The University of Melbourne, Australia',
@@ -2457,7 +2457,7 @@ export const langen = {
                 text4 : '<Renegotiating Identities: How Does the Online Arts Education Affect the Identities of Teaching Artists?>',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                text7 : '<Development of museum / art museum education programmes for participation and sharing in the era of online viewing>',
+                text7 : '<Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing>',
                 text8 : 'Hyeyoun Chung',
                 text9 : '- Assistant professor, Hongik University, Republic of Korea',
                 text10 : 'Hyojin Sung',
@@ -2485,11 +2485,11 @@ export const langen = {
                 text1 : 'Session 7',
                 text2 : 'Diversity & Cultural Representation',
                 text3 : '15:10-16:40',
-                text4 : '<Arts in time of crisis: The case of inequality>',
+                text4 : '<Arts in Time of Crisis: The Case of Inequality>',
                 text5 : 'Ruth Rentschler',
                 text6 : '',
                 text7 : '- Professor, University of South Australia Business School, Australia',
-                text8 : '<Museums Making A Case for LGBTQ History>',
+                text8 : '<Museums Making a Case for LGBTQ History>',
                 text9 : 'Ji-young Shim',
                 text10 : '- Assistant professor, Hongik University, Republic of Korea',
                 text11 : '<A Phenomenological Study of Community-based Art Project for the Coexistence between South Korean Youth and Young North Korean Defectors>',
@@ -2497,7 +2497,7 @@ export const langen = {
                 text13 : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                 text14 : 'Sojung Park',
                 text15 : "- Assistant professor, Ewha Woman's University, Republic of Korea",
-                text16 : '<Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic>',
+                text16 : '<Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic>',
                 text17 : 'Sean Corcoran',
                 text18 : '',
                 text19 : '- Ph.D. candidate, Queen’s University, Canada',
@@ -2517,16 +2517,16 @@ export const langen = {
                 text4 : '<Arts in time of crisis: The case of inequality>',
                 text5 : 'Soohye Jang',
                 text6 : '- Founding Director, Chaeknuna Project, Republic of Korea',
-                text7 : '<Asking questions to youth with picture books who are living in new-normal days>',
+                text7 : '<Asking Questions to Youth with Picture Books Who are Living in New-normal days>',
                 text8 : 'Yunji Gong',
                 text9 : '- Freelance Teaching Artist, Republic of Korea',
                 text10 : '<I Cov You>',
                 text11 : 'Hyunjung Lee ',
                 text12 : "- Director, Art & Culture Community G.A.Garden/Ph.D. candidate, Ewha Woman's University, Republic of Korea",
-                text13 : '<Introducing a new genre of art education born in crisis>',
+                text13 : '<Introducing a New Genre of Arts Education Born in Crisis>',
                 text14 : 'Sungjong Bae',
                 text15 : '- Teaching Artist, Republic of Korea',
-                text16 : '<Bridge the transition: How art education can help youths in transition to adulthood>',
+                text16 : '<Bridge the Transition: How Arts Education Can Help Youths in Transition to Adulthood>',
                 text17 : 'Younghee Choi',
                 text18 : '- Head of Creative School Team, Korea Arts & Culture Education Service, Republic of Korea',
                 text19 : '[Moderator]',
@@ -2550,7 +2550,7 @@ export const langen = {
             data : [
                 {
                     imgs : plsession_img_01,
-                    title : "Diversity in art education 2.0",
+                    title : "Diversity In Arts Education 2.0",
                     time : "25 MAY(Tue) 13:00-13:40",
                     name : "Ernst Wagner",
                     enname : "",
@@ -2572,7 +2572,7 @@ export const langen = {
          // 기조발제 상세페이지
          pl_session_detail : {
             wagner_part : {
-                title : 'Diversity in art education 2.0',
+                title : 'Diversity In Arts Education 2.0',
                 time : '24 MAY, 13:00-13:40',
                 video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
                 download : true,
@@ -2733,7 +2733,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "The theater is ‘A Small Earth’",
+                        li_title : "The Theater is ‘A Small Earth’",
                         li_data : [
                             {
                                 imgs : session_img_01,
@@ -2771,7 +2771,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Proactive crisis response by establishing a sustainable art ecosystem: Focusing on the case of Seongbuk 'artsoonhwanro' project",
+                        li_title : "Proactive Crisis Response by Establishing a Sustainable Art Ecosystem: Focusing on the Case of Seongbuk 'Art Soonhwanro' Project",
                         li_data : [
                             {
                                 imgs : session_img_03,
@@ -2834,7 +2834,8 @@ export const langen = {
                                 name : 'Kiwon Hong',
                                 enname : '',
                                 job : '- Professor, Korea National University of Arts, Republic of Korea',
-                                contents : '',
+                                contents : 'Professor Kiwon Hong read Aesthetics and Public Administration in Seoul National University (B.A.), New York University (M.P.A.) and Yonsei University (Ph.D). She began her carrier as a cultural policy researcher in public sector (Korea Culture and Tourism Research Institute) and moved to Academia to bridge the world of theory and reality. Her commitment in cultural policy research gave fruit to hosting the 9th International Conference on Cultural Policy Research (ICCPR) in Seoul 2016.\n\n'
+                                            +'She was the guest editor for special issue of International Journal of Cultural Policy, Culture and Politics: Consequences of Statist Cultural Policy. She responded to various calls from public sector where she thought would challenge the status quo. She served as board of trustees at various cultural organizations and committee members for government institutions. Her commitment in advocating gender equity in the arts and cultural field made her to become founding member of Women Cultural Policy Forum (NPO). It is her most pleasure to see students grow where she teaches arts policy and arts management at Korea National University of Arts, School of Drama.',
                                 download : false,
                                 downlink : '',
                             }
@@ -2894,7 +2895,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Performative pedagogy to develop life-skills in Grade 6 Creative Arts classrooms",
+                        li_title : "Performative Pedagogy to Develop Life-skills in Grade 6 Creative Arts classrooms",
                         li_data : [
                             {
                                 imgs : session_img_08,
@@ -2914,7 +2915,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "The Pandemic Era … The social value and role art therapy",
+                        li_title : "The Pandemic Era … The Social Value and Role Art Therapy",
                         li_data : [
                             {
                                 imgs : session_img_09,
@@ -2960,7 +2961,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "Reaching art education out to the unreached : A Study on Child in the World Who Need Non-face-to-face Art Education Regardless of Pandemic",
+                        li_title : "Reaching Arts Education out to the Unreached: A Study on Child in the World Who Need Non-face-to-face Arts Education Regardless of Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_11,
@@ -2998,7 +2999,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Integrating dance and language education: A creative response to social diversity and equity in and through a Time of Crisis",
+                        li_title : "Integrating Dance and Language Education: A Creative Response to Social Diversity and Equity in and through a Time of Crisis",
                         li_data : [
                             {
                                 imgs : session_img_13,
@@ -3006,10 +3007,9 @@ export const langen = {
                                 name : 'Nan Zhang',
                                 enname : '',
                                 job : '- Ph.D. candidate, Monash University, China',
-                                contents : 'Nan Zhang completed her Bachelor and Master of Arts degree at the Beijing Dance Academy in China. Currently, she is a PhD candidate at the Faculty of Education, Monash University, Australia. Nan’s research interests include dance and language education, Content and Language Integrated Learning, multiculturalism, social diversity and equity.\n\n'
-                                           +"Deeply associated with social diversity and equity, the acquisition, learning, and maintenance of varied languages is increasingly important in multicultural societies, like Australia. Unfortunately, as the generation’s pass, there are also increased challenges for many immigrant and/or second language programs to assist children to acquire their heritage, cultural, and/or intercultural understanding, which can further negatively affect social diversity and equity.\n\n"
-                                           +'A creative response to these challenges that has had little attention is integrating dance into second language education. This study assembled autoethnography and educational connoisseurship and criticism as a means to investigate the impact of dance pedagogy and its implications. The themes discussed were: communicative and intercultural competence, language acquisition and immersion, cognitive learning transfer, and multiple accesses.\n\n'
-                                           +'This study offers empirical evidence for the benefits that dance activities can make to students’ second language and cultural competence development and affords pedagogical insights for teachers who want to employ dance as an approach to teach a second language.',
+                                contents : 'Nan Zhang completed her Bachelor and Master of Arts degree at the Beijing Dance Academy in China. Currently, she is a Ph.D. candidate at the Faculty of Education, Monash University, Australia. Nan’s research interests include dance and language education, Content and Language Integrated Learning, multiculturalism, social diversity and equity. Deeply associated with social diversity and equity, the acquisition, learning, and maintenance of varied languages is increasingly important in multicultural societies, like Australia. Unfortunately, as the generation’s pass, there are also increased challenges for many immigrant and/or second language programs to assist children to acquire their heritage, cultural, and/or intercultural understanding, which can further negatively affect social diversity and equity.\n\n'
+                                            +'A creative response to these challenges that has had little attention is integrating dance into second language education. This qualitative single case study sought the experiences of stakeholders including school leadership, students, parents and teachers using semi-structured interviews. Three overarching themes were identified: dance as supporting culture, dance as reinforcing language acquisition and dance as nurturing learning.\n\n'
+                                            +'This study offers insights into the inclusion of dance in community language programs. We assert that dance has potential to be a powerful teaching and learning technique and that it has a place in the learning and teaching of a second language.',
                                 download : true,
                                 abdownload : true,
                                 downlink : env.link + '/Nan_Zhang.pdf',
@@ -3019,7 +3019,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "USING THE ARTS TO FOSTER EMOTIONAL SELF-REGULATION FOR GRADES 4 TO 8 STUDENTS WITH ATTENTION AND / OR HYPERACTIVITY DISORDER: A MULTIPLE CASE STUDY",
+                        li_title : "Using the Arts to Foster Emotional Self-Regulation for Grades 4 to 8 Students with Attention and/or Hyperactivity Disorder: A Multiple Case Study",
                         li_data : [
                             {
                                 imgs : session_img_14,
@@ -3127,7 +3127,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Visual Arts Educations: Glocal threads to connect, entangle, sustain and nourish  during a prolonged lockdown and time of uncertainty.",
+                        li_title : "Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.",
                         li_data : [
                             {
                                 imgs : session_img_19,
@@ -3197,7 +3197,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "The use of Art therapy to facilitate the release, relief, reflection and restoration of students in Kenyan Universities during the COVID-19 Pandemic",
+                        li_title : "The Use of Art Therapy to Facilitate the Release, Relief, Reflection and Restoration of Students in Kenyan Universities during the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_22,
@@ -3255,7 +3255,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Facilitating student voice and collaboration with digital arts in 2020",
+                        li_title : "Facilitating Student Voice and Collaboration with Digital Arts in 2020",
                         li_data : [
                             {
                                 imgs : session_img_25,
@@ -3358,7 +3358,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Development of museum / art museum education programmes for participation and sharing in the era of online viewing",
+                        li_title : "Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing",
                         li_data : [
                             {
                                 imgs : session_img_27,
@@ -3452,7 +3452,7 @@ export const langen = {
                 list : [
                     {
                         moder : '',
-                        li_title : "Arts in time of crisis: The case of inequality",
+                        li_title : "Arts in Time of Crisis: The Case of Inequality",
                         li_data : [
                             {
                                 imgs : session_img_31,
@@ -3471,7 +3471,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Museums Making A Case for LGBTQ History",
+                        li_title : "Museums Making a Case for LGBTQ History",
                         li_data : [
                             {
                                 imgs : session_img_32,
@@ -3522,7 +3522,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Silent Stages: Canadian El Sistema programs’ response to the COVID-19 pandemic",
+                        li_title : "Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic",
                         li_data : [
                             {
                                 imgs : session_img_35,
@@ -3601,7 +3601,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Asking questions to youth with picture books who are living in new-normal days",
+                        li_title : "Asking Questions to Youth with Picture Books Who are Living in New-normal days",
                         li_data : [
                             {
                                 imgs : session_img_37,
@@ -3638,7 +3638,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Introducing a new genre of art education born in crisis",
+                        li_title : "Introducing a New Genre of Arts Education Born in Crisis",
                         li_data : [
                             {
                                 imgs : session_img_39,
@@ -3657,7 +3657,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Bridge the transition: How art education can help youths in transition to adulthood",
+                        li_title : "Bridge the Transition: How Arts Education Can Help Youths in Transition to Adulthood",
                         li_data : [
                             {
                                 imgs : session_img_40,
@@ -3704,7 +3704,7 @@ export const langen = {
             { 
                 img : m_c_logo1,
                 company : 'Gwangmyeong Upcycle Art Center',
-                contents : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                contents : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
                 alt : 'Gwangmyeong Upcycle Art Center',
                 link : env.path+'/presession-showcase/1' 
             },
@@ -3713,7 +3713,7 @@ export const langen = {
                 img : m_c_logo2,
                 company : 'Sangsangchanggo Soom',
                 contents : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
-                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
+                         +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
                 alt : 'Sangsangchanggo Soom',
                 link : env.path+'/presession-showcase/2' 
             },
@@ -3740,7 +3740,7 @@ export const langen = {
             session1 : {
                 title : 'Gwangmyeong Upcycle Art Center',
                 img : m_c_logo1,
-                discription : 'Gwangmyeong Upcycle Art Center is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                discription : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
                 youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
                 photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
