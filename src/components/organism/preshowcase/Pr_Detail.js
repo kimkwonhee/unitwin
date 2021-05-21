@@ -183,7 +183,7 @@ const Pr_Detail = ({match, location}) => {
                                     </MItemLogoArea>
                                     <MItemTextArea>
                                         <MItemTitle>{list.name}</MItemTitle>
-                                        <MLink to={list.link}>
+                                        <MLink href={list.link}>
                                             <MMorebtn>More &#62;</MMorebtn>
                                         </MLink>
                                     </MItemTextArea>
@@ -376,7 +376,7 @@ const MItemTitle = styled.div`
     color: ${color.black};
     margin-bottom : 12px;
 `
-const MLink = styled(Link)`
+const MLink = styled.a`
     text-decoration : none;
 `
 const MMorebtn = styled.div`

@@ -67,7 +67,7 @@ import closing_img_11 from '../images/session_31.png'
 import closing_img_12 from '../images/session_32.png'
 import closing_img_13 from '../images/session_33.png'
 
-// 기획세션
+// 사전행사
 import c_logo1 from '../images/pre_logo1.png'
 import c_logo2 from '../images/pre_logo2.png'
 import c_logo3 from '../images/pre_logo3.png'
@@ -102,7 +102,7 @@ export const langkr = {
             text1 : '주간행사',
             text2 : '기조발제',
             text3 : '주제세션',
-            text4 : '기획세션',
+            text4 : '사전행사',
             text5 : 'BYOB',
             text6 : '폐회세션',
         },
@@ -1778,9 +1778,9 @@ export const langkr = {
             }
         },
 
-        // 기획세션
+        // 사전행사
         pr_showcase : {
-            title : '기획세션',
+            title : '사전행사',
             contents : '위기의 시대 속 예술의 사회 참여를 보여주는 한국 예술가 그룹 및 지역사회 사례를 웹으로 전시하고, 현장에서 사례 발표와 토론을 통해 학술대회의 주제와 연결하는 기획 세션\n\n'
                         +'2021 세계문화예술교육 주간 개막식 및 제4회 유네스코 유니트윈 국제 학술대회 사전행사 보러가기\n'
                         +'(<a href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">http://www.arteweek.kr/2021/views/opening.php</a>)',
@@ -1815,7 +1815,7 @@ export const langkr = {
             }
         },
 
-        // 기획세션 상세페이지
+        // 사전행사 상세페이지
         pr_showcase_detail : {
             session1 : {
                 title : '광명업사이클아트센터',
@@ -2079,7 +2079,7 @@ export const langkr = {
             text1 : '주간행사',
             text2 : '기조발제',
             text3 : '주제세션',
-            text4 : '기획세션',
+            text4 : '사전행사',
             text5 : 'BYOB',
             text6 : '폐회세션',
         },
@@ -3672,9 +3672,9 @@ export const langkr = {
             }
         },
 
-        // 기획세션
+        // 사전행사
         pr_showcase : {
-            title : '기획세션',
+            title : '사전행사',
             contents : '위기의 시대 속 예술의 사회 참여를 보여주는 한국 예술가 그룹 및 지역사회 사례를 웹으로 전시하고, 현장에서 사례 발표와 토론을 통해 학술대회의 주제와 연결하는 기획 세션\n\n'
                         +'2021 세계문화예술교육 주간 개막식 및 제4회 유네스코 유니트윈 국제 학술대회 사전행사 보러가기\n'
                         +'(<a href="http://www.arteweek.kr/2021/views/opening.php" target="_blank">http://www.arteweek.kr/2021/views/opening.php</a>)',
@@ -3713,7 +3713,7 @@ export const langkr = {
             }
         },
 
-        // 기획세션 상세페이지
+        // 사전행사 상세페이지
         pr_showcase_detail : {
             session1 : {
                 title : '광명업사이클아트센터',
