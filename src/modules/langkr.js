@@ -120,9 +120,9 @@ export const langkr = {
             advance : '사전신청하기',
             programtext : '프로그램북 다운로드',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
-                      +'제4회 유니트윈 국제 학술대회는 "위기의 시대, 행동하는 예술교육"을 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있게 기여할 수 있는지 논하려 합니다.',
-            subcontents : '○ 유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구 모임\n\n'
-                          +'(UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development) 유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
+                      +'제4회 유니트윈 국제 학술대회는 "위기의 시대, 행동하는 예술교육"을 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있게 기여할 수 있는지 논하려 합니다.\n\n'
+                        +'“유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구”',
+            subcontents : '유네스코의 지속가능한 발전방안과 ‘서울 어젠다’의 예술교육 발전목표에 대한 연구 과제들을 함께 나누는 모임입니다. 전세계에 있는 대학과 연구기관의 관계자들이 회원이 되어 예술교육에 대한 연구를 공유하고, 논의를 확장하고, 실행방안을 공유하며, 매년 학술대회를 개최합니다.'
         },
 
         // home 중앙
@@ -2102,9 +2102,9 @@ export const langkr = {
             advance : '사전신청하기',
             programtext : '프로그램북 다운로드',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
-                      +'제4회 유니트윈 국제 학술대회는 "위기의 시대, 행동하는 예술교육"을 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있게 기여할 수 있는지 논하려 합니다.',
-            subcontents : '○ 유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구 모임\n\n'
-                      +'(UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development) 유네스코 산하 대학과 연구기관들의 협력망(네트워크)으로 INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub)의 회원들이 모여 2017년에 결속. 매년 정회원국들이 학술대회 순회 개최.'
+                      +'제4회 유니트윈 국제 학술대회는 "위기의 시대, 행동하는 예술교육"을 주제로 하여 예술교육의 원리와 사례가 어떻게 오늘날의 세계가 마주한 사회적‧문화적 위기에 대해 심도 있게 기여할 수 있는지 논하려 합니다.\n\n'
+                        +'“유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구”',
+            subcontents : '유네스코의 지속가능한 발전방안과 ‘서울 어젠다’의 예술교육 발전목표에 대한 연구 과제들을 함께 나누는 모임입니다. 전세계에 있는 대학과 연구기관의 관계자들이 회원이 되어 예술교육에 대한 연구를 공유하고, 논의를 확장하고, 실행방안을 공유하며, 매년 학술대회를 개최합니다.'
     },
 
         // home 중앙

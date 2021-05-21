@@ -92,11 +92,12 @@ const PTopContents = styled.div`
     color: ${color.black};
 `
 const PSubContents = styled.div`
-    margin-top : 40px;
+    /* margin-top : 40px; */
     font-size: 16px;
     line-height: 1.5;
     white-space: pre-line;
     color: ${color.black};
+    word-break : keep-all;
 `
 const PUnitwinbtn = styled(Unitwinbtn)`
     margin-top : 40px;
@@ -155,7 +156,7 @@ const MTopContents = styled.div`
     word-break : keep-all;
 `
 const MSubContents = styled.div`
-    margin-top : 16px;
+    /* margin-top : 16px; */
     font-size: 10px;
     color: ${color.black};
     white-space: pre-line;

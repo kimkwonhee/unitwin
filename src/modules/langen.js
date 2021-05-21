@@ -125,9 +125,9 @@ export const langen = {
                         +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
                         +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
                         +"today's "
-                        +'challenges".',
-            subcontents : '○ UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n\n'
-                        +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+                        +'challenges".\n\n'
+                        +'“UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development”',
+            subcontents : 'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
         },
 
         // home 중앙
@@ -1510,7 +1510,10 @@ export const langen = {
                                 name : 'Jeff Poulin',
                                 enname : '',
                                 job : '- Managing Director, Creative Generation, USA',
-                                contents : '',
+                                contents : 'Jeff M. Poulin is an American educator, non-profit administrator, and social entrepreneur whose work takes a justice approach towards uncovering local solutions for global challenges. In 2019, he founded Creative Generation, which works to inspire, connect, and amplify the social change work of young creatives and those dedicated to cultivating their creativity.\n\n'
+                                            +'With a decade of experience as a performer, teaching artist, education researcher, policy work, and arts administrator, Jeff led cultural policy and education initiatives in the U.S. and abroad, with organizations like the World Alliance for Arts Education/UNESCO, LiveNation, ArtPlace America, Americans for the Arts, the Irish Departments of Arts and Education, political campaigns, foundations, and local nonprofits.\n\n'
+                                            +'As a recognized leader, Jeff is widely published, serves as a reviewer for grant and research panels. He frequently speaks to diverse audiences at global and regional conferences like the World Youth Forum, the World Summit on Arts & Culture, U.S. Department of Education, American Educational Research Association, and 300+ national arts and education convenings in 25+ countries.\n\n'
+                                            +'Jeff hails from Portland, Maine and has earned degrees in arts management, cultural policy, and education at Oklahoma City University, University College Dublin, and the University of Glasgow.',
                                 download : true,
                                 abdownload : true,
                                 downlink : env.link + '/Jeff_Poulin.pptx',
@@ -2108,12 +2111,12 @@ export const langen = {
             advance : 'APPLICATION',
             programtext : '프로그램북 다운로드',
             contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
-                        +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
-                        +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
-                        +"today's "
-                        +'challenges".',
-            subcontents : '○ UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development\n\n'
-                        +'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+            +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
+            +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
+            +"today's "
+            +'challenges".\n\n'
+            +'“UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development”',
+            subcontents : 'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
             },
         
         home_center : {
@@ -3414,7 +3417,10 @@ export const langen = {
                                 name : 'Jeff Poulin',
                                 enname : '',
                                 job : '- Managing Director, Creative Generation, USA',
-                                contents : '',
+                                contents : 'Jeff M. Poulin is an American educator, non-profit administrator, and social entrepreneur whose work takes a justice approach towards uncovering local solutions for global challenges. In 2019, he founded Creative Generation, which works to inspire, connect, and amplify the social change work of young creatives and those dedicated to cultivating their creativity.\n\n'
+                                            +'With a decade of experience as a performer, teaching artist, education researcher, policy work, and arts administrator, Jeff led cultural policy and education initiatives in the U.S. and abroad, with organizations like the World Alliance for Arts Education/UNESCO, LiveNation, ArtPlace America, Americans for the Arts, the Irish Departments of Arts and Education, political campaigns, foundations, and local nonprofits.\n\n'
+                                            +'As a recognized leader, Jeff is widely published, serves as a reviewer for grant and research panels. He frequently speaks to diverse audiences at global and regional conferences like the World Youth Forum, the World Summit on Arts & Culture, U.S. Department of Education, American Educational Research Association, and 300+ national arts and education convenings in 25+ countries.\n\n'
+                                            +'Jeff hails from Portland, Maine and has earned degrees in arts management, cultural policy, and education at Oklahoma City University, University College Dublin, and the University of Glasgow.',
                                 download : true,
                                 abdownload : true,
                                 downlink : env.link + '/Jeff_Poulin.pptx',
