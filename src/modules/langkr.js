@@ -86,7 +86,7 @@ export const langkr = {
     p_data : {
         // 기타
         phototext : '갤러리 보기',
-        videobtn : '영상보기 >',
+        videobtn : '자세히 보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
         classdownload : '발제 자료',
@@ -354,7 +354,7 @@ export const langkr = {
             video : false,
             time : '13:00-19:10',
             link : '',
-            video_text1 : '영상보기',
+            video_text1 : '자세히 보기',
             video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 1',
@@ -492,7 +492,7 @@ export const langkr = {
             video : false,
             time : '13:00-19:25',
             link : '',
-            video_text1 : '영상보기',
+            video_text1 : '자세히 보기',
             video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 2',
@@ -634,7 +634,7 @@ export const langkr = {
                        +'예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한\n'
                        +'자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을\n'
                        +'불러 일으킬 것입니다.',
-            video_text : '영상보기',
+            video_text : '자세히 보기',
             data : [
                 {
                     imgs : plsession_img_01,
@@ -2066,7 +2066,7 @@ export const langkr = {
     // 모바일
     m_data : {
         // 기타
-        videobtn : '영상보기 >',
+        videobtn : '자세히 보기 >',
         realchating : '실시간 채팅',
         lecture : '강연설명',
         classdownload : '발제 자료',
@@ -2252,7 +2252,7 @@ export const langkr = {
             video : false,
             time : '13:00-19:10',
             link : '',
-            video_text1 : '영상보기',
+            video_text1 : '자세히 보기',
             video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 1',
@@ -2390,7 +2390,7 @@ export const langkr = {
             video : false,
             time : '13:00-19:25',
             link : '',
-            video_text1 : '영상보기',
+            video_text1 : '자세히 보기',
             video_text2 : '전체 영상보기',
             session1 : {
                 text1 : '기조발제 2',
@@ -2529,7 +2529,7 @@ export const langkr = {
         pl_session : {
             title : '기조발제',
             contents : '우리는 지금 다양성·평등·팬데믹·기후위기와 관련된 전지구적 위기가 보편화 되고 있는 가운데, 예술교육을 통해 예술이 지닌 회복과 창조의 역할을 이야기하려 합니다. 예술교육은 우리가 속한 자연을 회복시킬 수 있으며, 또한 미래에 대해 창의적이고 포용적인 생각을 하기 위한 성찰의 힘을 불러 일으킬 것입니다.',
-            video_text : '영상보기',
+            video_text : '자세히 보기',
             data : [
                 {
                     imgs : plsession_img_01,

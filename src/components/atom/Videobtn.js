@@ -55,7 +55,7 @@ const PText = styled.div`
 // Mobile
 const MWrapper = styled.a`
     cursor: pointer;
-    width : ${(props) => props.width || '60px'};
+    width : ${(props) => props.width || '70px'};
     height : 26px;
     display : ${props => props.videobtn ? 'flex' : 'none'};
     justify-content : center;
