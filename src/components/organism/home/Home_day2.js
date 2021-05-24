@@ -32,7 +32,7 @@ const Home_day2 = () => {
                     <PLeftInner>
                         <PLeftTitle>{p_detaildata.session1.text1}</PLeftTitle>
                         <PLeftTime>{p_detaildata.session1.text2}</PLeftTime>
-                        <PLink to={p_detaildata.session1.link} target="_blank">
+                        <PLink to={{pathname : p_detaildata.session1.link ,search: curlang.status}} target="_blank" >
                             <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
                         </PLink>
                     </PLeftInner>

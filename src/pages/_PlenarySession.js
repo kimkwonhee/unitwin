@@ -30,6 +30,8 @@ const _PlenarySession = withRouter(() => {
         window.scrollTo(0,0);
     }, []);
 
+    console.log();
+
     return (
         <>
             <Helmet title="The 4th UNESCO-UNITWIN SYMPOSIUM/plenary-session" />

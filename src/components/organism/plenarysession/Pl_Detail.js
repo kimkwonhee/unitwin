@@ -14,7 +14,7 @@ import env from '../../../modules/env'
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
 
-const Pl_Detail = ({match}) => {
+const Pl_Detail = ({match, location}) => {
 
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
@@ -69,6 +69,16 @@ const Pl_Detail = ({match}) => {
             };
         }, 10);
     }, [curlang]);
+
+    useEffect(() => {
+        if(location.search == '?kr'){
+            
+        }
+
+    },[]);
+
+
+    console.log(location.search);
 
     let pathname = match.params.detail
     let langstatus = curlang.status
@@ -171,7 +181,6 @@ const Pl_Detail = ({match}) => {
     }
 
     const [status, setStatus]  = useState('discription');
-
 
     return (
         <>
