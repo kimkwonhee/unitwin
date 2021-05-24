@@ -126,8 +126,8 @@ export const langen = {
                         +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
                         +"today's "
                         +'challenges".\n\n'
-                        +'“UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development”',
-            subcontents : 'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+                        +'“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+            subcontents : 'The program shares researches linked with UNESCO’s goal of Sustainable Development and “Seoul Agenda: Goals for the development of arts education”. Bringing together researchers from various universities and institutions all around the world, the program disseminates researches, expands discussions, reflects on implementation and holds annual symposiums.'
         },
 
         // home 중앙
@@ -141,22 +141,22 @@ export const langen = {
             session1 : {
                 day : '05.24 Mon',
                 mon1 : {
-                    time1 : '13:00-13:15',
+                    time1 : '13:00-13:17',
                     title1 : 'Opening Perfomance',
-                    time2 : '13:15-13:25',
+                    time2 : '13:17-13:25',
                     title2 : 'Welcome Speech',
-                    time3 : '13:25-13:28',
+                    time3 : '13:25-13:30',
                     title3 : 'Congratulatory Speech',
-                    time4 : '13:28-13:43',
+                    time4 : '13:30-13:47',
                     title4 : 'Plenary Presentaion 1',
-                    time5 : '13:43-13:58',
+                    time5 : '13:47-14:13',
                     title5 : 'Plenary Presentaion 2',
-                    time6 : '13:58-14:08',
+                    time6 : '14:13-14:25',
                     title6 : 'Plenary Presentaion 3' ,
-                    time7 : '14:08-14:13',
+                    time7 : '14:25-14:30',
                     title7 : 'Theme Video',
-                    title8 : '(Voice of All)',
-                    time8 : '14:15-15:35',
+                    title8 : '(OUR VOICES)',
+                    time8 : '14:30-15:40',
                     title9 : 'The 4th UNESCO-UNITWIN\nSymposium Pre-session'
                 }
             },
@@ -279,21 +279,21 @@ export const langen = {
 
         // home day1
         home_day1 : {
-            title : 'Opening Ceremony & Pre-session',
+            title : 'Opening Ceremony of the 2021 International Arts Education Week &\nPre-session of the 4th UNESCO-UNITWIN SYMPOSIUM',
             video : true,
             time : '13:00-15:35',
             link : 'http://www.arteweek.kr/2021/views/opening.php',
             video_text : 'View All',
             session1 : {
                 text1 : 'Opening Perfomance',
-                text2 : '13:00-13:15',
+                text2 : '13:00-13:17',
                 text3 : '<Body-Go-Round>',
                 text4 : 'Cha jinyeob',
                 text5 : '- Director, collective A, Republic of Korea',
             },
             session2 : {
                 text1 : 'Welcome Speech',
-                text2 : '13:15-13:25',
+                text2 : '13:17-13:25',
                 text3 : 'Hee Hwang',
                 text4 : '- Minister, Ministry of Culture, Sports and Tourism, Republic of Korea',
                 text5 : 'Shin-Eui Park',
@@ -301,40 +301,43 @@ export const langen = {
             },
             session3 : {
                 text1 : 'Congratulatory Speech',
-                text2 : '13:25-13:28',
+                text2 : '13:25-13:30',
                 text3 : 'Larry O’ Farrell',
                 text4 : '',
                 text5 : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”, Canada',
+                text6 : 'Ernesto Ottone R.',
+                text7 : '',
+                text8 : '- Assistant Director-General for Culture of UNESCO, Chile',
             },
             session4 : {
-                text1 : 'Plenary Presentaion 1',
-                text2 : '13:28-13:43',
+                text1 : 'Keynote Speakers 1',
+                text2 : '13:30-13:47',
                 text3 : '<Culture and Climate Change>',
                 text4 : 'Ben Twist',
                 text5 : '',
                 text6 : '- Director, Creative Carbon Scotland, Scotland',
             },
             session5 : {
-                text1 : 'Plenary Presentaion 2',
-                text2 : '13:43-13:58',
+                text1 : 'Keynote Speakers 2',
+                text2 : '13:47-14:13',
                 text3 : '<Creative Pedagogies of Kindness, Care, and Repair.>',
                 text4 : 'Peter Sellars',
                 text5 : '',
                 text6 : '- Director / Professor, UCLA, USA',
             },
             session6 : {
-                text1 : 'Plenary Presentaion 3',
-                text2 : '13:58-14:08',
-                text3 : '<Taking responsibility for your own art>',
+                text1 : 'Keynote Speakers 3',
+                text2 : '14:13-14:25',
+                text3 : '<Taking Responsibility for Your Own Art>',
                 text4 : 'Yozoh',
                 text5 : '',
                 text6 : '- Singer-songwriter, MAGICSTRAWBERRY SOUND / Writer, Republic of Korea',
             },
             session7 : {
                 text1 : 'Theme Video',
-                text2 : '14:08-14:13',
-                text3 : '<Voice of All>',
-                text4 : 'Voice of All: Exploring the Meaning of Equality through the Lens of Arts education',
+                text2 : '14:25-14:30',
+                text3 : '<OUR VOICES>',
+                text4 : 'The Stories of People Discovering the Hope in Life through Arts in the Times of Crisis',
             },
             session8 : {
                 text1 : 'The 4th UNESCO-UNITWIN Symposium\nPre-session',
@@ -2114,8 +2117,8 @@ export const langen = {
             +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
             +"today's "
             +'challenges".\n\n'
-            +'“UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development”',
-            subcontents : 'Members of INRAE(International Network of Research in Arts Education), ENO(European Network of Observatories in the Field of Arts and Cultural education), APAH(Asia-Pacific Arts Education Hub) gathered around and formed a unity in 2007 through the network which is consist of UNESCO affiliated universities and research institutes. Every year, full-member countries hold rotating academic symposiums.'
+            +'“UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”',
+            subcontents : 'The program shares researches linked with UNESCO’s goal of Sustainable Development and “Seoul Agenda: Goals for the development of arts education”. Bringing together researchers from various universities and institutions all around the world, the program disseminates researches, expands discussions, reflects on implementation and holds annual symposiums.'
             },
         
         home_center : {
@@ -2127,22 +2130,22 @@ export const langen = {
         home_all : {
             session1 : {
                 text1 : '05.24 Mon',
-                text2 : '13:00-13:15',
+                text2 : '13:00-13:17',
                 text3 : 'Opening Perfomance',
-                text4 : '13:15-13:25',
+                text4 : '13:17-13:25',
                 text5 : 'Welcome Speech',
-                text6 : '13:25-13:28',
+                text6 : '13:25-13:30',
                 text7 : 'Congratulatory Speech',
-                text8 : '13:28-13:43',
+                text8 : '13:30-13:47',
                 text9 : 'Plenary Presentaion 1',
-                text10 : '13:43-13:58',
+                text10 : '13:47-14:13',
                 text11 : 'Plenary Presentaion 2',
-                text12 : '13:58-14:08',
+                text12 : '14:13-14:25',
                 text13 : 'Plenary Presentaion 3',
-                text14 : '14:08-14:13',
+                text14 : '14:25-14:30',
                 text15 : 'Theme Video',
-                text16 : '(Voice of All)',
-                text17 : '14:15-15:35',
+                text16 : '(OUR VOICES)',
+                text17 : '14:30-15:40',
                 text18 : 'The 4th UNESCO-UNITWIN\nSymposium Pre-session',
             },
             session2 : {
@@ -2188,21 +2191,21 @@ export const langen = {
 
         // home day1
         home_day1 : {
-            title : 'Opening Ceremony &\nPre-session',
+            title : 'Opening Ceremony of the 2021 International Arts Education Week &\nPre-session of the 4th UNESCO-UNITWIN SYMPOSIUM',
             video : true,
             time : '13:00-15:35',
             link : 'http://www.arteweek.kr/2021/views/opening.php',
             video_text : 'View All',
             session1 : {
                 text1 : 'Opening Perfomance',
-                text2 : '13:00-13:15',
+                text2 : '13:00-13:17',
                 text3 : '<Body-Go-Round>',
                 text4 : 'Cha jinyeob',
                 text5 : '- Director, collective A, Republic of Korea',
             },
             session2 : {
                 text1 : 'Welcome\nSpeech',
-                text2 : '13:15-13:25',
+                text2 : '13:17-13:25',
                 text3 : 'Hee Hwang',
                 text4 : '- Minister, Ministry of Culture, Sports and Tourism, Republic of Korea',
                 text5 : 'Shin-Eui Park',
@@ -2210,40 +2213,43 @@ export const langen = {
             },
             session3 : {
                 text1 : 'Congratulatory Speech',
-                text2 : '13:25-13:28',
+                text2 : '13:25-13:30',
                 text3 : 'Larry O’ Farrell',
                 text4 : '',
                 text5 : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development”, Canada',
+                text6 : 'Ernesto Ottone R.',
+                text7 : '',
+                text8 : '- Assistant Director-General for Culture of UNESCO, Chile',
             },
             session4 : {
-                text1 : 'Plenary Presentaion 1',
-                text2 : '13:28-13:43',
+                text1 : 'Keynote Speakers 1',
+                text2 : '13:30-13:47',
                 text3 : '<Culture and Climate Change>',
                 text4 : 'Ben Twist',
                 text5 : '',
                 text6 : '- Director, Creative Carbon Scotland, Scotland',
             },
             session5 : {
-                text1 : 'Plenary Presentaion 2',
-                text2 : '13:43-13:58',
+                text1 : 'Keynote Speakers 2',
+                text2 : '13:47-14:13',
                 text3 : '<Creative Pedagogies of Kindness, Care, and Repair.>',
                 text4 : 'Peter Sellars',
                 text5 : '',
                 text6 : '- Director / Professor, UCLA, USA',
             },
             session6 : {
-                text1 : 'Plenary Presentaion 3',
-                text2 : '13:58-14:08',
-                text3 : '<Taking responsibility for your own art>',
+                text1 : 'Keynote Speakers 3',
+                text2 : '14:13-14:25',
+                text3 : '<Taking Responsibility for Your Own Art>',
                 text4 : 'Yozoh',
                 text5 : '',
                 text6 : '- Singer-songwriter, MAGICSTRAWBERRY SOUND / Writer, Republic of Korea',
             },
             session7 : {
                 text1 : 'Theme Video',
-                text2 : '14:08-14:13',
-                text3 : '<Voice of All>',
-                text4 : 'Voice of All: Exploring the Meaning of Equality through the Lens of Arts education',
+                text2 : '14:25-14:30',
+                text3 : '<OUR VOICES>',
+                text4 : 'The Stories of People Discovering the Hope in Life through Arts in the Times of Crisis',
             },
             session8 : {
                 text1 : 'The 4th UNESCO-UNITWIN Symposium\nPre-session',

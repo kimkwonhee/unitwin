@@ -64,6 +64,8 @@ const Home_day1 = () => {
                     <PRight>
                         <PRightInner>
                             <PRightSection>
+                                <PRightName>{p_detaildata.session3.text6}<PRightEnName>{p_detaildata.session3.text7}</PRightEnName></PRightName>
+                                <PRightJop>{p_detaildata.session3.text8}</PRightJop>
                                 <PRightName>{p_detaildata.session3.text3}<PRightEnName>{p_detaildata.session3.text4}</PRightEnName></PRightName>
                                 <PRightJop>{p_detaildata.session3.text5}</PRightJop>
                             </PRightSection>
@@ -213,6 +215,8 @@ const Home_day1 = () => {
                             <MRight>
                                 <MRightInner>
                                     <MRightSection>
+                                        <MRightName>{m_detaildata.session3.text6}<MRightEnName>{m_detaildata.session3.text7}</MRightEnName></MRightName>
+                                        <MRightJop>{m_detaildata.session3.text8}</MRightJop>
                                         <MRightName>{m_detaildata.session3.text3}<MRightEnName>{m_detaildata.session3.text4}</MRightEnName></MRightName>
                                         <MRightJop>{m_detaildata.session3.text5}</MRightJop>
                                     </MRightSection>
