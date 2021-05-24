@@ -7,9 +7,10 @@ import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
 import { Modal } from 'antd'
 import CloseImg from '../images/modal_close.png'
+import moment from 'moment'
 
 const _Home = () => {
-    const [modalVisible, setModalVisible] = useState(true)
+    const [modalVisible, setModalVisible] = useState(false)
     const [modalWidth, setModalWidth] = useState('1200px')
     useEffect(() => {
         const gaSetting = async () => {
@@ -25,6 +26,19 @@ const _Home = () => {
     }, []);
 
     useEffect(() => {
+        
+        if (window.localStorage.getItem('modal')) {
+            if (window.localStorage.getItem('modal') !== moment().format('YYYY-MM-DD')) {
+                setModalVisible(true)
+                window.localStorage.setItem('modal', moment().format('YYYY-MM-DD'))
+            } else {
+                setModalVisible(false)
+            }
+        } else {
+            setModalVisible(true)
+            window.localStorage.setItem('modal', moment().format('YYYY-MM-DD'))
+        }
+        
         const width = window.innerWidth
         if (width <= 1200) {
             setModalWidth('100%')
