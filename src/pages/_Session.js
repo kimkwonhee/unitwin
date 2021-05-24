@@ -96,7 +96,7 @@ const _Session = () => {
                     />
                     <PSection>
                         {selList.map((list, index) => {
-                            return <PLink to={list.link} key={list.id} target="_blank">
+                            return <PLink to={{pathname : list.link, search: curlang.status}} key={list.id} target="_blank">
                                      <PList  
                                         src={list.img} 
                                         name={list.name}
@@ -126,7 +126,7 @@ const _Session = () => {
                     />
                     <MSection>
                         {m_selList.map((list, index) => {
-                            return <MLink to={list.link} key={list.id} target="_blank">
+                            return <MLink to={{pathname : list.link , search: curlang.status}} key={list.id} target="_blank">
                                      <MList 
                                         src={list.img} 
                                         name={list.name}

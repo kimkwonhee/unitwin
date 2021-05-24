@@ -7,18 +7,23 @@ import { withRouter } from 'react-router-dom'
 import mobileviewbtn from '../../atom/mobileviewbtn'
 import Downloadbtn from '../../atom/Downloadbtn'
 import Downloadbtn2 from '../../atom/Downloadbtn2'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import color from '../../../style/color'
 import { Affix } from 'antd'
 import env from '../../../modules/env'
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
+import { changkr, changen } from '../../../modules/changlang'
 
 const Pl_Detail = ({match, location}) => {
 
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
+
+    const dispatch = useDispatch();
+    const onChangKr = () => dispatch(changkr());
+    const onChangEn = () => dispatch(changen());
 
     const chatPRef = useRef(null);
     const chatMRef = useRef(null);
@@ -72,13 +77,12 @@ const Pl_Detail = ({match, location}) => {
 
     useEffect(() => {
         if(location.search == '?kr'){
-            
+            onChangKr();
         }
-
+        if(location.search == '?en'){
+            onChangEn();
+        }
     },[]);
-
-
-    console.log(location.search);
 
     let pathname = match.params.detail
     let langstatus = curlang.status

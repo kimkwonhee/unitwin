@@ -1,18 +1,24 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import PageTopArea from '../components/molecules/PageTopArea'
 import Pl_SectionData from '../components/organism/plenarysession/Pl_SectionData'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import color from '../style/color'
 import SessionBg from '../images/session_bg_pc.png';
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
+import { withRouter } from 'react-router-dom'
+import { changkr, changen } from '../modules/changlang'
 
 
-const _Byob = () => {
+const _Byob = ({location}) => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
+
+    const dispatch = useDispatch();
+    const onChangKr = () => dispatch(changkr());
+    const onChangEn = () => dispatch(changen());
 
     const p_detaildata = curlang.p_data.byob;
     const m_detaildata = curlang.m_data.byob;
@@ -30,6 +36,15 @@ const _Byob = () => {
         gaSetting()
         window.scrollTo(0,0);
     }, []);
+
+    useEffect(() => {
+        if(location.search == '?kr'){
+            onChangKr();
+        }
+        if(location.search == '?en'){
+            onChangEn();
+        }
+    },[]);
 
     return (
         <>
@@ -206,4 +221,4 @@ const MMiddleArea = styled.div`
 const M_Data = styled(Pl_SectionData)`
 `
 
-export default _Byob
+export default withRouter(_Byob)

@@ -53,6 +53,16 @@ const Menubar = withRouter(({ className, curlang }) => {
         return () => window.removeEventListener('resize', onScreenResize)
     }, [location.pathname])
 
+    useEffect(() => {
+        if(location.search == '?kr'){
+            setLangState('kr')
+        }
+        if(location.search == '?en'){
+            setLangState('en')
+        }
+    },[]);
+
+    
     const p_detaildata = curlang.p_data.menuber;
     const m_detaildata = curlang.m_data.menuber;
     const m_footerdata = curlang.m_data.footer;
