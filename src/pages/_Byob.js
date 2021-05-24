@@ -80,6 +80,12 @@ const _Byob = ({location}) => {
                             jop={p_detaildata.data[2].jop}
                             discripton={p_detaildata.data[2].discripton}
                         />
+                        <P_Data 
+                            imgs={p_detaildata.data[3].imgs}
+                            name={p_detaildata.data[3].name}
+                            jop={p_detaildata.data[3].jop}
+                            discripton={p_detaildata.data[3].discripton}
+                        />
                     </PMiddleArea>
                 </PInner>
             </PWrapper>
@@ -114,6 +120,12 @@ const _Byob = ({location}) => {
                             name={m_detaildata.data[2].name}
                             jop={m_detaildata.data[2].jop}
                             discripton={m_detaildata.data[2].discripton}
+                        />
+                        <M_Data 
+                            imgs={m_detaildata.data[3].imgs}
+                            name={m_detaildata.data[3].name}
+                            jop={m_detaildata.data[3].jop}
+                            discripton={m_detaildata.data[3].discripton}
                         />
                     </MMiddleArea>
                 </MInner>
