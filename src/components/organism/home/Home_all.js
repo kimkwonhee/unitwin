@@ -79,8 +79,9 @@ const Home_all = () => {
                         pdetop="77px"
                         >
                             <PLink 
-                                to={p_tue1.link}
+                                to={{pathname : p_tue1.link, search: curlang.status}}
                                 status={langstatus}
+                                target="_blank"
                             >
                                 <PMove>
                                     {curlang.p_data.move}
@@ -96,7 +97,8 @@ const Home_all = () => {
                     <PTueSection2>
                             <PLink 
                                 status={langstatus}
-                                to={p_tue2.link}
+                                to={{pathname : p_tue2.link, search: curlang.status}}
+                                target="_blank"
                             >
                                 <PMove>{curlang.p_data.move}</PMove>
                             </PLink>
@@ -118,7 +120,8 @@ const Home_all = () => {
                             >
                                 <PLink 
                                     status={langstatus}
-                                    to={p_tue3.link}
+                                    to={{pathname : p_tue3.link, search: curlang.status}}
+                                    target="_blank"
                                 >
                                     <PMove ove>{curlang.p_data.move}</PMove>
                                 </PLink>
@@ -137,7 +140,8 @@ const Home_all = () => {
                             >
                                 <PLink 
                                     status={langstatus}
-                                    to={p_tue4.link}
+                                    to={{pathname : p_tue4.link, search: curlang.status}}
+                                    target="_blank"
                                 >
                                     <PMove ove>{curlang.p_data.move}</PMove>
                                 </PLink>
@@ -153,7 +157,8 @@ const Home_all = () => {
                     <PTueSection4>
                         <PLink 
                             status={langstatus}
-                            to={p_tue5.link}
+                            to={{pathname : p_tue5.link, search: curlang.status}}
+                            target="_blank"
                         >
                             <PMove ove>{curlang.p_data.move}</PMove>
                         </PLink>
@@ -168,7 +173,8 @@ const Home_all = () => {
                     <PTueSection5>
                         <PLink 
                             status={langstatus}
-                            to={p_tue6.link}
+                            to={{pathname : p_tue6.link, search: curlang.status}}
+                            target="_blank"
                         >
                             <PMove ove>{curlang.p_data.move}</PMove>
                         </PLink>
@@ -187,7 +193,8 @@ const Home_all = () => {
                         >
                             <PLink 
                                 status={langstatus} 
-                                to={p_wed1.link}
+                                to={{pathname : p_wed1.link, search: curlang.status}}
+                                target="_blank"
                             >
                                 <PMove ove>{curlang.p_data.move}</PMove>
                             </PLink>
@@ -201,7 +208,8 @@ const Home_all = () => {
                     <PWedSection2>
                             <PLink 
                                 status={langstatus}
-                                to={p_wed2.link}
+                                to={{pathname : p_wed2.link, search: curlang.status}}
+                                target="_blank"
                             >
                                 <PMove ove>{curlang.p_data.move}</PMove>
                             </PLink>
@@ -223,7 +231,8 @@ const Home_all = () => {
                             >
                                 <PLink 
                                     status={langstatus} 
-                                    to={p_wed3.link}
+                                    to={{pathname : p_wed3.link, search: curlang.status}}
+                                    target="_blank"
                                     >
                                     <PMove ove>{curlang.p_data.move}</PMove>
                                 </PLink>
@@ -242,7 +251,8 @@ const Home_all = () => {
                                 >
                                 <PLink 
                                     status={langstatus}
-                                    to={p_wed4.link}
+                                    to={{pathname : p_wed4.link, search: curlang.status}}
+                                    target="_blank"
                                 >
                                     <PMove ove>{curlang.p_data.move}</PMove>
                                 </PLink>
@@ -258,7 +268,8 @@ const Home_all = () => {
                     <PWedSection4>
                         <PLink 
                             status={langstatus}
-                            to={p_wed5.link}
+                            to={{pathname : p_wed5.link, search: curlang.status}}
+                            target="_blank"
                         >
                             <PMove ove>{curlang.p_data.move}</PMove>
                         </PLink>
@@ -274,7 +285,8 @@ const Home_all = () => {
                         <PLink 
                             status={langstatus}
                             kbottom="30px"
-                            to={p_wed6.link}
+                            to={{pathname : p_wed6.link, search: curlang.status}}
+                            target="_blank"
                         >
                             <PMove ove>{curlang.p_data.move}</PMove>
                         </PLink>

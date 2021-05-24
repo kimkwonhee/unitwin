@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import color from '../../style/color'
+import { withRouter } from 'react-router-dom'
 
-const Langbtn = ({children, onClick, id, langstate}) => {
+const Langbtn = ({children, onClick, id, langstate }) => {
+
     return (
         <Wrapper 
             onClick={onClick}
@@ -25,7 +27,7 @@ const Wrapper = styled.div`
      font-size: 0.75rem;
      font-weight: bold;
      color: ${props=> (props.id === props.langstate) ? color.white : color.brownish_grey};
-     background-color: ${props=> (props.id === props.langstate) ? color.turtle_green : color.white}
+     background-color: ${props=> (props.id === props.langstate) ? color.turtle_green : color.white};
 `
 
-export default Langbtn
+export default withRouter(Langbtn)

@@ -31,7 +31,7 @@ const Home_day3 = () => {
                     <PLeftInner>
                         <PLeftTitle>{p_detaildata.session1.text1}</PLeftTitle>
                         <PLeftTime>{p_detaildata.session1.text2}</PLeftTime>
-                        <PLink to={p_detaildata.session1.link} target="_blank">
+                        <PLink to={{pathname : p_detaildata.session1.link , search: curlang.status}} target="_blank" >
                             <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
                         </PLink>
                     </PLeftInner>
@@ -39,14 +39,14 @@ const Home_day3 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session1.text3}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session1.link + '#Benjamin'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session1.link, hash:'#Benjamin', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session1.text4}<PRightEnName>{p_detaildata.session1.text5}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session1.text6}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session1.text7}</PRightModer>
-                                <PDetailLink to={p_detaildata.session1.link + '#Tanja'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session1.link, hash:'#Tanja', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session1.text8}<PRightEnName>{p_detaildata.session1.text9}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session1.text10}</PRightJop>
                                 </PDetailLink>
@@ -59,7 +59,7 @@ const Home_day3 = () => {
                         <PLeftTitle>{p_detaildata.session2.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session2.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session2.text3}</PLeftTime>
-                        <PLink to={p_detaildata.session2.link} target="_blank">
+                        <PLink to={{pathname : p_detaildata.session2.link , search: curlang.status}} target="_blank" >
                             <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
                         </PLink>
                     </PLeftInner>
@@ -67,40 +67,40 @@ const Home_day3 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text4}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session2.link + '#Mary'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session2.link, hash:'#Mary', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session2.text5}<PRightEnName>{p_detaildata.session2.text6}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session2.text7}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text8}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session2.link + '#Emily'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session2.link, hash:'#Emily', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session2.text9}<PRightEnName>{p_detaildata.session2.text10}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session2.text11}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text12}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session2.link + '#Jihea'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session2.link, hash:'#Jihea', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session2.text13}</PRightName>
                                     <PRightJop>{p_detaildata.session2.text14}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session2.text15}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session2.link + '#Wilson'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session2.link, hash:'#Wilson', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session2.text16}<PRightEnName>{p_detaildata.session2.text17}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session2.text18}</PRightJop>
                                 </PDetailLink>
                                 <PEmpty />
-                                <PDetailLink to={p_detaildata.session2.link + '#Neryl'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session2.link, hash:'#Neryl', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session2.text19}<PRightEnName>{p_detaildata.session2.text20}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session2.text21}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session2.text22}</PRightModer>
-                                <PDetailLink to={p_detaildata.session2.link + '#Benjamin'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session2.link, hash:'#Benjamin', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session2.text23}<PRightEnName>{p_detaildata.session2.text24}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session2.text25}</PRightJop>
                                 </PDetailLink>
@@ -113,7 +113,7 @@ const Home_day3 = () => {
                         <PLeftTitle>{p_detaildata.session3.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session3.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session3.text3}</PLeftTime>
-                        <PLink to={p_detaildata.session3.link} target="_blank">
+                        <PLink to={{pathname : p_detaildata.session3.link , search: curlang.status}} target="_blank" >
                             <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
                         </PLink>
                     </PLeftInner>
@@ -121,50 +121,50 @@ const Home_day3 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text12}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session3.link + '#Rebecca'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#Rebecca', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text13}<PRightEnName>{p_detaildata.session3.text14}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text15}</PRightJop>
                                 </PDetailLink>
                                 <PEmpty />
-                                <PDetailLink to={p_detaildata.session3.link + '#Foo'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#Foo', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text16}<PRightEnName>{p_detaildata.session3.text17}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text18}</PRightJop>
                                 </PDetailLink>
                                 <PEmpty />
-                                <PDetailLink to={p_detaildata.session3.link + '#Tan'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#Tan', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text19}<PRightEnName>{p_detaildata.session3.text20}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text21}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text7}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session3.link + '#HyeYoun'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#HyeYoun', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text8}</PRightName>
                                     <PRightJop>{p_detaildata.session3.text9}</PRightJop>
                                 </PDetailLink>
                                 <PEmpty />
-                                <PDetailLink to={p_detaildata.session3.link + '#Hyojin'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#Hyojin', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text10}</PRightName>
                                     <PRightJop>{p_detaildata.session3.text11}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text4}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session3.link + '#Hwan_Jung'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#Hwan_Jung', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text5}</PRightName>
                                     <PRightJop>{p_detaildata.session3.text6}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session3.text22}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session3.link + '#Jeff'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#Jeff', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text23}<PRightEnName>{p_detaildata.session3.text24}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session3.text25}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session3.text26}</PRightModer>
-                                <PDetailLink to={p_detaildata.session3.link + '#Hyesun'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session3.link, hash:'#Hyesun', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session3.text27}</PRightName>
                                     <PRightJop>{p_detaildata.session3.text28}</PRightJop>
                                 </PDetailLink>
@@ -177,7 +177,7 @@ const Home_day3 = () => {
                         <PLeftTitle>{p_detaildata.session4.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session4.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session4.text3}</PLeftTime>
-                        <PLink to={p_detaildata.session4.link} target="_blank">
+                        <PLink to={{pathname : p_detaildata.session4.link , search: curlang.status}} target="_blank" >
                             <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
                         </PLink>
                     </PLeftInner>
@@ -185,45 +185,45 @@ const Home_day3 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text4}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session4.link + '#Ruth'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session4.link, hash:'#Ruth', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session4.text5}<PRightEnName>{p_detaildata.session4.text6}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session4.text7}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text8}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session4.link + '#Ji_young'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session4.link, hash:'#Ji_young', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session4.text9}</PRightName>
                                     <PRightJop>{p_detaildata.session4.text10}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text11}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session4.link + '#Yuri'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session4.link, hash:'#Yuri', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session4.text12}</PRightName>
                                     <PRightJop>{p_detaildata.session4.text13}</PRightJop>
                                 </PDetailLink>
                                 <PEmpty />
-                                <PDetailLink to={p_detaildata.session4.link + '#Sojung'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session4.link, hash:'#Sojung', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session4.text14}</PRightName>
                                     <PRightJop>{p_detaildata.session4.text15}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session4.text16}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session4.link + '#Sean'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session4.link, hash:'#Sean', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session4.text17}<PRightEnName>{p_detaildata.session4.text18}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session4.text19}</PRightJop>
                                 </PDetailLink>
                                 <PEmpty />
-                                <PDetailLink to={p_detaildata.session4.link + '#Benjamin'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session4.link, hash:'#Benjamin', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session4.text20}<PRightEnName>{p_detaildata.session4.text21}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session4.text22}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session4.text23}</PRightModer>
-                                <PDetailLink to={p_detaildata.session4.link + '#Chee_Hoo'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session4.link, hash:'#Chee_Hoo', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session4.text24}<PRightEnName>{p_detaildata.session4.text25}</PRightEnName></PRightName>
                                     <PRightJop>{p_detaildata.session4.text26}</PRightJop>
                                 </PDetailLink>
@@ -236,7 +236,7 @@ const Home_day3 = () => {
                         <PLeftTitle>{p_detaildata.session5.text1}</PLeftTitle>
                         <PLeftSub>{p_detaildata.session5.text2}</PLeftSub>
                         <PLeftTime>{p_detaildata.session5.text3}</PLeftTime>
-                        <PLink to={p_detaildata.session5.link} target="_blank">
+                        <PLink to={{pathname : p_detaildata.session5.link , search: curlang.status}} target="_blank" >
                             <PVideobtn videotext={p_detaildata.video_text1} videobtn="true"/>
                         </PLink>
                     </PLeftInner>
@@ -244,42 +244,42 @@ const Home_day3 = () => {
                         <PRightInner>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session5.text4}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session5.link + '#Soohye'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session5.link, hash:'#Soohye', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session5.text5}</PRightName>
                                     <PRightJop>{p_detaildata.session5.text6}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session5.text7}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session5.link + '#Yunji'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session5.link, hash:'#Yunji', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session5.text8}</PRightName>
                                     <PRightJop>{p_detaildata.session5.text9}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session5.text10}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session5.link + '#Hyunjung'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session5.link, hash:'#Hyunjung', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session5.text11}</PRightName>
                                     <PRightJop>{p_detaildata.session5.text12}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session5.text13}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session5.link + '#Sungjong'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session5.link, hash:'#Sungjong', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session5.text14}</PRightName>
                                     <PRightJop>{p_detaildata.session5.text15}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightTitle>{p_detaildata.session5.text16}</PRightTitle>
-                                <PDetailLink to={p_detaildata.session5.link + '#Younghee'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session5.link, hash:'#Younghee', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session5.text17}</PRightName>
                                     <PRightJop>{p_detaildata.session5.text18}</PRightJop>
                                 </PDetailLink>
                             </PRightSection>
                             <PRightSection>
                                 <PRightModer>{p_detaildata.session5.text19}</PRightModer>
-                                <PDetailLink to={p_detaildata.session5.link + '#Yujin'} target="_blank">
+                                <PDetailLink to={{ pathname : p_detaildata.session5.link, hash:'#Yujin', search: curlang.status}} target="_blank">
                                     <PRightName>{p_detaildata.session5.text20}</PRightName>
                                     <PRightJop>{p_detaildata.session5.text21}</PRightJop>
                                 </PDetailLink>
@@ -291,7 +291,7 @@ const Home_day3 = () => {
                     <PLeftInner>
                         <PLeftTitle>{p_detaildata.session6.text1}</PLeftTitle>
                         <PLeftTime>{p_detaildata.session6.text2}</PLeftTime>
-                        <PLink to={p_detaildata.session6.link} target="_blank">
+                        <PLink to={{pathname : p_detaildata.session6.link , search: curlang.status}} target="_blank" >
                             <PVideobtn width="120px" videotext={p_detaildata.video_text2} videobtn="true"/>
                         </PLink>
                     </PLeftInner>

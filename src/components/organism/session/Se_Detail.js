@@ -5,18 +5,23 @@ import ListVideoSession from '../../molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
 import ListSession_Se from '../../molecules/ListSession_Se'
 import mobileviewbtn from '../../atom/mobileviewbtn'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import color from '../../../style/color'
 import { Affix } from 'antd'
 import env from '../../../modules/env'
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
+import { changkr, changen } from '../../../modules/changlang'
 
 const Se_Detail = ({match, location}) => {
 
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
+
+    const dispatch = useDispatch();
+    const onChangKr = () => dispatch(changkr());
+    const onChangEn = () => dispatch(changen());
 
     const chatPRef = useRef(null);
     const chatMRef = useRef(null);
@@ -68,6 +73,15 @@ const Se_Detail = ({match, location}) => {
         }, 10);
     }, [curlang]);
 
+    useEffect(() => {
+        if(location.search == '?kr'){
+            onChangKr();
+        }
+        if(location.search == '?en'){
+            onChangEn();
+        }
+    },[]);
+    
     const p_detaildata = curlang.p_data.session_detail;
     const m_detaildata = curlang.m_data.session_detail;
 

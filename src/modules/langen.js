@@ -2588,6 +2588,7 @@ export const langen = {
                     {
                         img : pl_detail1_img_01,
                         moder : '',
+                        mhashtag : 'MErnst',
                         name : 'Ernst Wagner',
                         en_name : '',
                         li_title : '- Honorary member of “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Senior Researcher, Academy of Fine Arts Munich, Germany',
@@ -2597,6 +2598,7 @@ export const langen = {
                     {
                         img : pl_detail1_img_02,
                         moder : '[Moderator]',
+                        mhashtag : 'MChee_Hoo',
                         name : 'Chee-Hoo Lum',
                         en_name : '',
                         li_title : '- Associate Professor, Nanyang Technological University, Singapore',
@@ -2619,6 +2621,7 @@ export const langen = {
                     {
                         img : plsession_img_02,
                         moder : '',
+                        mhashtag : 'MBenjamin',
                         name : 'Benjamin Jörissen',
                         en_name : '',
                         li_title : "- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany",
@@ -2628,6 +2631,7 @@ export const langen = {
                     {
                         img : session_img_43,
                         moder : '[Moderator]',
+                        mhashtag : 'MTanja',
                         name : 'Tanja Klepacki',
                         en_name : '',
                         li_title : '- senior researcher, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',

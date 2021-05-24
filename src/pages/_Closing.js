@@ -4,7 +4,7 @@ import ListSession from '..//components/molecules/ListSession'
 import ListSessionTop from '..//components/molecules/ListSessionTop'
 import ListVideoSession from '../components/molecules/ListVideoSession'
 import { withRouter } from 'react-router-dom'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import color from '../style/color'
 import { Affix } from 'antd'
 import mobileviewbtn from '../components/atom/mobileviewbtn'
@@ -12,12 +12,17 @@ import Downloadbtn from '../components/atom/Downloadbtn'
 import env from '../modules/env'
 import ReactGA from 'react-ga'
 import { Helmet } from "react-helmet"
+import { changkr, changen } from '../modules/changlang'
 
 
-const _Closing = () => {
+const _Closing = ({location}) => {
     const { curlang } = useSelector(state => ({
         curlang : state.changlang.curlang
     }))
+
+    const dispatch = useDispatch();
+    const onChangKr = () => dispatch(changkr());
+    const onChangEn = () => dispatch(changen());
 
     const chatPRef = useRef(null);
     const chatMRef = useRef(null);
@@ -68,6 +73,15 @@ const _Closing = () => {
             };
         }, 10);
     }, [curlang]);
+
+    useEffect(() => {
+        if(location.search == '?kr'){
+            onChangKr();
+        }
+        if(location.search == '?en'){
+            onChangEn();
+        }
+    },[]);
 
     const p_detaildata = curlang.p_data.closing;
     const m_detaildata = curlang.m_data.closing;

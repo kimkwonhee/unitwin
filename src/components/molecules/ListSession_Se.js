@@ -203,8 +203,8 @@ const Mdiv = styled.div`
     &:before {
         display: block; 
         content: " "; 
-        margin-top:${props => props.isTop ? '-140px' : '-110px'}; 
-        height: ${props => props.isTop ? '140px' : '110px'};
+        margin-top:${props => props.isTop ? '-155px' : '-110px'}; 
+        height: ${props => props.isTop ? '155px' : '110px'};
         visibility: hidden; 
         pointer-events: none;
     }
@@ -229,6 +229,7 @@ const MTitle = styled.div`
     font-size: 14px;
     font-weight: bold;
     text-align : center;
+    word-break : keep-all;
     color: ${color.black};
 `
 const MInner = styled.div`
