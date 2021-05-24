@@ -120,10 +120,12 @@ const PLeftArea = styled.div`
     justify-content : space-between;
 `
 const PTitle = styled.div`
+    width : 700px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom : 8px;
     white-space : pre-line;
+    word-break : keep-all;
     color: ${color.black};
 `
 const PTime = styled.div`

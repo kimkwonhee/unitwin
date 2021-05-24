@@ -223,7 +223,7 @@ export const langen = {
                 wed1 : {
                     text1 : '13:00-13:40',
                     text2 : 'Plenary Session 2',
-                    text3 : '("Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.)',
+                    text3 : '("Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?:  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability)',
                     text4 : 'Benjamin Jörissen',
                     text5 : '[Moderator]',
                     text6 : 'Tanja Klepacki',
@@ -436,7 +436,7 @@ export const langen = {
                 text4 : '<Reaching Arts Education out to the Unreached: A Study on Child in the World Who Need Non-face-to-face Arts Education Regardless of Pandemic>',
                 text5 : 'Tei Kim',
                 text6 : '- Director, BARA Art Growth Institute , Republic of Korea',
-                text7 : '<Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.>',
+                text7 : '<Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore>',
                 text8 : 'Charlene Rajendran',
                 text9 : '',
                 text10 : '- Assistant Professor, Nanyang Technological University, Singapore',
@@ -472,7 +472,7 @@ export const langen = {
                 text15 : 'Zen Teh',
                 text16 : '',
                 text17 : '- Environmental Artist&Educator, Singapore',
-                text18 : '<Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.>',
+                text18 : '<Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty>',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
                 text21 : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
@@ -508,7 +508,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 2',
                 text2 : '13:00 - 13:40',
-                text3 : '<"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.>',
+                text3 : '<"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?:  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability>',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
                 text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
@@ -553,7 +553,7 @@ export const langen = {
                 text4 : '<Renegotiating Identities: How Does the Online Arts Education Affect the Identities of Teaching Artists?>',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                text7 : '<Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing>',
+                text7 : '<Development of Museum / Art Museum Education Programs for Participation and sharing in the Era of Online Viewing>',
                 text8 : 'Hyeyoun Chung',
                 text9 : '- Assistant professor, Hongik University, Republic of Korea',
                 text10 : 'Hyojin Sung',
@@ -593,7 +593,7 @@ export const langen = {
                 text13 : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                 text14 : 'Sojung Park',
                 text15 : "- Assistant professor, Ewha Woman's University, Republic of Korea",
-                text16 : '<Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic>',
+                text16 : '<Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 Pandemic>',
                 text17 : 'Sean Corcoran',
                 text18 : '',
                 text19 : '- Ph.D. candidate, Queen’s University, Canada',
@@ -655,7 +655,7 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
+                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?:  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability',
                     time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
@@ -670,7 +670,7 @@ export const langen = {
             wagner_part : {
                 title : 'Diversity In Arts Education 2.0',
                 time : '24 MAY, 13:00-13:40',
-                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
+                video_text : 'In this session, we look into ways to promote cultural diversity and foster cultural dialogue through arts education, amid growing political and cultural tension around the world.',
                 download : true,
                 abdownload : true,
                 chatlink : '1001',
@@ -701,9 +701,9 @@ export const langen = {
                 ]
             },
             jorissen_part : {
-                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
+                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?:  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability',
                 time : '26 MAY, 13:00-13:40',
-                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
+                video_text : 'The capability of reinventing arts and culture education and creatively seeking for alternative perspectives are keys to the global recovery. We will explore how arts and culture education can contribute to the recovery departing from its inherent potential." Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? :  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability',
                 download : true,
                 abdownload : true,
                 chatlink : '1002',
@@ -825,7 +825,7 @@ export const langen = {
                 title : 'Session 1',
                 subject : 'Arts and Education in the Field 1',
                 time : '25 MAY, 13:40-15:25',
-                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
+                video_text : 'In this session, we seek ways to creatively break through the crisis with practices of Korean arts and culture education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1003',
                 youtube : 'https://www.youtube.com/embed/MeRgVETmrTU',
@@ -1025,7 +1025,7 @@ export const langen = {
                                           +"master's and doctoral degrees in art therapy, and she is currently enrolled in a doctorate program in business administration in cultural arts. Her “her desire to help others” and her “her interest in her people” put her on the path of her art therapist. She has been meeting patients in clinical settings for 22 years as an art therapist for her heartbreaking and weary people through her rich examples and evidence. In addition, she has established a non-profit corporation to help many people experience healing through art and receive benefits, and is striving to create culture and art healing welfare.",
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Chaeyeon_Kim.pptx',
+                                downlink : env.link + '/Chaeyeon_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Chaeyeon_Kim.pdf',
                             }
                         ]
@@ -1052,7 +1052,7 @@ export const langen = {
                 title : 'Session 3',
                 subject : 'Social & Cultural Inclusiveness',
                 time : '25 MAY, 15:25-16:55',
-                video_text : 'In this session, we seek ways for art education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
+                video_text : 'In this session, we seek ways for arts education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
                 youtube : 'https://www.youtube.com/embed/OqqFauBCn44',
@@ -1070,7 +1070,7 @@ export const langen = {
                                 contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
                                          + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
                                          + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
-                                download : false,
+                                download : true,
                                 abdownload : true,
                                 downlink : env.link + '/Tei_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
@@ -1079,7 +1079,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.",
+                        li_title : "Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore",
                         li_data : [
                             {
                                 imgs : session_img_42,
@@ -1156,7 +1156,7 @@ export const langen = {
                 title : 'Session 4',
                 subject : 'Seoul Agenda',
                 time : '25 MAY, 16:55-18:10',
-                video_text : 'In this session, we seek how the importance and value of art education can influence modern society today like the "Seoul Agenda: The Objective of Arts Education Development" is clarifying.',
+                video_text : 'In this session, we seek how the importance and value of arts education can influence modern society today like the "Seoul Agenda: Goals for the Development of Arts Education" is clarifying.',
                 download : false,
                 chatlink : '1006',
                 youtube : 'https://www.youtube.com/embed/OSbnNiRGbBQ',
@@ -1225,7 +1225,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.",
+                        li_title : "Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty",
                         li_data : [
                             {
                                 imgs : session_img_19,
@@ -1287,7 +1287,7 @@ export const langen = {
                 title : 'Session 5',
                 subject : 'Arts in the Classroom',
                 time : '26 MAY, 13:40-15:10',
-                video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through art education, and for various arts departments to continue to support students.',
+                video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through arts education, and for various arts classes to continue to support students.',
                 download : false,
                 chatlink : '1007',
                 youtube : 'https://www.youtube.com/embed/5_IB7-sdW9k',
@@ -1307,7 +1307,7 @@ export const langen = {
                                           +'Mary Clare is also a member of the Design Association of Kenya (DeSK) and Arts Council of the African Studies (ACASA). She is a Member of Experts Panel- Exploring Visual Cultures.  Mary is the chief editor of the book “ Visual Culture in Africa”.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Mary_Clare_Kidenda.pdf',
+                                downlink : env.link + '/Mary_Clare_Kidenda.pptx',
                                 abdownlink : env.link + '/Abstract_Mary_Clare_Kidenda.pdf',
                             }
                         ]
@@ -1403,7 +1403,7 @@ export const langen = {
                 title : 'Session 6',
                 subject : 'Arts Engagement',
                 time : '26 MAY, 15:10-16:40',
-                video_text : "In this session, we seek how arts education can help communities respond creatively and empower communities in the face of today's crisis.",
+                video_text : "In this session, we seek how arts and culture can help communities respond creatively and empower communities in the face of today's crisis.",
                 download : false,
                 chatlink : '1008',
                 youtube : 'https://www.youtube.com/embed/CquiC4-hZlA',
@@ -1455,7 +1455,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing",
+                        li_title : "Development of Museum / Art Museum Education Programs for Participation and sharing in the Era of Online Viewing",
                         li_data : [
                             {
                                 imgs : session_img_27,
@@ -1545,7 +1545,7 @@ export const langen = {
                 title : 'Session 7',
                 subject : 'Diversity & Cultural Representation',
                 time : '26 MAY, 15:10-16:40',
-                video_text : 'Through art education, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
+                video_text : 'Through arts and culture, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
                 download : false,
                 chatlink : '1009',
                 youtube : 'https://www.youtube.com/embed/qgREyg3UGjA',
@@ -1621,7 +1621,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic",
+                        li_title : "Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_35,
@@ -1674,7 +1674,7 @@ export const langen = {
                 title : 'Session 8',
                 subject : 'Arts and Education in the Field 2',
                 time : '26 MAY, 16:40-18:25',
-                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
+                video_text : 'In this session, we seek ways to creatively break through the crisis with practices of Korean arts and culture education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1010',
                 youtube : 'https://www.youtube.com/embed/f0rYnljUWts',
@@ -1799,29 +1799,28 @@ export const langen = {
             session1 : 
             { 
                 img : c_logo1, 
-                contents : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                contents : 'Gwangmyeong Upcycle Art Center is run by the city of Gwangmyeong. It is the first upcycle art space in Korea that reinvents waste resources into art. Transforming an unused space into an art space, it opened in 12th June, 2015. Ever since, the space has been presenting various arts and culture programs centering around upcycling including exhibitions, open calls, educational programs, events and concerts for students, art markets, local donation projects.',
                 alt : 'Gwangmyeong Upcycle Art Center',
                 link : env.path+'/presession-showcase/1' 
             },
             session2 : 
             { 
                 img : c_logo2, 
-                contents : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
-                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
+                contents : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art’, following the slogan ‘life-like art, art-like life’. It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations. It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
                 alt : 'Sangsangchanggo Soom',
                 link : env.path+'/presession-showcase/2' 
             },
             session3 : 
             { 
                 img : c_logo3, 
-                contents : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.', 
+                contents : 'Moida Art Cooperative is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Major projects include art markets that take place near the seaside, arts and culture education focusing on Busan’s identity as a maritime city and beachcombing that sheds light on the marine environment.', 
                 alt : 'Moida Art Cooperative Society',
                 link : env.path+'/presession-showcase/3' 
             },
             session4 : 
             { 
                 img : c_logo4, 
-                contents : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                contents : "Collective Doingle consists of members who fundamentally ‘play’ with interdisciplinary art to find the meaning and true nature of body and space. In 2020, Collective Doingle made a “Declaration as A Collective for Climate Justice.” As they became a flaw and a crack in the neoliberal system the very moment they decided to create art in a world which prioritizes growth, development and ‘make living’, they continue their activities calling for the end of “exploitation disguised as growth.”", 
                 alt : 'Collective Doingle-Around representative',
                 link : env.path+'/presession-showcase/4' 
             }
@@ -1831,7 +1830,7 @@ export const langen = {
             session1 : {
                 title : 'Gwangmyeong Upcycle Art Center',
                 img : c_logo1,
-                discription : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                discription : 'Gwangmyeong Upcycle Art Center is run by the city of Gwangmyeong. It is the first upcycle art space in Korea that reinvents waste resources into art. Transforming an unused space into an art space, it opened in 12th June, 2015. Ever since, the space has been presenting various arts and culture programs centering around upcycling including exhibitions, open calls, educational programs, events and concerts for students, art markets, local donation projects.',
                 youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
                 photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
@@ -1858,8 +1857,7 @@ export const langen = {
             session2 : {
                 title : 'Sangsangchanggo Soom',
                 img : c_logo2,
-                discription : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
-                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
+                discription : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art’, following the slogan ‘life-like art, art-like life’. It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations. It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
                 youtube : 'https://www.youtube.com/embed/VmMbXkbTvWM',
                 photo : 'https://photos.app.goo.gl/RESXXh1x1VFdRLLN6',
                 list : [
@@ -1886,7 +1884,7 @@ export const langen = {
             session3 : {
                 title : 'Moida Art Cooperative Society',
                 img : c_logo3,
-                discription : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.',
+                discription : 'Moida Art Cooperative is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Major projects include art markets that take place near the seaside, arts and culture education focusing on Busan’s identity as a maritime city and beachcombing that sheds light on the marine environment.',
                 youtube : 'https://www.youtube.com/embed/iulsUzEOfiM',
                 photo : 'https://photos.app.goo.gl/rQo7DY2n2Nh9zibHA',
                 list : [
@@ -1913,7 +1911,7 @@ export const langen = {
             session4 : {
                 title : 'Collective Doingle-Around representative',
                 img : c_logo4,
-                discription : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                discription : "Collective Doingle consists of members who fundamentally ‘play’ with interdisciplinary art to find the meaning and true nature of body and space. In 2020, Collective Doingle made a “Declaration as A Collective for Climate Justice.” As they became a flaw and a crack in the neoliberal system the very moment they decided to create art in a world which prioritizes growth, development and ‘make living’, they continue their activities calling for the end of “exploitation disguised as growth.”", 
                 youtube : 'https://www.youtube.com/embed/H58ivYFVRE8',
                 photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
@@ -1943,7 +1941,7 @@ export const langen = {
         // byob
        byob : {
         title : 'BYOB\n(Bring Your Own Bottle)',
-        contents : 'It is a networking session in which participants freely share symposium topics and their interests.',
+        contents : 'Bring Your Own Bottle is a networking session where participants of the Symposium can discuss the topics of the Symposium and share their personal interests. Rooms will be set up online according to keywords and moderators will be introducing the participants and lead the discussion.',
         link : 'https://forms.gle/m3JawtsfmuTczgn3A',
         data : [
             {
@@ -1978,7 +1976,7 @@ export const langen = {
         closing : {
             title : 'Closing Ceremony',
             time : '26 MAY, 18:25-19:25',
-            video_text : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
+            video_text : 'Korean researchers and UNITWIN members gather to review the symposium sessions and discuss the way forward of arts and culture education.',
             download : false,
             chatlink : '1012',
             youtube : 'https://www.youtube.com/embed/uWD9A4FQp5U',
@@ -2041,7 +2039,7 @@ export const langen = {
                     moder : '',
                     name : 'Emily Achieng’ Akuno',
                     en_name : '',
-                    li_title : '- Professor, University of Kenya, Kenya',
+                    li_title : '- Professor, The Technical University of Kenya, Kenya',
                     li_contents : 'Emily Achieng’ Akuno from Kenya trained as a music performer-educator in Kenya, the USA and UK. She has worked in that capacity in Kenya and Republic of South Africa, with a research emphasis on cultural relevance in and through music education. Her ongoing research is a study of creativity as a means of empowering youth towards community development, a project funded by Kenya’s National Research Fund.\n\n'
                                 +'Emily is past President of the International Music Council (IMC) and currently serves as President of the International Society for Music Education (ISME). Her publications include Music Education in Africa: Concept, practice and processes (2019), an edited book on the teaching of music in Africa authored by African scholars and published by Routledge.'
                 },
@@ -2050,7 +2048,7 @@ export const langen = {
                     moder : '',
                     name : 'Ralph Buck  ',
                     en_name : '',
-                    li_title : '- Associate Professor / Head of Department, University of Auckland',
+                    li_title : '- Head of Department, University of Auckland',
                     li_contents : 'Associate Professor Ralph Buck (PhD) is Head of Dance Studies, and Associate Dean International, University of Auckland, New Zealand. His research and teaching focuses on dance education curriculum, dance pedagogy and community dance. Ralph is the UNESCO Chair on Dance and Social Inclusion, and currently working within several international dance research and service organisations such as, World Alliance for Arts Education (WAAE). Ralph’s teaching and leadership has been recognised by The University of Auckland Distinguished Teaching Award, 2008; Award for Leadership, 2010; Excellence Award for Equal Opportunities 2006; and, Creative Arts and Industries Research Excellence Award, 2016.\n\n'
                                   +'Ralph has several international academic appointments including Visiting Professorships at Northwest Normal University and Beijing Dance Academy. His research in dance education is published in international journals and he has delivered invited key notes and master classes in China, Australia, Columbia, Sweden, Finland, Singapore, Denmark, New Zealand and Fiji.'
                 },
@@ -2348,7 +2346,7 @@ export const langen = {
                 text4 : '<Reaching Arts Education out to the Unreached: A Study on Child in the World Who Need Non-face-to-face Arts Education Regardless of Pandemic>',
                 text5 : 'Tei Kim',
                 text6 : '- Director, BARA Art Growth Institute , Republic of Korea',
-                text7 : '<Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.>',
+                text7 : '<Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore>',
                 text8 : 'Charlene Rajendran',
                 text9 : '',
                 text10 : '- Assistant Professor, Nanyang Technological University, Singapore',
@@ -2384,7 +2382,7 @@ export const langen = {
                 text15 : 'Zen Teh',
                 text16 : '',
                 text17 : '- Environmental Artist&Educator, Singapore',
-                text18 : '<Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.>',
+                text18 : '<Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty>',
                 text19 : 'Kathryn Coleman',
                 text20 : '',
                 text21 : '- Senior Lecturer, The Melbourne Graduate School of Education, The University of Melbourne',
@@ -2420,7 +2418,7 @@ export const langen = {
             session1 : {
                 text1 : 'Plenary\nSession 2',
                 text2 : '13:00-13:40',
-                text3 : '<"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.>',
+                text3 : '<"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?:  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability>',
                 text4 : 'Benjamin Jörissen',
                 text5 : '',
                 text6 : '- Signatory member, “UNITWIN – Arts Education Research for Cultural Diversity and Sustainable Development” / Chairholder, UNESCO Chair in Arts and Culture in Education at the Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany',
@@ -2465,7 +2463,7 @@ export const langen = {
                 text4 : '<Renegotiating Identities: How Does the Online Arts Education Affect the Identities of Teaching Artists?>',
                 text5 : 'Hwan Jung Jae',
                 text6 : '- Guest Professor, Korea National University of Arts, Republic of Korea',
-                text7 : '<Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing>',
+                text7 : '<Development of Museum / Art Museum Education Programs for Participation and sharing in the Era of Online Viewing>',
                 text8 : 'Hyeyoun Chung',
                 text9 : '- Assistant professor, Hongik University, Republic of Korea',
                 text10 : 'Hyojin Sung',
@@ -2505,7 +2503,7 @@ export const langen = {
                 text13 : "- Ph.D. candidate, Ewha Woman's University, Republic of Korea",
                 text14 : 'Sojung Park',
                 text15 : "- Assistant professor, Ewha Woman's University, Republic of Korea",
-                text16 : '<Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic>',
+                text16 : '<Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 Pandemic>',
                 text17 : 'Sean Corcoran',
                 text18 : '',
                 text19 : '- Ph.D. candidate, Queen’s University, Canada',
@@ -2567,7 +2565,7 @@ export const langen = {
                 },
                 {
                     imgs : plsession_img_02,
-                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
+                    title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?:  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability',
                     time : "26 MAY(Wed) 13:00-13:40",
                     name : "Benjamin Jörissen",
                     enname : "",
@@ -2582,7 +2580,7 @@ export const langen = {
             wagner_part : {
                 title : 'Diversity In Arts Education 2.0',
                 time : '24 MAY, 13:00-13:40',
-                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
+                video_text : 'In this session, we look into ways to promote cultural diversity and foster cultural dialogue through arts education, amid growing political and cultural tension around the world.',
                 download : true,
                 abdownload : true,
                 chatlink : '1001',
@@ -2613,9 +2611,9 @@ export const langen = {
                 ]
             },
             jorissen_part : {
-                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?: Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability.',
+                title : '"Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education?:  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability',
                 time : '26 MAY, 13:00-13:40',
-                video_text : 'As the global crisis related to diversity, equality, pandemic, and climate crisis is becoming common, we are now going to discuss the role of recovery and creation of art through art education. Art education can restore nature to which we belong, and it will also arouse the power of reflection to think creatively and inclusive about the future',
+                video_text : 'The capability of reinventing arts and culture education and creatively seeking for alternative perspectives are keys to the global recovery. We will explore how arts and culture education can contribute to the recovery departing from its inherent potential." Cultural Resilience" and "Aesthetic Resilience" as a Task of Arts Education? :  Scope and Limits of the Resilience Concept for a Pedagogy of Cultural Sustainability',
                 download : true,
                 abdownload : true,
                 chatlink : '1002',
@@ -2738,7 +2736,7 @@ export const langen = {
                 title : 'Session 1',
                 subject : 'Arts and Education in the Field 1',
                 time : '25 MAY, 13:40-15:25',
-                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
+                video_text : 'In this session, we seek ways to creatively break through the crisis with practices of Korean arts and culture education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1003',
                 youtube : 'https://www.youtube.com/embed/MeRgVETmrTU',
@@ -2938,7 +2936,7 @@ export const langen = {
                                           +"master's and doctoral degrees in art therapy, and she is currently enrolled in a doctorate program in business administration in cultural arts. Her “her desire to help others” and her “her interest in her people” put her on the path of her art therapist. She has been meeting patients in clinical settings for 22 years as an art therapist for her heartbreaking and weary people through her rich examples and evidence. In addition, she has established a non-profit corporation to help many people experience healing through art and receive benefits, and is striving to create culture and art healing welfare.",
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Chaeyeon_Kim.pptx',
+                                downlink : env.link + '/Chaeyeon_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Chaeyeon_Kim.pdf',
                             }
                         ]
@@ -2965,7 +2963,7 @@ export const langen = {
                 title : 'Session 3',
                 subject : 'Social & Cultural Inclusiveness',
                 time : '25 MAY, 15:25-16:55',
-                video_text : 'In this session, we seek ways for art education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
+                video_text : 'In this session, we seek ways for arts education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
                 youtube : 'https://www.youtube.com/embed/OqqFauBCn44',
@@ -2983,7 +2981,7 @@ export const langen = {
                                 contents : 'Tei Kim is director of ‘Bara Art Growth Institute’ in South Korea. Written, lectured, researched and consulted as an artist and art educator. She dreams of a better world, advocating that everyone should have the right to learn and enjoy art equally. Her special interests include protecting'
                                          + "children's human rights, living arts in the life cycle, and the change of the art ecosystem. She served as art director of the ‘Seoul Cultural Foundation’ for ‘Living Art Week and Campaign’ of Seoul City, and is currently working as an art director of the ‘Dong-A Newspaper Group’ and a consultant with the government and local cultural foundations."
                                          + 'The main books she wrote are as follows : “Art Class of Child-Centered, Play-Centered”(2020), “The Power of Art to raise a Happy Child”(2015) which inspired many parents, school teachers and art educators in South Korea. You can meet her activities on her website : <a href="http://www.artandhope.com" target="_blank">www.artandhope.com</a>',
-                                download : false,
+                                download : true,
                                 abdownload : true,
                                 downlink : env.link + '/Tei_Kim.pdf',
                                 abdownlink : env.link + '/Abstract_Tei_Kim.pdf',
@@ -2992,7 +2990,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore.",
+                        li_title : "Growing Up in A World of Difference: Staging Stories about Multiplicity by Living with Diversity in Singapore",
                         li_data : [
                             {
                                 imgs : session_img_42,
@@ -3069,7 +3067,7 @@ export const langen = {
                 title : 'Session 4',
                 subject : 'Seoul Agenda',
                 time : '25 MAY, 16:55-18:10',
-                video_text : 'In this session, we seek how the importance and value of art education can influence modern society today like the "Seoul Agenda: The Objective of Arts Education Development" is clarifying.',
+                video_text : 'In this session, we seek how the importance and value of arts education can influence modern society today like the "Seoul Agenda: Goals for the Development of Arts Education" is clarifying.',
                 download : false,
                 chatlink : '1006',
                 youtube : 'https://www.youtube.com/embed/OSbnNiRGbBQ',
@@ -3138,7 +3136,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty.",
+                        li_title : "Visual Arts Education/s: Glocal Threads to Connect, Entangle, Sustain and Nourish During a Prolonged Lockdown and Time of Uncertainty",
                         li_data : [
                             {
                                 imgs : session_img_19,
@@ -3200,7 +3198,7 @@ export const langen = {
                 title : 'Session 5',
                 subject : 'Arts in the Classroom',
                 time : '26 MAY, 13:40-15:10',
-                video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through art education, and for various arts departments to continue to support students.',
+                video_text : 'In this session, we seek ways for schools and students in crisis under the pandemic situation to recover through arts education, and for various arts classes to continue to support students.',
                 download : false,
                 chatlink : '1007',
                 youtube : 'https://www.youtube.com/embed/5_IB7-sdW9k',
@@ -3220,7 +3218,7 @@ export const langen = {
                                           +'Mary Clare is also a member of the Design Association of Kenya (DeSK) and Arts Council of the African Studies (ACASA). She is a Member of Experts Panel- Exploring Visual Cultures.  Mary is the chief editor of the book “ Visual Culture in Africa”.',
                                 download : true,
                                 abdownload : true,
-                                downlink : env.link + '/Mary_Clare_Kidenda.pdf',
+                                downlink : env.link + '/Mary_Clare_Kidenda.pptx',
                                 abdownlink : env.link + '/Abstract_Mary_Clare_Kidenda.pdf',
                             }
                         ]
@@ -3316,7 +3314,7 @@ export const langen = {
                 title : 'Session 6',
                 subject : 'Arts Engagement',
                 time : '26 MAY, 15:10-16:40',
-                video_text : "In this session, we seek how arts education can help communities respond creatively and empower communities in the face of today's crisis.",
+                video_text : "In this session, we seek how arts and culture can help communities respond creatively and empower communities in the face of today's crisis.",
                 download : false,
                 chatlink : '1008',
                 youtube : 'https://www.youtube.com/embed/CquiC4-hZlA',
@@ -3368,7 +3366,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Development of Museum/Art Museum Education Programs for Participation and sharing in the Era of Online Viewing",
+                        li_title : "Development of Museum / Art Museum Education Programs for Participation and sharing in the Era of Online Viewing",
                         li_data : [
                             {
                                 imgs : session_img_27,
@@ -3458,7 +3456,7 @@ export const langen = {
                 title : 'Session 7',
                 subject : 'Diversity & Cultural Representation',
                 time : '26 MAY, 15:10-16:40',
-                video_text : 'Through art education, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
+                video_text : 'Through arts and culture, we reveal the subjects who are alienated from society and discover their voices and seek the process of making society a more diverse and inclusive community.',
                 download : false,
                 chatlink : '1009',
                 youtube : 'https://www.youtube.com/embed/qgREyg3UGjA',
@@ -3534,7 +3532,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 pandemic",
+                        li_title : "Silent Stages: Canadian El Sistema Programs’ Response to the COVID-19 Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_35,
@@ -3587,7 +3585,7 @@ export const langen = {
                 title : 'Session 8',
                 subject : 'Arts and Education in the Field 2',
                 time : '26 MAY, 16:40-18:25',
-                video_text : 'In this session, we seek ways to creatively break through the crisis through examples of Korean Art&Culture Education staffs, educators, and institutions in art education and to suggest alternatives to solving the social crisis.',
+                video_text : 'In this session, we seek ways to creatively break through the crisis with practices of Korean arts and culture education and to suggest alternatives to solving the social crisis.',
                 download : false,
                 chatlink : '1010',
                 youtube : 'https://www.youtube.com/embed/f0rYnljUWts',
@@ -3713,7 +3711,7 @@ export const langen = {
             { 
                 img : m_c_logo1,
                 company : 'Gwangmyeong Upcycle Art Center',
-                contents : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                contents : 'Gwangmyeong Upcycle Art Center is run by the city of Gwangmyeong. It is the first upcycle art space in Korea that reinvents waste resources into art. Transforming an unused space into an art space, it opened in 12th June, 2015. Ever since, the space has been presenting various arts and culture programs centering around upcycling including exhibitions, open calls, educational programs, events and concerts for students, art markets, local donation projects.',
                 alt : 'Gwangmyeong Upcycle Art Center',
                 link : env.path+'/presession-showcase/1' 
             },
@@ -3721,8 +3719,7 @@ export const langen = {
             { 
                 img : m_c_logo2,
                 company : 'Sangsangchanggo Soom',
-                contents : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
-                         +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
+                contents : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art’, following the slogan ‘life-like art, art-like life’. It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations. It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
                 alt : 'Sangsangchanggo Soom',
                 link : env.path+'/presession-showcase/2' 
             },
@@ -3730,7 +3727,7 @@ export const langen = {
             { 
                 img : m_c_logo3,
                 company : 'Moida Art Cooperative Society',
-                contents : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.', 
+                contents : 'Moida Art Cooperative is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Major projects include art markets that take place near the seaside, arts and culture education focusing on Busan’s identity as a maritime city and beachcombing that sheds light on the marine environment.', 
                 alt : 'Moida Art Cooperative Society',
                 link : env.path+'/presession-showcase/3' 
             },
@@ -3738,7 +3735,7 @@ export const langen = {
             { 
                 img : m_c_logo4,
                 company : 'Collective Doingle-Around representative',
-                contents : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                contents : "Collective Doingle consists of members who fundamentally ‘play’ with interdisciplinary art to find the meaning and true nature of body and space. In 2020, Collective Doingle made a “Declaration as A Collective for Climate Justice.” As they became a flaw and a crack in the neoliberal system the very moment they decided to create art in a world which prioritizes growth, development and ‘make living’, they continue their activities calling for the end of “exploitation disguised as growth.”", 
                 alt : 'Collective Doingle-Around representative',
                 link : env.path+'/presession-showcase/4' 
             }
@@ -3749,7 +3746,7 @@ export const langen = {
             session1 : {
                 title : 'Gwangmyeong Upcycle Art Center',
                 img : m_c_logo1,
-                discription : 'GWANGMYEONG UPCYCLE ART CENTER is established by the Ministry of Culture, Sports and Tourism of the Republic of Korea and city of Gwangmyeong. This center, which is the culture and art center and is made for communicate with citizen, prepares various programs like upcycle craft class, exhibition and event for sharing eco-friendly life, culture and art with citizens. Especially, the sector of living design using eco-friendly material and recycled material is very important main value of this art center.',
+                discription : 'Gwangmyeong Upcycle Art Center is run by the city of Gwangmyeong. It is the first upcycle art space in Korea that reinvents waste resources into art. Transforming an unused space into an art space, it opened in 12th June, 2015. Ever since, the space has been presenting various arts and culture programs centering around upcycling including exhibitions, open calls, educational programs, events and concerts for students, art markets, local donation projects.',
                 youtube : 'https://www.youtube.com/embed/wKx2tzIR8Yg',
                 photo : 'https://photos.app.goo.gl/DhtAuD73Ybtc8B9DA',
                 list : [
@@ -3776,8 +3773,7 @@ export const langen = {
             session2 : {
                 title : 'Sangsangchanggo Soom',
                 img : m_c_logo2,
-                discription : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art,’ following the slogan ‘life-like art, art-like life.’ It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations.\n\n'
-                            +'It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.', 
+                discription : 'Sangsang Changgo Soom is an artist collective, which seeks to ‘create art that embraces and embodies life, while pursuing a life that embraces and embodies art’, following the slogan ‘life-like art, art-like life’. It is interested in developing sensitivity towards making human to human, human to nature, spatial to temporal relations. It believes asking good questions, self-criticality, curiosity towards life can enrich artistic understanding, which can, in turn, capture small fractures in our lives with sensitivity, and spread the knowledge of co-habitation. By adopting a view that prevents taking things for granted, the collective looks towards arts education based on empathy, serving as a hiding place for those in need, and promoting the idea of co-existence.',
                 youtube : 'https://www.youtube.com/embed/VmMbXkbTvWM',
                 photo : 'https://photos.app.goo.gl/RESXXh1x1VFdRLLN6',
                 list : [
@@ -3804,7 +3800,7 @@ export const langen = {
             session3 : {
                 title : 'Moida Art Cooperative Society',
                 img : m_c_logo3,
-                discription : 'Moida Art Cooperative Society is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Together with visual artists, the collective organizes activities such as the art market along the Busan coast and beachcombing on topics including diverse arts and culture education of the marine city Busan and marine ecology.', 
+                discription : 'Moida Art Cooperative is a visual artist collective established to expand Busan’s arts and culture scene and develop its locality. It curates diverse culture programs connecting the region and its arts and culture. Major projects include art markets that take place near the seaside, arts and culture education focusing on Busan’s identity as a maritime city and beachcombing that sheds light on the marine environment.',
                 youtube : 'https://www.youtube.com/embed/iulsUzEOfiM',
                 photo : 'https://photos.app.goo.gl/rQo7DY2n2Nh9zibHA',
                 list : [
@@ -3831,7 +3827,7 @@ export const langen = {
             session4 : {
                 title : 'Collective Doingle-Around representative',
                 img : m_c_logo4,
-                discription : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
+                discription : "Collective Doingle consists of members who fundamentally ‘play’ with interdisciplinary art to find the meaning and true nature of body and space. In 2020, Collective Doingle made a “Declaration as A Collective for Climate Justice.” As they became a flaw and a crack in the neoliberal system the very moment they decided to create art in a world which prioritizes growth, development and ‘make living’, they continue their activities calling for the end of “exploitation disguised as growth.”",
                 youtube : 'https://www.youtube.com/embed/H58ivYFVRE8',
                 photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
@@ -3861,7 +3857,7 @@ export const langen = {
        // byob
        byob : {
         title : 'BYOB\n(Bring Your Own Bottle)',
-        contents : 'It is a networking session in which participants freely share symposium topics and their interests.',
+        contents : 'Bring Your Own Bottle is a networking session where participants of the Symposium can discuss the topics of the Symposium and share their personal interests. Rooms will be set up online according to keywords and moderators will be introducing the participants and lead the discussion.',
         link : 'https://forms.gle/m3JawtsfmuTczgn3A',
         data : [
             {
@@ -3896,7 +3892,7 @@ export const langen = {
         closing : {
             title : 'Closing Ceremony',
             time : '26 MAY, 18:25-19:25',
-            video_text : 'Domestic art education researchers and Unitwin members gather to review the symposium sessions and search the direction of art education.',
+            video_text : 'Korean researchers and UNITWIN members gather to review the symposium sessions and discuss the way forward of arts and culture education.',
             download : false,
             chatlink : '1012',
             youtube : 'https://www.youtube.com/embed/uWD9A4FQp5U',
@@ -3959,7 +3955,7 @@ export const langen = {
                     moder : '',
                     name : 'Emily Achieng’ Akuno',
                     en_name : '',
-                    li_title : '- Professor, University of Kenya, Kenya',
+                    li_title : '- Professor, The Technical University of Kenya, Kenya',
                     li_contents : 'Emily Achieng’ Akuno from Kenya trained as a music performer-educator in Kenya, the USA and UK. She has worked in that capacity in Kenya and Republic of South Africa, with a research emphasis on cultural relevance in and through music education. Her ongoing research is a study of creativity as a means of empowering youth towards community development, a project funded by Kenya’s National Research Fund.\n\n'
                                 +'Emily is past President of the International Music Council (IMC) and currently serves as President of the International Society for Music Education (ISME). Her publications include Music Education in Africa: Concept, practice and processes (2019), an edited book on the teaching of music in Africa authored by African scholars and published by Routledge.'
                 },
@@ -3968,7 +3964,7 @@ export const langen = {
                     moder : '',
                     name : 'Ralph Buck  ',
                     en_name : '',
-                    li_title : '- Associate Professor / Head of Department, University of Auckland',
+                    li_title : '- Head of Department, University of Auckland',
                     li_contents : 'Associate Professor Ralph Buck (PhD) is Head of Dance Studies, and Associate Dean International, University of Auckland, New Zealand. His research and teaching focuses on dance education curriculum, dance pedagogy and community dance. Ralph is the UNESCO Chair on Dance and Social Inclusion, and currently working within several international dance research and service organisations such as, World Alliance for Arts Education (WAAE). Ralph’s teaching and leadership has been recognised by The University of Auckland Distinguished Teaching Award, 2008; Award for Leadership, 2010; Excellence Award for Equal Opportunities 2006; and, Creative Arts and Industries Research Excellence Award, 2016.\n\n'
                                   +'Ralph has several international academic appointments including Visiting Professorships at Northwest Normal University and Beijing Dance Academy. His research in dance education is published in international journals and he has delivered invited key notes and master classes in China, Australia, Columbia, Sweden, Finland, Singapore, Denmark, New Zealand and Fiji.'
                 },
