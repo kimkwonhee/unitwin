@@ -37,6 +37,11 @@ const Globalstyles = createGlobalStyle`
     --very-light-pink : #d0d0d0;
     --brownish-grey : #5f5f5f;
   }
+
+  .ant-modal-content {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
 `
 
 const App = () => {
