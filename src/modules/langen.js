@@ -341,7 +341,7 @@ export const langen = {
             },
             session8 : {
                 text1 : 'The 4th UNESCO-UNITWIN Symposium\nPre-session',
-                text2 : '14:15-15:35',
+                text2 : '14:30-15:40',
                 text3 : '<Climate Crisis and Arts Education>',
                 text4 : 'Shin-Eui Park',
                 text5 : '- Chairperson, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea',
@@ -398,7 +398,7 @@ export const langen = {
                 text15 : '- Assistant Professor, KyungSung University, Republic of Korea',
                 text16 : '<Creating Inclusive Online Creative Workshops>',
                 text17 : 'Boram Lee',
-                text18 : '- Professor, University of South Australia , Republic of Korea',
+                text18 : '- Senior Lecturer, University of South Australia , Republic of Korea',
                 text19 : '[Moderator]',
                 text20 : 'Kiwon Hong ',
                 text21 : '- Professor, Korea National University of Arts, Republic of Korea',
@@ -420,7 +420,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<The Pandemic Era … The Social Value and Role Art Therapy>',
+                text16 : '<Social Value and Role of Art Therapy in the Pandemic>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -912,7 +912,7 @@ export const langen = {
                                 hashtag : 'Boram',
                                 name : 'Boram Lee',
                                 enname : '',
-                                job : '- Professor, University of South Australia , Republic of Korea',
+                                job : '- Senior Lecturer, University of South Australia , Republic of Korea',
                                 contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia.\n\n'
                                             +'She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
                                 download : false,
@@ -1013,7 +1013,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "The Pandemic Era … The Social Value and Role Art Therapy",
+                        li_title : "Social Value and Role of Art Therapy in the Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_09,
@@ -2253,7 +2253,7 @@ export const langen = {
             },
             session8 : {
                 text1 : 'The 4th UNESCO-UNITWIN Symposium\nPre-session',
-                text2 : '14:15-15:35',
+                text2 : '14:30-15:40',
                 text3 : '<Climate Crisis and Arts Education>',
                 text4 : 'Shin-Eui Park',
                 text5 : '- Chairperson, Organizing Committee for the 4th Unesco-Unitwin Symposium / Professor, Kyung Hee University, Republic of Korea',
@@ -2310,7 +2310,7 @@ export const langen = {
                 text15 : '- Assistant Professor, KyungSung University, Republic of Korea',
                 text16 : '<Creating Inclusive Online Creative Workshops>',
                 text17 : 'Boram Lee',
-                text18 : '- Professor, University of South Australia , Republic of Korea',
+                text18 : '- Senior Lecturer, University of South Australia , Republic of Korea',
                 text19 : '[Moderator]',
                 text20 : 'Kiwon Hong ',
                 text21 : '- Professor, Korea National University of Arts, Republic of Korea',
@@ -2332,7 +2332,7 @@ export const langen = {
                 text13 : 'MC Bettman',
                 text14 : '',
                 text15 : '- Lecturer, University of South Africa (UNISA), Republic of South Africa',
-                text16 : '<The Pandemic Era … The Social Value and Role Art Therapy>',
+                text16 : '<Social Value and Role of Art Therapy in the Pandemic>',
                 text17 : 'Chaeyeon Kim',
                 text18 : '- Chairman, Korean Clinical Art Therapy Association, Republic of Korea',
                 text19 : '[Moderator]',
@@ -2825,7 +2825,7 @@ export const langen = {
                                 mhashtag : 'MBoram',
                                 name : 'Boram Lee',
                                 enname : '',
-                                job : '- Professor, University of South Australia , Republic of Korea',
+                                job : '- Senior Lecturer, University of South Australia , Republic of Korea',
                                 contents : 'Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia, Australia Boram Lee is a Senior Lecturer in Arts and Cultural Management, at UniSA Business, University of South Australia.\n\n'
                                             +'She is specialized in the field of accounting and finance with an emphasis on behavioral studies based on psychological approaches. She has a wide range of research interests in cross-cultural and cross-disciplinary studies, covering the valuation of arts and culture, international collaboration, disability arts, cultural tourism, and artists’ career development.',
                                 download : false,
@@ -2926,7 +2926,7 @@ export const langen = {
                     },
                     {
                         moder : '',
-                        li_title : "The Pandemic Era … The Social Value and Role Art Therapy",
+                        li_title : "Social Value and Role of Art Therapy in the Pandemic",
                         li_data : [
                             {
                                 imgs : session_img_09,
