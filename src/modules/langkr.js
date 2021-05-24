@@ -114,9 +114,9 @@ export const langkr = {
         home_top : {
             img : home_title,
             title : '행사소개',
-            time : '2021.05.24 ~ 05.26',
+            time : '2021.05.24(월) ~ 05.26(수)',
             link : 'https://event-us.kr/KnKPI0mLveYY/event/31441',
-            downloadlink : '',
+            downloadlink : env.link + '/PROGRAM_BOOK_KO.pdf',
             advance : '사전신청하기',
             programtext : '프로그램북 다운로드',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
@@ -1489,7 +1489,7 @@ export const langkr = {
                                 enname : '',
                                 job : '- 한국예술종합학교 객원교수, 대한민국',
                                 contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상 구석구석 예술이 있기를 도모하고 있다. 예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중이다. 템플 대학교에서 무용 박사학위를 받았고, 문화체육관광부 장관 표창을 받았다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
                                 abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
@@ -1910,7 +1910,7 @@ export const langkr = {
                 img : c_logo4,
                 discription : "콜렉티브 뒹굴은 신체성과 공간성과 의미와 본질을 만나기 위해 다원적인 예술 언어를 기반으로 '노는' 존재들이다. 2020년 <기후정의 창작집단 선언>을 했다. 성장, 개발, ‘먹고사니즘’이 0순위인 세상에서 예술 하겠다고 마음먹었을 때부터 이미 신자유주의 시스템의 하자이자 균열이었으니, 더 "
                             +'신나게 "성장을 빙자한 착취를 그만두라"고 말하는 활동을 이어가고 있다.',  
-                youtube : 'https://www.youtube.com/embed/CaUSuTttwRo',
+                youtube : 'https://www.youtube.com/embed/H58ivYFVRE8',
                 photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {
@@ -2096,9 +2096,9 @@ export const langkr = {
         home_top : {
             img : home_title,
             title : '행사소개',
-            time : '2021.05.24 ~ 05.26',
+            time : '2021.05.24(월) ~ 05.26(수)',
             link : 'https://event-us.kr/KnKPI0mLveYY/event/31441',
-            downloadlink : '',
+            downloadlink : env.link + '/PROGRAM_BOOK_KO.pdf',
             advance : '사전신청하기',
             programtext : '프로그램북 다운로드',
             contents : '한국문화예술교육진흥원은 "유니트윈-문화다양성과 지속가능개발을 위한 예술교육 연구"의 정회원으로서 예술교육의 성찰과 미래를 모색하기 위한 정기 학술대회를 개최합니다.\n\n'
@@ -3389,7 +3389,7 @@ export const langkr = {
                                 enname : '',
                                 job : '- 한국예술종합학교 객원교수, 대한민국',
                                 contents : '"모든 인간은 무용수"라는 믿음으로 춤과 춤추는 인간을 독려하고 탐구하며, 세상 구석구석 예술이 있기를 도모하고 있다. 예술교육자, 창작자, 저자로 학교, 병원, 무용단 등 춤이 필요한 곳에서 활동 중이다. 템플 대학교에서 무용 박사학위를 받았고, 문화체육관광부 장관 표창을 받았다.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
                                 abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
@@ -3814,7 +3814,7 @@ export const langkr = {
                 img : m_c_logo4,
                 discription : "콜렉티브 뒹굴은 신체성과 공간성과 의미와 본질을 만나기 위해 다원적인 예술 언어를 기반으로 '노는' 존재들이다. 2020년 <기후정의 창작집단 선언>을 했다. 성장, 개발, ‘먹고사니즘’이 0순위인 세상에서 예술 하겠다고 마음먹었을 때부터 이미 신자유주의 시스템의 하자이자 균열이었으니, 더 "
                             +'신나게 "성장을 빙자한 착취를 그만두라"고 말하는 활동을 이어가고 있다.',  
-                youtube : 'https://www.youtube.com/embed/CaUSuTttwRo',
+                youtube : 'https://www.youtube.com/embed/H58ivYFVRE8',
                 photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {

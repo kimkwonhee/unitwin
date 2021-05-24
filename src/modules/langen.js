@@ -116,11 +116,11 @@ export const langen = {
             img : home_title,
             subimg : home_subtitle,
             title : 'About',
-            time : '24 ~ 26 MAY, 2021',
+            time : '2021.05.24(MON) ~ 05.26(WED)',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
-            downloadlink : '',
+            downloadlink : env.link + '/PROGRAM_BOOK_EN.pdf',
             advance : 'APPLICATION',
-            programtext : '프로그램북 다운로드',
+            programtext : 'PROGRAM BOOK DOWNLOAD',
             contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
                         +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
                         +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
@@ -1493,7 +1493,7 @@ export const langen = {
                                 enname : '',
                                 job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
                                 contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
                                 abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
@@ -1917,7 +1917,7 @@ export const langen = {
                 title : 'Collective Doingle-Around representative',
                 img : c_logo4,
                 discription : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
-                youtube : 'https://www.youtube.com/embed/sj1LJl1MkPc',
+                youtube : 'https://www.youtube.com/embed/H58ivYFVRE8',
                 photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {
@@ -2105,11 +2105,11 @@ export const langen = {
             img : home_title_mo,
             subimg : home_subtitle_mo,
             title : 'About',
-            time : '24 ~ 26 MAY, 2021',
+            time : '2021.05.24(MON) ~ 05.26(WED)',
             link : 'https://forms.gle/m3JawtsfmuTczgn3A',
-            downloadlink : '',
+            downloadlink : env.link + '/PROGRAM_BOOK_EN.pdf',
             advance : 'APPLICATION',
-            programtext : '프로그램북 다운로드',
+            programtext : 'PROGRAM BOOK DOWNLOAD',
             contents : 'Korea Arts & Culture Education Service is a signatory member of "UNITWIN - Arts Education Research for Cultural Diversity and Sustainable Development". It holds symposiums annually for seeking reflection and the future of arts and culture education.\n\n'
             +"The 4th UNESCO-UNITWIN symposium aims to discuss how the fundamentals and practices of arts and culture education can contribute to the social and cultural crises facing today's world under the "
             +'theme "Arts Education in and through a Time of Crisis: How arts education can contribute to resolving '
@@ -3400,7 +3400,7 @@ export const langen = {
                                 enname : '',
                                 job : '- Guest Professor, Korea National University of Arts, Republic of Korea',
                                 contents : 'With the belief that "all humans are dancers," she works as a teaching artist, writer, and choreographer in schools, hospitals, and art companies. She received Ph.D from Temple University and was awarded a citation by the Minister of Culture, Sports and Tourism.',
-                                download : true,
+                                download : false,
                                 abdownload : true,
                                 downlink : env.link + '/Hwan_Jung_Jae.pptx',
                                 abdownlink : env.link + '/Abstract_Hwan_Jung_Jae.pdf',
@@ -3829,7 +3829,7 @@ export const langen = {
                 title : 'Collective Doingle-Around representative',
                 img : m_c_logo4,
                 discription : "Collective Doingle-Around is a group of beings who 'play' based on pluralistic art language to meet physicality, space, meaning and essence. In 2020, they made <Declaration of the Creative Group for Climate Justice>. Because since when they decided to do art in the world where growth, development, and financial gain come first, they’ve already been a flaw and crack in the neoliberal system.", 
-                youtube : 'https://www.youtube.com/embed/sj1LJl1MkPc',
+                youtube : 'https://www.youtube.com/embed/H58ivYFVRE8',
                 photo : 'https://photos.app.goo.gl/ndhVzQhYqjSQwr9e9',
                 list : [
                     {
