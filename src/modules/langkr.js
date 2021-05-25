@@ -1040,7 +1040,7 @@ export const langkr = {
                 video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/OqqFauBCn44',
+                youtube : 'https://www.youtube.com/embed/h5NwXf4YUck',
                 list : [
                     {
                         moder : '',
@@ -2906,7 +2906,7 @@ export const langkr = {
                 video_text : '전세계적으로 발행하고 있는 평등‧다문화‧고립 등 사회적 도전 과제에 대해 예술교육이 창조적으로 개입할 수 있는 방법을 모색하고, 이를 통해 더욱 포용적인 사회와 문화를 건설할 수 있도록 기여합니다.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/OqqFauBCn44',
+                youtube : 'https://www.youtube.com/embed/h5NwXf4YUck',
                 list : [
                     {
                         moder : '',

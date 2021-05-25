@@ -1055,7 +1055,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways for arts education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/OqqFauBCn44',
+                youtube : 'https://www.youtube.com/embed/h5NwXf4YUck',
                 list : [
                     {
                         moder : '',
@@ -2966,7 +2966,7 @@ export const langen = {
                 video_text : 'In this session, we seek ways for arts education to intervene creatively in the tasks of social challenges such as equality, multiculturalism, and isolation that are arising around the world, and contributes to building a more inclusive society and culture.',
                 download : false,
                 chatlink : '1005',
-                youtube : 'https://www.youtube.com/embed/OqqFauBCn44',
+                youtube : 'https://www.youtube.com/embed/h5NwXf4YUck',
                 list : [
                     {
                         moder : '',
