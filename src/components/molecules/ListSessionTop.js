@@ -45,6 +45,7 @@ const PTitle = styled.div`
     font-size: 28px;
     font-weight: 900;
     white-space: pre-line;
+    word-break : keep-all;
     color: ${color.black};
 `
 const PSubject = styled.div`
